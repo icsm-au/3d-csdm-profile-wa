@@ -1,0 +1,59 @@
+x-defs:
+  icsm.profiles.datatypes.address:
+    $defs:
+      icsm-address:
+        allOf:
+        - additionalProperties: false
+          properties:
+            propertyNumber:
+              type: string
+              x-jsonld-id: ad:propertyNumber
+            unitNumber:
+              type: string
+            streetName:
+              type: string
+              x-jsonld-id: ad:streetName
+            streetType:
+              type: string
+              x-jsonld-id: ad:streetType
+            locality:
+              type: string
+              x-jsonld-id: https://schema.org/addressLocality
+            state:
+              type: string
+              x-jsonld-id: https://schema.org/addressRegion
+            postOfficeBoxNumber:
+              type: string
+              x-jsonld-id: https://schema.org/postOfficeBoxNumber
+            postCode:
+              type: string
+              x-jsonld-id: https://schema.org/postalCode
+            country:
+              type: string
+              x-jsonld-id: https://schema.org/addressCountry
+          required:
+          - postCode
+          - state
+        - anyOf:
+          - required:
+            - streetName
+            - locality
+          - required:
+            - postOfficeBoxNumber
+            - state
+      streetAddress:
+        allOf:
+        - $ref: https://icsm-au.github.io/3d-csdm-profiles/build/annotated/profiles/datatypes/address/schema-oas3.0.yaml#/x-defs/icsm.profiles.datatypes.address$defs/icsm-address
+        - required:
+          - streetName
+    allOf:
+    - $ref: https://icsm-au.github.io/3d-csdm-profiles/build/annotated/profiles/datatypes/address/schema-oas3.0.yaml#/x-defs/icsm.profiles.datatypes.address/$defs/icsm-address
+    x-jsonld-extra-terms:
+      address: https://schema.org/address
+    x-jsonld-prefixes:
+      sdo: https://schema.org/
+      ads: https:/icsm.org.au/placeholder/address/
+    x-schema-version: https://json-schema.org/draft/2020-12/schema
+    x-schema-source: https://icsm-au.github.io/3d-csdm-profiles/build/annotated/profiles/datatypes/address/schema-oas3.0.yaml
+allOf:
+- $ref: https://icsm-au.github.io/3d-csdm-profiles/build/annotated/profiles/datatypes/address/schema-oas3.0.yaml#/x-defs/icsm.profiles.datatypes.address

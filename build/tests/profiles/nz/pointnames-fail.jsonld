@@ -1,0 +1,175 @@
+{
+  "id": "DP_572532",
+  "name": "DP 572532",
+  "type": "FeatureCollection",
+  "featureType": "CSD",
+  "wasGeneratedBy": {
+    "provType": "Activity",
+    "id": "surveyreg-fail:DP_1-S2",
+    "endedAtTime": "2029-01-01T00:00:00Z",
+    "wasAssociatedWith": "registered-surveyors:bc-3",
+    "used": {
+      "type": "Entity",
+      "id": "Act3",
+      "wasAttributedTo": "icsm-jurisdictions:fail",
+      "link": {
+        "href": "https://some.gov/linktoact/",
+        "rel": "related"
+      }
+    }
+  },
+  "purpose": "nz-survey-purpose:lts",
+  "surveyType": "nz-survey-type:ltp",
+  "time": {
+    "date": "2022-05-23"
+  },
+  "horizontalCRS": "epsg:4167",
+  "bearingRotation": 0.0,
+  "features": [],
+  "referencedCSDs": [
+    {
+      "id": "DP_119552",
+      "name": "DP 119552",
+      "time": {
+        "date": "2022-05-23"
+      },
+      "bearingRotation": 0.001
+    }
+  ],
+  "points": [
+    {
+      "id": "points",
+      "type": "FeatureCollection",
+      "features": [
+        {
+          "id": "1725787",
+          "type": "Feature",
+          "featureType": "BoundaryMark",
+          "time": null,
+          "geometry": null,
+          "properties": {
+            "name": {
+              "label": "RM E DP 119552",
+              "hasPart": [
+                {
+                  "type": "Fail",
+                  "label": "119552"
+                },
+                {
+                  "type": "Stamp",
+                  "label": "RM E"
+                }
+              ]
+            },
+            "purpose": "nz-surveypoint-purpose:bndy",
+            "fromSurvey": "DP_119552",
+            "comment": "ALP in channel of drive",
+            "occupation": {
+              "comment": "No occupation"
+            },
+            "monumentedBy": {
+              "form": "nz-monument-form:bp",
+              "condition": "nz-monument-condition:mkfd",
+              "state": "nz-monument-state:old"
+            }
+          },
+          "place": {
+            "type": "Point",
+            "coordinates": [
+              -36.9307359096,
+              174.7501603083
+            ]
+          }
+        },
+        {
+          "id": "44396823",
+          "type": "Feature",
+          "featureType": "CadastralMark",
+          "geometry": null,
+          "time": null,
+          "properties": {
+            "name": {
+              "label": "Fail",
+              "hasPart": [
+                {
+                  "type": "Source",
+                  "label": "481392"
+                },
+                {
+                  "type": "Stamp",
+                  "label": "ALP I"
+                }
+              ]
+            },
+            "purpose": "nz-surveypoint-purpose:non-bdy",
+            "occupation": {
+              "comment": "ALP in channel of drive"
+            },
+            "monumentedBy": {
+              "form": "nz-monument-form:pin",
+              "condition": "nz-monument-condition:mkfd",
+              "state": "nz-monument-state:old"
+            }
+          },
+          "place": {
+            "type": "Point",
+            "coordinates": [
+              -36.9314093194,
+              174.7508196767
+            ]
+          }
+        },
+        {
+          "id": "11745104",
+          "type": "Feature",
+          "featureType": "GeodeticReferenceMark",
+          "geometry": null,
+          "time": null,
+          "properties": {
+            "name": {
+              "label": "RM C DP 119552",
+              "hasPart": [
+                {
+                  "type": "PlanType",
+                  "label": "DP"
+                },
+                {
+                  "type": "Source",
+                  "label": "119552"
+                },
+                {
+                  "type": "MarkType",
+                  "label": "RM"
+                },
+                {
+                  "type": "Stamp",
+                  "label": "C"
+                }
+              ]
+            },
+            "geodeticid": "EQ9W",
+            "occupation": {
+              "comment": "ALP in channel of drive"
+            },
+            "purpose": "nz-surveypoint-purpose:prm",
+            "monumentedBy": {
+              "form": "nz-monument-form:pin",
+              "condition": "nz-monument-condition:mkfd",
+              "state": "nz-monument-state:old"
+            }
+          },
+          "place": {
+            "type": "Point",
+            "coordinates": [
+              -36.930903937,
+              174.749997996
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "observedVectors": [],
+  "vectorObservations": [],
+  "@context": "https://icsm-au.github.io/3d-csdm-profiles/build/annotated/profiles/nz/context.jsonld"
+}

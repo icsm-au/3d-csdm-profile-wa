@@ -1,0 +1,85 @@
+
+
+{
+  "itemIdentifier": "icsm.profiles.datatypes.address",
+  "name": "ICSM Address (Placeholder)",
+  "abstract": "A simple implementation of ICSM address model. Can be mapped to or replaced by a standard ICSM schema when available.",
+  "status": "under-development",
+  "dateTimeAddition": "2024-01-15T00:00:00Z",
+  "itemClass": "schema",
+  "register": "icsm-csdm",
+  "version": "0.1",
+  "dateOfLastChange": "2024-02-08",
+  "link": "https://github.com/icsm-au/3d-csdm-schema",
+  "sources": [
+    {
+      "title": "CSDM model",
+      "link": "https://github.com/icsm-au/3d-csdm"
+    }
+  ],
+  "maturity": "development",
+  "scope": "placeholder",
+  "tags": [
+    "utils",
+    "address",
+    "ICSM"
+  ],
+  "shaclRules": {},
+  "ldContext": "https://icsm-au.github.io/3d-csdm-profiles/build/annotated/profiles/datatypes/address/context.jsonld",
+  "schema": {
+    "application/yaml": "https://icsm-au.github.io/3d-csdm-profiles/build/annotated/profiles/datatypes/address/schema.yaml",
+    "application/json": "https://icsm-au.github.io/3d-csdm-profiles/build/annotated/profiles/datatypes/address/schema.json"
+  },
+  "sourceLdContext": "https://icsm-au.github.io/3d-csdm-profiles/_sources/datatypes/address/context.jsonld",
+  "sourceSchema": "https://icsm-au.github.io/3d-csdm-profiles/_sources/datatypes/address/schema.json",
+  "sourceFiles": "https://icsm-au.github.io/3d-csdm-profiles/_sources/datatypes/address/",
+  "validationPassed": true,
+  "testOutputs": "https://github.com/icsm-au/3d-csdm-profiles/blob/main/build/tests/profiles/datatypes/address/",
+  "examples": [
+    {
+      "title": "Example Address With Street",
+      "content": "A simple address with street number",
+      "snippets": [
+        {
+          "language": "json",
+          "code": "{\n      \"propertyNumber\": \"4\",\n      \"streetName\": \"Clarendon\",\n      \"streetType\": \"St\",\n      \"locality\": \"Maidstone\",\n      \"state\": \"VIC\",\n      \"postCode\": \"3012\",\n      \"country\": \"Australia\"\n}\n",
+          "url": "https://icsm-au.github.io/3d-csdm-profiles/build/tests/profiles/datatypes/address/example_1_1.json"
+        },
+        {
+          "language": "jsonld",
+          "code": "{\n  \"propertyNumber\": \"4\",\n  \"streetName\": \"Clarendon\",\n  \"streetType\": \"St\",\n  \"locality\": \"Maidstone\",\n  \"state\": \"VIC\",\n  \"postCode\": \"3012\",\n  \"country\": \"Australia\",\n  \"@context\": \"https://icsm-au.github.io/3d-csdm-profiles/build/annotated/profiles/datatypes/address/context.jsonld\"\n}",
+          "url": "https://icsm-au.github.io/3d-csdm-profiles/build/tests/profiles/datatypes/address/example_1_1.jsonld"
+        },
+        {
+          "language": "ttl",
+          "code": "@prefix ns1: <ad:> .\n@prefix sdo: <https://schema.org/> .\n\n[] ns1:propertyNumber \"4\" ;\n    ns1:streetName \"Clarendon\" ;\n    ns1:streetType \"St\" ;\n    sdo:addressCountry \"Australia\" ;\n    sdo:addressLocality \"Maidstone\" ;\n    sdo:addressRegion \"VIC\" ;\n    sdo:postalCode \"3012\" .\n\n",
+          "url": "https://icsm-au.github.io/3d-csdm-profiles/build/tests/profiles/datatypes/address/example_1_1.ttl"
+        }
+      ]
+    },
+    {
+      "title": "Example Address with PO Box",
+      "content": "A simple address with PO box",
+      "snippets": [
+        {
+          "language": "json",
+          "code": "{\n      \"postOfficeBoxNumber\": \"4334\",\n      \"locality\": \"Maidstone\",\n      \"state\": \"VIC\",\n      \"postCode\": \"3012\",\n      \"country\": \"Australia\"\n}\n",
+          "url": "https://icsm-au.github.io/3d-csdm-profiles/build/tests/profiles/datatypes/address/example_2_1.json"
+        },
+        {
+          "language": "jsonld",
+          "code": "{\n  \"postOfficeBoxNumber\": \"4334\",\n  \"locality\": \"Maidstone\",\n  \"state\": \"VIC\",\n  \"postCode\": \"3012\",\n  \"country\": \"Australia\",\n  \"@context\": \"https://icsm-au.github.io/3d-csdm-profiles/build/annotated/profiles/datatypes/address/context.jsonld\"\n}",
+          "url": "https://icsm-au.github.io/3d-csdm-profiles/build/tests/profiles/datatypes/address/example_2_1.jsonld"
+        },
+        {
+          "language": "ttl",
+          "code": "@prefix sdo: <https://schema.org/> .\n\n[] sdo:addressCountry \"Australia\" ;\n    sdo:addressLocality \"Maidstone\" ;\n    sdo:addressRegion \"VIC\" ;\n    sdo:postOfficeBoxNumber \"4334\" ;\n    sdo:postalCode \"3012\" .\n\n",
+          "url": "https://icsm-au.github.io/3d-csdm-profiles/build/tests/profiles/datatypes/address/example_2_1.ttl"
+        }
+      ]
+    }
+  ],
+  "annotatedSchema": "$schema: https://json-schema.org/draft/2020-12/schema\n$defs:\n  icsm-address:\n    allOf:\n    - additionalProperties: false\n      properties:\n        propertyNumber:\n          type: string\n          x-jsonld-id: ad:propertyNumber\n        unitNumber:\n          type: string\n        streetName:\n          type: string\n          x-jsonld-id: ad:streetName\n        streetType:\n          type: string\n          x-jsonld-id: ad:streetType\n        locality:\n          type: string\n          x-jsonld-id: https://schema.org/addressLocality\n        state:\n          type: string\n          x-jsonld-id: https://schema.org/addressRegion\n        postOfficeBoxNumber:\n          type: string\n          x-jsonld-id: https://schema.org/postOfficeBoxNumber\n        postCode:\n          type: string\n          x-jsonld-id: https://schema.org/postalCode\n        country:\n          type: string\n          x-jsonld-id: https://schema.org/addressCountry\n      required:\n      - postCode\n      - state\n    - anyOf:\n      - required:\n        - streetName\n        - locality\n      - required:\n        - postOfficeBoxNumber\n        - state\n  streetAddress:\n    allOf:\n    - $ref: '#$defs/icsm-address'\n    - required:\n      - streetName\nallOf:\n- $ref: '#/$defs/icsm-address'\nx-jsonld-extra-terms:\n  address: https://schema.org/address\nx-jsonld-prefixes:\n  sdo: https://schema.org/\n  ads: https:/icsm.org.au/placeholder/address/\n",
+  "gitRepository": "https://github.com/icsm-au/3d-csdm-profiles",
+  "gitPath": "_sources/datatypes/address"
+}

@@ -1,0 +1,67 @@
+Projection:	epsg:7855
+Name:	PS 914576 X
+
+Monuments:	22
+	None	Peg CGPNT-7	BoundaryMark	312207.36435,5815921.77352	vic-monument-state:existing	vic-monument-condition:unknown	None
+	None	Peg CGPNT-8	BoundaryMark	312192.81212,5815934.30146	vic-monument-state:existing	vic-monument-condition:not-found	None
+	None	Peg CGPNT-9	BoundaryMark	312211.54259,5815958.39794	vic-monument-state:existing	vic-monument-condition:unknown	None
+	None	Peg CGPNT-10	BoundaryMark	312226.55938,5815945.47005	vic-monument-state:existing	vic-monument-condition:unknown	None
+	None	Peg CGPNT-16	BoundaryMark	312210.41809,5815956.95129	vic-monument-state:existing	vic-monument-condition:not-found	None
+	None	Peg CGPNT-17	BoundaryMark	312225.40699,5815944.04741	vic-monument-state:existing	vic-monument-condition:unknown	None
+	None	Peg CGPNT-19	BoundaryMark	312206.02541,5815931.11281	vic-monument-state:new	vic-monument-condition:ok	None
+	None	Unmk CGPNT-20	BoundaryMark	312206.63248,5815931.84614	vic-monument-state:new	vic-monument-condition:ok	None
+	None	Unmk CGPNT-21	BoundaryMark	312206.69795,5815931.79194	vic-monument-state:new	vic-monument-condition:ok	None
+	None	Peg CGPNT-22	BoundaryMark	312219.11276,5815947.13283	vic-monument-state:new	vic-monument-condition:ok	None
+	None	Peg CGPNT-23	BoundaryMark	312201.95285,5815936.99162	vic-monument-state:new	vic-monument-condition:ok	None
+	None	Unmk CGPNT-24	BoundaryMark	312204.38578,5815939.99222	vic-monument-state:new	vic-monument-condition:ok	None
+	None	Unmk CGPNT-25	BoundaryMark	312204.29643,5815940.06462	vic-monument-state:new	vic-monument-condition:ok	None
+	None	Unmk CGPNT-26	BoundaryMark	312208.1949,5815944.87274	vic-monument-state:new	vic-monument-condition:ok	None
+	None	Unmk CGPNT-27	BoundaryMark	312208.28425,5815944.80034	vic-monument-state:new	vic-monument-condition:ok	None
+	None	Peg CGPNT-28	BoundaryMark	312212.6872,5815950.23063	vic-monument-state:new	vic-monument-condition:ok	None
+	None	Peg CGPNT-43	BoundaryMark	312216.11463,5815954.46189	vic-monument-state:new	vic-monument-condition:ok	None
+	None	Peg CGPNT-44	BoundaryMark	312196.91361,5815930.77052	vic-monument-state:new	vic-monument-condition:ok	None
+	None	Unmk CGPNT-46	BoundaryMark	312221.37864,5815949.93013	vic-monument-state:new	vic-monument-condition:ok	None
+	None	Peg CGPNT-47	BoundaryMark	312202.11852,5815926.28963	vic-monument-state:new	vic-monument-condition:ok	None
+	None	Peg CGPNT-56	BoundaryMark	312210.0069,5815956.4223	vic-monument-state:existing	vic-monument-condition:not-found	None
+	None	Peg CGPNT-57	BoundaryMark	312224.98535,5815943.52689	vic-monument-state:existing	vic-monument-condition:unknown	None
+Parcels:	7
+	140523544480912	None	vic-parcel-type:2D-building	209.0	None	None	
+	140523513720720	None	vic-parcel-type:2D-building	212.0	None	None	
+	140523513720976	None	vic-parcel-type:2D-building	174.0	None	None	
+	140523513721232	None	vic-parcel-type:single	594.654	None	None	
+	140523513721488	None	vic-parcel-type:single	None	None	None	
+	140523513721872	None	None	36.3	None	None	
+	140523513722128	None	None	36.2	None	None	
+Observations:	26
+		observedVectors
+	GENOBS-2	undated	vic-surveypoint-purpose:boundary	Unmk CGPNT-20	Unmk CGPNT-21	129.62	0.085
+	GENOBS-4	undated	vic-surveypoint-purpose:boundary	Peg CGPNT-22	Unmk CGPNT-21	218.999444444444	19.729
+	GENOBS-6	undated	vic-surveypoint-purpose:boundary	Unmk CGPNT-20	Peg CGPNT-19	219.619166666667	0.952
+	GENOBS-8	undated	vic-surveypoint-purpose:boundary	Unmk CGPNT-24	Unmk CGPNT-25	309.017777777778	0.115
+	GENOBS-10	undated	vic-surveypoint-purpose:boundary	Unmk CGPNT-26	Unmk CGPNT-27	129.017777777778	0.115
+	GENOBS-12	undated	vic-surveypoint-purpose:boundary	Peg CGPNT-28	Unmk CGPNT-27	39.0363888888889	6.991
+	GENOBS-14	undated	vic-surveypoint-purpose:boundary	Unmk CGPNT-26	Unmk CGPNT-25	219.035555555556	6.19
+	GENOBS-16	undated	vic-surveypoint-purpose:boundary	Unmk CGPNT-24	Peg CGPNT-23	219.035555555556	3.386
+	OBS-4	undated	vic-surveypoint-purpose:boundary	Peg CGPNT-8	Peg CGPNT-56	37.858333333	28.017
+	OBS-6	undated	vic-surveypoint-purpose:boundary	Peg CGPNT-57	Peg CGPNT-7	219.00861111	27.988
+	OBS-11	undated	vic-surveypoint-purpose:boundary	Peg CGPNT-16	Peg CGPNT-9	37.858333333	1.832
+	OBS-12	undated	vic-surveypoint-purpose:boundary	Peg CGPNT-10	Peg CGPNT-17	219.00861111	1.831
+	OBS-13	undated	vic-surveypoint-purpose:boundary	Peg CGPNT-17	Peg CGPNT-16	310.725	19.778
+	OBS-15	undated	vic-surveypoint-purpose:boundary	Peg CGPNT-9	Peg CGPNT-43	130.725	6.033
+	OBS-16	undated	vic-surveypoint-purpose:boundary	Peg CGPNT-43	Peg CGPNT-28	219.008333333333	5.445
+	OBS-22	undated	vic-surveypoint-purpose:boundary	Peg CGPNT-23	Peg CGPNT-44	219.008333333333	8.006
+	OBS-23	undated	vic-surveypoint-purpose:boundary	Peg CGPNT-44	Peg CGPNT-8	310.725	5.412
+	OBS-24	undated	vic-surveypoint-purpose:boundary	Peg CGPNT-43	Unmk CGPNT-46	130.725	6.946
+	OBS-25	undated	vic-surveypoint-purpose:boundary	Unmk CGPNT-46	Peg CGPNT-22	219.008333333333	3.6
+	OBS-29	undated	vic-surveypoint-purpose:boundary	Peg CGPNT-19	Peg CGPNT-47	219.008333333333	6.207
+	OBS-30	undated	vic-surveypoint-purpose:boundary	Peg CGPNT-47	Peg CGPNT-44	310.725	6.868
+	OBS-31	undated	vic-surveypoint-purpose:boundary	Unmk CGPNT-46	Peg CGPNT-10	130.725	6.83
+	OBS-32	undated	vic-surveypoint-purpose:boundary	Peg CGPNT-7	Peg CGPNT-47	310.725	6.922
+	OBS-33	undated	vic-surveypoint-purpose:boundary	Peg CGPNT-56	Peg CGPNT-16	37.858333333	0.67
+	OBS-34	undated	vic-surveypoint-purpose:boundary	Peg CGPNT-17	Peg CGPNT-57	219.00861111	0.67
+	OBS-35	undated	vic-surveypoint-purpose:boundary	Peg CGPNT-57	Peg CGPNT-56	310.7261111	19.768
+References:	4
+	PS 904234 K	PS904234K	vic-parish:2478 (icsm-admin-unit-type:parish)	related	0.0	2020-11-27 00:00:00
+	PS 903783 E	PS903783E	vic-parish:2478 (icsm-admin-unit-type:parish)	related	0.0	2020-11-27 00:00:00
+	PS 444239 L	PS444239L	vic-parish:2478 (icsm-admin-unit-type:parish)	related	0.0	2020-11-27 00:00:00
+	LP 59092	LP59092	vic-parish:2478 (icsm-admin-unit-type:parish)	related	-7.05	2020-11-27 00:00:00

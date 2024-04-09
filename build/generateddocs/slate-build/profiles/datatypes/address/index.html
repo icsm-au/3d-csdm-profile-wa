@@ -1,0 +1,570 @@
+
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+        <meta
+            name="ICSM Address (Placeholder) (Schema)"
+        >
+    <title>ICSM Address (Placeholder) (Schema)</title>
+
+    <style media="screen">
+      .highlight table td { padding: 5px; }
+.highlight table pre { margin: 0; }
+.highlight .gh {
+  color: #999999;
+}
+.highlight .sr {
+  color: #f6aa11;
+}
+.highlight .go {
+  color: #888888;
+}
+.highlight .gp {
+  color: #555555;
+}
+.highlight .gs {
+}
+.highlight .gu {
+  color: #aaaaaa;
+}
+.highlight .nb {
+  color: #f6aa11;
+}
+.highlight .cm {
+  color: #75715e;
+}
+.highlight .cp {
+  color: #75715e;
+}
+.highlight .c1 {
+  color: #75715e;
+}
+.highlight .cs {
+  color: #75715e;
+}
+.highlight .c, .highlight .ch, .highlight .cd, .highlight .cpf {
+  color: #75715e;
+}
+.highlight .err {
+  color: #960050;
+}
+.highlight .gr {
+  color: #960050;
+}
+.highlight .gt {
+  color: #960050;
+}
+.highlight .gd {
+  color: #49483e;
+}
+.highlight .gi {
+  color: #49483e;
+}
+.highlight .ge {
+  color: #49483e;
+}
+.highlight .kc {
+  color: #66d9ef;
+}
+.highlight .kd {
+  color: #66d9ef;
+}
+.highlight .kr {
+  color: #66d9ef;
+}
+.highlight .no {
+  color: #66d9ef;
+}
+.highlight .kt {
+  color: #66d9ef;
+}
+.highlight .mf {
+  color: #ae81ff;
+}
+.highlight .mh {
+  color: #ae81ff;
+}
+.highlight .il {
+  color: #ae81ff;
+}
+.highlight .mi {
+  color: #ae81ff;
+}
+.highlight .mo {
+  color: #ae81ff;
+}
+.highlight .m, .highlight .mb, .highlight .mx {
+  color: #ae81ff;
+}
+.highlight .sc {
+  color: #ae81ff;
+}
+.highlight .se {
+  color: #ae81ff;
+}
+.highlight .ss {
+  color: #ae81ff;
+}
+.highlight .sd {
+  color: #e6db74;
+}
+.highlight .s2 {
+  color: #e6db74;
+}
+.highlight .sb {
+  color: #e6db74;
+}
+.highlight .sh {
+  color: #e6db74;
+}
+.highlight .si {
+  color: #e6db74;
+}
+.highlight .sx {
+  color: #e6db74;
+}
+.highlight .s1 {
+  color: #e6db74;
+}
+.highlight .s, .highlight .sa, .highlight .dl {
+  color: #e6db74;
+}
+.highlight .na {
+  color: #a6e22e;
+}
+.highlight .nc {
+  color: #a6e22e;
+}
+.highlight .nd {
+  color: #a6e22e;
+}
+.highlight .ne {
+  color: #a6e22e;
+}
+.highlight .nf, .highlight .fm {
+  color: #a6e22e;
+}
+.highlight .vc {
+  color: #ffffff;
+}
+.highlight .nn {
+  color: #ffffff;
+}
+.highlight .ni {
+  color: #ffffff;
+}
+.highlight .bp {
+  color: #ffffff;
+}
+.highlight .vg {
+  color: #ffffff;
+}
+.highlight .vi {
+  color: #ffffff;
+}
+.highlight .nv, .highlight .vm {
+  color: #ffffff;
+}
+.highlight .w {
+  color: #ffffff;
+}
+.highlight {
+  color: #ffffff;
+}
+.highlight .n, .highlight .py, .highlight .nx {
+  color: #ffffff;
+}
+.highlight .nl {
+  color: #f92672;
+}
+.highlight .ow {
+  color: #f92672;
+}
+.highlight .nt {
+  color: #f92672;
+}
+.highlight .k, .highlight .kv {
+  color: #f92672;
+}
+.highlight .kn {
+  color: #f92672;
+}
+.highlight .kp {
+  color: #f92672;
+}
+.highlight .o {
+  color: #f92672;
+}
+    </style>
+    <style media="print">
+      * {
+        -webkit-transition:none!important;
+        transition:none!important;
+      }
+      .highlight table td { padding: 5px; }
+.highlight table pre { margin: 0; }
+.highlight, .highlight .w {
+  color: #586e75;
+}
+.highlight .err {
+  color: #002b36;
+  background-color: #dc322f;
+}
+.highlight .c, .highlight .ch, .highlight .cd, .highlight .cm, .highlight .cpf, .highlight .c1, .highlight .cs {
+  color: #657b83;
+}
+.highlight .cp {
+  color: #b58900;
+}
+.highlight .nt {
+  color: #b58900;
+}
+.highlight .o, .highlight .ow {
+  color: #93a1a1;
+}
+.highlight .p, .highlight .pi {
+  color: #93a1a1;
+}
+.highlight .gi {
+  color: #859900;
+}
+.highlight .gd {
+  color: #dc322f;
+}
+.highlight .gh {
+  color: #268bd2;
+  background-color: #002b36;
+  font-weight: bold;
+}
+.highlight .k, .highlight .kn, .highlight .kp, .highlight .kr, .highlight .kv {
+  color: #6c71c4;
+}
+.highlight .kc {
+  color: #cb4b16;
+}
+.highlight .kt {
+  color: #cb4b16;
+}
+.highlight .kd {
+  color: #cb4b16;
+}
+.highlight .s, .highlight .sb, .highlight .sc, .highlight .dl, .highlight .sd, .highlight .s2, .highlight .sh, .highlight .sx, .highlight .s1 {
+  color: #859900;
+}
+.highlight .sa {
+  color: #6c71c4;
+}
+.highlight .sr {
+  color: #2aa198;
+}
+.highlight .si {
+  color: #d33682;
+}
+.highlight .se {
+  color: #d33682;
+}
+.highlight .nn {
+  color: #b58900;
+}
+.highlight .nc {
+  color: #b58900;
+}
+.highlight .no {
+  color: #b58900;
+}
+.highlight .na {
+  color: #268bd2;
+}
+.highlight .m, .highlight .mb, .highlight .mf, .highlight .mh, .highlight .mi, .highlight .il, .highlight .mo, .highlight .mx {
+  color: #859900;
+}
+.highlight .ss {
+  color: #859900;
+}
+    </style>
+    <link href="../../../stylesheets/screen-39090b13.css" rel="stylesheet" media="screen" />
+    <link href="../../../stylesheets/print-966d6edc.css" rel="stylesheet" media="print" />
+      <script src="../../../javascripts/all-a25e0d73.js"></script>
+
+    <script>
+      $(function() { setupCodeCopy(); });
+    </script>
+  </head>
+
+  <body class="profiles profiles_datatypes profiles_datatypes_address profiles_datatypes_address_index" data-languages="[&quot;json&quot;,&quot;jsonld&quot;,&quot;turtle&quot;]">
+    <a href="#" id="nav-button">
+      <span>
+        NAV
+        <img src="../../../images/navbar-cad8cdcb.png" alt="" />
+      </span>
+    </a>
+    <div class="toc-wrapper">
+      <img src="../../../images/logo-4d9dfd05.svg" class="logo" alt="" />
+        <div class="lang-selector">
+              <a href="#" data-language-name="json">JSON</a>
+              <a href="#" data-language-name="jsonld">JSON-LD</a>
+              <a href="#" data-language-name="turtle">RDF/Turtle</a>
+        </div>
+        <div class="search">
+          <input type="text" class="search" id="input-search" placeholder="Search">
+        </div>
+        <ul class="search-results"></ul>
+      <ul id="toc" class="toc-list-h1">
+          <li>
+            <a href="#icsm-address-placeholder-icsm-profiles-datatypes-address" class="toc-h1 toc-link" data-title="ICSM Address (Placeholder) icsm.profiles.datatypes.address">ICSM Address (Placeholder) <code>icsm.profiles.datatypes.address</code></a>
+          </li>
+          <li>
+            <a href="#examples" class="toc-h1 toc-link" data-title="Examples">Examples</a>
+              <ul class="toc-list-h2">
+                  <li>
+                    <a href="#example-address-with-street" class="toc-h2 toc-link" data-title="Example Address With Street">Example Address With Street</a>
+                  </li>
+                  <li>
+                    <a href="#example-address-with-po-box" class="toc-h2 toc-link" data-title="Example Address with PO Box">Example Address with PO Box</a>
+                  </li>
+              </ul>
+          </li>
+          <li>
+            <a href="#json-schema" class="toc-h1 toc-link" data-title="JSON Schema">JSON Schema</a>
+          </li>
+          <li>
+            <a href="#json-ld-context" class="toc-h1 toc-link" data-title="JSON-LD Context">JSON-LD Context</a>
+          </li>
+          <li>
+            <a href="#references" class="toc-h1 toc-link" data-title="References">References</a>
+          </li>
+          <li>
+            <a href="#for-developers" class="toc-h1 toc-link" data-title="For developers">For developers</a>
+          </li>
+      </ul>
+        <ul class="toc-footer">
+            <li>Version 0.1</li>
+            <li><a href='#'>ICSM Address (Placeholder)</a></li>
+            <li><a href='https://blocks.ogc.org/register.html'>Building Blocks register</a></li>
+        </ul>
+    </div>
+    <div class="page-wrapper">
+      <div class="dark-box"></div>
+      <div class="content">
+        <h1 id='icsm-address-placeholder-icsm-profiles-datatypes-address'>ICSM Address (Placeholder) <code>icsm.profiles.datatypes.address</code></h1>
+<p>A simple implementation of ICSM address model. Can be mapped to or replaced by a standard ICSM schema when available.</p>
+
+<p class="status">
+    <span data-rainbow-uri="http://www.opengis.net/def/status">Status</span>:
+    <a href="http://www.opengis.net/def/status/under-development" target="_blank" data-rainbow-uri>Under development</a>
+</p>
+
+<aside class="success">
+This building block is <strong><a href="https://github.com/icsm-au/3d-csdm-profiles/blob/main/build/tests/profiles/datatypes/address/" target="_blank">valid</a></strong>
+</aside>
+<h1 id='examples'>Examples</h1><h2 id='example-address-with-street'>Example Address With Street</h2><div class="highlight"><pre class="highlight json tab-json"><code><span class="p">{</span><span class="w">
+      </span><span class="nl">"propertyNumber"</span><span class="p">:</span><span class="w"> </span><span class="s2">"4"</span><span class="p">,</span><span class="w">
+      </span><span class="nl">"streetName"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Clarendon"</span><span class="p">,</span><span class="w">
+      </span><span class="nl">"streetType"</span><span class="p">:</span><span class="w"> </span><span class="s2">"St"</span><span class="p">,</span><span class="w">
+      </span><span class="nl">"locality"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Maidstone"</span><span class="p">,</span><span class="w">
+      </span><span class="nl">"state"</span><span class="p">:</span><span class="w"> </span><span class="s2">"VIC"</span><span class="p">,</span><span class="w">
+      </span><span class="nl">"postCode"</span><span class="p">:</span><span class="w"> </span><span class="s2">"3012"</span><span class="p">,</span><span class="w">
+      </span><span class="nl">"country"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Australia"</span><span class="w">
+</span><span class="p">}</span><span class="w">
+
+</span></code></pre></div>
+<blockquote class="lang-specific json">
+  <p class="example-links">
+    <a target="_blank" href="https://icsm-au.github.io/3d-csdm-profiles/build/tests/profiles/datatypes/address/example_1_1.json">Open in new window</a>
+    <a target="_blank" href="https://avillar.github.io/TreedocViewer/?dataParser=json&amp;dataUrl=https%3A%2F%2Ficsm-au.github.io%2F3d-csdm-profiles%2Fbuild%2Ftests%2Fprofiles%2Fdatatypes%2Faddress%2Fexample_1_1.json&amp;expand=2&amp;option=%7B%22showTable%22%3A+false%7D">View on JSON Viewer</a></p>
+</blockquote>
+<div class="highlight"><pre class="highlight json tab-jsonld"><code><span class="p">{</span><span class="w">
+  </span><span class="nl">"propertyNumber"</span><span class="p">:</span><span class="w"> </span><span class="s2">"4"</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"streetName"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Clarendon"</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"streetType"</span><span class="p">:</span><span class="w"> </span><span class="s2">"St"</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"locality"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Maidstone"</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"state"</span><span class="p">:</span><span class="w"> </span><span class="s2">"VIC"</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"postCode"</span><span class="p">:</span><span class="w"> </span><span class="s2">"3012"</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"country"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Australia"</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"@context"</span><span class="p">:</span><span class="w"> </span><span class="s2">"https://icsm-au.github.io/3d-csdm-profiles/build/annotated/profiles/datatypes/address/context.jsonld"</span><span class="w">
+</span><span class="p">}</span><span class="w">
+</span></code></pre></div>
+<blockquote class="lang-specific jsonld">
+  <p class="example-links">
+    <a target="_blank" href="https://icsm-au.github.io/3d-csdm-profiles/build/tests/profiles/datatypes/address/example_1_1.jsonld">Open in new window</a>
+    <a target="_blank" href="https://json-ld.org/playground/#json-ld=https%3A%2F%2Ficsm-au.github.io%2F3d-csdm-profiles%2Fbuild%2Ftests%2Fprofiles%2Fdatatypes%2Faddress%2Fexample_1_1.jsonld">View on JSON-LD Playground</a>
+</blockquote>
+<div class="highlight"><pre class="highlight turtle tab-turtle"><code><span class="kd">@prefix</span><span class="w"> </span><span class="nn">ns1:</span><span class="w"> </span><span class="nl">&lt;ad:&gt;</span><span class="w"> </span><span class="p">.</span><span class="w">
+</span><span class="kd">@prefix</span><span class="w"> </span><span class="nn">sdo:</span><span class="w"> </span><span class="nl">&lt;https://schema.org/&gt;</span><span class="w"> </span><span class="p">.</span><span class="w">
+
+</span><span class="p">[]</span><span class="w"> </span><span class="nn">ns1:</span><span class="n">propertyNumber</span><span class="w"> </span><span class="s">"4"</span><span class="w"> </span><span class="p">;</span><span class="w">
+    </span><span class="nn">ns1:</span><span class="n">streetName</span><span class="w"> </span><span class="s">"Clarendon"</span><span class="w"> </span><span class="p">;</span><span class="w">
+    </span><span class="nn">ns1:</span><span class="n">streetType</span><span class="w"> </span><span class="s">"St"</span><span class="w"> </span><span class="p">;</span><span class="w">
+    </span><span class="nn">sdo:</span><span class="n">addressCountry</span><span class="w"> </span><span class="s">"Australia"</span><span class="w"> </span><span class="p">;</span><span class="w">
+    </span><span class="nn">sdo:</span><span class="n">addressLocality</span><span class="w"> </span><span class="s">"Maidstone"</span><span class="w"> </span><span class="p">;</span><span class="w">
+    </span><span class="nn">sdo:</span><span class="n">addressRegion</span><span class="w"> </span><span class="s">"VIC"</span><span class="w"> </span><span class="p">;</span><span class="w">
+    </span><span class="nn">sdo:</span><span class="n">postalCode</span><span class="w"> </span><span class="s">"3012"</span><span class="w"> </span><span class="p">.</span><span class="w">
+
+
+</span></code></pre></div>
+<blockquote class="lang-specific turtle">
+  <p class="example-links">
+    <a target="_blank" href="https://icsm-au.github.io/3d-csdm-profiles/build/tests/profiles/datatypes/address/example_1_1.ttl">Open in new window</a>
+</blockquote>
+
+<p>A simple address with street number</p>
+<h2 id='example-address-with-po-box'>Example Address with PO Box</h2><div class="highlight"><pre class="highlight json tab-json"><code><span class="p">{</span><span class="w">
+      </span><span class="nl">"postOfficeBoxNumber"</span><span class="p">:</span><span class="w"> </span><span class="s2">"4334"</span><span class="p">,</span><span class="w">
+      </span><span class="nl">"locality"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Maidstone"</span><span class="p">,</span><span class="w">
+      </span><span class="nl">"state"</span><span class="p">:</span><span class="w"> </span><span class="s2">"VIC"</span><span class="p">,</span><span class="w">
+      </span><span class="nl">"postCode"</span><span class="p">:</span><span class="w"> </span><span class="s2">"3012"</span><span class="p">,</span><span class="w">
+      </span><span class="nl">"country"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Australia"</span><span class="w">
+</span><span class="p">}</span><span class="w">
+
+</span></code></pre></div>
+<blockquote class="lang-specific json">
+  <p class="example-links">
+    <a target="_blank" href="https://icsm-au.github.io/3d-csdm-profiles/build/tests/profiles/datatypes/address/example_2_1.json">Open in new window</a>
+    <a target="_blank" href="https://avillar.github.io/TreedocViewer/?dataParser=json&amp;dataUrl=https%3A%2F%2Ficsm-au.github.io%2F3d-csdm-profiles%2Fbuild%2Ftests%2Fprofiles%2Fdatatypes%2Faddress%2Fexample_2_1.json&amp;expand=2&amp;option=%7B%22showTable%22%3A+false%7D">View on JSON Viewer</a></p>
+</blockquote>
+<div class="highlight"><pre class="highlight json tab-jsonld"><code><span class="p">{</span><span class="w">
+  </span><span class="nl">"postOfficeBoxNumber"</span><span class="p">:</span><span class="w"> </span><span class="s2">"4334"</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"locality"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Maidstone"</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"state"</span><span class="p">:</span><span class="w"> </span><span class="s2">"VIC"</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"postCode"</span><span class="p">:</span><span class="w"> </span><span class="s2">"3012"</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"country"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Australia"</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"@context"</span><span class="p">:</span><span class="w"> </span><span class="s2">"https://icsm-au.github.io/3d-csdm-profiles/build/annotated/profiles/datatypes/address/context.jsonld"</span><span class="w">
+</span><span class="p">}</span><span class="w">
+</span></code></pre></div>
+<blockquote class="lang-specific jsonld">
+  <p class="example-links">
+    <a target="_blank" href="https://icsm-au.github.io/3d-csdm-profiles/build/tests/profiles/datatypes/address/example_2_1.jsonld">Open in new window</a>
+    <a target="_blank" href="https://json-ld.org/playground/#json-ld=https%3A%2F%2Ficsm-au.github.io%2F3d-csdm-profiles%2Fbuild%2Ftests%2Fprofiles%2Fdatatypes%2Faddress%2Fexample_2_1.jsonld">View on JSON-LD Playground</a>
+</blockquote>
+<div class="highlight"><pre class="highlight turtle tab-turtle"><code><span class="kd">@prefix</span><span class="w"> </span><span class="nn">sdo:</span><span class="w"> </span><span class="nl">&lt;https://schema.org/&gt;</span><span class="w"> </span><span class="p">.</span><span class="w">
+
+</span><span class="p">[]</span><span class="w"> </span><span class="nn">sdo:</span><span class="n">addressCountry</span><span class="w"> </span><span class="s">"Australia"</span><span class="w"> </span><span class="p">;</span><span class="w">
+    </span><span class="nn">sdo:</span><span class="n">addressLocality</span><span class="w"> </span><span class="s">"Maidstone"</span><span class="w"> </span><span class="p">;</span><span class="w">
+    </span><span class="nn">sdo:</span><span class="n">addressRegion</span><span class="w"> </span><span class="s">"VIC"</span><span class="w"> </span><span class="p">;</span><span class="w">
+    </span><span class="nn">sdo:</span><span class="n">postOfficeBoxNumber</span><span class="w"> </span><span class="s">"4334"</span><span class="w"> </span><span class="p">;</span><span class="w">
+    </span><span class="nn">sdo:</span><span class="n">postalCode</span><span class="w"> </span><span class="s">"3012"</span><span class="w"> </span><span class="p">.</span><span class="w">
+
+
+</span></code></pre></div>
+<blockquote class="lang-specific turtle">
+  <p class="example-links">
+    <a target="_blank" href="https://icsm-au.github.io/3d-csdm-profiles/build/tests/profiles/datatypes/address/example_2_1.ttl">Open in new window</a>
+</blockquote>
+
+<p>A simple address with PO box</p>
+<h1 id='json-schema'>JSON Schema</h1><div class="highlight"><pre class="highlight yaml tab-yaml--schema"><code><span class="na">$schema</span><span class="pi">:</span> <span class="s">https://json-schema.org/draft/2020-12/schema</span>
+<span class="na">$defs</span><span class="pi">:</span>
+  <span class="na">icsm-address</span><span class="pi">:</span>
+    <span class="na">allOf</span><span class="pi">:</span>
+    <span class="pi">-</span> <span class="na">additionalProperties</span><span class="pi">:</span> <span class="no">false</span>
+      <span class="na">properties</span><span class="pi">:</span>
+        <span class="na">propertyNumber</span><span class="pi">:</span>
+          <span class="na">type</span><span class="pi">:</span> <span class="s">string</span>
+          <span class="na">x-jsonld-id</span><span class="pi">:</span> <span class="s">ad:propertyNumber</span>
+        <span class="na">unitNumber</span><span class="pi">:</span>
+          <span class="na">type</span><span class="pi">:</span> <span class="s">string</span>
+        <span class="na">streetName</span><span class="pi">:</span>
+          <span class="na">type</span><span class="pi">:</span> <span class="s">string</span>
+          <span class="na">x-jsonld-id</span><span class="pi">:</span> <span class="s">ad:streetName</span>
+        <span class="na">streetType</span><span class="pi">:</span>
+          <span class="na">type</span><span class="pi">:</span> <span class="s">string</span>
+          <span class="na">x-jsonld-id</span><span class="pi">:</span> <span class="s">ad:streetType</span>
+        <span class="na">locality</span><span class="pi">:</span>
+          <span class="na">type</span><span class="pi">:</span> <span class="s">string</span>
+          <span class="na">x-jsonld-id</span><span class="pi">:</span> <span class="s">https://schema.org/addressLocality</span>
+        <span class="na">state</span><span class="pi">:</span>
+          <span class="na">type</span><span class="pi">:</span> <span class="s">string</span>
+          <span class="na">x-jsonld-id</span><span class="pi">:</span> <span class="s">https://schema.org/addressRegion</span>
+        <span class="na">postOfficeBoxNumber</span><span class="pi">:</span>
+          <span class="na">type</span><span class="pi">:</span> <span class="s">string</span>
+          <span class="na">x-jsonld-id</span><span class="pi">:</span> <span class="s">https://schema.org/postOfficeBoxNumber</span>
+        <span class="na">postCode</span><span class="pi">:</span>
+          <span class="na">type</span><span class="pi">:</span> <span class="s">string</span>
+          <span class="na">x-jsonld-id</span><span class="pi">:</span> <span class="s">https://schema.org/postalCode</span>
+        <span class="na">country</span><span class="pi">:</span>
+          <span class="na">type</span><span class="pi">:</span> <span class="s">string</span>
+          <span class="na">x-jsonld-id</span><span class="pi">:</span> <span class="s">https://schema.org/addressCountry</span>
+      <span class="na">required</span><span class="pi">:</span>
+      <span class="pi">-</span> <span class="s">postCode</span>
+      <span class="pi">-</span> <span class="s">state</span>
+    <span class="pi">-</span> <span class="na">anyOf</span><span class="pi">:</span>
+      <span class="pi">-</span> <span class="na">required</span><span class="pi">:</span>
+        <span class="pi">-</span> <span class="s">streetName</span>
+        <span class="pi">-</span> <span class="s">locality</span>
+      <span class="pi">-</span> <span class="na">required</span><span class="pi">:</span>
+        <span class="pi">-</span> <span class="s">postOfficeBoxNumber</span>
+        <span class="pi">-</span> <span class="s">state</span>
+  <span class="na">streetAddress</span><span class="pi">:</span>
+    <span class="na">allOf</span><span class="pi">:</span>
+    <span class="pi">-</span> <span class="na">$ref</span><span class="pi">:</span> <span class="s1">'</span><span class="s">#$defs/icsm-address'</span>
+    <span class="pi">-</span> <span class="na">required</span><span class="pi">:</span>
+      <span class="pi">-</span> <span class="s">streetName</span>
+<span class="na">allOf</span><span class="pi">:</span>
+<span class="pi">-</span> <span class="na">$ref</span><span class="pi">:</span> <span class="s1">'</span><span class="s">#/$defs/icsm-address'</span>
+<span class="na">x-jsonld-extra-terms</span><span class="pi">:</span>
+  <span class="na">address</span><span class="pi">:</span> <span class="s">https://schema.org/address</span>
+<span class="na">x-jsonld-prefixes</span><span class="pi">:</span>
+  <span class="na">sdo</span><span class="pi">:</span> <span class="s">https://schema.org/</span>
+  <span class="na">ads</span><span class="pi">:</span> <span class="s">https:/icsm.org.au/placeholder/address/</span>
+
+</code></pre></div>
+<blockquote>
+<p><a target="_blank" href="https://avillar.github.io/TreedocViewer/?dataParser=yaml&amp;dataUrl=https%3A%2F%2Ficsm-au.github.io%2F3d-csdm-profiles%2Fbuild%2Fannotated%2Fprofiles%2Fdatatypes%2Faddress%2Fschema.yaml&amp;expand=2&amp;option=%7B%22showTable%22%3A+false%7D">View on YAML Viewer</a></p>
+</blockquote>
+
+<p>Links to the schema:</p>
+
+<ul>
+<li>YAML version: <a href="https://icsm-au.github.io/3d-csdm-profiles/build/annotated/profiles/datatypes/address/schema.yaml" target="_blank">https://icsm-au.github.io/3d-csdm-profiles/build/annotated/profiles/datatypes/address/schema.yaml</a></li>
+<li>JSON version: <a href="https://icsm-au.github.io/3d-csdm-profiles/build/annotated/profiles/datatypes/address/schema.json" target="_blank">https://icsm-au.github.io/3d-csdm-profiles/build/annotated/profiles/datatypes/address/schema.json</a></li>
+</ul>
+<h1 id='json-ld-context'>JSON-LD Context</h1><div class="highlight"><pre class="highlight json tab-json--ldContext"><code><span class="p">{</span><span class="w">
+  </span><span class="nl">"@context"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+    </span><span class="nl">"propertyNumber"</span><span class="p">:</span><span class="w"> </span><span class="s2">"ad:propertyNumber"</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"streetName"</span><span class="p">:</span><span class="w"> </span><span class="s2">"ad:streetName"</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"streetType"</span><span class="p">:</span><span class="w"> </span><span class="s2">"ad:streetType"</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"locality"</span><span class="p">:</span><span class="w"> </span><span class="s2">"sdo:addressLocality"</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"state"</span><span class="p">:</span><span class="w"> </span><span class="s2">"sdo:addressRegion"</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"postOfficeBoxNumber"</span><span class="p">:</span><span class="w"> </span><span class="s2">"sdo:postOfficeBoxNumber"</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"postCode"</span><span class="p">:</span><span class="w"> </span><span class="s2">"sdo:postalCode"</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"country"</span><span class="p">:</span><span class="w"> </span><span class="s2">"sdo:addressCountry"</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"address"</span><span class="p">:</span><span class="w"> </span><span class="s2">"sdo:address"</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"sdo"</span><span class="p">:</span><span class="w"> </span><span class="s2">"https://schema.org/"</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"ads"</span><span class="p">:</span><span class="w"> </span><span class="s2">"https:/icsm.org.au/placeholder/address/"</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"@version"</span><span class="p">:</span><span class="w"> </span><span class="mf">1.1</span><span class="w">
+  </span><span class="p">}</span><span class="w">
+</span><span class="p">}</span><span class="w">
+</span></code></pre></div>
+<blockquote>
+<p><a target="_blank" href="https://json-ld.org/playground/#json-ld=https%3A%2F%2Ficsm-au.github.io%2F3d-csdm-profiles%2Fbuild%2Fannotated%2Fprofiles%2Fdatatypes%2Faddress%2Fcontext.jsonld">View on JSON-LD Playground</a></p>
+</blockquote>
+
+<p>You can find the full JSON-LD context here:
+<a href="https://icsm-au.github.io/3d-csdm-profiles/build/annotated/profiles/datatypes/address/context.jsonld" target="_blank">https://icsm-au.github.io/3d-csdm-profiles/build/annotated/profiles/datatypes/address/context.jsonld</a></p>
+<h1 id='references'>References</h1>
+<ul>
+<li><a href="https://github.com/icsm-au/3d-csdm">CSDM model</a></li>
+</ul>
+<h1 id='for-developers'>For developers</h1>
+<p>The source code for this Building Block can be found in the following repository:</p>
+
+<ul>
+<li>URL: <a href="https://github.com/icsm-au/3d-csdm-profiles" target="_blank">https://github.com/icsm-au/3d-csdm-profiles</a></li>
+<li>Path:
+<code><a href="https://github.com/icsm-au/3d-csdm-profiles/blob/HEAD/_sources/datatypes/address" target="_blank">_sources/datatypes/address</a></code></li>
+</ul>
+
+      </div>
+      <div class="dark-box">
+          <div class="lang-selector">
+                <a href="#" data-language-name="json">JSON</a>
+                <a href="#" data-language-name="jsonld">JSON-LD</a>
+                <a href="#" data-language-name="turtle">RDF/Turtle</a>
+          </div>
+      </div>
+    </div>
+  </body>
+</html>

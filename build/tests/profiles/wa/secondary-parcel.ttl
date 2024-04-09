@@ -1,0 +1,1026 @@
+@prefix commonpatterns: <https://linked.data.gov.au/def/csdm/commonpatterns/> .
+@prefix container: <https://linked.data.gov.au/def/csdm/container/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix epsg: <http://www.opengis.net/def/crs/EPSG/0/> .
+@prefix geojson: <https://purl.org/geojson/vocab#> .
+@prefix icsm-admin-unit-type: <https://linked.data.gov.au/def/csdm/icsm-admin-unit-type/> .
+@prefix icsm-angle-type: <https://linked.data.gov.au/def/csdm/icsm-angle-type/> .
+@prefix icsm-distance-type: <https://linked.data.gov.au/def/csdm/icsm-distance-type/> .
+@prefix icsm-equipment-type: <https://linked.data.gov.au/def/csdm/icsm-equipment-type/> .
+@prefix ns1: <https://linked.data.gov.au/def/csdm/surveyobs/> .
+@prefix ns2: <http://www.iana.org/assignments/> .
+@prefix oa: <http://www.w3.org/ns/oa#> .
+@prefix parcel: <https://linked.data.gov.au/def/csdm/parcels/> .
+@prefix prof: <http://www.w3.org/ns/dx/prof/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sosa: <http://www.w3.org/ns/sosa/> .
+@prefix surv: <https://linked.data.gov.au/def/csdm/surveyfeatures/> .
+@prefix surveyable: <https://linked.data.gov.au/def/csdm/defs/surveyableproperties/> .
+@prefix wa-interest-type: <https://linked.data.gov.au/def/csdm/wa-interest-type/> .
+@prefix wa-local-government: <https://linked.data.gov.au/def/csdm/wa-local-government/> .
+@prefix wa-locality: <https://linked.data.gov.au/def/csdm/wa-locality/> .
+@prefix wa-monument-condition: <https://linked.data.gov.au/def/csdm/wa-monument-condition/> .
+@prefix wa-monument-form: <https://linked.data.gov.au/def/csdm/wa-monument-form/> .
+@prefix wa-monument-state: <https://linked.data.gov.au/def/csdm/wa-monument-state/> .
+@prefix wa-parcel-purpose: <https://linked.data.gov.au/def/csdm/wa-parcel-purpose/> .
+@prefix wa-parcel-state: <https://linked.data.gov.au/def/csdm/wa-parcel-state/> .
+@prefix wa-parcel-type: <https://linked.data.gov.au/def/csdm/wa-parcel-type/> .
+@prefix wa-procedure-used: <https://linked.data.gov.au/def/csdm/wa-procedure-used/> .
+@prefix wa-secondary-parcel-purpose: <https://linked.data.gov.au/def/csdm/wa-secondary-parcel-purpose/> .
+@prefix wa-secondary-parcel-type: <https://linked.data.gov.au/def/csdm/wa-secondary-parcel-type/> .
+@prefix wa-secondary-purpose: <https://linked.data.gov.au/def/csdm/wa-secondary-purpose/> .
+@prefix wa-survey-purpose: <https://linked.data.gov.au/def/csdm/wa-survey-purpose/> .
+@prefix wa-survey-type: <https://linked.data.gov.au/def/csdm/wa-survey-type/> .
+@prefix wa-surveypoint-purpose: <https://linked.data.gov.au/def/csdm/wa-surveypoint-purpose/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://www.wa-example.com/features/DP_422532> a container:CSD,
+        geojson:FeatureCollection ;
+    rdfs:label "DP 422532" ;
+    prov:wasGeneratedBy <https://www.wa-example.com/features/DP-1-S2> ;
+    container:adminUnit [ ns2:relation <http://www.iana.org/assignments/relation/related> ;
+            prof:hasRole icsm-admin-unit-type:locality ;
+            oa:hasTarget wa-locality:karlkurla ],
+        [ ns2:relation <http://www.iana.org/assignments/relation/related> ;
+            prof:hasRole icsm-admin-unit-type:localGovernmentArea ;
+            oa:hasTarget wa-local-government:city-of-kalgoorlie-boulder ] ;
+    container:bearingRotation 0e+00 ;
+    container:horizontalCRS epsg:8024 ;
+    container:observedVectors <https://www.wa-example.com/features/observedVectors> ;
+    container:parcels <https://www.wa-example.com/features/PrimaryParcels>,
+        <https://www.wa-example.com/features/SecondaryParcels> ;
+    container:points <https://www.wa-example.com/features/BoundaryMark> ;
+    container:purpose wa-survey-purpose:subdivision ;
+    container:referencedCSD <https://www.wa-example.com/features/DP_422526> ;
+    container:surveyType wa-survey-type:SSA ;
+    container:vectorObservations <vectorobservation:theodolite+edm> .
+
+<https://www.wa-example.com/features/12595541> a geojson:Feature ;
+    parcel:appellation [ rdfs:label "Area D5 DP 572532" ;
+            dcterms:hasPart [ rdfs:label "D5" ;
+                    commonpatterns:namePartType "ParcelIdentifier" ],
+                [ rdfs:label "DP" ;
+                    commonpatterns:namePartType "PlanType" ],
+                [ rdfs:label "572532" ;
+                    commonpatterns:namePartType "PlanIdentifier" ],
+                [ rdfs:label "Area" ;
+                    commonpatterns:namePartType "ParcelType" ] ] ;
+    parcel:interest [ rdfs:label "D5" ;
+            parcel:benefited "215" ;
+            parcel:burdened "216" ;
+            parcel:interestLink <https://www.wa-example.com/features/123-456-741> ;
+            parcel:interestType wa-secondary-purpose:easement-drainage ;
+            parcel:statuteLink wa-interest-type:easement-tla-136C ] ;
+    parcel:purpose wa-secondary-parcel-purpose:drain-reserve ;
+    parcel:state wa-parcel-state:created ;
+    parcel:surfaceArea 3.66e+01 ;
+    parcel:type wa-secondary-parcel-type:easement-area ;
+    geojson:topology [ a geojson:Polygon ;
+            geojson:relatedFeatures ( "['20220192', '20220189', '20220191', '20220176']" ) ] .
+
+<https://www.wa-example.com/features/12595542> a geojson:Feature ;
+    parcel:appellation [ rdfs:label "Area D4 DP 572532" ;
+            dcterms:hasPart [ rdfs:label "DP" ;
+                    commonpatterns:namePartType "PlanType" ],
+                [ rdfs:label "D4" ;
+                    commonpatterns:namePartType "ParcelIdentifier" ],
+                [ rdfs:label "Area" ;
+                    commonpatterns:namePartType "ParcelType" ],
+                [ rdfs:label "572532" ;
+                    commonpatterns:namePartType "PlanIdentifier" ] ] ;
+    parcel:interest [ rdfs:label "D4" ;
+            parcel:benefited "215",
+                "216" ;
+            parcel:burdened "217" ;
+            parcel:interestLink <https://www.wa-example.com/features/123-456-742> ;
+            parcel:interestType wa-secondary-purpose:easement-drainage ;
+            parcel:statuteLink wa-interest-type:easement-tla-136C ] ;
+    parcel:purpose wa-secondary-parcel-purpose:drain-reserve ;
+    parcel:state wa-parcel-state:created ;
+    parcel:surfaceArea 3.66e+01 ;
+    parcel:type wa-secondary-parcel-type:easement-area ;
+    geojson:topology [ a geojson:Polygon ;
+            geojson:relatedFeatures ( "['20220191', '20220190', '20220299', '20220178']" ) ] .
+
+<https://www.wa-example.com/features/12595543> a geojson:Feature ;
+    parcel:appellation [ rdfs:label "Area D3 DP 572532" ;
+            dcterms:hasPart [ rdfs:label "572532" ;
+                    commonpatterns:namePartType "PlanIdentifier" ],
+                [ rdfs:label "D3" ;
+                    commonpatterns:namePartType "ParcelIdentifier" ],
+                [ rdfs:label "Area" ;
+                    commonpatterns:namePartType "ParcelType" ],
+                [ rdfs:label "DP" ;
+                    commonpatterns:namePartType "PlanType" ] ] ;
+    parcel:interest [ rdfs:label "D3" ;
+            parcel:benefited "215",
+                "216",
+                "217" ;
+            parcel:burdened "218" ;
+            parcel:interestLink <https://www.wa-example.com/features/123-456-743> ;
+            parcel:interestType wa-secondary-purpose:easement-drainage ;
+            parcel:statuteLink wa-interest-type:easement-tla-136C ] ;
+    parcel:purpose wa-secondary-parcel-purpose:drain-reserve ;
+    parcel:state wa-parcel-state:created ;
+    parcel:surfaceArea 3.66e+01 ;
+    parcel:type wa-secondary-parcel-type:easement-area ;
+    geojson:topology [ a geojson:Polygon ;
+            geojson:relatedFeatures ( "['20220299', '20220250', '20220248', '20220209']" ) ] .
+
+<https://www.wa-example.com/features/12595544> a geojson:Feature ;
+    parcel:appellation [ rdfs:label "Area D2 DP 572532" ;
+            dcterms:hasPart [ rdfs:label "DP" ;
+                    commonpatterns:namePartType "PlanType" ],
+                [ rdfs:label "Area" ;
+                    commonpatterns:namePartType "ParcelType" ],
+                [ rdfs:label "572532" ;
+                    commonpatterns:namePartType "PlanIdentifier" ],
+                [ rdfs:label "D2" ;
+                    commonpatterns:namePartType "ParcelIdentifier" ] ] ;
+    parcel:interest [ rdfs:label "D2" ;
+            parcel:benefited "215",
+                "216",
+                "217",
+                "218" ;
+            parcel:burdened "219" ;
+            parcel:interestLink <https://www.wa-example.com/features/123-456-744> ;
+            parcel:interestType wa-secondary-purpose:easement-drainage ;
+            parcel:statuteLink wa-interest-type:easement-tla-136C ] ;
+    parcel:purpose wa-secondary-parcel-purpose:drain-reserve ;
+    parcel:state wa-parcel-state:created ;
+    parcel:surfaceArea 3.66e+01 ;
+    parcel:type wa-secondary-parcel-type:easement-area ;
+    geojson:topology [ a geojson:Polygon ;
+            geojson:relatedFeatures ( "['20220248', '20220249', '20220244', '20220212']" ) ] .
+
+<https://www.wa-example.com/features/12595545> a geojson:Feature ;
+    parcel:appellation [ rdfs:label "Area D1 DP 572532" ;
+            dcterms:hasPart [ rdfs:label "Area" ;
+                    commonpatterns:namePartType "ParcelType" ],
+                [ rdfs:label "DP" ;
+                    commonpatterns:namePartType "PlanType" ],
+                [ rdfs:label "D1" ;
+                    commonpatterns:namePartType "ParcelIdentifier" ],
+                [ rdfs:label "572532" ;
+                    commonpatterns:namePartType "PlanIdentifier" ] ] ;
+    parcel:interest [ rdfs:label "D1" ;
+            parcel:benefited "215",
+                "216",
+                "217",
+                "218",
+                "219" ;
+            parcel:burdened "220" ;
+            parcel:interestLink <https://www.wa-example.com/features/123-456-745> ;
+            parcel:interestType wa-secondary-purpose:easement-drainage ;
+            parcel:statuteLink wa-interest-type:easement-tla-136C ] ;
+    parcel:purpose wa-secondary-parcel-purpose:drain-reserve ;
+    parcel:state wa-parcel-state:created ;
+    parcel:surfaceArea 1.039e+02 ;
+    parcel:type wa-secondary-parcel-type:easement-area ;
+    geojson:topology [ a geojson:Polygon ;
+            geojson:relatedFeatures ( "['20220244', '20220245', '20220246', '20220247', '20220243', '20220219', '20220222', '20220214', '20220215']" ) ] .
+
+<https://www.wa-example.com/features/215> a geojson:Feature ;
+    parcel:appellation [ rdfs:label "Lot 215 DP 572532" ;
+            dcterms:hasPart [ rdfs:label "215" ;
+                    commonpatterns:namePartType "ParcelIdentifier" ],
+                [ rdfs:label "Lot" ;
+                    commonpatterns:namePartType "ParcelType" ],
+                [ rdfs:label "572532" ;
+                    commonpatterns:namePartType "planIdentifier" ],
+                [ rdfs:label "DP" ;
+                    commonpatterns:namePartType "PlanType" ] ] ;
+    parcel:interest [ parcel:interestLink <https://www.wa-example.com/features/AAAAAA> ;
+            parcel:interestType wa-interest-type:ct ] ;
+    parcel:purpose wa-parcel-purpose:1 ;
+    parcel:state wa-parcel-state:created ;
+    parcel:surfaceArea 854 ;
+    parcel:type wa-parcel-type:F ;
+    geojson:topology [ a geojson:Polygon ;
+            geojson:relatedFeatures ( "['20220170', '20220171', '20220172', '20220192', '20220173']" ) ] .
+
+<https://www.wa-example.com/features/216> a geojson:Feature ;
+    parcel:appellation [ rdfs:label "Lot 216 DP 572532" ;
+            dcterms:hasPart [ rdfs:label "Lot" ;
+                    commonpatterns:namePartType "ParcelType" ],
+                [ rdfs:label "DP" ;
+                    commonpatterns:namePartType "PlanType" ],
+                [ rdfs:label "572532" ;
+                    commonpatterns:namePartType "PlanIdentifier" ],
+                [ rdfs:label "216" ;
+                    commonpatterns:namePartType "ParcelIdentifier" ] ] ;
+    parcel:interest [ parcel:interestLink <https://www.wa-example.com/features/BBBBBB> ;
+            parcel:interestType wa-interest-type:ct ] ;
+    parcel:purpose wa-parcel-purpose:1 ;
+    parcel:state wa-parcel-state:created ;
+    parcel:surfaceArea 854 ;
+    parcel:type wa-parcel-type:F ;
+    geojson:topology [ a geojson:Polygon ;
+            geojson:relatedFeatures ( "['20220192', '20220172', '20220174', '20220175', '20220191', '20220176']" ) ] .
+
+<https://www.wa-example.com/features/217> a geojson:Feature ;
+    parcel:appellation [ rdfs:label "Lot 217 DP 572532" ;
+            dcterms:hasPart [ rdfs:label "217" ;
+                    commonpatterns:namePartType "ParcelIdentifier" ],
+                [ rdfs:label "DP" ;
+                    commonpatterns:namePartType "PlanType" ],
+                [ rdfs:label "572532" ;
+                    commonpatterns:namePartType "PlanIdentifier" ],
+                [ rdfs:label "Lot" ;
+                    commonpatterns:namePartType "ParcelType" ] ] ;
+    parcel:interest [ parcel:interestLink <https://www.wa-example.com/features/CCCCCC> ;
+            parcel:interestType wa-interest-type:ct ] ;
+    parcel:purpose wa-parcel-purpose:1 ;
+    parcel:state wa-parcel-state:created ;
+    parcel:surfaceArea 854 ;
+    parcel:type wa-parcel-type:F ;
+    geojson:topology [ a geojson:Polygon ;
+            geojson:relatedFeatures ( "['20220191', '20220175', '20220177', '20220300', '20220299', '20220178']" ) ] .
+
+<https://www.wa-example.com/features/218> a geojson:Feature ;
+    parcel:appellation [ rdfs:label "Lot 218 DP 572532" ;
+            dcterms:hasPart [ rdfs:label "Lot" ;
+                    commonpatterns:namePartType "ParcelType" ],
+                [ rdfs:label "DP" ;
+                    commonpatterns:namePartType "PlanType" ],
+                [ rdfs:label "572532" ;
+                    commonpatterns:namePartType "PlanIdentifier" ],
+                [ rdfs:label "218" ;
+                    commonpatterns:namePartType "ParcelIdentifier" ] ] ;
+    parcel:interest [ parcel:interestLink <https://www.wa-example.com/features/DDDDDD> ;
+            parcel:interestType wa-interest-type:ct ] ;
+    parcel:purpose wa-parcel-purpose:1 ;
+    parcel:state wa-parcel-state:created ;
+    parcel:surfaceArea 854 ;
+    parcel:type wa-parcel-type:F ;
+    geojson:topology [ a geojson:Polygon ;
+            geojson:relatedFeatures ( "['20220299', '20220300', '20220207', '20220208', '20220248', '20220209']" ) ] .
+
+<https://www.wa-example.com/features/219> a geojson:Feature ;
+    parcel:appellation [ rdfs:label "Lot 219 DP 572532" ;
+            dcterms:hasPart [ rdfs:label "Lot" ;
+                    commonpatterns:namePartType "ParcelType" ],
+                [ rdfs:label "DP" ;
+                    commonpatterns:namePartType "PlanType" ],
+                [ rdfs:label "219" ;
+                    commonpatterns:namePartType "ParcelIdentifier" ],
+                [ rdfs:label "572532" ;
+                    commonpatterns:namePartType "PlanIdentifier" ] ] ;
+    parcel:interest [ parcel:interestLink <https://www.wa-example.com/features/EEEEEE> ;
+            parcel:interestType wa-interest-type:ct ] ;
+    parcel:purpose wa-parcel-purpose:1 ;
+    parcel:state wa-parcel-state:created ;
+    parcel:surfaceArea 854 ;
+    parcel:type wa-parcel-type:F ;
+    geojson:topology [ a geojson:Polygon ;
+            geojson:relatedFeatures ( "['20220248', '20220208', '20220210', '20220211', '20220244', '20220212']" ) ] .
+
+<https://www.wa-example.com/features/220> a geojson:Feature ;
+    parcel:appellation [ rdfs:label "Lot 220 DP 572532" ;
+            dcterms:hasPart [ rdfs:label "220" ;
+                    commonpatterns:namePartType "ParcelIdentifier" ],
+                [ rdfs:label "DP" ;
+                    commonpatterns:namePartType "PlanType" ],
+                [ rdfs:label "572532" ;
+                    commonpatterns:namePartType "PlanIdentifier" ],
+                [ rdfs:label "Lot" ;
+                    commonpatterns:namePartType "ParcelType" ] ] ;
+    parcel:interest [ parcel:interestLink <https://www.wa-example.com/features/FFFFFF> ;
+            parcel:interestType wa-interest-type:ct ] ;
+    parcel:purpose wa-parcel-purpose:1 ;
+    parcel:state wa-parcel-state:created ;
+    parcel:surfaceArea 888 ;
+    parcel:type wa-parcel-type:F ;
+    geojson:topology [ a geojson:Polygon ;
+            geojson:relatedFeatures ( "['20220244', '20220211', '20220213', '20220243', '20220219', '20220222', '20220214', '20220215']" ) ] .
+
+<https://www.wa-example.com/features/BoundaryMark> a surv:BoundaryMark,
+        geojson:FeatureCollection ;
+    geojson:features <https://www.wa-example.com/features/17876563>,
+        <https://www.wa-example.com/features/17876564>,
+        <https://www.wa-example.com/features/17876565>,
+        <https://www.wa-example.com/features/17876566>,
+        <https://www.wa-example.com/features/17876567>,
+        <https://www.wa-example.com/features/17876568>,
+        <https://www.wa-example.com/features/17876569>,
+        <https://www.wa-example.com/features/17876570>,
+        <https://www.wa-example.com/features/17876571>,
+        <https://www.wa-example.com/features/17876572>,
+        <https://www.wa-example.com/features/17876582>,
+        <https://www.wa-example.com/features/17876589>,
+        <https://www.wa-example.com/features/17876595>,
+        <https://www.wa-example.com/features/17876596>,
+        <https://www.wa-example.com/features/17876597>,
+        <https://www.wa-example.com/features/17876598>,
+        <https://www.wa-example.com/features/17876599>,
+        <https://www.wa-example.com/features/17876600>,
+        <https://www.wa-example.com/features/17876601>,
+        <https://www.wa-example.com/features/17876602>,
+        <https://www.wa-example.com/features/17876603>,
+        <https://www.wa-example.com/features/17876605>,
+        <https://www.wa-example.com/features/17876624>,
+        <https://www.wa-example.com/features/17876625> .
+
+<https://www.wa-example.com/features/DP-1-S2> prov:endedAtTime "2029-01-01T01:02:03+00:00"^^xsd:dateTime .
+
+<https://www.wa-example.com/features/DP_422526> rdfs:label "DP 422526" ;
+    container:adminUnit [ ns2:relation <http://www.iana.org/assignments/relation/related> ;
+            prof:hasRole icsm-admin-unit-type:locality ;
+            oa:hasTarget wa-locality:hyden ] ;
+    container:bearingRotation 0e+00 .
+
+<https://www.wa-example.com/features/PrimaryParcels> a parcel:PrimaryParcel,
+        geojson:FeatureCollection ;
+    geojson:features <https://www.wa-example.com/features/215>,
+        <https://www.wa-example.com/features/216>,
+        <https://www.wa-example.com/features/217>,
+        <https://www.wa-example.com/features/218>,
+        <https://www.wa-example.com/features/219>,
+        <https://www.wa-example.com/features/220> .
+
+<https://www.wa-example.com/features/SecondaryParcels> a parcel:SecondaryParcel,
+        geojson:FeatureCollection ;
+    geojson:features <https://www.wa-example.com/features/12595541>,
+        <https://www.wa-example.com/features/12595542>,
+        <https://www.wa-example.com/features/12595543>,
+        <https://www.wa-example.com/features/12595544>,
+        <https://www.wa-example.com/features/12595545> .
+
+<https://www.wa-example.com/features/observedVectors> a surv:ObservedVector,
+        geojson:FeatureCollection ;
+    geojson:features <https://www.wa-example.com/features/20220170>,
+        <https://www.wa-example.com/features/20220171>,
+        <https://www.wa-example.com/features/20220172>,
+        <https://www.wa-example.com/features/20220173>,
+        <https://www.wa-example.com/features/20220174>,
+        <https://www.wa-example.com/features/20220175>,
+        <https://www.wa-example.com/features/20220176>,
+        <https://www.wa-example.com/features/20220177>,
+        <https://www.wa-example.com/features/20220178>,
+        <https://www.wa-example.com/features/20220189>,
+        <https://www.wa-example.com/features/20220190>,
+        <https://www.wa-example.com/features/20220191>,
+        <https://www.wa-example.com/features/20220192>,
+        <https://www.wa-example.com/features/20220207>,
+        <https://www.wa-example.com/features/20220208>,
+        <https://www.wa-example.com/features/20220209>,
+        <https://www.wa-example.com/features/20220210>,
+        <https://www.wa-example.com/features/20220211>,
+        <https://www.wa-example.com/features/20220212>,
+        <https://www.wa-example.com/features/20220213>,
+        <https://www.wa-example.com/features/20220214>,
+        <https://www.wa-example.com/features/20220215>,
+        <https://www.wa-example.com/features/20220219>,
+        <https://www.wa-example.com/features/20220222>,
+        <https://www.wa-example.com/features/20220243>,
+        <https://www.wa-example.com/features/20220244>,
+        <https://www.wa-example.com/features/20220245>,
+        <https://www.wa-example.com/features/20220246>,
+        <https://www.wa-example.com/features/20220247>,
+        <https://www.wa-example.com/features/20220248>,
+        <https://www.wa-example.com/features/20220249>,
+        <https://www.wa-example.com/features/20220250>,
+        <https://www.wa-example.com/features/20220299>,
+        <https://www.wa-example.com/features/20220300> .
+
+<vectorobservation:theodolite+edm> a sosa:ObservationCollection,
+        geojson:FeatureCollection ;
+    sosa:hasMember [ a geojson:Feature ;
+            sosa:hasFeatureOfInterest <https://www.wa-example.com/features/20220245> ;
+            sosa:hasResult [ surv:distance 2.2548e+01 ] ;
+            sosa:resultTime "2022-05-22T00:00:00" ;
+            ns1:angleAccuracyMeasure 8.33333e-02 ;
+            ns1:angleType icsm-angle-type:bearing ;
+            ns1:distanceAccuracyMeasure 4000 ;
+            ns1:distanceType icsm-distance-type:ground ],
+        [ a geojson:Feature ;
+            sosa:hasFeatureOfInterest <https://www.wa-example.com/features/20220173> ;
+            sosa:hasResult [ surv:distance 2.44e+01 ] ;
+            sosa:resultTime "2022-05-22T00:00:00" ;
+            ns1:angleAccuracyMeasure 8.33333e-02 ;
+            ns1:angleType icsm-angle-type:bearing ;
+            ns1:distanceAccuracyMeasure 4000 ;
+            ns1:distanceType icsm-distance-type:ground ],
+        [ a geojson:Feature ;
+            sosa:hasFeatureOfInterest <https://www.wa-example.com/features/20220212> ;
+            sosa:hasResult [ surv:distance 2.44e+01 ] ;
+            sosa:resultTime "2022-05-22T00:00:00" ;
+            ns1:angleAccuracyMeasure 8.33333e-02 ;
+            ns1:angleType icsm-angle-type:bearing ;
+            ns1:distanceAccuracyMeasure 4000 ;
+            ns1:distanceType icsm-distance-type:ground ],
+        [ a geojson:Feature ;
+            sosa:hasFeatureOfInterest <https://www.wa-example.com/features/20220248> ;
+            sosa:hasResult [ surv:distance 1.5e+00 ] ;
+            sosa:resultTime "2022-05-22T00:00:00" ;
+            ns1:angleAccuracyMeasure 8.33333e-02 ;
+            ns1:angleType icsm-angle-type:bearing ;
+            ns1:distanceAccuracyMeasure 4000 ;
+            ns1:distanceType icsm-distance-type:ground ],
+        [ a geojson:Feature ;
+            sosa:hasFeatureOfInterest <https://www.wa-example.com/features/20220207> ;
+            sosa:hasResult [ surv:distance 2.44e+01 ] ;
+            sosa:resultTime "2022-05-22T00:00:00" ;
+            ns1:angleAccuracyMeasure 8.33333e-02 ;
+            ns1:angleType icsm-angle-type:bearing ;
+            ns1:distanceAccuracyMeasure 4000 ;
+            ns1:distanceType icsm-distance-type:ground ],
+        [ a geojson:Feature ;
+            sosa:hasFeatureOfInterest <https://www.wa-example.com/features/20220243> ;
+            sosa:hasResult [ surv:distance 1.5e+00 ] ;
+            sosa:resultTime "2022-05-22T00:00:00" ;
+            ns1:angleAccuracyMeasure 8.33333e-02 ;
+            ns1:angleType icsm-angle-type:bearing ;
+            ns1:distanceAccuracyMeasure 4000 ;
+            ns1:distanceType icsm-distance-type:ground ],
+        [ a geojson:Feature ;
+            sosa:hasFeatureOfInterest <https://www.wa-example.com/features/20220170> ;
+            sosa:hasResult [ surv:distance 3.5e+01 ] ;
+            sosa:resultTime "2022-05-22T00:00:00" ;
+            ns1:angleAccuracyMeasure 8.33333e-02 ;
+            ns1:angleType icsm-angle-type:bearing ;
+            ns1:distanceAccuracyMeasure 4000 ;
+            ns1:distanceType icsm-distance-type:ground ],
+        [ a geojson:Feature ;
+            sosa:hasFeatureOfInterest <https://www.wa-example.com/features/20220210> ;
+            sosa:hasResult [ surv:distance 2.44e+01 ] ;
+            sosa:resultTime "2022-05-22T00:00:00" ;
+            ns1:angleAccuracyMeasure 8.33333e-02 ;
+            ns1:angleType icsm-angle-type:bearing ;
+            ns1:distanceAccuracyMeasure 4000 ;
+            ns1:distanceType icsm-distance-type:ground ],
+        [ a geojson:Feature ;
+            sosa:hasFeatureOfInterest <https://www.wa-example.com/features/20220211> ;
+            sosa:hasResult [ surv:distance 3.35e+01 ] ;
+            sosa:resultTime "2022-05-22T00:00:00" ;
+            ns1:angleAccuracyMeasure 8.33333e-02 ;
+            ns1:angleType icsm-angle-type:bearing ;
+            ns1:distanceAccuracyMeasure 4000 ;
+            ns1:distanceType icsm-distance-type:ground ],
+        [ a geojson:Feature ;
+            sosa:hasFeatureOfInterest <https://www.wa-example.com/features/20220172> ;
+            sosa:hasResult [ surv:distance 3.35e+01 ] ;
+            sosa:resultTime "2022-05-22T00:00:00" ;
+            ns1:angleAccuracyMeasure 8.33333e-02 ;
+            ns1:angleType icsm-angle-type:bearing ;
+            ns1:distanceAccuracyMeasure 4000 ;
+            ns1:distanceType icsm-distance-type:ground ],
+        [ a geojson:Feature ;
+            sosa:hasFeatureOfInterest <https://www.wa-example.com/features/20220208> ;
+            sosa:hasResult [ surv:distance 3.35e+01 ] ;
+            sosa:resultTime "2022-05-22T00:00:00" ;
+            ns1:angleAccuracyMeasure 8.33333e-02 ;
+            ns1:angleType icsm-angle-type:bearing ;
+            ns1:distanceAccuracyMeasure 4000 ;
+            ns1:distanceType icsm-distance-type:ground ],
+        [ a geojson:Feature ;
+            sosa:hasFeatureOfInterest <https://www.wa-example.com/features/20220300> ;
+            sosa:hasResult [ surv:distance 3.35e+01 ] ;
+            sosa:resultTime "2022-05-22T00:00:00" ;
+            ns1:angleAccuracyMeasure 8.33333e-02 ;
+            ns1:angleType icsm-angle-type:bearing ;
+            ns1:distanceAccuracyMeasure 4000 ;
+            ns1:distanceType icsm-distance-type:ground ],
+        [ a geojson:Feature ;
+            sosa:hasFeatureOfInterest <https://www.wa-example.com/features/20220299> ;
+            sosa:hasResult [ surv:distance 1.5e+00 ] ;
+            sosa:resultTime "2022-05-22T00:00:00" ;
+            ns1:angleAccuracyMeasure 8.33333e-02 ;
+            ns1:angleType icsm-angle-type:bearing ;
+            ns1:distanceAccuracyMeasure 4000 ;
+            ns1:distanceType icsm-distance-type:ground ],
+        [ a geojson:Feature ;
+            sosa:hasFeatureOfInterest <https://www.wa-example.com/features/20220249> ;
+            sosa:hasResult [ surv:distance 2.44e+01 ] ;
+            sosa:resultTime "2022-05-22T00:00:00" ;
+            ns1:angleAccuracyMeasure 8.33333e-02 ;
+            ns1:angleType icsm-angle-type:bearing ;
+            ns1:distanceAccuracyMeasure 4000 ;
+            ns1:distanceType icsm-distance-type:ground ],
+        [ a geojson:Feature ;
+            sosa:hasFeatureOfInterest <https://www.wa-example.com/features/20220215> ;
+            sosa:hasResult [ surv:distance 2.2832e+01 ] ;
+            sosa:resultTime "2022-05-22T00:00:00" ;
+            ns1:angleAccuracyMeasure 8.33333e-02 ;
+            ns1:angleType icsm-angle-type:bearing ;
+            ns1:distanceAccuracyMeasure 4000 ;
+            ns1:distanceType icsm-distance-type:ground ],
+        [ a geojson:Feature ;
+            sosa:hasFeatureOfInterest <https://www.wa-example.com/features/20220219> ;
+            sosa:hasResult [ surv:distance 2.0935e+01 ] ;
+            sosa:resultTime "2022-05-22T00:00:00" ;
+            ns1:angleAccuracyMeasure 8.33333e-02 ;
+            ns1:angleType icsm-angle-type:bearing ;
+            ns1:distanceAccuracyMeasure 4000 ;
+            ns1:distanceType icsm-distance-type:ground ],
+        [ a geojson:Feature ;
+            sosa:hasFeatureOfInterest <https://www.wa-example.com/features/20220213> ;
+            sosa:hasResult [ surv:distance 1.5084e+01 ] ;
+            sosa:resultTime "2022-05-22T00:00:00" ;
+            ns1:angleAccuracyMeasure 8.33333e-02 ;
+            ns1:angleType icsm-angle-type:bearing ;
+            ns1:distanceAccuracyMeasure 4000 ;
+            ns1:distanceType icsm-distance-type:ground ],
+        [ a geojson:Feature ;
+            sosa:hasFeatureOfInterest <https://www.wa-example.com/features/20220176> ;
+            sosa:hasResult [ surv:distance 2.44e+01 ] ;
+            sosa:resultTime "2022-05-22T00:00:00" ;
+            ns1:angleAccuracyMeasure 8.33333e-02 ;
+            ns1:angleType icsm-angle-type:bearing ;
+            ns1:distanceAccuracyMeasure 4000 ;
+            ns1:distanceType icsm-distance-type:ground ],
+        [ a geojson:Feature ;
+            sosa:hasFeatureOfInterest <https://www.wa-example.com/features/20220214> ;
+            sosa:hasResult [ surv:distance 7.26e+00 ] ;
+            sosa:resultTime "2022-05-22T00:00:00" ;
+            ns1:angleAccuracyMeasure 8.33333e-02 ;
+            ns1:angleType icsm-angle-type:bearing ;
+            ns1:distanceAccuracyMeasure 4000 ;
+            ns1:distanceType icsm-distance-type:ground ],
+        [ a geojson:Feature ;
+            sosa:hasFeatureOfInterest <https://www.wa-example.com/features/20220192> ;
+            sosa:hasResult [ surv:distance 1.5e+00 ] ;
+            sosa:resultTime "2022-05-22T00:00:00" ;
+            ns1:angleAccuracyMeasure 8.33333e-02 ;
+            ns1:angleType icsm-angle-type:bearing ;
+            ns1:distanceAccuracyMeasure 4000 ;
+            ns1:distanceType icsm-distance-type:ground ],
+        [ a geojson:Feature ;
+            sosa:hasFeatureOfInterest <https://www.wa-example.com/features/20220191> ;
+            sosa:hasResult [ surv:distance 1.5e+00 ] ;
+            sosa:resultTime "2022-05-22T00:00:00" ;
+            ns1:angleAccuracyMeasure 8.33333e-02 ;
+            ns1:angleType icsm-angle-type:bearing ;
+            ns1:distanceAccuracyMeasure 4000 ;
+            ns1:distanceType icsm-distance-type:ground ],
+        [ a geojson:Feature ;
+            sosa:hasFeatureOfInterest <https://www.wa-example.com/features/20220178> ;
+            sosa:hasResult [ surv:distance 2.44e+01 ] ;
+            sosa:resultTime "2022-05-22T00:00:00" ;
+            ns1:angleAccuracyMeasure 8.33333e-02 ;
+            ns1:angleType icsm-angle-type:bearing ;
+            ns1:distanceAccuracyMeasure 4000 ;
+            ns1:distanceType icsm-distance-type:ground ],
+        [ a geojson:Feature ;
+            sosa:hasFeatureOfInterest <https://www.wa-example.com/features/20220171> ;
+            sosa:hasResult [ surv:distance 2.44e+01 ] ;
+            sosa:resultTime "2022-05-22T00:00:00" ;
+            ns1:angleAccuracyMeasure 8.33333e-02 ;
+            ns1:angleType icsm-angle-type:bearing ;
+            ns1:distanceAccuracyMeasure 4000 ;
+            ns1:distanceType icsm-distance-type:ground ],
+        [ a geojson:Feature ;
+            sosa:hasFeatureOfInterest <https://www.wa-example.com/features/20220247> ;
+            sosa:hasResult [ surv:distance 3.944e+01 ] ;
+            sosa:resultTime "2022-05-22T00:00:00" ;
+            ns1:angleAccuracyMeasure 8.33333e-02 ;
+            ns1:angleType icsm-angle-type:bearing ;
+            ns1:distanceAccuracyMeasure 4000 ;
+            ns1:distanceType icsm-distance-type:ground ],
+        [ a geojson:Feature ;
+            sosa:hasFeatureOfInterest <https://www.wa-example.com/features/20220175> ;
+            sosa:hasResult [ surv:distance 3.35e+01 ] ;
+            sosa:resultTime "2022-05-22T00:00:00" ;
+            ns1:angleAccuracyMeasure 8.33333e-02 ;
+            ns1:angleType icsm-angle-type:bearing ;
+            ns1:distanceAccuracyMeasure 4000 ;
+            ns1:distanceType icsm-distance-type:ground ],
+        [ a geojson:Feature ;
+            sosa:hasFeatureOfInterest <https://www.wa-example.com/features/20220244> ;
+            sosa:hasResult [ surv:distance 1.5e+00 ] ;
+            sosa:resultTime "2022-05-22T00:00:00" ;
+            ns1:angleAccuracyMeasure 8.33333e-02 ;
+            ns1:angleType icsm-angle-type:bearing ;
+            ns1:distanceAccuracyMeasure 4000 ;
+            ns1:distanceType icsm-distance-type:ground ],
+        [ a geojson:Feature ;
+            sosa:hasFeatureOfInterest <https://www.wa-example.com/features/20220222> ;
+            sosa:hasResult [ surv:distance 2.0005e+01 ] ;
+            sosa:resultTime "2022-05-22T00:00:00" ;
+            ns1:angleAccuracyMeasure 8.33333e-02 ;
+            ns1:angleType icsm-angle-type:bearing ;
+            ns1:distanceAccuracyMeasure 4000 ;
+            ns1:distanceType icsm-distance-type:ground ],
+        [ a geojson:Feature ;
+            sosa:hasFeatureOfInterest <https://www.wa-example.com/features/20220209> ;
+            sosa:hasResult [ surv:distance 2.44e+01 ] ;
+            sosa:resultTime "2022-05-22T00:00:00" ;
+            ns1:angleAccuracyMeasure 8.33333e-02 ;
+            ns1:angleType icsm-angle-type:bearing ;
+            ns1:distanceAccuracyMeasure 4000 ;
+            ns1:distanceType icsm-distance-type:ground ],
+        [ a geojson:Feature ;
+            sosa:hasFeatureOfInterest <https://www.wa-example.com/features/20220246> ;
+            sosa:hasResult [ surv:distance 5.508e+00 ] ;
+            sosa:resultTime "2022-05-22T00:00:00" ;
+            ns1:angleAccuracyMeasure 8.33333e-02 ;
+            ns1:angleType icsm-angle-type:bearing ;
+            ns1:distanceAccuracyMeasure 4000 ;
+            ns1:distanceType icsm-distance-type:ground ],
+        [ a geojson:Feature ;
+            sosa:hasFeatureOfInterest <https://www.wa-example.com/features/20220177> ;
+            sosa:hasResult [ surv:distance 2.44e+01 ] ;
+            sosa:resultTime "2022-05-22T00:00:00" ;
+            ns1:angleAccuracyMeasure 8.33333e-02 ;
+            ns1:angleType icsm-angle-type:bearing ;
+            ns1:distanceAccuracyMeasure 4000 ;
+            ns1:distanceType icsm-distance-type:ground ],
+        [ a geojson:Feature ;
+            sosa:hasFeatureOfInterest <https://www.wa-example.com/features/20220190> ;
+            sosa:hasResult [ surv:distance 2.44e+01 ] ;
+            sosa:resultTime "2022-05-22T00:00:00" ;
+            ns1:angleAccuracyMeasure 8.33333e-02 ;
+            ns1:angleType icsm-angle-type:bearing ;
+            ns1:distanceAccuracyMeasure 4000 ;
+            ns1:distanceType icsm-distance-type:ground ],
+        [ a geojson:Feature ;
+            sosa:hasFeatureOfInterest <https://www.wa-example.com/features/20220189> ;
+            sosa:hasResult [ surv:distance 2.44e+01 ] ;
+            sosa:resultTime "2022-05-22T00:00:00" ;
+            ns1:angleAccuracyMeasure 8.33333e-02 ;
+            ns1:angleType icsm-angle-type:bearing ;
+            ns1:distanceAccuracyMeasure 4000 ;
+            ns1:distanceType icsm-distance-type:ground ],
+        [ a geojson:Feature ;
+            sosa:hasFeatureOfInterest <https://www.wa-example.com/features/20220174> ;
+            sosa:hasResult [ surv:distance 2.44e+01 ] ;
+            sosa:resultTime "2022-05-22T00:00:00" ;
+            ns1:angleAccuracyMeasure 8.33333e-02 ;
+            ns1:angleType icsm-angle-type:bearing ;
+            ns1:distanceAccuracyMeasure 4000 ;
+            ns1:distanceType icsm-distance-type:ground ],
+        [ a geojson:Feature ;
+            sosa:hasFeatureOfInterest <https://www.wa-example.com/features/20220250> ;
+            sosa:hasResult [ surv:distance 2.44e+01 ] ;
+            sosa:resultTime "2022-05-22T00:00:00" ;
+            ns1:angleAccuracyMeasure 8.33333e-02 ;
+            ns1:angleType icsm-angle-type:bearing ;
+            ns1:distanceAccuracyMeasure 4000 ;
+            ns1:distanceType icsm-distance-type:ground ] ;
+    sosa:madeBySensor [ surv:sensorType icsm-equipment-type:t-edm ] ;
+    sosa:observedProperty surveyable:VectorDetermination ;
+    sosa:resultTime "2022-05-22T00:00:00Z" ;
+    sosa:usedProcedure wa-procedure-used:m .
+
+<https://www.wa-example.com/features/20220170> a geojson:Feature ;
+    geojson:topology [ a geojson:LineString ;
+            geojson:relatedFeatures ( <https://www.wa-example.com/features/17876563> <https://www.wa-example.com/features/17876564> ) ] .
+
+<https://www.wa-example.com/features/20220171> a geojson:Feature ;
+    geojson:topology [ a geojson:LineString ;
+            geojson:relatedFeatures ( <https://www.wa-example.com/features/17876565> <https://www.wa-example.com/features/17876563> ) ] .
+
+<https://www.wa-example.com/features/20220172> a geojson:Feature ;
+    geojson:topology [ a geojson:LineString ;
+            geojson:relatedFeatures ( <https://www.wa-example.com/features/17876565> <https://www.wa-example.com/features/17876566> ) ] .
+
+<https://www.wa-example.com/features/20220173> a geojson:Feature ;
+    geojson:topology [ a geojson:LineString ;
+            geojson:relatedFeatures ( <https://www.wa-example.com/features/17876564> <https://www.wa-example.com/features/17876567> ) ] .
+
+<https://www.wa-example.com/features/20220174> a geojson:Feature ;
+    geojson:topology [ a geojson:LineString ;
+            geojson:relatedFeatures ( <https://www.wa-example.com/features/17876565> <https://www.wa-example.com/features/17876568> ) ] .
+
+<https://www.wa-example.com/features/20220175> a geojson:Feature ;
+    geojson:topology [ a geojson:LineString ;
+            geojson:relatedFeatures ( <https://www.wa-example.com/features/17876568> <https://www.wa-example.com/features/17876569> ) ] .
+
+<https://www.wa-example.com/features/20220176> a geojson:Feature ;
+    geojson:topology [ a geojson:LineString ;
+            geojson:relatedFeatures ( <https://www.wa-example.com/features/17876570> <https://www.wa-example.com/features/17876567> ) ] .
+
+<https://www.wa-example.com/features/20220177> a geojson:Feature ;
+    geojson:topology [ a geojson:LineString ;
+            geojson:relatedFeatures ( <https://www.wa-example.com/features/17876571> <https://www.wa-example.com/features/17876568> ) ] .
+
+<https://www.wa-example.com/features/20220178> a geojson:Feature ;
+    geojson:topology [ a geojson:LineString ;
+            geojson:relatedFeatures ( <https://www.wa-example.com/features/17876572> <https://www.wa-example.com/features/17876570> ) ] .
+
+<https://www.wa-example.com/features/20220189> a geojson:Feature ;
+    geojson:topology [ a geojson:LineString ;
+            geojson:relatedFeatures ( <https://www.wa-example.com/features/17876569> <https://www.wa-example.com/features/17876566> ) ] .
+
+<https://www.wa-example.com/features/20220190> a geojson:Feature ;
+    geojson:topology [ a geojson:LineString ;
+            geojson:relatedFeatures ( <https://www.wa-example.com/features/17876582> <https://www.wa-example.com/features/17876569> ) ] .
+
+<https://www.wa-example.com/features/20220191> a geojson:Feature ;
+    geojson:topology [ a geojson:LineString ;
+            geojson:relatedFeatures ( <https://www.wa-example.com/features/17876569> <https://www.wa-example.com/features/17876570> ) ] .
+
+<https://www.wa-example.com/features/20220192> a geojson:Feature ;
+    geojson:topology [ a geojson:LineString ;
+            geojson:relatedFeatures ( <https://www.wa-example.com/features/17876566> <https://www.wa-example.com/features/17876567> ) ] .
+
+<https://www.wa-example.com/features/20220207> a geojson:Feature ;
+    geojson:topology [ a geojson:LineString ;
+            geojson:relatedFeatures ( <https://www.wa-example.com/features/17876595> <https://www.wa-example.com/features/17876571> ) ] .
+
+<https://www.wa-example.com/features/20220208> a geojson:Feature ;
+    geojson:topology [ a geojson:LineString ;
+            geojson:relatedFeatures ( <https://www.wa-example.com/features/17876595> <https://www.wa-example.com/features/17876596> ) ] .
+
+<https://www.wa-example.com/features/20220209> a geojson:Feature ;
+    geojson:topology [ a geojson:LineString ;
+            geojson:relatedFeatures ( <https://www.wa-example.com/features/17876597> <https://www.wa-example.com/features/17876572> ) ] .
+
+<https://www.wa-example.com/features/20220210> a geojson:Feature ;
+    geojson:topology [ a geojson:LineString ;
+            geojson:relatedFeatures ( <https://www.wa-example.com/features/17876595> <https://www.wa-example.com/features/17876589> ) ] .
+
+<https://www.wa-example.com/features/20220211> a geojson:Feature ;
+    geojson:topology [ a geojson:LineString ;
+            geojson:relatedFeatures ( <https://www.wa-example.com/features/17876589> <https://www.wa-example.com/features/17876598> ) ] .
+
+<https://www.wa-example.com/features/20220212> a geojson:Feature ;
+    geojson:topology [ a geojson:LineString ;
+            geojson:relatedFeatures ( <https://www.wa-example.com/features/17876597> <https://www.wa-example.com/features/17876599> ) ] .
+
+<https://www.wa-example.com/features/20220213> a geojson:Feature ;
+    geojson:topology [ a geojson:LineString ;
+            geojson:relatedFeatures ( <https://www.wa-example.com/features/17876589> <https://www.wa-example.com/features/17876600> ) ] .
+
+<https://www.wa-example.com/features/20220214> a geojson:Feature ;
+    geojson:topology [ a geojson:LineString ;
+            geojson:relatedFeatures ( <https://www.wa-example.com/features/17876602> <https://www.wa-example.com/features/17876603> ) ] .
+
+<https://www.wa-example.com/features/20220215> a geojson:Feature ;
+    geojson:topology [ a geojson:LineString ;
+            geojson:relatedFeatures ( <https://www.wa-example.com/features/17876603> <https://www.wa-example.com/features/17876599> ) ] .
+
+<https://www.wa-example.com/features/20220219> a geojson:Feature ;
+    geojson:topology [ a geojson:LineString ;
+            geojson:relatedFeatures ( <https://www.wa-example.com/features/17876601> <https://www.wa-example.com/features/17876605> ) ] .
+
+<https://www.wa-example.com/features/20220222> a geojson:Feature ;
+    geojson:topology [ a geojson:LineString ;
+            geojson:relatedFeatures ( <https://www.wa-example.com/features/17876605> <https://www.wa-example.com/features/17876602> ) ] .
+
+<https://www.wa-example.com/features/20220243> a geojson:Feature ;
+    geojson:topology [ a geojson:LineString ;
+            geojson:relatedFeatures ( <https://www.wa-example.com/features/17876600> <https://www.wa-example.com/features/17876601> ) ] .
+
+<https://www.wa-example.com/features/20220244> a geojson:Feature ;
+    geojson:topology [ a geojson:LineString ;
+            geojson:relatedFeatures ( <https://www.wa-example.com/features/17876598> <https://www.wa-example.com/features/17876599> ) ] .
+
+<https://www.wa-example.com/features/20220245> a geojson:Feature ;
+    geojson:topology [ a geojson:LineString ;
+            geojson:relatedFeatures ( <https://www.wa-example.com/features/17876598> <https://www.wa-example.com/features/17876624> ) ] .
+
+<https://www.wa-example.com/features/20220246> a geojson:Feature ;
+    geojson:topology [ a geojson:LineString ;
+            geojson:relatedFeatures ( <https://www.wa-example.com/features/17876625> <https://www.wa-example.com/features/17876624> ) ] .
+
+<https://www.wa-example.com/features/20220247> a geojson:Feature ;
+    geojson:topology [ a geojson:LineString ;
+            geojson:relatedFeatures ( <https://www.wa-example.com/features/17876600> <https://www.wa-example.com/features/17876625> ) ] .
+
+<https://www.wa-example.com/features/20220248> a geojson:Feature ;
+    geojson:topology [ a geojson:LineString ;
+            geojson:relatedFeatures ( <https://www.wa-example.com/features/17876596> <https://www.wa-example.com/features/17876597> ) ] .
+
+<https://www.wa-example.com/features/20220249> a geojson:Feature ;
+    geojson:topology [ a geojson:LineString ;
+            geojson:relatedFeatures ( <https://www.wa-example.com/features/17876596> <https://www.wa-example.com/features/17876598> ) ] .
+
+<https://www.wa-example.com/features/20220250> a geojson:Feature ;
+    geojson:topology [ a geojson:LineString ;
+            geojson:relatedFeatures ( <https://www.wa-example.com/features/17876596> <https://www.wa-example.com/features/17876582> ) ] .
+
+<https://www.wa-example.com/features/20220299> a geojson:Feature ;
+    geojson:topology [ a geojson:LineString ;
+            geojson:relatedFeatures ( <https://www.wa-example.com/features/17876582> <https://www.wa-example.com/features/17876572> ) ] .
+
+<https://www.wa-example.com/features/20220300> a geojson:Feature ;
+    geojson:topology [ a geojson:LineString ;
+            geojson:relatedFeatures ( <https://www.wa-example.com/features/17876571> <https://www.wa-example.com/features/17876582> ) ] .
+
+<https://www.wa-example.com/features/17876563> a surv:BoundaryMark,
+        geojson:Feature ;
+    commonpatterns:qualityMeasure 1.3e-02 ;
+    surv:monumentedBy [ surv:condition wa-monument-condition:ok ;
+            surv:form wa-monument-form:peg ;
+            surv:state wa-monument-state:new-mark ] ;
+    surv:purpose wa-surveypoint-purpose:road-boundary ;
+    geojson:geometry [ a geojson:Point ;
+            geojson:coordinates ( 5.472876e+04 3.986644e+05 ) ] .
+
+<https://www.wa-example.com/features/17876564> a surv:BoundaryMark,
+        geojson:Feature ;
+    commonpatterns:qualityMeasure 1.4e-02 ;
+    surv:monumentedBy [ surv:condition wa-monument-condition:ok ;
+            surv:form wa-monument-form:peg ;
+            surv:state wa-monument-state:new-mark ] ;
+    surv:purpose wa-surveypoint-purpose:internal-boundary ;
+    geojson:geometry [ a geojson:Point ;
+            geojson:coordinates ( 5.469376e+04 3.98664e+05 ) ] .
+
+<https://www.wa-example.com/features/17876601> a surv:BoundaryMark,
+        geojson:Feature ;
+    commonpatterns:qualityMeasure 1e-02 ;
+    surv:monumentedBy [ surv:condition wa-monument-condition:ok ;
+            surv:form wa-monument-form:peg ;
+            surv:state wa-monument-state:new-mark ] ;
+    surv:purpose wa-surveypoint-purpose:road-boundary ;
+    geojson:geometry [ a geojson:Point ;
+            geojson:coordinates ( 5.473648e+04 3.98527e+05 ) ] .
+
+<https://www.wa-example.com/features/17876602> a surv:BoundaryMark,
+        geojson:Feature ;
+    commonpatterns:qualityMeasure 1e-02 ;
+    surv:monumentedBy [ surv:condition wa-monument-condition:ok ;
+            surv:form wa-monument-form:peg ;
+            surv:state wa-monument-state:new-mark ] ;
+    surv:purpose wa-surveypoint-purpose:internal-boundary ;
+    geojson:geometry [ a geojson:Point ;
+            geojson:coordinates ( 5.469823e+04 3.985124e+05 ) ] .
+
+<https://www.wa-example.com/features/17876603> a surv:BoundaryMark,
+        geojson:Feature ;
+    commonpatterns:qualityMeasure 1e-02 ;
+    surv:monumentedBy [ surv:condition wa-monument-condition:ok ;
+            surv:form wa-monument-form:peg ;
+            surv:state wa-monument-state:new-mark ] ;
+    surv:purpose wa-surveypoint-purpose:internal-boundary ;
+    geojson:geometry [ a geojson:Point ;
+            geojson:coordinates ( 5.469549e+04 3.985191e+05 ) ] .
+
+<https://www.wa-example.com/features/17876605> a surv:BoundaryMark,
+        geojson:Feature ;
+    commonpatterns:qualityMeasure 1e-02 ;
+    surv:monumentedBy [ surv:condition wa-monument-condition:ok ;
+            surv:form wa-monument-form:peg ;
+            surv:state wa-monument-state:new-mark ] ;
+    surv:purpose wa-surveypoint-purpose:internal-boundary ;
+    geojson:geometry [ a geojson:Point ;
+            geojson:coordinates ( 5.471692e+04 3.985195e+05 ) ] .
+
+<https://www.wa-example.com/features/17876624> a surv:BoundaryMark,
+        geojson:Feature ;
+    commonpatterns:qualityMeasure 1.5e-02 ;
+    surv:monumentedBy [ surv:state wa-monument-state:unmarked ] ;
+    surv:purpose wa-surveypoint-purpose:interest-boundary ;
+    geojson:geometry [ a geojson:Point ;
+            geojson:coordinates ( 5.469699e+04 3.985194e+05 ) ] .
+
+<https://www.wa-example.com/features/17876625> a surv:BoundaryMark,
+        geojson:Feature ;
+    commonpatterns:qualityMeasure 1.5e-02 ;
+    surv:monumentedBy [ surv:state wa-monument-state:unmarked ] ;
+    surv:purpose wa-surveypoint-purpose:interest-boundary ;
+    geojson:geometry [ a geojson:Point ;
+            geojson:coordinates ( 5.469907e+04 3.985143e+05 ) ] .
+
+<https://www.wa-example.com/features/17876565> a surv:BoundaryMark,
+        geojson:Feature ;
+    commonpatterns:qualityMeasure 1.3e-02 ;
+    surv:monumentedBy [ surv:condition wa-monument-condition:ok ;
+            surv:form wa-monument-form:peg ;
+            surv:state wa-monument-state:new-mark ] ;
+    surv:purpose wa-surveypoint-purpose:road-boundary ;
+    geojson:geometry [ a geojson:Point ;
+            geojson:coordinates ( 5.472905e+04 3.9864e+05 ) ] .
+
+<https://www.wa-example.com/features/17876566> a surv:BoundaryMark,
+        geojson:Feature ;
+    commonpatterns:qualityMeasure 1.3e-02 ;
+    surv:monumentedBy [ surv:state wa-monument-state:unmarked ] ;
+    surv:purpose wa-surveypoint-purpose:interest-boundary ;
+    geojson:geometry [ a geojson:Point ;
+            geojson:coordinates ( 5.469555e+04 3.986396e+05 ) ] .
+
+<https://www.wa-example.com/features/17876567> a surv:BoundaryMark,
+        geojson:Feature ;
+    commonpatterns:qualityMeasure 1.3e-02 ;
+    surv:monumentedBy [ surv:condition wa-monument-condition:ok ;
+            surv:form wa-monument-form:peg ;
+            surv:state wa-monument-state:new-mark ] ;
+    surv:purpose wa-surveypoint-purpose:internal-boundary ;
+    geojson:geometry [ a geojson:Point ;
+            geojson:coordinates ( 5.469405e+04 3.986396e+05 ) ] .
+
+<https://www.wa-example.com/features/17876568> a surv:BoundaryMark,
+        geojson:Feature ;
+    commonpatterns:qualityMeasure 1e-02 ;
+    surv:monumentedBy [ surv:condition wa-monument-condition:ok ;
+            surv:form wa-monument-form:peg ;
+            surv:state wa-monument-state:new-mark ] ;
+    surv:purpose wa-surveypoint-purpose:road-boundary ;
+    geojson:geometry [ a geojson:Point ;
+            geojson:coordinates ( 5.472934e+04 3.986156e+05 ) ] .
+
+<https://www.wa-example.com/features/17876570> a surv:BoundaryMark,
+        geojson:Feature ;
+    commonpatterns:qualityMeasure 1.1e-02 ;
+    surv:monumentedBy [ surv:condition wa-monument-condition:ok ;
+            surv:form wa-monument-form:peg ;
+            surv:state wa-monument-state:new-mark ] ;
+    surv:purpose wa-surveypoint-purpose:internal-boundary ;
+    geojson:geometry [ a geojson:Point ;
+            geojson:coordinates ( 5.469434e+04 3.986152e+05 ) ] .
+
+<https://www.wa-example.com/features/17876571> a surv:BoundaryMark,
+        geojson:Feature ;
+    commonpatterns:qualityMeasure 1.2e-02 ;
+    surv:monumentedBy [ surv:condition wa-monument-condition:ok ;
+            surv:form wa-monument-form:peg ;
+            surv:state wa-monument-state:new-mark ] ;
+    surv:purpose wa-surveypoint-purpose:road-boundary ;
+    geojson:geometry [ a geojson:Point ;
+            geojson:coordinates ( 5.472964e+04 3.985912e+05 ) ] .
+
+<https://www.wa-example.com/features/17876572> a surv:BoundaryMark,
+        geojson:Feature ;
+    commonpatterns:qualityMeasure 1.2e-02 ;
+    surv:monumentedBy [ surv:condition wa-monument-condition:ok ;
+            surv:form wa-monument-form:peg ;
+            surv:state wa-monument-state:new-mark ] ;
+    surv:purpose wa-surveypoint-purpose:internal-boundary ;
+    geojson:geometry [ a geojson:Point ;
+            geojson:coordinates ( 5.469464e+04 3.985908e+05 ) ] .
+
+<https://www.wa-example.com/features/17876589> a surv:BoundaryMark,
+        geojson:Feature ;
+    commonpatterns:qualityMeasure 1e-02 ;
+    surv:monumentedBy [ surv:condition wa-monument-condition:ok ;
+            surv:form wa-monument-form:peg ;
+            surv:state wa-monument-state:new-mark ] ;
+    surv:purpose wa-surveypoint-purpose:road-boundary ;
+    geojson:geometry [ a geojson:Point ;
+            geojson:coordinates ( 5.473022e+04 3.985424e+05 ) ] .
+
+<https://www.wa-example.com/features/17876595> a surv:BoundaryMark,
+        geojson:Feature ;
+    commonpatterns:qualityMeasure 1.2e-02 ;
+    surv:monumentedBy [ surv:condition wa-monument-condition:ok ;
+            surv:form wa-monument-form:peg ;
+            surv:state wa-monument-state:new-mark ] ;
+    surv:purpose wa-surveypoint-purpose:road-boundary ;
+    geojson:geometry [ a geojson:Point ;
+            geojson:coordinates ( 5.472993e+04 3.985668e+05 ) ] .
+
+<https://www.wa-example.com/features/17876597> a surv:BoundaryMark,
+        geojson:Feature ;
+    commonpatterns:qualityMeasure 1.2e-02 ;
+    surv:monumentedBy [ surv:condition wa-monument-condition:ok ;
+            surv:form wa-monument-form:peg ;
+            surv:state wa-monument-state:new-mark ] ;
+    surv:purpose wa-surveypoint-purpose:internal-boundary ;
+    geojson:geometry [ a geojson:Point ;
+            geojson:coordinates ( 5.469493e+04 3.985664e+05 ) ] .
+
+<https://www.wa-example.com/features/17876599> a surv:BoundaryMark,
+        geojson:Feature ;
+    commonpatterns:qualityMeasure 1.1e-02 ;
+    surv:monumentedBy [ surv:condition wa-monument-condition:ok ;
+            surv:form wa-monument-form:peg ;
+            surv:state wa-monument-state:new-mark ] ;
+    surv:purpose wa-surveypoint-purpose:internal-boundary ;
+    geojson:geometry [ a geojson:Point ;
+            geojson:coordinates ( 5.469522e+04 3.98542e+05 ) ] .
+
+<https://www.wa-example.com/features/17876600> a surv:BoundaryMark,
+        geojson:Feature ;
+    commonpatterns:qualityMeasure 1e-02 ;
+    surv:monumentedBy [ surv:state wa-monument-state:unmarked ] ;
+    surv:purpose wa-surveypoint-purpose:interest-boundary ;
+    geojson:geometry [ a geojson:Point ;
+            geojson:coordinates ( 5.473591e+04 3.985284e+05 ) ] .
+
+<https://www.wa-example.com/features/17876569> a surv:BoundaryMark,
+        geojson:Feature ;
+    commonpatterns:qualityMeasure 1.1e-02 ;
+    surv:monumentedBy [ surv:state wa-monument-state:unmarked ] ;
+    surv:purpose wa-surveypoint-purpose:interest-boundary ;
+    geojson:geometry [ a geojson:Point ;
+            geojson:coordinates ( 5.469584e+04 3.986152e+05 ) ] .
+
+<https://www.wa-example.com/features/17876582> a surv:BoundaryMark,
+        geojson:Feature ;
+    commonpatterns:qualityMeasure 1.2e-02 ;
+    surv:monumentedBy [ surv:state wa-monument-state:unmarked ] ;
+    surv:purpose wa-surveypoint-purpose:interest-boundary ;
+    geojson:geometry [ a geojson:Point ;
+            geojson:coordinates ( 5.469614e+04 3.985908e+05 ) ] .
+
+<https://www.wa-example.com/features/17876596> a surv:BoundaryMark,
+        geojson:Feature ;
+    commonpatterns:qualityMeasure 1.2e-02 ;
+    surv:monumentedBy [ surv:state wa-monument-state:unmarked ] ;
+    surv:purpose wa-surveypoint-purpose:interest-boundary ;
+    geojson:geometry [ a geojson:Point ;
+            geojson:coordinates ( 5.469643e+04 3.985664e+05 ) ] .
+
+<https://www.wa-example.com/features/17876598> a surv:BoundaryMark,
+        geojson:Feature ;
+    commonpatterns:qualityMeasure 1.1e-02 ;
+    surv:monumentedBy [ surv:state wa-monument-state:unmarked ] ;
+    surv:purpose wa-surveypoint-purpose:interest-boundary ;
+    geojson:geometry [ a geojson:Point ;
+            geojson:coordinates ( 5.469672e+04 3.98542e+05 ) ] .
+

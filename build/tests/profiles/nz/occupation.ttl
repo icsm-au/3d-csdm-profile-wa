@@ -1,0 +1,1216 @@
+@prefix commonpatterns: <https://linked.data.gov.au/def/csdm/commonpatterns/> .
+@prefix container: <https://linked.data.gov.au/def/csdm/container/> .
+@prefix csd: <https://linked.data.gov.au/def/csdm/csd/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix epsg: <http://www.opengis.net/def/crs/EPSG/0/> .
+@prefix geojson: <https://purl.org/geojson/vocab#> .
+@prefix icsm-admin-unit-type: <https://linked.data.gov.au/def/csdm/icsm-admin-unit-type/> .
+@prefix icsm-angle-type: <https://linked.data.gov.au/def/csdm/icsm-angle-type/> .
+@prefix icsm-distance-type: <https://linked.data.gov.au/def/csdm/icsm-distance-type/> .
+@prefix icsm-equipment-type: <https://linked.data.gov.au/def/csdm/icsm-equipment-type/> .
+@prefix icsm-procedure-used: <https://linked.data.gov.au/def/csdm/icsm-procedure-used/> .
+@prefix ns1: <http://www.iana.org/assignments/> .
+@prefix ns2: <https://linked.data.gov.au/def/csdm/surveyobs/> .
+@prefix nz-interest-type: <https://linked.data.gov.au/def/csdm/nz-interest-type/> .
+@prefix nz-land-district: <https://linked.data.gov.au/def/csdm/nz-land-district/> .
+@prefix nz-monument-condition: <https://linked.data.gov.au/def/csdm/nz-monument-condition/> .
+@prefix nz-monument-form: <https://linked.data.gov.au/def/csdm/nz-monument-form/> .
+@prefix nz-monument-state: <https://linked.data.gov.au/def/csdm/nz-monument-state/> .
+@prefix nz-parcel-purpose: <https://linked.data.gov.au/def/csdm/nz-parcel-purpose/> .
+@prefix nz-parcel-state: <https://linked.data.gov.au/def/csdm/nz-parcel-state/> .
+@prefix nz-parcel-type: <https://linked.data.gov.au/def/csdm/nz-parcel-type/> .
+@prefix nz-point-class: <https://linked.data.gov.au/def/csdm/nz-point-class/> .
+@prefix nz-survey-class: <https://linked.data.gov.au/def/csdm/nz-survey-class/> .
+@prefix nz-survey-purpose: <https://linked.data.gov.au/def/csdm/nz-survey-purpose/> .
+@prefix nz-survey-type: <https://linked.data.gov.au/def/csdm/nz-survey-type/> .
+@prefix nz-surveypoint-purpose: <https://linked.data.gov.au/def/csdm/nz-surveypoint-purpose/> .
+@prefix nz-territorial-authority: <https://linked.data.gov.au/def/csdm/nz-territorial-authority/> .
+@prefix oa: <http://www.w3.org/ns/oa#> .
+@prefix parcel: <https://linked.data.gov.au/def/csdm/parcels/> .
+@prefix prof: <http://www.w3.org/ns/dx/prof/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sosa: <http://www.w3.org/ns/sosa/> .
+@prefix surv: <https://linked.data.gov.au/def/csdm/surveyfeatures/> .
+@prefix surveyable: <https://linked.data.gov.au/def/csdm/defs/surveyableproperties/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://www.nz-example.com/features/LT_584372> a csd:CSD,
+        geojson:FeatureCollection ;
+    rdfs:label "LT 584372" ;
+    container:adminUnit [ ns1:relation <http://www.iana.org/assignments/relation/related> ;
+            prof:hasRole icsm-admin-unit-type:landDistrict ;
+            oa:hasTarget nz-land-district:SA ],
+        [ ns1:relation <http://www.iana.org/assignments/relation/related> ;
+            prof:hasRole icsm-admin-unit-type:territorialAuthority ;
+            oa:hasTarget nz-territorial-authority:024 ] ;
+    container:bearingRotation 0e+00 ;
+    container:horizontalCRS epsg:2106 ;
+    container:observedVectors <https://www.nz-example.com/features/observedVectors> ;
+    container:occupationFeatures <https://www.nz-example.com/features/occupation-example> ;
+    container:parcels <https://www.nz-example.com/features/PrimaryParcels> ;
+    container:points <https://www.nz-example.com/features/BoundaryMarks>,
+        <https://www.nz-example.com/features/CadastralMarks>,
+        <https://www.nz-example.com/features/GeodeticReferenceMarks>,
+        <https://www.nz-example.com/features/OccupationMarks> ;
+    container:purpose nz-survey-purpose:lts ;
+    container:referencedCSD <https://www.nz-example.com/features/SO_11240>,
+        <https://www.nz-example.com/features/SO_425484>,
+        <https://www.nz-example.com/features/SO_49866>,
+        <https://www.nz-example.com/features/SO_503288> ;
+    container:surveyType nz-survey-type:ltp ;
+    container:vectorObservations <vectorobservation:calculation>,
+        <vectorobservation:gnss>,
+        <vectorobservation:theodolite+edm> .
+
+<https://linked.data.gov.au/def/csdm/sensors/568925> surv:sensorType icsm-equipment-type:p .
+
+<https://linked.data.gov.au/def/csdm/sensors/ts-13> sosa:hasSubSystem <https://linked.data.gov.au/def/csdm/sensors/568925>,
+        <sensordesc:876543456377> ;
+    surv:lastCalibrated "2022-09-14T15:32:45" ;
+    surv:sensorType icsm-equipment-type:ts .
+
+<https://www.nz-example.com/features/385198> a geojson:Feature ;
+    rdfs:label "hedge" ;
+    geojson:geometry [ a geojson:LineString ;
+            geojson:coordinates ( "[176.08268337, -38.09973867]" "[176.08246492, -38.09945122]" ) ] .
+
+<https://www.nz-example.com/features/4494877> a geojson:Feature,
+        <https://www.nz-example.com/features/OccupationMark> ;
+    rdfs:label [ rdfs:label "Post II LT 584372" ;
+            dcterms:hasPart [ rdfs:label "584372" ;
+                    commonpatterns:namePartType "planIdentifier" ],
+                [ rdfs:label "II" ;
+                    commonpatterns:namePartType "MarkIdentifier" ],
+                [ rdfs:label "Post" ;
+                    commonpatterns:namePartType "MarkType" ],
+                [ rdfs:label "LT" ;
+                    commonpatterns:namePartType "PlanType" ] ] ;
+    rdfs:comment "Wooden Post" ;
+    surv:age "40+ years" ;
+    surv:purpose nz-surveypoint-purpose:occupation ;
+    geojson:geometry [ a geojson:Point ;
+            geojson:coordinates ( 7.62376e+05 3.664124e+05 ) ] ;
+    geojson:topology [ a <https://www.nz-example.com/features/Touches> ;
+            geojson:relatedFeatures ( <https://www.nz-example.com/features/964009> ) ] .
+
+<https://www.nz-example.com/features/8447685> a geojson:Feature ;
+    parcel:appellation [ rdfs:label "Lot 1 DP 584372" ;
+            dcterms:hasPart [ rdfs:label "Lot" ;
+                    commonpatterns:namePartType "ParcelType" ],
+                [ rdfs:label "584372" ;
+                    commonpatterns:namePartType "PlanIdentifier" ],
+                [ rdfs:label "1" ;
+                    commonpatterns:namePartType "ParcelIdentifier" ],
+                [ rdfs:label "DP" ;
+                    commonpatterns:namePartType "PlanType" ] ] ;
+    parcel:interest [ parcel:interestLink <https://www.nz-example.com/features/1113155> ;
+            parcel:interestType nz-interest-type:c-t ] ;
+    parcel:purpose nz-parcel-purpose:fst ;
+    parcel:state nz-parcel-state:c ;
+    parcel:surfaceArea 3.885e+03 ;
+    parcel:type nz-parcel-type:l ;
+    geojson:topology [ a geojson:Polygon ;
+            geojson:relatedFeatures ( "['14392241', '38534715', '38534714', '38534713']" ) ] .
+
+<https://www.nz-example.com/features/8447686> a geojson:Feature ;
+    parcel:appellation [ rdfs:label "Lot 2 DP 584372" ;
+            dcterms:hasPart [ rdfs:label "Lot" ;
+                    commonpatterns:namePartType "ParcelType" ],
+                [ rdfs:label "584372" ;
+                    commonpatterns:namePartType "PlanIdentifier" ],
+                [ rdfs:label "2" ;
+                    commonpatterns:namePartType "ParcelIdentifier" ],
+                [ rdfs:label "DP" ;
+                    commonpatterns:namePartType "PlanType" ] ] ;
+    parcel:interest [ parcel:interestLink <https://www.nz-example.com/features/1113156> ;
+            parcel:interestType nz-interest-type:c-t ] ;
+    parcel:purpose nz-parcel-purpose:fst ;
+    parcel:state nz-parcel-state:c ;
+    parcel:surfaceArea 5.526e+03 ;
+    parcel:type nz-parcel-type:l ;
+    geojson:topology [ a geojson:Polygon ;
+            geojson:relatedFeatures ( "['14392113', '38534713', '38534716', '38534712', '38534711']" ) ] .
+
+<https://www.nz-example.com/features/8447687> a geojson:Feature ;
+    parcel:appellation "Part Section 8 Block XXIV Village of Mamaku" ;
+    parcel:purpose nz-parcel-purpose:residual ;
+    parcel:state nz-parcel-state:c ;
+    parcel:surfaceArea 1.62e+02 ;
+    parcel:type nz-parcel-type:l ;
+    geojson:topology [ a geojson:Polygon ;
+            geojson:relatedFeatures ( "['38534714', '38534710', '14727513', '38534708']" ) ] .
+
+<https://www.nz-example.com/features/8447688> a geojson:Feature ;
+    parcel:appellation "Part Section 9 Block XXIV Village of Mamaku" ;
+    parcel:purpose nz-parcel-purpose:residual ;
+    parcel:state nz-parcel-state:c ;
+    parcel:surfaceArea 1.21e+02 ;
+    parcel:type nz-parcel-type:l ;
+    geojson:topology [ a geojson:Polygon ;
+            geojson:relatedFeatures ( "['38534716', '38534708', '14390704', '38534709', '38534712']" ) ] .
+
+<https://www.nz-example.com/features/964015> a geojson:Feature ;
+    rdfs:label "fence" ;
+    geojson:geometry [ a geojson:LineString ;
+            geojson:coordinates ( "[176.08243121, -38.09946472]" "[176.082448, -38.09945791]" ) ] .
+
+<https://www.nz-example.com/features/964016> a geojson:Feature ;
+    rdfs:label "fence" ;
+    geojson:geometry [ a geojson:LineString ;
+            geojson:coordinates ( "[176.0823801, -38.09943924]" "[176.08224625, -38.09925705]" "[176.08223373, -38.09920271]" "[176.08220544, -38.099155]" "[176.08217484, -38.0991052]" "[176.08213262, -38.09905031]" ) ] .
+
+<https://www.nz-example.com/features/964017> a geojson:Feature ;
+    rdfs:label "fence" ;
+    geojson:geometry [ a geojson:LineString ;
+            geojson:coordinates ( "[176.08166619, -38.09896936]" "[176.08198362, -38.09882607]" "[176.08239998, -38.09863818]" "[176.08235395, -38.09858454]" ) ] .
+
+<https://www.nz-example.com/features/964018> a geojson:Feature ;
+    rdfs:label "fence" ;
+    geojson:geometry [ a geojson:LineString ;
+            geojson:coordinates ( "[176.08235395, -38.09858454]" "[176.08235443, -38.09853161]" ) ] .
+
+<https://www.nz-example.com/features/964020> a geojson:Feature ;
+    rdfs:label "fence" ;
+    geojson:geometry [ a geojson:LineString ;
+            geojson:coordinates ( "[176.08235443, -38.09853161]" "[176.0826087, -38.0984135]" ) ] .
+
+<https://www.nz-example.com/features/BoundaryMarks> a surv:BoundaryMark,
+        geojson:FeatureCollection ;
+    geojson:features <https://www.nz-example.com/features/27949321>,
+        <https://www.nz-example.com/features/27949881>,
+        <https://www.nz-example.com/features/27950290>,
+        <https://www.nz-example.com/features/49706975>,
+        <https://www.nz-example.com/features/49706976>,
+        <https://www.nz-example.com/features/49706977>,
+        <https://www.nz-example.com/features/49706979>,
+        <https://www.nz-example.com/features/49706980>,
+        <https://www.nz-example.com/features/49706981>,
+        <https://www.nz-example.com/features/49706982> .
+
+<https://www.nz-example.com/features/CadastralMarks> a surv:CadastralMark,
+        geojson:FeatureCollection ;
+    geojson:features <https://www.nz-example.com/features/41907764>,
+        <https://www.nz-example.com/features/49706978> .
+
+<https://www.nz-example.com/features/GeodeticReferenceMarks> a surv:GeodeticReferenceMark,
+        geojson:FeatureCollection ;
+    geojson:features <https://www.nz-example.com/features/38969639> .
+
+<https://www.nz-example.com/features/OccupationMarks> a geojson:FeatureCollection,
+        <https://www.nz-example.com/features/OccupationMark> ;
+    geojson:features <https://www.nz-example.com/features/4494876>,
+        <https://www.nz-example.com/features/4494877>,
+        <https://www.nz-example.com/features/4494878>,
+        <https://www.nz-example.com/features/4494879>,
+        <https://www.nz-example.com/features/4494880>,
+        <https://www.nz-example.com/features/4494881>,
+        <https://www.nz-example.com/features/4494882>,
+        <https://www.nz-example.com/features/4494883>,
+        <https://www.nz-example.com/features/4494884>,
+        <https://www.nz-example.com/features/4494885> .
+
+<https://www.nz-example.com/features/PrimaryParcels> a parcel:PrimaryParcel,
+        geojson:FeatureCollection ;
+    geojson:features <https://www.nz-example.com/features/8447685>,
+        <https://www.nz-example.com/features/8447686>,
+        <https://www.nz-example.com/features/8447687>,
+        <https://www.nz-example.com/features/8447688> .
+
+<https://www.nz-example.com/features/SO_11240> rdfs:label "SO 11240" ;
+    container:adminUnit [ ns1:relation <http://www.iana.org/assignments/relation/related> ;
+            prof:hasRole icsm-admin-unit-type:landDistrict ;
+            oa:hasTarget nz-land-district:SA ] ;
+    container:bearingRotation 0e+00 .
+
+<https://www.nz-example.com/features/SO_425484> rdfs:label "SO 425484" ;
+    container:adminUnit [ ns1:relation <http://www.iana.org/assignments/relation/related> ;
+            prof:hasRole icsm-admin-unit-type:landDistrict ;
+            oa:hasTarget nz-land-district:SA ] ;
+    container:bearingRotation 0e+00 .
+
+<https://www.nz-example.com/features/SO_49866> rdfs:label "SO 49866" ;
+    container:adminUnit [ ns1:relation <http://www.iana.org/assignments/relation/related> ;
+            prof:hasRole icsm-admin-unit-type:landDistrict ;
+            oa:hasTarget nz-land-district:SA ] ;
+    container:bearingRotation 0e+00 .
+
+<https://www.nz-example.com/features/SO_503288> rdfs:label "SO 503288" ;
+    container:adminUnit [ ns1:relation <http://www.iana.org/assignments/relation/related> ;
+            prof:hasRole icsm-admin-unit-type:landDistrict ;
+            oa:hasTarget nz-land-district:SA ] ;
+    container:bearingRotation 0e+00 .
+
+<https://www.nz-example.com/features/observedVectors> a surv:ObservedVector,
+        geojson:FeatureCollection ;
+    geojson:features <https://www.nz-example.com/features/14390704>,
+        <https://www.nz-example.com/features/14392113>,
+        <https://www.nz-example.com/features/14392241>,
+        <https://www.nz-example.com/features/14727513>,
+        <https://www.nz-example.com/features/38534708>,
+        <https://www.nz-example.com/features/38534709>,
+        <https://www.nz-example.com/features/38534710>,
+        <https://www.nz-example.com/features/38534711>,
+        <https://www.nz-example.com/features/38534712>,
+        <https://www.nz-example.com/features/38534713>,
+        <https://www.nz-example.com/features/38534714>,
+        <https://www.nz-example.com/features/38534715>,
+        <https://www.nz-example.com/features/38534716>,
+        <https://www.nz-example.com/features/7986257>,
+        <https://www.nz-example.com/features/7986258>,
+        <https://www.nz-example.com/features/7986259>,
+        <https://www.nz-example.com/features/7986260>,
+        <https://www.nz-example.com/features/7986261>,
+        <https://www.nz-example.com/features/7986262>,
+        <https://www.nz-example.com/features/7986263>,
+        <https://www.nz-example.com/features/7986264>,
+        <https://www.nz-example.com/features/7986265>,
+        <https://www.nz-example.com/features/7986266>,
+        <https://www.nz-example.com/features/8698340>,
+        <https://www.nz-example.com/features/8698344>,
+        <https://www.nz-example.com/features/8698353>,
+        <https://www.nz-example.com/features/8698357>,
+        <https://www.nz-example.com/features/8698359>,
+        <https://www.nz-example.com/features/8698363>,
+        <https://www.nz-example.com/features/8698364> .
+
+<https://www.nz-example.com/features/occupation-example> a geojson:FeatureCollection ;
+    geojson:features <https://www.nz-example.com/features/385198>,
+        <https://www.nz-example.com/features/434428>,
+        <https://www.nz-example.com/features/964008>,
+        <https://www.nz-example.com/features/964009>,
+        <https://www.nz-example.com/features/964010>,
+        <https://www.nz-example.com/features/964011>,
+        <https://www.nz-example.com/features/964012>,
+        <https://www.nz-example.com/features/964013>,
+        <https://www.nz-example.com/features/964014>,
+        <https://www.nz-example.com/features/964015>,
+        <https://www.nz-example.com/features/964016>,
+        <https://www.nz-example.com/features/964017>,
+        <https://www.nz-example.com/features/964018>,
+        <https://www.nz-example.com/features/964019>,
+        <https://www.nz-example.com/features/964020>,
+        <https://www.nz-example.com/features/964021>,
+        <https://www.nz-example.com/features/964022> .
+
+<sensordesc:785439870523> surv:lastCalibrated "2022-09-14T15:32:45" ;
+    surv:sensorRole <https://linked.data.gov.au/def/csdm/sensors/base> ;
+    surv:sensorType icsm-equipment-type:gnss .
+
+<sensordesc:785439870524> surv:lastCalibrated "2022-09-14T15:35:05" ;
+    surv:sensorRole <https://linked.data.gov.au/def/csdm/sensors/rover> ;
+    surv:sensorType icsm-equipment-type:gnss .
+
+<sensordesc:876543456377> surv:sensorType icsm-equipment-type:ts .
+
+<vectorobservation:calculation> a sosa:ObservationCollection,
+        geojson:FeatureCollection ;
+    sosa:hasMember [ a geojson:Feature ;
+            sosa:hasFeatureOfInterest <https://www.nz-example.com/features/38534709> ;
+            sosa:hasResult [ surv:distance 1.14e+00 ] ;
+            sosa:hasResultQuality [ ns2:angleAccuracyClass nz-survey-class:A ;
+                    ns2:angleAccuracyMeasure 2.54332e-01 ;
+                    ns2:distanceAccuracyClass nz-survey-class:A ;
+                    ns2:distanceAccuracyMeasure 1.000456e-04 ] ;
+            sosa:resultTime "2022-10-29T00:00:00" ;
+            ns2:angleType icsm-distance-type:calculated ;
+            ns2:distanceType icsm-distance-type:calculated ],
+        [ a geojson:Feature ;
+            sosa:hasFeatureOfInterest <https://www.nz-example.com/features/14392113> ;
+            sosa:hasResult [ surv:distance 5.613e+01 ] ;
+            sosa:hasResultQuality [ ns2:angleAccuracyClass nz-survey-class:A ;
+                    ns2:angleAccuracyMeasure 3.958191e-04 ;
+                    ns2:distanceAccuracyClass nz-survey-class:A ;
+                    ns2:distanceAccuracyMeasure 3.798757e-04 ] ;
+            sosa:resultTime "2022-10-29T00:00:00" ;
+            ns2:angleType icsm-distance-type:calculated ;
+            ns2:distanceType icsm-distance-type:adopted ],
+        [ a geojson:Feature ;
+            sosa:hasFeatureOfInterest <https://www.nz-example.com/features/14727513> ;
+            sosa:hasResult [ surv:distance 4.023e+01 ] ;
+            sosa:hasResultQuality [ ns2:angleAccuracyClass nz-survey-class:A ;
+                    ns2:angleAccuracyMeasure 2.547512e-04 ;
+                    ns2:distanceAccuracyClass nz-survey-class:A ;
+                    ns2:distanceAccuracyMeasure 1.016157e-04 ] ;
+            sosa:resultTime "2022-10-29T00:00:00" ;
+            ns2:angleType icsm-distance-type:calculated ;
+            ns2:distanceType icsm-distance-type:adopted ],
+        [ a geojson:Feature ;
+            sosa:hasFeatureOfInterest <https://www.nz-example.com/features/38534716> ;
+            sosa:hasResult [ surv:distance 1.303e+01 ] ;
+            sosa:hasResultQuality [ ns2:angleAccuracyClass nz-survey-class:A ;
+                    ns2:angleAccuracyMeasure 2.087674e-03 ;
+                    ns2:distanceAccuracyClass nz-survey-class:A ;
+                    ns2:distanceAccuracyMeasure 1.005219e-04 ] ;
+            sosa:resultTime "2022-10-29T00:00:00" ;
+            ns2:angleType icsm-distance-type:calculated ;
+            ns2:distanceType icsm-distance-type:calculated ],
+        [ a geojson:Feature ;
+            sosa:hasFeatureOfInterest <https://www.nz-example.com/features/38534708> ;
+            sosa:hasResult [ surv:distance 3.45e+00 ] ;
+            sosa:hasResultQuality [ ns2:angleAccuracyClass nz-survey-class:A ;
+                    ns2:angleAccuracyMeasure 2.815469e-02 ;
+                    ns2:distanceAccuracyClass nz-survey-class:A ;
+                    ns2:distanceAccuracyMeasure 1.00138e-04 ] ;
+            sosa:resultTime "2022-10-29T00:00:00" ;
+            ns2:angleType icsm-distance-type:calculated ;
+            ns2:distanceType icsm-distance-type:calculated ],
+        [ a geojson:Feature ;
+            sosa:hasFeatureOfInterest <https://www.nz-example.com/features/14390704> ;
+            sosa:hasResult [ surv:distance 5.613e+01 ] ;
+            sosa:hasResultQuality [ ns2:angleAccuracyClass nz-survey-class:A ;
+                    ns2:angleAccuracyMeasure 1.42243e-04 ;
+                    ns2:distanceAccuracyClass nz-survey-class:A ;
+                    ns2:distanceAccuracyMeasure 1.022578e-04 ] ;
+            sosa:resultTime "2022-10-29T00:00:00" ;
+            ns2:angleType icsm-distance-type:calculated ;
+            ns2:distanceType icsm-distance-type:adopted ],
+        [ a geojson:Feature ;
+            sosa:hasFeatureOfInterest <https://www.nz-example.com/features/38534710> ;
+            sosa:hasResult [ surv:distance 4.65e+00 ] ;
+            sosa:hasResultQuality [ ns2:angleAccuracyClass nz-survey-class:A ;
+                    ns2:angleAccuracyMeasure 1.560891e-02 ;
+                    ns2:distanceAccuracyClass nz-survey-class:A ;
+                    ns2:distanceAccuracyMeasure 1.001861e-04 ] ;
+            sosa:resultTime "2022-10-29T00:00:00" ;
+            ns2:angleType icsm-distance-type:adopted ;
+            ns2:distanceType icsm-distance-type:calculated ],
+        [ a geojson:Feature ;
+            sosa:hasFeatureOfInterest <https://www.nz-example.com/features/38534713> ;
+            sosa:hasResult [ surv:distance 9.717e+01 ] ;
+            sosa:hasResultQuality [ ns2:angleAccuracyClass nz-survey-class:A ;
+                    ns2:angleAccuracyMeasure 5.799311e-05 ;
+                    ns2:distanceAccuracyClass nz-survey-class:A ;
+                    ns2:distanceAccuracyMeasure 1.039246e-04 ] ;
+            sosa:resultTime "2022-10-29T00:00:00" ;
+            ns2:angleType icsm-distance-type:calculated ;
+            ns2:distanceType icsm-distance-type:calculated ],
+        [ a geojson:Feature ;
+            sosa:hasFeatureOfInterest <https://www.nz-example.com/features/38534712> ;
+            sosa:hasResult [ surv:distance 4.314e+01 ] ;
+            sosa:hasResultQuality [ ns2:angleAccuracyClass nz-survey-class:A ;
+                    ns2:angleAccuracyMeasure 2.25007e-04 ;
+                    ns2:distanceAccuracyClass nz-survey-class:A ;
+                    ns2:distanceAccuracyMeasure 1.01733e-04 ] ;
+            sosa:resultTime "2022-10-29T00:00:00" ;
+            ns2:angleType icsm-distance-type:calculated ;
+            ns2:distanceType icsm-distance-type:calculated ],
+        [ a geojson:Feature ;
+            sosa:hasFeatureOfInterest <https://www.nz-example.com/features/14392241> ;
+            sosa:hasResult [ surv:distance 4.023e+01 ] ;
+            sosa:hasResultQuality [ ns2:angleAccuracyClass nz-survey-class:A ;
+                    ns2:angleAccuracyMeasure 6.732334e-04 ;
+                    ns2:distanceAccuracyClass nz-survey-class:A ;
+                    ns2:distanceAccuracyMeasure 3.319101e-04 ] ;
+            sosa:resultTime "2022-10-29T00:00:00" ;
+            ns2:angleType icsm-distance-type:calculated ;
+            ns2:distanceType icsm-distance-type:adopted ],
+        [ a geojson:Feature ;
+            sosa:hasFeatureOfInterest <https://www.nz-example.com/features/38534714> ;
+            sosa:hasResult [ surv:distance 4.025e+01 ] ;
+            sosa:hasResultQuality [ ns2:angleAccuracyClass nz-survey-class:A ;
+                    ns2:angleAccuracyMeasure 2.545253e-04 ;
+                    ns2:distanceAccuracyClass nz-survey-class:A ;
+                    ns2:distanceAccuracyMeasure 1.016165e-04 ] ;
+            sosa:resultTime "2022-10-29T00:00:00" ;
+            ns2:angleType icsm-distance-type:calculated ;
+            ns2:distanceType icsm-distance-type:calculated ],
+        [ a geojson:Feature ;
+            sosa:hasFeatureOfInterest <https://www.nz-example.com/features/38534715> ;
+            sosa:hasResult [ surv:distance 9.597e+01 ] ;
+            sosa:hasResultQuality [ ns2:angleAccuracyClass nz-survey-class:A ;
+                    ns2:angleAccuracyMeasure 5.912148e-05 ;
+                    ns2:distanceAccuracyClass nz-survey-class:A ;
+                    ns2:distanceAccuracyMeasure 1.038756e-04 ] ;
+            sosa:resultTime "2022-10-29T00:00:00" ;
+            ns2:angleType icsm-distance-type:adopted ;
+            ns2:distanceType icsm-distance-type:calculated ],
+        [ a geojson:Feature ;
+            sosa:hasFeatureOfInterest <https://www.nz-example.com/features/38534711> ;
+            sosa:hasResult [ surv:distance 9.948e+01 ] ;
+            sosa:hasResultQuality [ ns2:angleAccuracyClass nz-survey-class:A ;
+                    ns2:angleAccuracyMeasure 5.592648e-05 ;
+                    ns2:distanceAccuracyClass nz-survey-class:A ;
+                    ns2:distanceAccuracyMeasure 1.040188e-04 ] ;
+            sosa:resultTime "2022-10-29T00:00:00" ;
+            ns2:angleType icsm-distance-type:calculated ;
+            ns2:distanceType icsm-distance-type:calculated ] ;
+    sosa:madeBySensor [ surv:sensorType icsm-equipment-type:software ] ;
+    sosa:observedProperty surveyable:VectorDetermination ;
+    sosa:resultTime "2022-10-29T00:00:00Z" ;
+    sosa:usedProcedure icsm-procedure-used:calculated .
+
+<vectorobservation:gnss> a sosa:ObservationCollection,
+        geojson:FeatureCollection ;
+    sosa:hasMember [ a geojson:Feature ;
+            sosa:hasFeatureOfInterest <https://www.nz-example.com/features/8698359> ;
+            sosa:hasResult [ surv:distance 1.0059e+02 ] ;
+            sosa:resultTime "2022-10-29T00:00:00" ;
+            ns2:angleAccuracyMeasure 3.376265e-05 ;
+            ns2:angleType icsm-angle-type:bearing ;
+            ns2:distanceAccuracyMeasure 1.040641e-04 ;
+            ns2:distanceType icsm-distance-type:ellipsoid ] ;
+    sosa:madeBySensor [ sosa:hasSubSystem <sensordesc:785439870523>,
+                <sensordesc:785439870524> ;
+            surv:sensorType icsm-equipment-type:gnss ] ;
+    sosa:observedProperty surveyable:VectorDetermination ;
+    sosa:resultTime "2022-10-29T00:00:00" ;
+    sosa:usedProcedure icsm-procedure-used:measured .
+
+<vectorobservation:theodolite+edm> a sosa:ObservationCollection,
+        geojson:FeatureCollection ;
+    sosa:hasMember [ a geojson:Feature ;
+            sosa:hasFeatureOfInterest <https://www.nz-example.com/features/7986260> ;
+            sosa:hasResult [ surv:distance 3.028e+01 ] ;
+            sosa:resultTime "2022-10-29T00:00:00" ;
+            ns2:angleAccuracyMeasure 4.868267e-05 ;
+            ns2:angleType icsm-angle-type:bearing ;
+            ns2:distanceAccuracyMeasure 5e-02 ;
+            ns2:distanceType icsm-distance-type:ellipsoid ],
+        [ a geojson:Feature ;
+            sosa:hasFeatureOfInterest <https://www.nz-example.com/features/7986262> ;
+            sosa:hasResult [ surv:distance 3.41e+01 ] ;
+            sosa:resultTime "2022-10-29T00:00:00" ;
+            ns2:angleAccuracyMeasure 4.868267e-05 ;
+            ns2:angleType icsm-angle-type:bearing ;
+            ns2:distanceAccuracyMeasure 5e-02 ;
+            ns2:distanceType icsm-distance-type:ellipsoid ],
+        [ a geojson:Feature ;
+            sosa:hasFeatureOfInterest <https://www.nz-example.com/features/8698364> ;
+            sosa:hasResult [ surv:distance 1.724e+01 ] ;
+            sosa:resultTime "2022-10-29T00:00:00" ;
+            ns2:angleAccuracyMeasure 1.221718e-03 ;
+            ns2:angleType icsm-angle-type:bearing ;
+            ns2:distanceAccuracyMeasure 1.006908e-04 ;
+            ns2:distanceType icsm-distance-type:ellipsoid ],
+        [ a geojson:Feature ;
+            sosa:hasFeatureOfInterest <https://www.nz-example.com/features/7986264> ;
+            sosa:hasResult [ surv:distance 6.936e+01 ] ;
+            sosa:resultTime "2022-10-29T00:00:00" ;
+            ns2:angleAccuracyMeasure 4.868267e-05 ;
+            ns2:angleType icsm-angle-type:bearing ;
+            ns2:distanceAccuracyMeasure 5e-02 ;
+            ns2:distanceType icsm-distance-type:ellipsoid ],
+        [ a geojson:Feature ;
+            sosa:hasFeatureOfInterest <https://www.nz-example.com/features/7986257> ;
+            sosa:hasResult [ surv:distance 3.663e+01 ] ;
+            sosa:resultTime "2022-10-29T00:00:00" ;
+            ns2:angleAccuracyMeasure 4.868267e-05 ;
+            ns2:angleType icsm-angle-type:bearing ;
+            ns2:distanceAccuracyMeasure 5e-02 ;
+            ns2:distanceType icsm-distance-type:ellipsoid ],
+        [ a geojson:Feature ;
+            sosa:hasFeatureOfInterest <https://www.nz-example.com/features/7986266> ;
+            sosa:hasResult [ surv:distance 1.2207e+02 ] ;
+            sosa:resultTime "2022-10-29T00:00:00" ;
+            ns2:angleAccuracyMeasure 4.868267e-05 ;
+            ns2:angleType icsm-angle-type:bearing ;
+            ns2:distanceAccuracyMeasure 5e-02 ;
+            ns2:distanceType icsm-distance-type:ellipsoid ],
+        [ a geojson:Feature ;
+            sosa:hasFeatureOfInterest <https://www.nz-example.com/features/7986265> ;
+            sosa:hasResult [ surv:distance 1.2072e+02 ] ;
+            sosa:resultTime "2022-10-29T00:00:00" ;
+            ns2:angleAccuracyMeasure 4.868267e-05 ;
+            ns2:angleType icsm-angle-type:bearing ;
+            ns2:distanceAccuracyMeasure 5e-02 ;
+            ns2:distanceType icsm-distance-type:ellipsoid ],
+        [ a geojson:Feature ;
+            sosa:hasFeatureOfInterest <https://www.nz-example.com/features/7986259> ;
+            sosa:hasResult [ surv:distance 1.723e+01 ] ;
+            sosa:resultTime "2022-10-29T00:00:00" ;
+            ns2:angleAccuracyMeasure 4.868267e-05 ;
+            ns2:angleType icsm-angle-type:bearing ;
+            ns2:distanceAccuracyMeasure 5e-02 ;
+            ns2:distanceType icsm-distance-type:ellipsoid ],
+        [ a geojson:Feature ;
+            sosa:hasFeatureOfInterest <https://www.nz-example.com/features/8698353> ;
+            sosa:hasResult [ surv:distance 7.178e+01 ] ;
+            sosa:resultTime "2022-10-29T00:00:00" ;
+            ns2:angleAccuracyMeasure 3.260344e-05 ;
+            ns2:angleType icsm-angle-type:bearing ;
+            ns2:distanceAccuracyMeasure 2.645621e-05 ;
+            ns2:distanceType icsm-distance-type:ellipsoid ],
+        [ a geojson:Feature ;
+            sosa:hasFeatureOfInterest <https://www.nz-example.com/features/7986258> ;
+            sosa:hasResult [ surv:distance 2.56e+01 ] ;
+            sosa:resultTime "2022-10-29T00:00:00" ;
+            ns2:angleAccuracyMeasure 4.868267e-05 ;
+            ns2:angleType icsm-angle-type:bearing ;
+            ns2:distanceAccuracyMeasure 5e-02 ;
+            ns2:distanceType icsm-distance-type:ellipsoid ],
+        [ a geojson:Feature ;
+            sosa:hasFeatureOfInterest <https://www.nz-example.com/features/8698357> ;
+            sosa:hasResult [ surv:distance 2.871e+01 ] ;
+            sosa:resultTime "2022-10-29T00:00:00" ;
+            ns2:angleAccuracyMeasure 4.698319e-04 ;
+            ns2:angleType icsm-angle-type:bearing ;
+            ns2:distanceAccuracyMeasure 1.011517e-04 ;
+            ns2:distanceType icsm-distance-type:ellipsoid ],
+        [ a geojson:Feature ;
+            sosa:hasFeatureOfInterest <https://www.nz-example.com/features/8698344> ;
+            sosa:hasResult [ surv:distance 3.658e+01 ] ;
+            sosa:resultTime "2022-10-29T00:00:00" ;
+            ns2:angleAccuracyMeasure 3.021345e-04 ;
+            ns2:angleType icsm-angle-type:bearing ;
+            ns2:distanceAccuracyMeasure 1.014686e-04 ;
+            ns2:distanceType icsm-distance-type:ellipsoid ],
+        [ a geojson:Feature ;
+            sosa:hasFeatureOfInterest <https://www.nz-example.com/features/8698363> ;
+            sosa:hasResult [ surv:distance 2.557e+01 ] ;
+            sosa:resultTime "2022-10-29T00:00:00" ;
+            ns2:angleAccuracyMeasure 5.820782e-04 ;
+            ns2:angleType icsm-angle-type:bearing ;
+            ns2:distanceAccuracyMeasure 1.010254e-04 ;
+            ns2:distanceType icsm-distance-type:ellipsoid ],
+        [ a geojson:Feature ;
+            sosa:hasFeatureOfInterest <https://www.nz-example.com/features/7986261> ;
+            sosa:hasResult [ surv:distance 3.284e+01 ] ;
+            sosa:resultTime "2022-10-29T00:00:00" ;
+            ns2:angleAccuracyMeasure 4.868267e-05 ;
+            ns2:angleType icsm-angle-type:bearing ;
+            ns2:distanceAccuracyMeasure 5e-02 ;
+            ns2:distanceType icsm-distance-type:ellipsoid ],
+        [ a geojson:Feature ;
+            sosa:hasFeatureOfInterest <https://www.nz-example.com/features/8698340> ;
+            sosa:hasResult [ surv:distance 3.753e+01 ] ;
+            sosa:resultTime "2022-10-29T00:00:00" ;
+            ns2:angleAccuracyMeasure 2.885084e-04 ;
+            ns2:angleType icsm-angle-type:bearing ;
+            ns2:distanceAccuracyMeasure 1.015068e-04 ;
+            ns2:distanceType icsm-distance-type:ellipsoid ],
+        [ a geojson:Feature ;
+            sosa:hasFeatureOfInterest <https://www.nz-example.com/features/7986263> ;
+            sosa:hasResult [ surv:distance 2.099e+01 ] ;
+            sosa:resultTime "2022-10-29T00:00:00" ;
+            ns2:angleAccuracyMeasure 4.868267e-05 ;
+            ns2:angleType icsm-angle-type:bearing ;
+            ns2:distanceAccuracyMeasure 5e-02 ;
+            ns2:distanceType icsm-distance-type:ellipsoid ] ;
+    sosa:madeBySensor <https://linked.data.gov.au/def/csdm/sensors/ts-13> ;
+    sosa:observedProperty surveyable:VectorDetermination ;
+    sosa:resultTime "2022-10-29T00:00:00" ;
+    sosa:usedProcedure icsm-procedure-used:measured .
+
+<https://www.nz-example.com/features/14390704> a geojson:Feature ;
+    geojson:topology [ a geojson:LineString ;
+            geojson:relatedFeatures ( <https://www.nz-example.com/features/49706976> <https://www.nz-example.com/features/49706975> ) ] .
+
+<https://www.nz-example.com/features/14392113> a geojson:Feature ;
+    geojson:topology [ a geojson:LineString ;
+            geojson:relatedFeatures ( <https://www.nz-example.com/features/49706977> <https://www.nz-example.com/features/27950290> ) ] .
+
+<https://www.nz-example.com/features/14392241> a geojson:Feature ;
+    geojson:topology [ a geojson:LineString ;
+            geojson:relatedFeatures ( <https://www.nz-example.com/features/27950290> <https://www.nz-example.com/features/27949881> ) ] .
+
+<https://www.nz-example.com/features/14727513> a geojson:Feature ;
+    geojson:topology [ a geojson:LineString ;
+            geojson:relatedFeatures ( <https://www.nz-example.com/features/49706975> <https://www.nz-example.com/features/27949321> ) ] .
+
+<https://www.nz-example.com/features/38534708> a geojson:Feature ;
+    geojson:topology [ a geojson:LineString ;
+            geojson:relatedFeatures ( <https://www.nz-example.com/features/49706980> <https://www.nz-example.com/features/49706975> ) ] .
+
+<https://www.nz-example.com/features/38534709> a geojson:Feature ;
+    geojson:topology [ a geojson:LineString ;
+            geojson:relatedFeatures ( <https://www.nz-example.com/features/49706979> <https://www.nz-example.com/features/49706976> ) ] .
+
+<https://www.nz-example.com/features/38534710> a geojson:Feature ;
+    geojson:topology [ a geojson:LineString ;
+            geojson:relatedFeatures ( <https://www.nz-example.com/features/49706981> <https://www.nz-example.com/features/27949321> ) ] .
+
+<https://www.nz-example.com/features/38534711> a geojson:Feature ;
+    geojson:topology [ a geojson:LineString ;
+            geojson:relatedFeatures ( <https://www.nz-example.com/features/49706977> <https://www.nz-example.com/features/49706979> ) ] .
+
+<https://www.nz-example.com/features/38534712> a geojson:Feature ;
+    geojson:topology [ a geojson:LineString ;
+            geojson:relatedFeatures ( <https://www.nz-example.com/features/49706982> <https://www.nz-example.com/features/49706979> ) ] .
+
+<https://www.nz-example.com/features/38534713> a geojson:Feature ;
+    geojson:topology [ a geojson:LineString ;
+            geojson:relatedFeatures ( <https://www.nz-example.com/features/27950290> <https://www.nz-example.com/features/49706980> ) ] .
+
+<https://www.nz-example.com/features/38534714> a geojson:Feature ;
+    geojson:topology [ a geojson:LineString ;
+            geojson:relatedFeatures ( <https://www.nz-example.com/features/49706981> <https://www.nz-example.com/features/49706980> ) ] .
+
+<https://www.nz-example.com/features/38534715> a geojson:Feature ;
+    geojson:topology [ a geojson:LineString ;
+            geojson:relatedFeatures ( <https://www.nz-example.com/features/49706981> <https://www.nz-example.com/features/27949881> ) ] .
+
+<https://www.nz-example.com/features/38534716> a geojson:Feature ;
+    geojson:topology [ a geojson:LineString ;
+            geojson:relatedFeatures ( <https://www.nz-example.com/features/49706980> <https://www.nz-example.com/features/49706982> ) ] .
+
+<https://www.nz-example.com/features/4494876> a geojson:Feature,
+        <https://www.nz-example.com/features/OccupationMark> ;
+    rdfs:label [ rdfs:label "Post I LT 584372" ;
+            dcterms:hasPart [ rdfs:label "584372" ;
+                    commonpatterns:namePartType "planIdentifier" ],
+                [ rdfs:label "Post" ;
+                    commonpatterns:namePartType "MarkType" ],
+                [ rdfs:label "LT" ;
+                    commonpatterns:namePartType "PlanType" ],
+                [ rdfs:label "I" ;
+                    commonpatterns:namePartType "MarkIdentifier" ] ] ;
+    rdfs:comment "Wooden Post 7.6 m North East of Peg 1 LT 584372" ;
+    surv:age "40+ years" ;
+    surv:purpose nz-surveypoint-purpose:occupation ;
+    geojson:geometry [ a geojson:Point ;
+            geojson:coordinates ( 7.623949e+05 3.664575e+05 ) ] ;
+    geojson:topology [ a <https://www.nz-example.com/features/Touches> ;
+            geojson:relatedFeatures ( <https://www.nz-example.com/features/964008> <https://www.nz-example.com/features/964022> ) ] .
+
+<https://www.nz-example.com/features/4494878> a geojson:Feature,
+        <https://www.nz-example.com/features/OccupationMark> ;
+    rdfs:label [ rdfs:label "Post III LT 584372" ;
+            dcterms:hasPart [ rdfs:label "LT" ;
+                    commonpatterns:namePartType "PlanType" ],
+                [ rdfs:label "III" ;
+                    commonpatterns:namePartType "MarkIdentifier" ],
+                [ rdfs:label "Post" ;
+                    commonpatterns:namePartType "MarkType" ],
+                [ rdfs:label "584372" ;
+                    commonpatterns:namePartType "planIdentifier" ] ] ;
+    rdfs:comment "Wooden Gate Post" ;
+    surv:age "40+ years" ;
+    surv:purpose nz-surveypoint-purpose:occupation ;
+    geojson:geometry [ a geojson:Point ;
+            geojson:coordinates ( 7.623693e+05 3.664144e+05 ) ] ;
+    geojson:topology [ a <https://www.nz-example.com/features/Touches> ;
+            geojson:relatedFeatures ( <https://www.nz-example.com/features/964010> <https://www.nz-example.com/features/434428> ) ] .
+
+<https://www.nz-example.com/features/4494880> a geojson:Feature,
+        <https://www.nz-example.com/features/OccupationMark> ;
+    rdfs:label [ rdfs:label "Post V LT 584372" ;
+            dcterms:hasPart [ rdfs:label "Post" ;
+                    commonpatterns:namePartType "MarkType" ],
+                [ rdfs:label "V" ;
+                    commonpatterns:namePartType "MarkIdentifier" ],
+                [ rdfs:label "584372" ;
+                    commonpatterns:namePartType "planIdentifier" ],
+                [ rdfs:label "LT" ;
+                    commonpatterns:namePartType "PlanType" ] ] ;
+    rdfs:comment "Wooden Post 0.14m South West of Peg 2 LT 584372" ;
+    surv:age "60+ years" ;
+    surv:purpose nz-surveypoint-purpose:occupation ;
+    geojson:geometry [ a geojson:Point ;
+            geojson:coordinates ( 7.624766e+05 3.664002e+05 ) ] ;
+    geojson:topology [ a <https://www.nz-example.com/features/Touches> ;
+            geojson:relatedFeatures ( <https://www.nz-example.com/features/964008> <https://www.nz-example.com/features/964019> <https://www.nz-example.com/features/964014> ) ] .
+
+<https://www.nz-example.com/features/4494881> a geojson:Feature,
+        <https://www.nz-example.com/features/OccupationMark> ;
+    rdfs:label [ rdfs:label "Post VI LT 584372" ;
+            dcterms:hasPart [ rdfs:label "LT" ;
+                    commonpatterns:namePartType "PlanType" ],
+                [ rdfs:label "584372" ;
+                    commonpatterns:namePartType "PlanIdentifier" ],
+                [ rdfs:label "VI" ;
+                    commonpatterns:namePartType "MarkIdentifier" ],
+                [ rdfs:label "Post" ;
+                    commonpatterns:namePartType "MarkType" ] ] ;
+    rdfs:comment "Wooden Post 0.55m South East of Peg 8 LT 584372" ;
+    surv:age "40+ years" ;
+    surv:purpose nz-surveypoint-purpose:occupation ;
+    geojson:geometry [ a geojson:Point ;
+            geojson:coordinates ( 7.624537e+05 3.663644e+05 ) ] ;
+    geojson:topology [ a <https://www.nz-example.com/features/Touches> ;
+            geojson:relatedFeatures ( <https://www.nz-example.com/features/964014> ) ] .
+
+<https://www.nz-example.com/features/4494882> a geojson:Feature,
+        <https://www.nz-example.com/features/OccupationMark> ;
+    rdfs:label [ rdfs:label "Post VII LT 584372" ;
+            dcterms:hasPart [ rdfs:label "VII" ;
+                    commonpatterns:namePartType "MarkIdentifier" ],
+                [ rdfs:label "584372" ;
+                    commonpatterns:namePartType "PlanIdentifier" ],
+                [ rdfs:label "Post" ;
+                    commonpatterns:namePartType "MarkType" ],
+                [ rdfs:label "LT" ;
+                    commonpatterns:namePartType "PlanType" ] ] ;
+    rdfs:comment "Wooden Post 0.15 North of Peg 8 SO 503288" ;
+    surv:age "40+ years" ;
+    surv:purpose nz-surveypoint-purpose:occupation ;
+    geojson:geometry [ a geojson:Point ;
+            geojson:coordinates ( 7.623421e+05 3.663678e+05 ) ] ;
+    geojson:topology [ a <https://www.nz-example.com/features/Touches> ;
+            geojson:relatedFeatures ( <https://www.nz-example.com/features/964010> <https://www.nz-example.com/features/964011> <https://www.nz-example.com/features/964021> ) ] .
+
+<https://www.nz-example.com/features/4494883> a geojson:Feature,
+        <https://www.nz-example.com/features/OccupationMark> ;
+    rdfs:label [ rdfs:label "Post VIII LT 584372" ;
+            dcterms:hasPart [ rdfs:label "LT" ;
+                    commonpatterns:namePartType "PlanType" ],
+                [ rdfs:label "584372" ;
+                    commonpatterns:namePartType "PlanIdentifier" ],
+                [ rdfs:label "Post" ;
+                    commonpatterns:namePartType "MarkType" ],
+                [ rdfs:label "VIII" ;
+                    commonpatterns:namePartType "MarkIdentifier" ] ] ;
+    rdfs:comment "Wooden Post. Peg 4 LT 584372 on North face of post. Post is 13.8m South West of gate post." ;
+    surv:age "40+ years" ;
+    surv:purpose nz-surveypoint-purpose:occupation ;
+    geojson:geometry [ a geojson:Point ;
+            geojson:coordinates ( 7.623624e+05 3.664025e+05 ) ] ;
+    geojson:topology [ a <https://www.nz-example.com/features/Touches> ;
+            geojson:relatedFeatures ( <https://www.nz-example.com/features/964010> ) ] .
+
+<https://www.nz-example.com/features/4494884> a geojson:Feature,
+        <https://www.nz-example.com/features/OccupationMark> ;
+    rdfs:label [ rdfs:label "Post IX LT 584372" ;
+            dcterms:hasPart [ rdfs:label "Post" ;
+                    commonpatterns:namePartType "MarkType" ],
+                [ rdfs:label "584372" ;
+                    commonpatterns:namePartType "PlanIdentifier" ],
+                [ rdfs:label "LT" ;
+                    commonpatterns:namePartType "PlanType" ],
+                [ rdfs:label "IX" ;
+                    commonpatterns:namePartType "MarkIdentifier" ] ] ;
+    rdfs:comment "Old Totara Post 1.5m North West of Peg 4 SO 503288" ;
+    surv:age "60+ years" ;
+    surv:purpose nz-surveypoint-purpose:occupation ;
+    geojson:geometry [ a geojson:Point ;
+            geojson:coordinates ( 7.624295e+05 3.663154e+05 ) ] ;
+    geojson:topology [ a <https://www.nz-example.com/features/Touches> ;
+            geojson:relatedFeatures ( <https://www.nz-example.com/features/964012> ) ] .
+
+<https://www.nz-example.com/features/4494885> a geojson:Feature,
+        <https://www.nz-example.com/features/OccupationMark> ;
+    rdfs:label [ rdfs:label "Post X LT 584372" ;
+            dcterms:hasPart [ rdfs:label "X" ;
+                    commonpatterns:namePartType "MarkIdentifier" ],
+                [ rdfs:label "Post" ;
+                    commonpatterns:namePartType "MarkType" ],
+                [ rdfs:label "LT" ;
+                    commonpatterns:namePartType "PlanType" ],
+                [ rdfs:label "584372" ;
+                    commonpatterns:namePartType "PlanIdentifier" ] ] ;
+    rdfs:comment "Wooden Post 0.72m South West of Peg 7 LT 584372" ;
+    surv:age "40+ years" ;
+    surv:purpose nz-surveypoint-purpose:occupation ;
+    geojson:geometry [ a geojson:Point ;
+            geojson:coordinates ( 7.624242e+05 3.663184e+05 ) ] ;
+    geojson:topology [ a <https://www.nz-example.com/features/Touches> ;
+            geojson:relatedFeatures ( <https://www.nz-example.com/features/964013> <https://www.nz-example.com/features/964011> ) ] .
+
+<https://www.nz-example.com/features/7986257> a geojson:Feature ;
+    geojson:topology [ a geojson:LineString ;
+            geojson:relatedFeatures ( <https://www.nz-example.com/features/41907764> <https://www.nz-example.com/features/4494880> ) ] .
+
+<https://www.nz-example.com/features/7986258> a geojson:Feature ;
+    geojson:topology [ a geojson:LineString ;
+            geojson:relatedFeatures ( <https://www.nz-example.com/features/49706978> <https://www.nz-example.com/features/4494882> ) ] .
+
+<https://www.nz-example.com/features/7986259> a geojson:Feature ;
+    geojson:topology [ a geojson:LineString ;
+            geojson:relatedFeatures ( <https://www.nz-example.com/features/49706978> <https://www.nz-example.com/features/4494879> ) ] .
+
+<https://www.nz-example.com/features/7986260> a geojson:Feature ;
+    geojson:topology [ a geojson:LineString ;
+            geojson:relatedFeatures ( <https://www.nz-example.com/features/49706978> <https://www.nz-example.com/features/4494878> ) ] .
+
+<https://www.nz-example.com/features/7986261> a geojson:Feature ;
+    geojson:topology [ a geojson:LineString ;
+            geojson:relatedFeatures ( <https://www.nz-example.com/features/49706978> <https://www.nz-example.com/features/4494879> ) ] .
+
+<https://www.nz-example.com/features/7986262> a geojson:Feature ;
+    geojson:topology [ a geojson:LineString ;
+            geojson:relatedFeatures ( <https://www.nz-example.com/features/49706978> <https://www.nz-example.com/features/4494883> ) ] .
+
+<https://www.nz-example.com/features/7986263> a geojson:Feature ;
+    geojson:topology [ a geojson:LineString ;
+            geojson:relatedFeatures ( <https://www.nz-example.com/features/38969639> <https://www.nz-example.com/features/4494876> ) ] .
+
+<https://www.nz-example.com/features/7986264> a geojson:Feature ;
+    geojson:topology [ a geojson:LineString ;
+            geojson:relatedFeatures ( <https://www.nz-example.com/features/41907764> <https://www.nz-example.com/features/4494881> ) ] .
+
+<https://www.nz-example.com/features/7986265> a geojson:Feature ;
+    geojson:topology [ a geojson:LineString ;
+            geojson:relatedFeatures ( <https://www.nz-example.com/features/41907764> <https://www.nz-example.com/features/4494885> ) ] .
+
+<https://www.nz-example.com/features/7986266> a geojson:Feature ;
+    geojson:topology [ a geojson:LineString ;
+            geojson:relatedFeatures ( <https://www.nz-example.com/features/41907764> <https://www.nz-example.com/features/4494884> ) ] .
+
+<https://www.nz-example.com/features/8698340> a geojson:Feature ;
+    geojson:topology [ a geojson:LineString ;
+            geojson:relatedFeatures ( <https://www.nz-example.com/features/41907764> <https://www.nz-example.com/features/49706976> ) ] .
+
+<https://www.nz-example.com/features/8698344> a geojson:Feature ;
+    geojson:topology [ a geojson:LineString ;
+            geojson:relatedFeatures ( <https://www.nz-example.com/features/41907764> <https://www.nz-example.com/features/49706979> ) ] .
+
+<https://www.nz-example.com/features/8698353> a geojson:Feature ;
+    geojson:topology [ a geojson:LineString ;
+            geojson:relatedFeatures ( <https://www.nz-example.com/features/38969639> <https://www.nz-example.com/features/41907764> ) ] .
+
+<https://www.nz-example.com/features/8698357> a geojson:Feature ;
+    geojson:topology [ a geojson:LineString ;
+            geojson:relatedFeatures ( <https://www.nz-example.com/features/38969639> <https://www.nz-example.com/features/49706977> ) ] .
+
+<https://www.nz-example.com/features/8698359> a geojson:Feature ;
+    geojson:topology [ a geojson:LineString ;
+            geojson:relatedFeatures ( <https://www.nz-example.com/features/49706978> <https://www.nz-example.com/features/38969639> ) ] .
+
+<https://www.nz-example.com/features/8698363> a geojson:Feature ;
+    geojson:topology [ a geojson:LineString ;
+            geojson:relatedFeatures ( <https://www.nz-example.com/features/49706978> <https://www.nz-example.com/features/27949881> ) ] .
+
+<https://www.nz-example.com/features/8698364> a geojson:Feature ;
+    geojson:topology [ a geojson:LineString ;
+            geojson:relatedFeatures ( <https://www.nz-example.com/features/49706978> <https://www.nz-example.com/features/27950290> ) ] .
+
+<https://www.nz-example.com/features/964009> a geojson:Feature ;
+    rdfs:label "fence" ;
+    geojson:geometry [ a geojson:LineString ;
+            geojson:coordinates ( "[176.08263977, -38.09875775]" "[176.0831891, -38.09945669]" ) ] .
+
+<https://www.nz-example.com/features/964012> a geojson:Feature ;
+    rdfs:label "fence" ;
+    geojson:geometry [ a geojson:LineString ;
+            geojson:coordinates ( "[176.08208575, -38.09897138]" "[176.08198362, -38.09882607]" ) ] .
+
+<https://www.nz-example.com/features/964013> a geojson:Feature ;
+    rdfs:label "fence" ;
+    geojson:geometry [ a geojson:LineString ;
+            geojson:coordinates ( "[176.08211916, -38.09901891]" "[176.08251629, -38.09882298]" "[176.08263977, -38.09875775]" ) ] .
+
+<https://www.nz-example.com/features/964019> a geojson:Feature ;
+    rdfs:label "fence" ;
+    geojson:geometry [ a geojson:LineString ;
+            geojson:coordinates ( "[176.0826087, -38.0984135]" "[176.082668, -38.09844498]" "[176.0827133, -38.0984663]" "[176.08275513, -38.09848438]" "[176.08281211, -38.09850159]" "[176.0828569, -38.09851002]" "[176.08289822, -38.09851522]" "[176.08295116, -38.09852413]" "[176.0829942, -38.09853209]" "[176.08305441, -38.09855058]" ) ] .
+
+<https://www.nz-example.com/features/964021> a geojson:Feature ;
+    rdfs:label "fence" ;
+    geojson:geometry [ a geojson:LineString ;
+            geojson:coordinates ( "[176.08267825, -38.09976046]" "[176.08266687, -38.09976503]" "[176.08266221, -38.09976467]" "[176.08263057, -38.09974639]" "[176.08252924, -38.09963746]" "[176.08246091, -38.09956408]" "[176.08240838, -38.09947648]" ) ] .
+
+<https://www.nz-example.com/features/27949321> a surv:BoundaryMark,
+        geojson:Feature ;
+    rdfs:label [ rdfs:label "PEG 4 SO 503288" ;
+            dcterms:hasPart [ rdfs:label "503288" ;
+                    commonpatterns:namePartType "planIdentifier" ],
+                [ rdfs:label "PEG" ;
+                    commonpatterns:namePartType "MarkType" ],
+                [ rdfs:label "4" ;
+                    commonpatterns:namePartType "MarkIdentifier" ],
+                [ rdfs:label "SO" ;
+                    commonpatterns:namePartType "PlanType" ] ] ;
+    rdfs:comment "1.5m south east of old totara post, 4.6m from post at intersection of fences." ;
+    commonpatterns:qualityClass nz-point-class:7 ;
+    commonpatterns:qualityMeasure 1.8e-02 ;
+    surv:monumentedBy [ surv:condition nz-monument-condition:mkfd ;
+            surv:form nz-monument-form:peg ;
+            surv:state nz-monument-state:old ] ;
+    surv:purpose nz-surveypoint-purpose:bacc ;
+    geojson:geometry [ a geojson:Point ;
+            geojson:coordinates ( 7.624287e+05 3.663167e+05 ) ] .
+
+<https://www.nz-example.com/features/434428> a geojson:Feature ;
+    rdfs:label "gate" ;
+    geojson:geometry [ a geojson:LineString ;
+            geojson:coordinates ( "[176.08321112, -38.09951715]" "[176.08323689, -38.09950516]" ) ] .
+
+<https://www.nz-example.com/features/4494879> a geojson:Feature,
+        <https://www.nz-example.com/features/OccupationMark> ;
+    rdfs:label [ rdfs:label "Post IV LT 584372" ;
+            dcterms:hasPart [ rdfs:label "LT" ;
+                    commonpatterns:namePartType "PlanType" ],
+                [ rdfs:label "584372" ;
+                    commonpatterns:namePartType "planIdentifier" ],
+                [ rdfs:label "Post" ;
+                    commonpatterns:namePartType "MarkType" ],
+                [ rdfs:label "IV" ;
+                    commonpatterns:namePartType "MarkIdentifier" ] ] ;
+    rdfs:comment "Wooden Gate Post" ;
+    surv:age "40+ years" ;
+    surv:purpose nz-surveypoint-purpose:occupation ;
+    geojson:geometry [ a geojson:Point ;
+            geojson:coordinates ( 7.623707e+05 3.664166e+05 ) ] ;
+    geojson:topology [ a <https://www.nz-example.com/features/Touches> ;
+            geojson:relatedFeatures ( <https://www.nz-example.com/features/434428> <https://www.nz-example.com/features/964022> ) ] .
+
+<https://www.nz-example.com/features/49706982> a surv:BoundaryMark,
+        geojson:Feature ;
+    rdfs:label [ rdfs:label "PEG 8 DP 584372" ;
+            dcterms:hasPart [ rdfs:label "8" ;
+                    commonpatterns:namePartType "MarkIdentifier" ],
+                [ rdfs:label "DP" ;
+                    commonpatterns:namePartType "PlanType" ],
+                [ rdfs:label "PEG" ;
+                    commonpatterns:namePartType "MarkType" ],
+                [ rdfs:label "584372" ;
+                    commonpatterns:namePartType "planIdentifier" ] ] ;
+    rdfs:comment "Peg at intersection of fences, 0.55m North West of old post." ;
+    commonpatterns:qualityClass nz-point-class:7 ;
+    commonpatterns:qualityMeasure 2.3e-02 ;
+    surv:monumentedBy [ surv:condition nz-monument-condition:relb ;
+            surv:form nz-monument-form:peg ;
+            surv:state nz-monument-state:new ] ;
+    surv:purpose nz-surveypoint-purpose:bndy ;
+    geojson:geometry [ a geojson:Point ;
+            geojson:coordinates ( 7.624534e+05 3.663639e+05 ) ] .
+
+<https://www.nz-example.com/features/964008> a geojson:Feature ;
+    rdfs:label "fence" ;
+    geojson:geometry [ a geojson:LineString ;
+            geojson:coordinates ( "[176.08305441, -38.09855058]" "[176.08320389, -38.09863217]" "[176.08370414, -38.09928858]" ) ] .
+
+<https://www.nz-example.com/features/964011> a geojson:Feature ;
+    rdfs:label "fence" ;
+    geojson:geometry [ a geojson:LineString ;
+            geojson:coordinates ( "[176.08267825, -38.09976046]" "[176.08259974, -38.09965742]" "[176.08252594, -38.09955946]" "[176.082448, -38.09945791]" "[176.08242184, -38.09942159]" "[176.08233858, -38.09930939]" "[176.0822232, -38.09915947]" "[176.08216552, -38.09908232]" "[176.08211916, -38.09901891]" ) ] .
+
+<https://www.nz-example.com/features/964014> a geojson:Feature ;
+    rdfs:label "fence" ;
+    geojson:geometry [ a geojson:LineString ;
+            geojson:coordinates ( "[176.08305441, -38.09855058]" "[176.08263977, -38.09875775]" ) ] .
+
+<https://www.nz-example.com/features/964022> a geojson:Feature ;
+    rdfs:label "fence" ;
+    geojson:geometry [ a geojson:LineString ;
+            geojson:coordinates ( "[176.08370414, -38.09928858]" "[176.08362942, -38.09932538]" "[176.08323689, -38.09950516]" ) ] .
+
+<https://www.nz-example.com/features/27949881> a surv:BoundaryMark,
+        geojson:Feature ;
+    rdfs:label [ rdfs:label "PEG 8 SO 503288" ;
+            dcterms:hasPart [ rdfs:label "8" ;
+                    commonpatterns:namePartType "MarkIdentifier" ],
+                [ rdfs:label "503288" ;
+                    commonpatterns:namePartType "planIdentifier" ],
+                [ rdfs:label "SO" ;
+                    commonpatterns:namePartType "PlanType" ],
+                [ rdfs:label "PEG" ;
+                    commonpatterns:namePartType "MarkType" ] ] ;
+    rdfs:comment "0.15m south of post." ;
+    commonpatterns:qualityClass nz-point-class:7 ;
+    commonpatterns:qualityMeasure 2e-02 ;
+    surv:monumentedBy [ surv:condition nz-monument-condition:mkfd ;
+            surv:form nz-monument-form:peg ;
+            surv:state nz-monument-state:old ] ;
+    surv:purpose nz-surveypoint-purpose:bndy ;
+    geojson:geometry [ a geojson:Point ;
+            geojson:coordinates ( 7.62342e+05 3.663678e+05 ) ] .
+
+<https://www.nz-example.com/features/49706975> a surv:BoundaryMark,
+        geojson:Feature ;
+    rdfs:label [ rdfs:label "PEG 3 DP 584372" ;
+            dcterms:hasPart [ rdfs:label "3" ;
+                    commonpatterns:namePartType "MarkIdentifier" ],
+                [ rdfs:label "584372" ;
+                    commonpatterns:namePartType "planIdentifier" ],
+                [ rdfs:label "PEG" ;
+                    commonpatterns:namePartType "MarkType" ],
+                [ rdfs:label "DP" ;
+                    commonpatterns:namePartType "PlanType" ] ] ;
+    rdfs:comment "Peg SO 11240 remains renewed on face of bank, 3.5m North West of fence." ;
+    commonpatterns:qualityClass nz-point-class:7 ;
+    commonpatterns:qualityMeasure 2e-02 ;
+    surv:monumentedBy [ surv:condition nz-monument-condition:empl ;
+            surv:form nz-monument-form:peg ;
+            surv:state nz-monument-state:repl ] ;
+    surv:purpose nz-surveypoint-purpose:bacc ;
+    geojson:geometry [ a geojson:Point ;
+            geojson:coordinates ( 7.624491e+05 3.663514e+05 ) ] .
+
+<https://www.nz-example.com/features/49706976> a surv:BoundaryMark,
+        geojson:Feature ;
+    rdfs:label [ rdfs:label "PEG 2 SO 584372" ;
+            dcterms:hasPart [ rdfs:label "PEG" ;
+                    commonpatterns:namePartType "MarkType" ],
+                [ rdfs:label "SO" ;
+                    commonpatterns:namePartType "PlanType" ],
+                [ rdfs:label "584372" ;
+                    commonpatterns:namePartType "planIdentifier" ],
+                [ rdfs:label "2" ;
+                    commonpatterns:namePartType "MarkIdentifier" ] ] ;
+    rdfs:comment "Peg SO 11240 remains renewed, 1.1m North West of old post, 0.85m North East of fence." ;
+    commonpatterns:qualityClass nz-point-class:7 ;
+    commonpatterns:qualityMeasure 2.1e-02 ;
+    surv:monumentedBy [ surv:condition nz-monument-condition:empl ;
+            surv:form nz-monument-form:peg ;
+            surv:state nz-monument-state:repl ] ;
+    surv:purpose nz-surveypoint-purpose:bacc ;
+    geojson:geometry [ a geojson:Point ;
+            geojson:coordinates ( 7.624776e+05 3.663997e+05 ) ] .
+
+<https://www.nz-example.com/features/49706977> a surv:BoundaryMark,
+        geojson:Feature ;
+    rdfs:label [ rdfs:label "PEG 1 DP 584372" ;
+            dcterms:hasPart [ rdfs:label "DP" ;
+                    commonpatterns:namePartType "PlanType" ],
+                [ rdfs:label "1" ;
+                    commonpatterns:namePartType "MarkIdentifier" ],
+                [ rdfs:label "PEG" ;
+                    commonpatterns:namePartType "MarkType" ],
+                [ rdfs:label "584372" ;
+                    commonpatterns:namePartType "planIdentifier" ] ] ;
+    rdfs:comment "Peg SO 11240 remains renewed. 0.1m North West of fence, 7.6m South West of post." ;
+    commonpatterns:qualityClass nz-point-class:7 ;
+    commonpatterns:qualityMeasure 2.2e-02 ;
+    surv:monumentedBy [ surv:condition nz-monument-condition:empl ;
+            surv:form nz-monument-form:peg ;
+            surv:state nz-monument-state:repl ] ;
+    surv:purpose nz-surveypoint-purpose:bacc ;
+    geojson:geometry [ a geojson:Point ;
+            geojson:coordinates ( 7.623909e+05 3.664508e+05 ) ] .
+
+<https://www.nz-example.com/features/49706981> a surv:BoundaryMark,
+        geojson:Feature ;
+    rdfs:label [ rdfs:label "PEG 7 DP 584372" ;
+            dcterms:hasPart [ rdfs:label "584372" ;
+                    commonpatterns:namePartType "planIdentifier" ],
+                [ rdfs:label "PEG" ;
+                    commonpatterns:namePartType "MarkType" ],
+                [ rdfs:label "7" ;
+                    commonpatterns:namePartType "MarkIdentifier" ],
+                [ rdfs:label "DP" ;
+                    commonpatterns:namePartType "PlanType" ] ] ;
+    rdfs:comment "0.72m North East of post, 0.1m South East of old fence." ;
+    commonpatterns:qualityClass nz-point-class:7 ;
+    commonpatterns:qualityMeasure 1.9e-02 ;
+    surv:monumentedBy [ surv:condition nz-monument-condition:relb ;
+            surv:form nz-monument-form:peg ;
+            surv:state nz-monument-state:new ] ;
+    surv:purpose nz-surveypoint-purpose:bndy ;
+    geojson:geometry [ a geojson:Point ;
+            geojson:coordinates ( 7.624246e+05 3.663191e+05 ) ] .
+
+<https://www.nz-example.com/features/964010> a geojson:Feature ;
+    rdfs:label "fence" ;
+    geojson:geometry [ a geojson:LineString ;
+            geojson:coordinates ( "[176.08321112, -38.09951715]" "[176.08307544, -38.09957925]" "[176.08267825, -38.09976046]" ) ] .
+
+<https://www.nz-example.com/features/27950290> a surv:BoundaryMark,
+        geojson:Feature ;
+    rdfs:label [ rdfs:label "PEG 4 DP 584372" ;
+            dcterms:hasPart [ rdfs:label "584372" ;
+                    commonpatterns:namePartType "planIdentifier" ],
+                [ rdfs:label "4" ;
+                    commonpatterns:namePartType "MarkIdentifier" ],
+                [ rdfs:label "PEG" ;
+                    commonpatterns:namePartType "MarkType" ],
+                [ rdfs:label "DP" ;
+                    commonpatterns:namePartType "PlanType" ] ] ;
+    rdfs:comment "At North West face of fence, 13.8m South West of gate post." ;
+    commonpatterns:qualityClass nz-point-class:7 ;
+    commonpatterns:qualityMeasure 1.7e-02 ;
+    surv:monumentedBy [ surv:condition nz-monument-condition:relb ;
+            surv:form nz-monument-form:peg ;
+            surv:state nz-monument-state:new ] ;
+    surv:purpose nz-surveypoint-purpose:bndy ;
+    geojson:geometry [ a geojson:Point ;
+            geojson:coordinates ( 7.623624e+05 3.664025e+05 ) ] .
+
+<https://www.nz-example.com/features/38969639> a surv:GeodeticReferenceMark,
+        geojson:Feature ;
+    rdfs:label [ rdfs:label "IT IX SO 49866 (DTKC)" ;
+            dcterms:hasPart [ rdfs:label "DTKC" ;
+                    commonpatterns:namePartType "geodeticStamp" ],
+                [ rdfs:label "SO" ;
+                    commonpatterns:namePartType "PlanType" ],
+                [ rdfs:label "IX" ;
+                    commonpatterns:namePartType "MarkIdentifier" ],
+                [ rdfs:label "49866" ;
+                    commonpatterns:namePartType "planIdentifier" ],
+                [ rdfs:label "IT" ;
+                    commonpatterns:namePartType "MarkType" ] ] ;
+    rdfs:comment "Down 0.6m under plastic Survey Mark lid at east side of post." ;
+    commonpatterns:qualityClass nz-point-class:5 ;
+    commonpatterns:qualityMeasure 9e-03 ;
+    surv:geodeticid "DTKC" ;
+    surv:monumentedBy [ surv:condition nz-monument-condition:mkfd ;
+            surv:form nz-monument-form:it ;
+            surv:state nz-monument-state:old ] ;
+    surv:purpose nz-surveypoint-purpose:prm ;
+    geojson:geometry [ a geojson:Point ;
+            geojson:coordinates ( 7.624037e+05 3.664766e+05 ) ] .
+
+<https://www.nz-example.com/features/49706979> a surv:BoundaryMark,
+        geojson:Feature ;
+    rdfs:label [ rdfs:label "PEG 5 DP 584372" ;
+            dcterms:hasPart [ rdfs:label "PEG" ;
+                    commonpatterns:namePartType "MarkType" ],
+                [ rdfs:label "DP" ;
+                    commonpatterns:namePartType "PlanType" ],
+                [ rdfs:label "584372" ;
+                    commonpatterns:namePartType "planIdentifier" ],
+                [ rdfs:label "5" ;
+                    commonpatterns:namePartType "MarkIdentifier" ] ] ;
+    rdfs:comment "0.14m North East of old post." ;
+    commonpatterns:qualityClass nz-point-class:7 ;
+    commonpatterns:qualityMeasure 2.3e-02 ;
+    surv:monumentedBy [ surv:condition nz-monument-condition:relb ;
+            surv:form nz-monument-form:peg ;
+            surv:state nz-monument-state:new ] ;
+    surv:purpose nz-surveypoint-purpose:bndy ;
+    geojson:geometry [ a geojson:Point ;
+            geojson:coordinates ( 7.624766e+05 3.664003e+05 ) ] .
+
+<https://www.nz-example.com/features/49706980> a surv:BoundaryMark,
+        geojson:Feature ;
+    rdfs:label [ rdfs:label "PEG 6 DP 584372" ;
+            dcterms:hasPart [ rdfs:label "PEG" ;
+                    commonpatterns:namePartType "MarkType" ],
+                [ rdfs:label "584372" ;
+                    commonpatterns:namePartType "planIdentifier" ],
+                [ rdfs:label "6" ;
+                    commonpatterns:namePartType "MarkIdentifier" ],
+                [ rdfs:label "DP" ;
+                    commonpatterns:namePartType "PlanType" ] ] ;
+    rdfs:comment "In old fence." ;
+    commonpatterns:qualityClass nz-point-class:7 ;
+    commonpatterns:qualityMeasure 2.1e-02 ;
+    surv:monumentedBy [ surv:condition nz-monument-condition:relb ;
+            surv:form nz-monument-form:peg ;
+            surv:state nz-monument-state:new ] ;
+    surv:purpose nz-surveypoint-purpose:bndy ;
+    geojson:geometry [ a geojson:Point ;
+            geojson:coordinates ( 7.624461e+05 3.663531e+05 ) ] .
+
+<https://www.nz-example.com/features/41907764> a surv:CadastralMark,
+        geojson:Feature ;
+    rdfs:label [ rdfs:label "PIN 5 SO 425484" ;
+            dcterms:hasPart [ rdfs:label "SO" ;
+                    commonpatterns:namePartType "PlanType" ],
+                [ rdfs:label "5" ;
+                    commonpatterns:namePartType "MarkIdentifier" ],
+                [ rdfs:label "PIN" ;
+                    commonpatterns:namePartType "MarkType" ],
+                [ rdfs:label "425484" ;
+                    commonpatterns:namePartType "planIdentifier" ] ] ;
+    rdfs:comment "Alloy plug flush in kerb on East side of Road, 6.05m south of #30 crossing" ;
+    commonpatterns:qualityClass nz-point-class:6 ;
+    commonpatterns:qualityMeasure 1.3e-02 ;
+    surv:monumentedBy [ surv:condition nz-monument-condition:mkfd ;
+            surv:form nz-monument-form:pin ;
+            surv:state nz-monument-state:old ] ;
+    surv:purpose nz-surveypoint-purpose:prm ;
+    geojson:geometry [ a geojson:Point ;
+            geojson:coordinates ( 7.62461e+05 3.664334e+05 ) ] .
+
+<https://www.nz-example.com/features/49706978> a surv:CadastralMark,
+        geojson:Feature ;
+    rdfs:label [ rdfs:label "NAIL C DP 584372" ;
+            dcterms:hasPart [ rdfs:label "584372" ;
+                    commonpatterns:namePartType "planIdentifier" ],
+                [ rdfs:label "NAIL" ;
+                    commonpatterns:namePartType "MarkType" ],
+                [ rdfs:label "DP" ;
+                    commonpatterns:namePartType "PlanType" ],
+                [ rdfs:label "C" ;
+                    commonpatterns:namePartType "MarkIdentifier" ] ] ;
+    rdfs:comment "Nail flush between kerb and footpath, 3.8m South West of FH" ;
+    commonpatterns:qualityClass nz-point-class:6 ;
+    commonpatterns:qualityMeasure 2.7e-02 ;
+    surv:monumentedBy [ surv:condition nz-monument-condition:relb ;
+            surv:form nz-monument-form:nail ;
+            surv:state nz-monument-state:new ] ;
+    surv:purpose nz-surveypoint-purpose:prm ;
+    geojson:geometry [ a geojson:Point ;
+            geojson:coordinates ( 7.623483e+05 3.663926e+05 ) ] .
+

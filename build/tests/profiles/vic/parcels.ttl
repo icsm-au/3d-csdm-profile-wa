@@ -1,0 +1,504 @@
+@prefix commonpatterns: <https://linked.data.gov.au/def/csdm/commonpatterns/> .
+@prefix container: <https://linked.data.gov.au/def/csdm/container/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix epsg: <http://www.opengis.net/def/crs/EPSG/0/> .
+@prefix geojson: <https://purl.org/geojson/vocab#> .
+@prefix icsm-admin-unit-type: <https://linked.data.gov.au/def/csdm/icsm-admin-unit-type/> .
+@prefix icsm-angle-type: <https://linked.data.gov.au/def/csdm/icsm-angle-type/> .
+@prefix icsm-distance-type: <https://linked.data.gov.au/def/csdm/icsm-distance-type/> .
+@prefix icsm-equipment-type: <https://linked.data.gov.au/def/csdm/icsm-equipment-type/> .
+@prefix ns1: <https://linked.data.gov.au/def/csdm/surveyobs/> .
+@prefix ns2: <http://www.iana.org/assignments/> .
+@prefix oa: <http://www.w3.org/ns/oa#> .
+@prefix parcel: <https://linked.data.gov.au/def/csdm/parcels/> .
+@prefix prof: <http://www.w3.org/ns/dx/prof/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sosa: <http://www.w3.org/ns/sosa/> .
+@prefix surv: <https://linked.data.gov.au/def/csdm/surveyfeatures/> .
+@prefix surveyable: <https://linked.data.gov.au/def/csdm/defs/surveyableproperties/> .
+@prefix vic-county: <https://linked.data.gov.au/def/csdm/vic-county/> .
+@prefix vic-interest-type: <https://linked.data.gov.au/def/csdm/vic-interest-type/> .
+@prefix vic-local-government-area: <https://linked.data.gov.au/def/csdm/vic-local-government-area/> .
+@prefix vic-monument-condition: <https://linked.data.gov.au/def/csdm/vic-monument-condition/> .
+@prefix vic-monument-form: <https://linked.data.gov.au/def/csdm/vic-monument-form/> .
+@prefix vic-monument-state: <https://linked.data.gov.au/def/csdm/vic-monument-state/> .
+@prefix vic-parcel-purpose: <https://linked.data.gov.au/def/csdm/vic-parcel-purpose/> .
+@prefix vic-parcel-state: <https://linked.data.gov.au/def/csdm/vic-parcel-state/> .
+@prefix vic-parcel-type: <https://linked.data.gov.au/def/csdm/vic-parcel-type/> .
+@prefix vic-parish: <https://linked.data.gov.au/def/csdm/vic-parish/> .
+@prefix vic-procedure-used: <https://linked.data.gov.au/def/csdm/vic-procedure-used/> .
+@prefix vic-survey-purpose: <https://linked.data.gov.au/def/csdm/vic-survey-purpose/> .
+@prefix vic-survey-type: <https://linked.data.gov.au/def/csdm/vic-survey-type/> .
+@prefix vic-surveypoint-purpose: <https://linked.data.gov.au/def/csdm/vic-surveypoint-purpose/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://www.vic-example.com/features/PS914576X> a container:CSD,
+        geojson:FeatureCollection ;
+    rdfs:label "PS 914576 X" ;
+    prov:wasGeneratedBy <https://www.vic-example.com/features/DP-1-S2> ;
+    container:adminUnit [ ns2:relation <http://www.iana.org/assignments/relation/related> ;
+            prof:hasRole icsm-admin-unit-type:county ;
+            oa:hasTarget vic-county:1006 ],
+        [ ns2:relation <http://www.iana.org/assignments/relation/related> ;
+            prof:hasRole icsm-admin-unit-type:localGovernmentArea ;
+            oa:hasTarget vic-local-government-area:341 ],
+        [ ns2:relation <http://www.iana.org/assignments/relation/related> ;
+            prof:hasRole icsm-admin-unit-type:parish ;
+            oa:hasTarget vic-parish:2478 ] ;
+    container:bearingRotation 0e+00 ;
+    container:horizontalCRS epsg:7855 ;
+    container:observedVectors <https://www.vic-example.com/features/observedVectors> ;
+    container:parcels <https://www.vic-example.com/features/PrimaryParcels> ;
+    container:points <https://www.vic-example.com/features/BoundaryMark> ;
+    container:purpose vic-survey-purpose:22-subdivision ;
+    container:referencedCSD <https://www.vic-example.com/features/LP59092>,
+        <https://www.vic-example.com/features/PS444239L>,
+        <https://www.vic-example.com/features/PS903783E>,
+        <https://www.vic-example.com/features/PS904234K> ;
+    container:surveyType vic-survey-type:survey ;
+    container:vectorObservations <vectorobservation:derived>,
+        <vectorobservation:theodolite+edm> .
+
+<https://www.vic-example.com/features/2-PS914576> a geojson:Feature ;
+    parcel:appellation [ rdfs:label "Lot 2 PS 914576" ;
+            dcterms:hasPart [ rdfs:label "914576" ;
+                    commonpatterns:namePartType "planIdentifier" ],
+                [ rdfs:label "Lot" ;
+                    commonpatterns:namePartType "ParcelType" ],
+                [ rdfs:label "2" ;
+                    commonpatterns:namePartType "ParcelIdentifier" ],
+                [ rdfs:label "PS" ;
+                    commonpatterns:namePartType "PlanType" ] ] ;
+    parcel:interest [ parcel:interestLink <https://www.vic-example.com/features/vol-12259-f-643> ;
+            parcel:interestType vic-interest-type:c-t ] ;
+    parcel:purpose vic-parcel-purpose:lot ;
+    parcel:state vic-parcel-state:created ;
+    parcel:surfaceArea 2.12e+02 ;
+    parcel:type vic-parcel-type:2D-building ;
+    geojson:topology [ a geojson:Polygon ;
+            geojson:relatedFeatures ( "['OBS-30', 'OBS-22', 'GENOBS-16', 'GENOBS-8', 'GENOBS-14', 'GENOBS-10', 'GENOBS-12', 'OBS-16', 'OBS-24', 'OBS-25', 'GENOBS-4', 'GENOBS-2', 'GENOBS-6', 'OBS-29']" ) ] .
+
+<https://www.vic-example.com/features/BoundaryMark> a geojson:FeatureCollection,
+        <https://www.vic-example.com/features/BoundaryMarks> ;
+    geojson:features <https://www.vic-example.com/features/CGPNT-19>,
+        <https://www.vic-example.com/features/CGPNT-20>,
+        <https://www.vic-example.com/features/CGPNT-21>,
+        <https://www.vic-example.com/features/CGPNT-22>,
+        <https://www.vic-example.com/features/CGPNT-23>,
+        <https://www.vic-example.com/features/CGPNT-24>,
+        <https://www.vic-example.com/features/CGPNT-25>,
+        <https://www.vic-example.com/features/CGPNT-26>,
+        <https://www.vic-example.com/features/CGPNT-27>,
+        <https://www.vic-example.com/features/CGPNT-28>,
+        <https://www.vic-example.com/features/CGPNT-43>,
+        <https://www.vic-example.com/features/CGPNT-44>,
+        <https://www.vic-example.com/features/CGPNT-46>,
+        <https://www.vic-example.com/features/CGPNT-47> .
+
+<https://www.vic-example.com/features/DP-1-S2> prov:endedAtTime "2029-01-01T01:02:03+00:00"^^xsd:dateTime .
+
+<https://www.vic-example.com/features/LP59092> rdfs:label "LP 59092" ;
+    container:adminUnit [ ns2:relation <http://www.iana.org/assignments/relation/related> ;
+            prof:hasRole icsm-admin-unit-type:parish ;
+            oa:hasTarget vic-parish:2478 ] ;
+    container:bearingRotation -7.05e+00 .
+
+<https://www.vic-example.com/features/PS444239L> rdfs:label "PS 444239 L" ;
+    container:adminUnit [ ns2:relation <http://www.iana.org/assignments/relation/related> ;
+            prof:hasRole icsm-admin-unit-type:parish ;
+            oa:hasTarget vic-parish:2478 ] ;
+    container:bearingRotation 0e+00 .
+
+<https://www.vic-example.com/features/PS903783E> rdfs:label "PS 903783 E" ;
+    container:adminUnit [ ns2:relation <http://www.iana.org/assignments/relation/related> ;
+            prof:hasRole icsm-admin-unit-type:parish ;
+            oa:hasTarget vic-parish:2478 ] ;
+    container:bearingRotation 0e+00 .
+
+<https://www.vic-example.com/features/PS904234K> rdfs:label "PS 904234 K" ;
+    container:adminUnit [ ns2:relation <http://www.iana.org/assignments/relation/related> ;
+            prof:hasRole icsm-admin-unit-type:parish ;
+            oa:hasTarget vic-parish:2478 ] ;
+    container:bearingRotation 0e+00 .
+
+<https://www.vic-example.com/features/PrimaryParcels> a parcel:PrimaryParcel,
+        geojson:FeatureCollection ;
+    geojson:features <https://www.vic-example.com/features/2-PS914576> .
+
+<https://www.vic-example.com/features/observedVectors> a surv:ObservedVector,
+        geojson:FeatureCollection ;
+    geojson:features <https://www.vic-example.com/features/GENOBS-10>,
+        <https://www.vic-example.com/features/GENOBS-12>,
+        <https://www.vic-example.com/features/GENOBS-14>,
+        <https://www.vic-example.com/features/GENOBS-16>,
+        <https://www.vic-example.com/features/GENOBS-2>,
+        <https://www.vic-example.com/features/GENOBS-4>,
+        <https://www.vic-example.com/features/GENOBS-6>,
+        <https://www.vic-example.com/features/GENOBS-8>,
+        <https://www.vic-example.com/features/OBS-16>,
+        <https://www.vic-example.com/features/OBS-22>,
+        <https://www.vic-example.com/features/OBS-24>,
+        <https://www.vic-example.com/features/OBS-25>,
+        <https://www.vic-example.com/features/OBS-29>,
+        <https://www.vic-example.com/features/OBS-30> .
+
+<vectorobservation:derived> a sosa:ObservationCollection,
+        geojson:FeatureCollection ;
+    sosa:hasMember [ a geojson:Feature ;
+            sosa:hasFeatureOfInterest <https://www.vic-example.com/features/GENOBS-12> ;
+            sosa:hasResult [ surv:distance 6.991e+00 ] ;
+            sosa:resultTime "2022-09-19T00:00:00" ;
+            ns1:angleType icsm-angle-type:bearing ;
+            ns1:distanceType icsm-distance-type:horizontal ],
+        [ a geojson:Feature ;
+            sosa:hasFeatureOfInterest <https://www.vic-example.com/features/GENOBS-8> ;
+            sosa:hasResult [ surv:distance 1.15e-01 ] ;
+            sosa:resultTime "2022-09-19T00:00:00" ;
+            ns1:angleType icsm-angle-type:bearing ;
+            ns1:distanceType icsm-distance-type:horizontal ],
+        [ a geojson:Feature ;
+            sosa:hasFeatureOfInterest <https://www.vic-example.com/features/GENOBS-2> ;
+            sosa:hasResult [ surv:distance 8.5e-02 ] ;
+            sosa:resultTime "2022-09-19T00:00:00" ;
+            ns1:angleType icsm-angle-type:bearing ;
+            ns1:distanceType icsm-distance-type:horizontal ],
+        [ a geojson:Feature ;
+            sosa:hasFeatureOfInterest <https://www.vic-example.com/features/GENOBS-6> ;
+            sosa:hasResult [ surv:distance 9.52e-01 ] ;
+            sosa:resultTime "2022-09-19T00:00:00" ;
+            ns1:angleType icsm-angle-type:bearing ;
+            ns1:distanceType icsm-distance-type:horizontal ],
+        [ a geojson:Feature ;
+            sosa:hasFeatureOfInterest <https://www.vic-example.com/features/GENOBS-10> ;
+            sosa:hasResult [ surv:distance 1.15e-01 ] ;
+            sosa:resultTime "2022-09-19T00:00:00" ;
+            ns1:angleType icsm-angle-type:bearing ;
+            ns1:distanceType icsm-distance-type:horizontal ],
+        [ a geojson:Feature ;
+            sosa:hasFeatureOfInterest <https://www.vic-example.com/features/GENOBS-4> ;
+            sosa:hasResult [ surv:distance 1.9729e+01 ] ;
+            sosa:resultTime "2022-09-19T00:00:00" ;
+            ns1:angleType icsm-angle-type:bearing ;
+            ns1:distanceType icsm-distance-type:horizontal ],
+        [ a geojson:Feature ;
+            sosa:hasFeatureOfInterest <https://www.vic-example.com/features/GENOBS-16> ;
+            sosa:hasResult [ surv:distance 3.386e+00 ] ;
+            sosa:resultTime "2022-09-19T00:00:00" ;
+            ns1:angleType icsm-angle-type:bearing ;
+            ns1:distanceType icsm-distance-type:horizontal ],
+        [ a geojson:Feature ;
+            sosa:hasFeatureOfInterest <https://www.vic-example.com/features/GENOBS-14> ;
+            sosa:hasResult [ surv:distance 6.19e+00 ] ;
+            sosa:resultTime "2022-09-19T00:00:00" ;
+            ns1:angleType icsm-angle-type:bearing ;
+            ns1:distanceType icsm-distance-type:horizontal ] ;
+    sosa:madeBySensor [ surv:sensorType icsm-equipment-type:software ] ;
+    sosa:observedProperty surveyable:VectorDetermination ;
+    sosa:resultTime "2022-09-19T00:00:00" ;
+    sosa:usedProcedure vic-procedure-used:d .
+
+<vectorobservation:theodolite+edm> a sosa:ObservationCollection,
+        geojson:FeatureCollection ;
+    sosa:hasMember [ a geojson:Feature ;
+            sosa:hasFeatureOfInterest <https://www.vic-example.com/features/OBS-30> ;
+            sosa:hasResult [ surv:distance 6.868e+00 ] ;
+            sosa:resultTime "2022-09-19T00:00:00" ;
+            ns1:angleType icsm-angle-type:bearing ;
+            ns1:distanceType icsm-distance-type:horizontal ],
+        [ a geojson:Feature ;
+            sosa:hasFeatureOfInterest <https://www.vic-example.com/features/OBS-22> ;
+            sosa:hasResult [ surv:distance 8.006e+00 ] ;
+            sosa:resultTime "2022-09-19T00:00:00" ;
+            ns1:angleType icsm-angle-type:bearing ;
+            ns1:distanceType icsm-distance-type:horizontal ],
+        [ a geojson:Feature ;
+            sosa:hasFeatureOfInterest <https://www.vic-example.com/features/OBS-29> ;
+            sosa:hasResult [ surv:distance 6.207e+00 ] ;
+            sosa:resultTime "2022-09-19T00:00:00" ;
+            ns1:angleType icsm-angle-type:bearing ;
+            ns1:distanceType icsm-distance-type:horizontal ],
+        [ a geojson:Feature ;
+            sosa:hasFeatureOfInterest <https://www.vic-example.com/features/OBS-24> ;
+            sosa:hasResult [ surv:distance 6.946e+00 ] ;
+            sosa:resultTime "2022-09-19T00:00:00" ;
+            ns1:angleType icsm-angle-type:bearing ;
+            ns1:distanceType icsm-distance-type:horizontal ],
+        [ a geojson:Feature ;
+            sosa:hasFeatureOfInterest <https://www.vic-example.com/features/OBS-25> ;
+            sosa:hasResult [ surv:distance 3.6e+00 ] ;
+            sosa:resultTime "2022-09-19T00:00:00" ;
+            ns1:angleType icsm-angle-type:bearing ;
+            ns1:distanceType icsm-distance-type:horizontal ],
+        [ a geojson:Feature ;
+            sosa:hasFeatureOfInterest <https://www.vic-example.com/features/OBS-16> ;
+            sosa:hasResult [ surv:distance 5.445e+00 ] ;
+            sosa:resultTime "2022-09-19T00:00:00" ;
+            ns1:angleType icsm-angle-type:bearing ;
+            ns1:distanceType icsm-distance-type:horizontal ] ;
+    sosa:madeBySensor [ surv:sensorType icsm-equipment-type:t-edm ] ;
+    sosa:observedProperty surveyable:VectorDetermination ;
+    sosa:resultTime "2022-09-19T00:00:00" ;
+    sosa:usedProcedure vic-procedure-used:m .
+
+<https://www.vic-example.com/features/GENOBS-10> a geojson:Feature ;
+    geojson:topology [ a geojson:LineString ;
+            geojson:relatedFeatures ( <https://www.vic-example.com/features/CGPNT-26> <https://www.vic-example.com/features/CGPNT-27> ) ] .
+
+<https://www.vic-example.com/features/GENOBS-12> a geojson:Feature ;
+    geojson:topology [ a geojson:LineString ;
+            geojson:relatedFeatures ( <https://www.vic-example.com/features/CGPNT-28> <https://www.vic-example.com/features/CGPNT-27> ) ] .
+
+<https://www.vic-example.com/features/GENOBS-14> a geojson:Feature ;
+    geojson:topology [ a geojson:LineString ;
+            geojson:relatedFeatures ( <https://www.vic-example.com/features/CGPNT-26> <https://www.vic-example.com/features/CGPNT-25> ) ] .
+
+<https://www.vic-example.com/features/GENOBS-16> a geojson:Feature ;
+    geojson:topology [ a geojson:LineString ;
+            geojson:relatedFeatures ( <https://www.vic-example.com/features/CGPNT-24> <https://www.vic-example.com/features/CGPNT-23> ) ] .
+
+<https://www.vic-example.com/features/GENOBS-2> a geojson:Feature ;
+    geojson:topology [ a geojson:LineString ;
+            geojson:relatedFeatures ( <https://www.vic-example.com/features/CGPNT-20> <https://www.vic-example.com/features/CGPNT-21> ) ] .
+
+<https://www.vic-example.com/features/GENOBS-4> a geojson:Feature ;
+    geojson:topology [ a geojson:LineString ;
+            geojson:relatedFeatures ( <https://www.vic-example.com/features/CGPNT-22> <https://www.vic-example.com/features/CGPNT-21> ) ] .
+
+<https://www.vic-example.com/features/GENOBS-6> a geojson:Feature ;
+    geojson:topology [ a geojson:LineString ;
+            geojson:relatedFeatures ( <https://www.vic-example.com/features/CGPNT-20> <https://www.vic-example.com/features/CGPNT-19> ) ] .
+
+<https://www.vic-example.com/features/GENOBS-8> a geojson:Feature ;
+    geojson:topology [ a geojson:LineString ;
+            geojson:relatedFeatures ( <https://www.vic-example.com/features/CGPNT-24> <https://www.vic-example.com/features/CGPNT-25> ) ] .
+
+<https://www.vic-example.com/features/OBS-16> a geojson:Feature ;
+    geojson:topology [ a geojson:LineString ;
+            geojson:relatedFeatures ( <https://www.vic-example.com/features/CGPNT-43> <https://www.vic-example.com/features/CGPNT-28> ) ] .
+
+<https://www.vic-example.com/features/OBS-22> a geojson:Feature ;
+    geojson:topology [ a geojson:LineString ;
+            geojson:relatedFeatures ( <https://www.vic-example.com/features/CGPNT-23> <https://www.vic-example.com/features/CGPNT-44> ) ] .
+
+<https://www.vic-example.com/features/OBS-24> a geojson:Feature ;
+    geojson:topology [ a geojson:LineString ;
+            geojson:relatedFeatures ( <https://www.vic-example.com/features/CGPNT-43> <https://www.vic-example.com/features/CGPNT-46> ) ] .
+
+<https://www.vic-example.com/features/OBS-25> a geojson:Feature ;
+    geojson:topology [ a geojson:LineString ;
+            geojson:relatedFeatures ( <https://www.vic-example.com/features/CGPNT-46> <https://www.vic-example.com/features/CGPNT-22> ) ] .
+
+<https://www.vic-example.com/features/OBS-29> a geojson:Feature ;
+    geojson:topology [ a geojson:LineString ;
+            geojson:relatedFeatures ( <https://www.vic-example.com/features/CGPNT-19> <https://www.vic-example.com/features/CGPNT-47> ) ] .
+
+<https://www.vic-example.com/features/OBS-30> a geojson:Feature ;
+    geojson:topology [ a geojson:LineString ;
+            geojson:relatedFeatures ( <https://www.vic-example.com/features/CGPNT-47> <https://www.vic-example.com/features/CGPNT-44> ) ] .
+
+<https://www.vic-example.com/features/CGPNT-19> a surv:BoundaryMark,
+        geojson:Feature ;
+    rdfs:label [ rdfs:label "Peg CGPNT-19" ;
+            dcterms:hasPart [ rdfs:label "CGPNT-19" ;
+                    commonpatterns:namePartType "MarkIdentifier" ],
+                [ rdfs:label "Peg" ;
+                    commonpatterns:namePartType "MarkType" ] ] ;
+    rdfs:comment "At corner of block wall" ;
+    surv:monumentedBy [ surv:condition vic-monument-condition:ok ;
+            surv:form vic-monument-form:peg ;
+            surv:state vic-monument-state:new ] ;
+    surv:purpose vic-surveypoint-purpose:boundary ;
+    geojson:geometry [ a geojson:Point ;
+            geojson:coordinates ( 3.12206e+05 5.815931e+06 ) ] .
+
+<https://www.vic-example.com/features/CGPNT-20> a surv:BoundaryMark,
+        geojson:Feature ;
+    rdfs:label [ rdfs:label "Unmk CGPNT-20" ;
+            dcterms:hasPart [ rdfs:label "Unmk" ;
+                    commonpatterns:namePartType "MarkType" ],
+                [ rdfs:label "CGPNT-20" ;
+                    commonpatterns:namePartType "MarkIdentifier" ] ] ;
+    surv:monumentedBy [ surv:condition vic-monument-condition:ok ;
+            surv:form vic-monument-form:nm ;
+            surv:state vic-monument-state:new ] ;
+    surv:purpose vic-surveypoint-purpose:boundary ;
+    geojson:geometry [ a geojson:Point ;
+            geojson:coordinates ( 3.122066e+05 5.815932e+06 ) ] .
+
+<https://www.vic-example.com/features/CGPNT-21> a surv:BoundaryMark,
+        geojson:Feature ;
+    rdfs:label [ rdfs:label "Unmk CGPNT-21" ;
+            dcterms:hasPart [ rdfs:label "CGPNT-21" ;
+                    commonpatterns:namePartType "MarkIdentifier" ],
+                [ rdfs:label "Unmk" ;
+                    commonpatterns:namePartType "MarkType" ] ] ;
+    surv:monumentedBy [ surv:condition vic-monument-condition:ok ;
+            surv:form vic-monument-form:nm ;
+            surv:state vic-monument-state:new ] ;
+    surv:purpose vic-surveypoint-purpose:boundary ;
+    geojson:geometry [ a geojson:Point ;
+            geojson:coordinates ( 3.122067e+05 5.815932e+06 ) ] .
+
+<https://www.vic-example.com/features/CGPNT-22> a surv:BoundaryMark,
+        geojson:Feature ;
+    rdfs:label [ rdfs:label "Peg CGPNT-22" ;
+            dcterms:hasPart [ rdfs:label "Peg" ;
+                    commonpatterns:namePartType "MarkType" ],
+                [ rdfs:label "CGPNT-22" ;
+                    commonpatterns:namePartType "MarkIdentifier" ] ] ;
+    rdfs:comment "At base of block wall" ;
+    surv:monumentedBy [ surv:condition vic-monument-condition:ok ;
+            surv:form vic-monument-form:peg ;
+            surv:state vic-monument-state:new ] ;
+    surv:purpose vic-surveypoint-purpose:boundary ;
+    geojson:geometry [ a geojson:Point ;
+            geojson:coordinates ( 3.122191e+05 5.815947e+06 ) ] .
+
+<https://www.vic-example.com/features/CGPNT-23> a surv:BoundaryMark,
+        geojson:Feature ;
+    rdfs:label [ rdfs:label "Peg CGPNT-23" ;
+            dcterms:hasPart [ rdfs:label "Peg" ;
+                    commonpatterns:namePartType "MarkType" ],
+                [ rdfs:label "CGPNT-23" ;
+                    commonpatterns:namePartType "MarkIdentifier" ] ] ;
+    rdfs:comment "At base of block wall" ;
+    surv:monumentedBy [ surv:condition vic-monument-condition:ok ;
+            surv:form vic-monument-form:peg ;
+            surv:state vic-monument-state:new ] ;
+    surv:purpose vic-surveypoint-purpose:boundary ;
+    geojson:geometry [ a geojson:Point ;
+            geojson:coordinates ( 3.12202e+05 5.815937e+06 ) ] .
+
+<https://www.vic-example.com/features/CGPNT-24> a surv:BoundaryMark,
+        geojson:Feature ;
+    rdfs:label [ rdfs:label "Unmk CGPNT-24" ;
+            dcterms:hasPart [ rdfs:label "CGPNT-24" ;
+                    commonpatterns:namePartType "MarkIdentifier" ],
+                [ rdfs:label "Unmk" ;
+                    commonpatterns:namePartType "MarkType" ] ] ;
+    surv:monumentedBy [ surv:condition vic-monument-condition:ok ;
+            surv:form vic-monument-form:nm ;
+            surv:state vic-monument-state:new ] ;
+    surv:purpose vic-surveypoint-purpose:boundary ;
+    geojson:geometry [ a geojson:Point ;
+            geojson:coordinates ( 3.122044e+05 5.81594e+06 ) ] .
+
+<https://www.vic-example.com/features/CGPNT-25> a surv:BoundaryMark,
+        geojson:Feature ;
+    rdfs:label [ rdfs:label "Unmk CGPNT-25" ;
+            dcterms:hasPart [ rdfs:label "Unmk" ;
+                    commonpatterns:namePartType "MarkType" ],
+                [ rdfs:label "CGPNT-25" ;
+                    commonpatterns:namePartType "MarkIdentifier" ] ] ;
+    surv:monumentedBy [ surv:condition vic-monument-condition:ok ;
+            surv:form vic-monument-form:nm ;
+            surv:state vic-monument-state:new ] ;
+    surv:purpose vic-surveypoint-purpose:boundary ;
+    geojson:geometry [ a geojson:Point ;
+            geojson:coordinates ( 3.122043e+05 5.81594e+06 ) ] .
+
+<https://www.vic-example.com/features/CGPNT-26> a surv:BoundaryMark,
+        geojson:Feature ;
+    rdfs:label [ rdfs:label "Unmk CGPNT-26" ;
+            dcterms:hasPart [ rdfs:label "Unmk" ;
+                    commonpatterns:namePartType "MarkType" ],
+                [ rdfs:label "CGPNT-26" ;
+                    commonpatterns:namePartType "MarkIdentifier" ] ] ;
+    surv:monumentedBy [ surv:condition vic-monument-condition:ok ;
+            surv:form vic-monument-form:nm ;
+            surv:state vic-monument-state:new ] ;
+    surv:purpose vic-surveypoint-purpose:boundary ;
+    geojson:geometry [ a geojson:Point ;
+            geojson:coordinates ( 3.122082e+05 5.815945e+06 ) ] .
+
+<https://www.vic-example.com/features/CGPNT-27> a surv:BoundaryMark,
+        geojson:Feature ;
+    rdfs:label [ rdfs:label "Unmk CGPNT-27" ;
+            dcterms:hasPart [ rdfs:label "Unmk" ;
+                    commonpatterns:namePartType "MarkType" ],
+                [ rdfs:label "CGPNT-27" ;
+                    commonpatterns:namePartType "MarkIdentifier" ] ] ;
+    surv:monumentedBy [ surv:condition vic-monument-condition:ok ;
+            surv:form vic-monument-form:nm ;
+            surv:state vic-monument-state:new ] ;
+    surv:purpose vic-surveypoint-purpose:boundary ;
+    geojson:geometry [ a geojson:Point ;
+            geojson:coordinates ( 3.122083e+05 5.815945e+06 ) ] .
+
+<https://www.vic-example.com/features/CGPNT-28> a surv:BoundaryMark,
+        geojson:Feature ;
+    rdfs:label [ rdfs:label "Peg CGPNT-28" ;
+            dcterms:hasPart [ rdfs:label "CGPNT-28" ;
+                    commonpatterns:namePartType "MarkIdentifier" ],
+                [ rdfs:label "Peg" ;
+                    commonpatterns:namePartType "MarkType" ] ] ;
+    rdfs:comment "At base of block wall" ;
+    surv:monumentedBy [ surv:condition vic-monument-condition:ok ;
+            surv:form vic-monument-form:peg ;
+            surv:state vic-monument-state:new ] ;
+    surv:purpose vic-surveypoint-purpose:boundary ;
+    geojson:geometry [ a geojson:Point ;
+            geojson:coordinates ( 3.122127e+05 5.81595e+06 ) ] .
+
+<https://www.vic-example.com/features/CGPNT-43> a surv:BoundaryMark,
+        geojson:Feature ;
+    rdfs:label [ rdfs:label "Peg CGPNT-43" ;
+            dcterms:hasPart [ rdfs:label "CGPNT-43" ;
+                    commonpatterns:namePartType "MarkIdentifier" ],
+                [ rdfs:label "Peg" ;
+                    commonpatterns:namePartType "MarkType" ] ] ;
+    rdfs:comment "0.06m NE of PALS (10+)" ;
+    surv:monumentedBy [ surv:condition vic-monument-condition:ok ;
+            surv:form vic-monument-form:peg ;
+            surv:state vic-monument-state:new ] ;
+    surv:purpose vic-surveypoint-purpose:boundary ;
+    geojson:geometry [ a geojson:Point ;
+            geojson:coordinates ( 3.122161e+05 5.815954e+06 ) ] .
+
+<https://www.vic-example.com/features/CGPNT-44> a surv:BoundaryMark,
+        geojson:Feature ;
+    rdfs:label [ rdfs:label "Peg CGPNT-44" ;
+            dcterms:hasPart [ rdfs:label "CGPNT-44" ;
+                    commonpatterns:namePartType "MarkIdentifier" ],
+                [ rdfs:label "Peg" ;
+                    commonpatterns:namePartType "MarkType" ] ] ;
+    rdfs:comment "0.05 SE of Rec. Metal Sheet Fence, 1.00m NE of Rivert in footpath" ;
+    surv:monumentedBy [ surv:condition vic-monument-condition:ok ;
+            surv:form vic-monument-form:peg ;
+            surv:state vic-monument-state:new ] ;
+    surv:purpose vic-surveypoint-purpose:boundary ;
+    geojson:geometry [ a geojson:Point ;
+            geojson:coordinates ( 3.121969e+05 5.815931e+06 ) ] .
+
+<https://www.vic-example.com/features/CGPNT-46> a surv:BoundaryMark,
+        geojson:Feature ;
+    rdfs:label [ rdfs:label "Unmk CGPNT-46" ;
+            dcterms:hasPart [ rdfs:label "CGPNT-46" ;
+                    commonpatterns:namePartType "MarkIdentifier" ],
+                [ rdfs:label "Unmk" ;
+                    commonpatterns:namePartType "MarkType" ] ] ;
+    rdfs:comment "Impractical to mark" ;
+    surv:monumentedBy [ surv:condition vic-monument-condition:ok ;
+            surv:form vic-monument-form:nm ;
+            surv:state vic-monument-state:new ] ;
+    surv:purpose vic-surveypoint-purpose:boundary ;
+    geojson:geometry [ a geojson:Point ;
+            geojson:coordinates ( 3.122214e+05 5.81595e+06 ) ] .
+
+<https://www.vic-example.com/features/CGPNT-47> a surv:BoundaryMark,
+        geojson:Feature ;
+    rdfs:label [ rdfs:label "Peg CGPNT-47" ;
+            dcterms:hasPart [ rdfs:label "Peg" ;
+                    commonpatterns:namePartType "MarkType" ],
+                [ rdfs:label "CGPNT-47" ;
+                    commonpatterns:namePartType "MarkIdentifier" ] ] ;
+    rdfs:comment "0.07m from post" ;
+    surv:monumentedBy [ surv:condition vic-monument-condition:ok ;
+            surv:form vic-monument-form:peg ;
+            surv:state vic-monument-state:new ] ;
+    surv:purpose vic-surveypoint-purpose:boundary ;
+    geojson:geometry [ a geojson:Point ;
+            geojson:coordinates ( 3.122021e+05 5.815926e+06 ) ] .
+

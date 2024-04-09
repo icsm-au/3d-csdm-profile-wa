@@ -1,0 +1,143 @@
+{
+    "$schema": "schema.json",
+    "type": "FeatureCollection",
+    "horizontalCRS": "epsg:8031",
+    "id": null,
+    "name": "TBD",
+    "purpose": "wa-survey-purpose:subdivision",
+    "referencedCSDs": [],
+    "links": [],
+    "provenance": {},
+    "features": [
+        {
+            "id": "15432571",
+            "type": "Feature",
+            "featureType": "SurveyPoint",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    115.84528264027381,
+                    -32.06882323235359
+                ]
+            },
+            "place": {
+                "type": "Point",
+                "coordinates": [
+                    52701.989,
+                    350518.914
+                ]
+            },
+            "properties": {
+                "purpose": "wa-surveypoint-purpose:temporary-control-point",
+                "monumentedBy": {
+                    "form": "wa-monument-form:spike",
+                    "condition": "wa-monument-condition:ok",
+                    "state": "wa-monument-state:mark-found"
+                },
+                "name": {
+                    "label": "EFB157243/9540",
+                    "hasPart": [
+                        {
+                            "type": "Source",
+                            "label": "EFB157243"
+                        },
+                        {
+                            "type": "Stamp",
+                            "label": "9540"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "id": "14005391",
+            "type": "Feature",
+            "featureType": "SurveyPoint",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    115.84351018537338,
+                    -32.07134435422244
+                ]
+            },
+            "place": {
+                "type": "Point",
+                "coordinates": [
+                    52534.56,
+                    350239.395
+                ]
+            },
+            "properties": {
+                "purpose": "wa-surveypoint-purpose:monument",
+                "monumentedBy": {
+                    "form": "wa-monument-form:peg",
+                    "condition": "wa-monument-condition:ok",
+                    "state": "wa-monument-state:mark-found"
+                },
+                "name": {
+                    "label": ""
+                }
+            }
+        },
+        {
+            "id": "14005400",
+            "type": "Feature",
+            "featureType": "SurveyPoint",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    115.84338296719613,
+                    -32.07138380829002
+                ]
+            },
+            "place": {
+                "type": "Point",
+                "coordinates": [
+                    52522.547,
+                    350235.023
+                ]
+            },
+            "properties": {
+                "purpose": "wa-surveypoint-purpose:monument",
+                "monumentedBy": {
+                    "form": "wa-monument-form:peg",
+                    "condition": "wa-monument-condition:ok",
+                    "state": "wa-monument-state:mark-found"
+                },
+                "name": {
+                    "label": ""
+                }
+            }
+        },
+        {
+            "id": "14005401",
+            "type": "Feature",
+            "featureType": "SurveyPoint",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    115.84335492450616,
+                    -32.07142812919896
+                ]
+            },
+            "place": {
+                "type": "Point",
+                "coordinates": [
+                    52519.898,
+                    350230.109
+                ]
+            },
+            "properties": {
+                "purpose": "wa-surveypoint-purpose:monument",
+                "monumentedBy": {
+                    "form": "wa-monument-form:peg",
+                    "condition": "wa-monument-condition:ok",
+                    "state": "wa-monument-state:mark-found"
+                },
+                "name": {
+                    "label": ""
+                }
+            }
+        }
+    ]
+}

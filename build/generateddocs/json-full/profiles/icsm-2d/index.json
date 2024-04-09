@@ -1,0 +1,75 @@
+
+
+{
+  "itemIdentifier": "icsm.profiles.icsm-2d",
+  "name": "Cadastral Survey 2D (+elevation) basic Profile",
+  "abstract": "Profile to constrain a 2D implementation of the 3D Cadastre Survey Data Model",
+  "status": "under-development",
+  "dateTimeAddition": "2023-07-31T00:00:00Z",
+  "itemClass": "schema",
+  "register": "icsm-csdm",
+  "version": "0.1",
+  "dateOfLastChange": "2024-02-08",
+  "sources": [
+    {
+      "title": "3D Cadastre Survey Data Model",
+      "link": "https://icsm-au.github.io/3d-csdm-design/2022/spec.html"
+    }
+  ],
+  "link": "https://github.com/icsm-au/3d-csdm-schema",
+  "maturity": "development",
+  "scope": "profiles",
+  "tags": [
+    "sosa",
+    "ssn",
+    "o&m",
+    "o&m&s",
+    "csdm",
+    "profile"
+  ],
+  "superBBlock": false,
+  "shaclRules": {
+    "icsm.csdm.features.CSD": [
+      "https://icsm-au.github.io/3d-csdm-schema/_sources/csdm/shapes/parcel_module.shapes.ttl",
+      "https://icsm-au.github.io/3d-csdm-schema/_sources/csdm/shapes/container.shapes.ttl",
+      "https://icsm-au.github.io/3d-csdm-schema/_sources/csdm/features/CSD/tests/obs-match-vectors.shacl"
+    ],
+    "ogc.geo.topo.features.topo-feature": [
+      "https://ogcincubator.github.io/topo-feature/_sources/features/topo-feature/tests/geometry-coordinates.shacl",
+      "https://ogcincubator.github.io/topo-feature/_sources/features/topo-feature-collection/tests/topo-refs-exist.shacl"
+    ],
+    "icsm.csdm.datatypes.compoundName": [
+      "https://icsm-au.github.io/3d-csdm-schema/_sources/csdm/datatypes/compoundName/rules.shacl"
+    ],
+    "ogc.sosa.properties.observation": [
+      "https://opengeospatial.github.io/ogcapi-sosa/_sources/properties/observation/rules.shacl"
+    ],
+    "icsm.csdm.features.SurveyObservations": [
+      "https://icsm-au.github.io/3d-csdm-schema/_sources/csdm/features/SurveyObservations/rules.shacl"
+    ],
+    "ogc.geo.topo.features.topo-arc": [
+      "https://ogcincubator.github.io/topo-feature/_sources/features/topo-feature/tests/geometry-coordinates.shacl",
+      "https://ogcincubator.github.io/topo-feature/_sources/features/topo-feature-collection/tests/topo-refs-exist.shacl"
+    ],
+    "ogc.geo.topo.features.topo-feature-collection": [
+      "https://ogcincubator.github.io/topo-feature/_sources/features/topo-feature/tests/geometry-coordinates.shacl",
+      "https://ogcincubator.github.io/topo-feature/_sources/features/topo-feature-collection/tests/topo-refs-exist.shacl"
+    ]
+  },
+  "dependsOn": [
+    "icsm.csdm.features.CSD"
+  ],
+  "ldContext": "https://icsm-au.github.io/3d-csdm-profiles/build/annotated/profiles/icsm-2d/context.jsonld",
+  "schema": {
+    "application/yaml": "https://icsm-au.github.io/3d-csdm-profiles/build/annotated/profiles/icsm-2d/schema.yaml",
+    "application/json": "https://icsm-au.github.io/3d-csdm-profiles/build/annotated/profiles/icsm-2d/schema.json"
+  },
+  "sourceLdContext": "https://icsm-au.github.io/3d-csdm-profiles/_sources/icsm-2d/context.jsonld",
+  "sourceSchema": "https://icsm-au.github.io/3d-csdm-profiles/_sources/icsm-2d/schema.json",
+  "sourceFiles": "https://icsm-au.github.io/3d-csdm-profiles/_sources/icsm-2d/",
+  "validationPassed": true,
+  "description": "## Cadastral Survey Data Model - ICSM common\n\nRules and default namespace bindings for ICSM Jurisdiction Profiles of the Cadastral Survey Data Model (CSDM)\n\n",
+  "annotatedSchema": "$schema: https://json-schema.org/draft/2020-12/schema\ndescription: 2D restricted profile Cadastral Survey Data Model\nallOf:\n- $ref: https://icsm-au.github.io/3d-csdm-schema/build/annotated/csdm/features/CSD/schema.json\n",
+  "gitRepository": "https://github.com/icsm-au/3d-csdm-profiles",
+  "gitPath": "_sources/icsm-2d"
+}

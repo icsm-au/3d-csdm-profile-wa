@@ -1,0 +1,9 @@
+Projection:	epsg:4167
+Name:	DP 572532
+
+Monuments:	1
+	None	RM E DP 119552	BoundaryMark	174.7501603083,-36.9307359096	fail-monument-state:original	fail-monument-condition:mkfd	None
+Parcels:	0
+Observations:	0
+References:	1
+	DP 119552	DP_119552	None (None)	None	0.001	2022-05-23 00:00:00

@@ -1,0 +1,366 @@
+{
+  "context": {
+    "sensordesc": "https://linked.data.gov.au/sensor-descriptions/SN#"
+  },
+  "id": "PS-842689H",
+  "name": "PS 842689H",
+  "description": "Victoria Observations Example",
+  "type": "FeatureCollection",
+  "featureType": "CSD",
+  "purpose": "vic-survey-purpose:22-subdivision",
+  "surveyType": "vic-survey-type:survey",
+  "time": {
+    "date": "2020-11-27"
+  },
+  "horizontalCRS": "epsg:7855",
+  "bearingRotation": 0.0,
+  "surveyTitle": "Re-establishment of Lot 1 PS530098X",
+  "adminUnit": [
+    {
+      "href": "vic-county:1025",
+      "rel": "related",
+      "role": "icsm-admin-unit-type:county"
+    },
+    {
+      "href": "vic-parish:2872",
+      "rel": "related",
+      "role": "icsm-admin-unit-type:parish"
+    },
+    {
+      "href": "vic-local-government-area:328",
+      "rel": "related",
+      "role": "icsm-admin-unit-type:localGovernmentArea"
+    }
+  ],
+  "wasGeneratedBy": {
+    "id": "DP-1-S2",
+    "endedAtTime": "2029-01-01T01:02:03Z"
+  },
+  "features": [],
+  "referencedCSDs": [
+    {
+      "id": "PS530098X",
+      "name": "PS 530098 X",
+      "adminUnit": {
+        "href": "vic-parish:2872",
+        "rel": "related",
+        "role": "icsm-admin-unit-type:parish"
+      },
+      "bearingRotation": 0.00416666666666667,
+      "time": {
+        "date": "2020-11-27"
+      }
+    },
+    {
+      "id": "PS823638J",
+      "name": "PS 823638 J",
+      "adminUnit": {
+        "href": "vic-parish:2872",
+        "rel": "related",
+        "role": "icsm-admin-unit-type:parish"
+      },
+      "bearingRotation": -0.00277777777777778,
+      "time": {
+        "date": "2020-11-27"
+      }
+    },
+    {
+      "id": "PS649028H",
+      "name": "PS 649028 H",
+      "adminUnit": {
+        "href": "vic-parish:2872",
+        "rel": "related",
+        "role": "icsm-admin-unit-type:parish"
+      },
+      "bearingRotation": 0.00416666666666667,
+      "time": {
+        "date": "2020-11-27"
+      }
+    },
+    {
+      "id": "PS823652Q",
+      "name": "PS 823652 Q",
+      "adminUnit": {
+        "href": "vic-parish:2872",
+        "rel": "related",
+        "role": "icsm-admin-unit-type:parish"
+      },
+      "bearingRotation": 0.00361111111111111,
+      "time": {
+        "date": "2020-11-27"
+      }
+    },
+    {
+      "id": "PS712910P",
+      "name": "PS 712910 P",
+      "adminUnit": {
+        "href": "vic-parish:2872",
+        "rel": "related",
+        "role": "icsm-admin-unit-type:parish"
+      },
+      "bearingRotation": 0.0,
+      "time": {
+        "date": "2020-11-27"
+      }
+    }
+  ],
+  "points": [
+    {
+      "id": "CadastralMark",
+      "type": "FeatureCollection",
+      "featureType": "CadastralMarks",
+      "features": [
+        {
+          "id": "CGPNT-126",
+          "type": "Feature",
+          "featureType": "CadastralMark",
+          "time": null,
+          "geometry": null,
+          "place": {
+            "type": "Point",
+            "coordinates": [
+              355557.003,
+              5966565.784
+            ]
+          },
+          "properties": {
+            "name": {
+              "label": "ORM Pipe FD (PS649028H)",
+              "hasPart": [
+                {
+                  "type": "MarkType",
+                  "label": "ORM"
+                },
+                {
+                  "type": "MarkIdentifier",
+                  "label": "Pipe"
+                },
+                {
+                  "type": "MarkFound",
+                  "label": "FD"
+                },
+                {
+                  "type": "planIdentifier",
+                  "label": "PS649028H"
+                }
+              ]
+            },
+            "purpose": "vic-surveypoint-purpose:traverse",
+            "fromSurvey": "PS649028H",
+            "comment": "L",
+            "monumentedBy": {
+              "form": "vic-monument-form:g-i-pipe",
+              "condition": "vic-monument-condition:found",
+              "state": "vic-monument-state:existing"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "BoundaryMark",
+      "type": "FeatureCollection",
+      "featureType": "BoundaryMarks",
+      "features": [
+        {
+          "id": "CGPNT-100",
+          "type": "Feature",
+          "featureType": "BoundaryMark",
+          "time": null,
+          "geometry": null,
+          "place": {
+            "type": "Point",
+            "coordinates": [
+              355553.781,
+              5966565.561
+            ]
+          },
+          "properties": {
+            "name": {
+              "label": "OP FD (PS649028H)",
+              "hasPart": [
+                {
+                  "type": "MarkType",
+                  "label": "OP"
+                },
+                {
+                  "type": "MarkFound",
+                  "label": "FD"
+                },
+                {
+                  "type": "planIdentifier",
+                  "label": "PS649028H"
+                }
+              ]
+            },
+            "purpose": "vic-surveypoint-purpose:boundary",
+            "fromSurvey": "PS649028H",
+            "comment": "0.12m north of Pump House and 0.02m west of H.Board fence (15+)",
+            "monumentedBy": {
+              "form": "vic-monument-form:peg",
+              "condition": "vic-monument-condition:found",
+              "state": "vic-monument-state:existing"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "GeodeticReferenceMarks",
+      "type": "FeatureCollection",
+      "features": [
+        {
+          "id": "287201580",
+          "type": "Feature",
+          "featureType": "GeodeticReferenceMark",
+          "time": null,
+          "geometry": null,
+          "place": {
+            "type": "Point",
+            "coordinates": [
+              355614.019,
+              5966564.642
+            ]
+          },
+          "properties": {
+            "name": {
+              "label": "Kialla PM 158",
+              "hasPart": [
+                {
+                  "type": "parish",
+                  "label": "Kialla"
+                },
+                {
+                  "type": "MarkType",
+                  "label": "PM"
+                },
+                {
+                  "type": "MarkIdentifier",
+                  "label": "158"
+                }
+              ]
+            },
+            "geodeticid": "287201580",
+            "purpose": "vic-surveypoint-purpose:control",
+            "fromSurvey": "LUV-To-Supply",
+            "comment": "M",
+            "monumentedBy": {
+              "form": "vic-monument-form:plaque",
+              "condition": "vic-monument-condition:ok",
+              "state": "vic-monument-state:existing"
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "vectorObservations": [
+    {
+      "id": "vectorobservation:theodolite+edm",
+      "type": "FeatureCollection",
+      "featureType": "sosa:ObservationCollection",
+      "usedProcedure": "vic-procedure-used:m",
+      "properties": {
+        "resultTime": "2020-11-27T00:00:00Z",
+        "observedProperty": "surveyable:VectorDetermination",
+        "madeBySensor": {
+          "id": "ts-13",
+          "sensorType": "icsm-equipment-type:t-edm",
+          "description": "Wild T1A",
+          "lastCalibrated": "2020-09-14T15:32:45",
+          "hasSubSystem": [
+            {
+              "sensorType": "icsm-equipment-type:t",
+              "id": "sensordesc:8765434"
+            },
+            {
+              "sensorType": "icsm-equipment-type:edm",
+              "id": "sensordesc:56892137"
+            },
+            {
+              "sensorType": "icsm-equipment-type:p",
+              "id": "568925"
+            }
+          ]
+        }
+      },
+      "features": [
+        {
+          "type": "Feature",
+          "geometry": null,
+          "properties": {
+            "hasFeatureOfInterest": "OBS-343",
+            "resultTime": "2020-11-27T00:00:00Z",
+            "hasResult": {
+              "distance": 57.028,
+              "angle": 271.146666666667
+            },
+            "distanceType": "icsm-distance-type:horizontal",
+            "angleType": "icsm-angle-type:bearing"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": null,
+          "properties": {
+            "hasFeatureOfInterest": "OBS-001",
+            "resultTime": "2020-11-27T00:00:00Z",
+            "hasResult": {
+              "distance": 3.23,
+              "angle": 266.05
+            },
+            "distanceType": "icsm-distance-type:horizontal",
+            "fromSurveyDistance": "PS649028H",
+            "angleType": "icsm-angle-type:bearing",
+            "fromSurveyBearing": "PS649028H"
+          }
+        }
+      ]
+    }
+  ],
+  "observedVectors": [
+    {
+      "id": "observedVectors",
+      "type": "FeatureCollection",
+      "featureType": "ObservedVector",
+      "features": [
+        {
+          "id": "OBS-343",
+          "type": "Feature",
+          "geometry": null,
+          "topology": {
+            "type": "LineString",
+            "references": [
+              "287201580",
+              "CGPNT-126"
+            ]
+          },
+          "properties": {
+            "vectorPurpose": "vic-vector-purpose:sideshot",
+            "comment": null
+          }
+        },
+        {
+          "id": "OBS-001",
+          "type": "Feature",
+          "geometry": null,
+          "topology": {
+            "type": "LineString",
+            "references": [
+              "CGPNT-126",
+              "CGPNT-100"
+            ]
+          },
+          "properties": {
+            "vectorPurpose": "vic-vector-purpose:sideshot",
+            "comment": null
+          }
+        }
+      ]
+    }
+  ],
+  "parcels": [],
+  "supportingDocuments": [],
+  "annotations": [],
+  "@context": "https://icsm-au.github.io/3d-csdm-profiles/build/annotated/profiles/vic/context.jsonld"
+}

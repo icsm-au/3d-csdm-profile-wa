@@ -1,0 +1,607 @@
+{
+  "title": "Validation report for icsm.profiles.icsm-3d - Cadastral Survey 3D profile",
+  "bblockName": "Cadastral Survey 3D profile",
+  "bblockId": "icsm.profiles.icsm-3d",
+  "generated": "2024-02-08T09:23:28.669043+00:00",
+  "result": true,
+  "items": [
+    {
+      "source": {
+        "type": "TEST_RESOURCE",
+        "requireFail": true,
+        "filename": "https://icsm-au.github.io/3d-csdm-profiles/_sources/icsm-3d/tests/3d-coords-fail.json",
+        "language": "json"
+      },
+      "result": true,
+      "sections": [
+        {
+          "name": "GENERAL",
+          "title": "General",
+          "entries": [
+            {
+              "op": "require-fail",
+              "isError": false,
+              "message": "Test was expected to fail and it did."
+            }
+          ]
+        },
+        {
+          "name": "FILES",
+          "title": "Files",
+          "entries": [
+            {
+              "isError": false,
+              "message": "Using 3d-coords-fail.json from test resources"
+            },
+            {
+              "op": "jsonld-uplift",
+              "isError": false,
+              "message": "JSON-LD context is present - uplifting"
+            },
+            {
+              "op": "jsonld-create",
+              "filename": "3d-coords-fail.jsonld",
+              "isError": false,
+              "message": "Output JSON-LD 3d-coords-fail.jsonld created"
+            },
+            {
+              "op": "ttl-create",
+              "empty": false,
+              "filename": "3d-coords-fail.ttl",
+              "size": 51,
+              "isError": false,
+              "message": "Output Turtle 3d-coords-fail.ttl created"
+            }
+          ]
+        },
+        {
+          "name": "JSON_SCHEMA",
+          "title": "JSON Schema",
+          "entries": [
+            {
+              "op": "validation",
+              "result": true,
+              "isError": false,
+              "message": "Validation passed"
+            }
+          ]
+        },
+        {
+          "name": "JSON_LD",
+          "title": "JSON-LD",
+          "entries": []
+        },
+        {
+          "name": "TURTLE",
+          "title": "Turtle",
+          "entries": []
+        },
+        {
+          "name": "SHACL",
+          "title": "SHACL",
+          "entries": [
+            {
+              "op": "shacl-report",
+              "shaclFile": "https://icsm-au.github.io/3d-csdm-schema/_sources/csdm/features/CSD/tests/obs-match-vectors.shacl",
+              "graph": "@prefix geojson: <https://purl.org/geojson/vocab#> .\n@prefix ns1: <https://linked.data.gov.au/def/csdm/surveyfeatures/> .\n@prefix sh: <http://www.w3.org/ns/shacl#> .\n@prefix sosa: <http://www.w3.org/ns/sosa/> .\n@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .\n\n[] a sh:ValidationReport ;\n    sh:conforms false ;\n    sh:result [ a sh:ValidationResult ;\n            sh:focusNode [ a geojson:Feature ;\n                    sosa:hasFeatureOfInterest <https://linked.data.gov.au/def/csdm/csd-example/14480677> ;\n                    sosa:hasResult [ ns1:pose [ ns1:distance 5.0192e+01 ] ] ;\n                    sosa:resultTime \"2023-03-31T11:56:03\" ] ;\n            sh:resultMessage \"Value does not have class geojson:Feature\" ;\n            sh:resultPath sosa:hasFeatureOfInterest ;\n            sh:resultSeverity sh:Violation ;\n            sh:sourceConstraintComponent sh:ClassConstraintComponent ;\n            sh:sourceShape [ sh:class geojson:Feature ;\n                    sh:nodeKind sh:IRI ;\n                    sh:path sosa:hasFeatureOfInterest ] ;\n            sh:value <https://linked.data.gov.au/def/csdm/csd-example/14480677> ] .\n\n",
+              "isError": true,
+              "message": "Validation result for https://icsm-au.github.io/3d-csdm-schema/_sources/csdm/features/CSD/tests/obs-match-vectors.shacl:\n  Validation Report\n  Conforms: False\n  Results (1):\n  Constraint Violation in ClassConstraintComponent (http://www.w3.org/ns/shacl#ClassConstraintComponent):\n  \tSeverity: sh:Violation\n  \tSource Shape: [ sh:class geojson:Feature ; sh:nodeKind sh:IRI ; sh:path sosa:hasFeatureOfInterest ]\n  \tFocus Node: [ rdf:type geojson:Feature ; sosa:hasFeatureOfInterest eg1:14480677 ; sosa:hasResult [ surv:pose [ surv:distance Literal(\"50.192\", datatype=xsd:double) ] ] ; sosa:resultTime Literal(\"2023-03-31T11:56:03\") ]\n  \tValue Node: eg1:14480677\n  \tResult Path: sosa:hasFeatureOfInterest\n  \tMessage: Value does not have class geojson:Feature\n  "
+            },
+            {
+              "shaclFile": "https://icsm-au.github.io/3d-csdm-schema/_sources/csdm/features/CSD/tests/obs-match-vectors.shacl",
+              "focusNodes": {
+                ":testFOIexists": {
+                  "nodes": [
+                    "eg1:vectorObservations/sosa:hasMember"
+                  ]
+                }
+              },
+              "isError": false,
+              "message": "Focus nodes for https://icsm-au.github.io/3d-csdm-schema/_sources/csdm/features/CSD/tests/obs-match-vectors.shacl:\n - Shape :testFOIexists: eg1:vectorObservations/sosa:hasMember\n"
+            },
+            {
+              "op": "shacl-report",
+              "shaclFile": "https://icsm-au.github.io/3d-csdm-schema/_sources/csdm/shapes/container.shapes.ttl",
+              "graph": "@prefix sh: <http://www.w3.org/ns/shacl#> .\n@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .\n\n[] a sh:ValidationReport ;\n    sh:conforms true .\n\n",
+              "isError": false,
+              "message": "Validation result for https://icsm-au.github.io/3d-csdm-schema/_sources/csdm/shapes/container.shapes.ttl:\n  Validation Report\n  Conforms: True\n  "
+            },
+            {
+              "shaclFile": "https://icsm-au.github.io/3d-csdm-schema/_sources/csdm/shapes/container.shapes.ttl",
+              "focusNodes": {
+                "container:CSD": {
+                  "nodes": []
+                },
+                "container:CSD-seeAlso": {
+                  "nodes": []
+                },
+                "<https://linked.data.gov.au/def/csdm/surveyprov/SurveyType>": {
+                  "nodes": []
+                }
+              },
+              "isError": false,
+              "message": "Focus nodes for https://icsm-au.github.io/3d-csdm-schema/_sources/csdm/shapes/container.shapes.ttl:\n - Shape container:CSD: *none*\n - Shape container:CSD-seeAlso: *none*\n - Shape <https://linked.data.gov.au/def/csdm/surveyprov/SurveyType>: *none*\n"
+            },
+            {
+              "op": "shacl-report",
+              "shaclFile": "https://icsm-au.github.io/3d-csdm-schema/_sources/csdm/shapes/parcel_module.shapes.ttl",
+              "graph": "@prefix sh: <http://www.w3.org/ns/shacl#> .\n@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .\n\n[] a sh:ValidationReport ;\n    sh:conforms true .\n\n",
+              "isError": false,
+              "message": "Validation result for https://icsm-au.github.io/3d-csdm-schema/_sources/csdm/shapes/parcel_module.shapes.ttl:\n  Validation Report\n  Conforms: True\n  "
+            },
+            {
+              "shaclFile": "https://icsm-au.github.io/3d-csdm-schema/_sources/csdm/shapes/parcel_module.shapes.ttl",
+              "focusNodes": {
+                ":PropertyUnit": {
+                  "nodes": []
+                },
+                ":ParcelQualityClass": {
+                  "nodes": []
+                },
+                ":Apellation": {
+                  "nodes": []
+                },
+                ":PurposeOfSpatialUnit": {
+                  "nodes": []
+                },
+                ":PrimaryParcel": {
+                  "nodes": []
+                },
+                ":SecondaryParcel": {
+                  "nodes": []
+                },
+                ":ParcelState": {
+                  "nodes": []
+                },
+                ":LandInterest": {
+                  "nodes": []
+                },
+                ":ParcelAggregate": {
+                  "nodes": []
+                },
+                ":EstateParcel": {
+                  "nodes": []
+                },
+                ":ParcelType": {
+                  "nodes": []
+                },
+                ":Parcel": {
+                  "nodes": []
+                }
+              },
+              "isError": false,
+              "message": "Focus nodes for https://icsm-au.github.io/3d-csdm-schema/_sources/csdm/shapes/parcel_module.shapes.ttl:\n - Shape :PropertyUnit: *none*\n - Shape :ParcelQualityClass: *none*\n - Shape :Apellation: *none*\n - Shape :PurposeOfSpatialUnit: *none*\n - Shape :PrimaryParcel: *none*\n - Shape :SecondaryParcel: *none*\n - Shape :ParcelState: *none*\n - Shape :LandInterest: *none*\n - Shape :ParcelAggregate: *none*\n - Shape :EstateParcel: *none*\n - Shape :ParcelType: *none*\n - Shape :Parcel: *none*\n"
+            },
+            {
+              "op": "shacl-report",
+              "shaclFile": "https://ogcincubator.github.io/topo-feature/_sources/features/topo-feature/tests/geometry-coordinates.shacl",
+              "graph": "@prefix sh: <http://www.w3.org/ns/shacl#> .\n@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .\n\n[] a sh:ValidationReport ;\n    sh:conforms true .\n\n",
+              "isError": false,
+              "message": "Validation result for https://ogcincubator.github.io/topo-feature/_sources/features/topo-feature/tests/geometry-coordinates.shacl:\n  Validation Report\n  Conforms: True\n  "
+            },
+            {
+              "shaclFile": "https://ogcincubator.github.io/topo-feature/_sources/features/topo-feature/tests/geometry-coordinates.shacl",
+              "focusNodes": {
+                "_:nfd3eb632b62041d5b8d60ddc39d9987fb1": {
+                  "nodes": [
+                    "eg1:9540/geojson:geometry"
+                  ]
+                },
+                "_:nfd3eb632b62041d5b8d60ddc39d9987fb3": {
+                  "nodes": [
+                    "eg1:9540/geojson:geometry"
+                  ]
+                }
+              },
+              "isError": false,
+              "message": "Focus nodes for https://ogcincubator.github.io/topo-feature/_sources/features/topo-feature/tests/geometry-coordinates.shacl:\n - Shape _:nfd3eb632b62041d5b8d60ddc39d9987fb1: eg1:9540/geojson:geometry\n - Shape _:nfd3eb632b62041d5b8d60ddc39d9987fb3: eg1:9540/geojson:geometry\n"
+            },
+            {
+              "op": "shacl-report",
+              "shaclFile": "https://ogcincubator.github.io/topo-feature/_sources/features/topo-feature-collection/tests/topo-refs-exist.shacl",
+              "graph": "@prefix sh: <http://www.w3.org/ns/shacl#> .\n@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .\n\n[] a sh:ValidationReport ;\n    sh:conforms true .\n\n",
+              "isError": false,
+              "message": "Validation result for https://ogcincubator.github.io/topo-feature/_sources/features/topo-feature-collection/tests/topo-refs-exist.shacl:\n  Validation Report\n  Conforms: True\n  "
+            },
+            {
+              "shaclFile": "https://ogcincubator.github.io/topo-feature/_sources/features/topo-feature-collection/tests/topo-refs-exist.shacl",
+              "focusNodes": {
+                "topo:testTopoLinesReferencePoints": {
+                  "nodes": []
+                },
+                "topo:testTopoReferencesExist": {
+                  "nodes": []
+                }
+              },
+              "isError": false,
+              "message": "Focus nodes for https://ogcincubator.github.io/topo-feature/_sources/features/topo-feature-collection/tests/topo-refs-exist.shacl:\n - Shape topo:testTopoLinesReferencePoints: *none*\n - Shape topo:testTopoReferencesExist: *none*\n"
+            },
+            {
+              "op": "shacl-report",
+              "shaclFile": "https://icsm-au.github.io/3d-csdm-schema/_sources/csdm/datatypes/compoundName/rules.shacl",
+              "graph": "@prefix sh: <http://www.w3.org/ns/shacl#> .\n@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .\n\n[] a sh:ValidationReport ;\n    sh:conforms true .\n\n",
+              "isError": false,
+              "message": "Validation result for https://icsm-au.github.io/3d-csdm-schema/_sources/csdm/datatypes/compoundName/rules.shacl:\n  Validation Report\n  Conforms: True\n  "
+            },
+            {
+              "shaclFile": "https://icsm-au.github.io/3d-csdm-schema/_sources/csdm/datatypes/compoundName/rules.shacl",
+              "focusNodes": {
+                "_:nc87cff5ce3d047c6a13d70dc2983468db1": {
+                  "nodes": []
+                }
+              },
+              "isError": false,
+              "message": "Focus nodes for https://icsm-au.github.io/3d-csdm-schema/_sources/csdm/datatypes/compoundName/rules.shacl:\n - Shape _:nc87cff5ce3d047c6a13d70dc2983468db1: *none*\n"
+            },
+            {
+              "op": "shacl-report",
+              "shaclFile": "https://opengeospatial.github.io/ogcapi-sosa/_sources/properties/observation/rules.shacl",
+              "graph": "@prefix sh: <http://www.w3.org/ns/shacl#> .\n@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .\n\n[] a sh:ValidationReport ;\n    sh:conforms true .\n\n",
+              "isError": false,
+              "message": "Validation result for https://opengeospatial.github.io/ogcapi-sosa/_sources/properties/observation/rules.shacl:\n  Validation Report\n  Conforms: True\n  "
+            },
+            {
+              "shaclFile": "https://opengeospatial.github.io/ogcapi-sosa/_sources/properties/observation/rules.shacl",
+              "focusNodes": {
+                "<https://www.ogc.org/rules/sosa/#testRequiredTime>": {
+                  "nodes": [
+                    "eg1:vectorObservations/sosa:hasMember"
+                  ]
+                },
+                "<https://www.ogc.org/rules/sosa/#testSimpleResultLiteral>": {
+                  "nodes": []
+                },
+                "<https://www.ogc.org/rules/sosa/#testResult>": {
+                  "nodes": [
+                    "eg1:vectorObservations/sosa:hasMember"
+                  ]
+                },
+                "<https://www.ogc.org/rules/sosa/#testObservedProperty>": {
+                  "nodes": [
+                    "eg1:vectorObservations/sosa:hasMember"
+                  ]
+                },
+                "<https://www.ogc.org/rules/sosa/#testFeatureOfInterest>": {
+                  "nodes": [
+                    "eg1:vectorObservations/sosa:hasMember"
+                  ]
+                },
+                "<https://www.ogc.org/rules/sosa/#testResultNotEmptyNode>": {
+                  "nodes": []
+                }
+              },
+              "isError": false,
+              "message": "Focus nodes for https://opengeospatial.github.io/ogcapi-sosa/_sources/properties/observation/rules.shacl:\n - Shape <https://www.ogc.org/rules/sosa/#testRequiredTime>: eg1:vectorObservations/sosa:hasMember\n - Shape <https://www.ogc.org/rules/sosa/#testSimpleResultLiteral>: *none*\n - Shape <https://www.ogc.org/rules/sosa/#testResult>: eg1:vectorObservations/sosa:hasMember\n - Shape <https://www.ogc.org/rules/sosa/#testObservedProperty>: eg1:vectorObservations/sosa:hasMember\n - Shape <https://www.ogc.org/rules/sosa/#testFeatureOfInterest>: eg1:vectorObservations/sosa:hasMember\n - Shape <https://www.ogc.org/rules/sosa/#testResultNotEmptyNode>: *none*\n"
+            },
+            {
+              "op": "shacl-report",
+              "shaclFile": "https://icsm-au.github.io/3d-csdm-schema/_sources/csdm/features/SurveyObservations/rules.shacl",
+              "graph": "@prefix sh: <http://www.w3.org/ns/shacl#> .\n@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .\n\n[] a sh:ValidationReport ;\n    sh:conforms true .\n\n",
+              "isError": false,
+              "message": "Validation result for https://icsm-au.github.io/3d-csdm-schema/_sources/csdm/features/SurveyObservations/rules.shacl:\n  Validation Report\n  Conforms: True\n  "
+            },
+            {
+              "shaclFile": "https://icsm-au.github.io/3d-csdm-schema/_sources/csdm/features/SurveyObservations/rules.shacl",
+              "focusNodes": {
+                ":testRequiredProperties": {
+                  "nodes": [
+                    "eg1:vectorObservations/sosa:hasMember"
+                  ]
+                }
+              },
+              "isError": false,
+              "message": "Focus nodes for https://icsm-au.github.io/3d-csdm-schema/_sources/csdm/features/SurveyObservations/rules.shacl:\n - Shape :testRequiredProperties: eg1:vectorObservations/sosa:hasMember\n"
+            }
+          ]
+        },
+        {
+          "name": "UNKNOWN",
+          "title": "Unknown errors",
+          "entries": []
+        }
+      ]
+    },
+    {
+      "source": {
+        "type": "TEST_RESOURCE",
+        "requireFail": true,
+        "filename": "https://icsm-au.github.io/3d-csdm-profiles/_sources/icsm-3d/tests/3d-obs-fail.json",
+        "language": "json"
+      },
+      "result": true,
+      "sections": [
+        {
+          "name": "GENERAL",
+          "title": "General",
+          "entries": [
+            {
+              "op": "require-fail",
+              "isError": false,
+              "message": "Test was expected to fail and it did."
+            }
+          ]
+        },
+        {
+          "name": "FILES",
+          "title": "Files",
+          "entries": [
+            {
+              "isError": false,
+              "message": "Using 3d-obs-fail.json from test resources"
+            },
+            {
+              "op": "jsonld-uplift",
+              "isError": false,
+              "message": "JSON-LD context is present - uplifting"
+            },
+            {
+              "op": "jsonld-create",
+              "filename": "3d-obs-fail.jsonld",
+              "isError": false,
+              "message": "Output JSON-LD 3d-obs-fail.jsonld created"
+            },
+            {
+              "op": "ttl-create",
+              "empty": false,
+              "filename": "3d-obs-fail.ttl",
+              "size": 53,
+              "isError": false,
+              "message": "Output Turtle 3d-obs-fail.ttl created"
+            }
+          ]
+        },
+        {
+          "name": "JSON_SCHEMA",
+          "title": "JSON Schema",
+          "entries": [
+            {
+              "op": "validation",
+              "result": true,
+              "isError": false,
+              "message": "Validation passed"
+            }
+          ]
+        },
+        {
+          "name": "JSON_LD",
+          "title": "JSON-LD",
+          "entries": []
+        },
+        {
+          "name": "TURTLE",
+          "title": "Turtle",
+          "entries": []
+        },
+        {
+          "name": "SHACL",
+          "title": "SHACL",
+          "entries": [
+            {
+              "op": "shacl-report",
+              "shaclFile": "https://icsm-au.github.io/3d-csdm-schema/_sources/csdm/features/CSD/tests/obs-match-vectors.shacl",
+              "graph": "@prefix geojson: <https://purl.org/geojson/vocab#> .\n@prefix ns1: <https://linked.data.gov.au/def/csdm/surveyfeatures/> .\n@prefix sh: <http://www.w3.org/ns/shacl#> .\n@prefix sosa: <http://www.w3.org/ns/sosa/> .\n@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .\n\n[] a sh:ValidationReport ;\n    sh:conforms false ;\n    sh:result [ a sh:ValidationResult ;\n            sh:focusNode [ a geojson:Feature ;\n                    sosa:hasFeatureOfInterest <https://linked.data.gov.au/def/csdm/csd-example/14480677> ;\n                    sosa:hasResult [ ns1:pose [ ns1:distance 5.0192e+01 ] ] ;\n                    sosa:resultTime \"2023-03-31T11:56:03\" ] ;\n            sh:resultMessage \"Value does not have class geojson:Feature\" ;\n            sh:resultPath sosa:hasFeatureOfInterest ;\n            sh:resultSeverity sh:Violation ;\n            sh:sourceConstraintComponent sh:ClassConstraintComponent ;\n            sh:sourceShape [ sh:class geojson:Feature ;\n                    sh:nodeKind sh:IRI ;\n                    sh:path sosa:hasFeatureOfInterest ] ;\n            sh:value <https://linked.data.gov.au/def/csdm/csd-example/14480677> ] .\n\n",
+              "isError": true,
+              "message": "Validation result for https://icsm-au.github.io/3d-csdm-schema/_sources/csdm/features/CSD/tests/obs-match-vectors.shacl:\n  Validation Report\n  Conforms: False\n  Results (1):\n  Constraint Violation in ClassConstraintComponent (http://www.w3.org/ns/shacl#ClassConstraintComponent):\n  \tSeverity: sh:Violation\n  \tSource Shape: [ sh:class geojson:Feature ; sh:nodeKind sh:IRI ; sh:path sosa:hasFeatureOfInterest ]\n  \tFocus Node: [ rdf:type geojson:Feature ; sosa:hasFeatureOfInterest eg1:14480677 ; sosa:hasResult [ surv:pose [ surv:distance Literal(\"50.192\", datatype=xsd:double) ] ] ; sosa:resultTime Literal(\"2023-03-31T11:56:03\") ]\n  \tValue Node: eg1:14480677\n  \tResult Path: sosa:hasFeatureOfInterest\n  \tMessage: Value does not have class geojson:Feature\n  "
+            },
+            {
+              "shaclFile": "https://icsm-au.github.io/3d-csdm-schema/_sources/csdm/features/CSD/tests/obs-match-vectors.shacl",
+              "focusNodes": {
+                ":testFOIexists": {
+                  "nodes": [
+                    "eg1:vectorObservations/sosa:hasMember"
+                  ]
+                }
+              },
+              "isError": false,
+              "message": "Focus nodes for https://icsm-au.github.io/3d-csdm-schema/_sources/csdm/features/CSD/tests/obs-match-vectors.shacl:\n - Shape :testFOIexists: eg1:vectorObservations/sosa:hasMember\n"
+            },
+            {
+              "op": "shacl-report",
+              "shaclFile": "https://icsm-au.github.io/3d-csdm-schema/_sources/csdm/shapes/container.shapes.ttl",
+              "graph": "@prefix sh: <http://www.w3.org/ns/shacl#> .\n@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .\n\n[] a sh:ValidationReport ;\n    sh:conforms true .\n\n",
+              "isError": false,
+              "message": "Validation result for https://icsm-au.github.io/3d-csdm-schema/_sources/csdm/shapes/container.shapes.ttl:\n  Validation Report\n  Conforms: True\n  "
+            },
+            {
+              "shaclFile": "https://icsm-au.github.io/3d-csdm-schema/_sources/csdm/shapes/container.shapes.ttl",
+              "focusNodes": {
+                "container:CSD": {
+                  "nodes": []
+                },
+                "container:CSD-seeAlso": {
+                  "nodes": []
+                },
+                "<https://linked.data.gov.au/def/csdm/surveyprov/SurveyType>": {
+                  "nodes": []
+                }
+              },
+              "isError": false,
+              "message": "Focus nodes for https://icsm-au.github.io/3d-csdm-schema/_sources/csdm/shapes/container.shapes.ttl:\n - Shape container:CSD: *none*\n - Shape container:CSD-seeAlso: *none*\n - Shape <https://linked.data.gov.au/def/csdm/surveyprov/SurveyType>: *none*\n"
+            },
+            {
+              "op": "shacl-report",
+              "shaclFile": "https://icsm-au.github.io/3d-csdm-schema/_sources/csdm/shapes/parcel_module.shapes.ttl",
+              "graph": "@prefix sh: <http://www.w3.org/ns/shacl#> .\n@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .\n\n[] a sh:ValidationReport ;\n    sh:conforms true .\n\n",
+              "isError": false,
+              "message": "Validation result for https://icsm-au.github.io/3d-csdm-schema/_sources/csdm/shapes/parcel_module.shapes.ttl:\n  Validation Report\n  Conforms: True\n  "
+            },
+            {
+              "shaclFile": "https://icsm-au.github.io/3d-csdm-schema/_sources/csdm/shapes/parcel_module.shapes.ttl",
+              "focusNodes": {
+                ":PropertyUnit": {
+                  "nodes": []
+                },
+                ":ParcelQualityClass": {
+                  "nodes": []
+                },
+                ":Apellation": {
+                  "nodes": []
+                },
+                ":PurposeOfSpatialUnit": {
+                  "nodes": []
+                },
+                ":PrimaryParcel": {
+                  "nodes": []
+                },
+                ":SecondaryParcel": {
+                  "nodes": []
+                },
+                ":ParcelState": {
+                  "nodes": []
+                },
+                ":LandInterest": {
+                  "nodes": []
+                },
+                ":ParcelAggregate": {
+                  "nodes": []
+                },
+                ":EstateParcel": {
+                  "nodes": []
+                },
+                ":ParcelType": {
+                  "nodes": []
+                },
+                ":Parcel": {
+                  "nodes": []
+                }
+              },
+              "isError": false,
+              "message": "Focus nodes for https://icsm-au.github.io/3d-csdm-schema/_sources/csdm/shapes/parcel_module.shapes.ttl:\n - Shape :PropertyUnit: *none*\n - Shape :ParcelQualityClass: *none*\n - Shape :Apellation: *none*\n - Shape :PurposeOfSpatialUnit: *none*\n - Shape :PrimaryParcel: *none*\n - Shape :SecondaryParcel: *none*\n - Shape :ParcelState: *none*\n - Shape :LandInterest: *none*\n - Shape :ParcelAggregate: *none*\n - Shape :EstateParcel: *none*\n - Shape :ParcelType: *none*\n - Shape :Parcel: *none*\n"
+            },
+            {
+              "op": "shacl-report",
+              "shaclFile": "https://ogcincubator.github.io/topo-feature/_sources/features/topo-feature/tests/geometry-coordinates.shacl",
+              "graph": "@prefix sh: <http://www.w3.org/ns/shacl#> .\n@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .\n\n[] a sh:ValidationReport ;\n    sh:conforms true .\n\n",
+              "isError": false,
+              "message": "Validation result for https://ogcincubator.github.io/topo-feature/_sources/features/topo-feature/tests/geometry-coordinates.shacl:\n  Validation Report\n  Conforms: True\n  "
+            },
+            {
+              "shaclFile": "https://ogcincubator.github.io/topo-feature/_sources/features/topo-feature/tests/geometry-coordinates.shacl",
+              "focusNodes": {
+                "_:nfd3eb632b62041d5b8d60ddc39d9987fb1": {
+                  "nodes": [
+                    "eg1:9540/geojson:geometry"
+                  ]
+                },
+                "_:nfd3eb632b62041d5b8d60ddc39d9987fb3": {
+                  "nodes": [
+                    "eg1:9540/geojson:geometry"
+                  ]
+                }
+              },
+              "isError": false,
+              "message": "Focus nodes for https://ogcincubator.github.io/topo-feature/_sources/features/topo-feature/tests/geometry-coordinates.shacl:\n - Shape _:nfd3eb632b62041d5b8d60ddc39d9987fb1: eg1:9540/geojson:geometry\n - Shape _:nfd3eb632b62041d5b8d60ddc39d9987fb3: eg1:9540/geojson:geometry\n"
+            },
+            {
+              "op": "shacl-report",
+              "shaclFile": "https://ogcincubator.github.io/topo-feature/_sources/features/topo-feature-collection/tests/topo-refs-exist.shacl",
+              "graph": "@prefix sh: <http://www.w3.org/ns/shacl#> .\n@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .\n\n[] a sh:ValidationReport ;\n    sh:conforms true .\n\n",
+              "isError": false,
+              "message": "Validation result for https://ogcincubator.github.io/topo-feature/_sources/features/topo-feature-collection/tests/topo-refs-exist.shacl:\n  Validation Report\n  Conforms: True\n  "
+            },
+            {
+              "shaclFile": "https://ogcincubator.github.io/topo-feature/_sources/features/topo-feature-collection/tests/topo-refs-exist.shacl",
+              "focusNodes": {
+                "topo:testTopoLinesReferencePoints": {
+                  "nodes": []
+                },
+                "topo:testTopoReferencesExist": {
+                  "nodes": []
+                }
+              },
+              "isError": false,
+              "message": "Focus nodes for https://ogcincubator.github.io/topo-feature/_sources/features/topo-feature-collection/tests/topo-refs-exist.shacl:\n - Shape topo:testTopoLinesReferencePoints: *none*\n - Shape topo:testTopoReferencesExist: *none*\n"
+            },
+            {
+              "op": "shacl-report",
+              "shaclFile": "https://icsm-au.github.io/3d-csdm-schema/_sources/csdm/datatypes/compoundName/rules.shacl",
+              "graph": "@prefix sh: <http://www.w3.org/ns/shacl#> .\n@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .\n\n[] a sh:ValidationReport ;\n    sh:conforms true .\n\n",
+              "isError": false,
+              "message": "Validation result for https://icsm-au.github.io/3d-csdm-schema/_sources/csdm/datatypes/compoundName/rules.shacl:\n  Validation Report\n  Conforms: True\n  "
+            },
+            {
+              "shaclFile": "https://icsm-au.github.io/3d-csdm-schema/_sources/csdm/datatypes/compoundName/rules.shacl",
+              "focusNodes": {
+                "_:nc87cff5ce3d047c6a13d70dc2983468db1": {
+                  "nodes": []
+                }
+              },
+              "isError": false,
+              "message": "Focus nodes for https://icsm-au.github.io/3d-csdm-schema/_sources/csdm/datatypes/compoundName/rules.shacl:\n - Shape _:nc87cff5ce3d047c6a13d70dc2983468db1: *none*\n"
+            },
+            {
+              "op": "shacl-report",
+              "shaclFile": "https://opengeospatial.github.io/ogcapi-sosa/_sources/properties/observation/rules.shacl",
+              "graph": "@prefix sh: <http://www.w3.org/ns/shacl#> .\n@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .\n\n[] a sh:ValidationReport ;\n    sh:conforms true .\n\n",
+              "isError": false,
+              "message": "Validation result for https://opengeospatial.github.io/ogcapi-sosa/_sources/properties/observation/rules.shacl:\n  Validation Report\n  Conforms: True\n  "
+            },
+            {
+              "shaclFile": "https://opengeospatial.github.io/ogcapi-sosa/_sources/properties/observation/rules.shacl",
+              "focusNodes": {
+                "<https://www.ogc.org/rules/sosa/#testRequiredTime>": {
+                  "nodes": [
+                    "eg1:vectorObservations/sosa:hasMember"
+                  ]
+                },
+                "<https://www.ogc.org/rules/sosa/#testSimpleResultLiteral>": {
+                  "nodes": []
+                },
+                "<https://www.ogc.org/rules/sosa/#testResult>": {
+                  "nodes": [
+                    "eg1:vectorObservations/sosa:hasMember"
+                  ]
+                },
+                "<https://www.ogc.org/rules/sosa/#testObservedProperty>": {
+                  "nodes": [
+                    "eg1:vectorObservations/sosa:hasMember"
+                  ]
+                },
+                "<https://www.ogc.org/rules/sosa/#testFeatureOfInterest>": {
+                  "nodes": [
+                    "eg1:vectorObservations/sosa:hasMember"
+                  ]
+                },
+                "<https://www.ogc.org/rules/sosa/#testResultNotEmptyNode>": {
+                  "nodes": []
+                }
+              },
+              "isError": false,
+              "message": "Focus nodes for https://opengeospatial.github.io/ogcapi-sosa/_sources/properties/observation/rules.shacl:\n - Shape <https://www.ogc.org/rules/sosa/#testRequiredTime>: eg1:vectorObservations/sosa:hasMember\n - Shape <https://www.ogc.org/rules/sosa/#testSimpleResultLiteral>: *none*\n - Shape <https://www.ogc.org/rules/sosa/#testResult>: eg1:vectorObservations/sosa:hasMember\n - Shape <https://www.ogc.org/rules/sosa/#testObservedProperty>: eg1:vectorObservations/sosa:hasMember\n - Shape <https://www.ogc.org/rules/sosa/#testFeatureOfInterest>: eg1:vectorObservations/sosa:hasMember\n - Shape <https://www.ogc.org/rules/sosa/#testResultNotEmptyNode>: *none*\n"
+            },
+            {
+              "op": "shacl-report",
+              "shaclFile": "https://icsm-au.github.io/3d-csdm-schema/_sources/csdm/features/SurveyObservations/rules.shacl",
+              "graph": "@prefix sh: <http://www.w3.org/ns/shacl#> .\n@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .\n\n[] a sh:ValidationReport ;\n    sh:conforms true .\n\n",
+              "isError": false,
+              "message": "Validation result for https://icsm-au.github.io/3d-csdm-schema/_sources/csdm/features/SurveyObservations/rules.shacl:\n  Validation Report\n  Conforms: True\n  "
+            },
+            {
+              "shaclFile": "https://icsm-au.github.io/3d-csdm-schema/_sources/csdm/features/SurveyObservations/rules.shacl",
+              "focusNodes": {
+                ":testRequiredProperties": {
+                  "nodes": [
+                    "eg1:vectorObservations/sosa:hasMember"
+                  ]
+                }
+              },
+              "isError": false,
+              "message": "Focus nodes for https://icsm-au.github.io/3d-csdm-schema/_sources/csdm/features/SurveyObservations/rules.shacl:\n - Shape :testRequiredProperties: eg1:vectorObservations/sosa:hasMember\n"
+            }
+          ]
+        },
+        {
+          "name": "UNKNOWN",
+          "title": "Unknown errors",
+          "entries": []
+        }
+      ]
+    }
+  ],
+  "globalErrors": {},
+  "counts": {
+    "total": 2,
+    "passed": 2,
+    "failed": 0
+  }
+}

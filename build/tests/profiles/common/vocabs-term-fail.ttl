@@ -1,0 +1,52 @@
+@prefix commonpatterns: <https://linked.data.gov.au/def/csdm/commonpatterns/> .
+@prefix container: <https://linked.data.gov.au/def/csdm/container/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix epsg: <http://www.opengis.net/def/crs/EPSG/0/> .
+@prefix geojson: <https://purl.org/geojson/vocab#> .
+@prefix icsm-jurisdictions: <https://linked.data.gov.au/def/csdm/jurisdictions/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix surv: <https://linked.data.gov.au/def/csdm/surveyfeatures/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<file:///github/workspace/DP_572532> a container:CSD,
+        geojson:FeatureCollection ;
+    rdfs:label "DP 572532" ;
+    prov:wasGeneratedBy <surveyreg-fail:DP_1-S2> ;
+    container:bearingRotation 0e+00 ;
+    container:horizontalCRS epsg:4167 ;
+    container:points <file:///github/workspace/points> ;
+    container:purpose <survey-purpose:LTSubdivision> ;
+    container:referencedCSD <file:///github/workspace/DP_119552> ;
+    container:surveyType <wa-survey-type:deposited-plan> .
+
+<file:///github/workspace/1725787> a surv:BoundaryMark,
+        geojson:Feature ;
+    rdfs:label [ rdfs:label "RM E DP 119552" ;
+            dct:hasPart [ rdfs:label "RM E" ;
+                    commonpatterns:namePartType "Stamp" ],
+                [ rdfs:label "DP 119552" ;
+                    commonpatterns:namePartType "Source" ] ] ;
+    rdfs:comment "ALP in channel of drive" ;
+    surv:monumentedBy [ surv:condition <monument-condition:mkfd> ;
+            surv:form <nz-monument-form:concept-exists-fail> ;
+            surv:state <monument-state:original> ] ;
+    surv:purpose <surveypoint-purpose:boundary> ;
+    geojson:geometry [ a geojson:Point ;
+            geojson:coordinates ( 1.747502e+02 -3.693074e+01 ) ] .
+
+<file:///github/workspace/Act3> a prov:Entity ;
+    prov:wasAttributedTo icsm-jurisdictions:fail .
+
+<file:///github/workspace/DP_119552> rdfs:label "DP 119552" ;
+    container:bearingRotation 1e-03 .
+
+<file:///github/workspace/points> a geojson:FeatureCollection ;
+    geojson:features <file:///github/workspace/1725787> .
+
+<surveyreg-fail:DP_1-S2> a prov:Activity ;
+    prov:endedAtTime "2029-01-01T01:02:03+00:00"^^xsd:dateTime ;
+    prov:used <file:///github/workspace/Act3> ;
+    prov:wasAssociatedWith <registered-surveyors:bc-3> .
+

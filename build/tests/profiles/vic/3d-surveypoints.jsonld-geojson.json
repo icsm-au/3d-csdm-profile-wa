@@ -1,0 +1,215 @@
+{
+    "$schema": "schema.json",
+    "type": "FeatureCollection",
+    "horizontalCRS": "epsg:7855",
+    "id": null,
+    "name": "PS 842689H",
+    "purpose": "vic-survey-purpose:22-subdivision",
+    "referencedCSDs": [
+        {
+            "id": "PS530098X",
+            "name": "PS 530098 X",
+            "adminUnit": {
+                "href": "vic-parish:2872",
+                "rel": "related",
+                "role": "icsm-admin-unit-type:parish"
+            },
+            "bearingRotation": 0.00416666666666667,
+            "time": "2020-11-27 00:00:00"
+        },
+        {
+            "id": "PS823638J",
+            "name": "PS 823638 J",
+            "adminUnit": {
+                "href": "vic-parish:2872",
+                "rel": "related",
+                "role": "icsm-admin-unit-type:parish"
+            },
+            "bearingRotation": -0.00277777777777778,
+            "time": "2020-11-27 00:00:00"
+        },
+        {
+            "id": "PS649028H",
+            "name": "PS 649028 H",
+            "adminUnit": {
+                "href": "vic-parish:2872",
+                "rel": "related",
+                "role": "icsm-admin-unit-type:parish"
+            },
+            "bearingRotation": 0.00416666666666667,
+            "time": "2020-11-27 00:00:00"
+        },
+        {
+            "id": "PS823652Q",
+            "name": "PS 823652 Q",
+            "adminUnit": {
+                "href": "vic-parish:2872",
+                "rel": "related",
+                "role": "icsm-admin-unit-type:parish"
+            },
+            "bearingRotation": 0.00361111111111111,
+            "time": "2020-11-27 00:00:00"
+        },
+        {
+            "id": "PS712910P",
+            "name": "PS 712910 P",
+            "adminUnit": {
+                "href": "vic-parish:2872",
+                "rel": "related",
+                "role": "icsm-admin-unit-type:parish"
+            },
+            "bearingRotation": 0.0,
+            "time": "2020-11-27 00:00:00"
+        }
+    ],
+    "links": [],
+    "provenance": {},
+    "features": [
+        {
+            "id": "CGPNT-126",
+            "type": "Feature",
+            "featureType": "SurveyPoint",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.38851126165503,
+                    -36.43526644121872
+                ]
+            },
+            "place": {
+                "type": "Point",
+                "coordinates": [
+                    355557.003,
+                    5966565.784,
+                    114.3
+                ]
+            },
+            "properties": {
+                "name": {
+                    "label": "ORM Pipe FD (PS649028H)",
+                    "hasPart": [
+                        {
+                            "type": "MarkType",
+                            "label": "ORM"
+                        },
+                        {
+                            "type": "MarkIdentifier",
+                            "label": "Pipe"
+                        },
+                        {
+                            "type": "MarkFound",
+                            "label": "FD"
+                        },
+                        {
+                            "type": "planIdentifier",
+                            "label": "PS649028H"
+                        }
+                    ]
+                },
+                "purpose": "vic-surveypoint-purpose:traverse",
+                "fromSurvey": "PS649028H",
+                "comment": "L",
+                "monumentedBy": {
+                    "form": "vic-monument-form:g-i-pipe",
+                    "condition": "vic-monument-condition:found",
+                    "state": "vic-monument-state:existing"
+                }
+            }
+        },
+        {
+            "id": "CGPNT-100",
+            "type": "Feature",
+            "featureType": "SurveyPoint",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.38847528647227,
+                    -36.4352679656742
+                ]
+            },
+            "place": {
+                "type": "Point",
+                "coordinates": [
+                    355553.781,
+                    5966565.561,
+                    114.31
+                ]
+            },
+            "properties": {
+                "name": {
+                    "label": "OP FD (PS649028H)",
+                    "hasPart": [
+                        {
+                            "type": "MarkType",
+                            "label": "OP"
+                        },
+                        {
+                            "type": "MarkFound",
+                            "label": "FD"
+                        },
+                        {
+                            "type": "planIdentifier",
+                            "label": "PS649028H"
+                        }
+                    ]
+                },
+                "purpose": "vic-surveypoint-purpose:boundary",
+                "fromSurvey": "PS649028H",
+                "comment": "0.12m north of Pump House and 0.02m west of H.Board fence (15+)",
+                "monumentedBy": {
+                    "form": "vic-monument-form:peg",
+                    "condition": "vic-monument-condition:found",
+                    "state": "vic-monument-state:existing"
+                }
+            }
+        },
+        {
+            "id": "287201580",
+            "type": "Feature",
+            "featureType": "SurveyPoint",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.38914692482274,
+                    -36.43528531605366
+                ]
+            },
+            "place": {
+                "type": "Point",
+                "coordinates": [
+                    355614.019,
+                    5966564.642,
+                    114.32
+                ]
+            },
+            "properties": {
+                "name": {
+                    "label": "Kialla PM 158",
+                    "hasPart": [
+                        {
+                            "type": "parish",
+                            "label": "Kialla"
+                        },
+                        {
+                            "type": "MarkType",
+                            "label": "PM"
+                        },
+                        {
+                            "type": "MarkIdentifier",
+                            "label": "158"
+                        }
+                    ]
+                },
+                "geodeticid": "287201580",
+                "purpose": "vic-surveypoint-purpose:control",
+                "fromSurvey": "LUV-To-Supply",
+                "comment": "M",
+                "monumentedBy": {
+                    "form": "vic-monument-form:plaque",
+                    "condition": "vic-monument-condition:ok",
+                    "state": "vic-monument-state:existing"
+                }
+            }
+        }
+    ]
+}

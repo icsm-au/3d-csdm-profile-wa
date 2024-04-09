@@ -1,0 +1,137 @@
+Projection:	epsg:7855
+Name:	PS 914576 X
+
+Monuments:	45
+	None	Peg CGPNT-7	BoundaryMark	312207.36435,5815921.77352	vic-monument-state:existing	vic-monument-condition:unknown	None
+	None	Peg CGPNT-8	BoundaryMark	312192.81212,5815934.30146	vic-monument-state:existing	vic-monument-condition:not-found	None
+	None	Peg CGPNT-9	BoundaryMark	312211.54259,5815958.39794	vic-monument-state:existing	vic-monument-condition:unknown	None
+	None	Peg CGPNT-10	BoundaryMark	312226.55938,5815945.47005	vic-monument-state:existing	vic-monument-condition:unknown	None
+	None	Peg CGPNT-13	BoundaryMark	312181.513,5815944.029	vic-monument-state:existing	vic-monument-condition:ok	None
+	None	Peg CGPNT-14	BoundaryMark	312217.294,5815913.216	vic-monument-state:existing	vic-monument-condition:ok	None
+	None	Peg CGPNT-16	BoundaryMark	312210.41809,5815956.95129	vic-monument-state:existing	vic-monument-condition:not-found	None
+	None	Peg CGPNT-17	BoundaryMark	312225.40699,5815944.04741	vic-monument-state:existing	vic-monument-condition:unknown	None
+	None	Peg CGPNT-19	BoundaryMark	312206.02541,5815931.11281	vic-monument-state:new	vic-monument-condition:ok	None
+	None	Unmk CGPNT-20	BoundaryMark	312206.63248,5815931.84614	vic-monument-state:new	vic-monument-condition:ok	None
+	None	Unmk CGPNT-21	BoundaryMark	312206.69795,5815931.79194	vic-monument-state:new	vic-monument-condition:ok	None
+	None	Peg CGPNT-22	BoundaryMark	312219.11276,5815947.13283	vic-monument-state:new	vic-monument-condition:ok	None
+	None	Peg CGPNT-23	BoundaryMark	312201.95285,5815936.99162	vic-monument-state:new	vic-monument-condition:ok	None
+	None	Unmk CGPNT-24	BoundaryMark	312204.38578,5815939.99222	vic-monument-state:new	vic-monument-condition:ok	None
+	None	Unmk CGPNT-25	BoundaryMark	312204.29643,5815940.06462	vic-monument-state:new	vic-monument-condition:ok	None
+	None	Unmk CGPNT-26	BoundaryMark	312208.1949,5815944.87274	vic-monument-state:new	vic-monument-condition:ok	None
+	None	Unmk CGPNT-27	BoundaryMark	312208.28425,5815944.80034	vic-monument-state:new	vic-monument-condition:ok	None
+	None	Peg CGPNT-28	BoundaryMark	312212.6872,5815950.23063	vic-monument-state:new	vic-monument-condition:ok	None
+	None	Peg CGPNT-43	BoundaryMark	312216.11463,5815954.46189	vic-monument-state:new	vic-monument-condition:ok	None
+	None	Peg CGPNT-44	BoundaryMark	312196.91361,5815930.77052	vic-monument-state:new	vic-monument-condition:ok	None
+	None	Unmk CGPNT-46	BoundaryMark	312221.37864,5815949.93013	vic-monument-state:new	vic-monument-condition:ok	None
+	None	Peg CGPNT-47	BoundaryMark	312202.11852,5815926.28963	vic-monument-state:new	vic-monument-condition:ok	None
+	None	Peg CGPNT-56	BoundaryMark	312210.0069,5815956.4223	vic-monument-state:existing	vic-monument-condition:not-found	None
+	None	Peg CGPNT-57	BoundaryMark	312224.98535,5815943.52689	vic-monument-state:existing	vic-monument-condition:unknown	None
+	None	Peg CGPNT-59	BoundaryMark	312178.028,5815947.029	vic-monument-state:existing	vic-monument-condition:unknown	None
+	None	Peg AD	BoundaryMark	312221.917,5815909.242	vic-monument-state:existing	vic-monument-condition:unknown	None
+	None	Rivet FD (Unknown)	GeodeticReferenceMark	312221.838,5815908.055	vic-monument-state:existing	vic-monument-condition:ok	119110197
+	None	Rivet FD PS 903783E	GeodeticReferenceMark	312176.461,5815946.121	vic-monument-state:existing	vic-monument-condition:ok	119110198
+	None	Rivet FD PS 904234K	GeodeticReferenceMark	311991.999,5815964.543	vic-monument-state:existing	vic-monument-condition:ok	119940015
+	None	Rivet FD PS 904234K	GeodeticReferenceMark	312160.912,5815944.87	vic-monument-state:existing	vic-monument-condition:ok	119940016
+	None	CUT-PAW-PAW PM  177	GeodeticReferenceMark	312091.372,5816294.155	vic-monument-state:existing	vic-monument-condition:ok	247801770
+	None	CGPNT-1	CadastralMark	312205.104,5815922.093	vic-monument-state:existing	vic-monument-condition:ok	None
+	None	CGPNT-2	CadastralMark	312196.456,5815929.347	vic-monument-state:existing	vic-monument-condition:ok	None
+	None	Rivet FD PS 506149U	CadastralMark	312228.011,5816057.727	vic-monument-state:existing	vic-monument-condition:ok	None
+	None	Rivet FD PS 506149U	CadastralMark	312181.513,5815944.029	vic-monument-state:existing	vic-monument-condition:ok	None
+	None	CGPNT-60	CadastralMark	312214.986,5815952.223	vic-monument-state:new	vic-monument-condition:ok	None
+	None	Rivet FD PS 506149U	CadastralMark	312203.732,5816005.162	vic-monument-state:existing	vic-monument-condition:ok	None
+	None	Etch FD PS 506149U	CadastralMark	312205.116,5816008.158	vic-monument-state:new	vic-monument-condition:ok	None
+	None	Rivet FD	CadastralMark	312192.198,5815933.512	vic-monument-state:existing	vic-monument-condition:ok	None
+	None	Rivet PL PS 914576X	CadastralMark	312206.735,5815920.996	vic-monument-state:new	vic-monument-condition:ok	None
+	None	CGPNT-36	OccupationMark	312201.774,5815937.136	None	None	None
+	None	CGPNT-38	OccupationMark	312212.508,5815950.375	None	None	None
+	None	CGPNT-32	OccupationMark	312219.008,5815947.218	None	None	None
+	None	CGPNT-33	OccupationMark	312219.218,5815947.048	None	None	None
+	None	CGPNT-61	OccupationMark	312206.235,5815930.943	None	None	None
+Parcels:	7
+	140095407672784	None	vic-parcel-type:2D-building	209.0	None	None	
+	140095407673104	None	vic-parcel-type:2D-building	212.0	None	None	
+	140095407673360	None	vic-parcel-type:2D-building	174.0	None	None	
+	140095407673616	None	vic-parcel-type:single	594.654	None	None	
+	140095407673872	None	vic-parcel-type:single	None	None	None	
+	SecondaryParcel	None	None	36.3	None	None	
+	SecondaryParcel	None	None	13.2	None	None	
+Observations:	57
+		observedVectors
+	GENOBS-2	undated	vic-surveypoint-purpose:boundary	Unmk CGPNT-20	Unmk CGPNT-21	129.62	0.085
+	GENOBS-4	undated	vic-surveypoint-purpose:boundary	Peg CGPNT-22	Unmk CGPNT-21	218.999444444444	19.729
+	GENOBS-6	undated	vic-surveypoint-purpose:boundary	Unmk CGPNT-20	Peg CGPNT-19	219.619166666667	0.952
+	GENOBS-8	undated	vic-surveypoint-purpose:boundary	Unmk CGPNT-24	Unmk CGPNT-25	309.017777777778	0.115
+	GENOBS-10	undated	vic-surveypoint-purpose:boundary	Unmk CGPNT-26	Unmk CGPNT-27	129.017777777778	0.115
+	GENOBS-12	undated	vic-surveypoint-purpose:boundary	Peg CGPNT-28	Unmk CGPNT-27	39.0363888888889	6.991
+	GENOBS-14	undated	vic-surveypoint-purpose:boundary	Unmk CGPNT-26	Unmk CGPNT-25	219.035555555556	6.19
+	GENOBS-16	undated	vic-surveypoint-purpose:boundary	Unmk CGPNT-24	Peg CGPNT-23	219.035555555556	3.386
+	OBS-4	undated	vic-surveypoint-purpose:boundary	Peg CGPNT-8	Peg CGPNT-56	37.858333333	28.017
+	OBS-6	undated	vic-surveypoint-purpose:boundary	Peg CGPNT-57	Peg CGPNT-7	219.00861111	27.988
+	OBS-11	undated	vic-surveypoint-purpose:boundary	Peg CGPNT-16	Peg CGPNT-9	37.858333333	1.832
+	OBS-12	undated	vic-surveypoint-purpose:boundary	Peg CGPNT-10	Peg CGPNT-17	219.00861111	1.831
+	OBS-13	undated	vic-surveypoint-purpose:boundary	Peg CGPNT-17	Peg CGPNT-16	310.725	19.778
+	OBS-15	undated	vic-surveypoint-purpose:boundary	Peg CGPNT-9	Peg CGPNT-43	130.725	6.033
+	OBS-16	undated	vic-surveypoint-purpose:boundary	Peg CGPNT-43	Peg CGPNT-28	219.008333333333	5.445
+	OBS-22	undated	vic-surveypoint-purpose:boundary	Peg CGPNT-23	Peg CGPNT-44	219.008333333333	8.006
+	OBS-23	undated	vic-surveypoint-purpose:boundary	Peg CGPNT-44	Peg CGPNT-8	310.725	5.412
+	OBS-24	undated	vic-surveypoint-purpose:boundary	Peg CGPNT-43	Unmk CGPNT-46	130.725	6.946
+	OBS-25	undated	vic-surveypoint-purpose:boundary	Unmk CGPNT-46	Peg CGPNT-22	219.008333333333	3.6
+	OBS-29	undated	vic-surveypoint-purpose:boundary	Peg CGPNT-19	Peg CGPNT-47	219.008333333333	6.207
+	OBS-30	undated	vic-surveypoint-purpose:boundary	Peg CGPNT-47	Peg CGPNT-44	310.725	6.868
+	OBS-31	undated	vic-surveypoint-purpose:boundary	Unmk CGPNT-46	Peg CGPNT-10	130.725	6.83
+	OBS-32	undated	vic-surveypoint-purpose:boundary	Peg CGPNT-7	Peg CGPNT-47	310.725	6.922
+	OBS-33	undated	vic-surveypoint-purpose:boundary	Peg CGPNT-56	Peg CGPNT-16	37.858333333	0.67
+	OBS-34	undated	vic-surveypoint-purpose:boundary	Peg CGPNT-17	Peg CGPNT-57	219.00861111	0.67
+	OBS-35	undated	vic-surveypoint-purpose:boundary	Peg CGPNT-57	Peg CGPNT-56	310.7261111	19.768
+	564830	undated	vic-surveypoint-purpose:control	Rivet FD PS 903783E	CGPNT-2	24.7916666667	3.3
+	564831	undated	vic-surveypoint-purpose:reference	CGPNT-2	CGPNT-1	24.7916666667	54.6
+	564832	undated	vic-surveypoint-purpose:reference	CGPNT-1	Rivet FD (Unknown)	329.975	272.072
+	564833	undated	vic-surveypoint-purpose:reference	CGPNT-2	Peg CGPNT-8	59.8833333	1.81
+	564834	undated	vic-surveypoint-purpose:reference	CGPNT-1	Peg CGPNT-7	265.4	15.6
+	564835	undated	vic-surveypoint-purpose:traverse	CGPNT-60	Peg CGPNT-10	314.3615138	5.956
+	564836	undated	vic-surveypoint-purpose:traverse	CGPNT-60	Peg CGPNT-9	314.3615138	1.964
+	564829	undated	vic-surveypoint-purpose:reference	CGPNT-2	CGPNT-60	24.7916666667	65.035
+	564824	undated	vic-surveypoint-purpose:reference	CGPNT-2	CGPNT-36	34.32039693	9.43
+	564825	undated	vic-surveypoint-purpose:reference	CGPNT-2	CGPNT-61	80.73313216	9.91
+	564826	undated	vic-surveypoint-purpose:traverse	CGPNT-60	CGPNT-38	233.28564561	3.09
+	564827	undated	vic-surveypoint-purpose:traverse	CGPNT-60	CGPNT-32	141.22110632	6.42
+	564828	undated	vic-surveypoint-purpose:traverse	CGPNT-60	CGPNT-33	140.73125212	6.68
+	564829	undated	vic-surveypoint-purpose:control	Rivet FD PS 903783E	Rivet FD PS 506149U	24.7916666667	65.035
+	564830	undated	vic-surveypoint-purpose:traverse	Rivet FD PS 506149U	Etch FD PS 506149U	24.7916666667	3.3
+	564831	undated	vic-surveypoint-purpose:traverse	Etch FD PS 506149U	Rivet FD PS 506149U	24.7916666667	54.6
+	564832	undated	vic-surveypoint-purpose:control	Rivet FD PS 506149U	CUT-PAW-PAW PM  177	329.975	272.072
+	564833	undated	vic-surveypoint-purpose:control	Rivet FD PS 903783E	Peg CGPNT-59	59.8833333	1.81
+	564834	undated	vic-surveypoint-purpose:control	Rivet FD PS 903783E	Rivet FD PS 904234K	265.4	15.6
+	564835	undated	vic-surveypoint-purpose:reference	CGPNT-2	Rivet FD	314.3615138	5.956
+	564836	undated	vic-surveypoint-purpose:reference	CGPNT-1	Rivet PL PS 914576X	314.3615138	1.964
+	564837	undated	vic-surveypoint-purpose:control	Rivet FD PS 904234K	Rivet FD (Unknown)	121.144444444444	71.185
+	564838	undated	vic-surveypoint-purpose:control	Rivet FD PS 904234K	Rivet FD PS 904234K	276.643055555555	170.055
+	564839	undated	vic-surveypoint-purpose:control	Rivet FD PS 904234K	CUT-PAW-PAW PM  177	16.7777777778	344.275
+	564840	undated	vic-surveypoint-purpose:boundary	Peg CGPNT-59	Rivet FD PS 506149U	130.725	4.6
+	564841	undated	vic-surveypoint-purpose:control	Rivet FD PS 506149U	Peg CGPNT-8	130.725	14.91
+	564842	undated	vic-surveypoint-purpose:control	Rivet FD (Unknown)	Peg AD	3.783333333	1.19
+	564843	undated	vic-surveypoint-purpose:boundary	Peg CGPNT-14	Peg AD	130.725	6.096
+	564844	undated	vic-surveypoint-purpose:boundary	Peg CGPNT-7	Peg CGPNT-14	130.725	13.105
+	564845	undated	vic-surveypoint-purpose:boundary	Peg CGPNT-7	Rivet PL PS 914576X	219.0016934166667	1.0
+	564846	undated	vic-surveypoint-purpose:boundary	Peg CGPNT-8	Rivet FD	217.8583333333	1.0
+Annotations:	12
+	(vic-annotation-role:hop)	Survey prepared in accordance with s22 of the Subdivision Act 1988, Victoria
+	(vic-annotation-role:s12-2-a)	Section 12(2) of the Subdivision Act 1988, Victoria, applies vide this plan
+	(vic-annotation-role:hop)	Owners Corporation Act 2006
+	(vic-annotation-role:cp)	16 (PART)
+	(vic-annotation-role:eo)	LP59092
+	(vic-annotation-role:corp-parcel)	The purpose of Owners Corporation 1 Plan No PS914576X is to manage the common sewer services within the land affected by the Owners Corporation
+	(vic-annotation-role:beoce)	All lots affected by the Owners Corporation have been allocated an equal portion of the total entitlement and liability.
+	(vic-annotation-role:beocl)	A Limited Owners Corporation is required for the maintenance of common services that will service all 3 lots in PS914576X
+	(vic-annotation-role:s6)	This plan has been certified under Section 6 of the Subdivision Act 1988
+	(vic-annotation-role:pos18-a)	A requirement for public open space under section 18 or 18A of the Subdivision Act 1988 has been made and the requirement has been satisfied.
+	(vic-annotation-role:rod)	MGA2020 Zone 55 bearings have been fully verified using RTK GNSS in conjunction with HxGN SmartNet. Multiple independent menasurements were made to certain instrument points. Connection has been made to Cut-Paw-Paw PM 177 in accordance with Section 2.3.4 of the Survey Practice Directives 2021.
+	(vic-annotation-role:rod)	This survey was partially completed using GNSS equipment. Multiple observations of 100 epoch intervals were taken for certain marks located in this survey. GNSS procedures were completed in accordance with Stacey Surveying guidelines and Section 5.4.2 of the Survey Practice Directives 2021. See Datum relationships
+References:	4
+	PS 904234 K	PS904234K	vic-parish:2478 (icsm-admin-unit-type:parish)	related	0.0	2020-11-27 00:00:00
+	PS 903783 E	PS903783E	vic-parish:2478 (icsm-admin-unit-type:parish)	related	0.0	2020-11-27 00:00:00
+	PS 444239 L	PS444239L	vic-parish:2478 (icsm-admin-unit-type:parish)	related	0.0	2020-11-27 00:00:00
+	LP 59092	LP59092	vic-parish:2478 (icsm-admin-unit-type:parish)	related	-7.05	2020-11-27 00:00:00
+Supporting Documents:	2
+	vic-survey-documentation-type:psc	PS914576X Plan (https://vic.gov.au/deposited-plans/PS914576X_Plan.pdf)	related
+	vic-survey-documentation-type:afr	PS914576X Surveys (https://vic.gov.au/deposited-plans/PS914576X_Surveys.pdf)	related

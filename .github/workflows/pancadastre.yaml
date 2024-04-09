@@ -1,0 +1,39 @@
+name: Generate visualisations and parse/validate
+
+on:
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: "actions/checkout@v3"
+      - name: Setup Python 3.11
+        uses: "actions/setup-python@v4"
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install rdflib
+          pip install pyproj
+          pip install numpy
+          pip install scipy
+      - name: Fetch PanCadastre
+        run: git clone https://github.com/openwork-nz/pancadastre
+
+      - name: Parse extended_example.json
+        run: |
+          find build/tests -name '*.jsonld' | while read JSON_FILE; do python pancadastre/pancadastre.py -C "${JSON_FILE}" --interpolate -j "${JSON_FILE}-geojson.json" -k "${JSON_FILE}-parcels.json" -s "${JSON_FILE}-summary.txt" -e "${JSON_FILE}-errors.log"
+          done
+          rm -r pancadastre
+
+        # Commit new files back to repository
+      - name: Add and commit
+        uses: EndBug/add-and-commit@v9
+        with:
+          message: "Generate GeoJSON & summary files."
+          default_author: github_actions

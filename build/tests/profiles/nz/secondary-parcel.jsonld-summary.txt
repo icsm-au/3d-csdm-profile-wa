@@ -1,0 +1,59 @@
+Projection:	epsg:2105
+Name:	DP 572532
+
+Monuments:	21
+	None	PEG 3 DP 119553	BoundaryMark	794305.532,398783.512	nz-monument-state:adpt	nz-monument-condition:nspe	None
+	None	PEG 6 DP 119553	BoundaryMark	794282.264,398808.461	nz-monument-state:new	nz-monument-condition:nfnd	None
+	None	PEG 4 DP 119553	BoundaryMark	794323.243,398849.252	nz-monument-state:adpt	nz-monument-condition:nspe	None
+	None	PEG 8 DP 119553	BoundaryMark	794303.861,398854.074	nz-monument-state:adpt	nz-monument-condition:nspe	None
+	None	PEG 7 DP 119553	BoundaryMark	794296.057,398856.007	nz-monument-state:adpt	nz-monument-condition:nspe	None
+	None	UNMK 14 DP 572532	BoundaryMark	794287.44,398826.352	nz-monument-state:new	nz-monument-condition:impm	None
+	None	DISK 15 DP 572532	BoundaryMark	794303.112,398786.101	nz-monument-state:new	nz-monument-condition:relb	None
+	None	PEG 18 DP 572532	BoundaryMark	794306.655,398805.754	nz-monument-state:new	nz-monument-condition:relb	None
+	None	PEG 19 DP 572532	BoundaryMark	794307.498,398802.357	nz-monument-state:new	nz-monument-condition:relb	None
+	None	UNMK 20 DP 572532	BoundaryMark	794314.649,398817.357	nz-monument-state:new	nz-monument-condition:nspe	None
+	None	UNMK 21 DP 572532	BoundaryMark	794290.201,398835.88	nz-monument-state:new	nz-monument-condition:nspe	None
+	None	UNMK 22 DP 572532	BoundaryMark	794310.95,398821.692	nz-monument-state:new	nz-monument-condition:nspe	None
+	None	UNMK 23 DP 572532	BoundaryMark	794311.324,398826.406	nz-monument-state:new	nz-monument-condition:nspe	None
+	None	UNMK 24 DP 572532	BoundaryMark	794309.715,398828.035	nz-monument-state:new	nz-monument-condition:nspe	None
+	None	UNMK 25 DP 572532	BoundaryMark	794307.076,398827.976	nz-monument-state:new	nz-monument-condition:nspe	None
+	None	UNMK 26 DP 572532	BoundaryMark	794304.229,398825.296	nz-monument-state:new	nz-monument-condition:nspe	None
+	None	UNMK 27 DP 572532	BoundaryMark	794302.609,398823.275	nz-monument-state:new	nz-monument-condition:nspe	None
+	None	UNMK 28 DP 572532	BoundaryMark	794300.382,398822.7	nz-monument-state:new	nz-monument-condition:nspe	None
+	None	UNMK 29 DP 572532	BoundaryMark	794297.95,398823.231	nz-monument-state:new	nz-monument-condition:nspe	None
+	None	UNMK 30 DP 572532	BoundaryMark	794290.913,398830.982	nz-monument-state:new	nz-monument-condition:nspe	None
+	None	PEG 38 DP 572532	BoundaryMark	794289.484,398824.159	nz-monument-state:new	nz-monument-condition:relb	None
+Parcels:	3
+	140338484972688	None	nz-parcel-type:l	484.0	None	allotment	
+	140338471394256	None	nz-parcel-type:l	1196.0	None	allotment	
+	140338471394512	None	nz-secondary-parcel-type:a	998.0	None	covenant	
+Observations:	23
+		observedVectors
+	808850	undated	nz-surveypoint-purpose:bndy	PEG 7 DP 119553	PEG 8 DP 119553	346.0777777777778	8.06
+	17054943	undated	nz-surveypoint-purpose:bndy	PEG 8 DP 119553	PEG 4 DP 119553	346.0833333333333	19.98
+	38471662	undated	nz-surveypoint-purpose:bndy	PEG 38 DP 572532	PEG 18 DP 572532	313.01666666666665	25.17
+	38471663	undated	nz-surveypoint-purpose:bndy	UNMK 14 DP 572532	PEG 38 DP 572532	313.01666666666665	3.0
+	38471664	undated	nz-surveypoint-purpose:bndy	PEG 6 DP 119553	UNMK 14 DP 572532	73.81666666666666	18.63
+	38471665	undated	nz-surveypoint-purpose:bndy	DISK 15 DP 572532	PEG 6 DP 119553	133.0	30.58
+	38471666	undated	nz-surveypoint-purpose:bndy	PEG 19 DP 572532	DISK 15 DP 572532	254.9	16.84
+	38471667	undated	nz-surveypoint-purpose:bndy	PEG 18 DP 572532	PEG 19 DP 572532	283.96666666666664	3.5
+	38471668	undated	nz-surveypoint-purpose:bndy	PEG 3 DP 119553	UNMK 20 DP 572532	74.91666666666667	35.05
+	38471669	undated	nz-surveypoint-purpose:bndy	UNMK 20 DP 572532	PEG 4 DP 119553	74.91666666666667	33.04
+	38471670	undated	nz-surveypoint-purpose:bndy	UNMK 21 DP 572532	PEG 7 DP 119553	73.81666666666666	20.96
+	38471671	undated	nz-surveypoint-purpose:bndy	UNMK 14 DP 572532	UNMK 21 DP 572532	73.81666666666666	9.92
+	38471672	undated	nz-surveypoint-purpose:bndy	PEG 3 DP 119553	DISK 15 DP 572532	133.0	3.54
+	38471673	undated	nz-surveypoint-purpose:bndy	UNMK 24 DP 572532	UNMK 25 DP 572532	181.25	2.64
+	38471674	undated	nz-surveypoint-purpose:bndy	UNMK 23 DP 572532	UNMK 24 DP 572532	134.65	2.29
+	38471675	undated	nz-surveypoint-purpose:bndy	UNMK 22 DP 572532	UNMK 23 DP 572532	85.46666666666667	4.73
+	38471676	undated	nz-surveypoint-purpose:bndy	UNMK 20 DP 572532	UNMK 22 DP 572532	130.46666666666667	5.7
+	38471677	undated	nz-surveypoint-purpose:bndy	UNMK 30 DP 572532	UNMK 21 DP 572532	98.26666666666667	4.95
+	38471678	undated	nz-surveypoint-purpose:bndy	UNMK 29 DP 572532	UNMK 30 DP 572532	132.23333333333332	10.47
+	38471679	undated	nz-surveypoint-purpose:bndy	UNMK 28 DP 572532	UNMK 29 DP 572532	167.66666666666666	2.49
+	38471680	undated	nz-surveypoint-purpose:bndy	UNMK 27 DP 572532	UNMK 28 DP 572532	194.46666666666667	2.3
+	38471681	undated	nz-surveypoint-purpose:bndy	UNMK 26 DP 572532	UNMK 27 DP 572532	231.26666666666668	2.59
+	38471682	undated	nz-surveypoint-purpose:bndy	UNMK 25 DP 572532	UNMK 26 DP 572532	223.26666666666668	3.91
+References:	4
+	DP 104392	DP_104392	nz-land-district:NA (icsm-admin-unit-type:landDistrict)	related	0.0	2023-03-10 00:00:00
+	DP 119552	DP_119552	nz-land-district:NA (icsm-admin-unit-type:landDistrict)	related	0.0	2023-03-10 00:00:00
+	DP 119553	DP_119553	nz-land-district:NA (icsm-admin-unit-type:landDistrict)	related	0.0	2023-03-10 00:00:00
+	DP 481392	DP_481392	nz-land-district:NA (icsm-admin-unit-type:landDistrict)	related	0.0	2023-03-10 00:00:00

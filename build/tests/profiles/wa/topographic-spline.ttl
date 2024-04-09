@@ -1,0 +1,449 @@
+@prefix commonpatterns: <https://linked.data.gov.au/def/csdm/commonpatterns/> .
+@prefix container: <https://linked.data.gov.au/def/csdm/container/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix epsg: <http://www.opengis.net/def/crs/EPSG/0/> .
+@prefix geojson: <https://purl.org/geojson/vocab#> .
+@prefix icsm-admin-unit-type: <https://linked.data.gov.au/def/csdm/icsm-admin-unit-type/> .
+@prefix icsm-angle-type: <https://linked.data.gov.au/def/csdm/icsm-angle-type/> .
+@prefix icsm-distance-type: <https://linked.data.gov.au/def/csdm/icsm-distance-type/> .
+@prefix icsm-equipment-type: <https://linked.data.gov.au/def/csdm/icsm-equipment-type/> .
+@prefix ns1: <https://linked.data.gov.au/def/csdm/surveyobs/> .
+@prefix ns2: <http://www.iana.org/assignments/> .
+@prefix oa: <http://www.w3.org/ns/oa#> .
+@prefix parcel: <https://linked.data.gov.au/def/csdm/parcels/> .
+@prefix prof: <http://www.w3.org/ns/dx/prof/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sosa: <http://www.w3.org/ns/sosa/> .
+@prefix surv: <https://linked.data.gov.au/def/csdm/surveyfeatures/> .
+@prefix surveyable: <https://linked.data.gov.au/def/csdm/defs/surveyableproperties/> .
+@prefix wa-interest-type: <https://linked.data.gov.au/def/csdm/wa-interest-type/> .
+@prefix wa-local-government: <https://linked.data.gov.au/def/csdm/wa-local-government/> .
+@prefix wa-locality: <https://linked.data.gov.au/def/csdm/wa-locality/> .
+@prefix wa-monument-condition: <https://linked.data.gov.au/def/csdm/wa-monument-condition/> .
+@prefix wa-monument-form: <https://linked.data.gov.au/def/csdm/wa-monument-form/> .
+@prefix wa-monument-state: <https://linked.data.gov.au/def/csdm/wa-monument-state/> .
+@prefix wa-parcel-purpose: <https://linked.data.gov.au/def/csdm/wa-parcel-purpose/> .
+@prefix wa-parcel-state: <https://linked.data.gov.au/def/csdm/wa-parcel-state/> .
+@prefix wa-parcel-type: <https://linked.data.gov.au/def/csdm/wa-parcel-type/> .
+@prefix wa-procedure-used: <https://linked.data.gov.au/def/csdm/wa-procedure-used/> .
+@prefix wa-secondary-parcel-purpose: <https://linked.data.gov.au/def/csdm/wa-secondary-parcel-purpose/> .
+@prefix wa-survey-purpose: <https://linked.data.gov.au/def/csdm/wa-survey-purpose/> .
+@prefix wa-survey-type: <https://linked.data.gov.au/def/csdm/wa-survey-type/> .
+@prefix wa-surveypoint-purpose: <https://linked.data.gov.au/def/csdm/wa-surveypoint-purpose/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://www.wa-example.com/features/DP_404354> a container:CSD,
+        geojson:FeatureCollection ;
+    rdfs:label "DP 404354" ;
+    prov:wasGeneratedBy <https://www.wa-example.com/features/DP-1-S2> ;
+    container:adminUnit [ ns2:relation <http://www.iana.org/assignments/relation/related> ;
+            prof:hasRole icsm-admin-unit-type:locality ;
+            oa:hasTarget wa-locality:halls-head ],
+        [ ns2:relation <http://www.iana.org/assignments/relation/related> ;
+            prof:hasRole icsm-admin-unit-type:localGovernmentArea ;
+            oa:hasTarget wa-local-government:city-of-mandurah ] ;
+    container:bearingRotation 0e+00 ;
+    container:horizontalCRS epsg:10464 ;
+    container:observedVectors <https://www.wa-example.com/features/Spline>,
+        <https://www.wa-example.com/features/SubtendedAngle>,
+        <https://www.wa-example.com/features/observedVectors> ;
+    container:parcels <https://www.wa-example.com/features/PrimaryParcels> ;
+    container:points <https://www.wa-example.com/features/BoundaryMark>,
+        <https://www.wa-example.com/features/CadastralMark> ;
+    container:purpose wa-survey-purpose:subdivision ;
+    container:surveyType wa-survey-type:conventional ;
+    container:vectorObservations <vectorobservation:Measured> .
+
+<https://www.wa-example.com/features/1> a geojson:Feature ;
+    parcel:appellation [ rdfs:label "Lot 502 DP 404354" ;
+            dcterms:hasPart [ rdfs:label "404354" ;
+                    commonpatterns:namePartType "planIdentifier" ],
+                [ rdfs:label "Lot" ;
+                    commonpatterns:namePartType "ParcelType" ],
+                [ rdfs:label "502" ;
+                    commonpatterns:namePartType "ParcelIdentifier" ],
+                [ rdfs:label "DP" ;
+                    commonpatterns:namePartType "PlanType" ] ] ;
+    parcel:interest [ container:purpose wa-secondary-parcel-purpose:non-extinguisment-native-title ;
+            parcel:burdened "1" ;
+            parcel:interestLink <https://www.wa-example.com/features/147-852-369> ;
+            parcel:interestType wa-interest-type:native-title ;
+            parcel:statuteName "Sec. 24KA & 238 of the Native Title Act 1993" ] ;
+    parcel:purpose wa-parcel-purpose:road-widening ;
+    parcel:state wa-parcel-state:created ;
+    parcel:surfaceArea 635 ;
+    parcel:type wa-parcel-type:crown ;
+    geojson:topology [ a geojson:Polygon ;
+            geojson:relatedFeatures ( "['1', 'v11', 'v10', 'v12', 'v13']" ) ] .
+
+<https://www.wa-example.com/features/26538> a surv:ObservedVector,
+        geojson:Feature ;
+    geojson:topology [ a geojson:CubicSpline ;
+            geojson:endTangentVector [ geojson:relatedFeatures ( <https://www.wa-example.com/features/12> <https://www.wa-example.com/features/120> ) ] ;
+            geojson:relatedFeatures ( <https://www.wa-example.com/features/14> <https://www.wa-example.com/features/102> <https://www.wa-example.com/features/103> <https://www.wa-example.com/features/104> <https://www.wa-example.com/features/105> <https://www.wa-example.com/features/106> <https://www.wa-example.com/features/107> <https://www.wa-example.com/features/108> <https://www.wa-example.com/features/109> <https://www.wa-example.com/features/110> <https://www.wa-example.com/features/111> <https://www.wa-example.com/features/112> <https://www.wa-example.com/features/113> <https://www.wa-example.com/features/114> <https://www.wa-example.com/features/115> <https://www.wa-example.com/features/116> <https://www.wa-example.com/features/117> <https://www.wa-example.com/features/118> <https://www.wa-example.com/features/119> <https://www.wa-example.com/features/12> ) ;
+            geojson:startTangentVector [ geojson:relatedFeatures ( <https://www.wa-example.com/features/101> <https://www.wa-example.com/features/14> ) ] ] .
+
+<https://www.wa-example.com/features/BoundaryMark> a surv:BoundaryMark,
+        geojson:FeatureCollection ;
+    geojson:features <https://www.wa-example.com/features/10>,
+        <https://www.wa-example.com/features/11>,
+        <https://www.wa-example.com/features/12>,
+        <https://www.wa-example.com/features/13>,
+        <https://www.wa-example.com/features/14> .
+
+<https://www.wa-example.com/features/CadastralMark> a surv:CadastralMark,
+        geojson:FeatureCollection ;
+    geojson:features <https://www.wa-example.com/features/101>,
+        <https://www.wa-example.com/features/102>,
+        <https://www.wa-example.com/features/103>,
+        <https://www.wa-example.com/features/104>,
+        <https://www.wa-example.com/features/105>,
+        <https://www.wa-example.com/features/106>,
+        <https://www.wa-example.com/features/107>,
+        <https://www.wa-example.com/features/108>,
+        <https://www.wa-example.com/features/109>,
+        <https://www.wa-example.com/features/110>,
+        <https://www.wa-example.com/features/111>,
+        <https://www.wa-example.com/features/112>,
+        <https://www.wa-example.com/features/113>,
+        <https://www.wa-example.com/features/114>,
+        <https://www.wa-example.com/features/115>,
+        <https://www.wa-example.com/features/116>,
+        <https://www.wa-example.com/features/117>,
+        <https://www.wa-example.com/features/118>,
+        <https://www.wa-example.com/features/119>,
+        <https://www.wa-example.com/features/120> .
+
+<https://www.wa-example.com/features/DP-1-S2> prov:endedAtTime "2029-01-01T01:02:03+00:00"^^xsd:dateTime .
+
+<https://www.wa-example.com/features/PrimaryParcels> a parcel:PrimaryParcel,
+        geojson:FeatureCollection ;
+    geojson:features <https://www.wa-example.com/features/1> .
+
+<https://www.wa-example.com/features/Spline> a surv:ObservedVector,
+        geojson:FeatureCollection ;
+    geojson:features <https://www.wa-example.com/features/26538> .
+
+<https://www.wa-example.com/features/observedVectors> a surv:ObservedVector,
+        geojson:FeatureCollection ;
+    geojson:features <https://www.wa-example.com/features/v10>,
+        <https://www.wa-example.com/features/v11>,
+        <https://www.wa-example.com/features/v12>,
+        <https://www.wa-example.com/features/v13> .
+
+<vectorobservation:Measured> a sosa:ObservationCollection,
+        geojson:FeatureCollection ;
+    sosa:hasMember [ a geojson:Feature ;
+            sosa:hasFeatureOfInterest <https://www.wa-example.com/features/23> ;
+            sosa:hasResult [ ] ;
+            sosa:resultTime "2014-12-12T00:00:00" ;
+            ns1:angleAccuracyMeasure 4.2e-03 ;
+            ns1:angleType icsm-angle-type:angle ],
+        [ a geojson:Feature ;
+            sosa:hasFeatureOfInterest <https://www.wa-example.com/features/v13> ;
+            sosa:hasResult [ surv:distance 1.201e+01 ] ;
+            sosa:resultTime "2014-12-12T00:00:00" ;
+            ns1:distanceAccuracyMeasure 15000 ;
+            ns1:distanceType icsm-distance-type:ground ],
+        [ a geojson:Feature ;
+            sosa:hasFeatureOfInterest <https://www.wa-example.com/features/21> ;
+            sosa:hasResult [ ] ;
+            sosa:resultTime "2014-12-12T00:00:00" ;
+            ns1:angleAccuracyMeasure 4.2e-03 ;
+            ns1:angleType icsm-angle-type:angle ],
+        [ a geojson:Feature ;
+            sosa:hasFeatureOfInterest <https://www.wa-example.com/features/v11> ;
+            sosa:hasResult [ surv:distance 1.774e+01 ] ;
+            sosa:resultTime "2014-12-12T00:00:00" ;
+            ns1:distanceAccuracyMeasure 15000 ;
+            ns1:distanceType icsm-distance-type:ground ],
+        [ a geojson:Feature ;
+            sosa:hasFeatureOfInterest <https://www.wa-example.com/features/v10> ;
+            sosa:hasResult [ surv:distance 8.67e+00 ] ;
+            sosa:resultTime "2014-12-12T00:00:00Z" ;
+            ns1:distanceAccuracyMeasure 15000 ;
+            ns1:distanceType icsm-distance-type:ground ],
+        [ a geojson:Feature ;
+            sosa:hasFeatureOfInterest <https://www.wa-example.com/features/22> ;
+            sosa:hasResult [ ] ;
+            sosa:resultTime "2014-12-12T00:00:00" ;
+            ns1:angleAccuracyMeasure 4.2e-03 ;
+            ns1:angleType icsm-angle-type:angle ],
+        [ a geojson:Feature ;
+            sosa:hasFeatureOfInterest <https://www.wa-example.com/features/v12> ;
+            sosa:hasResult [ surv:distance 4.455e+01 ] ;
+            sosa:resultTime "2014-12-12T00:00:00" ;
+            ns1:distanceAccuracyMeasure 15000 ;
+            ns1:distanceType icsm-distance-type:ground ] ;
+    sosa:madeBySensor [ surv:sensorType icsm-equipment-type:t-edm ] ;
+    sosa:observedProperty surveyable:VectorDetermination ;
+    sosa:resultTime "2014-12-12T00:00:00Z" ;
+    sosa:usedProcedure wa-procedure-used:M .
+
+<https://www.wa-example.com/features/101> a surv:CadastralMark,
+        geojson:Feature ;
+    rdfs:comment "MHW extracted & adopted from SCDB 2014-09" ;
+    commonpatterns:qualityMeasure 1e-01 ;
+    surv:monumentedBy [ surv:state wa-monument-state:unmarked ] ;
+    surv:purpose wa-surveypoint-purpose:hwm-boundary ;
+    geojson:geometry [ a geojson:Point ;
+            geojson:coordinates ( 4.060473e+04 1.988209e+05 ) ] .
+
+<https://www.wa-example.com/features/102> a surv:CadastralMark,
+        geojson:Feature ;
+    rdfs:comment "MHW extracted & adopted from SCDB 2014-09" ;
+    commonpatterns:qualityMeasure 1e-01 ;
+    surv:monumentedBy [ surv:state wa-monument-state:unmarked ] ;
+    surv:purpose wa-surveypoint-purpose:hwm-boundary ;
+    geojson:geometry [ a geojson:Point ;
+            geojson:coordinates ( 4.060546e+04 1.988169e+05 ) ] .
+
+<https://www.wa-example.com/features/103> a surv:CadastralMark,
+        geojson:Feature ;
+    rdfs:comment "MHW extracted & adopted from SCDB 2014-09" ;
+    commonpatterns:qualityMeasure 1e-01 ;
+    surv:monumentedBy [ surv:state wa-monument-state:unmarked ] ;
+    surv:purpose wa-surveypoint-purpose:hwm-boundary ;
+    geojson:geometry [ a geojson:Point ;
+            geojson:coordinates ( 4.060593e+04 1.988147e+05 ) ] .
+
+<https://www.wa-example.com/features/104> a surv:CadastralMark,
+        geojson:Feature ;
+    rdfs:comment "MHW extracted & adopted from SCDB 2014-09" ;
+    commonpatterns:qualityMeasure 1e-01 ;
+    surv:monumentedBy [ surv:state wa-monument-state:unmarked ] ;
+    surv:purpose wa-surveypoint-purpose:hwm-boundary ;
+    geojson:geometry [ a geojson:Point ;
+            geojson:coordinates ( 4.060659e+04 1.988121e+05 ) ] .
+
+<https://www.wa-example.com/features/105> a surv:CadastralMark,
+        geojson:Feature ;
+    rdfs:comment "MHW extracted & adopted from SCDB 2014-09" ;
+    commonpatterns:qualityMeasure 1e-01 ;
+    surv:monumentedBy [ surv:state wa-monument-state:unmarked ] ;
+    surv:purpose wa-surveypoint-purpose:hwm-boundary ;
+    geojson:geometry [ a geojson:Point ;
+            geojson:coordinates ( 4.060748e+04 1.988096e+05 ) ] .
+
+<https://www.wa-example.com/features/106> a surv:CadastralMark,
+        geojson:Feature ;
+    rdfs:comment "MHW extracted & adopted from SCDB 2014-09" ;
+    commonpatterns:qualityMeasure 1e-01 ;
+    surv:monumentedBy [ surv:state wa-monument-state:unmarked ] ;
+    surv:purpose wa-surveypoint-purpose:hwm-boundary ;
+    geojson:geometry [ a geojson:Point ;
+            geojson:coordinates ( 4.060842e+04 1.988046e+05 ) ] .
+
+<https://www.wa-example.com/features/107> a surv:CadastralMark,
+        geojson:Feature ;
+    rdfs:comment "MHW extracted & adopted from SCDB 2014-09" ;
+    commonpatterns:qualityMeasure 1e-01 ;
+    surv:monumentedBy [ surv:state wa-monument-state:unmarked ] ;
+    surv:purpose wa-surveypoint-purpose:hwm-boundary ;
+    geojson:geometry [ a geojson:Point ;
+            geojson:coordinates ( 4.060963e+04 1.988013e+05 ) ] .
+
+<https://www.wa-example.com/features/108> a surv:CadastralMark,
+        geojson:Feature ;
+    rdfs:comment "MHW extracted & adopted from SCDB 2014-09" ;
+    commonpatterns:qualityMeasure 1e-01 ;
+    surv:monumentedBy [ surv:state wa-monument-state:unmarked ] ;
+    surv:purpose wa-surveypoint-purpose:hwm-boundary ;
+    geojson:geometry [ a geojson:Point ;
+            geojson:coordinates ( 4.060984e+04 1.988001e+05 ) ] .
+
+<https://www.wa-example.com/features/109> a surv:CadastralMark,
+        geojson:Feature ;
+    rdfs:comment "MHW extracted & adopted from SCDB 2014-09" ;
+    commonpatterns:qualityMeasure 1e-01 ;
+    surv:monumentedBy [ surv:state wa-monument-state:unmarked ] ;
+    surv:purpose wa-surveypoint-purpose:hwm-boundary ;
+    geojson:geometry [ a geojson:Point ;
+            geojson:coordinates ( 4.061025e+04 1.987994e+05 ) ] .
+
+<https://www.wa-example.com/features/110> a surv:CadastralMark,
+        geojson:Feature ;
+    rdfs:comment "MHW extracted & adopted from SCDB 2014-09" ;
+    commonpatterns:qualityMeasure 1e-01 ;
+    surv:monumentedBy [ surv:state wa-monument-state:unmarked ] ;
+    surv:purpose wa-surveypoint-purpose:hwm-boundary ;
+    geojson:geometry [ a geojson:Point ;
+            geojson:coordinates ( 4.061054e+04 1.987991e+05 ) ] .
+
+<https://www.wa-example.com/features/111> a surv:CadastralMark,
+        geojson:Feature ;
+    rdfs:comment "MHW extracted & adopted from SCDB 2014-09" ;
+    commonpatterns:qualityMeasure 1e-01 ;
+    surv:monumentedBy [ surv:state wa-monument-state:unmarked ] ;
+    surv:purpose wa-surveypoint-purpose:hwm-boundary ;
+    geojson:geometry [ a geojson:Point ;
+            geojson:coordinates ( 4.061088e+04 1.98799e+05 ) ] .
+
+<https://www.wa-example.com/features/112> a surv:CadastralMark,
+        geojson:Feature ;
+    rdfs:comment "MHW extracted & adopted from SCDB 2014-09" ;
+    commonpatterns:qualityMeasure 1e-01 ;
+    surv:monumentedBy [ surv:state wa-monument-state:unmarked ] ;
+    surv:purpose wa-surveypoint-purpose:hwm-boundary ;
+    geojson:geometry [ a geojson:Point ;
+            geojson:coordinates ( 4.061336e+04 1.987983e+05 ) ] .
+
+<https://www.wa-example.com/features/113> a surv:CadastralMark,
+        geojson:Feature ;
+    rdfs:comment "MHW extracted & adopted from SCDB 2014-09" ;
+    commonpatterns:qualityMeasure 1e-01 ;
+    surv:monumentedBy [ surv:state wa-monument-state:unmarked ] ;
+    surv:purpose wa-surveypoint-purpose:hwm-boundary ;
+    geojson:geometry [ a geojson:Point ;
+            geojson:coordinates ( 4.061362e+04 1.987979e+05 ) ] .
+
+<https://www.wa-example.com/features/114> a surv:CadastralMark,
+        geojson:Feature ;
+    rdfs:comment "MHW extracted & adopted from SCDB 2014-09" ;
+    commonpatterns:qualityMeasure 1e-01 ;
+    surv:monumentedBy [ surv:state wa-monument-state:unmarked ] ;
+    surv:purpose wa-surveypoint-purpose:hwm-boundary ;
+    geojson:geometry [ a geojson:Point ;
+            geojson:coordinates ( 4.06142e+04 1.987958e+05 ) ] .
+
+<https://www.wa-example.com/features/115> a surv:CadastralMark,
+        geojson:Feature ;
+    rdfs:comment "MHW extracted & adopted from SCDB 2014-09" ;
+    commonpatterns:qualityMeasure 1e-01 ;
+    surv:monumentedBy [ surv:state wa-monument-state:unmarked ] ;
+    surv:purpose wa-surveypoint-purpose:hwm-boundary ;
+    geojson:geometry [ a geojson:Point ;
+            geojson:coordinates ( 4.061556e+04 1.987939e+05 ) ] .
+
+<https://www.wa-example.com/features/116> a surv:CadastralMark,
+        geojson:Feature ;
+    rdfs:comment "MHW extracted & adopted from SCDB 2014-09" ;
+    commonpatterns:qualityMeasure 1e-01 ;
+    surv:monumentedBy [ surv:state wa-monument-state:unmarked ] ;
+    surv:purpose wa-surveypoint-purpose:hwm-boundary ;
+    geojson:geometry [ a geojson:Point ;
+            geojson:coordinates ( 4.061655e+04 1.98792e+05 ) ] .
+
+<https://www.wa-example.com/features/117> a surv:CadastralMark,
+        geojson:Feature ;
+    rdfs:comment "MHW extracted & adopted from SCDB 2014-09" ;
+    commonpatterns:qualityMeasure 1e-01 ;
+    surv:monumentedBy [ surv:state wa-monument-state:unmarked ] ;
+    surv:purpose wa-surveypoint-purpose:hwm-boundary ;
+    geojson:geometry [ a geojson:Point ;
+            geojson:coordinates ( 4.061742e+04 1.987903e+05 ) ] .
+
+<https://www.wa-example.com/features/118> a surv:CadastralMark,
+        geojson:Feature ;
+    rdfs:comment "MHW extracted & adopted from SCDB 2014-09" ;
+    commonpatterns:qualityMeasure 1e-01 ;
+    surv:monumentedBy [ surv:state wa-monument-state:unmarked ] ;
+    surv:purpose wa-surveypoint-purpose:hwm-boundary ;
+    geojson:geometry [ a geojson:Point ;
+            geojson:coordinates ( 4.061817e+04 1.987888e+05 ) ] .
+
+<https://www.wa-example.com/features/119> a surv:CadastralMark,
+        geojson:Feature ;
+    rdfs:comment "MHW extracted & adopted from SCDB 2014-09" ;
+    commonpatterns:qualityMeasure 1e-01 ;
+    surv:monumentedBy [ surv:state wa-monument-state:unmarked ] ;
+    surv:purpose wa-surveypoint-purpose:hwm-boundary ;
+    geojson:geometry [ a geojson:Point ;
+            geojson:coordinates ( 4.061899e+04 1.98788e+05 ) ] .
+
+<https://www.wa-example.com/features/120> a surv:CadastralMark,
+        geojson:Feature ;
+    rdfs:comment "MHW extracted & adopted from SCDB 2014-09" ;
+    commonpatterns:qualityMeasure 1e-01 ;
+    surv:monumentedBy [ surv:state wa-monument-state:unmarked ] ;
+    surv:purpose wa-surveypoint-purpose:hwm-boundary ;
+    geojson:geometry [ a geojson:Point ;
+            geojson:coordinates ( 4.062293e+04 1.987864e+05 ) ] .
+
+<https://www.wa-example.com/features/21> a geojson:Feature,
+        <https://www.wa-example.com/features/SubtendedAngle> ;
+    geojson:topology [ a <https://www.wa-example.com/features/SubtendedAngle> ;
+            geojson:relatedFeatures ( <https://www.wa-example.com/features/11> <https://www.wa-example.com/features/v11> <https://www.wa-example.com/features/v10> ) ] .
+
+<https://www.wa-example.com/features/22> a geojson:Feature,
+        <https://www.wa-example.com/features/SubtendedAngle> ;
+    geojson:topology [ a <https://www.wa-example.com/features/SubtendedAngle> ;
+            geojson:relatedFeatures ( <https://www.wa-example.com/features/10> <https://www.wa-example.com/features/v10> <https://www.wa-example.com/features/v12> ) ] .
+
+<https://www.wa-example.com/features/23> a geojson:Feature,
+        <https://www.wa-example.com/features/SubtendedAngle> ;
+    geojson:topology [ a <https://www.wa-example.com/features/SubtendedAngle> ;
+            geojson:relatedFeatures ( <https://www.wa-example.com/features/12> <https://www.wa-example.com/features/v13> <https://www.wa-example.com/features/v13> ) ] .
+
+<https://www.wa-example.com/features/13> a surv:BoundaryMark,
+        geojson:Feature ;
+    rdfs:comment "Deck Spike in Bitument path" ;
+    commonpatterns:qualityMeasure 1e-01 ;
+    surv:monumentedBy [ surv:condition wa-monument-condition:ok ;
+            surv:form wa-monument-form:deck-spike ;
+            surv:state wa-monument-state:mark-found ] ;
+    surv:purpose wa-surveypoint-purpose:internal-boundary ;
+    geojson:geometry [ a geojson:Point ;
+            geojson:coordinates ( 4.059472e+04 1.988134e+05 ) ] .
+
+<https://www.wa-example.com/features/v11> a geojson:Feature ;
+    geojson:topology [ a geojson:LineString ;
+            geojson:relatedFeatures ( <https://www.wa-example.com/features/11> <https://www.wa-example.com/features/12> ) ] .
+
+<https://www.wa-example.com/features/v12> a geojson:Feature ;
+    geojson:topology [ a geojson:LineString ;
+            geojson:relatedFeatures ( <https://www.wa-example.com/features/10> <https://www.wa-example.com/features/13> ) ] .
+
+<https://www.wa-example.com/features/10> a surv:BoundaryMark,
+        geojson:Feature ;
+    rdfs:comment "placed 0.4d" ;
+    commonpatterns:qualityMeasure 1e-01 ;
+    surv:monumentedBy [ surv:condition wa-monument-condition:ok ;
+            surv:form wa-monument-form:spike ;
+            surv:state wa-monument-state:mark-found-and-renewed ] ;
+    surv:purpose wa-surveypoint-purpose:internal-boundary ;
+    geojson:geometry [ a geojson:Point ;
+            geojson:coordinates ( 4.060421e+04 1.987699e+05 ) ] .
+
+<https://www.wa-example.com/features/11> a surv:BoundaryMark,
+        geojson:Feature ;
+    commonpatterns:qualityMeasure 1e-01 ;
+    surv:monumentedBy [ surv:condition wa-monument-condition:ok ;
+            surv:form wa-monument-form:peg ;
+            surv:state wa-monument-state:mark-found ] ;
+    surv:purpose wa-surveypoint-purpose:internal-boundary ;
+    geojson:geometry [ a geojson:Point ;
+            geojson:coordinates ( 4.061275e+04 1.987714e+05 ) ] .
+
+<https://www.wa-example.com/features/14> a surv:BoundaryMark,
+        geojson:Feature ;
+    commonpatterns:qualityMeasure 1e-01 ;
+    surv:monumentedBy [ surv:state wa-monument-state:unmarked ] ;
+    surv:purpose wa-surveypoint-purpose:internal-boundary ;
+    geojson:geometry [ a geojson:Point ;
+            geojson:coordinates ( 4.060494e+04 1.988197e+05 ) ] .
+
+<https://www.wa-example.com/features/v10> a geojson:Feature ;
+    geojson:topology [ a geojson:LineString ;
+            geojson:relatedFeatures ( <https://www.wa-example.com/features/10> <https://www.wa-example.com/features/11> ) ] .
+
+<https://www.wa-example.com/features/v13> a geojson:Feature ;
+    geojson:topology [ a geojson:LineString ;
+            geojson:relatedFeatures ( <https://www.wa-example.com/features/13> <https://www.wa-example.com/features/14> ) ] .
+
+<https://www.wa-example.com/features/12> a surv:BoundaryMark,
+        geojson:Feature ;
+    commonpatterns:qualityMeasure 1e-01 ;
+    surv:monumentedBy [ surv:state wa-monument-state:unmarked ] ;
+    surv:purpose wa-surveypoint-purpose:internal-boundary ;
+    geojson:geometry [ a geojson:Point ;
+            geojson:coordinates ( 4.061981e+04 1.987876e+05 ) ] .
+
+<https://www.wa-example.com/features/SubtendedAngle> a geojson:FeatureCollection,
+        <https://www.wa-example.com/features/SubtendedAngle> ;
+    geojson:features <https://www.wa-example.com/features/21>,
+        <https://www.wa-example.com/features/22>,
+        <https://www.wa-example.com/features/23> .
+

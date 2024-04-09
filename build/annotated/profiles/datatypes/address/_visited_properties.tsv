@@ -1,0 +1,10 @@
+path	@id
+/propertyNumber	ad:propertyNumber
+/unitNumber	
+/streetName	ad:streetName
+/streetType	ad:streetType
+/locality	https://schema.org/addressLocality
+/state	https://schema.org/addressRegion
+/postOfficeBoxNumber	https://schema.org/postOfficeBoxNumber
+/postCode	https://schema.org/postalCode
+/country	https://schema.org/addressCountry

@@ -1,0 +1,78 @@
+Projection:	epsg:7855
+Name:	PS 914576 X
+
+Monuments:	22
+	None	Peg CGPNT-7	BoundaryMark	312207.36435,5815921.77352	vic-monument-state:existing	vic-monument-condition:unknown	None
+	None	Peg CGPNT-8	BoundaryMark	312192.81212,5815934.30146	vic-monument-state:existing	vic-monument-condition:not-found	None
+	None	Peg CGPNT-9	BoundaryMark	312211.54259,5815958.39794	vic-monument-state:existing	vic-monument-condition:unknown	None
+	None	Peg CGPNT-10	BoundaryMark	312226.55938,5815945.47005	vic-monument-state:existing	vic-monument-condition:unknown	None
+	None	Peg CGPNT-16	BoundaryMark	312210.41809,5815956.95129	vic-monument-state:existing	vic-monument-condition:not-found	None
+	None	Peg CGPNT-17	BoundaryMark	312225.40699,5815944.04741	vic-monument-state:existing	vic-monument-condition:unknown	None
+	None	Peg CGPNT-19	BoundaryMark	312206.02541,5815931.11281	vic-monument-state:new	vic-monument-condition:ok	None
+	None	Unmk CGPNT-20	BoundaryMark	312206.63248,5815931.84614	vic-monument-state:new	vic-monument-condition:ok	None
+	None	Unmk CGPNT-21	BoundaryMark	312206.69795,5815931.79194	vic-monument-state:new	vic-monument-condition:ok	None
+	None	Peg CGPNT-22	BoundaryMark	312219.11276,5815947.13283	vic-monument-state:new	vic-monument-condition:ok	None
+	None	Peg CGPNT-23	BoundaryMark	312201.95285,5815936.99162	vic-monument-state:new	vic-monument-condition:ok	None
+	None	Unmk CGPNT-24	BoundaryMark	312204.38578,5815939.99222	vic-monument-state:new	vic-monument-condition:ok	None
+	None	Unmk CGPNT-25	BoundaryMark	312204.29643,5815940.06462	vic-monument-state:new	vic-monument-condition:ok	None
+	None	Unmk CGPNT-26	BoundaryMark	312208.1949,5815944.87274	vic-monument-state:new	vic-monument-condition:ok	None
+	None	Unmk CGPNT-27	BoundaryMark	312208.28425,5815944.80034	vic-monument-state:new	vic-monument-condition:ok	None
+	None	Peg CGPNT-28	BoundaryMark	312212.6872,5815950.23063	vic-monument-state:new	vic-monument-condition:ok	None
+	None	Peg CGPNT-43	BoundaryMark	312216.11463,5815954.46189	vic-monument-state:new	vic-monument-condition:ok	None
+	None	Peg CGPNT-44	BoundaryMark	312196.91361,5815930.77052	vic-monument-state:new	vic-monument-condition:ok	None
+	None	Unmk CGPNT-46	BoundaryMark	312221.37864,5815949.93013	vic-monument-state:new	vic-monument-condition:ok	None
+	None	Peg CGPNT-47	BoundaryMark	312202.11852,5815926.28963	vic-monument-state:new	vic-monument-condition:ok	None
+	None	Peg CGPNT-56	BoundaryMark	312210.0069,5815956.4223	vic-monument-state:existing	vic-monument-condition:not-found	None
+	None	Peg CGPNT-57	BoundaryMark	312224.98535,5815943.52689	vic-monument-state:existing	vic-monument-condition:unknown	None
+Parcels:	7
+	140477426686416	None	vic-parcel-type:2D-building	209.0	None	None	
+	140477426686672	None	vic-parcel-type:2D-building	212.0	None	None	
+	140477426686928	None	vic-parcel-type:2D-building	174.0	None	None	
+	140477426687184	None	vic-parcel-type:single	594.654	None	None	
+	140477426687440	None	vic-parcel-type:single	None	None	None	
+	140477426687824	None	None	36.3	None	None	
+	SecondaryParcel	None	None	13.2	None	None	
+Observations:	26
+		observedVectors
+	GENOBS-2	undated	vic-surveypoint-purpose:boundary	Unmk CGPNT-20	Unmk CGPNT-21	None	None
+	GENOBS-4	undated	vic-surveypoint-purpose:boundary	Peg CGPNT-22	Unmk CGPNT-21	None	None
+	GENOBS-6	undated	vic-surveypoint-purpose:boundary	Unmk CGPNT-20	Peg CGPNT-19	None	None
+	GENOBS-8	undated	vic-surveypoint-purpose:boundary	Unmk CGPNT-24	Unmk CGPNT-25	None	None
+	GENOBS-10	undated	vic-surveypoint-purpose:boundary	Unmk CGPNT-26	Unmk CGPNT-27	None	None
+	GENOBS-12	undated	vic-surveypoint-purpose:boundary	Peg CGPNT-28	Unmk CGPNT-27	None	None
+	GENOBS-14	undated	vic-surveypoint-purpose:boundary	Unmk CGPNT-26	Unmk CGPNT-25	None	None
+	GENOBS-16	undated	vic-surveypoint-purpose:boundary	Unmk CGPNT-24	Peg CGPNT-23	None	None
+	OBS-4	undated	vic-surveypoint-purpose:boundary	Peg CGPNT-8	Peg CGPNT-56	None	None
+	OBS-6	undated	vic-surveypoint-purpose:boundary	Peg CGPNT-57	Peg CGPNT-7	None	None
+	OBS-11	undated	vic-surveypoint-purpose:boundary	Peg CGPNT-16	Peg CGPNT-9	None	None
+	OBS-12	undated	vic-surveypoint-purpose:boundary	Peg CGPNT-10	Peg CGPNT-17	None	None
+	OBS-13	undated	vic-surveypoint-purpose:boundary	Peg CGPNT-17	Peg CGPNT-16	None	None
+	OBS-15	undated	vic-surveypoint-purpose:boundary	Peg CGPNT-9	Peg CGPNT-43	None	None
+	OBS-16	undated	vic-surveypoint-purpose:boundary	Peg CGPNT-43	Peg CGPNT-28	None	None
+	OBS-22	undated	vic-surveypoint-purpose:boundary	Peg CGPNT-23	Peg CGPNT-44	None	None
+	OBS-23	undated	vic-surveypoint-purpose:boundary	Peg CGPNT-44	Peg CGPNT-8	None	None
+	OBS-24	undated	vic-surveypoint-purpose:boundary	Peg CGPNT-43	Unmk CGPNT-46	None	None
+	OBS-25	undated	vic-surveypoint-purpose:boundary	Unmk CGPNT-46	Peg CGPNT-22	None	None
+	OBS-29	undated	vic-surveypoint-purpose:boundary	Peg CGPNT-19	Peg CGPNT-47	None	None
+	OBS-30	undated	vic-surveypoint-purpose:boundary	Peg CGPNT-47	Peg CGPNT-44	None	None
+	OBS-31	undated	vic-surveypoint-purpose:boundary	Unmk CGPNT-46	Peg CGPNT-10	None	None
+	OBS-32	undated	vic-surveypoint-purpose:boundary	Peg CGPNT-7	Peg CGPNT-47	None	None
+	OBS-33	undated	vic-surveypoint-purpose:boundary	Peg CGPNT-56	Peg CGPNT-16	None	None
+	OBS-34	undated	vic-surveypoint-purpose:boundary	Peg CGPNT-17	Peg CGPNT-57	None	None
+	OBS-35	undated	vic-surveypoint-purpose:boundary	Peg CGPNT-57	Peg CGPNT-56	None	None
+Annotations:	10
+	(vic-annotation-role:hop)	Survey prepared in accordance with s22 of the Subdivision Act 1988, Victoria
+	(vic-annotation-role:s12-2-a)	Section 12(2) of the Subdivision Act 1988, Victoria, applies vide this plan
+	(vic-annotation-role:hop)	Owners Corporation Act 2006
+	(vic-annotation-role:cp)	16 (PART)
+	(vic-annotation-role:eo)	LP59092
+	(vic-annotation-role:corp-parcel)	The purpose of Owners Corporation 1 Plan No PS914576X is to manage the common sewer services within the land affected by the Owners Corporation
+	(vic-annotation-role:beoce)	All lots affected by the Owners Corporation have been allocated an equal portion of the total entitlement and liability.
+	(vic-annotation-role:beocl)	A Limited Owners Corporation is required for the maintenance of common services that will service all 3 lots in PS914576X
+	(vic-annotation-role:s6)	This plan has been certified under Section 6 of the Subdivision Act 1988
+	(vic-annotation-role:pos18-a)	A requirement for public open space under section 18 or 18A of the Subdivision Act 1988 has been made and the requirement has been satisfied.
+References:	4
+	PS 904234 K	PS904234K	vic-parish:2478 (icsm-admin-unit-type:parish)	related	0.0	2020-11-27 00:00:00
+	PS 903783 E	PS903783E	vic-parish:2478 (icsm-admin-unit-type:parish)	related	0.0	2020-11-27 00:00:00
+	PS 444239 L	PS444239L	vic-parish:2478 (icsm-admin-unit-type:parish)	related	0.0	2020-11-27 00:00:00
+	LP 59092	LP59092	vic-parish:2478 (icsm-admin-unit-type:parish)	related	-7.05	2020-11-27 00:00:00

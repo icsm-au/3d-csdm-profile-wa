@@ -1,0 +1,58 @@
+@prefix prof: <http://www.w3.org/ns/dx/prof/> .
+@prefix icsmp: <https://linked.data.gov.au/def/csdm/profiles/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix prof: <http://www.w3.org/ns/dx/prof/> .
+@prefix profrole: <http://www.w3.org/ns/dx/prof/role/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix shacl: <http://www.w3.org/ns/shacl#> .
+@prefix jsonld: <https://www.w3.org/TR/json-ld11/> .
+@prefix qb: <http://purl.org/linked-data/cube#> .
+
+icsmp:vic a prof:Profile ;
+  skos:definition """Western Australia Profile for the ICSM Cadastral Survey Data Exchange Model.
+
+  """ ;
+  prof:isProfileOf icsmp:common ;
+  rdfs:label "Western Australia Profile of ICSM CSDM" ;
+  prof:hasToken "csdm_wa"^^xsd:token ;
+  prof:hasResource
+  		[ a prof:ResourceDescriptor ;
+            rdfs:label "Profile description as HTML" ;
+            dct:conformsTo prof: ;
+            dct:format "text/html" ;
+            rdfs:comment "Artefact is self reference using canonical URI and content negotiation" ;
+            prof:hasArtifact icsmp:vic ;
+            prof:hasRole profrole:profile
+            ]
+            ,
+                [ a prof:ResourceDescriptor ;
+            rdfs:label "Profile constraints as SHACL" ;
+            dct:conformsTo shacl: ;
+            dct:format "text/turtle" ;
+            rdfs:comment "Artefact is self reference using canonical URI and content negotiation" ;
+            prof:hasArtifact <https://icsm-au.github.io/3d-csdm-profiles/profiles/wa-profile-shacl.ttl> ;
+            prof:hasRole profrole:validation
+            ] ,
+        [ a prof:ResourceDescriptor ;
+            rdfs:label "Vocabulary bindings using RDF Datacube" ;
+            dct:conformsTo qb: ;
+            dct:format "text/turtle" ;
+            rdfs:comment "Allows linking specific properties to Concept Schemas" ;
+            prof:hasArtifact <https://icsm-au.github.io/3d-csdm-profiles/profiles/wa-vocab-bindings.ttl> ;
+            prof:hasRole profrole:validation
+            ] ,
+         [ a prof:ResourceDescriptor ;
+            rdfs:label "Vocabulary labels" ;
+            dct:conformsTo rdfs: ;
+            dct:format "text/turtle" ;
+            rdfs:comment "Labels for vocabularies" ;
+            prof:hasArtifact <https://icsm-au.github.io/3d-csdm-profiles/profiles/wa-vocab-labels.ttl> ;
+            prof:hasRole profrole:validation
+            ]
+.
+
+[] owl:imports <https://icsm-au.github.io/3d-csdm-profiles/profiles/icsm-common.ttl> .

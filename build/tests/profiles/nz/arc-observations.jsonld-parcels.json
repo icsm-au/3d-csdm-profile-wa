@@ -1,0 +1,354 @@
+{
+    "$schema": "schema.json",
+    "type": "FeatureCollection",
+    "horizontalCRS": "epsg:2111",
+    "id": null,
+    "name": "DP 583201",
+    "purpose": "nz-survey-purpose:lts",
+    "referencedCSDs": [
+        {
+            "id": "DP_19498",
+            "name": "DP 19498",
+            "adminUnit": {
+                "href": "nz-land-district:WN",
+                "rel": "related",
+                "role": "icsm-admin-unit-type:landDistrict"
+            },
+            "bearingRotation": -0.00555555555555556,
+            "time": "2022-09-27 00:00:00"
+        },
+        {
+            "id": "DP_517901",
+            "name": "DP 517901",
+            "adminUnit": {
+                "href": "nz-land-district:WN",
+                "rel": "related",
+                "role": "icsm-admin-unit-type:landDistrict"
+            },
+            "bearingRotation": 0.0,
+            "time": "2022-09-27 00:00:00"
+        }
+    ],
+    "links": [],
+    "provenance": {},
+    "features": [
+        {
+            "id": "49635029",
+            "type": "Feature",
+            "featureType": "SurveyPoint",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    175.6340406260877,
+                    -40.3430879812501
+                ]
+            },
+            "place": {
+                "type": "Point",
+                "coordinates": [
+                    788758.766,
+                    412403.616
+                ]
+            },
+            "properties": {
+                "name": {
+                    "label": "PEG 8 DP 19498",
+                    "hasPart": [
+                        {
+                            "type": "PlanType",
+                            "label": "DP"
+                        },
+                        {
+                            "type": "planIdentifier",
+                            "label": "19498"
+                        },
+                        {
+                            "type": "MarkType",
+                            "label": "PEG"
+                        },
+                        {
+                            "type": "MarkIdentifier",
+                            "label": "8"
+                        }
+                    ]
+                },
+                "purpose": "nz-surveypoint-purpose:non-bdy",
+                "fromSurvey": "DP_19498",
+                "ptQualityMeasure": 0.034,
+                "comment": null,
+                "monumentedBy": {
+                    "form": "nz-monument-form:peg",
+                    "condition": "nz-monument-condition:nspe",
+                    "state": "nz-monument-state:adpt"
+                },
+                "ptClass": "nz-point-class:7"
+            }
+        },
+        {
+            "id": "26013568",
+            "type": "Feature",
+            "featureType": "SurveyPoint",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    175.63400478995595,
+                    -40.343165439116355
+                ]
+            },
+            "place": {
+                "type": "Point",
+                "coordinates": [
+                    788750.17,
+                    412400.557
+                ]
+            },
+            "properties": {
+                "name": {
+                    "label": "PEG 105 DP 583201",
+                    "hasPart": [
+                        {
+                            "type": "PlanType",
+                            "label": "DP"
+                        },
+                        {
+                            "type": "planIdentifier",
+                            "label": "583201"
+                        },
+                        {
+                            "type": "MarkType",
+                            "label": "PEG"
+                        },
+                        {
+                            "type": "MarkIdentifier",
+                            "label": "105"
+                        }
+                    ]
+                },
+                "purpose": "nz-surveypoint-purpose:bndy",
+                "fromSurvey": "DP_583201",
+                "ptQualityMeasure": 0.031,
+                "comment": "0.4m SW of corrugated iron fence",
+                "monumentedBy": {
+                    "form": "nz-monument-form:peg",
+                    "condition": "nz-monument-condition:relb",
+                    "state": "nz-monument-state:new",
+                    "replaces": "PEG_10_DP_19498",
+                    "replacedDate": "2022-09-27T00:00:00"
+                },
+                "ptClass": "nz-point-class:7"
+            }
+        },
+        {
+            "id": "49635032",
+            "type": "Feature",
+            "featureType": "SurveyPoint",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    175.63395864826617,
+                    -40.343141272105655
+                ]
+            },
+            "place": {
+                "type": "Point",
+                "coordinates": [
+                    788752.86,
+                    412396.641
+                ]
+            },
+            "properties": {
+                "name": {
+                    "label": "IS 104 DP 583201",
+                    "hasPart": [
+                        {
+                            "type": "PlanType",
+                            "label": "DP"
+                        },
+                        {
+                            "type": "planIdentifier",
+                            "label": "583201"
+                        },
+                        {
+                            "type": "MarkType",
+                            "label": "IS"
+                        },
+                        {
+                            "type": "MarkIdentifier",
+                            "label": "104"
+                        }
+                    ]
+                },
+                "purpose": "nz-surveypoint-purpose:non-bdy",
+                "fromSurvey": "DP_19498",
+                "ptQualityMeasure": 0.034,
+                "comment": null,
+                "monumentedBy": {
+                    "form": "nz-monument-form:is",
+                    "condition": "nz-monument-condition:nspe",
+                    "state": "nz-monument-state:adpt"
+                },
+                "ptClass": "nz-point-class:7"
+            }
+        },
+        {
+            "id": "49635033",
+            "type": "Feature",
+            "featureType": "SurveyPoint",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    175.6339347908838,
+                    -40.34310280300487
+                ]
+            },
+            "place": {
+                "type": "Point",
+                "coordinates": [
+                    788757.135,
+                    412394.621
+                ]
+            },
+            "properties": {
+                "name": {
+                    "label": "IS 103 DP 583201",
+                    "hasPart": [
+                        {
+                            "type": "PlanType",
+                            "label": "DP"
+                        },
+                        {
+                            "type": "planIdentifier",
+                            "label": "583201"
+                        },
+                        {
+                            "type": "MarkType",
+                            "label": "IS"
+                        },
+                        {
+                            "type": "MarkIdentifier",
+                            "label": "103"
+                        }
+                    ]
+                },
+                "purpose": "nz-surveypoint-purpose:bndy",
+                "fromSurvey": "DP_583201",
+                "ptQualityMeasure": 0.031,
+                "comment": "In footpath, 0.65m SW of wooden fence",
+                "monumentedBy": {
+                    "form": "nz-monument-form:is",
+                    "condition": "nz-monument-condition:relb",
+                    "state": "nz-monument-state:new",
+                    "replaces": "PEG_12_DP_19498",
+                    "replacedDate": "2022-09-27T00:00:00"
+                },
+                "ptClass": "nz-point-class:7"
+            }
+        },
+        {
+            "id": "49635034",
+            "type": "Feature",
+            "featureType": "SurveyPoint",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    175.6339783919385,
+                    -40.3431550348633
+                ]
+            },
+            "place": {
+                "type": "Point",
+                "coordinates": [
+                    788751.329,
+                    412398.316
+                ]
+            },
+            "properties": {
+                "name": {
+                    "label": "Unmk 200 DP 583201",
+                    "hasPart": [
+                        {
+                            "type": "PlanType",
+                            "label": "DP"
+                        },
+                        {
+                            "type": "planIdentifier",
+                            "label": "583201"
+                        },
+                        {
+                            "type": "MarkType",
+                            "label": "Unmk"
+                        },
+                        {
+                            "type": "MarkIdentifier",
+                            "label": "200"
+                        }
+                    ]
+                },
+                "purpose": "nz-surveypoint-purpose:bndy",
+                "fromSurvey": "DP_583201",
+                "ptQualityMeasure": 0.031,
+                "comment": null,
+                "monumentedBy": {
+                    "form": "nz-monument-form:unmk",
+                    "condition": "nz-monument-condition:nspe",
+                    "state": "nz-monument-state:adpt"
+                },
+                "ptClass": "nz-point-class:7"
+            }
+        },
+        {
+            "id": "26013368",
+            "type": "Feature",
+            "featureType": "SurveyPoint",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    175.63393953645624,
+                    -40.34306022727008
+                ]
+            },
+            "place": {
+                "type": "Point",
+                "coordinates": [
+                    788761.862,
+                    412395.032
+                ]
+            },
+            "properties": {
+                "name": {
+                    "label": "IS 102 DP 583201",
+                    "hasPart": [
+                        {
+                            "type": "PlanType",
+                            "label": "DP"
+                        },
+                        {
+                            "type": "planIdentifier",
+                            "label": "583201"
+                        },
+                        {
+                            "type": "MarkType",
+                            "label": "IS"
+                        },
+                        {
+                            "type": "MarkIdentifier",
+                            "label": "102"
+                        }
+                    ]
+                },
+                "purpose": "nz-surveypoint-purpose:bndy",
+                "fromSurvey": "DP_583201",
+                "ptQualityMeasure": 0.031,
+                "comment": "0.35m W of wooden fence",
+                "monumentedBy": {
+                    "form": "nz-monument-form:is",
+                    "condition": "nz-monument-condition:relb",
+                    "state": "nz-monument-state:new",
+                    "replaces": "PEG_13_DP_19498",
+                    "replacedDate": "2022-09-27T00:00:00"
+                },
+                "ptClass": "nz-point-class:7"
+            }
+        }
+    ]
+}

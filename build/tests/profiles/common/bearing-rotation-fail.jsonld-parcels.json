@@ -1,0 +1,12 @@
+{
+    "$schema": "schema.json",
+    "type": "FeatureCollection",
+    "horizontalCRS": "epsg:4167",
+    "id": null,
+    "name": "DP 572532",
+    "purpose": "http://any.valid/",
+    "referencedCSDs": [],
+    "links": [],
+    "provenance": {},
+    "features": []
+}

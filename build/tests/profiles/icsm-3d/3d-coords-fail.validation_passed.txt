@@ -1,0 +1,106 @@
+Validation report for icsm.profiles.icsm-3d - Cadastral Survey 3D profile
+Generated 2024-02-08T09:23:28.609278+00:00
+=== General ===
+Test was expected to fail and it did.
+=== End General ===
+
+=== Files ===
+Using 3d-coords-fail.json from test resources
+JSON-LD context is present - uplifting
+Output JSON-LD 3d-coords-fail.jsonld created
+Output Turtle 3d-coords-fail.ttl created
+=== End Files ===
+
+=== JSON Schema ===
+Validation passed
+=== End JSON Schema ===
+
+=== SHACL ===
+
+** Validation error **
+Validation result for https://icsm-au.github.io/3d-csdm-schema/_sources/csdm/features/CSD/tests/obs-match-vectors.shacl:
+  Validation Report
+  Conforms: False
+  Results (1):
+  Constraint Violation in ClassConstraintComponent (http://www.w3.org/ns/shacl#ClassConstraintComponent):
+  	Severity: sh:Violation
+  	Source Shape: [ sh:class geojson:Feature ; sh:nodeKind sh:IRI ; sh:path sosa:hasFeatureOfInterest ]
+  	Focus Node: [ rdf:type geojson:Feature ; sosa:hasFeatureOfInterest eg1:14480677 ; sosa:hasResult [ surv:pose [ surv:distance Literal("50.192", datatype=xsd:double) ] ] ; sosa:resultTime Literal("2023-03-31T11:56:03") ]
+  	Value Node: eg1:14480677
+  	Result Path: sosa:hasFeatureOfInterest
+  	Message: Value does not have class geojson:Feature
+  
+Focus nodes for https://icsm-au.github.io/3d-csdm-schema/_sources/csdm/features/CSD/tests/obs-match-vectors.shacl:
+ - Shape :testFOIexists: eg1:vectorObservations/sosa:hasMember
+
+Validation result for https://icsm-au.github.io/3d-csdm-schema/_sources/csdm/shapes/container.shapes.ttl:
+  Validation Report
+  Conforms: True
+  
+Focus nodes for https://icsm-au.github.io/3d-csdm-schema/_sources/csdm/shapes/container.shapes.ttl:
+ - Shape container:CSD: *none*
+ - Shape container:CSD-seeAlso: *none*
+ - Shape <https://linked.data.gov.au/def/csdm/surveyprov/SurveyType>: *none*
+
+Validation result for https://icsm-au.github.io/3d-csdm-schema/_sources/csdm/shapes/parcel_module.shapes.ttl:
+  Validation Report
+  Conforms: True
+  
+Focus nodes for https://icsm-au.github.io/3d-csdm-schema/_sources/csdm/shapes/parcel_module.shapes.ttl:
+ - Shape :PropertyUnit: *none*
+ - Shape :ParcelQualityClass: *none*
+ - Shape :Apellation: *none*
+ - Shape :PurposeOfSpatialUnit: *none*
+ - Shape :PrimaryParcel: *none*
+ - Shape :SecondaryParcel: *none*
+ - Shape :ParcelState: *none*
+ - Shape :LandInterest: *none*
+ - Shape :ParcelAggregate: *none*
+ - Shape :EstateParcel: *none*
+ - Shape :ParcelType: *none*
+ - Shape :Parcel: *none*
+
+Validation result for https://ogcincubator.github.io/topo-feature/_sources/features/topo-feature/tests/geometry-coordinates.shacl:
+  Validation Report
+  Conforms: True
+  
+Focus nodes for https://ogcincubator.github.io/topo-feature/_sources/features/topo-feature/tests/geometry-coordinates.shacl:
+ - Shape _:nfd3eb632b62041d5b8d60ddc39d9987fb1: eg1:9540/geojson:geometry
+ - Shape _:nfd3eb632b62041d5b8d60ddc39d9987fb3: eg1:9540/geojson:geometry
+
+Validation result for https://ogcincubator.github.io/topo-feature/_sources/features/topo-feature-collection/tests/topo-refs-exist.shacl:
+  Validation Report
+  Conforms: True
+  
+Focus nodes for https://ogcincubator.github.io/topo-feature/_sources/features/topo-feature-collection/tests/topo-refs-exist.shacl:
+ - Shape topo:testTopoLinesReferencePoints: *none*
+ - Shape topo:testTopoReferencesExist: *none*
+
+Validation result for https://icsm-au.github.io/3d-csdm-schema/_sources/csdm/datatypes/compoundName/rules.shacl:
+  Validation Report
+  Conforms: True
+  
+Focus nodes for https://icsm-au.github.io/3d-csdm-schema/_sources/csdm/datatypes/compoundName/rules.shacl:
+ - Shape _:nc87cff5ce3d047c6a13d70dc2983468db1: *none*
+
+Validation result for https://opengeospatial.github.io/ogcapi-sosa/_sources/properties/observation/rules.shacl:
+  Validation Report
+  Conforms: True
+  
+Focus nodes for https://opengeospatial.github.io/ogcapi-sosa/_sources/properties/observation/rules.shacl:
+ - Shape <https://www.ogc.org/rules/sosa/#testRequiredTime>: eg1:vectorObservations/sosa:hasMember
+ - Shape <https://www.ogc.org/rules/sosa/#testSimpleResultLiteral>: *none*
+ - Shape <https://www.ogc.org/rules/sosa/#testResult>: eg1:vectorObservations/sosa:hasMember
+ - Shape <https://www.ogc.org/rules/sosa/#testObservedProperty>: eg1:vectorObservations/sosa:hasMember
+ - Shape <https://www.ogc.org/rules/sosa/#testFeatureOfInterest>: eg1:vectorObservations/sosa:hasMember
+ - Shape <https://www.ogc.org/rules/sosa/#testResultNotEmptyNode>: *none*
+
+Validation result for https://icsm-au.github.io/3d-csdm-schema/_sources/csdm/features/SurveyObservations/rules.shacl:
+  Validation Report
+  Conforms: True
+  
+Focus nodes for https://icsm-au.github.io/3d-csdm-schema/_sources/csdm/features/SurveyObservations/rules.shacl:
+ - Shape :testRequiredProperties: eg1:vectorObservations/sosa:hasMember
+
+=== End SHACL ===
+

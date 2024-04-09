@@ -1,0 +1,38 @@
+$schema: https://json-schema.org/draft/2020-12/schema
+description: Common ICSM profile of Cadastral Survey Data Model
+allOf:
+- $ref: https://icsm-au.github.io/3d-csdm-schema/build/annotated/csdm/features/CSD/schema.json
+- properties:
+    parcels:
+      properties:
+        features:
+          properties:
+            properties:
+              address:
+                $ref: ../datatypes/address/schema.json#$defs/street-address
+x-jsonld-extra-terms:
+  sensorType:
+    x-jsonld-type: '@id'
+    x-jsonld-id: https://linked.data.gov.au/def/csdm/surveyfeatures/sensorType
+  sensorRole:
+    x-jsonld-type: '@id'
+    x-jsonld-id: https://linked.data.gov.au/def/csdm/surveyfeatures/sensorRole
+  lastCalibrated: https://linked.data.gov.au/def/csdm/surveyfeatures/lastCalibrated
+x-jsonld-prefixes:
+  icsm: https://linked.data.gov.au/def/csdm/
+  surv: https://linked.data.gov.au/def/csdm/surveyfeatures/
+  epsg: http://www.opengis.net/def/crs/EPSG/0/
+  surveytype: https://linked.data.gov.au/def/csdm/surveytypes/
+  icsm-jurisdictions: https://linked.data.gov.au/def/csdm/jurisdictions/
+  surveyable: https://linked.data.gov.au/def/csdm/observedProperties/
+  surveyproc: https://linked.data.gov.au/def/csdm/icsm-procedure-used/
+  icsm-survey-type: https://linked.data.gov.au/def/csdm/icsm-survey-type/
+  survptpurp: https://linked.data.gov.au/def/csdm/survptpurp/
+  icsm-admin-unit-type: https://linked.data.gov.au/def/csdm/icsm-admin-unit-type/
+  icsm-procedure-used: https://linked.data.gov.au/def/csdm/icsm-procedure-used/
+  icsm-surveypoint-purpose: https://linked.data.gov.au/def/csdm/icsm-surveypoint-purpose/
+  icsm-parcel-state: https://linked.data.gov.au/def/csdm/icsm-parcel-state/
+  icsm-angle-type: https://linked.data.gov.au/def/csdm/icsm-angle-type/
+  icsm-equipment-type: https://linked.data.gov.au/def/csdm/icsm-equipment-type/
+  icsm-distance-type: https://linked.data.gov.au/def/csdm/icsm-distance-type/
+  icsm-arc-orientation: https://linked.data.gov.au/def/csdm/arc-orientation/

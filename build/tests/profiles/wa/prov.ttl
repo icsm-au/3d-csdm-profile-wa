@@ -1,0 +1,117 @@
+@prefix container: <https://linked.data.gov.au/def/csdm/container/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix epsg: <http://www.opengis.net/def/crs/EPSG/0/> .
+@prefix geojson: <https://purl.org/geojson/vocab#> .
+@prefix icsm-admin-unit-type: <https://linked.data.gov.au/def/csdm/icsm-admin-unit-type/> .
+@prefix ns1: <http://www.iana.org/assignments/> .
+@prefix oa: <http://www.w3.org/ns/oa#> .
+@prefix prof: <http://www.w3.org/ns/dx/prof/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wa-local-government: <https://linked.data.gov.au/def/csdm/wa-local-government/> .
+@prefix wa-locality: <https://linked.data.gov.au/def/csdm/wa-locality/> .
+@prefix wa-survey-purpose: <https://linked.data.gov.au/def/csdm/wa-survey-purpose/> .
+@prefix wa-survey-type: <https://linked.data.gov.au/def/csdm/wa-survey-type/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<file:///github/workspace/DP_422532> a container:CSD,
+        geojson:FeatureCollection ;
+    rdfs:label "DP 422532" ;
+    dct:provenance [ a <file:///github/workspace/plan-registered> ;
+            prov:endedAtTime "2023-07-25T10:34:23+00:00"^^xsd:dateTime ;
+            prov:generated <file:///github/workspace/LT_59874_v4> ;
+            prov:startedAtTime "2023-07-24T16:28:09+00:00"^^xsd:dateTime ;
+            prov:wasAssociatedWith [ a prov:Person ;
+                    rdfs:label "Technical Examiner Ted" ;
+                    prov:actedOnBehalfOf [ a prov:Organization ;
+                            rdfs:label "Landgate" ] ] ],
+        [ a <file:///github/workspace/certification-of-survey-plan> ;
+            prov:endedAtTime "2023-07-17T11:43:12+00:00"^^xsd:dateTime ;
+            prov:generated <file:///github/workspace/LT_59874> ;
+            prov:startedAtTime "2023-07-14T16:05:20+00:00"^^xsd:dateTime ;
+            prov:wasAssociatedWith [ a prov:Person ;
+                    rdfs:label "Sam Surveyor" ;
+                    prov:actedOnBehalfOf [ a prov:Organization ;
+                            rdfs:label "Sam the Surveyor Ltd" ] ] ],
+        [ a <file:///github/workspace/plan-lodged> ;
+            prov:endedAtTime "2023-07-20T16:56:03+00:00"^^xsd:dateTime ;
+            prov:generated <file:///github/workspace/LT_59874> ;
+            prov:startedAtTime "2023-07-17T11:43:12+00:00"^^xsd:dateTime ;
+            prov:wasAssociatedWith [ a prov:Person ;
+                    rdfs:label "Chief Examiner Ed" ;
+                    prov:actedOnBehalfOf [ a prov:Organization ;
+                            rdfs:label "Landgate" ] ] ],
+        [ a <file:///github/workspace/planning-approval-obtained> ;
+            prov:endedAtTime "2023-08-23T14:16:53+00:00"^^xsd:dateTime ;
+            prov:generated <file:///github/workspace/LT_59874_v3> ;
+            prov:startedAtTime "2023-07-26T08:36:33+00:00"^^xsd:dateTime ;
+            prov:wasAssociatedWith [ a prov:Person ;
+                    rdfs:label "Planner Pete" ;
+                    prov:actedOnBehalfOf [ a prov:Organization ;
+                            rdfs:label "City of Bayswater" ] ] ],
+        [ a <file:///github/workspace/digital-file-created> ;
+            prov:endedAtTime "2023-07-25T10:34:23+00:00"^^xsd:dateTime ;
+            prov:generated <file:///github/workspace/LT_59874_v4> ;
+            prov:startedAtTime "2023-07-24T16:28:09+00:00"^^xsd:dateTime ;
+            prov:wasAssociatedWith [ a prov:Person ;
+                    rdfs:label "Sam Surveyor" ;
+                    prov:actedOnBehalfOf [ a prov:Organization ;
+                            rdfs:label "Sam the Surveyor Ltd" ] ] ],
+        [ a <file:///github/workspace/field-record-lodged> ;
+            prov:endedAtTime "2023-07-14T16:05:20+00:00"^^xsd:dateTime ;
+            prov:generated <file:///github/workspace/LT_59874> ;
+            prov:startedAtTime "2023-07-11T12:05:20+00:00"^^xsd:dateTime ;
+            prov:wasAssociatedWith [ a prov:Person ;
+                    rdfs:label "Chief Examiner Ed" ;
+                    prov:actedOnBehalfOf [ a prov:Organization ;
+                            rdfs:label "Landgate" ] ] ],
+        [ a <file:///github/workspace/plan-examined> ;
+            prov:endedAtTime "2023-07-24T16:15:28+00:00"^^xsd:dateTime ;
+            prov:generated <file:///github/workspace/LT_59874_v2> ;
+            prov:startedAtTime "2023-07-20T16:56:03+00:00"^^xsd:dateTime ;
+            prov:wasAssociatedWith [ a prov:Person ;
+                    rdfs:label "Technical Examiner Ted" ;
+                    prov:actedOnBehalfOf [ a prov:Organization ;
+                            rdfs:label "Landgate" ] ] ],
+        [ a <file:///github/workspace/Approved> ;
+            prov:generated <file:///github/workspace/LT_59874_v4> ;
+            prov:startedAtTime "2023-09-13T10:46:08+00:00"^^xsd:dateTime ;
+            prov:wasAssociatedWith [ a prov:Person ;
+                    rdfs:label "Colin the Conveyancer" ;
+                    prov:actedOnBehalfOf [ a prov:Organization ;
+                            rdfs:label "Landgate" ] ] ],
+        [ a <file:///github/workspace/plan-in-order-for-dealing> ;
+            prov:endedAtTime "2023-07-24T16:28:09+00:00"^^xsd:dateTime ;
+            prov:generated <file:///github/workspace/LT_59874_v3> ;
+            prov:startedAtTime "2023-07-24T16:15:28+00:00"^^xsd:dateTime ;
+            prov:wasAssociatedWith [ a prov:Person ;
+                    rdfs:label "Colin the Conveyancer" ;
+                    prov:actedOnBehalfOf [ a prov:Organization ;
+                            rdfs:label "Landgate" ] ] ],
+        [ a <file:///github/workspace/date-of-field-work> ;
+            prov:endedAtTime "2023-07-11T12:05:20+00:00"^^xsd:dateTime ;
+            prov:generated <file:///github/workspace/LT_59874> ;
+            prov:startedAtTime "2023-07-11T12:02:02+00:00"^^xsd:dateTime ;
+            prov:wasAssociatedWith [ a prov:Person ;
+                    rdfs:label "Sam Surveyor" ;
+                    prov:actedOnBehalfOf [ a prov:Organization ;
+                            rdfs:label "Sam the Surveyor Ltd" ] ] ],
+        [ a <file:///github/workspace/certification-of-field-record> ;
+            prov:endedAtTime "2023-07-11T12:05:20+00:00"^^xsd:dateTime ;
+            prov:generated <file:///github/workspace/LT_59874> ;
+            prov:startedAtTime "2023-07-11T12:02:02+00:00"^^xsd:dateTime ;
+            prov:wasAssociatedWith [ a prov:Person ;
+                    rdfs:label "Sam Surveyor" ;
+                    prov:actedOnBehalfOf [ a prov:Organization ;
+                            rdfs:label "Sam the Surveyor Ltd" ] ] ] ;
+    container:adminUnit [ ns1:relation <http://www.iana.org/assignments/relation/related> ;
+            prof:hasRole icsm-admin-unit-type:localGovernmentArea ;
+            oa:hasTarget wa-local-government:city-of-kalgoorlie-boulder ],
+        [ ns1:relation <http://www.iana.org/assignments/relation/related> ;
+            prof:hasRole icsm-admin-unit-type:locality ;
+            oa:hasTarget wa-locality:karlkurla ] ;
+    container:bearingRotation 0e+00 ;
+    container:horizontalCRS epsg:8024 ;
+    container:purpose wa-survey-purpose:subdivision ;
+    container:surveyType wa-survey-type:SSA .
+

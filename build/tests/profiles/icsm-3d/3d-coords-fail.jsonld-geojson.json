@@ -1,0 +1,53 @@
+{
+    "$schema": "schema.json",
+    "type": "FeatureCollection",
+    "horizontalCRS": "epsg:8031",
+    "id": null,
+    "name": "TBD",
+    "purpose": "wa-survey-purpose:subdivision",
+    "referencedCSDs": [],
+    "links": [],
+    "provenance": {},
+    "features": [
+        {
+            "id": "9540",
+            "type": "Feature",
+            "featureType": "SurveyPoint",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    115.86517700432304,
+                    -32.53850094435371
+                ]
+            },
+            "place": {
+                "type": "Point",
+                "coordinates": [
+                    54556.897,
+                    298434.717
+                ]
+            },
+            "properties": {
+                "purpose": "wa-surveypoint-purpose:temporary-control-point",
+                "monumentedBy": {
+                    "form": "wa-monument-form:Spike",
+                    "condition": "wa-monument-condition:ok",
+                    "state": "wa-monument-state:MarkFound"
+                },
+                "name": {
+                    "label": "EFB157243/9540",
+                    "hasPart": [
+                        {
+                            "type": "Source",
+                            "label": "EFB157243"
+                        },
+                        {
+                            "type": "Stamp",
+                            "label": "9540"
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

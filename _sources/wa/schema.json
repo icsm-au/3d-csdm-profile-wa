@@ -1,0 +1,13 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "description": "Common ICSM profile of Cadastral Survey Data Model",
+  "x-jsonld-context": "context.jsonld",
+  "allOf": [
+    {
+      "$ref": "https://icsm-au.github.io/3d-csdm-schema/build/annotated/csdm/features/CSD/schema.json"
+    },
+    {
+      "$ref": "../common/schema.json"
+    }
+  ]
+}

@@ -1,0 +1,149 @@
+Validation report for icsm.profiles.wa - Western Australia Cadastral Survey Data Exchange Profile
+Generated 2024-02-08T09:26:46.761240+00:00
+=== Files ===
+Using obs-subtendedangle (example_4_1) from examples
+JSON-LD context is present - uplifting
+Output JSON-LD obs-subtendedangle.jsonld created
+Output Turtle obs-subtendedangle.ttl created
+=== End Files ===
+
+=== JSON Schema ===
+Validation passed
+=== End JSON Schema ===
+
+=== SHACL ===
+Validation result for profiles/wa-pointnames-shacl.ttl:
+  Validation Report
+  Conforms: True
+  
+Focus nodes for profiles/wa-pointnames-shacl.ttl:
+ - Shape wap:testLabelPartsPresent: *none*
+
+Validation result for https://icsm-au.github.io/3d-csdm-schema/_sources/csdm/features/CSD/tests/obs-match-vectors.shacl:
+  Validation Report
+  Conforms: True
+  
+Focus nodes for https://icsm-au.github.io/3d-csdm-schema/_sources/csdm/features/CSD/tests/obs-match-vectors.shacl:
+ - Shape :testFOIexists: <vectorobservation:computed>/sosa:hasMember,<vectorobservation:computed>/sosa:hasMember,<vectorobservation:computed>/sosa:hasMember
+
+Validation result for https://icsm-au.github.io/3d-csdm-schema/_sources/csdm/shapes/container.shapes.ttl:
+  Validation Report
+  Conforms: True
+  
+Focus nodes for https://icsm-au.github.io/3d-csdm-schema/_sources/csdm/shapes/container.shapes.ttl:
+ - Shape container:CSD: *none*
+ - Shape container:CSD-seeAlso: *none*
+ - Shape <https://linked.data.gov.au/def/csdm/surveyprov/SurveyType>: *none*
+
+Validation result for https://icsm-au.github.io/3d-csdm-schema/_sources/csdm/shapes/parcel_module.shapes.ttl:
+  Validation Report
+  Conforms: True
+  
+Focus nodes for https://icsm-au.github.io/3d-csdm-schema/_sources/csdm/shapes/parcel_module.shapes.ttl:
+ - Shape :PropertyUnit: *none*
+ - Shape :ParcelQualityClass: *none*
+ - Shape :Apellation: *none*
+ - Shape :PurposeOfSpatialUnit: *none*
+ - Shape :PrimaryParcel: *none*
+ - Shape :SecondaryParcel: *none*
+ - Shape :ParcelState: *none*
+ - Shape :LandInterest: *none*
+ - Shape :ParcelAggregate: *none*
+ - Shape :EstateParcel: *none*
+ - Shape :ParcelType: *none*
+ - Shape :Parcel: *none*
+
+Validation result for https://ogcincubator.github.io/topo-feature/_sources/features/topo-feature/tests/geometry-coordinates.shacl:
+  Validation Report
+  Conforms: True
+  
+Focus nodes for https://ogcincubator.github.io/topo-feature/_sources/features/topo-feature/tests/geometry-coordinates.shacl:
+ - Shape _:n1565c0e79b1b49739091efda9a5715e6b1: <https://www.wa-example.com/features/184>/geojson:geometry,<https://www.wa-example.com/features/189>/geojson:geometry,<https://www.wa-example.com/features/198>/geojson:geometry
+ - Shape _:n1565c0e79b1b49739091efda9a5715e6b3: <https://www.wa-example.com/features/184>/geojson:geometry,<https://www.wa-example.com/features/189>/geojson:geometry,<https://www.wa-example.com/features/198>/geojson:geometry
+
+Validation result for https://ogcincubator.github.io/topo-feature/_sources/features/topo-feature-collection/tests/topo-refs-exist.shacl:
+  Validation Report
+  Conforms: True
+  
+Focus nodes for https://ogcincubator.github.io/topo-feature/_sources/features/topo-feature-collection/tests/topo-refs-exist.shacl:
+ - Shape topo:testTopoLinesReferencePoints: <https://www.wa-example.com/features/313>/geojson:topology,<https://www.wa-example.com/features/312>/geojson:topology
+ - Shape topo:testTopoReferencesExist: <https://www.wa-example.com/features/313>/geojson:topology,<https://www.wa-example.com/features/843>/geojson:topology,<https://www.wa-example.com/features/312>/geojson:topology
+
+Validation result for https://icsm-au.github.io/3d-csdm-schema/_sources/csdm/datatypes/compoundName/rules.shacl:
+  Validation Report
+  Conforms: True
+  
+Focus nodes for https://icsm-au.github.io/3d-csdm-schema/_sources/csdm/datatypes/compoundName/rules.shacl:
+ - Shape _:n2b93bbeb6ce3452a90906b51b3e353cfb1: *none*
+
+Validation result for https://opengeospatial.github.io/ogcapi-sosa/_sources/properties/observation/rules.shacl:
+  Validation Report
+  Conforms: True
+  
+Focus nodes for https://opengeospatial.github.io/ogcapi-sosa/_sources/properties/observation/rules.shacl:
+ - Shape <https://www.ogc.org/rules/sosa/#testRequiredTime>: <vectorobservation:computed>/sosa:hasMember,<vectorobservation:computed>/sosa:hasMember,<vectorobservation:computed>/sosa:hasMember
+ - Shape <https://www.ogc.org/rules/sosa/#testSimpleResultLiteral>: *none*
+ - Shape <https://www.ogc.org/rules/sosa/#testResult>: <vectorobservation:computed>/sosa:hasMember,<vectorobservation:computed>/sosa:hasMember,<vectorobservation:computed>/sosa:hasMember
+ - Shape <https://www.ogc.org/rules/sosa/#testObservedProperty>: <vectorobservation:computed>/sosa:hasMember,<vectorobservation:computed>/sosa:hasMember,<vectorobservation:computed>/sosa:hasMember
+ - Shape <https://www.ogc.org/rules/sosa/#testFeatureOfInterest>: <vectorobservation:computed>/sosa:hasMember,<vectorobservation:computed>/sosa:hasMember,<vectorobservation:computed>/sosa:hasMember
+ - Shape <https://www.ogc.org/rules/sosa/#testResultNotEmptyNode>: *none*
+
+Validation result for https://icsm-au.github.io/3d-csdm-schema/_sources/csdm/features/SurveyObservations/rules.shacl:
+  Validation Report
+  Conforms: True
+  
+Focus nodes for https://icsm-au.github.io/3d-csdm-schema/_sources/csdm/features/SurveyObservations/rules.shacl:
+ - Shape :testRequiredProperties: <vectorobservation:computed>/sosa:hasMember,<vectorobservation:computed>/sosa:hasMember,<vectorobservation:computed>/sosa:hasMember
+
+Validation result for profiles/icsm-point-codetypes-shacl.ttl:
+  Validation Report
+  Conforms: True
+  
+Focus nodes for profiles/icsm-point-codetypes-shacl.ttl:
+ - Shape jcl:testBoundVocab-surveypoint-purpose: <https://www.wa-example.com/features/184>,<https://www.wa-example.com/features/198>,<https://www.wa-example.com/features/189>,<https://www.wa-example.com/features/BoundaryMark>
+ - Shape jcl:testBoundVocab-pt-quality-class: <https://www.wa-example.com/features/184>,<https://www.wa-example.com/features/198>,<https://www.wa-example.com/features/189>,<https://www.wa-example.com/features/BoundaryMark>
+ - Shape jcl:testBoundVocab-state: <https://www.wa-example.com/features/189>/surv:monumentedBy,<https://www.wa-example.com/features/184>/surv:monumentedBy,<https://www.wa-example.com/features/198>/surv:monumentedBy
+ - Shape jcl:testBoundVocab-vector-purpose: <https://www.wa-example.com/features/SubtendedAngle>,<https://www.wa-example.com/features/observedVectors>
+ - Shape jcl:testBoundVocab-condition: <https://www.wa-example.com/features/189>/surv:monumentedBy,<https://www.wa-example.com/features/184>/surv:monumentedBy,<https://www.wa-example.com/features/198>/surv:monumentedBy
+ - Shape jcl:testBoundVocab-form: <https://www.wa-example.com/features/189>/surv:monumentedBy,<https://www.wa-example.com/features/184>/surv:monumentedBy,<https://www.wa-example.com/features/198>/surv:monumentedBy
+
+Validation result for profiles/icsm-survey-metadata-shacl.ttl:
+  Validation Report
+  Conforms: True
+  
+Focus nodes for profiles/icsm-survey-metadata-shacl.ttl:
+ - Shape :testVHD: *none*
+ - Shape :testDistanceType: *none*
+ - Shape :testAngleType: *none*
+ - Shape :testSurveyMetadata: <https://www.wa-example.com/features/DP_422532>
+ - Shape :testCompoundCRS: *none*
+ - Shape :testCRS: <https://www.wa-example.com/features/DP_422532>
+
+Validation result for profiles/icsm-parcel-codetypes-shacl.ttl:
+  Validation Report
+  Conforms: True
+  
+Focus nodes for profiles/icsm-parcel-codetypes-shacl.ttl:
+ - Shape jcl:testBoundVocab-parcelType: *none*
+ - Shape jcl:testBoundVocab-parcelInterest: *none*
+
+Validation result for profiles/icsm-references-shacl.ttl:
+  Validation Report
+  Conforms: True
+  
+Focus nodes for profiles/icsm-references-shacl.ttl:
+ - Shape :referencedCSDs-present: *none*
+
+Validation result for profiles/icsm-observation-properties.shacl:
+  Validation Report
+  Conforms: True
+  
+Focus nodes for profiles/icsm-observation-properties.shacl:
+ - Shape :bindSurveyObservation-angle-and-distance-types: <vectorobservation:computed>/sosa:hasMember,<vectorobservation:computed>/sosa:hasMember,<vectorobservation:computed>/sosa:hasMember
+ - Shape :testInCollectionOrMember-procedure: <vectorobservation:computed>
+ - Shape :testInCollectionOrMember-madeBySensor: <vectorobservation:computed>/sosa:hasMember,<vectorobservation:computed>/sosa:hasMember,<vectorobservation:computed>/sosa:hasMember
+ - Shape :annotate-madeBySensor: <vectorobservation:computed>
+ - Shape :testInCollectionOrMember-madeBySensor-Dies-in-rdflib: *none*
+
+=== End SHACL ===
+

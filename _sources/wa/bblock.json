@@ -1,0 +1,57 @@
+{
+  "name": "Western Australia Cadastral Survey Data Exchange Profile",
+  "highlighted": true,
+  "abstract": "Implementation Profile of the ICSM Cadastral Survey Data Exchange Model for use in Western Australia",
+  "status": "under-development",
+  "dateTimeAddition": "2023-07-31T00:00:00Z",
+  "itemClass": "schema",
+  "register": "icsm-csdm",
+  "version": "0.1",
+  "dateOfLastChange": "2023-08-08",
+  "sources": [
+    {
+      "title": "3D Cadastre Survey Data Model",
+      "link": "https://icsm-au.github.io/3d-csdm-design/2022/spec.html"
+    }
+  ],
+  "link": "https://github.com/icsm-au/3d-csdm-schema",
+  "maturity": "development",
+  "scope": "profiles",
+  "tags": [
+    "wa",
+    "sosa",
+    "ssn",
+    "o&m",
+    "o&m&s",
+    "csdm",
+    "profile"
+  ],
+  "superBBlock": false,
+  "shaclRules": [
+    "../../profiles/wa-pointnames-shacl.ttl"
+  ],
+  "shaclClosures": [
+    "../../vocabularies/CSD-Header/icsm-admin-unit-type.ttl",
+    "../../vocabularies/SurveyObservations/icsm-angle-type.ttl",
+    "../../vocabularies/SurveyObservations/icsm-distance-type.ttl",
+    "../../vocabularies/SurveyObservations/icsm-equipment-type.ttl",
+    "../../vocabularies/SurveyObservations/icsm-procedure-used.ttl",
+    "../../vocabularies/CSD-Header/wa-crs.ttl",
+    "../../vocabularies/CSD-Header/wa-survey-purpose.ttl",
+    "../../vocabularies/CSD-Header/wa-local-government.ttl",
+    "../../vocabularies/CSD-Header/wa-locality.ttl",
+    "../../vocabularies/CSD-Header/wa-survey-documentation-type.ttl",
+    "../../vocabularies/CSD-Header/wa-annotation.ttl",
+    "../../vocabularies/CSD-Header/wa-survey-type.ttl",
+    "../../vocabularies/CSD-Header/wa-vhd.ttl",
+    "../../vocabularies/Parcels/wa-parcel-purpose.ttl",
+    "../../vocabularies/Parcels/wa-parcel-state.ttl",
+    "../../vocabularies/SurveyObservations/wa-procedure-used.ttl",
+    "../../vocabularies/SurveyObservations/wa-vector-purpose.ttl",
+    "../../vocabularies/SurveyPoints/monument/wa-monument-type.ttl",
+    "../../vocabularies/SurveyPoints/condition/wa-condition.ttl",
+    "../../vocabularies/SurveyPoints/purpose/wa-purpose.ttl",
+    "../../vocabularies/SurveyPoints/other/wa-surveypoint-method.ttl",
+    "../../vocabularies/SurveyPoints/state/wa-state.ttl"
+  ]
+}

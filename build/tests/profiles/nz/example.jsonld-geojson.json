@@ -1,0 +1,3577 @@
+{
+    "$schema": "schema.json",
+    "type": "FeatureCollection",
+    "horizontalCRS": "epsg:4167",
+    "id": null,
+    "name": "DP 572532",
+    "purpose": "nz-survey-purpose:lts",
+    "referencedCSDs": [
+        {
+            "id": "DP_119552",
+            "name": "DP 119552",
+            "adminUnit": {
+                "href": null,
+                "rel": null,
+                "role": null
+            },
+            "bearingRotation": 0.0,
+            "time": "2022-02-11 00:00:00"
+        }
+    ],
+    "links": [],
+    "provenance": {},
+    "features": [
+        {
+            "id": "1725787",
+            "type": "Feature",
+            "featureType": "SurveyPoint",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -36.9307359096,
+                    174.7501603083
+                ]
+            },
+            "place": {
+                "type": "Point",
+                "coordinates": [
+                    174.7501603083,
+                    -36.9307359096
+                ]
+            },
+            "properties": {
+                "name": {
+                    "label": "RM E DP 119552",
+                    "hasPart": [
+                        {
+                            "type": "Source",
+                            "label": "DP 119552"
+                        },
+                        {
+                            "type": "PlanType",
+                            "label": "DP"
+                        },
+                        {
+                            "type": "Stamp",
+                            "label": "RM E"
+                        }
+                    ]
+                },
+                "purpose": "nz-surveypoint-purpose:bndy",
+                "fromSurvey": "DP_119552",
+                "comment": "ALP in channel of drive",
+                "occupation": {
+                    "comment": "No occupation"
+                },
+                "monumentedBy": {
+                    "form": "nz-monument-form:bp",
+                    "condition": "nz-monument-condition:mkfd",
+                    "state": "nz-monument-state:old"
+                }
+            }
+        },
+        {
+            "id": "44396823",
+            "type": "Feature",
+            "featureType": "SurveyPoint",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -36.9314093194,
+                    174.7508196767
+                ]
+            },
+            "place": {
+                "type": "Point",
+                "coordinates": [
+                    174.7508196767,
+                    -36.9314093194
+                ]
+            },
+            "properties": {
+                "name": {
+                    "label": "ALP I DP 481392",
+                    "hasPart": [
+                        {
+                            "type": "Source",
+                            "label": "481392"
+                        },
+                        {
+                            "type": "PlanType",
+                            "label": "DP"
+                        },
+                        {
+                            "type": "Stamp",
+                            "label": "ALP I"
+                        }
+                    ]
+                },
+                "purpose": "nz-surveypoint-purpose:non-bdy",
+                "occupation": {
+                    "comment": "ALP in channel of drive"
+                },
+                "monumentedBy": {
+                    "form": "nz-monument-form:pin",
+                    "condition": "nz-monument-condition:mkfd",
+                    "state": "nz-monument-state:old"
+                }
+            }
+        },
+        {
+            "id": "11745160",
+            "type": "Feature",
+            "featureType": "SurveyPoint",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -36.9307359096,
+                    174.7501603083
+                ]
+            },
+            "place": {
+                "type": "Point",
+                "coordinates": [
+                    174.7501603083,
+                    -36.9307359096
+                ]
+            },
+            "properties": {
+                "name": {
+                    "label": "RM E DP 119552",
+                    "hasPart": [
+                        {
+                            "type": "PlanType",
+                            "label": "DP"
+                        },
+                        {
+                            "type": "Source",
+                            "label": "119552"
+                        },
+                        {
+                            "type": "MarkType",
+                            "label": "RM"
+                        },
+                        {
+                            "type": "Stamp",
+                            "label": "E"
+                        }
+                    ]
+                },
+                "purpose": "nz-surveypoint-purpose:non-bdy",
+                "fromSurvey": "DP_119552",
+                "ptQualityMeasure": 6,
+                "comment": null,
+                "monumentedBy": {
+                    "form": "nz-monument-form:bp",
+                    "condition": "nz-monument-condition:mkfd",
+                    "state": "nz-monument-state:old"
+                }
+            }
+        },
+        {
+            "id": "44438418",
+            "type": "Feature",
+            "featureType": "SurveyPoint",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -36.9314093194,
+                    174.7508196767
+                ]
+            },
+            "place": {
+                "type": "Point",
+                "coordinates": [
+                    174.7508196767,
+                    -36.9314093194
+                ]
+            },
+            "properties": {
+                "name": {
+                    "label": "ALP I DP 481392",
+                    "hasPart": [
+                        {
+                            "type": "PlanType",
+                            "label": "DP"
+                        },
+                        {
+                            "type": "Source",
+                            "label": "481392"
+                        },
+                        {
+                            "type": "MarkType",
+                            "label": "ALP"
+                        },
+                        {
+                            "type": "Stamp",
+                            "label": "I"
+                        }
+                    ]
+                },
+                "purpose": "nz-surveypoint-purpose:non-bdy",
+                "fromSurvey": "DP_481392",
+                "ptQualityMeasure": 6,
+                "comment": "ALP in channel of drive",
+                "monumentedBy": {
+                    "form": "nz-monument-form:pin",
+                    "condition": "nz-monument-condition:mkfd",
+                    "state": "nz-monument-state:old"
+                }
+            }
+        },
+        {
+            "id": "11745104",
+            "type": "Feature",
+            "featureType": "SurveyPoint",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -36.930903937,
+                    174.749997996
+                ]
+            },
+            "place": {
+                "type": "Point",
+                "coordinates": [
+                    174.749997996,
+                    -36.930903937
+                ]
+            },
+            "properties": {
+                "name": {
+                    "label": "RM C DP 119552 (EQ9W)",
+                    "hasPart": [
+                        {
+                            "type": "PlanType",
+                            "label": "DP"
+                        },
+                        {
+                            "type": "Source",
+                            "label": "119552"
+                        },
+                        {
+                            "type": "MarkType",
+                            "label": "RM"
+                        },
+                        {
+                            "type": "Stamp",
+                            "label": "C"
+                        },
+                        {
+                            "type": "geodeticStamp",
+                            "label": "EQ9W"
+                        }
+                    ]
+                },
+                "geodeticid": "EQ9W",
+                "purpose": "nz-surveypoint-purpose:prm",
+                "fromSurvey": "DP_119552",
+                "ptQualityMeasure": 5,
+                "comment": "Brass circular plaque flush in channel",
+                "monumentedBy": {
+                    "form": "nz-monument-form:bp",
+                    "condition": "nz-monument-condition:relb",
+                    "state": "nz-monument-state:old"
+                }
+            }
+        },
+        {
+            "id": "11745161",
+            "type": "Feature",
+            "featureType": "SurveyPoint",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -36.9303670583,
+                    174.7503985651
+                ]
+            },
+            "place": {
+                "type": "Point",
+                "coordinates": [
+                    174.7503985651,
+                    -36.9303670583
+                ]
+            },
+            "properties": {
+                "name": {
+                    "label": "LP X DP 119552",
+                    "hasPart": [
+                        {
+                            "type": "PlanType",
+                            "label": "DP"
+                        },
+                        {
+                            "type": "Source",
+                            "label": "119552"
+                        },
+                        {
+                            "type": "MarkType",
+                            "label": "LP"
+                        },
+                        {
+                            "type": "Stamp",
+                            "label": "X"
+                        }
+                    ]
+                },
+                "purpose": "nz-surveypoint-purpose:non-bdy",
+                "fromSurvey": "DP_119552",
+                "ptQualityMeasure": 6,
+                "comment": null,
+                "monumentedBy": {
+                    "form": "nz-monument-form:lp",
+                    "condition": "nz-monument-condition:mkfd",
+                    "state": "nz-monument-state:old"
+                }
+            }
+        },
+        {
+            "id": "49655185",
+            "type": "Feature",
+            "featureType": "SurveyPoint",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -36.9309699441,
+                    174.75043155
+                ]
+            },
+            "place": {
+                "type": "Point",
+                "coordinates": [
+                    174.75043155,
+                    -36.9309699441
+                ]
+            },
+            "properties": {
+                "name": {
+                    "label": "AP 1 DP 572532",
+                    "hasPart": [
+                        {
+                            "type": "PlanType",
+                            "label": "DP"
+                        },
+                        {
+                            "type": "Source",
+                            "label": "572532"
+                        },
+                        {
+                            "type": "MarkType",
+                            "label": "AP"
+                        },
+                        {
+                            "type": "Stamp",
+                            "label": "1"
+                        }
+                    ]
+                },
+                "purpose": "nz-surveypoint-purpose:prm",
+                "fromSurvey": "DP_572532",
+                "ptQualityMeasure": 6,
+                "comment": "Flush in conc",
+                "monumentedBy": {
+                    "form": "nz-monument-form:pin",
+                    "condition": "nz-monument-condition:relb",
+                    "state": "nz-monument-state:new"
+                }
+            }
+        },
+        {
+            "id": "44438410",
+            "type": "Feature",
+            "featureType": "SurveyPoint",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -36.9311866966,
+                    174.7505837059
+                ]
+            },
+            "place": {
+                "type": "Point",
+                "coordinates": [
+                    174.7505837059,
+                    -36.9311866966
+                ]
+            },
+            "properties": {
+                "name": {
+                    "label": "RM I DP 119553",
+                    "hasPart": [
+                        {
+                            "type": "PlanType",
+                            "label": "DP"
+                        },
+                        {
+                            "type": "Source",
+                            "label": "119553"
+                        },
+                        {
+                            "type": "MarkType",
+                            "label": "RM"
+                        },
+                        {
+                            "type": "Stamp",
+                            "label": "I"
+                        }
+                    ]
+                },
+                "purpose": "nz-surveypoint-purpose:prm",
+                "fromSurvey": "DP_119553",
+                "ptQualityMeasure": 6,
+                "comment": "ORM in channel above catch pits",
+                "monumentedBy": {
+                    "form": "nz-monument-form:bp",
+                    "condition": "nz-monument-condition:mkfd",
+                    "state": "nz-monument-state:old"
+                }
+            }
+        },
+        {
+            "id": "49655186",
+            "type": "Feature",
+            "featureType": "SurveyPoint",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -36.9309318616,
+                    174.7502384493
+                ]
+            },
+            "place": {
+                "type": "Point",
+                "coordinates": [
+                    174.7502384493,
+                    -36.9309318616
+                ]
+            },
+            "properties": {
+                "name": {
+                    "label": "RM H DP 119553",
+                    "hasPart": [
+                        {
+                            "type": "PlanType",
+                            "label": "DP"
+                        },
+                        {
+                            "type": "Source",
+                            "label": "119553"
+                        },
+                        {
+                            "type": "MarkType",
+                            "label": "RM"
+                        },
+                        {
+                            "type": "Stamp",
+                            "label": "H"
+                        }
+                    ]
+                },
+                "purpose": "nz-surveypoint-purpose:non-bdy",
+                "fromSurvey": "DP_119553",
+                "ptQualityMeasure": 6,
+                "comment": "ORM in channel above catch pits",
+                "monumentedBy": {
+                    "form": "nz-monument-form:bp",
+                    "condition": "nz-monument-condition:mkfd",
+                    "state": "nz-monument-state:old"
+                }
+            }
+        },
+        {
+            "id": "29960715",
+            "type": "Feature",
+            "featureType": "SurveyPoint",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -36.9312489607,
+                    174.750791041
+                ]
+            },
+            "place": {
+                "type": "Point",
+                "coordinates": [
+                    174.750791041,
+                    -36.9312489607
+                ]
+            },
+            "properties": {
+                "name": {
+                    "label": "Peg 6 DP 119553",
+                    "hasPart": [
+                        {
+                            "type": "PlanType",
+                            "label": "DP"
+                        },
+                        {
+                            "type": "Source",
+                            "label": "119553"
+                        },
+                        {
+                            "type": "MarkType",
+                            "label": "Peg"
+                        },
+                        {
+                            "type": "Stamp",
+                            "label": "6"
+                        }
+                    ]
+                },
+                "purpose": "nz-surveypoint-purpose:bndy",
+                "fromSurvey": "DP_119553",
+                "ptQualityMeasure": 7,
+                "monumentedBy": {
+                    "form": "nz-monument-form:peg",
+                    "condition": "nz-monument-condition:nfnd",
+                    "state": "nz-monument-state:adpt"
+                }
+            }
+        },
+        {
+            "id": "29959289",
+            "type": "Feature",
+            "featureType": "SurveyPoint",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -36.9310392342,
+                    174.7505110058
+                ]
+            },
+            "place": {
+                "type": "Point",
+                "coordinates": [
+                    174.7505110058,
+                    -36.9310392342
+                ]
+            },
+            "properties": {
+                "name": {
+                    "label": "Peg 3 DP 119553",
+                    "hasPart": [
+                        {
+                            "type": "PlanType",
+                            "label": "DP"
+                        },
+                        {
+                            "type": "Source",
+                            "label": "119553"
+                        },
+                        {
+                            "type": "MarkType",
+                            "label": "Peg"
+                        },
+                        {
+                            "type": "Stamp",
+                            "label": "3"
+                        }
+                    ]
+                },
+                "purpose": "nz-surveypoint-purpose:bndy",
+                "fromSurvey": "DP_119553",
+                "ptQualityMeasure": 7,
+                "monumentedBy": {
+                    "form": "nz-monument-form:peg",
+                    "condition": "nz-monument-condition:empl",
+                    "state": "nz-monument-state:new"
+                }
+            }
+        },
+        {
+            "id": "29962820",
+            "type": "Feature",
+            "featureType": "SurveyPoint",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -36.9308797133,
+                    174.7512489947
+                ]
+            },
+            "place": {
+                "type": "Point",
+                "coordinates": [
+                    174.7512489947,
+                    -36.9308797133
+                ]
+            },
+            "properties": {
+                "name": {
+                    "label": "Peg 4 DP 119552",
+                    "hasPart": [
+                        {
+                            "type": "PlanType",
+                            "label": "DP"
+                        },
+                        {
+                            "type": "Source",
+                            "label": "119552"
+                        },
+                        {
+                            "type": "MarkType",
+                            "label": "Peg"
+                        },
+                        {
+                            "type": "Stamp",
+                            "label": "4"
+                        }
+                    ]
+                },
+                "purpose": "nz-surveypoint-purpose:bndy",
+                "fromSurvey": "DP_119552",
+                "ptQualityMeasure": 7,
+                "monumentedBy": {
+                    "form": "nz-monument-form:peg",
+                    "condition": "nz-monument-condition:nspe",
+                    "state": "nz-monument-state:adpt"
+                }
+            }
+        },
+        {
+            "id": "29963073",
+            "type": "Feature",
+            "featureType": "SurveyPoint",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -36.9310543825,
+                    174.7513031028
+                ]
+            },
+            "place": {
+                "type": "Point",
+                "coordinates": [
+                    174.7513031028,
+                    -36.9310543825
+                ]
+            },
+            "properties": {
+                "name": {
+                    "label": "Peg 8 DP 119553",
+                    "hasPart": [
+                        {
+                            "type": "PlanType",
+                            "label": "DP"
+                        },
+                        {
+                            "type": "Source",
+                            "label": "119553"
+                        },
+                        {
+                            "type": "MarkType",
+                            "label": "Peg"
+                        },
+                        {
+                            "type": "Stamp",
+                            "label": "8"
+                        }
+                    ]
+                },
+                "purpose": "nz-surveypoint-purpose:bndy",
+                "fromSurvey": "DP_119553",
+                "ptQualityMeasure": 7,
+                "monumentedBy": {
+                    "form": "nz-monument-form:peg",
+                    "condition": "nz-monument-condition:nspe",
+                    "state": "nz-monument-state:adpt"
+                }
+            }
+        },
+        {
+            "id": "29963182",
+            "type": "Feature",
+            "featureType": "SurveyPoint",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -36.9311247115,
+                    174.751324788
+                ]
+            },
+            "place": {
+                "type": "Point",
+                "coordinates": [
+                    174.751324788,
+                    -36.9311247115
+                ]
+            },
+            "properties": {
+                "name": {
+                    "label": "Peg 7 DP 119553",
+                    "hasPart": [
+                        {
+                            "type": "PlanType",
+                            "label": "DP"
+                        },
+                        {
+                            "type": "Source",
+                            "label": "119553"
+                        },
+                        {
+                            "type": "MarkType",
+                            "label": "Peg"
+                        },
+                        {
+                            "type": "Stamp",
+                            "label": "7"
+                        }
+                    ]
+                },
+                "purpose": "nz-surveypoint-purpose:bndy",
+                "fromSurvey": "DP_119553",
+                "ptQualityMeasure": 7,
+                "monumentedBy": {
+                    "form": "nz-monument-form:peg",
+                    "condition": "nz-monument-condition:nspe",
+                    "state": "nz-monument-state:adpt"
+                }
+            }
+        },
+        {
+            "id": "49655170",
+            "type": "Feature",
+            "featureType": "SurveyPoint",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -36.9312023381,
+                    174.7509918818
+                ]
+            },
+            "place": {
+                "type": "Point",
+                "coordinates": [
+                    174.7509918818,
+                    -36.9312023381
+                ]
+            },
+            "properties": {
+                "name": {
+                    "label": "UNMK 14 DP 572532",
+                    "hasPart": [
+                        {
+                            "type": "PlanType",
+                            "label": "DP"
+                        },
+                        {
+                            "type": "Source",
+                            "label": "572532"
+                        },
+                        {
+                            "type": "MarkType",
+                            "label": "UNMK"
+                        },
+                        {
+                            "type": "Stamp",
+                            "label": "14"
+                        }
+                    ]
+                },
+                "purpose": "nz-surveypoint-purpose:bndy",
+                "fromSurvey": "DP_572532",
+                "ptQualityMeasure": 7,
+                "monumentedBy": {
+                    "form": "nz-monument-form:unmk",
+                    "condition": "nz-monument-condition:impm",
+                    "state": "nz-monument-state:new"
+                }
+            }
+        },
+        {
+            "id": "49655172",
+            "type": "Feature",
+            "featureType": "SurveyPoint",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -36.9310291431,
+                    174.7507606923
+                ]
+            },
+            "place": {
+                "type": "Point",
+                "coordinates": [
+                    174.7507606923,
+                    -36.9310291431
+                ]
+            },
+            "properties": {
+                "name": {
+                    "label": "Peg 18 DP 572532",
+                    "hasPart": [
+                        {
+                            "type": "PlanType",
+                            "label": "DP"
+                        },
+                        {
+                            "type": "Source",
+                            "label": "572532"
+                        },
+                        {
+                            "type": "MarkType",
+                            "label": "Peg"
+                        },
+                        {
+                            "type": "Stamp",
+                            "label": "18"
+                        }
+                    ]
+                },
+                "purpose": "nz-surveypoint-purpose:bndy",
+                "fromSurvey": "DP_572532",
+                "ptQualityMeasure": 7,
+                "monumentedBy": {
+                    "form": "nz-monument-form:peg",
+                    "condition": "nz-monument-condition:relb",
+                    "state": "nz-monument-state:new"
+                }
+            }
+        },
+        {
+            "id": "49655173",
+            "type": "Feature",
+            "featureType": "SurveyPoint",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -36.9310215435,
+                    174.7507225544
+                ]
+            },
+            "place": {
+                "type": "Point",
+                "coordinates": [
+                    174.7507225544,
+                    -36.9310215435
+                ]
+            },
+            "properties": {
+                "name": {
+                    "label": "Peg 19 DP 572532",
+                    "hasPart": [
+                        {
+                            "type": "PlanType",
+                            "label": "DP"
+                        },
+                        {
+                            "type": "Source",
+                            "label": "572532"
+                        },
+                        {
+                            "type": "MarkType",
+                            "label": "Peg"
+                        },
+                        {
+                            "type": "Stamp",
+                            "label": "19"
+                        }
+                    ]
+                },
+                "purpose": "nz-surveypoint-purpose:bndy",
+                "fromSurvey": "DP_572532",
+                "ptQualityMeasure": 7,
+                "monumentedBy": {
+                    "form": "nz-monument-form:peg",
+                    "condition": "nz-monument-condition:relb",
+                    "state": "nz-monument-state:new"
+                }
+            }
+        },
+        {
+            "id": "49655187",
+            "type": "Feature",
+            "featureType": "SurveyPoint",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -36.9311839118,
+                    174.7509672626
+                ]
+            },
+            "place": {
+                "type": "Point",
+                "coordinates": [
+                    174.7509672626,
+                    -36.9311839118
+                ]
+            },
+            "properties": {
+                "name": {
+                    "label": "Peg 38 DP 572532",
+                    "hasPart": [
+                        {
+                            "type": "PlanType",
+                            "label": "DP"
+                        },
+                        {
+                            "type": "Source",
+                            "label": "572532"
+                        },
+                        {
+                            "type": "MarkType",
+                            "label": "Peg"
+                        },
+                        {
+                            "type": "Stamp",
+                            "label": "38"
+                        }
+                    ]
+                },
+                "purpose": "nz-surveypoint-purpose:bndy",
+                "fromSurvey": "DP_572532",
+                "ptQualityMeasure": 7,
+                "monumentedBy": {
+                    "form": "nz-monument-form:peg",
+                    "condition": "nz-monument-condition:relb",
+                    "state": "nz-monument-state:new"
+                }
+            }
+        },
+        {
+            "id": "49655174",
+            "type": "Feature",
+            "featureType": "SurveyPoint",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -36.9309571156,
+                    174.7508909488
+                ]
+            },
+            "place": {
+                "type": "Point",
+                "coordinates": [
+                    174.7508909488,
+                    -36.9309571156
+                ]
+            },
+            "properties": {
+                "name": {
+                    "label": "UNMK 20 DP 572532",
+                    "hasPart": [
+                        {
+                            "type": "PlanType",
+                            "label": "DP"
+                        },
+                        {
+                            "type": "Source",
+                            "label": "572532"
+                        },
+                        {
+                            "type": "MarkType",
+                            "label": "UNMK"
+                        },
+                        {
+                            "type": "Stamp",
+                            "label": "20"
+                        }
+                    ]
+                },
+                "purpose": "nz-surveypoint-purpose:bndy",
+                "fromSurvey": "DP_572532",
+                "ptQualityMeasure": 7,
+                "monumentedBy": {
+                    "form": "nz-monument-form:unmk",
+                    "condition": "nz-monument-condition:nspe",
+                    "state": "nz-monument-state:new"
+                }
+            }
+        },
+        {
+            "id": "49655175",
+            "type": "Feature",
+            "featureType": "SurveyPoint",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -36.9311774613,
+                    174.7510988383
+                ]
+            },
+            "place": {
+                "type": "Point",
+                "coordinates": [
+                    174.7510988383,
+                    -36.9311774613
+                ]
+            },
+            "properties": {
+                "name": {
+                    "label": "UNMK 21 DP 572532",
+                    "hasPart": [
+                        {
+                            "type": "PlanType",
+                            "label": "DP"
+                        },
+                        {
+                            "type": "Source",
+                            "label": "572532"
+                        },
+                        {
+                            "type": "MarkType",
+                            "label": "UNMK"
+                        },
+                        {
+                            "type": "Stamp",
+                            "label": "21"
+                        }
+                    ]
+                },
+                "purpose": "nz-surveypoint-purpose:bndy",
+                "fromSurvey": "DP_572532",
+                "ptQualityMeasure": 7,
+                "monumentedBy": {
+                    "form": "nz-monument-form:unmk",
+                    "condition": "nz-monument-condition:nspe",
+                    "state": "nz-monument-state:new"
+                }
+            }
+        },
+        {
+            "id": "49655176",
+            "type": "Feature",
+            "featureType": "SurveyPoint",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -36.9309904554,
+                    174.7509396099
+                ]
+            },
+            "place": {
+                "type": "Point",
+                "coordinates": [
+                    174.7509396099,
+                    -36.9309904554
+                ]
+            },
+            "properties": {
+                "name": {
+                    "label": "UNMK 22 DP 572532",
+                    "hasPart": [
+                        {
+                            "type": "PlanType",
+                            "label": "DP"
+                        },
+                        {
+                            "type": "Source",
+                            "label": "572532"
+                        },
+                        {
+                            "type": "MarkType",
+                            "label": "UNMK"
+                        },
+                        {
+                            "type": "Stamp",
+                            "label": "22"
+                        }
+                    ]
+                },
+                "purpose": "nz-surveypoint-purpose:bndy",
+                "fromSurvey": "DP_572532",
+                "ptQualityMeasure": 8,
+                "monumentedBy": {
+                    "form": "nz-monument-form:unmk",
+                    "condition": "nz-monument-condition:nspe",
+                    "state": "nz-monument-state:new"
+                }
+            }
+        },
+        {
+            "id": "49655177",
+            "type": "Feature",
+            "featureType": "SurveyPoint",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -36.9309870924,
+                    174.7509925285
+                ]
+            },
+            "place": {
+                "type": "Point",
+                "coordinates": [
+                    174.7509925285,
+                    -36.9309870924
+                ]
+            },
+            "properties": {
+                "name": {
+                    "label": "UNMK 23 DP 572532",
+                    "hasPart": [
+                        {
+                            "type": "PlanType",
+                            "label": "DP"
+                        },
+                        {
+                            "type": "Source",
+                            "label": "572532"
+                        },
+                        {
+                            "type": "MarkType",
+                            "label": "UNMK"
+                        },
+                        {
+                            "type": "Stamp",
+                            "label": "23"
+                        }
+                    ]
+                },
+                "purpose": "nz-surveypoint-purpose:bndy",
+                "fromSurvey": "DP_572532",
+                "ptQualityMeasure": 8,
+                "monumentedBy": {
+                    "form": "nz-monument-form:unmk",
+                    "condition": "nz-monument-condition:nspe",
+                    "state": "nz-monument-state:new"
+                }
+            }
+        },
+        {
+            "id": "49655178",
+            "type": "Feature",
+            "featureType": "SurveyPoint",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -36.9310015962,
+                    174.751010805
+                ]
+            },
+            "place": {
+                "type": "Point",
+                "coordinates": [
+                    174.751010805,
+                    -36.9310015962
+                ]
+            },
+            "properties": {
+                "name": {
+                    "label": "UNMK 24 DP 572532",
+                    "hasPart": [
+                        {
+                            "type": "PlanType",
+                            "label": "DP"
+                        },
+                        {
+                            "type": "Source",
+                            "label": "572532"
+                        },
+                        {
+                            "type": "MarkType",
+                            "label": "UNMK"
+                        },
+                        {
+                            "type": "Stamp",
+                            "label": "24"
+                        }
+                    ]
+                },
+                "purpose": "nz-surveypoint-purpose:bndy",
+                "fromSurvey": "DP_572532",
+                "ptQualityMeasure": 8,
+                "monumentedBy": {
+                    "form": "nz-monument-form:unmk",
+                    "condition": "nz-monument-condition:nspe",
+                    "state": "nz-monument-state:new"
+                }
+            }
+        },
+        {
+            "id": "49655179",
+            "type": "Feature",
+            "featureType": "SurveyPoint",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -36.9310253792,
+                    174.7510101475
+                ]
+            },
+            "place": {
+                "type": "Point",
+                "coordinates": [
+                    174.7510101475,
+                    -36.9310253792
+                ]
+            },
+            "properties": {
+                "name": {
+                    "label": "UNMK 25 DP 572532",
+                    "hasPart": [
+                        {
+                            "type": "PlanType",
+                            "label": "DP"
+                        },
+                        {
+                            "type": "Source",
+                            "label": "572532"
+                        },
+                        {
+                            "type": "MarkType",
+                            "label": "UNMK"
+                        },
+                        {
+                            "type": "Stamp",
+                            "label": "25"
+                        }
+                    ]
+                },
+                "purpose": "nz-surveypoint-purpose:bndy",
+                "fromSurvey": "DP_572532",
+                "ptQualityMeasure": 8,
+                "monumentedBy": {
+                    "form": "nz-monument-form:unmk",
+                    "condition": "nz-monument-condition:nspe",
+                    "state": "nz-monument-state:new"
+                }
+            }
+        },
+        {
+            "id": "49655180",
+            "type": "Feature",
+            "featureType": "SurveyPoint",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -36.9310510313,
+                    174.750980056
+                ]
+            },
+            "place": {
+                "type": "Point",
+                "coordinates": [
+                    174.750980056,
+                    -36.9310510313
+                ]
+            },
+            "properties": {
+                "name": {
+                    "label": "UNMK 26 DP 572532",
+                    "hasPart": [
+                        {
+                            "type": "PlanType",
+                            "label": "DP"
+                        },
+                        {
+                            "type": "Source",
+                            "label": "572532"
+                        },
+                        {
+                            "type": "MarkType",
+                            "label": "UNMK"
+                        },
+                        {
+                            "type": "Stamp",
+                            "label": "26"
+                        }
+                    ]
+                },
+                "purpose": "nz-surveypoint-purpose:bndy",
+                "fromSurvey": "DP_572532",
+                "ptQualityMeasure": 8,
+                "monumentedBy": {
+                    "form": "nz-monument-form:unmk",
+                    "condition": "nz-monument-condition:nspe",
+                    "state": "nz-monument-state:new"
+                }
+            }
+        },
+        {
+            "id": "49655181",
+            "type": "Feature",
+            "featureType": "SurveyPoint",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -36.9310656315,
+                    174.7509573691
+                ]
+            },
+            "place": {
+                "type": "Point",
+                "coordinates": [
+                    174.7509573691,
+                    -36.9310656315
+                ]
+            },
+            "properties": {
+                "name": {
+                    "label": "UNMK 27 DP 572532",
+                    "hasPart": [
+                        {
+                            "type": "PlanType",
+                            "label": "DP"
+                        },
+                        {
+                            "type": "Source",
+                            "label": "572532"
+                        },
+                        {
+                            "type": "MarkType",
+                            "label": "UNMK"
+                        },
+                        {
+                            "type": "Stamp",
+                            "label": "27"
+                        }
+                    ]
+                },
+                "purpose": "nz-surveypoint-purpose:bndy",
+                "fromSurvey": "DP_572532",
+                "ptQualityMeasure": 8,
+                "monumentedBy": {
+                    "form": "nz-monument-form:unmk",
+                    "condition": "nz-monument-condition:nspe",
+                    "state": "nz-monument-state:new"
+                }
+            }
+        },
+        {
+            "id": "49655182",
+            "type": "Feature",
+            "featureType": "SurveyPoint",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -36.9310856987,
+                    174.7509509094
+                ]
+            },
+            "place": {
+                "type": "Point",
+                "coordinates": [
+                    174.7509509094,
+                    -36.9310856987
+                ]
+            },
+            "properties": {
+                "name": {
+                    "label": "UNMK 28 DP 572532",
+                    "hasPart": [
+                        {
+                            "type": "PlanType",
+                            "label": "DP"
+                        },
+                        {
+                            "type": "Source",
+                            "label": "572532"
+                        },
+                        {
+                            "type": "MarkType",
+                            "label": "UNMK"
+                        },
+                        {
+                            "type": "Stamp",
+                            "label": "28"
+                        }
+                    ]
+                },
+                "purpose": "nz-surveypoint-purpose:bndy",
+                "fromSurvey": "DP_572532",
+                "ptQualityMeasure": 8,
+                "monumentedBy": {
+                    "form": "nz-monument-form:unmk",
+                    "condition": "nz-monument-condition:nspe",
+                    "state": "nz-monument-state:new"
+                }
+            }
+        },
+        {
+            "id": "49655183",
+            "type": "Feature",
+            "featureType": "SurveyPoint",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -36.9311076188,
+                    174.7509568685
+                ]
+            },
+            "place": {
+                "type": "Point",
+                "coordinates": [
+                    174.7509568685,
+                    -36.9311076188
+                ]
+            },
+            "properties": {
+                "name": {
+                    "label": "UNMK 29 DP 572532",
+                    "hasPart": [
+                        {
+                            "type": "PlanType",
+                            "label": "DP"
+                        },
+                        {
+                            "type": "Source",
+                            "label": "572532"
+                        },
+                        {
+                            "type": "MarkType",
+                            "label": "UNMK"
+                        },
+                        {
+                            "type": "Stamp",
+                            "label": "29"
+                        }
+                    ]
+                },
+                "purpose": "nz-surveypoint-purpose:bndy",
+                "fromSurvey": "DP_572532",
+                "ptQualityMeasure": 8,
+                "monumentedBy": {
+                    "form": "nz-monument-form:unmk",
+                    "condition": "nz-monument-condition:nspe",
+                    "state": "nz-monument-state:new"
+                }
+            }
+        },
+        {
+            "id": "49655184",
+            "type": "Feature",
+            "featureType": "SurveyPoint",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -36.9311710421,
+                    174.7510438631
+                ]
+            },
+            "place": {
+                "type": "Point",
+                "coordinates": [
+                    174.7510438631,
+                    -36.9311710421
+                ]
+            },
+            "properties": {
+                "name": {
+                    "label": "UNMK 30 DP 572532",
+                    "hasPart": [
+                        {
+                            "type": "PlanType",
+                            "label": "DP"
+                        },
+                        {
+                            "type": "Source",
+                            "label": "572532"
+                        },
+                        {
+                            "type": "MarkType",
+                            "label": "UNMK"
+                        },
+                        {
+                            "type": "Stamp",
+                            "label": "30"
+                        }
+                    ]
+                },
+                "purpose": "nz-surveypoint-purpose:bndy",
+                "fromSurvey": "DP_572532",
+                "ptQualityMeasure": 8,
+                "monumentedBy": {
+                    "form": "nz-monument-form:unmk",
+                    "condition": "nz-monument-condition:nspe",
+                    "state": "nz-monument-state:new"
+                }
+            }
+        },
+        {
+            "id": "49655171",
+            "type": "Feature",
+            "featureType": "SurveyPoint",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -36.9310610479,
+                    174.750540074
+                ]
+            },
+            "place": {
+                "type": "Point",
+                "coordinates": [
+                    174.750540074,
+                    -36.9310610479
+                ]
+            },
+            "properties": {
+                "name": {
+                    "label": "DISK 15 DP 572532",
+                    "hasPart": [
+                        {
+                            "type": "PlanType",
+                            "label": "DP"
+                        },
+                        {
+                            "type": "Source",
+                            "label": "572532"
+                        },
+                        {
+                            "type": "MarkType",
+                            "label": "DISK"
+                        },
+                        {
+                            "type": "Stamp",
+                            "label": "15"
+                        }
+                    ]
+                },
+                "purpose": "nz-surveypoint-purpose:bndy",
+                "fromSurvey": "DP_572532",
+                "ptQualityMeasure": 7,
+                "monumentedBy": {
+                    "form": "nz-monument-form:peg",
+                    "condition": "nz-monument-condition:relb",
+                    "state": "nz-monument-state:new"
+                }
+            }
+        },
+        {
+            "id": "l566592",
+            "type": "Feature",
+            "featureType": "sosa:ObservationCollection",
+            "geometry": {
+                "type": "LineString",
+                "featureType": "observation",
+                "coordinates": [
+                    [
+                        -36.9307359096,
+                        174.7501603083
+                    ],
+                    [
+                        -36.9314093194,
+                        174.7508196767
+                    ]
+                ]
+            },
+            "place": {
+                "type": "LineString",
+                "featureType": "observation",
+                "coordinates": [
+                    [
+                        174.7501603083,
+                        -36.9307359096
+                    ],
+                    [
+                        174.7508196767,
+                        -36.9314093194
+                    ]
+                ]
+            },
+            "properties": {
+                "name": {
+                    "label": "l472486",
+                    "hasPart": []
+                },
+                "purpose": "nz-surveypoint-purpose:non-bdy",
+                "fromSurvey": "DP_119552",
+                "ptQualityMeasure": 6,
+                "comment": null,
+                "monumentedBy": {
+                    "form": "nz-monument-form:bp",
+                    "condition": "nz-monument-condition:mkfd",
+                    "state": "nz-monument-state:old"
+                },
+                "distance": null,
+                "azimuth": null,
+                "ptQuality": null
+            }
+        },
+        {
+            "id": "l973158",
+            "type": "Feature",
+            "featureType": "sosa:ObservationCollection",
+            "geometry": {
+                "type": "LineString",
+                "featureType": "observation",
+                "coordinates": [
+                    [
+                        -36.9307359096,
+                        174.7501603083
+                    ],
+                    [
+                        -36.930903937,
+                        174.749997996
+                    ]
+                ]
+            },
+            "place": {
+                "type": "LineString",
+                "featureType": "observation",
+                "coordinates": [
+                    [
+                        174.7501603083,
+                        -36.9307359096
+                    ],
+                    [
+                        174.749997996,
+                        -36.930903937
+                    ]
+                ]
+            },
+            "properties": {
+                "name": {
+                    "label": "l973158",
+                    "hasPart": []
+                },
+                "purpose": "nz-surveypoint-purpose:bndy",
+                "fromSurvey": "DP_119552",
+                "comment": null,
+                "occupation": {
+                    "comment": "No occupation"
+                },
+                "monumentedBy": {
+                    "form": "nz-monument-form:bp",
+                    "condition": "nz-monument-condition:mkfd",
+                    "state": "nz-monument-state:old"
+                },
+                "distance": null,
+                "azimuth": null,
+                "ptQuality": null
+            }
+        },
+        {
+            "id": "l910380",
+            "type": "Feature",
+            "featureType": "sosa:ObservationCollection",
+            "geometry": {
+                "type": "LineString",
+                "featureType": "observation",
+                "coordinates": [
+                    [
+                        -36.9307359096,
+                        174.7501603083
+                    ],
+                    [
+                        -36.9303670583,
+                        174.7503985651
+                    ]
+                ]
+            },
+            "place": {
+                "type": "LineString",
+                "featureType": "observation",
+                "coordinates": [
+                    [
+                        174.7501603083,
+                        -36.9307359096
+                    ],
+                    [
+                        174.7503985651,
+                        -36.9303670583
+                    ]
+                ]
+            },
+            "properties": {
+                "name": {
+                    "label": "l472486",
+                    "hasPart": []
+                },
+                "purpose": "nz-surveypoint-purpose:non-bdy",
+                "fromSurvey": "DP_119552",
+                "ptQualityMeasure": 6,
+                "comment": null,
+                "monumentedBy": {
+                    "form": "nz-monument-form:bp",
+                    "condition": "nz-monument-condition:mkfd",
+                    "state": "nz-monument-state:old"
+                },
+                "distance": null,
+                "azimuth": null,
+                "ptQuality": null
+            }
+        },
+        {
+            "id": "l472486",
+            "type": "Feature",
+            "featureType": "sosa:ObservationCollection",
+            "geometry": {
+                "type": "LineString",
+                "featureType": "observation",
+                "coordinates": [
+                    [
+                        -36.9307359096,
+                        174.7501603083
+                    ],
+                    [
+                        -36.9309699441,
+                        174.75043155
+                    ]
+                ]
+            },
+            "place": {
+                "type": "LineString",
+                "featureType": "observation",
+                "coordinates": [
+                    [
+                        174.7501603083,
+                        -36.9307359096
+                    ],
+                    [
+                        174.75043155,
+                        -36.9309699441
+                    ]
+                ]
+            },
+            "properties": {
+                "name": {
+                    "label": "l472486",
+                    "hasPart": []
+                },
+                "purpose": "nz-surveypoint-purpose:non-bdy",
+                "fromSurvey": "DP_119552",
+                "ptQualityMeasure": 6,
+                "comment": null,
+                "monumentedBy": {
+                    "form": "nz-monument-form:bp",
+                    "condition": "nz-monument-condition:mkfd",
+                    "state": "nz-monument-state:old"
+                },
+                "distance": null,
+                "azimuth": null,
+                "ptQuality": null
+            }
+        },
+        {
+            "id": "l922788",
+            "type": "Feature",
+            "featureType": "sosa:ObservationCollection",
+            "geometry": {
+                "type": "LineString",
+                "featureType": "observation",
+                "coordinates": [
+                    [
+                        -36.9309699441,
+                        174.75043155
+                    ],
+                    [
+                        -36.9309318616,
+                        174.7502384493
+                    ]
+                ]
+            },
+            "place": {
+                "type": "LineString",
+                "featureType": "observation",
+                "coordinates": [
+                    [
+                        174.75043155,
+                        -36.9309699441
+                    ],
+                    [
+                        174.7502384493,
+                        -36.9309318616
+                    ]
+                ]
+            },
+            "properties": {
+                "name": {
+                    "label": "l599462",
+                    "hasPart": []
+                },
+                "purpose": "nz-surveypoint-purpose:prm",
+                "fromSurvey": "DP_572532",
+                "ptQualityMeasure": 6,
+                "comment": null,
+                "monumentedBy": {
+                    "form": "nz-monument-form:pin",
+                    "condition": "nz-monument-condition:relb",
+                    "state": "nz-monument-state:new"
+                },
+                "distance": null,
+                "azimuth": null,
+                "ptQuality": null
+            }
+        },
+        {
+            "id": "l773277",
+            "type": "Feature",
+            "featureType": "sosa:ObservationCollection",
+            "geometry": {
+                "type": "LineString",
+                "featureType": "observation",
+                "coordinates": [
+                    [
+                        -36.9309699441,
+                        174.75043155
+                    ],
+                    [
+                        -36.9311866966,
+                        174.7505837059
+                    ]
+                ]
+            },
+            "place": {
+                "type": "LineString",
+                "featureType": "observation",
+                "coordinates": [
+                    [
+                        174.75043155,
+                        -36.9309699441
+                    ],
+                    [
+                        174.7505837059,
+                        -36.9311866966
+                    ]
+                ]
+            },
+            "properties": {
+                "name": {
+                    "label": "l599462",
+                    "hasPart": []
+                },
+                "purpose": "nz-surveypoint-purpose:prm",
+                "fromSurvey": "DP_572532",
+                "ptQualityMeasure": 6,
+                "comment": null,
+                "monumentedBy": {
+                    "form": "nz-monument-form:pin",
+                    "condition": "nz-monument-condition:relb",
+                    "state": "nz-monument-state:new"
+                },
+                "distance": null,
+                "azimuth": null,
+                "ptQuality": null
+            }
+        },
+        {
+            "id": "l388393",
+            "type": "Feature",
+            "featureType": "sosa:ObservationCollection",
+            "geometry": {
+                "type": "LineString",
+                "featureType": "observation",
+                "coordinates": [
+                    [
+                        -36.9309699441,
+                        174.75043155
+                    ],
+                    [
+                        -36.9310291431,
+                        174.7507606923
+                    ]
+                ]
+            },
+            "place": {
+                "type": "LineString",
+                "featureType": "observation",
+                "coordinates": [
+                    [
+                        174.75043155,
+                        -36.9309699441
+                    ],
+                    [
+                        174.7507606923,
+                        -36.9310291431
+                    ]
+                ]
+            },
+            "properties": {
+                "name": {
+                    "label": "l599462",
+                    "hasPart": []
+                },
+                "purpose": "nz-surveypoint-purpose:prm",
+                "fromSurvey": "DP_572532",
+                "ptQualityMeasure": 6,
+                "comment": null,
+                "monumentedBy": {
+                    "form": "nz-monument-form:pin",
+                    "condition": "nz-monument-condition:relb",
+                    "state": "nz-monument-state:new"
+                },
+                "distance": null,
+                "azimuth": null,
+                "ptQuality": null
+            }
+        },
+        {
+            "id": "l941613",
+            "type": "Feature",
+            "featureType": "sosa:ObservationCollection",
+            "geometry": {
+                "type": "LineString",
+                "featureType": "observation",
+                "coordinates": [
+                    [
+                        -36.9309699441,
+                        174.75043155
+                    ],
+                    [
+                        -36.9311839118,
+                        174.7509672626
+                    ]
+                ]
+            },
+            "place": {
+                "type": "LineString",
+                "featureType": "observation",
+                "coordinates": [
+                    [
+                        174.75043155,
+                        -36.9309699441
+                    ],
+                    [
+                        174.7509672626,
+                        -36.9311839118
+                    ]
+                ]
+            },
+            "properties": {
+                "name": {
+                    "label": "l599462",
+                    "hasPart": []
+                },
+                "purpose": "nz-surveypoint-purpose:prm",
+                "fromSurvey": "DP_572532",
+                "ptQualityMeasure": 6,
+                "comment": null,
+                "monumentedBy": {
+                    "form": "nz-monument-form:pin",
+                    "condition": "nz-monument-condition:relb",
+                    "state": "nz-monument-state:new"
+                },
+                "distance": null,
+                "azimuth": null,
+                "ptQuality": null
+            }
+        },
+        {
+            "id": "l818068",
+            "type": "Feature",
+            "featureType": "sosa:ObservationCollection",
+            "geometry": {
+                "type": "LineString",
+                "featureType": "observation",
+                "coordinates": [
+                    [
+                        -36.9309699441,
+                        174.75043155
+                    ],
+                    [
+                        -36.9312023381,
+                        174.7509918818
+                    ]
+                ]
+            },
+            "place": {
+                "type": "LineString",
+                "featureType": "observation",
+                "coordinates": [
+                    [
+                        174.75043155,
+                        -36.9309699441
+                    ],
+                    [
+                        174.7509918818,
+                        -36.9312023381
+                    ]
+                ]
+            },
+            "properties": {
+                "name": {
+                    "label": "l599462",
+                    "hasPart": []
+                },
+                "purpose": "nz-surveypoint-purpose:prm",
+                "fromSurvey": "DP_572532",
+                "ptQualityMeasure": 6,
+                "comment": null,
+                "monumentedBy": {
+                    "form": "nz-monument-form:pin",
+                    "condition": "nz-monument-condition:relb",
+                    "state": "nz-monument-state:new"
+                },
+                "distance": null,
+                "azimuth": null,
+                "ptQuality": null
+            }
+        },
+        {
+            "id": "l599462",
+            "type": "Feature",
+            "featureType": "sosa:ObservationCollection",
+            "geometry": {
+                "type": "LineString",
+                "featureType": "observation",
+                "coordinates": [
+                    [
+                        -36.9309699441,
+                        174.75043155
+                    ],
+                    [
+                        -36.9310610479,
+                        174.750540074
+                    ]
+                ]
+            },
+            "place": {
+                "type": "LineString",
+                "featureType": "observation",
+                "coordinates": [
+                    [
+                        174.75043155,
+                        -36.9309699441
+                    ],
+                    [
+                        174.750540074,
+                        -36.9310610479
+                    ]
+                ]
+            },
+            "properties": {
+                "name": {
+                    "label": "l599462",
+                    "hasPart": []
+                },
+                "purpose": "nz-surveypoint-purpose:prm",
+                "fromSurvey": "DP_572532",
+                "ptQualityMeasure": 6,
+                "comment": null,
+                "monumentedBy": {
+                    "form": "nz-monument-form:pin",
+                    "condition": "nz-monument-condition:relb",
+                    "state": "nz-monument-state:new"
+                },
+                "distance": null,
+                "azimuth": null,
+                "ptQuality": null
+            }
+        },
+        {
+            "id": "l746686",
+            "type": "Feature",
+            "featureType": "sosa:ObservationCollection",
+            "geometry": {
+                "type": "LineString",
+                "featureType": "observation",
+                "coordinates": [
+                    [
+                        -36.9310392342,
+                        174.7505110058
+                    ],
+                    [
+                        -36.9309571156,
+                        174.7508909488
+                    ]
+                ]
+            },
+            "place": {
+                "type": "LineString",
+                "featureType": "observation",
+                "coordinates": [
+                    [
+                        174.7505110058,
+                        -36.9310392342
+                    ],
+                    [
+                        174.7508909488,
+                        -36.9309571156
+                    ]
+                ]
+            },
+            "properties": {
+                "name": {
+                    "label": "l746686",
+                    "hasPart": []
+                },
+                "purpose": "nz-surveypoint-purpose:bndy",
+                "fromSurvey": "DP_119553",
+                "ptQualityMeasure": 7,
+                "monumentedBy": {
+                    "form": "nz-monument-form:peg",
+                    "condition": "nz-monument-condition:empl",
+                    "state": "nz-monument-state:new"
+                },
+                "distance": null,
+                "azimuth": null,
+                "ptQuality": null,
+                "comment": null
+            }
+        },
+        {
+            "id": "l999724",
+            "type": "Feature",
+            "featureType": "sosa:ObservationCollection",
+            "geometry": {
+                "type": "LineString",
+                "featureType": "observation",
+                "coordinates": [
+                    [
+                        -36.9309571156,
+                        174.7508909488
+                    ],
+                    [
+                        -36.9308797133,
+                        174.7512489947
+                    ]
+                ]
+            },
+            "place": {
+                "type": "LineString",
+                "featureType": "observation",
+                "coordinates": [
+                    [
+                        174.7508909488,
+                        -36.9309571156
+                    ],
+                    [
+                        174.7512489947,
+                        -36.9308797133
+                    ]
+                ]
+            },
+            "properties": {
+                "name": {
+                    "label": "l580762",
+                    "hasPart": []
+                },
+                "purpose": "nz-surveypoint-purpose:bndy",
+                "fromSurvey": "DP_572532",
+                "ptQualityMeasure": 7,
+                "monumentedBy": {
+                    "form": "nz-monument-form:unmk",
+                    "condition": "nz-monument-condition:nspe",
+                    "state": "nz-monument-state:new"
+                },
+                "distance": null,
+                "azimuth": null,
+                "ptQuality": null,
+                "comment": null
+            }
+        },
+        {
+            "id": "l591175",
+            "type": "Feature",
+            "featureType": "sosa:ObservationCollection",
+            "geometry": {
+                "type": "LineString",
+                "featureType": "observation",
+                "coordinates": [
+                    [
+                        -36.9308797133,
+                        174.7512489947
+                    ],
+                    [
+                        -36.9310543825,
+                        174.7513031028
+                    ]
+                ]
+            },
+            "place": {
+                "type": "LineString",
+                "featureType": "observation",
+                "coordinates": [
+                    [
+                        174.7512489947,
+                        -36.9308797133
+                    ],
+                    [
+                        174.7513031028,
+                        -36.9310543825
+                    ]
+                ]
+            },
+            "properties": {
+                "name": {
+                    "label": "l591175",
+                    "hasPart": []
+                },
+                "purpose": "nz-surveypoint-purpose:bndy",
+                "fromSurvey": "DP_119552",
+                "ptQualityMeasure": 7,
+                "monumentedBy": {
+                    "form": "nz-monument-form:peg",
+                    "condition": "nz-monument-condition:nspe",
+                    "state": "nz-monument-state:adpt"
+                },
+                "distance": null,
+                "azimuth": null,
+                "ptQuality": null,
+                "comment": null
+            }
+        },
+        {
+            "id": "l874826",
+            "type": "Feature",
+            "featureType": "sosa:ObservationCollection",
+            "geometry": {
+                "type": "LineString",
+                "featureType": "observation",
+                "coordinates": [
+                    [
+                        -36.9311774613,
+                        174.7510988383
+                    ],
+                    [
+                        -36.9312023381,
+                        174.7509918818
+                    ]
+                ]
+            },
+            "place": {
+                "type": "LineString",
+                "featureType": "observation",
+                "coordinates": [
+                    [
+                        174.7510988383,
+                        -36.9311774613
+                    ],
+                    [
+                        174.7509918818,
+                        -36.9312023381
+                    ]
+                ]
+            },
+            "properties": {
+                "name": {
+                    "label": "l874826",
+                    "hasPart": []
+                },
+                "purpose": "nz-surveypoint-purpose:bndy",
+                "fromSurvey": "DP_572532",
+                "ptQualityMeasure": 7,
+                "monumentedBy": {
+                    "form": "nz-monument-form:unmk",
+                    "condition": "nz-monument-condition:nspe",
+                    "state": "nz-monument-state:new"
+                },
+                "distance": null,
+                "azimuth": null,
+                "ptQuality": null,
+                "comment": null
+            }
+        },
+        {
+            "id": "l369793",
+            "type": "Feature",
+            "featureType": "sosa:ObservationCollection",
+            "geometry": {
+                "type": "LineString",
+                "featureType": "observation",
+                "coordinates": [
+                    [
+                        -36.9310543825,
+                        174.7513031028
+                    ],
+                    [
+                        -36.9311247115,
+                        174.751324788
+                    ]
+                ]
+            },
+            "place": {
+                "type": "LineString",
+                "featureType": "observation",
+                "coordinates": [
+                    [
+                        174.7513031028,
+                        -36.9310543825
+                    ],
+                    [
+                        174.751324788,
+                        -36.9311247115
+                    ]
+                ]
+            },
+            "properties": {
+                "name": {
+                    "label": "l369793",
+                    "hasPart": []
+                },
+                "purpose": "nz-surveypoint-purpose:bndy",
+                "fromSurvey": "DP_119553",
+                "ptQualityMeasure": 7,
+                "monumentedBy": {
+                    "form": "nz-monument-form:peg",
+                    "condition": "nz-monument-condition:nspe",
+                    "state": "nz-monument-state:adpt"
+                },
+                "distance": null,
+                "azimuth": null,
+                "ptQuality": null,
+                "comment": null
+            }
+        },
+        {
+            "id": "l435861",
+            "type": "Feature",
+            "featureType": "sosa:ObservationCollection",
+            "geometry": {
+                "type": "LineString",
+                "featureType": "observation",
+                "coordinates": [
+                    [
+                        -36.9311247115,
+                        174.751324788
+                    ],
+                    [
+                        -36.9311774613,
+                        174.7510988383
+                    ]
+                ]
+            },
+            "place": {
+                "type": "LineString",
+                "featureType": "observation",
+                "coordinates": [
+                    [
+                        174.751324788,
+                        -36.9311247115
+                    ],
+                    [
+                        174.7510988383,
+                        -36.9311774613
+                    ]
+                ]
+            },
+            "properties": {
+                "name": {
+                    "label": "l435861",
+                    "hasPart": []
+                },
+                "purpose": "nz-surveypoint-purpose:bndy",
+                "fromSurvey": "DP_119553",
+                "ptQualityMeasure": 7,
+                "monumentedBy": {
+                    "form": "nz-monument-form:peg",
+                    "condition": "nz-monument-condition:nspe",
+                    "state": "nz-monument-state:adpt"
+                },
+                "distance": null,
+                "azimuth": null,
+                "ptQuality": null,
+                "comment": null
+            }
+        },
+        {
+            "id": "l965727",
+            "type": "Feature",
+            "featureType": "sosa:ObservationCollection",
+            "geometry": {
+                "type": "LineString",
+                "featureType": "observation",
+                "coordinates": [
+                    [
+                        -36.9312023381,
+                        174.7509918818
+                    ],
+                    [
+                        -36.9312489607,
+                        174.750791041
+                    ]
+                ]
+            },
+            "place": {
+                "type": "LineString",
+                "featureType": "observation",
+                "coordinates": [
+                    [
+                        174.7509918818,
+                        -36.9312023381
+                    ],
+                    [
+                        174.750791041,
+                        -36.9312489607
+                    ]
+                ]
+            },
+            "properties": {
+                "name": {
+                    "label": "l965727",
+                    "hasPart": []
+                },
+                "purpose": "nz-surveypoint-purpose:bndy",
+                "fromSurvey": "DP_572532",
+                "ptQualityMeasure": 7,
+                "monumentedBy": {
+                    "form": "nz-monument-form:unmk",
+                    "condition": "nz-monument-condition:impm",
+                    "state": "nz-monument-state:new"
+                },
+                "distance": null,
+                "azimuth": null,
+                "ptQuality": null,
+                "comment": null
+            }
+        },
+        {
+            "id": "l535242",
+            "type": "Feature",
+            "featureType": "sosa:ObservationCollection",
+            "geometry": {
+                "type": "LineString",
+                "featureType": "observation",
+                "coordinates": [
+                    [
+                        -36.9310610479,
+                        174.750540074
+                    ],
+                    [
+                        -36.9310215435,
+                        174.7507225544
+                    ]
+                ]
+            },
+            "place": {
+                "type": "LineString",
+                "featureType": "observation",
+                "coordinates": [
+                    [
+                        174.750540074,
+                        -36.9310610479
+                    ],
+                    [
+                        174.7507225544,
+                        -36.9310215435
+                    ]
+                ]
+            },
+            "properties": {
+                "name": {
+                    "label": "l535242",
+                    "hasPart": []
+                },
+                "purpose": "nz-surveypoint-purpose:bndy",
+                "fromSurvey": "DP_572532",
+                "ptQualityMeasure": 7,
+                "monumentedBy": {
+                    "form": "nz-monument-form:peg",
+                    "condition": "nz-monument-condition:relb",
+                    "state": "nz-monument-state:new"
+                },
+                "distance": null,
+                "azimuth": null,
+                "ptQuality": null,
+                "comment": null
+            }
+        },
+        {
+            "id": "l535759",
+            "type": "Feature",
+            "featureType": "sosa:ObservationCollection",
+            "geometry": {
+                "type": "LineString",
+                "featureType": "observation",
+                "coordinates": [
+                    [
+                        -36.9310215435,
+                        174.7507225544
+                    ],
+                    [
+                        -36.9310291431,
+                        174.7507606923
+                    ]
+                ]
+            },
+            "place": {
+                "type": "LineString",
+                "featureType": "observation",
+                "coordinates": [
+                    [
+                        174.7507225544,
+                        -36.9310215435
+                    ],
+                    [
+                        174.7507606923,
+                        -36.9310291431
+                    ]
+                ]
+            },
+            "properties": {
+                "name": {
+                    "label": "l535759",
+                    "hasPart": []
+                },
+                "purpose": "nz-surveypoint-purpose:bndy",
+                "fromSurvey": "DP_572532",
+                "ptQualityMeasure": 7,
+                "monumentedBy": {
+                    "form": "nz-monument-form:peg",
+                    "condition": "nz-monument-condition:relb",
+                    "state": "nz-monument-state:new"
+                },
+                "distance": null,
+                "azimuth": null,
+                "ptQuality": null,
+                "comment": null
+            }
+        },
+        {
+            "id": "l985190",
+            "type": "Feature",
+            "featureType": "sosa:ObservationCollection",
+            "geometry": {
+                "type": "LineString",
+                "featureType": "observation",
+                "coordinates": [
+                    [
+                        -36.9310291431,
+                        174.7507606923
+                    ],
+                    [
+                        -36.9311839118,
+                        174.7509672626
+                    ]
+                ]
+            },
+            "place": {
+                "type": "LineString",
+                "featureType": "observation",
+                "coordinates": [
+                    [
+                        174.7507606923,
+                        -36.9310291431
+                    ],
+                    [
+                        174.7509672626,
+                        -36.9311839118
+                    ]
+                ]
+            },
+            "properties": {
+                "name": {
+                    "label": "l985190",
+                    "hasPart": []
+                },
+                "purpose": "nz-surveypoint-purpose:bndy",
+                "fromSurvey": "DP_572532",
+                "ptQualityMeasure": 7,
+                "monumentedBy": {
+                    "form": "nz-monument-form:peg",
+                    "condition": "nz-monument-condition:relb",
+                    "state": "nz-monument-state:new"
+                },
+                "distance": null,
+                "azimuth": null,
+                "ptQuality": null,
+                "comment": null
+            }
+        },
+        {
+            "id": "l952702",
+            "type": "Feature",
+            "featureType": "sosa:ObservationCollection",
+            "geometry": {
+                "type": "LineString",
+                "featureType": "observation",
+                "coordinates": [
+                    [
+                        -36.9311839118,
+                        174.7509672626
+                    ],
+                    [
+                        -36.9312023381,
+                        174.7509918818
+                    ]
+                ]
+            },
+            "place": {
+                "type": "LineString",
+                "featureType": "observation",
+                "coordinates": [
+                    [
+                        174.7509672626,
+                        -36.9311839118
+                    ],
+                    [
+                        174.7509918818,
+                        -36.9312023381
+                    ]
+                ]
+            },
+            "properties": {
+                "name": {
+                    "label": "l952702",
+                    "hasPart": []
+                },
+                "purpose": "nz-surveypoint-purpose:bndy",
+                "fromSurvey": "DP_572532",
+                "ptQualityMeasure": 7,
+                "monumentedBy": {
+                    "form": "nz-monument-form:peg",
+                    "condition": "nz-monument-condition:relb",
+                    "state": "nz-monument-state:new"
+                },
+                "distance": null,
+                "azimuth": null,
+                "ptQuality": null,
+                "comment": null
+            }
+        },
+        {
+            "id": "l580762",
+            "type": "Feature",
+            "featureType": "sosa:ObservationCollection",
+            "geometry": {
+                "type": "LineString",
+                "featureType": "observation",
+                "coordinates": [
+                    [
+                        -36.9309571156,
+                        174.7508909488
+                    ],
+                    [
+                        -36.9309904554,
+                        174.7509396099
+                    ]
+                ]
+            },
+            "place": {
+                "type": "LineString",
+                "featureType": "observation",
+                "coordinates": [
+                    [
+                        174.7508909488,
+                        -36.9309571156
+                    ],
+                    [
+                        174.7509396099,
+                        -36.9309904554
+                    ]
+                ]
+            },
+            "properties": {
+                "name": {
+                    "label": "l580762",
+                    "hasPart": []
+                },
+                "purpose": "nz-surveypoint-purpose:bndy",
+                "fromSurvey": "DP_572532",
+                "ptQualityMeasure": 7,
+                "monumentedBy": {
+                    "form": "nz-monument-form:unmk",
+                    "condition": "nz-monument-condition:nspe",
+                    "state": "nz-monument-state:new"
+                },
+                "distance": null,
+                "azimuth": null,
+                "ptQuality": null,
+                "comment": null
+            }
+        },
+        {
+            "id": "l761760",
+            "type": "Feature",
+            "featureType": "sosa:ObservationCollection",
+            "geometry": {
+                "type": "LineString",
+                "featureType": "observation",
+                "coordinates": [
+                    [
+                        -36.9309904554,
+                        174.7509396099
+                    ],
+                    [
+                        -36.9309870924,
+                        174.7509925285
+                    ]
+                ]
+            },
+            "place": {
+                "type": "LineString",
+                "featureType": "observation",
+                "coordinates": [
+                    [
+                        174.7509396099,
+                        -36.9309904554
+                    ],
+                    [
+                        174.7509925285,
+                        -36.9309870924
+                    ]
+                ]
+            },
+            "properties": {
+                "name": {
+                    "label": "l761760",
+                    "hasPart": []
+                },
+                "purpose": "nz-surveypoint-purpose:bndy",
+                "fromSurvey": "DP_572532",
+                "ptQualityMeasure": 8,
+                "monumentedBy": {
+                    "form": "nz-monument-form:unmk",
+                    "condition": "nz-monument-condition:nspe",
+                    "state": "nz-monument-state:new"
+                },
+                "distance": null,
+                "azimuth": null,
+                "ptQuality": null,
+                "comment": null
+            }
+        },
+        {
+            "id": "l951515",
+            "type": "Feature",
+            "featureType": "sosa:ObservationCollection",
+            "geometry": {
+                "type": "LineString",
+                "featureType": "observation",
+                "coordinates": [
+                    [
+                        -36.9309870924,
+                        174.7509925285
+                    ],
+                    [
+                        -36.9310015962,
+                        174.751010805
+                    ]
+                ]
+            },
+            "place": {
+                "type": "LineString",
+                "featureType": "observation",
+                "coordinates": [
+                    [
+                        174.7509925285,
+                        -36.9309870924
+                    ],
+                    [
+                        174.751010805,
+                        -36.9310015962
+                    ]
+                ]
+            },
+            "properties": {
+                "name": {
+                    "label": "l951515",
+                    "hasPart": []
+                },
+                "purpose": "nz-surveypoint-purpose:bndy",
+                "fromSurvey": "DP_572532",
+                "ptQualityMeasure": 8,
+                "monumentedBy": {
+                    "form": "nz-monument-form:unmk",
+                    "condition": "nz-monument-condition:nspe",
+                    "state": "nz-monument-state:new"
+                },
+                "distance": null,
+                "azimuth": null,
+                "ptQuality": null,
+                "comment": null
+            }
+        },
+        {
+            "id": "l949729",
+            "type": "Feature",
+            "featureType": "sosa:ObservationCollection",
+            "geometry": {
+                "type": "LineString",
+                "featureType": "observation",
+                "coordinates": [
+                    [
+                        -36.9310015962,
+                        174.751010805
+                    ],
+                    [
+                        -36.9310253792,
+                        174.7510101475
+                    ]
+                ]
+            },
+            "place": {
+                "type": "LineString",
+                "featureType": "observation",
+                "coordinates": [
+                    [
+                        174.751010805,
+                        -36.9310015962
+                    ],
+                    [
+                        174.7510101475,
+                        -36.9310253792
+                    ]
+                ]
+            },
+            "properties": {
+                "name": {
+                    "label": "l949729",
+                    "hasPart": []
+                },
+                "purpose": "nz-surveypoint-purpose:bndy",
+                "fromSurvey": "DP_572532",
+                "ptQualityMeasure": 8,
+                "monumentedBy": {
+                    "form": "nz-monument-form:unmk",
+                    "condition": "nz-monument-condition:nspe",
+                    "state": "nz-monument-state:new"
+                },
+                "distance": null,
+                "azimuth": null,
+                "ptQuality": null,
+                "comment": null
+            }
+        },
+        {
+            "id": "l852048",
+            "type": "Feature",
+            "featureType": "sosa:ObservationCollection",
+            "geometry": {
+                "type": "LineString",
+                "featureType": "observation",
+                "coordinates": [
+                    [
+                        -36.9310253792,
+                        174.7510101475
+                    ],
+                    [
+                        -36.9310510313,
+                        174.750980056
+                    ]
+                ]
+            },
+            "place": {
+                "type": "LineString",
+                "featureType": "observation",
+                "coordinates": [
+                    [
+                        174.7510101475,
+                        -36.9310253792
+                    ],
+                    [
+                        174.750980056,
+                        -36.9310510313
+                    ]
+                ]
+            },
+            "properties": {
+                "name": {
+                    "label": "l852048",
+                    "hasPart": []
+                },
+                "purpose": "nz-surveypoint-purpose:bndy",
+                "fromSurvey": "DP_572532",
+                "ptQualityMeasure": 8,
+                "monumentedBy": {
+                    "form": "nz-monument-form:unmk",
+                    "condition": "nz-monument-condition:nspe",
+                    "state": "nz-monument-state:new"
+                },
+                "distance": null,
+                "azimuth": null,
+                "ptQuality": null,
+                "comment": null
+            }
+        },
+        {
+            "id": "l641327",
+            "type": "Feature",
+            "featureType": "sosa:ObservationCollection",
+            "geometry": {
+                "type": "LineString",
+                "featureType": "observation",
+                "coordinates": [
+                    [
+                        -36.9310510313,
+                        174.750980056
+                    ],
+                    [
+                        -36.9310656315,
+                        174.7509573691
+                    ]
+                ]
+            },
+            "place": {
+                "type": "LineString",
+                "featureType": "observation",
+                "coordinates": [
+                    [
+                        174.750980056,
+                        -36.9310510313
+                    ],
+                    [
+                        174.7509573691,
+                        -36.9310656315
+                    ]
+                ]
+            },
+            "properties": {
+                "name": {
+                    "label": "l641327",
+                    "hasPart": []
+                },
+                "purpose": "nz-surveypoint-purpose:bndy",
+                "fromSurvey": "DP_572532",
+                "ptQualityMeasure": 8,
+                "monumentedBy": {
+                    "form": "nz-monument-form:unmk",
+                    "condition": "nz-monument-condition:nspe",
+                    "state": "nz-monument-state:new"
+                },
+                "distance": null,
+                "azimuth": null,
+                "ptQuality": null,
+                "comment": null
+            }
+        },
+        {
+            "id": "l715872",
+            "type": "Feature",
+            "featureType": "sosa:ObservationCollection",
+            "geometry": {
+                "type": "LineString",
+                "featureType": "observation",
+                "coordinates": [
+                    [
+                        -36.9310656315,
+                        174.7509573691
+                    ],
+                    [
+                        -36.9310856987,
+                        174.7509509094
+                    ]
+                ]
+            },
+            "place": {
+                "type": "LineString",
+                "featureType": "observation",
+                "coordinates": [
+                    [
+                        174.7509573691,
+                        -36.9310656315
+                    ],
+                    [
+                        174.7509509094,
+                        -36.9310856987
+                    ]
+                ]
+            },
+            "properties": {
+                "name": {
+                    "label": "l715872",
+                    "hasPart": []
+                },
+                "purpose": "nz-surveypoint-purpose:bndy",
+                "fromSurvey": "DP_572532",
+                "ptQualityMeasure": 8,
+                "monumentedBy": {
+                    "form": "nz-monument-form:unmk",
+                    "condition": "nz-monument-condition:nspe",
+                    "state": "nz-monument-state:new"
+                },
+                "distance": null,
+                "azimuth": null,
+                "ptQuality": null,
+                "comment": null
+            }
+        },
+        {
+            "id": "l832940",
+            "type": "Feature",
+            "featureType": "sosa:ObservationCollection",
+            "geometry": {
+                "type": "LineString",
+                "featureType": "observation",
+                "coordinates": [
+                    [
+                        -36.9310856987,
+                        174.7509509094
+                    ],
+                    [
+                        -36.9311076188,
+                        174.7509568685
+                    ]
+                ]
+            },
+            "place": {
+                "type": "LineString",
+                "featureType": "observation",
+                "coordinates": [
+                    [
+                        174.7509509094,
+                        -36.9310856987
+                    ],
+                    [
+                        174.7509568685,
+                        -36.9311076188
+                    ]
+                ]
+            },
+            "properties": {
+                "name": {
+                    "label": "l832940",
+                    "hasPart": []
+                },
+                "purpose": "nz-surveypoint-purpose:bndy",
+                "fromSurvey": "DP_572532",
+                "ptQualityMeasure": 8,
+                "monumentedBy": {
+                    "form": "nz-monument-form:unmk",
+                    "condition": "nz-monument-condition:nspe",
+                    "state": "nz-monument-state:new"
+                },
+                "distance": null,
+                "azimuth": null,
+                "ptQuality": null,
+                "comment": null
+            }
+        },
+        {
+            "id": "l685716",
+            "type": "Feature",
+            "featureType": "sosa:ObservationCollection",
+            "geometry": {
+                "type": "LineString",
+                "featureType": "observation",
+                "coordinates": [
+                    [
+                        -36.9311076188,
+                        174.7509568685
+                    ],
+                    [
+                        -36.9311710421,
+                        174.7510438631
+                    ]
+                ]
+            },
+            "place": {
+                "type": "LineString",
+                "featureType": "observation",
+                "coordinates": [
+                    [
+                        174.7509568685,
+                        -36.9311076188
+                    ],
+                    [
+                        174.7510438631,
+                        -36.9311710421
+                    ]
+                ]
+            },
+            "properties": {
+                "name": {
+                    "label": "l685716",
+                    "hasPart": []
+                },
+                "purpose": "nz-surveypoint-purpose:bndy",
+                "fromSurvey": "DP_572532",
+                "ptQualityMeasure": 8,
+                "monumentedBy": {
+                    "form": "nz-monument-form:unmk",
+                    "condition": "nz-monument-condition:nspe",
+                    "state": "nz-monument-state:new"
+                },
+                "distance": null,
+                "azimuth": null,
+                "ptQuality": null,
+                "comment": null
+            }
+        },
+        {
+            "id": "l345344",
+            "type": "Feature",
+            "featureType": "sosa:ObservationCollection",
+            "geometry": {
+                "type": "LineString",
+                "featureType": "observation",
+                "coordinates": [
+                    [
+                        -36.9311710421,
+                        174.7510438631
+                    ],
+                    [
+                        -36.9311774613,
+                        174.7510988383
+                    ]
+                ]
+            },
+            "place": {
+                "type": "LineString",
+                "featureType": "observation",
+                "coordinates": [
+                    [
+                        174.7510438631,
+                        -36.9311710421
+                    ],
+                    [
+                        174.7510988383,
+                        -36.9311774613
+                    ]
+                ]
+            },
+            "properties": {
+                "name": {
+                    "label": "l345344",
+                    "hasPart": []
+                },
+                "purpose": "nz-surveypoint-purpose:bndy",
+                "fromSurvey": "DP_572532",
+                "ptQualityMeasure": 8,
+                "monumentedBy": {
+                    "form": "nz-monument-form:unmk",
+                    "condition": "nz-monument-condition:nspe",
+                    "state": "nz-monument-state:new"
+                },
+                "distance": null,
+                "azimuth": null,
+                "ptQuality": null,
+                "comment": null
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 140065907938000,
+            "featureType": "parcel",
+            "links": [],
+            "time": "",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -36.9310610479,
+                            174.750540074
+                        ],
+                        [
+                            -36.9310215435,
+                            174.7507225544
+                        ],
+                        [
+                            -36.9310291431,
+                            174.7507606923
+                        ],
+                        [
+                            -36.9311839118,
+                            174.7509672626
+                        ],
+                        [
+                            -36.9312023381,
+                            174.7509918818
+                        ],
+                        [
+                            -36.9312489607,
+                            174.750791041
+                        ]
+                    ]
+                ]
+            },
+            "place": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            174.750540074,
+                            -36.9310610479
+                        ],
+                        [
+                            174.7507225544,
+                            -36.9310215435
+                        ],
+                        [
+                            174.7507606923,
+                            -36.9310291431
+                        ],
+                        [
+                            174.7509672626,
+                            -36.9311839118
+                        ],
+                        [
+                            174.7509918818,
+                            -36.9312023381
+                        ],
+                        [
+                            174.750791041,
+                            -36.9312489607
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "appellation": {
+                    "label": "Lot 1 DP 572532",
+                    "hasPart": [
+                        {
+                            "type": "PlanType",
+                            "label": "DP"
+                        },
+                        {
+                            "type": "Source",
+                            "label": "572532"
+                        },
+                        {
+                            "type": "ParcelType",
+                            "label": "Lot"
+                        },
+                        {
+                            "type": "Stamp",
+                            "label": "1"
+                        }
+                    ]
+                },
+                "area": 484.0,
+                "parcelType": "nz-parcel-type:l",
+                "parcelPurpose": "nz-parcel-purpose:fst",
+                "parcelState": "nz-parcel-state:c",
+                "class": "allotment",
+                "interests": [
+                    {
+                        "interestLink": "1040074",
+                        "interestType": "nz-interest-type:c-t"
+                    },
+                    {
+                        "interestLink": "20230310113221a",
+                        "dateInForce": "2023-03-10T11:32:21Z",
+                        "interestType": "nz-interest-type:a",
+                        "referencedParcel": "5146568",
+                        "desc": "Lot 1 shall hold a one twelfth share of Lot 29 DP 119553 (Legal Lot Access) and that an individual Record of Title be issued in accordance therewith."
+                    }
+                ],
+                "label": null
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 140065907938256,
+            "featureType": "parcel",
+            "links": [],
+            "time": "",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -36.9310392342,
+                            174.7505110058
+                        ],
+                        [
+                            -36.9309571156,
+                            174.7508909488
+                        ],
+                        [
+                            -36.9308797133,
+                            174.7512489947
+                        ],
+                        [
+                            -36.9310543825,
+                            174.7513031028
+                        ],
+                        [
+                            -36.9311247115,
+                            174.751324788
+                        ],
+                        [
+                            -36.9311774613,
+                            174.7510988383
+                        ],
+                        [
+                            -36.9312023381,
+                            174.7509918818
+                        ],
+                        [
+                            -36.9311839118,
+                            174.7509672626
+                        ],
+                        [
+                            -36.9310291431,
+                            174.7507606923
+                        ],
+                        [
+                            -36.9310215435,
+                            174.7507225544
+                        ],
+                        [
+                            -36.9310610479,
+                            174.750540074
+                        ]
+                    ]
+                ]
+            },
+            "place": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            174.7505110058,
+                            -36.9310392342
+                        ],
+                        [
+                            174.7508909488,
+                            -36.9309571156
+                        ],
+                        [
+                            174.7512489947,
+                            -36.9308797133
+                        ],
+                        [
+                            174.7513031028,
+                            -36.9310543825
+                        ],
+                        [
+                            174.751324788,
+                            -36.9311247115
+                        ],
+                        [
+                            174.7510988383,
+                            -36.9311774613
+                        ],
+                        [
+                            174.7509918818,
+                            -36.9312023381
+                        ],
+                        [
+                            174.7509672626,
+                            -36.9311839118
+                        ],
+                        [
+                            174.7507606923,
+                            -36.9310291431
+                        ],
+                        [
+                            174.7507225544,
+                            -36.9310215435
+                        ],
+                        [
+                            174.750540074,
+                            -36.9310610479
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "appellation": {
+                    "label": "Lot 2 DP 572532",
+                    "hasPart": [
+                        {
+                            "type": "PlanType",
+                            "label": "DP"
+                        },
+                        {
+                            "type": "Source",
+                            "label": "572532"
+                        },
+                        {
+                            "type": "ParcelType",
+                            "label": "Lot"
+                        },
+                        {
+                            "type": "Stamp",
+                            "label": "2"
+                        }
+                    ]
+                },
+                "area": 1196.0,
+                "parcelType": "nz-parcel-type:l",
+                "parcelPurpose": "nz-parcel-purpose:fst",
+                "parcelState": "nz-parcel-state:",
+                "class": "allotment",
+                "interests": [
+                    {
+                        "interestLink": "1040075",
+                        "interestType": "nz-interest-type:c-t"
+                    },
+                    {
+                        "interestLink": "20230310113221b",
+                        "dateInForce": "2023-03-10T11:32:21Z",
+                        "interestType": "nz-interest-type:a",
+                        "referencedParcel": "5146568",
+                        "desc": "Lot 2 shall hold a one twelfth share of Lot 29 DP 119553 (Legal Lot Access) and that an individual Record of Title be issued in accordance therewith."
+                    },
+                    {
+                        "interestLink": "20230310113416cc",
+                        "dateInForce": "2023-03-10T11:34:16Z",
+                        "interestType": "nz-interest-type:c",
+                        "referencedParcel": "8446456",
+                        "desc": "Lot 2 DP 572532 is subject to a Significant Ecological Area shown as the area marked Z."
+                    }
+                ],
+                "label": null
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 140065907938512,
+            "featureType": "parcel",
+            "links": [],
+            "time": "",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -36.9309571156,
+                            174.7508909488
+                        ],
+                        [
+                            -36.9308797133,
+                            174.7512489947
+                        ],
+                        [
+                            -36.9310543825,
+                            174.7513031028
+                        ],
+                        [
+                            -36.9311247115,
+                            174.751324788
+                        ],
+                        [
+                            -36.9311774613,
+                            174.7510988383
+                        ],
+                        [
+                            -36.9311710421,
+                            174.7510438631
+                        ],
+                        [
+                            -36.9311076188,
+                            174.7509568685
+                        ],
+                        [
+                            -36.9310856987,
+                            174.7509509094
+                        ],
+                        [
+                            -36.9310656315,
+                            174.7509573691
+                        ],
+                        [
+                            -36.9310510313,
+                            174.750980056
+                        ],
+                        [
+                            -36.9310253792,
+                            174.7510101475
+                        ],
+                        [
+                            -36.9310015962,
+                            174.751010805
+                        ],
+                        [
+                            -36.9309870924,
+                            174.7509925285
+                        ],
+                        [
+                            -36.9309904554,
+                            174.7509396099
+                        ],
+                        [
+                            -36.9309571156,
+                            174.7508909488
+                        ]
+                    ]
+                ]
+            },
+            "place": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            174.7508909488,
+                            -36.9309571156
+                        ],
+                        [
+                            174.7512489947,
+                            -36.9308797133
+                        ],
+                        [
+                            174.7513031028,
+                            -36.9310543825
+                        ],
+                        [
+                            174.751324788,
+                            -36.9311247115
+                        ],
+                        [
+                            174.7510988383,
+                            -36.9311774613
+                        ],
+                        [
+                            174.7510438631,
+                            -36.9311710421
+                        ],
+                        [
+                            174.7509568685,
+                            -36.9311076188
+                        ],
+                        [
+                            174.7509509094,
+                            -36.9310856987
+                        ],
+                        [
+                            174.7509573691,
+                            -36.9310656315
+                        ],
+                        [
+                            174.750980056,
+                            -36.9310510313
+                        ],
+                        [
+                            174.7510101475,
+                            -36.9310253792
+                        ],
+                        [
+                            174.751010805,
+                            -36.9310015962
+                        ],
+                        [
+                            174.7509925285,
+                            -36.9309870924
+                        ],
+                        [
+                            174.7509396099,
+                            -36.9309904554
+                        ],
+                        [
+                            174.7508909488,
+                            -36.9309571156
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "appellation": {
+                    "label": "Area Z DP 572532",
+                    "hasPart": [
+                        {
+                            "type": "PlanType",
+                            "label": "DP"
+                        },
+                        {
+                            "type": "planIdentifier",
+                            "label": "572532"
+                        },
+                        {
+                            "type": "ParcelType",
+                            "label": "Area"
+                        },
+                        {
+                            "type": "ParcelNumber",
+                            "label": "Z"
+                        }
+                    ]
+                },
+                "area": 998.0,
+                "parcelType": "nz-secondary-parcel-type:a",
+                "parcelPurpose": "nz-secondary-parcel-purpose:c-l",
+                "parcelState": "nz-parcel-state:c",
+                "class": "allotment",
+                "interests": [
+                    {
+                        "label": "Z",
+                        "interestLink": "123-456-789",
+                        "interestType": "nz-interest-type:ta-c-c",
+                        "statuteName": "Section 6(c) of the Resource Management Act 1991, New Zealand",
+                        "burdenedParcels": [
+                            "8446455"
+                        ],
+                        "benefited": {
+                            "references": [
+                                {
+                                    "adminUnit": {
+                                        "href": "nz-territorial-authority:076",
+                                        "rel": "related",
+                                        "role": "icsm-admin-unit-type:territorialAuthority"
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                ],
+                "label": null
+            }
+        }
+    ]
+}

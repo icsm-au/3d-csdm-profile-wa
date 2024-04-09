@@ -1,0 +1,1 @@
+docker run --rm --workdir /workspace -v "$(pwd):/workspace" --pull=always ghcr.io/opengeospatial/bblocks-postprocess   --clean true --base-url https://linked.data.gov.au/def/csdm/profiles/ --generated-docs-path build-local/generateddocs --annotated-path build-local/annotated --register-file build-local/register.json --test-outputs build-local/tests

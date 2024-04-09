@@ -1,0 +1,2844 @@
+{
+    "$schema": "schema.json",
+    "type": "FeatureCollection",
+    "horizontalCRS": "epsg:7855",
+    "id": null,
+    "name": "PS 914576 X",
+    "purpose": "vic-survey-purpose:22-subdivision",
+    "referencedCSDs": [
+        {
+            "id": "PS904234K",
+            "name": "PS 904234 K",
+            "adminUnit": {
+                "href": "vic-parish:2478",
+                "rel": "related",
+                "role": "icsm-admin-unit-type:parish"
+            },
+            "bearingRotation": 0.0,
+            "time": "2020-11-27 00:00:00"
+        },
+        {
+            "id": "PS903783E",
+            "name": "PS 903783 E",
+            "adminUnit": {
+                "href": "vic-parish:2478",
+                "rel": "related",
+                "role": "icsm-admin-unit-type:parish"
+            },
+            "bearingRotation": 0.0,
+            "time": "2020-11-27 00:00:00"
+        },
+        {
+            "id": "PS444239L",
+            "name": "PS 444239 L",
+            "adminUnit": {
+                "href": "vic-parish:2478",
+                "rel": "related",
+                "role": "icsm-admin-unit-type:parish"
+            },
+            "bearingRotation": 0.0,
+            "time": "2020-11-27 00:00:00"
+        },
+        {
+            "id": "LP59092",
+            "name": "LP 59092",
+            "adminUnit": {
+                "href": "vic-parish:2478",
+                "rel": "related",
+                "role": "icsm-admin-unit-type:parish"
+            },
+            "bearingRotation": -7.05,
+            "time": "2020-11-27 00:00:00"
+        }
+    ],
+    "links": [],
+    "provenance": {},
+    "features": [
+        {
+            "id": "CGPNT-7",
+            "type": "Feature",
+            "featureType": "SurveyPoint",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.86740832259525,
+                    -37.784780041495964
+                ]
+            },
+            "place": {
+                "type": "Point",
+                "coordinates": [
+                    312207.36435,
+                    5815921.77352
+                ]
+            },
+            "properties": {
+                "name": {
+                    "label": "Peg CGPNT-7",
+                    "hasPart": [
+                        {
+                            "type": "MarkType",
+                            "label": "Peg"
+                        },
+                        {
+                            "type": "MarkIdentifier",
+                            "label": "CGPNT-7"
+                        }
+                    ]
+                },
+                "purpose": "vic-surveypoint-purpose:boundary",
+                "fromSurvey": "LP59092",
+                "comment": null,
+                "monumentedBy": {
+                    "form": "vic-monument-form:peg",
+                    "condition": "vic-monument-condition:unknown",
+                    "state": "vic-monument-state:existing"
+                }
+            }
+        },
+        {
+            "id": "CGPNT-8",
+            "type": "Feature",
+            "featureType": "SurveyPoint",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.86724641533917,
+                    -37.784664212109405
+                ]
+            },
+            "place": {
+                "type": "Point",
+                "coordinates": [
+                    312192.81212,
+                    5815934.30146
+                ]
+            },
+            "properties": {
+                "name": {
+                    "label": "Peg CGPNT-8",
+                    "hasPart": [
+                        {
+                            "type": "MarkType",
+                            "label": "Peg"
+                        },
+                        {
+                            "type": "MarkIdentifier",
+                            "label": "CGPNT-8"
+                        }
+                    ]
+                },
+                "purpose": "vic-surveypoint-purpose:boundary",
+                "fromSurvey": "LP59092",
+                "comment": "0.05m from fence",
+                "monumentedBy": {
+                    "form": "vic-monument-form:peg",
+                    "condition": "vic-monument-condition:not-found",
+                    "state": "vic-monument-state:existing"
+                }
+            }
+        },
+        {
+            "id": "CGPNT-9",
+            "type": "Feature",
+            "featureType": "SurveyPoint",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.8674652238559,
+                    -37.78445102498928
+                ]
+            },
+            "place": {
+                "type": "Point",
+                "coordinates": [
+                    312211.54259,
+                    5815958.39794
+                ]
+            },
+            "properties": {
+                "name": {
+                    "label": "Peg CGPNT-9",
+                    "hasPart": [
+                        {
+                            "type": "MarkType",
+                            "label": "Peg"
+                        },
+                        {
+                            "type": "MarkIdentifier",
+                            "label": "CGPNT-9"
+                        }
+                    ]
+                },
+                "purpose": "vic-surveypoint-purpose:boundary",
+                "fromSurvey": "LP59092",
+                "comment": "0.06m NE of PALS (10+)",
+                "monumentedBy": {
+                    "form": "vic-monument-form:nm",
+                    "condition": "vic-monument-condition:unknown",
+                    "state": "vic-monument-state:existing"
+                }
+            }
+        },
+        {
+            "id": "CGPNT-10",
+            "type": "Feature",
+            "featureType": "SurveyPoint",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.8676322996881,
+                    -37.784570551870715
+                ]
+            },
+            "place": {
+                "type": "Point",
+                "coordinates": [
+                    312226.55938,
+                    5815945.47005
+                ]
+            },
+            "properties": {
+                "name": {
+                    "label": "Peg CGPNT-10",
+                    "hasPart": [
+                        {
+                            "type": "MarkType",
+                            "label": "Peg"
+                        },
+                        {
+                            "type": "MarkIdentifier",
+                            "label": "CGPNT-10"
+                        }
+                    ]
+                },
+                "purpose": "vic-surveypoint-purpose:boundary",
+                "fromSurvey": "LP59092",
+                "comment": "Impractical to mark",
+                "monumentedBy": {
+                    "form": "vic-monument-form:nm",
+                    "condition": "vic-monument-condition:unknown",
+                    "state": "vic-monument-state:existing"
+                }
+            }
+        },
+        {
+            "id": "CGPNT-13",
+            "type": "Feature",
+            "featureType": "SurveyPoint",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.86712070239213,
+                    -37.784574274238864
+                ]
+            },
+            "place": {
+                "type": "Point",
+                "coordinates": [
+                    312181.513,
+                    5815944.029
+                ]
+            },
+            "properties": {
+                "name": {
+                    "label": "Peg CGPNT-13",
+                    "hasPart": [
+                        {
+                            "type": "MarkType",
+                            "label": "Peg"
+                        },
+                        {
+                            "type": "MarkIdentifier",
+                            "label": "CGPNT-13"
+                        }
+                    ]
+                },
+                "purpose": "vic-surveypoint-purpose:boundary",
+                "fromSurvey": "PS903783E",
+                "comment": null,
+                "monumentedBy": {
+                    "form": "vic-monument-form:peg",
+                    "condition": "vic-monument-condition:ok",
+                    "state": "vic-monument-state:existing"
+                }
+            }
+        },
+        {
+            "id": "CGPNT-14",
+            "type": "Feature",
+            "featureType": "SurveyPoint",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.86751879722394,
+                    -37.784859159329024
+                ]
+            },
+            "place": {
+                "type": "Point",
+                "coordinates": [
+                    312217.294,
+                    5815913.216
+                ]
+            },
+            "properties": {
+                "name": {
+                    "label": "Peg CGPNT-14",
+                    "hasPart": [
+                        {
+                            "type": "MarkType",
+                            "label": "Peg"
+                        },
+                        {
+                            "type": "MarkIdentifier",
+                            "label": "CGPNT-14"
+                        }
+                    ]
+                },
+                "purpose": "vic-surveypoint-purpose:boundary",
+                "fromSurvey": "PS903783E",
+                "comment": null,
+                "monumentedBy": {
+                    "form": "vic-monument-form:peg",
+                    "condition": "vic-monument-condition:ok",
+                    "state": "vic-monument-state:existing"
+                }
+            }
+        },
+        {
+            "id": "CGPNT-16",
+            "type": "Feature",
+            "featureType": "SurveyPoint",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.86745208753354,
+                    -37.78446382384797
+                ]
+            },
+            "place": {
+                "type": "Point",
+                "coordinates": [
+                    312210.41809,
+                    5815956.95129
+                ]
+            },
+            "properties": {
+                "name": {
+                    "label": "Peg CGPNT-16",
+                    "hasPart": [
+                        {
+                            "type": "MarkType",
+                            "label": "Peg"
+                        },
+                        {
+                            "type": "MarkIdentifier",
+                            "label": "CGPNT-16"
+                        }
+                    ]
+                },
+                "purpose": "vic-surveypoint-purpose:boundary",
+                "fromSurvey": "LP59092",
+                "comment": null,
+                "monumentedBy": {
+                    "form": "vic-monument-form:peg",
+                    "condition": "vic-monument-condition:not-found",
+                    "state": "vic-monument-state:existing"
+                }
+            }
+        },
+        {
+            "id": "CGPNT-17",
+            "type": "Feature",
+            "featureType": "SurveyPoint",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.86761885306854,
+                    -37.78458312875981
+                ]
+            },
+            "place": {
+                "type": "Point",
+                "coordinates": [
+                    312225.40699,
+                    5815944.04741
+                ]
+            },
+            "properties": {
+                "name": {
+                    "label": "Peg CGPNT-17",
+                    "hasPart": [
+                        {
+                            "type": "MarkType",
+                            "label": "Peg"
+                        },
+                        {
+                            "type": "MarkIdentifier",
+                            "label": "CGPNT-17"
+                        }
+                    ]
+                },
+                "purpose": "vic-surveypoint-purpose:boundary",
+                "fromSurvey": "LP59092",
+                "comment": null,
+                "monumentedBy": {
+                    "form": "vic-monument-form:peg",
+                    "condition": "vic-monument-condition:unknown",
+                    "state": "vic-monument-state:existing"
+                }
+            }
+        },
+        {
+            "id": "CGPNT-19",
+            "type": "Feature",
+            "featureType": "SurveyPoint",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.86739554539048,
+                    -37.78469564762454
+                ]
+            },
+            "place": {
+                "type": "Point",
+                "coordinates": [
+                    312206.02541,
+                    5815931.11281
+                ]
+            },
+            "properties": {
+                "name": {
+                    "label": "Peg CGPNT-19",
+                    "hasPart": [
+                        {
+                            "type": "MarkType",
+                            "label": "Peg"
+                        },
+                        {
+                            "type": "MarkIdentifier",
+                            "label": "CGPNT-19"
+                        }
+                    ]
+                },
+                "purpose": "vic-surveypoint-purpose:boundary",
+                "fromSurvey": "PS914576X",
+                "comment": "At corner of block wall",
+                "monumentedBy": {
+                    "form": "vic-monument-form:peg",
+                    "condition": "vic-monument-condition:ok",
+                    "state": "vic-monument-state:new"
+                }
+            }
+        },
+        {
+            "id": "CGPNT-20",
+            "type": "Feature",
+            "featureType": "SurveyPoint",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.86740262482488,
+                    -37.784689167295326
+                ]
+            },
+            "place": {
+                "type": "Point",
+                "coordinates": [
+                    312206.63248,
+                    5815931.84614
+                ]
+            },
+            "properties": {
+                "name": {
+                    "label": "Unmk CGPNT-20",
+                    "hasPart": [
+                        {
+                            "type": "MarkType",
+                            "label": "Unmk"
+                        },
+                        {
+                            "type": "MarkIdentifier",
+                            "label": "CGPNT-20"
+                        }
+                    ]
+                },
+                "purpose": "vic-surveypoint-purpose:boundary",
+                "fromSurvey": "PS914576X",
+                "comment": null,
+                "monumentedBy": {
+                    "form": "vic-monument-form:nm",
+                    "condition": "vic-monument-condition:ok",
+                    "state": "vic-monument-state:new"
+                }
+            }
+        },
+        {
+            "id": "CGPNT-21",
+            "type": "Feature",
+            "featureType": "SurveyPoint",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.86740335380054,
+                    -37.78468966892727
+                ]
+            },
+            "place": {
+                "type": "Point",
+                "coordinates": [
+                    312206.69795,
+                    5815931.79194
+                ]
+            },
+            "properties": {
+                "name": {
+                    "label": "Unmk CGPNT-21",
+                    "hasPart": [
+                        {
+                            "type": "MarkType",
+                            "label": "Unmk"
+                        },
+                        {
+                            "type": "MarkIdentifier",
+                            "label": "CGPNT-21"
+                        }
+                    ]
+                },
+                "purpose": "vic-surveypoint-purpose:boundary",
+                "fromSurvey": "PS914576X",
+                "comment": null,
+                "monumentedBy": {
+                    "form": "vic-monument-form:nm",
+                    "condition": "vic-monument-condition:ok",
+                    "state": "vic-monument-state:new"
+                }
+            }
+        },
+        {
+            "id": "CGPNT-22",
+            "type": "Feature",
+            "featureType": "SurveyPoint",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.8675482196959,
+                    -37.78455404511358
+                ]
+            },
+            "place": {
+                "type": "Point",
+                "coordinates": [
+                    312219.11276,
+                    5815947.13283
+                ]
+            },
+            "properties": {
+                "name": {
+                    "label": "Peg CGPNT-22",
+                    "hasPart": [
+                        {
+                            "type": "MarkType",
+                            "label": "Peg"
+                        },
+                        {
+                            "type": "MarkIdentifier",
+                            "label": "CGPNT-22"
+                        }
+                    ]
+                },
+                "purpose": "vic-surveypoint-purpose:boundary",
+                "fromSurvey": "PS914576X",
+                "comment": "At base of block wall",
+                "monumentedBy": {
+                    "form": "vic-monument-form:peg",
+                    "condition": "vic-monument-condition:ok",
+                    "state": "vic-monument-state:new"
+                }
+            }
+        },
+        {
+            "id": "CGPNT-23",
+            "type": "Feature",
+            "featureType": "SurveyPoint",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.86735084873013,
+                    -37.78464186042797
+                ]
+            },
+            "place": {
+                "type": "Point",
+                "coordinates": [
+                    312201.95285,
+                    5815936.99162
+                ]
+            },
+            "properties": {
+                "name": {
+                    "label": "Peg CGPNT-23",
+                    "hasPart": [
+                        {
+                            "type": "MarkType",
+                            "label": "Peg"
+                        },
+                        {
+                            "type": "MarkIdentifier",
+                            "label": "CGPNT-23"
+                        }
+                    ]
+                },
+                "purpose": "vic-surveypoint-purpose:boundary",
+                "fromSurvey": "PS914576X",
+                "comment": "At base of block wall",
+                "monumentedBy": {
+                    "form": "vic-monument-form:peg",
+                    "condition": "vic-monument-condition:ok",
+                    "state": "vic-monument-state:new"
+                }
+            }
+        },
+        {
+            "id": "CGPNT-24",
+            "type": "Feature",
+            "featureType": "SurveyPoint",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.8673792366472,
+                    -37.78461533408519
+                ]
+            },
+            "place": {
+                "type": "Point",
+                "coordinates": [
+                    312204.38578,
+                    5815939.99222
+                ]
+            },
+            "properties": {
+                "name": {
+                    "label": "Unmk CGPNT-24",
+                    "hasPart": [
+                        {
+                            "type": "MarkType",
+                            "label": "Unmk"
+                        },
+                        {
+                            "type": "MarkIdentifier",
+                            "label": "CGPNT-24"
+                        }
+                    ]
+                },
+                "purpose": "vic-surveypoint-purpose:boundary",
+                "fromSurvey": "PS914576X",
+                "comment": null,
+                "monumentedBy": {
+                    "form": "vic-monument-form:nm",
+                    "condition": "vic-monument-condition:ok",
+                    "state": "vic-monument-state:new"
+                }
+            }
+        },
+        {
+            "id": "CGPNT-25",
+            "type": "Feature",
+            "featureType": "SurveyPoint",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.86737824137458,
+                    -37.78461466361882
+                ]
+            },
+            "place": {
+                "type": "Point",
+                "coordinates": [
+                    312204.29643,
+                    5815940.06462
+                ]
+            },
+            "properties": {
+                "name": {
+                    "label": "Unmk CGPNT-25",
+                    "hasPart": [
+                        {
+                            "type": "MarkType",
+                            "label": "Unmk"
+                        },
+                        {
+                            "type": "MarkIdentifier",
+                            "label": "CGPNT-25"
+                        }
+                    ]
+                },
+                "purpose": "vic-surveypoint-purpose:boundary",
+                "fromSurvey": "PS914576X",
+                "comment": null,
+                "monumentedBy": {
+                    "form": "vic-monument-form:nm",
+                    "condition": "vic-monument-condition:ok",
+                    "state": "vic-monument-state:new"
+                }
+            }
+        },
+        {
+            "id": "CGPNT-26",
+            "type": "Feature",
+            "featureType": "SurveyPoint",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.86742372947245,
+                    -37.784572158153274
+                ]
+            },
+            "place": {
+                "type": "Point",
+                "coordinates": [
+                    312208.1949,
+                    5815944.87274
+                ]
+            },
+            "properties": {
+                "name": {
+                    "label": "Unmk CGPNT-26",
+                    "hasPart": [
+                        {
+                            "type": "MarkType",
+                            "label": "Unmk"
+                        },
+                        {
+                            "type": "MarkIdentifier",
+                            "label": "CGPNT-26"
+                        }
+                    ]
+                },
+                "purpose": "vic-surveypoint-purpose:boundary",
+                "fromSurvey": "PS914576X",
+                "comment": null,
+                "monumentedBy": {
+                    "form": "vic-monument-form:nm",
+                    "condition": "vic-monument-condition:ok",
+                    "state": "vic-monument-state:new"
+                }
+            }
+        },
+        {
+            "id": "CGPNT-27",
+            "type": "Feature",
+            "featureType": "SurveyPoint",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.86742472474492,
+                    -37.78457282861925
+                ]
+            },
+            "place": {
+                "type": "Point",
+                "coordinates": [
+                    312208.28425,
+                    5815944.80034
+                ]
+            },
+            "properties": {
+                "name": {
+                    "label": "Unmk CGPNT-27",
+                    "hasPart": [
+                        {
+                            "type": "MarkType",
+                            "label": "Unmk"
+                        },
+                        {
+                            "type": "MarkIdentifier",
+                            "label": "CGPNT-27"
+                        }
+                    ]
+                },
+                "purpose": "vic-surveypoint-purpose:boundary",
+                "fromSurvey": "PS914576X",
+                "comment": null,
+                "monumentedBy": {
+                    "form": "vic-monument-form:nm",
+                    "condition": "vic-monument-condition:ok",
+                    "state": "vic-monument-state:new"
+                }
+            }
+        },
+        {
+            "id": "CGPNT-28",
+            "type": "Feature",
+            "featureType": "SurveyPoint",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.86747609914326,
+                    -37.78452482293289
+                ]
+            },
+            "place": {
+                "type": "Point",
+                "coordinates": [
+                    312212.6872,
+                    5815950.23063
+                ]
+            },
+            "properties": {
+                "name": {
+                    "label": "Peg CGPNT-28",
+                    "hasPart": [
+                        {
+                            "type": "MarkType",
+                            "label": "Peg"
+                        },
+                        {
+                            "type": "MarkIdentifier",
+                            "label": "CGPNT-28"
+                        }
+                    ]
+                },
+                "purpose": "vic-surveypoint-purpose:boundary",
+                "fromSurvey": "PS914576X",
+                "comment": "At base of block wall",
+                "monumentedBy": {
+                    "form": "vic-monument-form:peg",
+                    "condition": "vic-monument-condition:ok",
+                    "state": "vic-monument-state:new"
+                }
+            }
+        },
+        {
+            "id": "CGPNT-43",
+            "type": "Feature",
+            "featureType": "SurveyPoint",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.86751609201926,
+                    -37.78448741639467
+                ]
+            },
+            "place": {
+                "type": "Point",
+                "coordinates": [
+                    312216.11463,
+                    5815954.46189
+                ]
+            },
+            "properties": {
+                "name": {
+                    "label": "Peg CGPNT-43",
+                    "hasPart": [
+                        {
+                            "type": "MarkType",
+                            "label": "Peg"
+                        },
+                        {
+                            "type": "MarkIdentifier",
+                            "label": "CGPNT-43"
+                        }
+                    ]
+                },
+                "purpose": "vic-surveypoint-purpose:boundary",
+                "fromSurvey": "PS914576X",
+                "comment": "0.06m NE of PALS (10+)",
+                "monumentedBy": {
+                    "form": "vic-monument-form:peg",
+                    "condition": "vic-monument-condition:ok",
+                    "state": "vic-monument-state:new"
+                }
+            }
+        },
+        {
+            "id": "CGPNT-44",
+            "type": "Feature",
+            "featureType": "SurveyPoint",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.86729204822757,
+                    -37.78469685809228
+                ]
+            },
+            "place": {
+                "type": "Point",
+                "coordinates": [
+                    312196.91361,
+                    5815930.77052
+                ]
+            },
+            "properties": {
+                "name": {
+                    "label": "Peg CGPNT-44",
+                    "hasPart": [
+                        {
+                            "type": "MarkType",
+                            "label": "Peg"
+                        },
+                        {
+                            "type": "MarkIdentifier",
+                            "label": "CGPNT-44"
+                        }
+                    ]
+                },
+                "purpose": "vic-surveypoint-purpose:boundary",
+                "fromSurvey": "PS914576X",
+                "comment": "0.05 SE of Rec. Metal Sheet Fence, 1.00m NE of Rivert in footpath",
+                "monumentedBy": {
+                    "form": "vic-monument-form:peg",
+                    "condition": "vic-monument-condition:ok",
+                    "state": "vic-monument-state:new"
+                }
+            }
+        },
+        {
+            "id": "CGPNT-46",
+            "type": "Feature",
+            "featureType": "SurveyPoint",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.8675746590504,
+                    -37.78452931551136
+                ]
+            },
+            "place": {
+                "type": "Point",
+                "coordinates": [
+                    312221.37864,
+                    5815949.93013
+                ]
+            },
+            "properties": {
+                "name": {
+                    "label": "Unmk CGPNT-46",
+                    "hasPart": [
+                        {
+                            "type": "MarkType",
+                            "label": "Unmk"
+                        },
+                        {
+                            "type": "MarkIdentifier",
+                            "label": "CGPNT-46"
+                        }
+                    ]
+                },
+                "purpose": "vic-surveypoint-purpose:boundary",
+                "fromSurvey": "PS914576X",
+                "comment": "Impractical to mark",
+                "monumentedBy": {
+                    "form": "vic-monument-form:nm",
+                    "condition": "vic-monument-condition:ok",
+                    "state": "vic-monument-state:new"
+                }
+            }
+        },
+        {
+            "id": "CGPNT-47",
+            "type": "Feature",
+            "featureType": "SurveyPoint",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.8673499577408,
+                    -37.78473828699023
+                ]
+            },
+            "place": {
+                "type": "Point",
+                "coordinates": [
+                    312202.11852,
+                    5815926.28963
+                ]
+            },
+            "properties": {
+                "name": {
+                    "label": "Peg CGPNT-47",
+                    "hasPart": [
+                        {
+                            "type": "MarkType",
+                            "label": "Peg"
+                        },
+                        {
+                            "type": "MarkIdentifier",
+                            "label": "CGPNT-47"
+                        }
+                    ]
+                },
+                "purpose": "vic-surveypoint-purpose:boundary",
+                "fromSurvey": "PS914576X",
+                "comment": "0.07m from post",
+                "monumentedBy": {
+                    "form": "vic-monument-form:peg",
+                    "condition": "vic-monument-condition:ok",
+                    "state": "vic-monument-state:new"
+                }
+            }
+        },
+        {
+            "id": "CGPNT-56",
+            "type": "Feature",
+            "featureType": "SurveyPoint",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.8674472840422,
+                    -37.78446850394886
+                ]
+            },
+            "place": {
+                "type": "Point",
+                "coordinates": [
+                    312210.0069,
+                    5815956.4223
+                ]
+            },
+            "properties": {
+                "name": {
+                    "label": "Peg CGPNT-56",
+                    "hasPart": [
+                        {
+                            "type": "MarkType",
+                            "label": "Peg"
+                        },
+                        {
+                            "type": "MarkIdentifier",
+                            "label": "CGPNT-56"
+                        }
+                    ]
+                },
+                "purpose": "vic-surveypoint-purpose:boundary",
+                "fromSurvey": "LP59092",
+                "comment": null,
+                "monumentedBy": {
+                    "form": "vic-monument-form:peg",
+                    "condition": "vic-monument-condition:not-found",
+                    "state": "vic-monument-state:existing"
+                }
+            }
+        },
+        {
+            "id": "CGPNT-57",
+            "type": "Feature",
+            "featureType": "SurveyPoint",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.86761393317684,
+                    -37.78458773043118
+                ]
+            },
+            "place": {
+                "type": "Point",
+                "coordinates": [
+                    312224.98535,
+                    5815943.52689
+                ]
+            },
+            "properties": {
+                "name": {
+                    "label": "Peg CGPNT-57",
+                    "hasPart": [
+                        {
+                            "type": "MarkType",
+                            "label": "Peg"
+                        },
+                        {
+                            "type": "MarkIdentifier",
+                            "label": "CGPNT-57"
+                        }
+                    ]
+                },
+                "purpose": "vic-surveypoint-purpose:boundary",
+                "fromSurvey": "LP59092",
+                "comment": null,
+                "monumentedBy": {
+                    "form": "vic-monument-form:peg",
+                    "condition": "vic-monument-condition:unknown",
+                    "state": "vic-monument-state:existing"
+                }
+            }
+        },
+        {
+            "id": "CGPNT-59",
+            "type": "Feature",
+            "featureType": "SurveyPoint",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.86708192860007,
+                    -37.78454653706173
+                ]
+            },
+            "place": {
+                "type": "Point",
+                "coordinates": [
+                    312178.028,
+                    5815947.029
+                ]
+            },
+            "properties": {
+                "name": {
+                    "label": "Peg CGPNT-59",
+                    "hasPart": [
+                        {
+                            "type": "MarkType",
+                            "label": "Peg"
+                        },
+                        {
+                            "type": "MarkIdentifier",
+                            "label": "CGPNT-59"
+                        }
+                    ]
+                },
+                "purpose": "vic-surveypoint-purpose:boundary",
+                "fromSurvey": "PS903783E",
+                "comment": null,
+                "monumentedBy": {
+                    "form": "vic-monument-form:peg",
+                    "condition": "vic-monument-condition:unknown",
+                    "state": "vic-monument-state:existing"
+                }
+            }
+        },
+        {
+            "id": "CGPNT-66",
+            "type": "Feature",
+            "featureType": "SurveyPoint",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.86757023419875,
+                    -37.7848959030043
+                ]
+            },
+            "place": {
+                "type": "Point",
+                "coordinates": [
+                    312221.917,
+                    5815909.242
+                ]
+            },
+            "properties": {
+                "name": {
+                    "label": "Peg AD",
+                    "hasPart": [
+                        {
+                            "type": "MarkType",
+                            "label": "Peg AD"
+                        }
+                    ]
+                },
+                "purpose": "vic-surveypoint-purpose:boundary",
+                "fromSurvey": "PS903783E",
+                "comment": null,
+                "monumentedBy": {
+                    "form": "vic-monument-form:peg",
+                    "condition": "vic-monument-condition:unknown",
+                    "state": "vic-monument-state:existing"
+                }
+            }
+        },
+        {
+            "id": "119110197",
+            "type": "Feature",
+            "featureType": "SurveyPoint",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.86756903030584,
+                    -37.78490657804698
+                ]
+            },
+            "place": {
+                "type": "Point",
+                "coordinates": [
+                    312221.838,
+                    5815908.055
+                ]
+            },
+            "properties": {
+                "name": {
+                    "label": "Rivet FD (Unknown)",
+                    "hasPart": [
+                        {
+                            "type": "MarkType",
+                            "label": "Rivet"
+                        },
+                        {
+                            "type": "MarkFound",
+                            "label": "FD"
+                        },
+                        {
+                            "type": "planIdentifier",
+                            "label": "Unknown"
+                        }
+                    ]
+                },
+                "geodeticid": "119110197",
+                "purpose": "vic-surveypoint-purpose:control",
+                "comment": "C",
+                "monumentedBy": {
+                    "form": "vic-monument-form:rivet",
+                    "condition": "vic-monument-condition:ok",
+                    "state": "vic-monument-state:existing"
+                }
+            }
+        },
+        {
+            "id": "119110198",
+            "type": "Feature",
+            "featureType": "SurveyPoint",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.86706390983124,
+                    -37.784554393322786
+                ]
+            },
+            "place": {
+                "type": "Point",
+                "coordinates": [
+                    312176.461,
+                    5815946.121
+                ]
+            },
+            "properties": {
+                "name": {
+                    "label": "Rivet FD PS 903783E",
+                    "hasPart": [
+                        {
+                            "type": "MarkType",
+                            "label": "Rivet"
+                        },
+                        {
+                            "type": "MarkFound",
+                            "label": "FD"
+                        },
+                        {
+                            "type": "PlanIdentifier",
+                            "label": "PS 903783E"
+                        }
+                    ]
+                },
+                "geodeticid": "119110198",
+                "purpose": "vic-surveypoint-purpose:control",
+                "fromSurvey": "PS-903783E",
+                "comment": "A",
+                "monumentedBy": {
+                    "form": "vic-monument-form:rivet",
+                    "condition": "vic-monument-condition:ok",
+                    "state": "vic-monument-state:existing"
+                }
+            }
+        },
+        {
+            "id": "119940015",
+            "type": "Feature",
+            "featureType": "SurveyPoint",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.86497525843754,
+                    -37.78435053569049
+                ]
+            },
+            "place": {
+                "type": "Point",
+                "coordinates": [
+                    311991.999,
+                    5815964.543
+                ]
+            },
+            "properties": {
+                "name": {
+                    "label": "Rivet FD PS 904234K",
+                    "hasPart": [
+                        {
+                            "type": "MarkType",
+                            "label": "Rivet"
+                        },
+                        {
+                            "type": "MarkFound",
+                            "label": "FD"
+                        },
+                        {
+                            "type": "PlanIdentifier",
+                            "label": "PS 904234K"
+                        }
+                    ]
+                },
+                "geodeticid": "119940015",
+                "purpose": "vic-surveypoint-purpose:control",
+                "fromSurvey": "PS-904234K",
+                "comment": "G",
+                "monumentedBy": {
+                    "form": "vic-monument-form:rivet",
+                    "condition": "vic-monument-condition:ok",
+                    "state": "vic-monument-state:existing"
+                }
+            }
+        },
+        {
+            "id": "119940016",
+            "type": "Feature",
+            "featureType": "SurveyPoint",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.86688712281034,
+                    -37.784562465088754
+                ]
+            },
+            "place": {
+                "type": "Point",
+                "coordinates": [
+                    312160.912,
+                    5815944.87
+                ]
+            },
+            "properties": {
+                "name": {
+                    "label": "Rivet FD PS 904234K",
+                    "hasPart": [
+                        {
+                            "type": "MarkType",
+                            "label": "Rivet"
+                        },
+                        {
+                            "type": "MarkFound",
+                            "label": "FD"
+                        },
+                        {
+                            "type": "PlanIdentifier",
+                            "label": "PS 904234K"
+                        }
+                    ]
+                },
+                "geodeticid": "119940016",
+                "purpose": "vic-surveypoint-purpose:control",
+                "fromSurvey": "PS-904234K",
+                "comment": "F",
+                "monumentedBy": {
+                    "form": "vic-monument-form:rivet",
+                    "condition": "vic-monument-condition:ok",
+                    "state": "vic-monument-state:existing"
+                }
+            }
+        },
+        {
+            "id": "247801770",
+            "type": "Feature",
+            "featureType": "SurveyPoint",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.86618841395074,
+                    -37.781402170159836
+                ]
+            },
+            "place": {
+                "type": "Point",
+                "coordinates": [
+                    312091.372,
+                    5816294.155
+                ]
+            },
+            "properties": {
+                "name": "CUT-PAW-PAW PM  177",
+                "geodeticid": "247801770",
+                "purpose": "vic-surveypoint-purpose:control",
+                "fromSurvey": "PS-903783E",
+                "ptQualityMeasure": 0.008,
+                "ptQuality": "vic-point-class:3",
+                "comment": null,
+                "monumentedBy": {
+                    "form": "vic-monument-form:plaque",
+                    "condition": "vic-monument-condition:ok",
+                    "state": "vic-monument-state:existing"
+                }
+            }
+        },
+        {
+            "id": "CGPNT-1",
+            "type": "Feature",
+            "featureType": "SurveyPoint",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.86738275289736,
+                    -37.78477669944397
+                ]
+            },
+            "place": {
+                "type": "Point",
+                "coordinates": [
+                    312205.104,
+                    5815922.093
+                ]
+            },
+            "properties": {
+                "name": {
+                    "label": "CGPNT-1",
+                    "hasPart": [
+                        {
+                            "type": "MarkType",
+                            "label": ""
+                        },
+                        {
+                            "type": "MarkIdentifier",
+                            "label": "CGPNT-1"
+                        }
+                    ]
+                },
+                "purpose": "vic-surveypoint-purpose:reference",
+                "fromSurvey": "",
+                "comment": "Etched in concrete",
+                "monumentedBy": {
+                    "form": "vic-monument-form:chisel-cut",
+                    "condition": "vic-monument-condition:ok",
+                    "state": "vic-monument-state:existing"
+                }
+            }
+        },
+        {
+            "id": "CGPNT-2",
+            "type": "Feature",
+            "featureType": "SurveyPoint",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.86728648626152,
+                    -37.784709585651484
+                ]
+            },
+            "place": {
+                "type": "Point",
+                "coordinates": [
+                    312196.456,
+                    5815929.347
+                ]
+            },
+            "properties": {
+                "name": {
+                    "label": "CGPNT-2",
+                    "hasPart": [
+                        {
+                            "type": "MarkType",
+                            "label": ""
+                        },
+                        {
+                            "type": "MarkIdentifier",
+                            "label": "CGPNT-2"
+                        }
+                    ]
+                },
+                "purpose": "vic-surveypoint-purpose:reference",
+                "fromSurvey": "",
+                "comment": "Etched in concrete",
+                "monumentedBy": {
+                    "form": "vic-monument-form:chisel-cut",
+                    "condition": "vic-monument-condition:ok",
+                    "state": "vic-monument-state:existing"
+                }
+            }
+        },
+        {
+            "id": "CGPNT-5",
+            "type": "Feature",
+            "featureType": "SurveyPoint",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.86767783659602,
+                    -37.783559754710375
+                ]
+            },
+            "place": {
+                "type": "Point",
+                "coordinates": [
+                    312228.011,
+                    5816057.727
+                ]
+            },
+            "properties": {
+                "name": {
+                    "label": "Rivet FD PS 506149U",
+                    "hasPart": [
+                        {
+                            "type": "MarkType",
+                            "label": "Rivet"
+                        },
+                        {
+                            "type": "MarkFound",
+                            "label": "FD"
+                        },
+                        {
+                            "type": "PlanIdentifier",
+                            "label": "PS 506149U"
+                        }
+                    ]
+                },
+                "purpose": "vic-surveypoint-purpose:control",
+                "fromSurvey": "PS705064T",
+                "comment": "B",
+                "monumentedBy": {
+                    "form": "vic-monument-form:rivet",
+                    "condition": "vic-monument-condition:ok",
+                    "state": "vic-monument-state:existing"
+                }
+            }
+        },
+        {
+            "id": "CGPNT-13",
+            "type": "Feature",
+            "featureType": "SurveyPoint",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.86712070239213,
+                    -37.784574274238864
+                ]
+            },
+            "place": {
+                "type": "Point",
+                "coordinates": [
+                    312181.513,
+                    5815944.029
+                ]
+            },
+            "properties": {
+                "name": {
+                    "label": "Rivet FD PS 506149U",
+                    "hasPart": [
+                        {
+                            "type": "MarkType",
+                            "label": "Rivet"
+                        },
+                        {
+                            "type": "MarkFound",
+                            "label": "FD"
+                        },
+                        {
+                            "type": "PlanIdentifier",
+                            "label": "PS 506149U"
+                        }
+                    ]
+                },
+                "purpose": "vic-surveypoint-purpose:control",
+                "fromSurvey": "PS705064T",
+                "comment": "B",
+                "monumentedBy": {
+                    "form": "vic-monument-form:rivet",
+                    "condition": "vic-monument-condition:ok",
+                    "state": "vic-monument-state:existing"
+                }
+            }
+        },
+        {
+            "id": "CGPNT-60",
+            "type": "Feature",
+            "featureType": "SurveyPoint",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.86750270370274,
+                    -37.78450735009419
+                ]
+            },
+            "place": {
+                "type": "Point",
+                "coordinates": [
+                    312214.986,
+                    5815952.223
+                ]
+            },
+            "properties": {
+                "name": {
+                    "label": "CGPNT-60",
+                    "hasPart": [
+                        {
+                            "type": "MarkType",
+                            "label": ""
+                        },
+                        {
+                            "type": "MarkIdentifier",
+                            "label": "CGPNT-60"
+                        }
+                    ]
+                },
+                "purpose": "vic-surveypoint-purpose:traverse",
+                "fromSurvey": "",
+                "comment": "Nail PL",
+                "monumentedBy": {
+                    "form": "vic-monument-form:nail-in-peg",
+                    "condition": "vic-monument-condition:ok",
+                    "state": "vic-monument-state:new"
+                }
+            }
+        },
+        {
+            "id": "CGPNT-62",
+            "type": "Feature",
+            "featureType": "SurveyPoint",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.86738869148758,
+                    -37.78402821734901
+                ]
+            },
+            "place": {
+                "type": "Point",
+                "coordinates": [
+                    312203.732,
+                    5816005.162
+                ]
+            },
+            "properties": {
+                "name": {
+                    "label": "Rivet FD PS 506149U",
+                    "hasPart": [
+                        {
+                            "type": "MarkType",
+                            "label": "Rivet"
+                        },
+                        {
+                            "type": "MarkFound",
+                            "label": "FD"
+                        },
+                        {
+                            "type": "PlanIdentifier",
+                            "label": "PS 506149U"
+                        }
+                    ]
+                },
+                "purpose": "vic-surveypoint-purpose:traverse",
+                "fromSurvey": "PS-506149U",
+                "comment": "D",
+                "monumentedBy": {
+                    "form": "vic-monument-form:rivet",
+                    "condition": "vic-monument-condition:ok",
+                    "state": "vic-monument-state:existing"
+                }
+            }
+        },
+        {
+            "id": "CGPNT-63",
+            "type": "Feature",
+            "featureType": "SurveyPoint",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.86740517390757,
+                    -37.78400151686796
+                ]
+            },
+            "place": {
+                "type": "Point",
+                "coordinates": [
+                    312205.116,
+                    5816008.158
+                ]
+            },
+            "properties": {
+                "name": {
+                    "label": "Etch FD PS 506149U",
+                    "hasPart": [
+                        {
+                            "type": "MarkType",
+                            "label": "Etch"
+                        },
+                        {
+                            "type": "MarkFound",
+                            "label": "FD"
+                        },
+                        {
+                            "type": "PlanIdentifier",
+                            "label": "PS 506149U"
+                        }
+                    ]
+                },
+                "purpose": "vic-surveypoint-purpose:traverse",
+                "fromSurvey": "",
+                "comment": "E",
+                "monumentedBy": {
+                    "form": "vic-monument-form:chisel-cut",
+                    "condition": "vic-monument-condition:ok",
+                    "state": "vic-monument-state:new"
+                }
+            }
+        },
+        {
+            "id": "CGPNT-64",
+            "type": "Feature",
+            "featureType": "SurveyPoint",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.86723924134964,
+                    -37.784671196541304
+                ]
+            },
+            "place": {
+                "type": "Point",
+                "coordinates": [
+                    312192.198,
+                    5815933.512
+                ]
+            },
+            "properties": {
+                "name": {
+                    "label": "Rivet FD",
+                    "hasPart": [
+                        {
+                            "type": "MarkType",
+                            "label": "Rivet"
+                        },
+                        {
+                            "type": "MarkFound",
+                            "label": "FD"
+                        }
+                    ]
+                },
+                "purpose": "vic-surveypoint-purpose:reference",
+                "fromSurvey": "Unknown",
+                "comment": null,
+                "monumentedBy": {
+                    "form": "vic-monument-form:rivet",
+                    "condition": "vic-monument-condition:ok",
+                    "state": "vic-monument-state:existing"
+                }
+            }
+        },
+        {
+            "id": "CGPNT-65",
+            "type": "Feature",
+            "featureType": "SurveyPoint",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.8674009788571,
+                    -37.7847869152647
+                ]
+            },
+            "place": {
+                "type": "Point",
+                "coordinates": [
+                    312206.735,
+                    5815920.996
+                ]
+            },
+            "properties": {
+                "name": {
+                    "label": "Rivet PL PS 914576X",
+                    "hasPart": [
+                        {
+                            "type": "MarkType",
+                            "label": "Rivet"
+                        },
+                        {
+                            "type": "MarkFound",
+                            "label": "PL"
+                        },
+                        {
+                            "type": "PlanIdentifier",
+                            "label": "PS 914576X"
+                        }
+                    ]
+                },
+                "purpose": "vic-surveypoint-purpose:reference",
+                "fromSurvey": "PS-914576X",
+                "comment": null,
+                "monumentedBy": {
+                    "form": "vic-monument-form:rivet",
+                    "condition": "vic-monument-condition:ok",
+                    "state": "vic-monument-state:new"
+                }
+            }
+        },
+        {
+            "id": "CGPNT-36",
+            "type": "Feature",
+            "featureType": "SurveyPoint",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.8673488563737,
+                    -37.78464052324689
+                ]
+            },
+            "place": {
+                "type": "Point",
+                "coordinates": [
+                    312201.774,
+                    5815937.136
+                ]
+            },
+            "properties": {
+                "purpose": "vic-surveypoint-purpose:occupation",
+                "fromSurvey": "",
+                "note": "SW corner of firewall between Units 2 and 3",
+                "age": "0 years"
+            }
+        },
+        {
+            "id": "CGPNT-38",
+            "type": "Feature",
+            "featureType": "SurveyPoint",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.86747410281285,
+                    -37.784523485772056
+                ]
+            },
+            "place": {
+                "type": "Point",
+                "coordinates": [
+                    312212.508,
+                    5815950.375
+                ]
+            },
+            "properties": {
+                "purpose": "vic-surveypoint-purpose:occupation",
+                "fromSurvey": "",
+                "note": "NW corner of firewall between Units 2 and 3",
+                "age": "0 years"
+            }
+        },
+        {
+            "id": "CGPNT-32",
+            "type": "Feature",
+            "featureType": "SurveyPoint",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.8675470528432,
+                    -37.78455325646304
+                ]
+            },
+            "place": {
+                "type": "Point",
+                "coordinates": [
+                    312219.008,
+                    5815947.218
+                ]
+            },
+            "properties": {
+                "purpose": "vic-surveypoint-purpose:occupation",
+                "fromSurvey": "",
+                "note": "NW corner of firewall between Units 1 and 2",
+                "age": "0 years"
+            }
+        },
+        {
+            "id": "CGPNT-33",
+            "type": "Feature",
+            "featureType": "SurveyPoint",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.86754939208407,
+                    -37.78455483080036
+                ]
+            },
+            "place": {
+                "type": "Point",
+                "coordinates": [
+                    312219.218,
+                    5815947.048
+                ]
+            },
+            "properties": {
+                "purpose": "vic-surveypoint-purpose:occupation",
+                "fromSurvey": "",
+                "note": "NE corner of firewall between Units 1 and 2",
+                "age": "0 years"
+            }
+        },
+        {
+            "id": "CGPNT-61",
+            "type": "Feature",
+            "featureType": "SurveyPoint",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.8673978800285,
+                    -37.784697220169285
+                ]
+            },
+            "place": {
+                "type": "Point",
+                "coordinates": [
+                    312206.235,
+                    5815930.943
+                ]
+            },
+            "properties": {
+                "purpose": "vic-surveypoint-purpose:occupation",
+                "fromSurvey": "",
+                "note": "SE corner of firewall between Units 1 and 2",
+                "age": "0 years"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 140095407672784,
+            "featureType": "parcel",
+            "links": [],
+            "time": "",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            144.86729204822757,
+                            -37.78469685809228
+                        ],
+                        [
+                            144.86724641533917,
+                            -37.784664212109405
+                        ],
+                        [
+                            144.8674472840422,
+                            -37.78446850394886
+                        ],
+                        [
+                            144.86745208753354,
+                            -37.78446382384797
+                        ],
+                        [
+                            144.8674652238559,
+                            -37.78445102498928
+                        ],
+                        [
+                            144.86751609201926,
+                            -37.78448741639467
+                        ],
+                        [
+                            144.86747609914326,
+                            -37.78452482293289
+                        ],
+                        [
+                            144.86742472474492,
+                            -37.78457282861925
+                        ],
+                        [
+                            144.86742372947245,
+                            -37.784572158153274
+                        ],
+                        [
+                            144.86737824137458,
+                            -37.78461466361882
+                        ],
+                        [
+                            144.8673792366472,
+                            -37.78461533408519
+                        ],
+                        [
+                            144.86735084873013,
+                            -37.78464186042797
+                        ],
+                        [
+                            144.86729204822757,
+                            -37.78469685809228
+                        ]
+                    ]
+                ]
+            },
+            "place": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            312196.91361,
+                            5815930.77052
+                        ],
+                        [
+                            312192.81212,
+                            5815934.30146
+                        ],
+                        [
+                            312210.0069,
+                            5815956.4223
+                        ],
+                        [
+                            312210.41809,
+                            5815956.95129
+                        ],
+                        [
+                            312211.54259,
+                            5815958.39794
+                        ],
+                        [
+                            312216.11463,
+                            5815954.46189
+                        ],
+                        [
+                            312212.6872,
+                            5815950.23063
+                        ],
+                        [
+                            312208.28425,
+                            5815944.80034
+                        ],
+                        [
+                            312208.1949,
+                            5815944.87274
+                        ],
+                        [
+                            312204.29643,
+                            5815940.06462
+                        ],
+                        [
+                            312204.38578,
+                            5815939.99222
+                        ],
+                        [
+                            312201.95285,
+                            5815936.99162
+                        ],
+                        [
+                            312196.91361,
+                            5815930.77052
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "appellation": {
+                    "label": "Lot 1 PS 914576",
+                    "hasPart": [
+                        {
+                            "type": "ParcelType",
+                            "label": "Lot"
+                        },
+                        {
+                            "type": "ParcelIdentifier",
+                            "label": "1"
+                        },
+                        {
+                            "type": "PlanType",
+                            "label": "PS"
+                        },
+                        {
+                            "type": "PlanIdentifier",
+                            "label": "914576"
+                        }
+                    ]
+                },
+                "area": 209.0,
+                "parcelType": "vic-parcel-type:2D-building",
+                "parcelPurpose": "vic-parcel-purpose:lot",
+                "parcelState": "vic-parcel-state:created",
+                "interests": [],
+                "label": null
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 140095407673104,
+            "featureType": "parcel",
+            "links": [],
+            "time": "",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            144.8673499577408,
+                            -37.78473828699023
+                        ],
+                        [
+                            144.86729204822757,
+                            -37.78469685809228
+                        ],
+                        [
+                            144.86735084873013,
+                            -37.78464186042797
+                        ],
+                        [
+                            144.8673792366472,
+                            -37.78461533408519
+                        ],
+                        [
+                            144.86737824137458,
+                            -37.78461466361882
+                        ],
+                        [
+                            144.86742372947245,
+                            -37.784572158153274
+                        ],
+                        [
+                            144.86742472474492,
+                            -37.78457282861925
+                        ],
+                        [
+                            144.86747609914326,
+                            -37.78452482293289
+                        ],
+                        [
+                            144.86751609201926,
+                            -37.78448741639467
+                        ],
+                        [
+                            144.8675746590504,
+                            -37.78452931551136
+                        ],
+                        [
+                            144.8675482196959,
+                            -37.78455404511358
+                        ],
+                        [
+                            144.86740335380054,
+                            -37.78468966892727
+                        ],
+                        [
+                            144.86740262482488,
+                            -37.784689167295326
+                        ],
+                        [
+                            144.86739554539048,
+                            -37.78469564762454
+                        ],
+                        [
+                            144.8673499577408,
+                            -37.78473828699023
+                        ]
+                    ]
+                ]
+            },
+            "place": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            312202.11852,
+                            5815926.28963
+                        ],
+                        [
+                            312196.91361,
+                            5815930.77052
+                        ],
+                        [
+                            312201.95285,
+                            5815936.99162
+                        ],
+                        [
+                            312204.38578,
+                            5815939.99222
+                        ],
+                        [
+                            312204.29643,
+                            5815940.06462
+                        ],
+                        [
+                            312208.1949,
+                            5815944.87274
+                        ],
+                        [
+                            312208.28425,
+                            5815944.80034
+                        ],
+                        [
+                            312212.6872,
+                            5815950.23063
+                        ],
+                        [
+                            312216.11463,
+                            5815954.46189
+                        ],
+                        [
+                            312221.37864,
+                            5815949.93013
+                        ],
+                        [
+                            312219.11276,
+                            5815947.13283
+                        ],
+                        [
+                            312206.69795,
+                            5815931.79194
+                        ],
+                        [
+                            312206.63248,
+                            5815931.84614
+                        ],
+                        [
+                            312206.02541,
+                            5815931.11281
+                        ],
+                        [
+                            312202.11852,
+                            5815926.28963
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "appellation": {
+                    "label": "Lot 2 PS 914576",
+                    "hasPart": [
+                        {
+                            "type": "ParcelType",
+                            "label": "Lot"
+                        },
+                        {
+                            "type": "ParcelIdentifier",
+                            "label": "2"
+                        },
+                        {
+                            "type": "PlanType",
+                            "label": "PS"
+                        },
+                        {
+                            "type": "PlanIdentifier",
+                            "label": "914576"
+                        }
+                    ]
+                },
+                "area": 212.0,
+                "parcelType": "vic-parcel-type:2D-building",
+                "parcelPurpose": "vic-parcel-purpose:lot",
+                "parcelState": "vic-parcel-state:created",
+                "interests": [],
+                "label": null
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 140095407673360,
+            "featureType": "parcel",
+            "links": [],
+            "time": "",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            144.86740832259525,
+                            -37.784780041495964
+                        ],
+                        [
+                            144.8673499577408,
+                            -37.78473828699023
+                        ],
+                        [
+                            144.86739554539048,
+                            -37.78469564762454
+                        ],
+                        [
+                            144.86740262482488,
+                            -37.784689167295326
+                        ],
+                        [
+                            144.86740335380054,
+                            -37.78468966892727
+                        ],
+                        [
+                            144.8675482196959,
+                            -37.78455404511358
+                        ],
+                        [
+                            144.8675746590504,
+                            -37.78452931551136
+                        ],
+                        [
+                            144.8676322996881,
+                            -37.784570551870715
+                        ],
+                        [
+                            144.86761885306854,
+                            -37.78458312875981
+                        ],
+                        [
+                            144.86761393317684,
+                            -37.78458773043118
+                        ],
+                        [
+                            144.86740832259525,
+                            -37.784780041495964
+                        ]
+                    ]
+                ]
+            },
+            "place": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            312207.36435,
+                            5815921.77352
+                        ],
+                        [
+                            312202.11852,
+                            5815926.28963
+                        ],
+                        [
+                            312206.02541,
+                            5815931.11281
+                        ],
+                        [
+                            312206.63248,
+                            5815931.84614
+                        ],
+                        [
+                            312206.69795,
+                            5815931.79194
+                        ],
+                        [
+                            312219.11276,
+                            5815947.13283
+                        ],
+                        [
+                            312221.37864,
+                            5815949.93013
+                        ],
+                        [
+                            312226.55938,
+                            5815945.47005
+                        ],
+                        [
+                            312225.40699,
+                            5815944.04741
+                        ],
+                        [
+                            312224.98535,
+                            5815943.52689
+                        ],
+                        [
+                            312207.36435,
+                            5815921.77352
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "appellation": {
+                    "label": "Lot 3 PS 914576",
+                    "hasPart": [
+                        {
+                            "type": "ParcelType",
+                            "label": "Lot"
+                        },
+                        {
+                            "type": "ParcelIdentifier",
+                            "label": "3"
+                        },
+                        {
+                            "type": "PlanType",
+                            "label": "PS"
+                        },
+                        {
+                            "type": "PlanIdentifier",
+                            "label": "914576"
+                        }
+                    ]
+                },
+                "area": 174.0,
+                "parcelType": "vic-parcel-type:2D-building",
+                "parcelPurpose": "vic-parcel-purpose:lot",
+                "parcelState": "vic-parcel-state:created",
+                "interests": [],
+                "label": null
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 140095407673616,
+            "featureType": "parcel",
+            "links": [],
+            "time": "",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            144.8674472840422,
+                            -37.78446850394886
+                        ],
+                        [
+                            144.86724641533917,
+                            -37.784664212109405
+                        ],
+                        [
+                            144.86729204822757,
+                            -37.78469685809228
+                        ],
+                        [
+                            144.8673499577408,
+                            -37.78473828699023
+                        ],
+                        [
+                            144.86740832259525,
+                            -37.784780041495964
+                        ],
+                        [
+                            144.86761393317684,
+                            -37.78458773043118
+                        ],
+                        [
+                            144.86761885306854,
+                            -37.78458312875981
+                        ],
+                        [
+                            144.8676322996881,
+                            -37.784570551870715
+                        ],
+                        [
+                            144.8675746590504,
+                            -37.78452931551136
+                        ],
+                        [
+                            144.86751609201926,
+                            -37.78448741639467
+                        ],
+                        [
+                            144.8674652238559,
+                            -37.78445102498928
+                        ],
+                        [
+                            144.86745208753354,
+                            -37.78446382384797
+                        ],
+                        [
+                            144.8674472840422,
+                            -37.78446850394886
+                        ]
+                    ]
+                ]
+            },
+            "place": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            312210.0069,
+                            5815956.4223
+                        ],
+                        [
+                            312192.81212,
+                            5815934.30146
+                        ],
+                        [
+                            312196.91361,
+                            5815930.77052
+                        ],
+                        [
+                            312202.11852,
+                            5815926.28963
+                        ],
+                        [
+                            312207.36435,
+                            5815921.77352
+                        ],
+                        [
+                            312224.98535,
+                            5815943.52689
+                        ],
+                        [
+                            312225.40699,
+                            5815944.04741
+                        ],
+                        [
+                            312226.55938,
+                            5815945.47005
+                        ],
+                        [
+                            312221.37864,
+                            5815949.93013
+                        ],
+                        [
+                            312216.11463,
+                            5815954.46189
+                        ],
+                        [
+                            312211.54259,
+                            5815958.39794
+                        ],
+                        [
+                            312210.41809,
+                            5815956.95129
+                        ],
+                        [
+                            312210.0069,
+                            5815956.4223
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "appellation": {
+                    "label": "Lot 358 LP 59092",
+                    "hasPart": [
+                        {
+                            "type": "ParcelType",
+                            "label": "Lot"
+                        },
+                        {
+                            "type": "ParcelIdentifier",
+                            "label": "358"
+                        },
+                        {
+                            "type": "PlanType",
+                            "label": "LP"
+                        },
+                        {
+                            "type": "PlanIdentifier",
+                            "label": "59092"
+                        }
+                    ]
+                },
+                "area": 594.654,
+                "parcelType": "vic-parcel-type:single",
+                "parcelPurpose": "vic-parcel-purpose:lot",
+                "parcelState": "vic-parcel-state:cancelled",
+                "address": {
+                    "propertyNumber": "4",
+                    "streetName": "Clarendon",
+                    "streetType": "St",
+                    "locality": "Maidstone",
+                    "state": "VIC",
+                    "postCode": "3012",
+                    "country": "Australia"
+                },
+                "interests": [
+                    {
+                        "interestLink": "12259-643",
+                        "interestType": "vic-interest-type:fh"
+                    }
+                ],
+                "label": null
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 140095407673872,
+            "featureType": "parcel",
+            "links": [],
+            "time": "",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    []
+                ]
+            },
+            "place": {
+                "type": "Polygon",
+                "coordinates": [
+                    []
+                ]
+            },
+            "properties": {
+                "appellation": "OC1\\PS914576",
+                "parcelType": "vic-parcel-type:single",
+                "parcelPurpose": "vic-parcel-purpose:lot",
+                "parcelState": "vic-parcel-state:created",
+                "description": "Owners Corporation 1 on PS914576X",
+                "address": {
+                    "propertyNumber": "4",
+                    "streetName": "Clarendon",
+                    "streetType": "St",
+                    "locality": "Maidstone",
+                    "state": "VIC",
+                    "postCode": "3012",
+                    "country": "Australia"
+                },
+                "interests": [
+                    {
+                        "interestLink": "987-456-321",
+                        "interestType": "vic-interest-type:o-c",
+                        "referencedParcel": "1-PS914576",
+                        "entitlementPortion": "50",
+                        "liabilityPortion": "50"
+                    },
+                    {
+                        "interestLink": "987-456-322",
+                        "interestType": "vic-interest-type:o-c",
+                        "referencedParcel": "2-PS914576",
+                        "entitlementPortion": "50",
+                        "liabilityPortion": "50"
+                    },
+                    {
+                        "interestLink": "987-456-323",
+                        "interestType": "vic-interest-type:o-c",
+                        "referencedParcel": "3-PS914576",
+                        "entitlementPortion": "50",
+                        "liabilityPortion": "50"
+                    }
+                ],
+                "label": null
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "SecondaryParcel",
+            "featureType": "parcel",
+            "links": [],
+            "time": "",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            144.86745208753354,
+                            -37.78446382384797
+                        ],
+                        [
+                            144.8674652238559,
+                            -37.78445102498928
+                        ],
+                        [
+                            144.86751609201926,
+                            -37.78448741639467
+                        ],
+                        [
+                            144.8675746590504,
+                            -37.78452931551136
+                        ],
+                        [
+                            144.8676322996881,
+                            -37.784570551870715
+                        ],
+                        [
+                            144.86761885306854,
+                            -37.78458312875981
+                        ],
+                        [
+                            144.86745208753354,
+                            -37.78446382384797
+                        ]
+                    ]
+                ]
+            },
+            "place": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            312210.41809,
+                            5815956.95129
+                        ],
+                        [
+                            312211.54259,
+                            5815958.39794
+                        ],
+                        [
+                            312216.11463,
+                            5815954.46189
+                        ],
+                        [
+                            312221.37864,
+                            5815949.93013
+                        ],
+                        [
+                            312226.55938,
+                            5815945.47005
+                        ],
+                        [
+                            312225.40699,
+                            5815944.04741
+                        ],
+                        [
+                            312210.41809,
+                            5815956.95129
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "appellation": {
+                    "label": "Area E1 LP 59092",
+                    "hasPart": [
+                        {
+                            "type": "ParcelType",
+                            "label": "Area"
+                        },
+                        {
+                            "type": "ParcelIdentifier",
+                            "label": "E1"
+                        },
+                        {
+                            "type": "PlanType",
+                            "label": "LP"
+                        },
+                        {
+                            "type": "PlanIdentifier",
+                            "label": "59092"
+                        }
+                    ]
+                },
+                "area": 36.3,
+                "parcelPurpose": "vic-secondary-parcel-purpose:d-s",
+                "parcelState": "vic-parcel-state:existing",
+                "interests": [
+                    {
+                        "interestLink": "987-456-325",
+                        "label": "E1",
+                        "interestType": "vic-interest-type:easement-drainage",
+                        "statuteName": "Section 12(2) of the Subdivision Act 1988, Victoria",
+                        "href": "vic-leg:sa1988153/s12.html",
+                        "burdenedParcels": [
+                            "1-PS914576X",
+                            "2-PS914576X",
+                            "3-PS914576X"
+                        ],
+                        "benefitedParcels": [
+                            "1-PS914576X",
+                            "2-PS914576X",
+                            "3-PS914576X"
+                        ]
+                    },
+                    {
+                        "interestLink": "987-456-326",
+                        "label": "E1",
+                        "interestType": "vic-interest-type:easement-in-gross-drainage-sewerage",
+                        "statuteName": "Section 12(2) of the Subdivision Act 1988, Victoria",
+                        "href": "vic-leg:sa1988153/s12.html",
+                        "burdenedParcels": [
+                            "1-PS914576X",
+                            "2-PS914576X",
+                            "3-PS914576X"
+                        ],
+                        "benefited": {
+                            "references": [
+                                "Maribyrnong City Council"
+                            ]
+                        }
+                    },
+                    {
+                        "interestLink": "987-456-327",
+                        "interestType": "vic-interest-type:easement-in-gross-drainage-sewerage",
+                        "label": "E1",
+                        "purpose": "vic-secondary-parcel-purpose:easement-in-gross-sewerage",
+                        "statuteName": "Section 12(2) of the Subdivision Act 1988, Victoria",
+                        "href": "vic-leg:sa1988153/s12.html",
+                        "burdenedParcels": [
+                            "1-PS914576X",
+                            "2-PS914576X",
+                            "3-PS914576X"
+                        ],
+                        "benefited": {
+                            "references": [
+                                "Greater Western Water Corporation"
+                            ]
+                        }
+                    }
+                ],
+                "label": null
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "SecondaryParcel",
+            "featureType": "parcel",
+            "links": [],
+            "time": "",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            144.8674472840422,
+                            -37.78446850394886
+                        ],
+                        [
+                            144.86745208753354,
+                            -37.78446382384797
+                        ],
+                        [
+                            144.86761885306854,
+                            -37.78458312875981
+                        ],
+                        [
+                            144.86761393317684,
+                            -37.78458773043118
+                        ],
+                        [
+                            144.8674472840422,
+                            -37.78446850394886
+                        ]
+                    ]
+                ]
+            },
+            "place": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            312210.0069,
+                            5815956.4223
+                        ],
+                        [
+                            312210.41809,
+                            5815956.95129
+                        ],
+                        [
+                            312225.40699,
+                            5815944.04741
+                        ],
+                        [
+                            312224.98535,
+                            5815943.52689
+                        ],
+                        [
+                            312210.0069,
+                            5815956.4223
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "appellation": {
+                    "label": "Area E2 LP 59092",
+                    "hasPart": [
+                        {
+                            "type": "ParcelType",
+                            "label": "Area"
+                        },
+                        {
+                            "type": "ParcelIdentifier",
+                            "label": "E2"
+                        },
+                        {
+                            "type": "PlanType",
+                            "label": "LP"
+                        },
+                        {
+                            "type": "PlanIdentifier",
+                            "label": "59092"
+                        }
+                    ]
+                },
+                "area": 13.2,
+                "parcelPurpose": "vic-secondary-parcel-purpose:d",
+                "parcelState": "vic-parcel-state:existing",
+                "interests": [
+                    {
+                        "interestLink": "987-456-328",
+                        "label": "E2",
+                        "interestType": "vic-interest-type:easement-in-gross-drainage-sewerage",
+                        "purpose": "vic-secondary-parcel-purpose:easement-in-gross-sewerage",
+                        "statuteName": "Section 12(2) of the Subdivision Act 1988, Victoria",
+                        "href": "vic-leg:sa1988153/s12.html",
+                        "burdenedParcels": [
+                            "1-PS914576X",
+                            "2-PS914576X",
+                            "3-PS914576X"
+                        ],
+                        "benefited": {
+                            "references": [
+                                "Greater Western Water Corporation"
+                            ]
+                        }
+                    }
+                ],
+                "label": null
+            }
+        }
+    ]
+}

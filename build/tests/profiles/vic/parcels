@@ -1,0 +1,1150 @@
+{
+  "id": "PS914576X",
+  "name": "PS 914576 X",
+  "description": "Victoria Parcels Example",
+  "type": "FeatureCollection",
+  "featureType": "CSD",
+  "purpose": "vic-survey-purpose:22-subdivision",
+  "surveyType": "vic-survey-type:survey",
+  "time": {
+    "date": "2022-09-19"
+  },
+  "horizontalCRS": "epsg:7855",
+  "bearingRotation": 0.0,
+  "surveyTitle": "Subdivision of Crown Portion 16 (Part)",
+  "adminUnit": [
+    {
+      "href": "vic-county:1006",
+      "rel": "related",
+      "role": "icsm-admin-unit-type:county"
+    },
+    {
+      "href": "vic-parish:2478",
+      "rel": "related",
+      "role": "icsm-admin-unit-type:parish"
+    },
+    {
+      "href": "vic-local-government-area:341",
+      "rel": "related",
+      "role": "icsm-admin-unit-type:localGovernmentArea"
+    }
+  ],
+  "wasGeneratedBy": {
+    "id": "DP-1-S2",
+    "endedAtTime": "2029-01-01T01:02:03Z"
+  },
+  "features": [],
+  "referencedCSDs": [
+    {
+      "id": "PS904234K",
+      "name": "PS 904234 K",
+      "adminUnit": {
+        "href": "vic-parish:2478",
+        "rel": "related",
+        "role": "icsm-admin-unit-type:parish"
+      },
+      "bearingRotation": 0.0,
+      "time": {
+        "date": "2020-11-27"
+      }
+    },
+    {
+      "id": "PS903783E",
+      "name": "PS 903783 E",
+      "adminUnit": {
+        "href": "vic-parish:2478",
+        "rel": "related",
+        "role": "icsm-admin-unit-type:parish"
+      },
+      "bearingRotation": 0.0,
+      "time": {
+        "date": "2020-11-27"
+      }
+    },
+    {
+      "id": "PS444239L",
+      "name": "PS 444239 L",
+      "adminUnit": {
+        "href": "vic-parish:2478",
+        "rel": "related",
+        "role": "icsm-admin-unit-type:parish"
+      },
+      "bearingRotation": 0.0,
+      "time": {
+        "date": "2020-11-27"
+      }
+    },
+    {
+      "id": "LP59092",
+      "name": "LP 59092",
+      "adminUnit": {
+        "href": "vic-parish:2478",
+        "rel": "related",
+        "role": "icsm-admin-unit-type:parish"
+      },
+      "bearingRotation": -7.05,
+      "time": {
+        "date": "2020-11-27"
+      }
+    }
+  ],
+  "points": [
+    {
+      "id": "BoundaryMark",
+      "type": "FeatureCollection",
+      "featureType": "BoundaryMarks",
+      "features": [
+        {
+          "id": "CGPNT-19",
+          "type": "Feature",
+          "featureType": "BoundaryMark",
+          "time": null,
+          "geometry": null,
+          "place": {
+            "type": "Point",
+            "coordinates": [
+              312206.02541,
+              5815931.11281
+            ]
+          },
+          "properties": {
+            "name": {
+              "label": "Peg CGPNT-19",
+              "hasPart": [
+                {
+                  "type": "MarkType",
+                  "label": "Peg"
+                },
+                {
+                  "type": "MarkIdentifier",
+                  "label": "CGPNT-19"
+                }
+              ]
+            },
+            "purpose": "vic-surveypoint-purpose:boundary",
+            "fromSurvey": "PS914576X",
+            "comment": "At corner of block wall",
+            "monumentedBy": {
+              "form": "vic-monument-form:peg",
+              "condition": "vic-monument-condition:ok",
+              "state": "vic-monument-state:new"
+            }
+          }
+        },
+        {
+          "id": "CGPNT-20",
+          "type": "Feature",
+          "featureType": "BoundaryMark",
+          "time": null,
+          "geometry": null,
+          "place": {
+            "type": "Point",
+            "coordinates": [
+              312206.63248,
+              5815931.84614
+            ]
+          },
+          "properties": {
+            "name": {
+              "label": "Unmk CGPNT-20",
+              "hasPart": [
+                {
+                  "type": "MarkType",
+                  "label": "Unmk"
+                },
+                {
+                  "type": "MarkIdentifier",
+                  "label": "CGPNT-20"
+                }
+              ]
+            },
+            "purpose": "vic-surveypoint-purpose:boundary",
+            "fromSurvey": "PS914576X",
+            "comment": null,
+            "monumentedBy": {
+              "form": "vic-monument-form:nm",
+              "condition": "vic-monument-condition:ok",
+              "state": "vic-monument-state:new"
+            }
+          }
+        },
+        {
+          "id": "CGPNT-21",
+          "type": "Feature",
+          "featureType": "BoundaryMark",
+          "time": null,
+          "geometry": null,
+          "place": {
+            "type": "Point",
+            "coordinates": [
+              312206.69795,
+              5815931.79194
+            ]
+          },
+          "properties": {
+            "name": {
+              "label": "Unmk CGPNT-21",
+              "hasPart": [
+                {
+                  "type": "MarkType",
+                  "label": "Unmk"
+                },
+                {
+                  "type": "MarkIdentifier",
+                  "label": "CGPNT-21"
+                }
+              ]
+            },
+            "purpose": "vic-surveypoint-purpose:boundary",
+            "fromSurvey": "PS914576X",
+            "comment": null,
+            "monumentedBy": {
+              "form": "vic-monument-form:nm",
+              "condition": "vic-monument-condition:ok",
+              "state": "vic-monument-state:new"
+            }
+          }
+        },
+        {
+          "id": "CGPNT-22",
+          "type": "Feature",
+          "featureType": "BoundaryMark",
+          "time": null,
+          "geometry": null,
+          "place": {
+            "type": "Point",
+            "coordinates": [
+              312219.11276,
+              5815947.13283
+            ]
+          },
+          "properties": {
+            "name": {
+              "label": "Peg CGPNT-22",
+              "hasPart": [
+                {
+                  "type": "MarkType",
+                  "label": "Peg"
+                },
+                {
+                  "type": "MarkIdentifier",
+                  "label": "CGPNT-22"
+                }
+              ]
+            },
+            "purpose": "vic-surveypoint-purpose:boundary",
+            "fromSurvey": "PS914576X",
+            "comment": "At base of block wall",
+            "monumentedBy": {
+              "form": "vic-monument-form:peg",
+              "condition": "vic-monument-condition:ok",
+              "state": "vic-monument-state:new"
+            }
+          }
+        },
+        {
+          "id": "CGPNT-23",
+          "type": "Feature",
+          "featureType": "BoundaryMark",
+          "time": null,
+          "geometry": null,
+          "place": {
+            "type": "Point",
+            "coordinates": [
+              312201.95285,
+              5815936.99162
+            ]
+          },
+          "properties": {
+            "name": {
+              "label": "Peg CGPNT-23",
+              "hasPart": [
+                {
+                  "type": "MarkType",
+                  "label": "Peg"
+                },
+                {
+                  "type": "MarkIdentifier",
+                  "label": "CGPNT-23"
+                }
+              ]
+            },
+            "purpose": "vic-surveypoint-purpose:boundary",
+            "fromSurvey": "PS914576X",
+            "comment": "At base of block wall",
+            "monumentedBy": {
+              "form": "vic-monument-form:peg",
+              "condition": "vic-monument-condition:ok",
+              "state": "vic-monument-state:new"
+            }
+          }
+        },
+        {
+          "id": "CGPNT-24",
+          "type": "Feature",
+          "featureType": "BoundaryMark",
+          "time": null,
+          "geometry": null,
+          "place": {
+            "type": "Point",
+            "coordinates": [
+              312204.38578,
+              5815939.99222
+            ]
+          },
+          "properties": {
+            "name": {
+              "label": "Unmk CGPNT-24",
+              "hasPart": [
+                {
+                  "type": "MarkType",
+                  "label": "Unmk"
+                },
+                {
+                  "type": "MarkIdentifier",
+                  "label": "CGPNT-24"
+                }
+              ]
+            },
+            "purpose": "vic-surveypoint-purpose:boundary",
+            "fromSurvey": "PS914576X",
+            "comment": null,
+            "monumentedBy": {
+              "form": "vic-monument-form:nm",
+              "condition": "vic-monument-condition:ok",
+              "state": "vic-monument-state:new"
+            }
+          }
+        },
+        {
+          "id": "CGPNT-25",
+          "type": "Feature",
+          "featureType": "BoundaryMark",
+          "time": null,
+          "geometry": null,
+          "place": {
+            "type": "Point",
+            "coordinates": [
+              312204.29643,
+              5815940.06462
+            ]
+          },
+          "properties": {
+            "name": {
+              "label": "Unmk CGPNT-25",
+              "hasPart": [
+                {
+                  "type": "MarkType",
+                  "label": "Unmk"
+                },
+                {
+                  "type": "MarkIdentifier",
+                  "label": "CGPNT-25"
+                }
+              ]
+            },
+            "purpose": "vic-surveypoint-purpose:boundary",
+            "fromSurvey": "PS914576X",
+            "comment": null,
+            "monumentedBy": {
+              "form": "vic-monument-form:nm",
+              "condition": "vic-monument-condition:ok",
+              "state": "vic-monument-state:new"
+            }
+          }
+        },
+        {
+          "id": "CGPNT-26",
+          "type": "Feature",
+          "featureType": "BoundaryMark",
+          "time": null,
+          "geometry": null,
+          "place": {
+            "type": "Point",
+            "coordinates": [
+              312208.1949,
+              5815944.87274
+            ]
+          },
+          "properties": {
+            "name": {
+              "label": "Unmk CGPNT-26",
+              "hasPart": [
+                {
+                  "type": "MarkType",
+                  "label": "Unmk"
+                },
+                {
+                  "type": "MarkIdentifier",
+                  "label": "CGPNT-26"
+                }
+              ]
+            },
+            "purpose": "vic-surveypoint-purpose:boundary",
+            "fromSurvey": "PS914576X",
+            "comment": null,
+            "monumentedBy": {
+              "form": "vic-monument-form:nm",
+              "condition": "vic-monument-condition:ok",
+              "state": "vic-monument-state:new"
+            }
+          }
+        },
+        {
+          "id": "CGPNT-27",
+          "type": "Feature",
+          "featureType": "BoundaryMark",
+          "time": null,
+          "geometry": null,
+          "place": {
+            "type": "Point",
+            "coordinates": [
+              312208.28425,
+              5815944.80034
+            ]
+          },
+          "properties": {
+            "name": {
+              "label": "Unmk CGPNT-27",
+              "hasPart": [
+                {
+                  "type": "MarkType",
+                  "label": "Unmk"
+                },
+                {
+                  "type": "MarkIdentifier",
+                  "label": "CGPNT-27"
+                }
+              ]
+            },
+            "purpose": "vic-surveypoint-purpose:boundary",
+            "fromSurvey": "PS914576X",
+            "comment": null,
+            "monumentedBy": {
+              "form": "vic-monument-form:nm",
+              "condition": "vic-monument-condition:ok",
+              "state": "vic-monument-state:new"
+            }
+          }
+        },
+        {
+          "id": "CGPNT-28",
+          "type": "Feature",
+          "featureType": "BoundaryMark",
+          "time": null,
+          "geometry": null,
+          "place": {
+            "type": "Point",
+            "coordinates": [
+              312212.6872,
+              5815950.23063
+            ]
+          },
+          "properties": {
+            "name": {
+              "label": "Peg CGPNT-28",
+              "hasPart": [
+                {
+                  "type": "MarkType",
+                  "label": "Peg"
+                },
+                {
+                  "type": "MarkIdentifier",
+                  "label": "CGPNT-28"
+                }
+              ]
+            },
+            "purpose": "vic-surveypoint-purpose:boundary",
+            "fromSurvey": "PS914576X",
+            "comment": "At base of block wall",
+            "monumentedBy": {
+              "form": "vic-monument-form:peg",
+              "condition": "vic-monument-condition:ok",
+              "state": "vic-monument-state:new"
+            }
+          }
+        },
+        {
+          "id": "CGPNT-43",
+          "type": "Feature",
+          "featureType": "BoundaryMark",
+          "time": null,
+          "geometry": null,
+          "place": {
+            "type": "Point",
+            "coordinates": [
+              312216.11463,
+              5815954.46189
+            ]
+          },
+          "properties": {
+            "name": {
+              "label": "Peg CGPNT-43",
+              "hasPart": [
+                {
+                  "type": "MarkType",
+                  "label": "Peg"
+                },
+                {
+                  "type": "MarkIdentifier",
+                  "label": "CGPNT-43"
+                }
+              ]
+            },
+            "purpose": "vic-surveypoint-purpose:boundary",
+            "fromSurvey": "PS914576X",
+            "comment": "0.06m NE of PALS (10+)",
+            "monumentedBy": {
+              "form": "vic-monument-form:peg",
+              "condition": "vic-monument-condition:ok",
+              "state": "vic-monument-state:new"
+            }
+          }
+        },
+        {
+          "id": "CGPNT-44",
+          "type": "Feature",
+          "featureType": "BoundaryMark",
+          "time": null,
+          "geometry": null,
+          "place": {
+            "type": "Point",
+            "coordinates": [
+              312196.91361,
+              5815930.77052
+            ]
+          },
+          "properties": {
+            "name": {
+              "label": "Peg CGPNT-44",
+              "hasPart": [
+                {
+                  "type": "MarkType",
+                  "label": "Peg"
+                },
+                {
+                  "type": "MarkIdentifier",
+                  "label": "CGPNT-44"
+                }
+              ]
+            },
+            "purpose": "vic-surveypoint-purpose:boundary",
+            "fromSurvey": "PS914576X",
+            "comment": "0.05 SE of Rec. Metal Sheet Fence, 1.00m NE of Rivert in footpath",
+            "monumentedBy": {
+              "form": "vic-monument-form:peg",
+              "condition": "vic-monument-condition:ok",
+              "state": "vic-monument-state:new"
+            }
+          }
+        },
+        {
+          "id": "CGPNT-46",
+          "type": "Feature",
+          "featureType": "BoundaryMark",
+          "time": null,
+          "geometry": null,
+          "place": {
+            "type": "Point",
+            "coordinates": [
+              312221.37864,
+              5815949.93013
+            ]
+          },
+          "properties": {
+            "name": {
+              "label": "Unmk CGPNT-46",
+              "hasPart": [
+                {
+                  "type": "MarkType",
+                  "label": "Unmk"
+                },
+                {
+                  "type": "MarkIdentifier",
+                  "label": "CGPNT-46"
+                }
+              ]
+            },
+            "purpose": "vic-surveypoint-purpose:boundary",
+            "fromSurvey": "PS914576X",
+            "comment": "Impractical to mark",
+            "monumentedBy": {
+              "form": "vic-monument-form:nm",
+              "condition": "vic-monument-condition:ok",
+              "state": "vic-monument-state:new"
+            }
+          }
+        },
+        {
+          "id": "CGPNT-47",
+          "type": "Feature",
+          "featureType": "BoundaryMark",
+          "time": null,
+          "geometry": null,
+          "place": {
+            "type": "Point",
+            "coordinates": [
+              312202.11852,
+              5815926.28963
+            ]
+          },
+          "properties": {
+            "name": {
+              "label": "Peg CGPNT-47",
+              "hasPart": [
+                {
+                  "type": "MarkType",
+                  "label": "Peg"
+                },
+                {
+                  "type": "MarkIdentifier",
+                  "label": "CGPNT-47"
+                }
+              ]
+            },
+            "purpose": "vic-surveypoint-purpose:boundary",
+            "fromSurvey": "PS914576X",
+            "comment": "0.07m from post",
+            "monumentedBy": {
+              "form": "vic-monument-form:peg",
+              "condition": "vic-monument-condition:ok",
+              "state": "vic-monument-state:new"
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "vectorObservations": [
+    {
+      "id": "vectorobservation:theodolite+edm",
+      "type": "FeatureCollection",
+      "featureType": "sosa:ObservationCollection",
+      "usedProcedure": "vic-procedure-used:m",
+      "properties": {
+        "resultTime": "2022-09-19T00:00:00",
+        "observedProperty": "surveyable:VectorDetermination",
+        "madeBySensor": {
+          "sensorType": "icsm-equipment-type:t-edm"
+        }
+      },
+      "features": [
+        {
+          "type": "Feature",
+          "geometry": null,
+          "properties": {
+            "hasFeatureOfInterest": "OBS-16",
+            "resultTime": "2022-09-19T00:00:00",
+            "hasResult": {
+              "distance": 5.445,
+              "angle": 219.008333333333
+            },
+            "distanceType": "icsm-distance-type:horizontal",
+            "angleType": "icsm-angle-type:bearing"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": null,
+          "properties": {
+            "hasFeatureOfInterest": "OBS-22",
+            "resultTime": "2022-09-19T00:00:00",
+            "hasResult": {
+              "distance": 8.006,
+              "angle": 219.008333333333
+            },
+            "distanceType": "icsm-distance-type:horizontal",
+            "angleType": "icsm-angle-type:bearing"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": null,
+          "properties": {
+            "hasFeatureOfInterest": "OBS-24",
+            "resultTime": "2022-09-19T00:00:00",
+            "hasResult": {
+              "distance": 6.946,
+              "angle": 130.725
+            },
+            "distanceType": "icsm-distance-type:horizontal",
+            "angleType": "icsm-angle-type:bearing"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": null,
+          "properties": {
+            "hasFeatureOfInterest": "OBS-25",
+            "resultTime": "2022-09-19T00:00:00",
+            "hasResult": {
+              "distance": 3.6,
+              "angle": 219.008333333333
+            },
+            "distanceType": "icsm-distance-type:horizontal",
+            "angleType": "icsm-angle-type:bearing"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": null,
+          "properties": {
+            "hasFeatureOfInterest": "OBS-29",
+            "resultTime": "2022-09-19T00:00:00",
+            "hasResult": {
+              "distance": 6.207,
+              "angle": 219.008333333333
+            },
+            "distanceType": "icsm-distance-type:horizontal",
+            "angleType": "icsm-angle-type:bearing"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": null,
+          "properties": {
+            "hasFeatureOfInterest": "OBS-30",
+            "resultTime": "2022-09-19T00:00:00",
+            "hasResult": {
+              "distance": 6.868,
+              "angle": 310.725
+            },
+            "distanceType": "icsm-distance-type:horizontal",
+            "angleType": "icsm-angle-type:bearing"
+          }
+        }
+      ]
+    },
+    {
+      "id": "vectorobservation:derived",
+      "type": "FeatureCollection",
+      "featureType": "sosa:ObservationCollection",
+      "usedProcedure": "vic-procedure-used:d",
+      "properties": {
+        "resultTime": "2022-09-19T00:00:00",
+        "observedProperty": "surveyable:VectorDetermination",
+        "madeBySensor": {
+          "sensorType": "icsm-equipment-type:software"
+        }
+      },
+      "features": [
+        {
+          "type": "Feature",
+          "geometry": null,
+          "properties": {
+            "hasFeatureOfInterest": "GENOBS-2",
+            "resultTime": "2022-09-19T00:00:00",
+            "hasResult": {
+              "distance": 0.085,
+              "angle": 129.62
+            },
+            "distanceType": "icsm-distance-type:horizontal",
+            "angleType": "icsm-angle-type:bearing"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": null,
+          "properties": {
+            "hasFeatureOfInterest": "GENOBS-4",
+            "resultTime": "2022-09-19T00:00:00",
+            "hasResult": {
+              "distance": 19.729,
+              "angle": 218.999444444444
+            },
+            "distanceType": "icsm-distance-type:horizontal",
+            "angleType": "icsm-angle-type:bearing"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": null,
+          "properties": {
+            "hasFeatureOfInterest": "GENOBS-6",
+            "resultTime": "2022-09-19T00:00:00",
+            "hasResult": {
+              "distance": 0.952,
+              "angle": 219.619166666667
+            },
+            "distanceType": "icsm-distance-type:horizontal",
+            "angleType": "icsm-angle-type:bearing"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": null,
+          "properties": {
+            "hasFeatureOfInterest": "GENOBS-8",
+            "resultTime": "2022-09-19T00:00:00",
+            "hasResult": {
+              "distance": 0.115,
+              "angle": 309.017777777778
+            },
+            "distanceType": "icsm-distance-type:horizontal",
+            "angleType": "icsm-angle-type:bearing"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": null,
+          "properties": {
+            "hasFeatureOfInterest": "GENOBS-10",
+            "resultTime": "2022-09-19T00:00:00",
+            "hasResult": {
+              "distance": 0.115,
+              "angle": 129.017777777778
+            },
+            "distanceType": "icsm-distance-type:horizontal",
+            "angleType": "icsm-angle-type:bearing"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": null,
+          "properties": {
+            "hasFeatureOfInterest": "GENOBS-12",
+            "resultTime": "2022-09-19T00:00:00",
+            "hasResult": {
+              "distance": 6.991,
+              "angle": 39.0363888888889
+            },
+            "distanceType": "icsm-distance-type:horizontal",
+            "angleType": "icsm-angle-type:bearing"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": null,
+          "properties": {
+            "hasFeatureOfInterest": "GENOBS-14",
+            "resultTime": "2022-09-19T00:00:00",
+            "hasResult": {
+              "distance": 6.19,
+              "angle": 219.035555555556
+            },
+            "distanceType": "icsm-distance-type:horizontal",
+            "angleType": "icsm-angle-type:bearing"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": null,
+          "properties": {
+            "hasFeatureOfInterest": "GENOBS-16",
+            "resultTime": "2022-09-19T00:00:00",
+            "hasResult": {
+              "distance": 3.386,
+              "angle": 219.035555555556
+            },
+            "distanceType": "icsm-distance-type:horizontal",
+            "angleType": "icsm-angle-type:bearing"
+          }
+        }
+      ]
+    }
+  ],
+  "observedVectors": [
+    {
+      "id": "observedVectors",
+      "type": "FeatureCollection",
+      "featureType": "ObservedVector",
+      "features": [
+        {
+          "id": "GENOBS-2",
+          "type": "Feature",
+          "geometry": null,
+          "topology": {
+            "type": "LineString",
+            "references": [
+              "CGPNT-20",
+              "CGPNT-21"
+            ]
+          },
+          "properties": {
+            "vectorPurpose": "vic-vector-purpose:normal",
+            "comment": "Exterior face of wall"
+          }
+        },
+        {
+          "id": "GENOBS-4",
+          "type": "Feature",
+          "geometry": null,
+          "topology": {
+            "type": "LineString",
+            "references": [
+              "CGPNT-22",
+              "CGPNT-21"
+            ]
+          },
+          "properties": {
+            "vectorPurpose": "vic-vector-purpose:normal",
+            "comment": "Median of wall"
+          }
+        },
+        {
+          "id": "GENOBS-6",
+          "type": "Feature",
+          "geometry": null,
+          "topology": {
+            "type": "LineString",
+            "references": [
+              "CGPNT-20",
+              "CGPNT-19"
+            ]
+          },
+          "properties": {
+            "vectorPurpose": "vic-vector-purpose:normal",
+            "comment": "Exterior face of wall"
+          }
+        },
+        {
+          "id": "GENOBS-8",
+          "type": "Feature",
+          "geometry": null,
+          "topology": {
+            "type": "LineString",
+            "references": [
+              "CGPNT-24",
+              "CGPNT-25"
+            ]
+          },
+          "properties": {
+            "vectorPurpose": "vic-vector-purpose:normal",
+            "comment": "Exterior face of wall"
+          }
+        },
+        {
+          "id": "GENOBS-10",
+          "type": "Feature",
+          "geometry": null,
+          "topology": {
+            "type": "LineString",
+            "references": [
+              "CGPNT-26",
+              "CGPNT-27"
+            ]
+          },
+          "properties": {
+            "vectorPurpose": "vic-vector-purpose:normal",
+            "comment": "Exterior face of wall"
+          }
+        },
+        {
+          "id": "GENOBS-12",
+          "type": "Feature",
+          "geometry": null,
+          "topology": {
+            "type": "LineString",
+            "references": [
+              "CGPNT-28",
+              "CGPNT-27"
+            ]
+          },
+          "properties": {
+            "vectorPurpose": "vic-vector-purpose:normal",
+            "comment": "Exterior face of wall"
+          }
+        },
+        {
+          "id": "GENOBS-14",
+          "type": "Feature",
+          "geometry": null,
+          "topology": {
+            "type": "LineString",
+            "references": [
+              "CGPNT-26",
+              "CGPNT-25"
+            ]
+          },
+          "properties": {
+            "vectorPurpose": "vic-vector-purpose:normal",
+            "comment": "Median of wall"
+          }
+        },
+        {
+          "id": "GENOBS-16",
+          "type": "Feature",
+          "geometry": null,
+          "topology": {
+            "type": "LineString",
+            "references": [
+              "CGPNT-24",
+              "CGPNT-23"
+            ]
+          },
+          "properties": {
+            "vectorPurpose": "vic-vector-purpose:normal",
+            "comment": "Exterior face of wall"
+          }
+        },
+        {
+          "id": "OBS-16",
+          "type": "Feature",
+          "geometry": null,
+          "topology": {
+            "type": "LineString",
+            "references": [
+              "CGPNT-43",
+              "CGPNT-28"
+            ]
+          },
+          "properties": {
+            "vectorPurpose": "vic-vector-purpose:normal",
+            "comment": null
+          }
+        },
+        {
+          "id": "OBS-22",
+          "type": "Feature",
+          "geometry": null,
+          "topology": {
+            "type": "LineString",
+            "references": [
+              "CGPNT-23",
+              "CGPNT-44"
+            ]
+          },
+          "properties": {
+            "vectorPurpose": "vic-vector-purpose:normal",
+            "comment": null
+          }
+        },
+        {
+          "id": "OBS-24",
+          "type": "Feature",
+          "geometry": null,
+          "topology": {
+            "type": "LineString",
+            "references": [
+              "CGPNT-43",
+              "CGPNT-46"
+            ]
+          },
+          "properties": {
+            "vectorPurpose": "vic-vector-purpose:normal",
+            "comment": null
+          }
+        },
+        {
+          "id": "OBS-25",
+          "type": "Feature",
+          "geometry": null,
+          "topology": {
+            "type": "LineString",
+            "references": [
+              "CGPNT-46",
+              "CGPNT-22"
+            ]
+          },
+          "properties": {
+            "vectorPurpose": "vic-vector-purpose:normal",
+            "comment": null
+          }
+        },
+        {
+          "id": "OBS-29",
+          "type": "Feature",
+          "geometry": null,
+          "topology": {
+            "type": "LineString",
+            "references": [
+              "CGPNT-19",
+              "CGPNT-47"
+            ]
+          },
+          "properties": {
+            "vectorPurpose": "vic-vector-purpose:normal",
+            "comment": null
+          }
+        },
+        {
+          "id": "OBS-30",
+          "type": "Feature",
+          "geometry": null,
+          "topology": {
+            "type": "LineString",
+            "references": [
+              "CGPNT-47",
+              "CGPNT-44"
+            ]
+          },
+          "properties": {
+            "vectorPurpose": "vic-vector-purpose:normal",
+            "comment": null
+          }
+        }
+      ]
+    }
+  ],
+  "parcels": [
+    {
+      "id": "PrimaryParcels",
+      "type": "FeatureCollection",
+      "featureType": "PrimaryParcel",
+      "properties": null,
+      "features": [
+        {
+          "id": "2-PS914576",
+          "type": "Feature",
+          "geometry": null,
+          "topology": {
+            "type": "Polygon",
+            "references": [
+              [
+                "OBS-30",
+                "OBS-22",
+                "GENOBS-16",
+                "GENOBS-8",
+                "GENOBS-14",
+                "GENOBS-10",
+                "GENOBS-12",
+                "OBS-16",
+                "OBS-24",
+                "OBS-25",
+                "GENOBS-4",
+                "GENOBS-2",
+                "GENOBS-6",
+                "OBS-29"
+              ]
+            ]
+          },
+          "properties": {
+            "appellation": {
+              "label": "Lot 2 PS 914576",
+              "hasPart": [
+                {
+                  "type": "ParcelType",
+                  "label": "Lot"
+                },
+                {
+                  "type": "ParcelIdentifier",
+                  "label": "2"
+                },
+                {
+                  "type": "PlanType",
+                  "label": "PS"
+                },
+                {
+                  "type": "planIdentifier",
+                  "label": "914576"
+                }
+              ]
+            },
+            "area": 212.0,
+            "parcelType": "vic-parcel-type:2D-building",
+            "parcelPurpose": "vic-parcel-purpose:lot",
+            "parcelState": "vic-parcel-state:created",
+            "interests": [
+              {
+                "interestLink": "vol-12259-f-643",
+                "interestType": "vic-interest-type:c-t"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "supportingDocuments": [],
+  "annotations": []
+}

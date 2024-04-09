@@ -1,0 +1,3088 @@
+{
+    "$schema": "schema.json",
+    "type": "FeatureCollection",
+    "horizontalCRS": "epsg:2106",
+    "id": null,
+    "name": "LT 584372",
+    "purpose": "nz-survey-purpose:lts",
+    "referencedCSDs": [
+        {
+            "id": "SO_49866",
+            "name": "SO 49866",
+            "adminUnit": {
+                "href": "nz-land-district:SA",
+                "rel": "related",
+                "role": "icsm-admin-unit-type:landDistrict"
+            },
+            "bearingRotation": 0.0,
+            "time": "2022-10-29 00:00:00"
+        },
+        {
+            "id": "SO_425484",
+            "name": "SO 425484",
+            "adminUnit": {
+                "href": "nz-land-district:SA",
+                "rel": "related",
+                "role": "icsm-admin-unit-type:landDistrict"
+            },
+            "bearingRotation": 0.0,
+            "time": "2022-10-29 00:00:00"
+        },
+        {
+            "id": "SO_503288",
+            "name": "SO 503288",
+            "adminUnit": {
+                "href": "nz-land-district:SA",
+                "rel": "related",
+                "role": "icsm-admin-unit-type:landDistrict"
+            },
+            "bearingRotation": 0.0,
+            "time": "2022-10-29 00:00:00"
+        },
+        {
+            "id": "SO_11240",
+            "name": "SO 11240",
+            "adminUnit": {
+                "href": "nz-land-district:SA",
+                "rel": "related",
+                "role": "icsm-admin-unit-type:landDistrict"
+            },
+            "bearingRotation": 0.0,
+            "time": "2022-10-29 00:00:00"
+        }
+    ],
+    "links": [],
+    "provenance": {},
+    "features": [
+        {
+            "id": "41907764",
+            "type": "Feature",
+            "featureType": "SurveyPoint",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    176.0834317769315,
+                    -38.0986919847539
+                ]
+            },
+            "place": {
+                "type": "Point",
+                "coordinates": [
+                    762460.994,
+                    366433.367
+                ]
+            },
+            "properties": {
+                "name": {
+                    "label": "PIN 5 SO 425484",
+                    "hasPart": [
+                        {
+                            "type": "PlanType",
+                            "label": "SO"
+                        },
+                        {
+                            "type": "planIdentifier",
+                            "label": "425484"
+                        },
+                        {
+                            "type": "MarkType",
+                            "label": "PIN"
+                        },
+                        {
+                            "type": "MarkIdentifier",
+                            "label": "5"
+                        }
+                    ]
+                },
+                "purpose": "nz-surveypoint-purpose:prm",
+                "fromsurvey": "SO 425484",
+                "ptQualityMeasure": 0.013,
+                "comment": "Alloy plug flush in kerb on East side of Road, 6.05m south of #30 crossing",
+                "monumentedBy": {
+                    "form": "nz-monument-form:pin",
+                    "condition": "nz-monument-condition:mkfd",
+                    "state": "nz-monument-state:old"
+                },
+                "ptQuality": "nz-point-class:6"
+            }
+        },
+        {
+            "id": "49706978",
+            "type": "Feature",
+            "featureType": "SurveyPoint",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    176.08296179657032,
+                    -38.09970587724026
+                ]
+            },
+            "place": {
+                "type": "Point",
+                "coordinates": [
+                    762348.283,
+                    366392.607
+                ]
+            },
+            "properties": {
+                "name": {
+                    "label": "NAIL C DP 584372",
+                    "hasPart": [
+                        {
+                            "type": "PlanType",
+                            "label": "DP"
+                        },
+                        {
+                            "type": "planIdentifier",
+                            "label": "584372"
+                        },
+                        {
+                            "type": "MarkType",
+                            "label": "NAIL"
+                        },
+                        {
+                            "type": "MarkIdentifier",
+                            "label": "C"
+                        }
+                    ]
+                },
+                "purpose": "nz-surveypoint-purpose:prm",
+                "fromsurvey": "DP-572532",
+                "ptQualityMeasure": 0.027,
+                "comment": "Nail flush between kerb and footpath, 3.8m South West of FH",
+                "monumentedBy": {
+                    "form": "nz-monument-form:nail",
+                    "condition": "nz-monument-condition:relb",
+                    "state": "nz-monument-state:new"
+                },
+                "ptQuality": "nz-point-class:6"
+            }
+        },
+        {
+            "id": "38969639",
+            "type": "Feature",
+            "featureType": "SurveyPoint",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    176.08392174258054,
+                    -38.099209908612586
+                ]
+            },
+            "place": {
+                "type": "Point",
+                "coordinates": [
+                    762403.682,
+                    366476.581
+                ]
+            },
+            "properties": {
+                "name": {
+                    "label": "IT IX SO 49866 (DTKC)",
+                    "hasPart": [
+                        {
+                            "type": "PlanType",
+                            "label": "SO"
+                        },
+                        {
+                            "type": "planIdentifier",
+                            "label": "49866"
+                        },
+                        {
+                            "type": "MarkType",
+                            "label": "IT"
+                        },
+                        {
+                            "type": "MarkIdentifier",
+                            "label": "IX"
+                        },
+                        {
+                            "type": "geodeticStamp",
+                            "label": "DTKC"
+                        }
+                    ]
+                },
+                "geodeticid": "DTKC",
+                "purpose": "nz-surveypoint-purpose:prm",
+                "fromsurvey": "SO 49866",
+                "ptQualityMeasure": 0.009,
+                "comment": "Down 0.6m under plastic Survey Mark lid at east side of post.",
+                "monumentedBy": {
+                    "form": "nz-monument-form:it",
+                    "condition": "nz-monument-condition:mkfd",
+                    "state": "nz-monument-state:old"
+                },
+                "ptQuality": "nz-point-class:5"
+            }
+        },
+        {
+            "id": "27949321",
+            "type": "Feature",
+            "featureType": "SurveyPoint",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    176.08210050465684,
+                    -38.098978833660716
+                ]
+            },
+            "place": {
+                "type": "Point",
+                "coordinates": [
+                    762428.672,
+                    366316.726
+                ]
+            },
+            "properties": {
+                "name": {
+                    "label": "PEG 4 SO 503288",
+                    "hasPart": [
+                        {
+                            "type": "PlanType",
+                            "label": "SO"
+                        },
+                        {
+                            "type": "planIdentifier",
+                            "label": "503288"
+                        },
+                        {
+                            "type": "MarkType",
+                            "label": "PEG"
+                        },
+                        {
+                            "type": "MarkIdentifier",
+                            "label": "4"
+                        }
+                    ]
+                },
+                "purpose": "nz-surveypoint-purpose:bacc",
+                "fromsurvey": "SO 503288",
+                "ptQualityMeasure": 0.018,
+                "comment": "1.5m south east of old totara post, 4.6m from post at intersection of fences.",
+                "monumentedBy": {
+                    "form": "nz-monument-form:peg",
+                    "condition": "nz-monument-condition:mkfd",
+                    "state": "nz-monument-state:old"
+                },
+                "ptQuality": "nz-point-class:7"
+            }
+        },
+        {
+            "id": "27949881",
+            "type": "Feature",
+            "featureType": "SurveyPoint",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    176.0826791093664,
+                    -38.099761712432574
+                ]
+            },
+            "place": {
+                "type": "Point",
+                "coordinates": [
+                    762341.983,
+                    366367.837
+                ]
+            },
+            "properties": {
+                "name": {
+                    "label": "PEG 8 SO 503288",
+                    "hasPart": [
+                        {
+                            "type": "PlanType",
+                            "label": "SO"
+                        },
+                        {
+                            "type": "planIdentifier",
+                            "label": "503288"
+                        },
+                        {
+                            "type": "MarkType",
+                            "label": "PEG"
+                        },
+                        {
+                            "type": "MarkIdentifier",
+                            "label": "8"
+                        }
+                    ]
+                },
+                "purpose": "nz-surveypoint-purpose:bndy",
+                "fromsurvey": "SO 503288",
+                "ptQualityMeasure": 0.02,
+                "comment": "0.15m south of post.",
+                "monumentedBy": {
+                    "form": "nz-monument-form:peg",
+                    "condition": "nz-monument-condition:mkfd",
+                    "state": "nz-monument-state:old"
+                },
+                "ptQuality": "nz-point-class:7"
+            }
+        },
+        {
+            "id": "27950290",
+            "type": "Feature",
+            "featureType": "SurveyPoint",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    176.08307501873114,
+                    -38.09957886679702
+                ]
+            },
+            "place": {
+                "type": "Point",
+                "coordinates": [
+                    762362.422,
+                    366402.48
+                ]
+            },
+            "properties": {
+                "name": {
+                    "label": "PEG 4 DP 584372",
+                    "hasPart": [
+                        {
+                            "type": "PlanType",
+                            "label": "DP"
+                        },
+                        {
+                            "type": "planIdentifier",
+                            "label": "584372"
+                        },
+                        {
+                            "type": "MarkType",
+                            "label": "PEG"
+                        },
+                        {
+                            "type": "MarkIdentifier",
+                            "label": "4"
+                        }
+                    ]
+                },
+                "purpose": "nz-surveypoint-purpose:bndy",
+                "fromsurvey": "DP 584372",
+                "ptQualityMeasure": 0.017,
+                "comment": "At North West face of fence, 13.8m South West of gate post.",
+                "monumentedBy": {
+                    "form": "nz-monument-form:peg",
+                    "condition": "nz-monument-condition:relb",
+                    "state": "nz-monument-state:new"
+                },
+                "ptQuality": "nz-point-class:7"
+            }
+        },
+        {
+            "id": "49706975",
+            "type": "Feature",
+            "featureType": "SurveyPoint",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    176.08249645591263,
+                    -38.09879616125421
+                ]
+            },
+            "place": {
+                "type": "Point",
+                "coordinates": [
+                    762449.092,
+                    366351.373
+                ]
+            },
+            "properties": {
+                "name": {
+                    "label": "PEG 3 DP 584372",
+                    "hasPart": [
+                        {
+                            "type": "PlanType",
+                            "label": "DP"
+                        },
+                        {
+                            "type": "planIdentifier",
+                            "label": "584372"
+                        },
+                        {
+                            "type": "MarkType",
+                            "label": "PEG"
+                        },
+                        {
+                            "type": "MarkIdentifier",
+                            "label": "3"
+                        }
+                    ]
+                },
+                "purpose": "nz-surveypoint-purpose:bacc",
+                "fromsurvey": "DP 584372",
+                "ptQualityMeasure": 0.02,
+                "comment": "Peg SO 11240 remains renewed on face of bank, 3.5m North West of fence.",
+                "monumentedBy": {
+                    "form": "nz-monument-form:peg",
+                    "condition": "nz-monument-condition:empl",
+                    "state": "nz-monument-state:repl",
+                    "replaced": "27949719",
+                    "replacedDate": "2022-10-29T00:00:00"
+                },
+                "ptQuality": "nz-point-class:7"
+            }
+        },
+        {
+            "id": "49706976",
+            "type": "Feature",
+            "featureType": "SurveyPoint",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    176.0830488790342,
+                    -38.09854113213277
+                ]
+            },
+            "place": {
+                "type": "Point",
+                "coordinates": [
+                    762477.6,
+                    366399.712
+                ]
+            },
+            "properties": {
+                "name": {
+                    "label": "PEG 2 SO 584372",
+                    "hasPart": [
+                        {
+                            "type": "PlanType",
+                            "label": "SO"
+                        },
+                        {
+                            "type": "planIdentifier",
+                            "label": "584372"
+                        },
+                        {
+                            "type": "MarkType",
+                            "label": "PEG"
+                        },
+                        {
+                            "type": "MarkIdentifier",
+                            "label": "2"
+                        }
+                    ]
+                },
+                "purpose": "nz-surveypoint-purpose:bacc",
+                "fromsurvey": "DP 584372",
+                "ptQualityMeasure": 0.021,
+                "comment": "Peg SO 11240 remains renewed, 1.1m North West of old post, 0.85m North East of fence.",
+                "monumentedBy": {
+                    "form": "nz-monument-form:peg",
+                    "condition": "nz-monument-condition:empl",
+                    "state": "nz-monument-state:repl",
+                    "replaced": "27950254",
+                    "replacedDate": "2022-10-29T00:00:00"
+                },
+                "ptQuality": "nz-point-class:7"
+            }
+        },
+        {
+            "id": "49706977",
+            "type": "Feature",
+            "featureType": "SurveyPoint",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    176.08362770878958,
+                    -38.099323682711756
+                ]
+            },
+            "place": {
+                "type": "Point",
+                "coordinates": [
+                    762390.947,
+                    366450.842
+                ]
+            },
+            "properties": {
+                "name": {
+                    "label": "PEG 1 DP 584372",
+                    "hasPart": [
+                        {
+                            "type": "PlanType",
+                            "label": "DP"
+                        },
+                        {
+                            "type": "planIdentifier",
+                            "label": "584372"
+                        },
+                        {
+                            "type": "MarkType",
+                            "label": "PEG"
+                        },
+                        {
+                            "type": "MarkIdentifier",
+                            "label": "1"
+                        }
+                    ]
+                },
+                "purpose": "nz-surveypoint-purpose:bacc",
+                "fromsurvey": "DP 584372",
+                "ptQualityMeasure": 0.022,
+                "comment": "Peg SO 11240 remains renewed. 0.1m North West of fence, 7.6m South West of post.",
+                "monumentedBy": {
+                    "form": "nz-monument-form:peg",
+                    "condition": "nz-monument-condition:empl",
+                    "state": "nz-monument-state:repl",
+                    "replaced": "27950844",
+                    "replacedDate": "2022-10-29T00:00:00"
+                },
+                "ptQuality": "nz-point-class:7"
+            }
+        },
+        {
+            "id": "49706979",
+            "type": "Feature",
+            "featureType": "SurveyPoint",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    176.08305544523134,
+                    -38.09854996443274
+                ]
+            },
+            "place": {
+                "type": "Point",
+                "coordinates": [
+                    762476.622,
+                    366400.292
+                ]
+            },
+            "properties": {
+                "name": {
+                    "label": "PEG 5 DP 584372",
+                    "hasPart": [
+                        {
+                            "type": "PlanType",
+                            "label": "DP"
+                        },
+                        {
+                            "type": "planIdentifier",
+                            "label": "584372"
+                        },
+                        {
+                            "type": "MarkType",
+                            "label": "PEG"
+                        },
+                        {
+                            "type": "MarkIdentifier",
+                            "label": "5"
+                        }
+                    ]
+                },
+                "purpose": "nz-surveypoint-purpose:bndy",
+                "fromsurvey": "DP 584372",
+                "ptQualityMeasure": 0.023,
+                "comment": "0.14m North East of old post.",
+                "monumentedBy": {
+                    "form": "nz-monument-form:peg",
+                    "condition": "nz-monument-condition:relb",
+                    "state": "nz-monument-state:new"
+                },
+                "ptQuality": "nz-point-class:7"
+            }
+        },
+        {
+            "id": "49706980",
+            "type": "Feature",
+            "featureType": "SurveyPoint",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    176.08251628948514,
+                    -38.09882298301216
+                ]
+            },
+            "place": {
+                "type": "Point",
+                "coordinates": [
+                    762446.122,
+                    366353.125
+                ]
+            },
+            "properties": {
+                "name": {
+                    "label": "PEG 6 DP 584372",
+                    "hasPart": [
+                        {
+                            "type": "PlanType",
+                            "label": "DP"
+                        },
+                        {
+                            "type": "planIdentifier",
+                            "label": "584372"
+                        },
+                        {
+                            "type": "MarkType",
+                            "label": "PEG"
+                        },
+                        {
+                            "type": "MarkIdentifier",
+                            "label": "6"
+                        }
+                    ]
+                },
+                "purpose": "nz-surveypoint-purpose:bndy",
+                "fromsurvey": "DP 584372",
+                "ptQualityMeasure": 0.021,
+                "comment": "In old fence.",
+                "monumentedBy": {
+                    "form": "nz-monument-form:peg",
+                    "condition": "nz-monument-condition:relb",
+                    "state": "nz-monument-state:new"
+                },
+                "ptQuality": "nz-point-class:7"
+            }
+        },
+        {
+            "id": "49706981",
+            "type": "Feature",
+            "featureType": "SurveyPoint",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    176.0821271628852,
+                    -38.09901517337123
+                ]
+            },
+            "place": {
+                "type": "Point",
+                "coordinates": [
+                    762424.648,
+                    366319.081
+                ]
+            },
+            "properties": {
+                "name": {
+                    "label": "PEG 7 DP 584372",
+                    "hasPart": [
+                        {
+                            "type": "PlanType",
+                            "label": "DP"
+                        },
+                        {
+                            "type": "planIdentifier",
+                            "label": "584372"
+                        },
+                        {
+                            "type": "MarkType",
+                            "label": "PEG"
+                        },
+                        {
+                            "type": "MarkIdentifier",
+                            "label": "7"
+                        }
+                    ]
+                },
+                "purpose": "nz-surveypoint-purpose:bndy",
+                "fromsurvey": "DP 584372",
+                "ptQualityMeasure": 0.019,
+                "comment": "0.72m North East of post, 0.1m South East of old fence.",
+                "monumentedBy": {
+                    "form": "nz-monument-form:peg",
+                    "condition": "nz-monument-condition:relb",
+                    "state": "nz-monument-state:new"
+                },
+                "ptQuality": "nz-point-class:7"
+            }
+        },
+        {
+            "id": "49706982",
+            "type": "Feature",
+            "featureType": "SurveyPoint",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    176.08263976792836,
+                    -38.09875774577415
+                ]
+            },
+            "place": {
+                "type": "Point",
+                "coordinates": [
+                    762453.408,
+                    366363.926
+                ]
+            },
+            "properties": {
+                "name": {
+                    "label": "PEG 8 DP 584372",
+                    "hasPart": [
+                        {
+                            "type": "PlanType",
+                            "label": "DP"
+                        },
+                        {
+                            "type": "planIdentifier",
+                            "label": "584372"
+                        },
+                        {
+                            "type": "MarkType",
+                            "label": "PEG"
+                        },
+                        {
+                            "type": "MarkIdentifier",
+                            "label": "8"
+                        }
+                    ]
+                },
+                "purpose": "nz-surveypoint-purpose:bndy",
+                "fromsurvey": "DP 584372",
+                "ptQualityMeasure": 0.023,
+                "comment": "Peg at intersection of fences, 0.55m North West of old post.",
+                "monumentedBy": {
+                    "form": "nz-monument-form:peg",
+                    "condition": "nz-monument-condition:relb",
+                    "state": "nz-monument-state:new"
+                },
+                "ptQuality": "nz-point-class:7"
+            }
+        },
+        {
+            "id": "4494876",
+            "type": "Feature",
+            "featureType": "SurveyPoint",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    176.08370413924024,
+                    -38.09928857978375
+                ]
+            },
+            "place": {
+                "type": "Point",
+                "coordinates": [
+                    762394.871,
+                    366457.53
+                ]
+            },
+            "properties": {
+                "name": {
+                    "label": "Post I LT 584372",
+                    "hasPart": [
+                        {
+                            "type": "PlanType",
+                            "label": "LT"
+                        },
+                        {
+                            "type": "planIdentifier",
+                            "label": "584372"
+                        },
+                        {
+                            "type": "MarkType",
+                            "label": "Post"
+                        },
+                        {
+                            "type": "MarkIdentifier",
+                            "label": "I"
+                        }
+                    ]
+                },
+                "purpose": "nz-surveypoint-purpose:occupation",
+                "fromSurvey": "LT_584372",
+                "note": "Wooden Post 7.6 m North East of Peg 1 LT 584372",
+                "age": "40+ years"
+            }
+        },
+        {
+            "id": "4494877",
+            "type": "Feature",
+            "featureType": "SurveyPoint",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    176.08318910448952,
+                    -38.09945669693867
+                ]
+            },
+            "place": {
+                "type": "Point",
+                "coordinates": [
+                    762376.024,
+                    366412.431
+                ]
+            },
+            "properties": {
+                "name": {
+                    "label": "Post II LT 584372",
+                    "hasPart": [
+                        {
+                            "type": "PlanType",
+                            "label": "LT"
+                        },
+                        {
+                            "type": "planIdentifier",
+                            "label": "584372"
+                        },
+                        {
+                            "type": "MarkType",
+                            "label": "Post"
+                        },
+                        {
+                            "type": "MarkIdentifier",
+                            "label": "II"
+                        }
+                    ]
+                },
+                "purpose": "nz-surveypoint-purpose:occupation",
+                "fromSurvey": "LT_584372",
+                "note": "Wooden Post",
+                "age": "40+ years"
+            }
+        },
+        {
+            "id": "4494878",
+            "type": "Feature",
+            "featureType": "SurveyPoint",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    176.08321112294678,
+                    -38.09951714763443
+                ]
+            },
+            "place": {
+                "type": "Point",
+                "coordinates": [
+                    762369.322,
+                    366414.39
+                ]
+            },
+            "properties": {
+                "name": {
+                    "label": "Post III LT 584372",
+                    "hasPart": [
+                        {
+                            "type": "PlanType",
+                            "label": "LT"
+                        },
+                        {
+                            "type": "planIdentifier",
+                            "label": "584372"
+                        },
+                        {
+                            "type": "MarkType",
+                            "label": "Post"
+                        },
+                        {
+                            "type": "MarkIdentifier",
+                            "label": "III"
+                        }
+                    ]
+                },
+                "purpose": "nz-surveypoint-purpose:occupation",
+                "fromSurvey": "LT_584372",
+                "note": "Wooden Gate Post",
+                "age": "40+ years"
+            }
+        },
+        {
+            "id": "4494879",
+            "type": "Feature",
+            "featureType": "SurveyPoint",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    176.0832368939744,
+                    -38.09950516843172
+                ]
+            },
+            "place": {
+                "type": "Point",
+                "coordinates": [
+                    762370.661,
+                    366416.645
+                ]
+            },
+            "properties": {
+                "name": {
+                    "label": "Post IV LT 584372",
+                    "hasPart": [
+                        {
+                            "type": "PlanType",
+                            "label": "LT"
+                        },
+                        {
+                            "type": "planIdentifier",
+                            "label": "584372"
+                        },
+                        {
+                            "type": "MarkType",
+                            "label": "Post"
+                        },
+                        {
+                            "type": "MarkIdentifier",
+                            "label": "IV"
+                        }
+                    ]
+                },
+                "purpose": "nz-surveypoint-purpose:occupation",
+                "fromSurvey": "LT_584372",
+                "note": "Wooden Gate Post",
+                "age": "40+ years"
+            }
+        },
+        {
+            "id": "4494880",
+            "type": "Feature",
+            "featureType": "SurveyPoint",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    176.08305441600365,
+                    -38.09855057369606
+                ]
+            },
+            "place": {
+                "type": "Point",
+                "coordinates": [
+                    762476.554,
+                    366400.202
+                ]
+            },
+            "properties": {
+                "name": {
+                    "label": "Post V LT 584372",
+                    "hasPart": [
+                        {
+                            "type": "PlanType",
+                            "label": "LT"
+                        },
+                        {
+                            "type": "planIdentifier",
+                            "label": "584372"
+                        },
+                        {
+                            "type": "MarkType",
+                            "label": "Post"
+                        },
+                        {
+                            "type": "MarkIdentifier",
+                            "label": "V"
+                        }
+                    ]
+                },
+                "purpose": "nz-surveypoint-purpose:occupation",
+                "fromSurvey": "LT_584372",
+                "note": "Wooden Post 0.14m South West of Peg 2 LT 584372",
+                "age": "60+ years"
+            }
+        },
+        {
+            "id": "4494881",
+            "type": "Feature",
+            "featureType": "SurveyPoint",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    176.08264508293797,
+                    -38.098755114445225
+                ]
+            },
+            "place": {
+                "type": "Point",
+                "coordinates": [
+                    762453.702,
+                    366364.391
+                ]
+            },
+            "properties": {
+                "name": {
+                    "label": "Post VI LT 584372",
+                    "hasPart": [
+                        {
+                            "type": "PlanType",
+                            "label": "LT"
+                        },
+                        {
+                            "type": "PlanIdentifier",
+                            "label": "584372"
+                        },
+                        {
+                            "type": "MarkType",
+                            "label": "Post"
+                        },
+                        {
+                            "type": "MarkIdentifier",
+                            "label": "VI"
+                        }
+                    ]
+                },
+                "purpose": "nz-surveypoint-purpose:occupation",
+                "fromSurvey": "LT_584372",
+                "note": "Wooden Post 0.55m South East of Peg 8 LT 584372",
+                "age": "40+ years"
+            }
+        },
+        {
+            "id": "4494882",
+            "type": "Feature",
+            "featureType": "SurveyPoint",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    176.0826782494707,
+                    -38.09976045736272
+                ]
+            },
+            "place": {
+                "type": "Point",
+                "coordinates": [
+                    762342.122,
+                    366367.761
+                ]
+            },
+            "properties": {
+                "name": {
+                    "label": "Post VII LT 584372",
+                    "hasPart": [
+                        {
+                            "type": "PlanType",
+                            "label": "LT"
+                        },
+                        {
+                            "type": "PlanIdentifier",
+                            "label": "584372"
+                        },
+                        {
+                            "type": "MarkType",
+                            "label": "Post"
+                        },
+                        {
+                            "type": "MarkIdentifier",
+                            "label": "VII"
+                        }
+                    ]
+                },
+                "purpose": "nz-surveypoint-purpose:occupation",
+                "fromSurvey": "LT_584372",
+                "note": "Wooden Post 0.15 North of Peg 8 SO 503288",
+                "age": "40+ years"
+            }
+        },
+        {
+            "id": "4494883",
+            "type": "Feature",
+            "featureType": "SurveyPoint",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    176.0830754385271,
+                    -38.099579255556456
+                ]
+            },
+            "place": {
+                "type": "Point",
+                "coordinates": [
+                    762362.379,
+                    366402.517
+                ]
+            },
+            "properties": {
+                "name": {
+                    "label": "Post VIII LT 584372",
+                    "hasPart": [
+                        {
+                            "type": "PlanType",
+                            "label": "LT"
+                        },
+                        {
+                            "type": "PlanIdentifier",
+                            "label": "584372"
+                        },
+                        {
+                            "type": "MarkType",
+                            "label": "Post"
+                        },
+                        {
+                            "type": "MarkIdentifier",
+                            "label": "VIII"
+                        }
+                    ]
+                },
+                "purpose": "nz-surveypoint-purpose:occupation",
+                "fromSurvey": "LT_584372",
+                "note": "Wooden Post. Peg 4 LT 584372 on North face of post. Post is 13.8m South West of gate post.",
+                "age": "40+ years"
+            }
+        },
+        {
+            "id": "4494884",
+            "type": "Feature",
+            "featureType": "SurveyPoint",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    176.0820857456518,
+                    -38.09897138896118
+                ]
+            },
+            "place": {
+                "type": "Point",
+                "coordinates": [
+                    762429.493,
+                    366315.428
+                ]
+            },
+            "properties": {
+                "name": {
+                    "label": "Post IX LT 584372",
+                    "hasPart": [
+                        {
+                            "type": "PlanType",
+                            "label": "LT"
+                        },
+                        {
+                            "type": "PlanIdentifier",
+                            "label": "584372"
+                        },
+                        {
+                            "type": "MarkType",
+                            "label": "Post"
+                        },
+                        {
+                            "type": "MarkIdentifier",
+                            "label": "IX"
+                        }
+                    ]
+                },
+                "purpose": "nz-surveypoint-purpose:occupation",
+                "fromSurvey": "LT_584372",
+                "note": "Old Totara Post 1.5m North West of Peg 4 SO 503288",
+                "age": "60+ years"
+            }
+        },
+        {
+            "id": "4494885",
+            "type": "Feature",
+            "featureType": "SurveyPoint",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    176.08211916289798,
+                    -38.09901891303014
+                ]
+            },
+            "place": {
+                "type": "Point",
+                "coordinates": [
+                    762424.23,
+                    366318.381
+                ]
+            },
+            "properties": {
+                "name": {
+                    "label": "Post X LT 584372",
+                    "hasPart": [
+                        {
+                            "type": "PlanType",
+                            "label": "LT"
+                        },
+                        {
+                            "type": "PlanIdentifier",
+                            "label": "584372"
+                        },
+                        {
+                            "type": "MarkType",
+                            "label": "Post"
+                        },
+                        {
+                            "type": "MarkIdentifier",
+                            "label": "X"
+                        }
+                    ]
+                },
+                "purpose": "nz-surveypoint-purpose:occupation",
+                "fromSurvey": "LT 584372",
+                "note": "Wooden Post 0.72m South West of Peg 7 LT 584372",
+                "age": "40+ years"
+            }
+        },
+        {
+            "id": "8698340",
+            "type": "Feature",
+            "featureType": "sosa:ObservationCollection",
+            "geometry": {
+                "type": "LineString",
+                "featureType": "observation",
+                "coordinates": [
+                    [
+                        176.0834317769315,
+                        -38.0986919847539
+                    ],
+                    [
+                        176.0830488790342,
+                        -38.09854113213277
+                    ]
+                ]
+            },
+            "place": {
+                "type": "LineString",
+                "featureType": "observation",
+                "coordinates": [
+                    [
+                        762460.994,
+                        366433.367
+                    ],
+                    [
+                        762477.6,
+                        366399.712
+                    ]
+                ]
+            },
+            "properties": {
+                "name": {
+                    "label": "7986266",
+                    "hasPart": []
+                },
+                "purpose": "nz-surveypoint-purpose:prm",
+                "fromsurvey": "SO 425484",
+                "ptQualityMeasure": 0.013,
+                "comment": null,
+                "monumentedBy": {
+                    "form": "nz-monument-form:pin",
+                    "condition": "nz-monument-condition:mkfd",
+                    "state": "nz-monument-state:old"
+                },
+                "ptQuality": null,
+                "distance": 122.07,
+                "azimuth": 255.045801724
+            }
+        },
+        {
+            "id": "8698344",
+            "type": "Feature",
+            "featureType": "sosa:ObservationCollection",
+            "geometry": {
+                "type": "LineString",
+                "featureType": "observation",
+                "coordinates": [
+                    [
+                        176.0834317769315,
+                        -38.0986919847539
+                    ],
+                    [
+                        176.08305544523134,
+                        -38.09854996443274
+                    ]
+                ]
+            },
+            "place": {
+                "type": "LineString",
+                "featureType": "observation",
+                "coordinates": [
+                    [
+                        762460.994,
+                        366433.367
+                    ],
+                    [
+                        762476.622,
+                        366400.292
+                    ]
+                ]
+            },
+            "properties": {
+                "name": {
+                    "label": "7986266",
+                    "hasPart": []
+                },
+                "purpose": "nz-surveypoint-purpose:prm",
+                "fromsurvey": "SO 425484",
+                "ptQualityMeasure": 0.013,
+                "comment": null,
+                "monumentedBy": {
+                    "form": "nz-monument-form:pin",
+                    "condition": "nz-monument-condition:mkfd",
+                    "state": "nz-monument-state:old"
+                },
+                "ptQuality": null,
+                "distance": 122.07,
+                "azimuth": 255.045801724
+            }
+        },
+        {
+            "id": "8698353",
+            "type": "Feature",
+            "featureType": "sosa:ObservationCollection",
+            "geometry": {
+                "type": "LineString",
+                "featureType": "observation",
+                "coordinates": [
+                    [
+                        176.08392174258054,
+                        -38.099209908612586
+                    ],
+                    [
+                        176.0834317769315,
+                        -38.0986919847539
+                    ]
+                ]
+            },
+            "place": {
+                "type": "LineString",
+                "featureType": "observation",
+                "coordinates": [
+                    [
+                        762403.682,
+                        366476.581
+                    ],
+                    [
+                        762460.994,
+                        366433.367
+                    ]
+                ]
+            },
+            "properties": {
+                "name": {
+                    "label": "7986263",
+                    "hasPart": []
+                },
+                "geodeticid": "DTKC",
+                "purpose": "nz-surveypoint-purpose:prm",
+                "fromsurvey": "SO 49866",
+                "ptQualityMeasure": 0.009,
+                "comment": null,
+                "monumentedBy": {
+                    "form": "nz-monument-form:it",
+                    "condition": "nz-monument-condition:mkfd",
+                    "state": "nz-monument-state:old"
+                },
+                "ptQuality": null,
+                "distance": 20.99,
+                "azimuth": 245.1796665869
+            }
+        },
+        {
+            "id": "8698357",
+            "type": "Feature",
+            "featureType": "sosa:ObservationCollection",
+            "geometry": {
+                "type": "LineString",
+                "featureType": "observation",
+                "coordinates": [
+                    [
+                        176.08392174258054,
+                        -38.099209908612586
+                    ],
+                    [
+                        176.08362770878958,
+                        -38.099323682711756
+                    ]
+                ]
+            },
+            "place": {
+                "type": "LineString",
+                "featureType": "observation",
+                "coordinates": [
+                    [
+                        762403.682,
+                        366476.581
+                    ],
+                    [
+                        762390.947,
+                        366450.842
+                    ]
+                ]
+            },
+            "properties": {
+                "name": {
+                    "label": "7986263",
+                    "hasPart": []
+                },
+                "geodeticid": "DTKC",
+                "purpose": "nz-surveypoint-purpose:prm",
+                "fromsurvey": "SO 49866",
+                "ptQualityMeasure": 0.009,
+                "comment": null,
+                "monumentedBy": {
+                    "form": "nz-monument-form:it",
+                    "condition": "nz-monument-condition:mkfd",
+                    "state": "nz-monument-state:old"
+                },
+                "ptQuality": null,
+                "distance": 20.99,
+                "azimuth": 245.1796665869
+            }
+        },
+        {
+            "id": "8698359",
+            "type": "Feature",
+            "featureType": "sosa:ObservationCollection",
+            "geometry": {
+                "type": "LineString",
+                "featureType": "observation",
+                "coordinates": [
+                    [
+                        176.08296179657032,
+                        -38.09970587724026
+                    ],
+                    [
+                        176.08392174258054,
+                        -38.099209908612586
+                    ]
+                ]
+            },
+            "place": {
+                "type": "LineString",
+                "featureType": "observation",
+                "coordinates": [
+                    [
+                        762348.283,
+                        366392.607
+                    ],
+                    [
+                        762403.682,
+                        366476.581
+                    ]
+                ]
+            },
+            "properties": {
+                "name": {
+                    "label": "7986262",
+                    "hasPart": []
+                },
+                "purpose": "nz-surveypoint-purpose:prm",
+                "fromsurvey": "DP-572532",
+                "ptQualityMeasure": 0.027,
+                "comment": null,
+                "monumentedBy": {
+                    "form": "nz-monument-form:nail",
+                    "condition": "nz-monument-condition:relb",
+                    "state": "nz-monument-state:new"
+                },
+                "ptQuality": null,
+                "distance": 34.1,
+                "azimuth": 35.5494133407
+            }
+        },
+        {
+            "id": "8698363",
+            "type": "Feature",
+            "featureType": "sosa:ObservationCollection",
+            "geometry": {
+                "type": "LineString",
+                "featureType": "observation",
+                "coordinates": [
+                    [
+                        176.08296179657032,
+                        -38.09970587724026
+                    ],
+                    [
+                        176.0826791093664,
+                        -38.099761712432574
+                    ]
+                ]
+            },
+            "place": {
+                "type": "LineString",
+                "featureType": "observation",
+                "coordinates": [
+                    [
+                        762348.283,
+                        366392.607
+                    ],
+                    [
+                        762341.983,
+                        366367.837
+                    ]
+                ]
+            },
+            "properties": {
+                "name": {
+                    "label": "7986262",
+                    "hasPart": []
+                },
+                "purpose": "nz-surveypoint-purpose:prm",
+                "fromsurvey": "DP-572532",
+                "ptQualityMeasure": 0.027,
+                "comment": null,
+                "monumentedBy": {
+                    "form": "nz-monument-form:nail",
+                    "condition": "nz-monument-condition:relb",
+                    "state": "nz-monument-state:new"
+                },
+                "ptQuality": null,
+                "distance": 34.1,
+                "azimuth": 35.5494133407
+            }
+        },
+        {
+            "id": "8698364",
+            "type": "Feature",
+            "featureType": "sosa:ObservationCollection",
+            "geometry": {
+                "type": "LineString",
+                "featureType": "observation",
+                "coordinates": [
+                    [
+                        176.08296179657032,
+                        -38.09970587724026
+                    ],
+                    [
+                        176.08307501873114,
+                        -38.09957886679702
+                    ]
+                ]
+            },
+            "place": {
+                "type": "LineString",
+                "featureType": "observation",
+                "coordinates": [
+                    [
+                        762348.283,
+                        366392.607
+                    ],
+                    [
+                        762362.422,
+                        366402.48
+                    ]
+                ]
+            },
+            "properties": {
+                "name": {
+                    "label": "7986262",
+                    "hasPart": []
+                },
+                "purpose": "nz-surveypoint-purpose:prm",
+                "fromsurvey": "DP-572532",
+                "ptQualityMeasure": 0.027,
+                "comment": null,
+                "monumentedBy": {
+                    "form": "nz-monument-form:nail",
+                    "condition": "nz-monument-condition:relb",
+                    "state": "nz-monument-state:new"
+                },
+                "ptQuality": null,
+                "distance": 34.1,
+                "azimuth": 35.5494133407
+            }
+        },
+        {
+            "id": "14390704",
+            "type": "Feature",
+            "featureType": "sosa:ObservationCollection",
+            "geometry": {
+                "type": "LineString",
+                "featureType": "observation",
+                "coordinates": [
+                    [
+                        176.0830488790342,
+                        -38.09854113213277
+                    ],
+                    [
+                        176.08249645591263,
+                        -38.09879616125421
+                    ]
+                ]
+            },
+            "place": {
+                "type": "LineString",
+                "featureType": "observation",
+                "coordinates": [
+                    [
+                        762477.6,
+                        366399.712
+                    ],
+                    [
+                        762449.092,
+                        366351.373
+                    ]
+                ]
+            },
+            "properties": {
+                "name": {
+                    "label": "14390704",
+                    "hasPart": []
+                },
+                "purpose": "nz-surveypoint-purpose:bacc",
+                "fromsurvey": "DP 584372",
+                "ptQualityMeasure": 0.021,
+                "comment": null,
+                "monumentedBy": {
+                    "form": "nz-monument-form:peg",
+                    "condition": "nz-monument-condition:empl",
+                    "state": "nz-monument-state:repl"
+                },
+                "ptQuality": null,
+                "distance": 56.13,
+                "azimuth": 239.45833333333331
+            }
+        },
+        {
+            "id": "14392113",
+            "type": "Feature",
+            "featureType": "sosa:ObservationCollection",
+            "geometry": {
+                "type": "LineString",
+                "featureType": "observation",
+                "coordinates": [
+                    [
+                        176.08362770878958,
+                        -38.099323682711756
+                    ],
+                    [
+                        176.08307501873114,
+                        -38.09957886679702
+                    ]
+                ]
+            },
+            "place": {
+                "type": "LineString",
+                "featureType": "observation",
+                "coordinates": [
+                    [
+                        762390.947,
+                        366450.842
+                    ],
+                    [
+                        762362.422,
+                        366402.48
+                    ]
+                ]
+            },
+            "properties": {
+                "name": {
+                    "label": "38534711",
+                    "hasPart": []
+                },
+                "purpose": "nz-surveypoint-purpose:bacc",
+                "fromsurvey": "DP 584372",
+                "ptQualityMeasure": 0.022,
+                "comment": null,
+                "monumentedBy": {
+                    "form": "nz-monument-form:peg",
+                    "condition": "nz-monument-condition:empl",
+                    "state": "nz-monument-state:repl"
+                },
+                "ptQuality": null,
+                "distance": 99.48,
+                "azimuth": 329.46666666666664
+            }
+        },
+        {
+            "id": "14392241",
+            "type": "Feature",
+            "featureType": "sosa:ObservationCollection",
+            "geometry": {
+                "type": "LineString",
+                "featureType": "observation",
+                "coordinates": [
+                    [
+                        176.08307501873114,
+                        -38.09957886679702
+                    ],
+                    [
+                        176.0826791093664,
+                        -38.099761712432574
+                    ]
+                ]
+            },
+            "place": {
+                "type": "LineString",
+                "featureType": "observation",
+                "coordinates": [
+                    [
+                        762362.422,
+                        366402.48
+                    ],
+                    [
+                        762341.983,
+                        366367.837
+                    ]
+                ]
+            },
+            "properties": {
+                "name": {
+                    "label": "38534713",
+                    "hasPart": []
+                },
+                "purpose": "nz-surveypoint-purpose:bndy",
+                "fromsurvey": "DP 584372",
+                "ptQualityMeasure": 0.017,
+                "comment": null,
+                "monumentedBy": {
+                    "form": "nz-monument-form:peg",
+                    "condition": "nz-monument-condition:relb",
+                    "state": "nz-monument-state:new"
+                },
+                "ptQuality": null,
+                "distance": 97.17,
+                "azimuth": 329.47499999999997
+            }
+        },
+        {
+            "id": "14727513",
+            "type": "Feature",
+            "featureType": "sosa:ObservationCollection",
+            "geometry": {
+                "type": "LineString",
+                "featureType": "observation",
+                "coordinates": [
+                    [
+                        176.08249645591263,
+                        -38.09879616125421
+                    ],
+                    [
+                        176.08210050465684,
+                        -38.098978833660716
+                    ]
+                ]
+            },
+            "place": {
+                "type": "LineString",
+                "featureType": "observation",
+                "coordinates": [
+                    [
+                        762449.092,
+                        366351.373
+                    ],
+                    [
+                        762428.672,
+                        366316.726
+                    ]
+                ]
+            },
+            "properties": {
+                "name": {
+                    "label": "14727513",
+                    "hasPart": []
+                },
+                "purpose": "nz-surveypoint-purpose:bacc",
+                "fromsurvey": "DP 584372",
+                "ptQualityMeasure": 0.02,
+                "comment": null,
+                "monumentedBy": {
+                    "form": "nz-monument-form:peg",
+                    "condition": "nz-monument-condition:empl",
+                    "state": "nz-monument-state:repl"
+                },
+                "ptQuality": null,
+                "distance": 40.23,
+                "azimuth": 239.45833333333331
+            }
+        },
+        {
+            "id": "38534708",
+            "type": "Feature",
+            "featureType": "sosa:ObservationCollection",
+            "geometry": {
+                "type": "LineString",
+                "featureType": "observation",
+                "coordinates": [
+                    [
+                        176.08251628948514,
+                        -38.09882298301216
+                    ],
+                    [
+                        176.08249645591263,
+                        -38.09879616125421
+                    ]
+                ]
+            },
+            "place": {
+                "type": "LineString",
+                "featureType": "observation",
+                "coordinates": [
+                    [
+                        762446.122,
+                        366353.125
+                    ],
+                    [
+                        762449.092,
+                        366351.373
+                    ]
+                ]
+            },
+            "properties": {
+                "name": {
+                    "label": "38534716",
+                    "hasPart": []
+                },
+                "purpose": "nz-surveypoint-purpose:bndy",
+                "fromsurvey": "DP 584372",
+                "ptQualityMeasure": 0.021,
+                "comment": null,
+                "monumentedBy": {
+                    "form": "nz-monument-form:peg",
+                    "condition": "nz-monument-condition:relb",
+                    "state": "nz-monument-state:new"
+                },
+                "ptQuality": null,
+                "distance": 13.03,
+                "azimuth": 55.983333333333334
+            }
+        },
+        {
+            "id": "38534709",
+            "type": "Feature",
+            "featureType": "sosa:ObservationCollection",
+            "geometry": {
+                "type": "LineString",
+                "featureType": "observation",
+                "coordinates": [
+                    [
+                        176.08305544523134,
+                        -38.09854996443274
+                    ],
+                    [
+                        176.0830488790342,
+                        -38.09854113213277
+                    ]
+                ]
+            },
+            "place": {
+                "type": "LineString",
+                "featureType": "observation",
+                "coordinates": [
+                    [
+                        762476.622,
+                        366400.292
+                    ],
+                    [
+                        762477.6,
+                        366399.712
+                    ]
+                ]
+            },
+            "properties": {
+                "name": {
+                    "label": "38534709",
+                    "hasPart": []
+                },
+                "purpose": "nz-surveypoint-purpose:bndy",
+                "fromsurvey": "DP 584372",
+                "ptQualityMeasure": 0.023,
+                "comment": null,
+                "monumentedBy": {
+                    "form": "nz-monument-form:peg",
+                    "condition": "nz-monument-condition:relb",
+                    "state": "nz-monument-state:new"
+                },
+                "ptQuality": null,
+                "distance": 1.14,
+                "azimuth": 329.46666666666664
+            }
+        },
+        {
+            "id": "38534710",
+            "type": "Feature",
+            "featureType": "sosa:ObservationCollection",
+            "geometry": {
+                "type": "LineString",
+                "featureType": "observation",
+                "coordinates": [
+                    [
+                        176.0821271628852,
+                        -38.09901517337123
+                    ],
+                    [
+                        176.08210050465684,
+                        -38.098978833660716
+                    ]
+                ]
+            },
+            "place": {
+                "type": "LineString",
+                "featureType": "observation",
+                "coordinates": [
+                    [
+                        762424.648,
+                        366319.081
+                    ],
+                    [
+                        762428.672,
+                        366316.726
+                    ]
+                ]
+            },
+            "properties": {
+                "name": {
+                    "label": "38534715",
+                    "hasPart": []
+                },
+                "purpose": "nz-surveypoint-purpose:bndy",
+                "fromsurvey": "DP 584372",
+                "ptQualityMeasure": 0.019,
+                "comment": null,
+                "monumentedBy": {
+                    "form": "nz-monument-form:peg",
+                    "condition": "nz-monument-condition:relb",
+                    "state": "nz-monument-state:new"
+                },
+                "ptQuality": null,
+                "distance": 95.97,
+                "azimuth": 329.47499999999997
+            }
+        },
+        {
+            "id": "38534711",
+            "type": "Feature",
+            "featureType": "sosa:ObservationCollection",
+            "geometry": {
+                "type": "LineString",
+                "featureType": "observation",
+                "coordinates": [
+                    [
+                        176.08362770878958,
+                        -38.099323682711756
+                    ],
+                    [
+                        176.08305544523134,
+                        -38.09854996443274
+                    ]
+                ]
+            },
+            "place": {
+                "type": "LineString",
+                "featureType": "observation",
+                "coordinates": [
+                    [
+                        762390.947,
+                        366450.842
+                    ],
+                    [
+                        762476.622,
+                        366400.292
+                    ]
+                ]
+            },
+            "properties": {
+                "name": {
+                    "label": "38534711",
+                    "hasPart": []
+                },
+                "purpose": "nz-surveypoint-purpose:bacc",
+                "fromsurvey": "DP 584372",
+                "ptQualityMeasure": 0.022,
+                "comment": null,
+                "monumentedBy": {
+                    "form": "nz-monument-form:peg",
+                    "condition": "nz-monument-condition:empl",
+                    "state": "nz-monument-state:repl"
+                },
+                "ptQuality": null,
+                "distance": 99.48,
+                "azimuth": 329.46666666666664
+            }
+        },
+        {
+            "id": "38534712",
+            "type": "Feature",
+            "featureType": "sosa:ObservationCollection",
+            "geometry": {
+                "type": "LineString",
+                "featureType": "observation",
+                "coordinates": [
+                    [
+                        176.08263976792836,
+                        -38.09875774577415
+                    ],
+                    [
+                        176.08305544523134,
+                        -38.09854996443274
+                    ]
+                ]
+            },
+            "place": {
+                "type": "LineString",
+                "featureType": "observation",
+                "coordinates": [
+                    [
+                        762453.408,
+                        366363.926
+                    ],
+                    [
+                        762476.622,
+                        366400.292
+                    ]
+                ]
+            },
+            "properties": {
+                "name": {
+                    "label": "38534712",
+                    "hasPart": []
+                },
+                "purpose": "nz-surveypoint-purpose:bndy",
+                "fromsurvey": "DP 584372",
+                "ptQualityMeasure": 0.023,
+                "comment": null,
+                "monumentedBy": {
+                    "form": "nz-monument-form:peg",
+                    "condition": "nz-monument-condition:relb",
+                    "state": "nz-monument-state:new"
+                },
+                "ptQuality": null,
+                "distance": 43.14,
+                "azimuth": 57.45
+            }
+        },
+        {
+            "id": "38534713",
+            "type": "Feature",
+            "featureType": "sosa:ObservationCollection",
+            "geometry": {
+                "type": "LineString",
+                "featureType": "observation",
+                "coordinates": [
+                    [
+                        176.08307501873114,
+                        -38.09957886679702
+                    ],
+                    [
+                        176.08251628948514,
+                        -38.09882298301216
+                    ]
+                ]
+            },
+            "place": {
+                "type": "LineString",
+                "featureType": "observation",
+                "coordinates": [
+                    [
+                        762362.422,
+                        366402.48
+                    ],
+                    [
+                        762446.122,
+                        366353.125
+                    ]
+                ]
+            },
+            "properties": {
+                "name": {
+                    "label": "38534713",
+                    "hasPart": []
+                },
+                "purpose": "nz-surveypoint-purpose:bndy",
+                "fromsurvey": "DP 584372",
+                "ptQualityMeasure": 0.017,
+                "comment": null,
+                "monumentedBy": {
+                    "form": "nz-monument-form:peg",
+                    "condition": "nz-monument-condition:relb",
+                    "state": "nz-monument-state:new"
+                },
+                "ptQuality": null,
+                "distance": 97.17,
+                "azimuth": 329.47499999999997
+            }
+        },
+        {
+            "id": "38534714",
+            "type": "Feature",
+            "featureType": "sosa:ObservationCollection",
+            "geometry": {
+                "type": "LineString",
+                "featureType": "observation",
+                "coordinates": [
+                    [
+                        176.0821271628852,
+                        -38.09901517337123
+                    ],
+                    [
+                        176.08251628948514,
+                        -38.09882298301216
+                    ]
+                ]
+            },
+            "place": {
+                "type": "LineString",
+                "featureType": "observation",
+                "coordinates": [
+                    [
+                        762424.648,
+                        366319.081
+                    ],
+                    [
+                        762446.122,
+                        366353.125
+                    ]
+                ]
+            },
+            "properties": {
+                "name": {
+                    "label": "38534715",
+                    "hasPart": []
+                },
+                "purpose": "nz-surveypoint-purpose:bndy",
+                "fromsurvey": "DP 584372",
+                "ptQualityMeasure": 0.019,
+                "comment": null,
+                "monumentedBy": {
+                    "form": "nz-monument-form:peg",
+                    "condition": "nz-monument-condition:relb",
+                    "state": "nz-monument-state:new"
+                },
+                "ptQuality": null,
+                "distance": 95.97,
+                "azimuth": 329.47499999999997
+            }
+        },
+        {
+            "id": "38534715",
+            "type": "Feature",
+            "featureType": "sosa:ObservationCollection",
+            "geometry": {
+                "type": "LineString",
+                "featureType": "observation",
+                "coordinates": [
+                    [
+                        176.0821271628852,
+                        -38.09901517337123
+                    ],
+                    [
+                        176.0826791093664,
+                        -38.099761712432574
+                    ]
+                ]
+            },
+            "place": {
+                "type": "LineString",
+                "featureType": "observation",
+                "coordinates": [
+                    [
+                        762424.648,
+                        366319.081
+                    ],
+                    [
+                        762341.983,
+                        366367.837
+                    ]
+                ]
+            },
+            "properties": {
+                "name": {
+                    "label": "38534715",
+                    "hasPart": []
+                },
+                "purpose": "nz-surveypoint-purpose:bndy",
+                "fromsurvey": "DP 584372",
+                "ptQualityMeasure": 0.019,
+                "comment": null,
+                "monumentedBy": {
+                    "form": "nz-monument-form:peg",
+                    "condition": "nz-monument-condition:relb",
+                    "state": "nz-monument-state:new"
+                },
+                "ptQuality": null,
+                "distance": 95.97,
+                "azimuth": 329.47499999999997
+            }
+        },
+        {
+            "id": "38534716",
+            "type": "Feature",
+            "featureType": "sosa:ObservationCollection",
+            "geometry": {
+                "type": "LineString",
+                "featureType": "observation",
+                "coordinates": [
+                    [
+                        176.08251628948514,
+                        -38.09882298301216
+                    ],
+                    [
+                        176.08263976792836,
+                        -38.09875774577415
+                    ]
+                ]
+            },
+            "place": {
+                "type": "LineString",
+                "featureType": "observation",
+                "coordinates": [
+                    [
+                        762446.122,
+                        366353.125
+                    ],
+                    [
+                        762453.408,
+                        366363.926
+                    ]
+                ]
+            },
+            "properties": {
+                "name": {
+                    "label": "38534716",
+                    "hasPart": []
+                },
+                "purpose": "nz-surveypoint-purpose:bndy",
+                "fromsurvey": "DP 584372",
+                "ptQualityMeasure": 0.021,
+                "comment": null,
+                "monumentedBy": {
+                    "form": "nz-monument-form:peg",
+                    "condition": "nz-monument-condition:relb",
+                    "state": "nz-monument-state:new"
+                },
+                "ptQuality": null,
+                "distance": 13.03,
+                "azimuth": 55.983333333333334
+            }
+        },
+        {
+            "id": "7986257",
+            "type": "Feature",
+            "featureType": "sosa:ObservationCollection",
+            "geometry": {
+                "type": "LineString",
+                "featureType": "observation",
+                "coordinates": [
+                    [
+                        176.0834317769315,
+                        -38.0986919847539
+                    ],
+                    [
+                        176.08305441600365,
+                        -38.09855057369606
+                    ]
+                ]
+            },
+            "place": {
+                "type": "LineString",
+                "featureType": "observation",
+                "coordinates": [
+                    [
+                        762460.994,
+                        366433.367
+                    ],
+                    [
+                        762476.554,
+                        366400.202
+                    ]
+                ]
+            },
+            "properties": {
+                "name": {
+                    "label": "7986266",
+                    "hasPart": []
+                },
+                "purpose": "nz-surveypoint-purpose:prm",
+                "fromsurvey": "SO 425484",
+                "ptQualityMeasure": 0.013,
+                "comment": null,
+                "monumentedBy": {
+                    "form": "nz-monument-form:pin",
+                    "condition": "nz-monument-condition:mkfd",
+                    "state": "nz-monument-state:old"
+                },
+                "ptQuality": null,
+                "distance": 122.07,
+                "azimuth": 255.045801724
+            }
+        },
+        {
+            "id": "7986258",
+            "type": "Feature",
+            "featureType": "sosa:ObservationCollection",
+            "geometry": {
+                "type": "LineString",
+                "featureType": "observation",
+                "coordinates": [
+                    [
+                        176.08296179657032,
+                        -38.09970587724026
+                    ],
+                    [
+                        176.0826782494707,
+                        -38.09976045736272
+                    ]
+                ]
+            },
+            "place": {
+                "type": "LineString",
+                "featureType": "observation",
+                "coordinates": [
+                    [
+                        762348.283,
+                        366392.607
+                    ],
+                    [
+                        762342.122,
+                        366367.761
+                    ]
+                ]
+            },
+            "properties": {
+                "name": {
+                    "label": "7986262",
+                    "hasPart": []
+                },
+                "purpose": "nz-surveypoint-purpose:prm",
+                "fromsurvey": "DP-572532",
+                "ptQualityMeasure": 0.027,
+                "comment": null,
+                "monumentedBy": {
+                    "form": "nz-monument-form:nail",
+                    "condition": "nz-monument-condition:relb",
+                    "state": "nz-monument-state:new"
+                },
+                "ptQuality": null,
+                "distance": 34.1,
+                "azimuth": 35.5494133407
+            }
+        },
+        {
+            "id": "7986259",
+            "type": "Feature",
+            "featureType": "sosa:ObservationCollection",
+            "geometry": {
+                "type": "LineString",
+                "featureType": "observation",
+                "coordinates": [
+                    [
+                        176.08296179657032,
+                        -38.09970587724026
+                    ],
+                    [
+                        176.0832368939744,
+                        -38.09950516843172
+                    ]
+                ]
+            },
+            "place": {
+                "type": "LineString",
+                "featureType": "observation",
+                "coordinates": [
+                    [
+                        762348.283,
+                        366392.607
+                    ],
+                    [
+                        762370.661,
+                        366416.645
+                    ]
+                ]
+            },
+            "properties": {
+                "name": {
+                    "label": "7986262",
+                    "hasPart": []
+                },
+                "purpose": "nz-surveypoint-purpose:prm",
+                "fromsurvey": "DP-572532",
+                "ptQualityMeasure": 0.027,
+                "comment": null,
+                "monumentedBy": {
+                    "form": "nz-monument-form:nail",
+                    "condition": "nz-monument-condition:relb",
+                    "state": "nz-monument-state:new"
+                },
+                "ptQuality": null,
+                "distance": 34.1,
+                "azimuth": 35.5494133407
+            }
+        },
+        {
+            "id": "7986260",
+            "type": "Feature",
+            "featureType": "sosa:ObservationCollection",
+            "geometry": {
+                "type": "LineString",
+                "featureType": "observation",
+                "coordinates": [
+                    [
+                        176.08296179657032,
+                        -38.09970587724026
+                    ],
+                    [
+                        176.08321112294678,
+                        -38.09951714763443
+                    ]
+                ]
+            },
+            "place": {
+                "type": "LineString",
+                "featureType": "observation",
+                "coordinates": [
+                    [
+                        762348.283,
+                        366392.607
+                    ],
+                    [
+                        762369.322,
+                        366414.39
+                    ]
+                ]
+            },
+            "properties": {
+                "name": {
+                    "label": "7986262",
+                    "hasPart": []
+                },
+                "purpose": "nz-surveypoint-purpose:prm",
+                "fromsurvey": "DP-572532",
+                "ptQualityMeasure": 0.027,
+                "comment": null,
+                "monumentedBy": {
+                    "form": "nz-monument-form:nail",
+                    "condition": "nz-monument-condition:relb",
+                    "state": "nz-monument-state:new"
+                },
+                "ptQuality": null,
+                "distance": 34.1,
+                "azimuth": 35.5494133407
+            }
+        },
+        {
+            "id": "7986261",
+            "type": "Feature",
+            "featureType": "sosa:ObservationCollection",
+            "geometry": {
+                "type": "LineString",
+                "featureType": "observation",
+                "coordinates": [
+                    [
+                        176.08296179657032,
+                        -38.09970587724026
+                    ],
+                    [
+                        176.0832368939744,
+                        -38.09950516843172
+                    ]
+                ]
+            },
+            "place": {
+                "type": "LineString",
+                "featureType": "observation",
+                "coordinates": [
+                    [
+                        762348.283,
+                        366392.607
+                    ],
+                    [
+                        762370.661,
+                        366416.645
+                    ]
+                ]
+            },
+            "properties": {
+                "name": {
+                    "label": "7986262",
+                    "hasPart": []
+                },
+                "purpose": "nz-surveypoint-purpose:prm",
+                "fromsurvey": "DP-572532",
+                "ptQualityMeasure": 0.027,
+                "comment": null,
+                "monumentedBy": {
+                    "form": "nz-monument-form:nail",
+                    "condition": "nz-monument-condition:relb",
+                    "state": "nz-monument-state:new"
+                },
+                "ptQuality": null,
+                "distance": 34.1,
+                "azimuth": 35.5494133407
+            }
+        },
+        {
+            "id": "7986262",
+            "type": "Feature",
+            "featureType": "sosa:ObservationCollection",
+            "geometry": {
+                "type": "LineString",
+                "featureType": "observation",
+                "coordinates": [
+                    [
+                        176.08296179657032,
+                        -38.09970587724026
+                    ],
+                    [
+                        176.0830754385271,
+                        -38.099579255556456
+                    ]
+                ]
+            },
+            "place": {
+                "type": "LineString",
+                "featureType": "observation",
+                "coordinates": [
+                    [
+                        762348.283,
+                        366392.607
+                    ],
+                    [
+                        762362.379,
+                        366402.517
+                    ]
+                ]
+            },
+            "properties": {
+                "name": {
+                    "label": "7986262",
+                    "hasPart": []
+                },
+                "purpose": "nz-surveypoint-purpose:prm",
+                "fromsurvey": "DP-572532",
+                "ptQualityMeasure": 0.027,
+                "comment": null,
+                "monumentedBy": {
+                    "form": "nz-monument-form:nail",
+                    "condition": "nz-monument-condition:relb",
+                    "state": "nz-monument-state:new"
+                },
+                "ptQuality": null,
+                "distance": 34.1,
+                "azimuth": 35.5494133407
+            }
+        },
+        {
+            "id": "7986263",
+            "type": "Feature",
+            "featureType": "sosa:ObservationCollection",
+            "geometry": {
+                "type": "LineString",
+                "featureType": "observation",
+                "coordinates": [
+                    [
+                        176.08392174258054,
+                        -38.099209908612586
+                    ],
+                    [
+                        176.08370413924024,
+                        -38.09928857978375
+                    ]
+                ]
+            },
+            "place": {
+                "type": "LineString",
+                "featureType": "observation",
+                "coordinates": [
+                    [
+                        762403.682,
+                        366476.581
+                    ],
+                    [
+                        762394.871,
+                        366457.53
+                    ]
+                ]
+            },
+            "properties": {
+                "name": {
+                    "label": "7986263",
+                    "hasPart": []
+                },
+                "geodeticid": "DTKC",
+                "purpose": "nz-surveypoint-purpose:prm",
+                "fromsurvey": "SO 49866",
+                "ptQualityMeasure": 0.009,
+                "comment": null,
+                "monumentedBy": {
+                    "form": "nz-monument-form:it",
+                    "condition": "nz-monument-condition:mkfd",
+                    "state": "nz-monument-state:old"
+                },
+                "ptQuality": null,
+                "distance": 20.99,
+                "azimuth": 245.1796665869
+            }
+        },
+        {
+            "id": "7986264",
+            "type": "Feature",
+            "featureType": "sosa:ObservationCollection",
+            "geometry": {
+                "type": "LineString",
+                "featureType": "observation",
+                "coordinates": [
+                    [
+                        176.0834317769315,
+                        -38.0986919847539
+                    ],
+                    [
+                        176.08264508293797,
+                        -38.098755114445225
+                    ]
+                ]
+            },
+            "place": {
+                "type": "LineString",
+                "featureType": "observation",
+                "coordinates": [
+                    [
+                        762460.994,
+                        366433.367
+                    ],
+                    [
+                        762453.702,
+                        366364.391
+                    ]
+                ]
+            },
+            "properties": {
+                "name": {
+                    "label": "7986266",
+                    "hasPart": []
+                },
+                "purpose": "nz-surveypoint-purpose:prm",
+                "fromsurvey": "SO 425484",
+                "ptQualityMeasure": 0.013,
+                "comment": null,
+                "monumentedBy": {
+                    "form": "nz-monument-form:pin",
+                    "condition": "nz-monument-condition:mkfd",
+                    "state": "nz-monument-state:old"
+                },
+                "ptQuality": null,
+                "distance": 122.07,
+                "azimuth": 255.045801724
+            }
+        },
+        {
+            "id": "7986265",
+            "type": "Feature",
+            "featureType": "sosa:ObservationCollection",
+            "geometry": {
+                "type": "LineString",
+                "featureType": "observation",
+                "coordinates": [
+                    [
+                        176.0834317769315,
+                        -38.0986919847539
+                    ],
+                    [
+                        176.08211916289798,
+                        -38.09901891303014
+                    ]
+                ]
+            },
+            "place": {
+                "type": "LineString",
+                "featureType": "observation",
+                "coordinates": [
+                    [
+                        762460.994,
+                        366433.367
+                    ],
+                    [
+                        762424.23,
+                        366318.381
+                    ]
+                ]
+            },
+            "properties": {
+                "name": {
+                    "label": "7986266",
+                    "hasPart": []
+                },
+                "purpose": "nz-surveypoint-purpose:prm",
+                "fromsurvey": "SO 425484",
+                "ptQualityMeasure": 0.013,
+                "comment": null,
+                "monumentedBy": {
+                    "form": "nz-monument-form:pin",
+                    "condition": "nz-monument-condition:mkfd",
+                    "state": "nz-monument-state:old"
+                },
+                "ptQuality": null,
+                "distance": 122.07,
+                "azimuth": 255.045801724
+            }
+        },
+        {
+            "id": "7986266",
+            "type": "Feature",
+            "featureType": "sosa:ObservationCollection",
+            "geometry": {
+                "type": "LineString",
+                "featureType": "observation",
+                "coordinates": [
+                    [
+                        176.0834317769315,
+                        -38.0986919847539
+                    ],
+                    [
+                        176.0820857456518,
+                        -38.09897138896118
+                    ]
+                ]
+            },
+            "place": {
+                "type": "LineString",
+                "featureType": "observation",
+                "coordinates": [
+                    [
+                        762460.994,
+                        366433.367
+                    ],
+                    [
+                        762429.493,
+                        366315.428
+                    ]
+                ]
+            },
+            "properties": {
+                "name": {
+                    "label": "7986266",
+                    "hasPart": []
+                },
+                "purpose": "nz-surveypoint-purpose:prm",
+                "fromsurvey": "SO 425484",
+                "ptQualityMeasure": 0.013,
+                "comment": null,
+                "monumentedBy": {
+                    "form": "nz-monument-form:pin",
+                    "condition": "nz-monument-condition:mkfd",
+                    "state": "nz-monument-state:old"
+                },
+                "ptQuality": null,
+                "distance": 122.07,
+                "azimuth": 255.045801724
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 140578784287312,
+            "featureType": "parcel",
+            "links": [],
+            "time": "",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            176.08307501873114,
+                            -38.09957886679702
+                        ],
+                        [
+                            176.0826791093664,
+                            -38.099761712432574
+                        ],
+                        [
+                            176.0821271628852,
+                            -38.09901517337123
+                        ],
+                        [
+                            176.08251628948514,
+                            -38.09882298301216
+                        ],
+                        [
+                            176.08307501873114,
+                            -38.09957886679702
+                        ]
+                    ]
+                ]
+            },
+            "place": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            762362.422,
+                            366402.48
+                        ],
+                        [
+                            762341.983,
+                            366367.837
+                        ],
+                        [
+                            762424.648,
+                            366319.081
+                        ],
+                        [
+                            762446.122,
+                            366353.125
+                        ],
+                        [
+                            762362.422,
+                            366402.48
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "appellation": {
+                    "label": "Lot 1 DP 584372",
+                    "hasPart": [
+                        {
+                            "type": "ParcelType",
+                            "label": "Lot"
+                        },
+                        {
+                            "type": "ParcelIdentifier",
+                            "label": "1"
+                        },
+                        {
+                            "type": "PlanType",
+                            "label": "DP"
+                        },
+                        {
+                            "type": "PlanIdentifier",
+                            "label": "584372"
+                        }
+                    ]
+                },
+                "area": 3885.0,
+                "parcelType": "nz-parcel-type:l",
+                "parcelPurpose": "nz-parcel-purpose:fst",
+                "parcelState": "nz-parcel-state:c",
+                "class": "allotment",
+                "interests": [
+                    {
+                        "interestLink": "1113155",
+                        "interestType": "nz-interest-type:c-t"
+                    }
+                ],
+                "label": null
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 140578784287696,
+            "featureType": "parcel",
+            "links": [],
+            "time": "",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            176.08362770878958,
+                            -38.099323682711756
+                        ],
+                        [
+                            176.08307501873114,
+                            -38.09957886679702
+                        ],
+                        [
+                            176.08251628948514,
+                            -38.09882298301216
+                        ],
+                        [
+                            176.08263976792836,
+                            -38.09875774577415
+                        ],
+                        [
+                            176.08305544523134,
+                            -38.09854996443274
+                        ],
+                        [
+                            176.08362770878958,
+                            -38.099323682711756
+                        ]
+                    ]
+                ]
+            },
+            "place": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            762390.947,
+                            366450.842
+                        ],
+                        [
+                            762362.422,
+                            366402.48
+                        ],
+                        [
+                            762446.122,
+                            366353.125
+                        ],
+                        [
+                            762453.408,
+                            366363.926
+                        ],
+                        [
+                            762476.622,
+                            366400.292
+                        ],
+                        [
+                            762390.947,
+                            366450.842
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "appellation": {
+                    "label": "Lot 2 DP 584372",
+                    "hasPart": [
+                        {
+                            "type": "ParcelType",
+                            "label": "Lot"
+                        },
+                        {
+                            "type": "ParcelIdentifier",
+                            "label": "2"
+                        },
+                        {
+                            "type": "PlanType",
+                            "label": "DP"
+                        },
+                        {
+                            "type": "PlanIdentifier",
+                            "label": "584372"
+                        }
+                    ]
+                },
+                "area": 5526.0,
+                "parcelType": "nz-parcel-type:l",
+                "parcelPurpose": "nz-parcel-purpose:fst",
+                "parcelState": "nz-parcel-state:c",
+                "class": "allotment",
+                "interests": [
+                    {
+                        "interestLink": "1113156",
+                        "interestType": "nz-interest-type:c-t"
+                    }
+                ],
+                "label": null
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 140578784287952,
+            "featureType": "parcel",
+            "links": [],
+            "time": "",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            176.08251628948514,
+                            -38.09882298301216
+                        ],
+                        [
+                            176.0821271628852,
+                            -38.09901517337123
+                        ],
+                        [
+                            176.08210050465684,
+                            -38.098978833660716
+                        ],
+                        [
+                            176.08249645591263,
+                            -38.09879616125421
+                        ],
+                        [
+                            176.08251628948514,
+                            -38.09882298301216
+                        ]
+                    ]
+                ]
+            },
+            "place": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            762446.122,
+                            366353.125
+                        ],
+                        [
+                            762424.648,
+                            366319.081
+                        ],
+                        [
+                            762428.672,
+                            366316.726
+                        ],
+                        [
+                            762449.092,
+                            366351.373
+                        ],
+                        [
+                            762446.122,
+                            366353.125
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "appellation": "Part Section 8 Block XXIV Village of Mamaku",
+                "area": 162.0,
+                "parcelType": "nz-parcel-type:l",
+                "parcelPurpose": "nz-parcel-purpose:residual",
+                "parcelState": "nz-parcel-state:c",
+                "class": "residue parcel",
+                "interests": [],
+                "label": null
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 140578784288272,
+            "featureType": "parcel",
+            "links": [],
+            "time": "",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            176.08263976792836,
+                            -38.09875774577415
+                        ],
+                        [
+                            176.08251628948514,
+                            -38.09882298301216
+                        ],
+                        [
+                            176.08249645591263,
+                            -38.09879616125421
+                        ],
+                        [
+                            176.0830488790342,
+                            -38.09854113213277
+                        ],
+                        [
+                            176.08305544523134,
+                            -38.09854996443274
+                        ],
+                        [
+                            176.08263976792836,
+                            -38.09875774577415
+                        ]
+                    ]
+                ]
+            },
+            "place": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            762453.408,
+                            366363.926
+                        ],
+                        [
+                            762446.122,
+                            366353.125
+                        ],
+                        [
+                            762449.092,
+                            366351.373
+                        ],
+                        [
+                            762477.6,
+                            366399.712
+                        ],
+                        [
+                            762476.622,
+                            366400.292
+                        ],
+                        [
+                            762453.408,
+                            366363.926
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "appellation": "Part Section 9 Block XXIV Village of Mamaku",
+                "area": 121.0,
+                "parcelType": "nz-parcel-type:l",
+                "parcelPurpose": "nz-parcel-purpose:residual",
+                "parcelState": "nz-parcel-state:c",
+                "class": "residue parcel",
+                "interests": [],
+                "label": null
+            }
+        }
+    ]
+}

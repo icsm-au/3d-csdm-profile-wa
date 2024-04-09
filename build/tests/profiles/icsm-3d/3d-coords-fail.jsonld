@@ -1,0 +1,121 @@
+{
+  "@context": [
+    "https://icsm-au.github.io/3d-csdm-profiles/build/annotated/profiles/icsm-3d/context.jsonld",
+    {
+      "@base": "https://linked.data.gov.au/def/csdm/csd-example/",
+      "eg1": "https://linked.data.gov.au/def/csdm/csd-example/",
+      "surveyable": "https://linked.data.gov.au/def/csdm/observedProperties/",
+      "surveyproc": "https://linked.data.gov.au/def/csdm/icsm-procedure-used/",
+      "wa-surveypoint-purpose": "https://linked.data.gov.au/def/csdm/wa-surveypoint-purpose/",
+      "icsm-survey-type": "https://linked.data.gov.au/def/csdm/icsm-survey-type/",
+      "wa-monument-form": "https://linked.data.gov.au/def/csdm/wa-monument-form/",
+      "wa-monument-condition": "https://linked.data.gov.au/def/csdm/wa-monument-condition/",
+      "wa-monument-state": "https://linked.data.gov.au/def/csdm/wa-monument-state/",
+      "registered-surveyors": "https://example.org/surveyors/",
+      "icsm-jurisdictions": "https://linked.data.gov.au/def/jurisdictions/"
+    }
+  ],
+  "id": "Western-Australia-Example-1",
+  "name": "TBD",
+  "type": "FeatureCollection",
+  "featureType": "CSD",
+  "wasGeneratedBy": {
+    "id": "DP-1-S2",
+    "endedAtTime": "2029-01-01T01:02:03Z"
+  },
+  "purpose": "wa-survey-purpose:subdivision",
+  "time": {
+    "date": "2022-05-23"
+  },
+  "horizontalCRS": "epsg:8031",
+  "bearingRotation": 0.0,
+  "surveyType": "wa-survey-type:deposited-plan",
+  "features": [],
+  "referencedCSDs": [],
+  "points": [
+    {
+      "id": "WAMarks",
+      "type": "FeatureCollection",
+      "featureType": "SurveyPoint",
+      "features": [
+        {
+          "id": "9540",
+          "type": "Feature",
+          "featureType": "CadastralMark",
+          "geometry": null,
+          "properties": {
+            "purpose": "wa-surveypoint-purpose:temporary-control-point",
+            "monumentedBy": {
+              "form": "wa-monument-form:Spike",
+              "condition": "wa-monument-condition:ok",
+              "state": "wa-monument-state:MarkFound"
+            },
+            "name": {
+              "label": "EFB157243/9540",
+              "hasPart": [
+                {
+                  "type": "Source",
+                  "label": "EFB157243"
+                },
+                {
+                  "type": "Stamp",
+                  "label": "9540"
+                }
+              ]
+            }
+          },
+          "place": {
+            "type": "Point",
+            "coordinates": [
+              54556.897,
+              298434.717
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "observedVectors": [],
+  "vectorObservations": [
+    {
+      "id": "vectorObservations",
+      "type": "FeatureCollection",
+      "featureType": "sosa:ObservationCollection",
+      "time": null,
+      "properties": {
+        "resultTime": "2023-03-31",
+        "observedProperty": "surveyable:VectorDetermination",
+        "usedProcedure": "wa-procedure-used:measured",
+        "angleType": "icsm-angle-type:angle",
+        "distanceType": "icsm-distance-type:grid",
+        "madeBySensor": {
+          "sensorType": "icsm-equipment-type:t-edm",
+          "theodoliteSensor": "T+111984765",
+          "edmSensor": "edm+89873452",
+          "prism": "p+223421"
+        }
+      },
+      "features": [
+        {
+          "type": "Feature",
+          "geometry": null,
+          "time": null,
+          "place": null,
+          "properties": {
+            "hasFeatureOfInterest": "14480677",
+            "resultTime": "2023-03-31T11:56:03",
+            "hasResult": {
+              "pose": {
+                "angles": {
+                  "yaw": 42.605833333,
+                  "pitch": 0.001
+                },
+                "distance": 50.192
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

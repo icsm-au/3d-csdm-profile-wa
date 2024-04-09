@@ -1,0 +1,149 @@
+Validation report for icsm.profiles.wa - Western Australia Cadastral Survey Data Exchange Profile
+Generated 2024-02-08T09:27:40.964578+00:00
+=== Files ===
+Using topographic-spline (example_13_1) from examples
+JSON-LD context is present - uplifting
+Output JSON-LD topographic-spline.jsonld created
+Output Turtle topographic-spline.ttl created
+=== End Files ===
+
+=== JSON Schema ===
+Validation passed
+=== End JSON Schema ===
+
+=== SHACL ===
+Validation result for profiles/wa-pointnames-shacl.ttl:
+  Validation Report
+  Conforms: True
+  
+Focus nodes for profiles/wa-pointnames-shacl.ttl:
+ - Shape wap:testLabelPartsPresent: *none*
+
+Validation result for https://icsm-au.github.io/3d-csdm-schema/_sources/csdm/features/CSD/tests/obs-match-vectors.shacl:
+  Validation Report
+  Conforms: True
+  
+Focus nodes for https://icsm-au.github.io/3d-csdm-schema/_sources/csdm/features/CSD/tests/obs-match-vectors.shacl:
+ - Shape :testFOIexists: <vectorobservation:Measured>/sosa:hasMember,<vectorobservation:Measured>/sosa:hasMember,<vectorobservation:Measured>/sosa:hasMember,<vectorobservation:Measured>/sosa:hasMember,<vectorobservation:Measured>/sosa:hasMember,<vectorobservation:Measured>/sosa:hasMember,<vectorobservation:Measured>/sosa:hasMember
+
+Validation result for https://icsm-au.github.io/3d-csdm-schema/_sources/csdm/shapes/container.shapes.ttl:
+  Validation Report
+  Conforms: True
+  
+Focus nodes for https://icsm-au.github.io/3d-csdm-schema/_sources/csdm/shapes/container.shapes.ttl:
+ - Shape container:CSD: *none*
+ - Shape container:CSD-seeAlso: *none*
+ - Shape <https://linked.data.gov.au/def/csdm/surveyprov/SurveyType>: *none*
+
+Validation result for https://icsm-au.github.io/3d-csdm-schema/_sources/csdm/shapes/parcel_module.shapes.ttl:
+  Validation Report
+  Conforms: True
+  
+Focus nodes for https://icsm-au.github.io/3d-csdm-schema/_sources/csdm/shapes/parcel_module.shapes.ttl:
+ - Shape :PropertyUnit: *none*
+ - Shape :ParcelQualityClass: *none*
+ - Shape :Apellation: *none*
+ - Shape :PurposeOfSpatialUnit: *none*
+ - Shape :PrimaryParcel: *none*
+ - Shape :SecondaryParcel: *none*
+ - Shape :ParcelState: *none*
+ - Shape :LandInterest: *none*
+ - Shape :ParcelAggregate: *none*
+ - Shape :EstateParcel: *none*
+ - Shape :ParcelType: *none*
+ - Shape :Parcel: *none*
+
+Validation result for https://ogcincubator.github.io/topo-feature/_sources/features/topo-feature/tests/geometry-coordinates.shacl:
+  Validation Report
+  Conforms: True
+  
+Focus nodes for https://ogcincubator.github.io/topo-feature/_sources/features/topo-feature/tests/geometry-coordinates.shacl:
+ - Shape _:n1565c0e79b1b49739091efda9a5715e6b1: <https://www.wa-example.com/features/106>/geojson:geometry,<https://www.wa-example.com/features/13>/geojson:geometry,<https://www.wa-example.com/features/103>/geojson:geometry,<https://www.wa-example.com/features/117>/geojson:geometry,<https://www.wa-example.com/features/112>/geojson:geometry,<https://www.wa-example.com/features/10>/geojson:geometry,<https://www.wa-example.com/features/107>/geojson:geometry,<https://www.wa-example.com/features/119>/geojson:geometry,<https://www.wa-example.com/features/116>/geojson:geometry,<https://www.wa-example.com/features/115>/geojson:geometry,<https://www.wa-example.com/features/120>/geojson:geometry,<https://www.wa-example.com/features/111>/geojson:geometry,<https://www.wa-example.com/features/102>/geojson:geometry,<https://www.wa-example.com/features/113>/geojson:geometry,<https://www.wa-example.com/features/118>/geojson:geometry,<https://www.wa-example.com/features/108>/geojson:geometry,<https://www.wa-example.com/features/105>/geojson:geometry,<https://www.wa-example.com/features/110>/geojson:geometry,<https://www.wa-example.com/features/11>/geojson:geometry,<https://www.wa-example.com/features/101>/geojson:geometry,<https://www.wa-example.com/features/114>/geojson:geometry,<https://www.wa-example.com/features/109>/geojson:geometry,<https://www.wa-example.com/features/14>/geojson:geometry,<https://www.wa-example.com/features/12>/geojson:geometry,<https://www.wa-example.com/features/104>/geojson:geometry
+ - Shape _:n1565c0e79b1b49739091efda9a5715e6b3: <https://www.wa-example.com/features/106>/geojson:geometry,<https://www.wa-example.com/features/13>/geojson:geometry,<https://www.wa-example.com/features/103>/geojson:geometry,<https://www.wa-example.com/features/117>/geojson:geometry,<https://www.wa-example.com/features/112>/geojson:geometry,<https://www.wa-example.com/features/10>/geojson:geometry,<https://www.wa-example.com/features/107>/geojson:geometry,<https://www.wa-example.com/features/119>/geojson:geometry,<https://www.wa-example.com/features/116>/geojson:geometry,<https://www.wa-example.com/features/115>/geojson:geometry,<https://www.wa-example.com/features/120>/geojson:geometry,<https://www.wa-example.com/features/111>/geojson:geometry,<https://www.wa-example.com/features/102>/geojson:geometry,<https://www.wa-example.com/features/113>/geojson:geometry,<https://www.wa-example.com/features/118>/geojson:geometry,<https://www.wa-example.com/features/108>/geojson:geometry,<https://www.wa-example.com/features/105>/geojson:geometry,<https://www.wa-example.com/features/110>/geojson:geometry,<https://www.wa-example.com/features/11>/geojson:geometry,<https://www.wa-example.com/features/101>/geojson:geometry,<https://www.wa-example.com/features/114>/geojson:geometry,<https://www.wa-example.com/features/109>/geojson:geometry,<https://www.wa-example.com/features/14>/geojson:geometry,<https://www.wa-example.com/features/12>/geojson:geometry,<https://www.wa-example.com/features/104>/geojson:geometry
+
+Validation result for https://ogcincubator.github.io/topo-feature/_sources/features/topo-feature-collection/tests/topo-refs-exist.shacl:
+  Validation Report
+  Conforms: True
+  
+Focus nodes for https://ogcincubator.github.io/topo-feature/_sources/features/topo-feature-collection/tests/topo-refs-exist.shacl:
+ - Shape topo:testTopoLinesReferencePoints: <https://www.wa-example.com/features/v11>/geojson:topology,<https://www.wa-example.com/features/v12>/geojson:topology,<https://www.wa-example.com/features/v10>/geojson:topology,<https://www.wa-example.com/features/v13>/geojson:topology
+ - Shape topo:testTopoReferencesExist: <https://www.wa-example.com/features/v12>/geojson:topology,<https://www.wa-example.com/features/23>/geojson:topology,<https://www.wa-example.com/features/v10>/geojson:topology,<https://www.wa-example.com/features/v13>/geojson:topology,<https://www.wa-example.com/features/v11>/geojson:topology,<https://www.wa-example.com/features/26538>/geojson:topology,<https://www.wa-example.com/features/1>/geojson:topology,<https://www.wa-example.com/features/22>/geojson:topology,<https://www.wa-example.com/features/21>/geojson:topology
+
+Validation result for https://icsm-au.github.io/3d-csdm-schema/_sources/csdm/datatypes/compoundName/rules.shacl:
+  Validation Report
+  Conforms: True
+  
+Focus nodes for https://icsm-au.github.io/3d-csdm-schema/_sources/csdm/datatypes/compoundName/rules.shacl:
+ - Shape _:n2b93bbeb6ce3452a90906b51b3e353cfb1: *none*
+
+Validation result for https://opengeospatial.github.io/ogcapi-sosa/_sources/properties/observation/rules.shacl:
+  Validation Report
+  Conforms: True
+  
+Focus nodes for https://opengeospatial.github.io/ogcapi-sosa/_sources/properties/observation/rules.shacl:
+ - Shape <https://www.ogc.org/rules/sosa/#testRequiredTime>: <vectorobservation:Measured>/sosa:hasMember,<vectorobservation:Measured>/sosa:hasMember,<vectorobservation:Measured>/sosa:hasMember,<vectorobservation:Measured>/sosa:hasMember,<vectorobservation:Measured>/sosa:hasMember,<vectorobservation:Measured>/sosa:hasMember,<vectorobservation:Measured>/sosa:hasMember
+ - Shape <https://www.ogc.org/rules/sosa/#testSimpleResultLiteral>: *none*
+ - Shape <https://www.ogc.org/rules/sosa/#testResult>: <vectorobservation:Measured>/sosa:hasMember,<vectorobservation:Measured>/sosa:hasMember,<vectorobservation:Measured>/sosa:hasMember,<vectorobservation:Measured>/sosa:hasMember,<vectorobservation:Measured>/sosa:hasMember,<vectorobservation:Measured>/sosa:hasMember,<vectorobservation:Measured>/sosa:hasMember
+ - Shape <https://www.ogc.org/rules/sosa/#testObservedProperty>: <vectorobservation:Measured>/sosa:hasMember,<vectorobservation:Measured>/sosa:hasMember,<vectorobservation:Measured>/sosa:hasMember,<vectorobservation:Measured>/sosa:hasMember,<vectorobservation:Measured>/sosa:hasMember,<vectorobservation:Measured>/sosa:hasMember,<vectorobservation:Measured>/sosa:hasMember
+ - Shape <https://www.ogc.org/rules/sosa/#testFeatureOfInterest>: <vectorobservation:Measured>/sosa:hasMember,<vectorobservation:Measured>/sosa:hasMember,<vectorobservation:Measured>/sosa:hasMember,<vectorobservation:Measured>/sosa:hasMember,<vectorobservation:Measured>/sosa:hasMember,<vectorobservation:Measured>/sosa:hasMember,<vectorobservation:Measured>/sosa:hasMember
+ - Shape <https://www.ogc.org/rules/sosa/#testResultNotEmptyNode>: *none*
+
+Validation result for https://icsm-au.github.io/3d-csdm-schema/_sources/csdm/features/SurveyObservations/rules.shacl:
+  Validation Report
+  Conforms: True
+  
+Focus nodes for https://icsm-au.github.io/3d-csdm-schema/_sources/csdm/features/SurveyObservations/rules.shacl:
+ - Shape :testRequiredProperties: <vectorobservation:Measured>/sosa:hasMember,<vectorobservation:Measured>/sosa:hasMember,<vectorobservation:Measured>/sosa:hasMember,<vectorobservation:Measured>/sosa:hasMember,<vectorobservation:Measured>/sosa:hasMember,<vectorobservation:Measured>/sosa:hasMember,<vectorobservation:Measured>/sosa:hasMember
+
+Validation result for profiles/icsm-point-codetypes-shacl.ttl:
+  Validation Report
+  Conforms: True
+  
+Focus nodes for profiles/icsm-point-codetypes-shacl.ttl:
+ - Shape jcl:testBoundVocab-surveypoint-purpose: <https://www.wa-example.com/features/106>,<https://www.wa-example.com/features/12>,<https://www.wa-example.com/features/113>,<https://www.wa-example.com/features/102>,<https://www.wa-example.com/features/114>,<https://www.wa-example.com/features/107>,<https://www.wa-example.com/features/104>,<https://www.wa-example.com/features/BoundaryMark>,<https://www.wa-example.com/features/108>,<https://www.wa-example.com/features/115>,<https://www.wa-example.com/features/101>,<https://www.wa-example.com/features/110>,<https://www.wa-example.com/features/13>,<https://www.wa-example.com/features/105>,<https://www.wa-example.com/features/119>,<https://www.wa-example.com/features/116>,<https://www.wa-example.com/features/109>,<https://www.wa-example.com/features/11>,<https://www.wa-example.com/features/118>,<https://www.wa-example.com/features/112>,<https://www.wa-example.com/features/103>,<https://www.wa-example.com/features/117>,<https://www.wa-example.com/features/120>,<https://www.wa-example.com/features/10>,<https://www.wa-example.com/features/111>,<https://www.wa-example.com/features/CadastralMark>,<https://www.wa-example.com/features/14>
+ - Shape jcl:testBoundVocab-pt-quality-class: <https://www.wa-example.com/features/106>,<https://www.wa-example.com/features/12>,<https://www.wa-example.com/features/113>,<https://www.wa-example.com/features/102>,<https://www.wa-example.com/features/114>,<https://www.wa-example.com/features/107>,<https://www.wa-example.com/features/104>,<https://www.wa-example.com/features/BoundaryMark>,<https://www.wa-example.com/features/108>,<https://www.wa-example.com/features/115>,<https://www.wa-example.com/features/101>,<https://www.wa-example.com/features/110>,<https://www.wa-example.com/features/13>,<https://www.wa-example.com/features/105>,<https://www.wa-example.com/features/119>,<https://www.wa-example.com/features/116>,<https://www.wa-example.com/features/109>,<https://www.wa-example.com/features/11>,<https://www.wa-example.com/features/118>,<https://www.wa-example.com/features/112>,<https://www.wa-example.com/features/103>,<https://www.wa-example.com/features/117>,<https://www.wa-example.com/features/120>,<https://www.wa-example.com/features/10>,<https://www.wa-example.com/features/111>,<https://www.wa-example.com/features/CadastralMark>,<https://www.wa-example.com/features/14>
+ - Shape jcl:testBoundVocab-state: <https://www.wa-example.com/features/102>/surv:monumentedBy,<https://www.wa-example.com/features/112>/surv:monumentedBy,<https://www.wa-example.com/features/14>/surv:monumentedBy,<https://www.wa-example.com/features/108>/surv:monumentedBy,<https://www.wa-example.com/features/103>/surv:monumentedBy,<https://www.wa-example.com/features/110>/surv:monumentedBy,<https://www.wa-example.com/features/119>/surv:monumentedBy,<https://www.wa-example.com/features/111>/surv:monumentedBy,<https://www.wa-example.com/features/13>/surv:monumentedBy,<https://www.wa-example.com/features/12>/surv:monumentedBy,<https://www.wa-example.com/features/11>/surv:monumentedBy,<https://www.wa-example.com/features/106>/surv:monumentedBy,<https://www.wa-example.com/features/117>/surv:monumentedBy,<https://www.wa-example.com/features/115>/surv:monumentedBy,<https://www.wa-example.com/features/101>/surv:monumentedBy,<https://www.wa-example.com/features/10>/surv:monumentedBy,<https://www.wa-example.com/features/105>/surv:monumentedBy,<https://www.wa-example.com/features/120>/surv:monumentedBy,<https://www.wa-example.com/features/118>/surv:monumentedBy,<https://www.wa-example.com/features/116>/surv:monumentedBy,<https://www.wa-example.com/features/113>/surv:monumentedBy,<https://www.wa-example.com/features/104>/surv:monumentedBy,<https://www.wa-example.com/features/114>/surv:monumentedBy,<https://www.wa-example.com/features/109>/surv:monumentedBy,<https://www.wa-example.com/features/107>/surv:monumentedBy
+ - Shape jcl:testBoundVocab-vector-purpose: <https://www.wa-example.com/features/Spline>,<https://www.wa-example.com/features/SubtendedAngle>,<https://www.wa-example.com/features/observedVectors>
+ - Shape jcl:testBoundVocab-condition: <https://www.wa-example.com/features/102>/surv:monumentedBy,<https://www.wa-example.com/features/112>/surv:monumentedBy,<https://www.wa-example.com/features/14>/surv:monumentedBy,<https://www.wa-example.com/features/108>/surv:monumentedBy,<https://www.wa-example.com/features/103>/surv:monumentedBy,<https://www.wa-example.com/features/110>/surv:monumentedBy,<https://www.wa-example.com/features/119>/surv:monumentedBy,<https://www.wa-example.com/features/111>/surv:monumentedBy,<https://www.wa-example.com/features/13>/surv:monumentedBy,<https://www.wa-example.com/features/12>/surv:monumentedBy,<https://www.wa-example.com/features/11>/surv:monumentedBy,<https://www.wa-example.com/features/106>/surv:monumentedBy,<https://www.wa-example.com/features/117>/surv:monumentedBy,<https://www.wa-example.com/features/115>/surv:monumentedBy,<https://www.wa-example.com/features/101>/surv:monumentedBy,<https://www.wa-example.com/features/10>/surv:monumentedBy,<https://www.wa-example.com/features/105>/surv:monumentedBy,<https://www.wa-example.com/features/120>/surv:monumentedBy,<https://www.wa-example.com/features/118>/surv:monumentedBy,<https://www.wa-example.com/features/116>/surv:monumentedBy,<https://www.wa-example.com/features/113>/surv:monumentedBy,<https://www.wa-example.com/features/104>/surv:monumentedBy,<https://www.wa-example.com/features/114>/surv:monumentedBy,<https://www.wa-example.com/features/109>/surv:monumentedBy,<https://www.wa-example.com/features/107>/surv:monumentedBy
+ - Shape jcl:testBoundVocab-form: <https://www.wa-example.com/features/102>/surv:monumentedBy,<https://www.wa-example.com/features/112>/surv:monumentedBy,<https://www.wa-example.com/features/14>/surv:monumentedBy,<https://www.wa-example.com/features/108>/surv:monumentedBy,<https://www.wa-example.com/features/103>/surv:monumentedBy,<https://www.wa-example.com/features/110>/surv:monumentedBy,<https://www.wa-example.com/features/119>/surv:monumentedBy,<https://www.wa-example.com/features/111>/surv:monumentedBy,<https://www.wa-example.com/features/13>/surv:monumentedBy,<https://www.wa-example.com/features/12>/surv:monumentedBy,<https://www.wa-example.com/features/11>/surv:monumentedBy,<https://www.wa-example.com/features/106>/surv:monumentedBy,<https://www.wa-example.com/features/117>/surv:monumentedBy,<https://www.wa-example.com/features/115>/surv:monumentedBy,<https://www.wa-example.com/features/101>/surv:monumentedBy,<https://www.wa-example.com/features/10>/surv:monumentedBy,<https://www.wa-example.com/features/105>/surv:monumentedBy,<https://www.wa-example.com/features/120>/surv:monumentedBy,<https://www.wa-example.com/features/118>/surv:monumentedBy,<https://www.wa-example.com/features/116>/surv:monumentedBy,<https://www.wa-example.com/features/113>/surv:monumentedBy,<https://www.wa-example.com/features/104>/surv:monumentedBy,<https://www.wa-example.com/features/114>/surv:monumentedBy,<https://www.wa-example.com/features/109>/surv:monumentedBy,<https://www.wa-example.com/features/107>/surv:monumentedBy
+
+Validation result for profiles/icsm-survey-metadata-shacl.ttl:
+  Validation Report
+  Conforms: True
+  
+Focus nodes for profiles/icsm-survey-metadata-shacl.ttl:
+ - Shape :testVHD: *none*
+ - Shape :testDistanceType: *none*
+ - Shape :testAngleType: *none*
+ - Shape :testSurveyMetadata: <https://www.wa-example.com/features/DP_404354>
+ - Shape :testCompoundCRS: *none*
+ - Shape :testCRS: <https://www.wa-example.com/features/DP_404354>
+
+Validation result for profiles/icsm-parcel-codetypes-shacl.ttl:
+  Validation Report
+  Conforms: True
+  
+Focus nodes for profiles/icsm-parcel-codetypes-shacl.ttl:
+ - Shape jcl:testBoundVocab-parcelType: *none*
+ - Shape jcl:testBoundVocab-parcelInterest: <https://www.wa-example.com/features/1>/parcel:interest
+
+Validation result for profiles/icsm-references-shacl.ttl:
+  Validation Report
+  Conforms: True
+  
+Focus nodes for profiles/icsm-references-shacl.ttl:
+ - Shape :referencedCSDs-present: *none*
+
+Validation result for profiles/icsm-observation-properties.shacl:
+  Validation Report
+  Conforms: True
+  
+Focus nodes for profiles/icsm-observation-properties.shacl:
+ - Shape :bindSurveyObservation-angle-and-distance-types: <vectorobservation:Measured>/sosa:hasMember,<vectorobservation:Measured>/sosa:hasMember,<vectorobservation:Measured>/sosa:hasMember,<vectorobservation:Measured>/sosa:hasMember,<vectorobservation:Measured>/sosa:hasMember,<vectorobservation:Measured>/sosa:hasMember,<vectorobservation:Measured>/sosa:hasMember
+ - Shape :testInCollectionOrMember-procedure: <vectorobservation:Measured>
+ - Shape :testInCollectionOrMember-madeBySensor: <vectorobservation:Measured>/sosa:hasMember,<vectorobservation:Measured>/sosa:hasMember,<vectorobservation:Measured>/sosa:hasMember,<vectorobservation:Measured>/sosa:hasMember,<vectorobservation:Measured>/sosa:hasMember,<vectorobservation:Measured>/sosa:hasMember,<vectorobservation:Measured>/sosa:hasMember
+ - Shape :annotate-madeBySensor: <vectorobservation:Measured>
+ - Shape :testInCollectionOrMember-madeBySensor-Dies-in-rdflib: *none*
+
+=== End SHACL ===
+

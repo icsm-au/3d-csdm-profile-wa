@@ -1,0 +1,215 @@
+{
+    "$schema": "schema.json",
+    "type": "FeatureCollection",
+    "horizontalCRS": "epsg:2105",
+    "id": null,
+    "name": "DP 572532",
+    "purpose": "nz-survey-purpose:lts",
+    "referencedCSDs": [
+        {
+            "id": "DP_104392",
+            "name": "DP 104392",
+            "adminUnit": {
+                "href": "nz-land-district:NA",
+                "rel": "related",
+                "role": "icsm-admin-unit-type:landDistrict"
+            },
+            "bearingRotation": 0.0,
+            "time": "2023-03-10 00:00:00"
+        },
+        {
+            "id": "DP_119552",
+            "name": "DP 119552",
+            "adminUnit": {
+                "href": "nz-land-district:NA",
+                "rel": "related",
+                "role": "icsm-admin-unit-type:landDistrict"
+            },
+            "bearingRotation": 0.0,
+            "time": "2023-03-10 00:00:00"
+        },
+        {
+            "id": "DP_119553",
+            "name": "DP 119553",
+            "adminUnit": {
+                "href": "nz-land-district:NA",
+                "rel": "related",
+                "role": "icsm-admin-unit-type:landDistrict"
+            },
+            "bearingRotation": 0.0,
+            "time": "2023-03-10 00:00:00"
+        },
+        {
+            "id": "DP_481392",
+            "name": "DP 481392",
+            "adminUnit": {
+                "href": "nz-land-district:NA",
+                "rel": "related",
+                "role": "icsm-admin-unit-type:landDistrict"
+            },
+            "bearingRotation": 0.0,
+            "time": "2023-03-10 00:00:00"
+        }
+    ],
+    "links": [],
+    "provenance": {},
+    "features": [
+        {
+            "id": "49655186",
+            "type": "Feature",
+            "featureType": "SurveyPoint",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    174.75023845258724,
+                    -36.93093186581894
+                ]
+            },
+            "place": {
+                "type": "Point",
+                "coordinates": [
+                    794317.443,
+                    398759.23
+                ]
+            },
+            "properties": {
+                "name": {
+                    "label": "RM H DP 119553",
+                    "hasPart": [
+                        {
+                            "type": "PlanType",
+                            "label": "DP"
+                        },
+                        {
+                            "type": "planIdentifier",
+                            "label": "119553"
+                        },
+                        {
+                            "type": "MarkType",
+                            "label": "RM"
+                        },
+                        {
+                            "type": "MarkIdentifier",
+                            "label": "H"
+                        }
+                    ]
+                },
+                "purpose": "nz-surveypoint-purpose:non-bdy",
+                "fromSurvey": "DP_119553",
+                "ptQualityMeasure": 0.034,
+                "comment": null,
+                "monumentedBy": {
+                    "form": "nz-monument-form:bp",
+                    "condition": "nz-monument-condition:mkfd",
+                    "state": "nz-monument-state:old"
+                },
+                "ptQuality": "nz-point-class:6"
+            }
+        },
+        {
+            "id": "49655171",
+            "type": "Feature",
+            "featureType": "SurveyPoint",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    174.75054006892805,
+                    -36.93106104934007
+                ]
+            },
+            "place": {
+                "type": "Point",
+                "coordinates": [
+                    794303.112,
+                    398786.101
+                ]
+            },
+            "properties": {
+                "name": {
+                    "label": "DISK 15 DP 572532",
+                    "hasPart": [
+                        {
+                            "type": "PlanType",
+                            "label": "DP"
+                        },
+                        {
+                            "type": "planIdentifier",
+                            "label": "572532"
+                        },
+                        {
+                            "type": "MarkType",
+                            "label": "DISK"
+                        },
+                        {
+                            "type": "MarkIdentifier",
+                            "label": "15"
+                        }
+                    ]
+                },
+                "purpose": "nz-surveypoint-purpose:bndy",
+                "fromSurvey": "DP_572532",
+                "ptQualityMeasure": 0.031,
+                "comment": null,
+                "monumentedBy": {
+                    "form": "nz-monument-form:disk",
+                    "condition": "nz-monument-condition:relb",
+                    "state": "nz-monument-state:new"
+                },
+                "ptQuality": "nz-point-class:7"
+            }
+        },
+        {
+            "id": "49655185",
+            "type": "Feature",
+            "featureType": "SurveyPoint",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    174.75043154611797,
+                    -36.93096994526273
+                ]
+            },
+            "place": {
+                "type": "Point",
+                "coordinates": [
+                    794313.22,
+                    398776.432
+                ]
+            },
+            "properties": {
+                "name": {
+                    "label": "AP 1 DP 572532",
+                    "hasPart": [
+                        {
+                            "type": "PlanType",
+                            "label": "DP"
+                        },
+                        {
+                            "type": "planIdentifier",
+                            "label": "572532"
+                        },
+                        {
+                            "type": "MarkType",
+                            "label": "AP"
+                        },
+                        {
+                            "type": "MarkIdentifier",
+                            "label": "1"
+                        }
+                    ]
+                },
+                "geodeticid": "UIOP",
+                "purpose": "nz-surveypoint-purpose:prm",
+                "fromSurvey": "DP_572532",
+                "ptQualityMeasure": 0.033,
+                "comment": "Flush in conc",
+                "monumentedBy": {
+                    "form": "nz-monument-form:pin",
+                    "condition": "nz-monument-condition:relb",
+                    "state": "nz-monument-state:new"
+                },
+                "ptQuality": "nz-point-class:6"
+            }
+        }
+    ]
+}

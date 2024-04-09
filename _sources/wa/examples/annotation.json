@@ -1,0 +1,60 @@
+{
+  "id": "DP_58955",
+  "name": "DP 58955",
+  "description": "Western Australia Annotation Example",
+  "type": "FeatureCollection",
+  "featureType": "CSD",
+  "tenureType": "wa-parcel-type:crown",
+  "planType": "wa-survey-type:deposited-plan",
+  "purpose": "wa-survey-purpose:acquisition",
+  "surveyType": "wa-survey-type:SSA",
+  "time": { "date": "2010-06-29" },
+  "horizontalCRS": "epsg:7850",
+  "bearingRotation": 0.0,
+  "surveyTitle": "Road & Road Widening (Lot 306)",
+  "adminUnit": [
+    {
+      "href": "wa-local-government:shire-of-east-pilbara",
+      "rel": "related",
+      "role": "icsm-admin-unit-type:localGovernmentArea"
+    },
+    {
+      "href": "wa-locality:marble-bar",
+      "rel": "related",
+      "role": "icsm-admin-unit-type:locality"
+    }
+  ],
+  "wasGeneratedBy": {
+    "id": "DP-1-S2",
+    "endedAtTime": "2029-01-01T01:02:03Z"
+  },
+  "features": [],
+  "referencedCSDs": [],
+  "points": [],
+  "observedVectors": [],
+  "vectorObservations": [],
+  "parcels": [],
+  "supportingDocuments": [],
+  "annotations": [
+    {
+      "description": "Unsurveyed boundary dimensions derived from SCDB data acquired June 2006",
+      "role": "wa-annotation-role:unsurveyed-dimensions"
+    },
+    {
+      "description": "Lot 306 dimensions derived from GPS observations. Boundaries completely unmarked but related to SSM's",
+      "role": "wa-annotation-role:parcel-derived"
+    },
+    {
+      "description": "The residue land comprised in Pastoral Lease 3114/1244 (Crown Lease 103/1989) is not shown on this plan pursuant to an exemption granted under regulation 5(6) of the Transfer of Land (Survey) Regulations 1995. See DPI File: 50163-2006 (Folio 130)",
+      "role": "wa-annotation-role:transfer-of-land-exempt"
+    },
+    {
+      "description": "Lot 306 to be acquired for Public Purpose (Road)",
+      "role": "wa-annotation-role:public-acquisition"
+    },
+    {
+      "description": "Total area of Lot 306 (10 severances) excluding Lot 11 is 858.7418 ha",
+      "role": "wa-annotation-role:total-area"
+    }
+  ]
+}

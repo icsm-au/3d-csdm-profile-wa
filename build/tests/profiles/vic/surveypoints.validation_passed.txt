@@ -1,0 +1,159 @@
+Validation report for icsm.profiles.vic - Victoria Cadastral Survey Data Exchange Profile
+Generated 2024-02-08T09:24:00.990452+00:00
+=== Files ===
+Using surveypoints (example_2_1) from examples
+JSON-LD context is present - uplifting
+Output JSON-LD surveypoints.jsonld created
+Output Turtle surveypoints.ttl created
+=== End Files ===
+
+=== JSON Schema ===
+Validation passed
+=== End JSON Schema ===
+
+=== SHACL ===
+Validation result for _sources/vic/vic-vocabs-shacl.ttl:
+  Validation Report
+  Conforms: True
+  
+Focus nodes for _sources/vic/vic-vocabs-shacl.ttl:
+ - Shape vicv:testConditionCode: *none*
+ - Shape vicv:testMonumentForm: <https://www.vic-example.com/features/CGPNT-126>/surv:monumentedBy,<https://www.vic-example.com/features/CGPNT-100>/surv:monumentedBy,<https://www.vic-example.com/features/287201580>/surv:monumentedBy
+ - Shape vicv:testMonumentState: *none*
+
+Validation result for _sources/vic/vic-pointnames-shacl.ttl:
+  Validation Report
+  Conforms: True
+  
+Focus nodes for _sources/vic/vic-pointnames-shacl.ttl:
+ - Shape vicp:testTopoFeaturesPresent: *none*
+ - Shape vicp:testLabelPartsPresent: *none*
+
+Validation result for https://icsm-au.github.io/3d-csdm-schema/_sources/csdm/features/CSD/tests/obs-match-vectors.shacl:
+  Validation Report
+  Conforms: True
+  
+Focus nodes for https://icsm-au.github.io/3d-csdm-schema/_sources/csdm/features/CSD/tests/obs-match-vectors.shacl:
+ - Shape :testFOIexists: *none*
+
+Validation result for https://icsm-au.github.io/3d-csdm-schema/_sources/csdm/shapes/container.shapes.ttl:
+  Validation Report
+  Conforms: True
+  
+Focus nodes for https://icsm-au.github.io/3d-csdm-schema/_sources/csdm/shapes/container.shapes.ttl:
+ - Shape container:CSD: *none*
+ - Shape container:CSD-seeAlso: *none*
+ - Shape <https://linked.data.gov.au/def/csdm/surveyprov/SurveyType>: *none*
+
+Validation result for https://icsm-au.github.io/3d-csdm-schema/_sources/csdm/shapes/parcel_module.shapes.ttl:
+  Validation Report
+  Conforms: True
+  
+Focus nodes for https://icsm-au.github.io/3d-csdm-schema/_sources/csdm/shapes/parcel_module.shapes.ttl:
+ - Shape :PropertyUnit: *none*
+ - Shape :ParcelQualityClass: *none*
+ - Shape :Apellation: *none*
+ - Shape :PurposeOfSpatialUnit: *none*
+ - Shape :PrimaryParcel: *none*
+ - Shape :SecondaryParcel: *none*
+ - Shape :ParcelState: *none*
+ - Shape :LandInterest: *none*
+ - Shape :ParcelAggregate: *none*
+ - Shape :EstateParcel: *none*
+ - Shape :ParcelType: *none*
+ - Shape :Parcel: *none*
+
+Validation result for https://ogcincubator.github.io/topo-feature/_sources/features/topo-feature/tests/geometry-coordinates.shacl:
+  Validation Report
+  Conforms: True
+  
+Focus nodes for https://ogcincubator.github.io/topo-feature/_sources/features/topo-feature/tests/geometry-coordinates.shacl:
+ - Shape _:n544de1979af445a6819be6964be23106b3: <https://www.vic-example.com/features/287201580>/geojson:geometry,<https://www.vic-example.com/features/CGPNT-126>/geojson:geometry,<https://www.vic-example.com/features/CGPNT-100>/geojson:geometry
+ - Shape _:n544de1979af445a6819be6964be23106b1: <https://www.vic-example.com/features/287201580>/geojson:geometry,<https://www.vic-example.com/features/CGPNT-126>/geojson:geometry,<https://www.vic-example.com/features/CGPNT-100>/geojson:geometry
+
+Validation result for https://ogcincubator.github.io/topo-feature/_sources/features/topo-feature-collection/tests/topo-refs-exist.shacl:
+  Validation Report
+  Conforms: True
+  
+Focus nodes for https://ogcincubator.github.io/topo-feature/_sources/features/topo-feature-collection/tests/topo-refs-exist.shacl:
+ - Shape topo:testTopoLinesReferencePoints: *none*
+ - Shape topo:testTopoReferencesExist: *none*
+
+Validation result for https://icsm-au.github.io/3d-csdm-schema/_sources/csdm/datatypes/compoundName/rules.shacl:
+  Validation Report
+  Conforms: True
+  
+Focus nodes for https://icsm-au.github.io/3d-csdm-schema/_sources/csdm/datatypes/compoundName/rules.shacl:
+ - Shape _:n77b3888856ca440e95913f732ecd99afb1: *none*
+
+Validation result for https://opengeospatial.github.io/ogcapi-sosa/_sources/properties/observation/rules.shacl:
+  Validation Report
+  Conforms: True
+  
+Focus nodes for https://opengeospatial.github.io/ogcapi-sosa/_sources/properties/observation/rules.shacl:
+ - Shape <https://www.ogc.org/rules/sosa/#testRequiredTime>: *none*
+ - Shape <https://www.ogc.org/rules/sosa/#testSimpleResultLiteral>: *none*
+ - Shape <https://www.ogc.org/rules/sosa/#testResult>: *none*
+ - Shape <https://www.ogc.org/rules/sosa/#testObservedProperty>: *none*
+ - Shape <https://www.ogc.org/rules/sosa/#testFeatureOfInterest>: *none*
+ - Shape <https://www.ogc.org/rules/sosa/#testResultNotEmptyNode>: *none*
+
+Validation result for https://icsm-au.github.io/3d-csdm-schema/_sources/csdm/features/SurveyObservations/rules.shacl:
+  Validation Report
+  Conforms: True
+  
+Focus nodes for https://icsm-au.github.io/3d-csdm-schema/_sources/csdm/features/SurveyObservations/rules.shacl:
+ - Shape :testRequiredProperties: *none*
+
+Validation result for profiles/icsm-point-codetypes-shacl.ttl:
+  Validation Report
+  Conforms: True
+  
+Focus nodes for profiles/icsm-point-codetypes-shacl.ttl:
+ - Shape jcl:testBoundVocab-surveypoint-purpose: <https://www.vic-example.com/features/CGPNT-126>,<https://www.vic-example.com/features/287201580>,<https://www.vic-example.com/features/CGPNT-100>
+ - Shape jcl:testBoundVocab-pt-quality-class: <https://www.vic-example.com/features/CGPNT-126>,<https://www.vic-example.com/features/287201580>,<https://www.vic-example.com/features/CGPNT-100>
+ - Shape jcl:testBoundVocab-state: <https://www.vic-example.com/features/CGPNT-126>/surv:monumentedBy,<https://www.vic-example.com/features/CGPNT-100>/surv:monumentedBy,<https://www.vic-example.com/features/287201580>/surv:monumentedBy
+ - Shape jcl:testBoundVocab-vector-purpose: *none*
+ - Shape jcl:testBoundVocab-condition: <https://www.vic-example.com/features/CGPNT-126>/surv:monumentedBy,<https://www.vic-example.com/features/CGPNT-100>/surv:monumentedBy,<https://www.vic-example.com/features/287201580>/surv:monumentedBy
+ - Shape jcl:testBoundVocab-form: <https://www.vic-example.com/features/CGPNT-126>/surv:monumentedBy,<https://www.vic-example.com/features/CGPNT-100>/surv:monumentedBy,<https://www.vic-example.com/features/287201580>/surv:monumentedBy
+
+Validation result for profiles/icsm-survey-metadata-shacl.ttl:
+  Validation Report
+  Conforms: True
+  
+Focus nodes for profiles/icsm-survey-metadata-shacl.ttl:
+ - Shape :testVHD: *none*
+ - Shape :testDistanceType: *none*
+ - Shape :testAngleType: *none*
+ - Shape :testSurveyMetadata: <https://www.vic-example.com/features/PS-842689H>
+ - Shape :testCompoundCRS: *none*
+ - Shape :testCRS: <https://www.vic-example.com/features/PS-842689H>
+
+Validation result for profiles/icsm-parcel-codetypes-shacl.ttl:
+  Validation Report
+  Conforms: True
+  
+Focus nodes for profiles/icsm-parcel-codetypes-shacl.ttl:
+ - Shape jcl:testBoundVocab-parcelType: *none*
+ - Shape jcl:testBoundVocab-parcelInterest: *none*
+
+Validation result for profiles/icsm-references-shacl.ttl:
+  Validation Report
+  Conforms: True
+  
+Focus nodes for profiles/icsm-references-shacl.ttl:
+ - Shape :referencedCSDs-present: *none*
+
+Validation result for profiles/icsm-observation-properties.shacl:
+  Validation Report
+  Conforms: True
+  
+Focus nodes for profiles/icsm-observation-properties.shacl:
+ - Shape :bindSurveyObservation-angle-and-distance-types: *none*
+ - Shape :testInCollectionOrMember-procedure: *none*
+ - Shape :testInCollectionOrMember-madeBySensor: *none*
+ - Shape :annotate-madeBySensor: *none*
+ - Shape :testInCollectionOrMember-madeBySensor-Dies-in-rdflib: *none*
+
+=== End SHACL ===
+

@@ -1,0 +1,195 @@
+{
+  "id": "PS-842689H",
+  "name": "PS 842689H",
+  "description": "Victoria Provenance Example",
+  "type": "FeatureCollection",
+  "featureType": "CSD",
+  "purpose": "vic-survey-purpose:22-subdivision",
+  "surveyType": "vic-survey-type:survey",
+  "time": {
+    "date": "2020-11-27"
+  },
+  "horizontalCRS": "epsg:7855",
+  "bearingRotation": 0.0,
+  "surveyTitle": "Re-establishment of Lot 1 PS530098X",
+  "adminUnit": [
+    {
+      "href": "vic-county:1025",
+      "rel": "related",
+      "role": "icsm-admin-unit-type:county"
+    },
+    {
+      "href": "vic-parish:2872",
+      "rel": "related",
+      "role": "icsm-admin-unit-type:parish"
+    },
+    {
+      "href": "vic-local-government-area:328",
+      "rel": "related",
+      "role": "icsm-admin-unit-type:localGovernmentArea"
+    }
+  ],
+  "has_provenance": [
+    {
+      "activityType": "planNumberObtained",
+      "wasAssociatedWith": {
+        "agentType": "person",
+        "name": "Stef Surphs",
+        "actedOnBehalfOf": {
+          "agentType": "Organisation",
+          "name": "Son of a Surveyor Ltd"
+        }
+      },
+      "generated": "PS899845B-v1",
+      "startedAtTime": "2023-05-11T12:02:02Z",
+      "endedAtTime": "2023-05-11T12:02:20Z"
+    },
+    {
+      "activityType": "fieldSurvey",
+      "wasAssociatedWith": {
+        "agentType": "person",
+        "name": "Stef Surphs",
+        "actedOnBehalfOf": {
+          "agentType": "Organisation",
+          "name": "Son of a Surveyor Ltd"
+        }
+      },
+      "generated": "PS899845B-v2",
+      "startedAtTime": "2023-04-20T09:03:22Z",
+      "endedAtTime": "2023-06-08T16:05:20Z"
+    },
+    {
+      "activityType": "certifiedDate",
+      "wasAssociatedWith": {
+        "agentType": "person",
+        "name": "Stef Surphs",
+        "actedOnBehalfOf": {
+          "agentType": "Organisation",
+          "name": "Son of a Surveyor Ltd"
+        }
+      },
+      "generated": "PS899845B-v3",
+      "startedAtTime": "2023-06-09T14:15:26Z",
+      "endedAtTime": "2023-06-09T14:15:53Z"
+    },
+    {
+      "activityType": "csdSigned",
+      "wasAssociatedWith": {
+        "agentType": "person",
+        "name": "Stef Surphs",
+        "actedOnBehalfOf": {
+          "agentType": "Organisation",
+          "name": "Son of a Surveyor Ltd"
+        }
+      },
+      "generated": "PS899845B-v4",
+      "startedAtTime": "2023-06-09T14:18:06Z",
+      "endedAtTime": "2023-06-09T14:18:43Z"
+    },
+    {
+      "activityType": "csdLodgedWithSpear",
+      "wasAssociatedWith": {
+        "agentType": "person",
+        "name": "Stef Surphs",
+        "actedOnBehalfOf": {
+          "agentType": "Organisation",
+          "name": "Son of a Surveyor Ltd"
+        }
+      },
+      "generated": "PS899845B-v5",
+      "startedAtTime": "2023-06-09T14:36:22Z",
+      "endedAtTime": "2023-06-09T14:40:02Z"
+    },
+    {
+      "activityType": "csdCertified",
+      "wasAssociatedWith": {
+        "agentType": "person",
+        "name": "Alice E. Plains",
+        "actedOnBehalfOf": {
+          "agentType": "Organisation",
+          "name": "City of Bayside"
+        }
+      },
+      "generated": "PS899845B-v6",
+      "startedAtTime": "2023-06-09T14:50:22Z",
+      "endedAtTime": "2023-06-23T10:11:12Z"
+    },
+    {
+      "activityType": "csdReleasedforLodgement",
+      "wasAssociatedWith": {
+        "agentType": "person",
+        "name": "Stef Surphs",
+        "actedOnBehalfOf": {
+          "agentType": "Organisation",
+          "name": "Son of a Surveyor Ltd"
+        }
+      },
+      "generated": "PS899845B-v7",
+      "startedAtTime": "2023-06-23T13:45:18Z",
+      "endedAtTime": "2023-06-23T13:17:59Z"
+    },
+    {
+      "activityType": "csdLodged",
+      "wasAssociatedWith": {
+        "agentType": "person",
+        "name": "Len E. Beagle",
+        "actedOnBehalfOf": {
+          "agentType": "Organisation",
+          "name": "Conveyancing Calamities Ltd."
+        }
+      },
+      "generated": "PS899845B-v8",
+      "startedAtTime": "2023-06-23T13:17:59Z",
+      "endedAtTime": "2023-06-28T16:49:05Z"
+    },
+    {
+      "activityType": "csdExamination",
+      "wasAssociatedWith": {
+        "agentType": "person",
+        "name": "Examiner Trudeau",
+        "actedOnBehalfOf": {
+          "agentType": "Organisation",
+          "name": "Land Use Victoria"
+        }
+      },
+      "generated": "PS899845B-v9",
+      "startedAtTime": "2023-06-28T16:49:05Z",
+      "endedAtTime": "2023-07-12T08:55:01Z"
+    },
+    {
+      "activityType": "csdAmendments",
+      "wasAssociatedWith": {
+        "agentType": "person",
+        "name": "Stef Surphs",
+        "actedOnBehalfOf": {
+          "agentType": "Organisation",
+          "name": "Son of a Surveyor Ltd"
+        }
+      },
+      "generated": "PS899845B-v10",
+      "startedAtTime": "2023-07-12T08:55:01Z",
+      "endedAtTime": "2023-07-21T13:07:33Z"
+    },
+    {
+      "activityType": "csdRegistered",
+      "wasAssociatedWith": {
+        "agentType": "person",
+        "name": "Examiner Trudeau",
+        "actedOnBehalfOf": {
+          "agentType": "Organisation",
+          "name": "Land Use Victoria"
+        }
+      },
+      "generated": "PS899845B-v11",
+      "startedAtTime": "2023-07-21T13:07:33Z"
+    }
+  ],
+  "features": [],
+  "referencedCSDs": [],
+  "points": [],
+  "observedVectors": [],
+  "vectorObservations": [],
+  "parcels": [],
+  "supportingDocuments": [],
+  "annotations": []
+}

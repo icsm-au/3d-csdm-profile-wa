@@ -1,0 +1,12 @@
+{
+    "$schema": "schema.json",
+    "type": "FeatureCollection",
+    "horizontalCRS": "epsg:7855",
+    "id": null,
+    "name": "PS 842689H",
+    "purpose": "vic-survey-purpose:22-subdivision",
+    "referencedCSDs": [],
+    "links": [],
+    "provenance": {},
+    "features": []
+}

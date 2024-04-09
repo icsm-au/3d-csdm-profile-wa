@@ -1,0 +1,6 @@
+build/tests/profiles/vic/occupation-example.jsonld
+'monumentedBy' property is mandatory! 100 {'purpose': 'vic-surveypoint-purpose:occupation', 'fromSurvey': '', 'note': 'SW corner of firewall between Units 2 and 3', 'age': '0 years'}
+'monumentedBy' property is mandatory! 101 {'purpose': 'vic-surveypoint-purpose:occupation', 'fromSurvey': '', 'note': 'NW corner of firewall between Units 2 and 3', 'age': '0 years'}
+'monumentedBy' property is mandatory! 102 {'purpose': 'vic-surveypoint-purpose:occupation', 'fromSurvey': '', 'note': 'NW corner of firewall between Units 1 and 2', 'age': '0 years'}
+'monumentedBy' property is mandatory! 103 {'purpose': 'vic-surveypoint-purpose:occupation', 'fromSurvey': '', 'note': 'NE corner of firewall between Units 1 and 2', 'age': '0 years'}
+'monumentedBy' property is mandatory! 104 {'purpose': 'vic-surveypoint-purpose:occupation', 'fromSurvey': '', 'note': 'SE corner of firewall between Units 1 and 2', 'age': '0 years'}

@@ -1,0 +1,8 @@
+@prefix sdo: <https://schema.org/> .
+
+[] sdo:addressCountry "Australia" ;
+    sdo:addressLocality "Maidstone" ;
+    sdo:addressRegion "VIC" ;
+    sdo:postOfficeBoxNumber "4334" ;
+    sdo:postalCode "3012" .
+

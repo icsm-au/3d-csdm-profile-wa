@@ -1,0 +1,182 @@
+{
+  "id": "DP_422532",
+  "name": "DP 422532",
+  "description": "Western Australia 3D Point Example",
+  "type": "FeatureCollection",
+  "featureType": "CSD",
+  "tenureType": "wa-parcel-type:freehold",
+  "planType": "wa-survey-type:deposited-plan",
+  "purpose": "wa-survey-purpose:subdivision",
+  "surveyType": "wa-survey-type:SSA",
+  "time": {
+    "date": "2022-05-22"
+  },
+  "horizontalCRS": "epsg:8024",
+  "verticalDatum": "epsg:5711",
+  "bearingRotation": 0.0,
+  "surveyTitle": "Lots 210 - 232, 240, Roads, 9005 & Easements",
+  "adminUnit": [
+    {
+      "href": "wa-local-government:city-of-kalgoorlie-boulder",
+      "rel": "related",
+      "role": "icsm-admin-unit-type:localGovernmentArea"
+    },
+    {
+      "href": "wa-locality:karlkurla",
+      "rel": "related",
+      "role": "icsm-admin-unit-type:locality"
+    }
+  ],
+  "wasGeneratedBy": {
+    "id": "DP-1-S2",
+    "endedAtTime": "2029-01-01T01:02:03Z"
+  },
+  "features": [],
+  "referencedCSDs": [
+    {
+      "id": "DP_422526",
+      "name": "DP 422526",
+      "adminUnit": {
+        "href": "wa-locality:hyden",
+        "rel": "related",
+        "role": "icsm-admin-unit-type:locality"
+      },
+      "bearingRotation": 0.0,
+      "time": {
+        "date": "2013-03-10"
+      }
+    }
+  ],
+  "points": [
+    {
+      "id": "CadastralMark",
+      "type": "FeatureCollection",
+      "featureType": "CadastralMark",
+      "features": [
+        {
+          "id": "18430386",
+          "type": "Feature",
+          "featureType": "CadastralMark",
+          "time": null,
+          "geometry": null,
+          "place": {
+            "type": "Point",
+            "coordinates": [
+              54676.628,
+              398434.298,
+              0.0
+            ]
+          },
+          "properties": {
+            "name": {
+              "label": "EFB157243/9533",
+              "hasPart": [
+                {
+                  "type": "Source",
+                  "label": "EFB157243"
+                },
+                {
+                  "type": "Stamp",
+                  "label": "9533"
+                }
+              ]
+            },
+            "purpose": "wa-surveypoint-purpose:temporary-control-point",
+            "ptQualityMeasure": 0.028,
+            "comment": "In Bitumen",
+            "monumentedBy": {
+              "form": "wa-monument-form:spike",
+              "condition": "wa-monument-condition:ok",
+              "state": "wa-monument-state:mark-found"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "BoundaryMark",
+      "type": "FeatureCollection",
+      "featureType": "BoundaryMark",
+      "features": [
+        {
+          "id": "17876586",
+          "type": "Feature",
+          "featureType": "BoundaryMark",
+          "time": null,
+          "geometry": null,
+          "place": {
+            "type": "Point",
+            "coordinates": [
+              54700.281,
+              398426.444,
+              0.0
+            ]
+          },
+          "properties": {
+            "name": null,
+            "purpose": "wa-surveypoint-purpose:road-boundary",
+            "ptQualityMeasure": 0.013,
+            "comment": null,
+            "monumentedBy": {
+              "form": "wa-monument-form:peg",
+              "condition": "wa-monument-condition:ok",
+              "state": "wa-monument-state:mark-found"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "GeodeticReferenceMark",
+      "type": "FeatureCollection",
+      "featureType": "GeodeticReferenceMark",
+      "features": [
+        {
+          "id": "18430396",
+          "type": "Feature",
+          "featureType": "GeodeticReferenceMark",
+          "time": null,
+          "geometry": null,
+          "place": {
+            "type": "Point",
+            "coordinates": [
+              54761.299,
+              398489.106,
+              0.0
+            ]
+          },
+          "properties": {
+            "geodeticid": "EFB157243/9802",
+            "name": {
+              "label": "EFB157243/9802",
+              "hasPart": [
+                {
+                  "type": "Source",
+                  "label": "EFB157243"
+                },
+                {
+                  "type": "Stamp",
+                  "label": "9802"
+                }
+              ]
+            },
+            "purpose": "wa-surveypoint-purpose:permanent-survey-mark",
+            "ptQualityMeasure": 0.026,
+            "comment": "In Concrete",
+            "monumentedBy": {
+              "form": "wa-monument-form:brass-plaque",
+              "condition": "wa-monument-condition:ok",
+              "state": "wa-monument-state:mark-found"
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "observedVectors": [],
+  "vectorObservations": [],
+  "parcels": [],
+  "supportingDocuments": [],
+  "annotations": [],
+  "@context": "https://icsm-au.github.io/3d-csdm-profiles/build/annotated/profiles/wa/context.jsonld"
+}

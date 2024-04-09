@@ -1,0 +1,11 @@
+@prefix ns1: <ad:> .
+@prefix sdo: <https://schema.org/> .
+
+[] ns1:propertyNumber "4" ;
+    ns1:streetName "Clarendon" ;
+    ns1:streetType "St" ;
+    sdo:addressCountry "Australia" ;
+    sdo:addressLocality "Maidstone" ;
+    sdo:addressRegion "VIC" ;
+    sdo:postalCode "3012" .
+

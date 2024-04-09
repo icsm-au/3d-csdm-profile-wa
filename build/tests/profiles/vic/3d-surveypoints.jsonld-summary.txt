@@ -1,0 +1,15 @@
+Projection:	epsg:7855, epsg:5111
+Name:	PS 842689H
+
+Monuments:	3
+	None	ORM Pipe FD (PS649028H)	CadastralMark	355557.003,5966565.784,114.3	vic-monument-state:existing	vic-monument-condition:found	None
+	None	OP FD (PS649028H)	BoundaryMark	355553.781,5966565.561,114.31	vic-monument-state:existing	vic-monument-condition:found	None
+	None	Kialla PM 158	GeodeticReferenceMark	355614.019,5966564.642,114.32	vic-monument-state:existing	vic-monument-condition:ok	287201580
+Parcels:	0
+Observations:	0
+References:	5
+	PS 530098 X	PS530098X	vic-parish:2872 (icsm-admin-unit-type:parish)	related	0.00416666666666667	2020-11-27 00:00:00
+	PS 823638 J	PS823638J	vic-parish:2872 (icsm-admin-unit-type:parish)	related	-0.00277777777777778	2020-11-27 00:00:00
+	PS 649028 H	PS649028H	vic-parish:2872 (icsm-admin-unit-type:parish)	related	0.00416666666666667	2020-11-27 00:00:00
+	PS 823652 Q	PS823652Q	vic-parish:2872 (icsm-admin-unit-type:parish)	related	0.00361111111111111	2020-11-27 00:00:00
+	PS 712910 P	PS712910P	vic-parish:2872 (icsm-admin-unit-type:parish)	related	0.0	2020-11-27 00:00:00
