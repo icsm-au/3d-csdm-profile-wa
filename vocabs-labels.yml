@@ -1,0 +1,42 @@
+input-filter:
+  csv:
+transform:
+  # Keep data only
+  - '.data'
+
+#types:
+#  '$[*]':
+#    - qb:CodedProperty
+
+#@prefix skos:                   <http://www.w3.org/2004/02/skos/core#> .
+#@prefix qb:                     <http://purl.org/linked-data/cube#> .
+#@prefix termtype:               <https://linked.data.gov.au/def/csdm/termtypes/> .
+#
+#container:horizontalCRS
+#    a           qb:CodedProperty ;
+#    qb:codeList <https://linked.data.gov.au/def/csdm/nz-crs>, <https://linked.data.gov.au/def/csdm/nz-compound-crs> ;
+#    rdfs:label  "NZ Coordinate Reference Systems" ;
+#    rdfs:range  <https://linked.data.gov.au/def/csdm/surveyfeatures/> .
+
+#Class,Property,Range,Scheme
+#container:CSD,container:horizontalCRS,termtype:AllowableCoordinateReferenceSystem,vocabs:nz-crs vocabs:nz-compound-crs
+
+context:
+  $:
+    skos: http://www.w3.org/2004/02/skos/core#
+    dct: http://purl.org/dc/terms/
+    policy: http://www.opengis.net/def/metamodel/ogc-na/
+    surv: https://linked.data.gov.au/def/csdm/surveyfeatures/
+    surveyobs: https://linked.data.gov.au/def/csdm/surveyobs/
+    sosa: http://www.w3.org/ns/sosa
+    container: https://linked.data.gov.au/def/csdm/container/
+    termtype: https://linked.data.gov.au/def/csdm/termtypes/
+    parcel: https://linked.data.gov.au/def/csdm/parcels/
+    qb: http://purl.org/linked-data/cube#
+    vocabs: https://linked.data.gov.au/def/csdm/
+    rdfs: http://www.w3.org/2000/01/rdf-schema#
+    sh: http://www.w3.org/ns/shacl#
+
+
+    Scheme: '@id'
+    Label: rdfs:label

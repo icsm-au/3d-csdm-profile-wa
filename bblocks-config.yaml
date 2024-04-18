@@ -1,27 +1,18 @@
 identifier-prefix: icsm.profiles.
 
-name: Implementation Profiles for 3D CSDM
+name: WA Implementation Profile for 3D CSDM
 abstract: |
-  This repository contains profiles of the [Cadastral Survey Data Exchange standard](https://icsm-au.github.io/3d-csdm-schema/), using the [OGC Building Blocks methodology](https://github.com/opengeospatial/bblock-template/blob/master/USAGE.md):
-  
-  - [New Zealand](bblock/icsm.profiles.nz)
-  - [Victoria, Australia](bblock/icsm.profiles.vic)
-  - [Western Australia](bblock/icsm.profiles.wa)
-  - [ICSM]((bblock/icsm.profiles.common) - Aus/NZ Intergovernmental Committee on Survey and Mapping Common Profile
-  
+  This repository contains the WA profile of the [Cadastral Survey Data Model Exchange Specification](https://icsm-au.github.io/3d-csdm-common/), extending the  [common ICSM profile](https://icsm-au.github.io/3d-csdm-profile/icsm/).
+   
+
 description: |
-  Each jurisdiction profile extends a [common ICSM profile] of a potentially universal [model of 3D cadastre](https://icsm-au.github.io/3d-csdm/), and a [JSON schema](https://icsm-au.github.io/3d-csdm-schema/) compatible with the [OGC API Features](https://opengeospatial.github.io/e-learning/ogcapi-features/text/basic-main.html) data exchange model.
 
-  Implementation Profiles (e.g. for each Jurisdiction) use the same documentation form as the common model, but extended with specific constraints and vocabulary usages.
+  The encoding specification and all profiles are compatible with the [OGC API Features](https://opengeospatial.github.io/e-learning/ogcapi-features/text/basic-main.html) data exchange specification, and can thus be implemented by any standards compliant software capable of handling nested object sub-schemas and control of codelist in content.
   
-  e.g. [Victoria (Australian state) Profile](https://icsm-au.github.io/3d-csdm/docs/vic-profile/)
+  Profiles are defined in a consistent, machine-readable and validatable way using the [OGC Building Blocks methodology](https://ogcincubator.github.io/bblocks-docs/).
   
-  _The **[REVIEW GUIDE](https://github.com/icsm-au/3d-csdm-profiles/blob/main/REVIEW_GUIDE.md)** provides a detailed overview of all aspects of the design and testing process, and related materials._
-
-  The relationships of these profiles and the underlying  common model is shown below:
-  
-  ![](https://lucid.app/publicSegments/view/f7e6c029-db67-4186-9592-cab6ec3437d0/image.png)
 
 imports:
   - default
-  - https://icsm-au.github.io/3d-csdm-schema/build/register.json
+  - https://icsm-au.github.io/3d-csdm-common/build/register.json
+  - https://icsm-au.github.io/3d-csdm-profile-icsm/build/register.json

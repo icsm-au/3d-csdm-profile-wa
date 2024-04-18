@@ -1,10 +1,12 @@
 ## Cadastral Survey Data Model - Western Australia Profile
 
-This profile specifies a 2D version of the Cadastral Survey Data Model (CSDM).
+This profile is the WA (Western Australia) of the Cadastral Survey Data Model (CSDM). This extends the [common ICSM Profile](https://icsm-au.github.io/3d-csdm-profile-icsm/) with Western Australia specific constraints.
 
-[More information about the ways profiles are specified](https://github.com/opengeospatial/bblock-template/blob/master/PROFILES.md)
+It only (currently) defines vocabulary bindings to WA specific vocabularies - but can be extended directly, or via sub-profiles, with further data elements and business rules about content requirements.
 
-This extends the common ICSM Profile with Western Australia specific constraints.
+[More information about the ways profiles are specified](https://ogcincubator.github.io/bblocks-docs/overview/profiles)
+
+
 
 These constraints are defined in a **_machine-readable_** form to support:
 
@@ -12,12 +14,6 @@ These constraints are defined in a **_machine-readable_** form to support:
 - conformance validation
 - configuration of generic software to meet specific jurisdictional needs. (if implementers choose to use this option)
 
-These constraints define jurisdiction specific options for:
-
-- use of vocabularies for coded values
-- provenance (record of process steps)
-- labelling conventions and composite name parts
-- TBD (test case development in progress)
 
 ### extensions
 

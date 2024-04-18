@@ -11,10 +11,10 @@
   "sources": [
     {
       "title": "3D Cadastre Survey Data Model",
-      "link": "https://icsm-au.github.io/3d-csdm-design/2022/spec.html"
+      "link": "https://icsm-au.github.io/3d-csdm-common"
     }
   ],
-  "link": "https://github.com/icsm-au/3d-csdm-schema",
+  "link": "https://github.com/icsm-au/3d-csdm-profile-wa",
   "maturity": "development",
   "scope": "profiles",
   "tags": [
@@ -31,27 +31,27 @@
     "../../profiles/wa-pointnames-shacl.ttl"
   ],
   "shaclClosures": [
-    "../../vocabularies/CSD-Header/icsm-admin-unit-type.ttl",
-    "../../vocabularies/SurveyObservations/icsm-angle-type.ttl",
-    "../../vocabularies/SurveyObservations/icsm-distance-type.ttl",
-    "../../vocabularies/SurveyObservations/icsm-equipment-type.ttl",
-    "../../vocabularies/SurveyObservations/icsm-procedure-used.ttl",
-    "../../vocabularies/CSD-Header/wa-crs.ttl",
-    "../../vocabularies/CSD-Header/wa-survey-purpose.ttl",
-    "../../vocabularies/CSD-Header/wa-local-government.ttl",
-    "../../vocabularies/CSD-Header/wa-locality.ttl",
-    "../../vocabularies/CSD-Header/wa-survey-documentation-type.ttl",
-    "../../vocabularies/CSD-Header/wa-annotation.ttl",
-    "../../vocabularies/CSD-Header/wa-survey-type.ttl",
-    "../../vocabularies/CSD-Header/wa-vhd.ttl",
-    "../../vocabularies/Parcels/wa-parcel-purpose.ttl",
-    "../../vocabularies/Parcels/wa-parcel-state.ttl",
-    "../../vocabularies/SurveyObservations/wa-procedure-used.ttl",
-    "../../vocabularies/SurveyObservations/wa-vector-purpose.ttl",
-    "../../vocabularies/SurveyPoints/monument/wa-monument-type.ttl",
-    "../../vocabularies/SurveyPoints/condition/wa-condition.ttl",
-    "../../vocabularies/SurveyPoints/purpose/wa-purpose.ttl",
-    "../../vocabularies/SurveyPoints/other/wa-surveypoint-method.ttl",
-    "../../vocabularies/SurveyPoints/state/wa-state.ttl"
+    "https://icsm-au.github.io/icsm-vocabs/cadastre/CSD-Header/icsm-admin-unit-type.ttl",
+    "https://icsm-au.github.io/icsm-vocabs/cadastre/SurveyObservations/icsm-angle-type.ttl",
+    "https://icsm-au.github.io/icsm-vocabs/cadastre/SurveyObservations/icsm-distance-type.ttl",
+    "https://icsm-au.github.io/icsm-vocabs/cadastre/SurveyObservations/icsm-equipment-type.ttl",
+    "https://icsm-au.github.io/icsm-vocabs/cadastre/SurveyObservations/icsm-procedure-used.ttl",
+    "https://icsm-au.github.io/icsm-vocabs/cadastre/CSD-Header/wa-crs.ttl",
+    "https://icsm-au.github.io/icsm-vocabs/cadastre/CSD-Header/wa-survey-purpose.ttl",
+    "https://icsm-au.github.io/icsm-vocabs/cadastre/CSD-Header/wa-local-government.ttl",
+    "https://icsm-au.github.io/icsm-vocabs/cadastre/CSD-Header/wa-locality.ttl",
+    "https://icsm-au.github.io/icsm-vocabs/cadastre/CSD-Header/wa-survey-documentation-type.ttl",
+    "https://icsm-au.github.io/icsm-vocabs/cadastre/CSD-Header/wa-annotation.ttl",
+    "https://icsm-au.github.io/icsm-vocabs/cadastre/CSD-Header/wa-survey-type.ttl",
+    "https://icsm-au.github.io/icsm-vocabs/cadastre/CSD-Header/wa-vhd.ttl",
+    "https://icsm-au.github.io/icsm-vocabs/cadastre/Parcels/wa-parcel-purpose.ttl",
+    "https://icsm-au.github.io/icsm-vocabs/cadastre/Parcels/wa-parcel-state.ttl",
+    "https://icsm-au.github.io/icsm-vocabs/cadastre/SurveyObservations/wa-procedure-used.ttl",
+    "https://icsm-au.github.io/icsm-vocabs/cadastre/SurveyObservations/wa-vector-purpose.ttl",
+    "https://icsm-au.github.io/icsm-vocabs/cadastre/SurveyPoints/monument/wa-monument-type.ttl",
+    "https://icsm-au.github.io/icsm-vocabs/cadastre/SurveyPoints/condition/wa-condition.ttl",
+    "https://icsm-au.github.io/icsm-vocabs/cadastre/SurveyPoints/purpose/wa-purpose.ttl",
+    "https://icsm-au.github.io/icsm-vocabs/cadastre/SurveyPoints/other/wa-surveypoint-method.ttl",
+    "https://icsm-au.github.io/icsm-vocabs/cadastre/SurveyPoints/state/wa-state.ttl"
   ]
 }

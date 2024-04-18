@@ -1,0 +1,138 @@
+input-filter:
+  csv:
+transform:
+  # Keep data only
+  - '.data'
+  # Set fields with empty or '-' value to null
+  - 'walk(if type == "object" then with_entries(if (.value | test("^\\s*-?\\s*$")) then .value = null else . end) else . end)'
+  # Remove colons in field names with spaces
+  - 'walk(if type == "object" then with_entries(.key |= sub(" ?: ?"; " ")) else . end)'
+  # Add notation as prefLabel if missing
+  - 'walk(if type == "object" and has("preflabel") then .preflabel = (.preflabel //.notation) else . end)'
+  # Add id if missing, by sluggifying altlabel or notation
+  - |
+    walk(if type == "object" and ( .notation // .preflabel)
+    then ."@id" = ((.notation // .preflabel) | gsub("^ +| +$"; "") | gsub("[^a-zA-Z0-9_-]"; "-") )
+    else . end)
+  # Add ConceptScheme
+  - |
+    def csMapping: {
+      "icsm-admin-unit-type.csv": { "uri": "https://linked.data.gov.au/def/csdm/icsm-admin-unit-type", "label": "ICSM Administrative Unit Types", "type": "termtype:AdminUnitType" },
+      "nz-annotation.csv": { "uri": "https://linked.data.gov.au/def/csdm/nz-annotation", "label": "NZ CSD Annotation", "type": "termtype:Annotation" },
+      "nz-compound-crs.csv": { "uri": "http://www.opengis.net/def/crs/EPSG/0", "label": "NZ Compound Coordinate Reference Systems", "type": "termtype:AllowableCoordinateReferenceSystem" },
+      "nz-crs.csv": { "uri": "http://www.opengis.net/def/crs/EPSG/0", "label": "NZ Coordinate Reference Systems", "type": "termtype:AllowableCoordinateReferenceSystem" },
+      "nz-land-district.csv": { "uri": "https://linked.data.gov.au/def/csdm/nz-land-district", "label": "NZ Land Districts", "type": "termtype:AdminUnit" },
+      "nz-survey-documentation-type.csv": { "uri": "https://linked.data.gov.au/def/csdm/nz-survey-documentation-type", "label": "NZ types of Survey Documentation", "type": "termtype:DocType" },
+      "nz-survey-purpose.csv": { "uri": "https://linked.data.gov.au/def/csdm/nz-survey-purpose", "label": "NZ Survey Purpose", "type": "surv:SurveyPurpose" },
+      "nz-survey-type.csv": { "uri": "https://linked.data.gov.au/def/csdm/nz-survey-type", "label": "NZ Survey Type", "type": "termtype:SurveyType" },
+      "nz-survey-class.csv": { "uri": "https://linked.data.gov.au/def/csdm/nz-survey-class", "label": "NZ Survey Class", "type": "termtype:SurveyType" },
+      "nz-territorial-authority.csv": { "uri": "https://linked.data.gov.au/def/csdm/nz-territorial-authority", "label": "NZ Territorial Authorities", "type": "termtype:AdminUnit" },
+      "nz-vhd.csv": { "uri": "http://www.opengis.net/def/crs/EPSG/0", "label": "NZ Vertical Height Datums", "type": "termtype:AllowableCoordinateReferenceSystem" },
+      "vic-annotation.csv": { "uri": "https://linked.data.gov.au/def/csdm/vic-annotation", "label": "VIC CSD Annotation", "type": "termtype:Annotation" },
+      "vic-county.csv": { "uri": "https://linked.data.gov.au/def/csdm/vic-county", "label": "VIC Counties", "type": "termtype:AdminUnit" },
+      "vic-crs.csv": { "uri": "http://www.opengis.net/def/crs/EPSG/0", "label": "VIC Coordinate Reference Systems", "type": "termtype:AllowableCoordinateReferenceSystem" },
+      "vic-local-government-area.csv": { "uri": "https://linked.data.gov.au/def/csdm/vic-local-government-area", "label": "VIC Local Government Areas", "type": "termtype:AdminUnit" },
+      "vic-locality.csv": { "uri": "https://linked.data.gov.au/def/csdm/vic-locality", "label": "VIC Localities", "type": "termtype:AdminUnit" },
+      "vic-parish.csv": { "uri": "https://linked.data.gov.au/def/csdm/vic-parish", "label": "VIC Parishes", "type": "termtype:AdminUnit" },
+      "vic-survey-documentation-type.csv": { "uri": "https://linked.data.gov.au/def/csdm/vic-survey-documentation-type", "label": "VIC types of Survey Documentation", "type": "termtype:DocType" },
+      "vic-survey-purpose.csv": { "uri": "https://linked.data.gov.au/def/csdm/vic-survey-purpose", "label": "VIC Survey Purpose" , "type": "surv:SurveyPurpose" },
+      "vic-survey-type.csv": { "uri": "https://linked.data.gov.au/def/csdm/vic-survey-type", "label": "VIC Survey Type", "type": "termtype:SurveyType" },
+      "vic-township.csv": { "uri": "https://linked.data.gov.au/def/csdm/vic-township", "label": "VIC Townships", "type": "termtype:AdminUnit" },
+      "vic-vhd.csv": { "uri": "http://www.opengis.net/def/crs/EPSG/0", "label": "VIC Vertical Height Datums", "type": "termtype:AllowableCoordinateReferenceSystem" },
+      "wa-annotation.csv": { "uri": "https://linked.data.gov.au/def/csdm/wa-annotation", "label": "WA CSD Annotation", "type": "termtype:Annotation" },
+      "wa-crs.csv": { "uri": "http://www.opengis.net/def/crs/EPSG/0", "label": "WA Coordinate Reference Systems", "type": "termtype:AllowableCoordinateReferenceSystem" },
+      "wa-local-government.csv": { "uri": "https://linked.data.gov.au/def/csdm/wa-local-government", "label": "WA Local Government Districts", "type": "termtype:AdminUnit" },
+      "wa-locality.csv": { "uri": "https://linked.data.gov.au/def/csdm/wa-locality", "label": "WA Localities", "type": "termtype:AdminUnit" },
+      "wa-survey-documentation-type.csv": { "uri": "https://linked.data.gov.au/def/csdm/wa-survey-documentation-type", "label": "WA Survey Documentation", "type": "termtype:DocType" },
+      "wa-survey-purpose.csv": { "uri": "https://linked.data.gov.au/def/csdm/wa-survey-purpose", "label": "WA Survey Purpose", "type": "surv:SurveyPurpose" },
+      "wa-survey-type.csv": { "uri": "https://linked.data.gov.au/def/csdm/wa-survey-type", "label": "WA CSD Survey Type", "type": "termtype:SurveyType" },
+      "wa-vhd.csv": { "uri": "http://www.opengis.net/def/crs/EPSG/0", "label": "WA Height Datums", "type": "termtype:AllowableCoordinateReferenceSystem" },
+      "icsm-parcel-state.csv": { "uri": "https://linked.data.gov.au/def/csdm/icsm-parcel-state", "label": "ICSM Parcel State", "type": "termtype:ParcelState" },
+      "nz-interest-type.csv": { "uri": "https://linked.data.gov.au/def/csdm/nz-interest-type", "label": "NZ Memorial Types", "type": "surv:InterestType" },
+      "nz-parcel-purpose.csv": { "uri": "https://linked.data.gov.au/def/csdm/nz-parcel-purpose", "label": "NZ Parcel Purpose", "type": "termtype:ParcelPurpose" },
+      "nz-parcel-state.csv": { "uri": "https://linked.data.gov.au/def/csdm/nz-parcel-state", "label": "NZ Parcel State", "type": "termtype:ParcelState" },
+      "nz-parcel-type.csv": { "uri": "https://linked.data.gov.au/def/csdm/nz-parcel-type", "label": "NZ Parcel Type", "type": "surv:ParcelType" },
+      "nz-secondary-parcel-purpose.csv": { "uri": "https://linked.data.gov.au/def/csdm/nz-secondary-parcel-purpose", "label": "NZ Secondary Parcel Purpose", "type": "termtype:ParcelPurpose" },
+      "nz-secondary-parcel-type.csv": { "uri": "https://linked.data.gov.au/def/csdm/nz-secondary-parcel-type", "label": "NZ Secondary Parcel Type", "type": "surv:ParcelType" },
+      "nz-secondary-purpose.csv": { "uri": "https://linked.data.gov.au/def/csdm/nz-secondary-purpose", "label": "NZ Secondary Purpose", "type": "termtype:ParcelPurpose" },
+      "vic-interest-type.csv": { "uri": "https://linked.data.gov.au/def/csdm/vic-interest-type", "label": "VIC Memorial Types", "type": "surv:InterestType" },
+      "vic-parcel-purpose.csv": { "uri": "https://linked.data.gov.au/def/csdm/vic-parcel-purpose", "label": "VIC Parcel Purpose", "type": "termtype:ParcelPurpose" },
+      "vic-parcel-state.csv": { "uri": "https://linked.data.gov.au/def/csdm/vic-parcel-state", "label": "VIC Parcel State", "type": "termtype:ParcelState" },
+      "vic-parcel-type.csv": { "uri": "https://linked.data.gov.au/def/csdm/vic-parcel-type", "label": "VIC Parcel Type", "type": "surv:ParcelType" },
+      "vic-secondary-parcel-purpose.csv": { "uri": "https://linked.data.gov.au/def/csdm/vic-secondary-parcel-purpose", "label": "VIC Secondary Parcel Purpose", "type": "termtype:ParcelPurpose" },
+      "wa-interest-type.csv": { "uri": "https://linked.data.gov.au/def/csdm/wa-interest-type", "label": "WA Memorial Types", "type": "surv:InterestType" },
+      "wa-parcel-purpose.csv": { "uri": "https://linked.data.gov.au/def/csdm/wa-parcel-purpose", "label": "WA Primary Parcel Purpose", "type": "termtype:ParcelPurpose" },
+      "wa-parcel-state.csv": { "uri": "https://linked.data.gov.au/def/csdm/wa-parcel-state", "label": "WA Parcel State", "type":  "termtype:ParcelState" },
+      "wa-parcel-type.csv": { "uri": "https://linked.data.gov.au/def/csdm/wa-parcel-type", "label": "WA Parcel Type", "type": "surv:ParcelType" },
+      "wa-secondary-parcel-purpose.csv": { "uri": "https://linked.data.gov.au/def/csdm/wa-secondary-parcel-purpose", "label": "WA Secondary Parcel Purpose", "type": "termtype:ParcelPurpose" },
+      "wa-secondary-parcel-type.csv": { "uri": "https://linked.data.gov.au/def/csdm/wa-secondary-parcel-type", "label": "WA Secondary Parcel Type", "type": "surv:ParcelType" },
+      "wa-secondary-purpose.csv": { "uri": "https://linked.data.gov.au/def/csdm/wa-secondary-purpose", "label": "WA secondary Parcel Purpose", "type": "termtype:ParcelPurpose" },
+      "icsm-angle-type.csv": { "uri": "https://linked.data.gov.au/def/csdm/icsm-angle-type", "label": "ICSM Angle Types", "type": "surv:Angle" },
+      "icsm-distance-type.csv": { "uri": "https://linked.data.gov.au/def/csdm/icsm-distance-type", "label": "ICSM Distance Type", "type": "surv:Distance" },
+      "icsm-equipment-type.csv": { "uri": "https://linked.data.gov.au/def/csdm/icsm-equipment-type", "label": "ICSM Equipment Type", "type": "sosa:Sensor" },
+      "icsm-procedure-used.csv": { "uri": "https://linked.data.gov.au/def/csdm/icsm-procedure-used", "label": "ICSM Survey Procedures", "type": "sosa:Procedure" },
+      "nz-equipment-type.csv": { "uri": "https://linked.data.gov.au/def/csdm/nz-equipment-type", "label": "NZ Equipment Type", "type": "sosa:Sensor" },
+      "nz-procedure-used.csv": { "uri": "https://linked.data.gov.au/def/csdm/nz-procedure-used", "label": "NZ Survey Procedures", "type": "sosa:Procedure" },
+      "nz-vector-purpose.csv": { "uri": "https://linked.data.gov.au/def/csdm/nz-vector-purpose", "label": "NZ Vector Purpose", "type": "termtype:VectorPurpose" },
+      "vic-procedure-used.csv": { "uri": "https://linked.data.gov.au/def/csdm/vic-procedure-used", "label": "VIC Survey Procedures", "type": "sosa:Procedure" },
+      "vic-vector-purpose.csv": { "uri": "https://linked.data.gov.au/def/csdm/vic-vector-purpose", "label": "VIC Vector Purpose", "type": "termtype:VectorPurpose" },
+      "vic-vector-quality.csv": { "uri": "https://linked.data.gov.au/def/csdm/vic-vector-quality", "label": "VIC Vector Quality", "type": "termtype:VectorQuality" },
+      "wa-equipment-type.csv": { "uri": "https://linked.data.gov.au/def/csdm/wa-equipment-type", "label": "WA Equipment Type", "type": "sosa:Sensor" },
+      "wa-procedure-used.csv": { "uri": "https://linked.data.gov.au/def/csdm/wa-procedure-used", "label": "WA Survey Procedures", "type": "sosa:Procedure" },
+      "wa-vector-purpose.csv": { "uri": "https://linked.data.gov.au/def/csdm/wa-vector-purpose", "label": "WA Vector Purpose", "type": "termtype:VectorPurpose" },
+      "nz-point-class.csv": { "uri": "https://linked.data.gov.au/def/csdm/nz-point-class", "label": "NZ Point Quality Classes", "type":  "termtype:PointQualityClass" },
+      "vic-point-class.csv": { "uri": "https://linked.data.gov.au/def/csdm/vic-point-class", "label": "VIC Point Quality Classes", "type":  "termtype:PointQualityClass" },
+      "icsm-condition.csv": { "uri": "https://linked.data.gov.au/def/csdm/icsm-monument-condition", "label": "ICSM Monument Condition", "type": "surv:ConditionCode" },
+      "nz-condition.csv": { "uri": "https://linked.data.gov.au/def/csdm/nz-monument-condition", "label": "NZ Monument Condition", "type": "surv:ConditionCode" },
+      "vic-condition.csv": { "uri": "https://linked.data.gov.au/def/csdm/vic-monument-condition", "label": "VIC Monument Condition", "type": "surv:ConditionCode"},
+      "wa-condition.csv": { "uri": "https://linked.data.gov.au/def/csdm/wa-monument-condition", "label": "WA Monument Condition", "type": "surv:ConditionCode" },
+      "nz-monument-type.csv": { "uri": "https://linked.data.gov.au/def/csdm/nz-monument-form", "label": "NZ Monument Form", "type": "surv:MonumentForm" },
+      "vic-monument-type.csv": { "uri": "https://linked.data.gov.au/def/csdm/vic-monument-form", "label": "VIC Monument Form", "type": "surv:MonumentForm"},
+      "wa-monument-type.csv": { "uri": "https://linked.data.gov.au/def/csdm/wa-monument-form", "label": "WA Monument Form", "type": "surv:MonumentForm"},
+      "wa-surveypoint-method.csv": { "uri": "https://linked.data.gov.au/def/csdm/wa-surveypoint-method", "label": "WA Survey Point Creation Method", "type": "termtype:PointCreationMethod"},
+      "icsm-purpose.csv": { "uri": "https://linked.data.gov.au/def/csdm/icsm-surveypoint-purpose", "label": "ICSM Survey Point Purpose",  "type": "surv:SurveyPointPurpose" },
+      "nz-purpose.csv": { "uri": "https://linked.data.gov.au/def/csdm/nz-surveypoint-purpose", "label": "NZ Survey Point Purpose",  "type": "surv:SurveyPointPurpose" },
+      "vic-purpose.csv": { "uri": "https://linked.data.gov.au/def/csdm/vic-surveypoint-purpose", "label": "VIC Survey Point Purpose", "type": "surv:SurveyPointPurpose" },
+      "wa-purpose.csv": { "uri": "https://linked.data.gov.au/def/csdm/wa-surveypoint-purpose", "label": "WA Survey Point Purpose", "type": "surv:SurveyPointPurpose"},
+      "icsm-state.csv": { "uri": "https://linked.data.gov.au/def/csdm/icsm-monument-state", "label": "ICSM Monument State", "type": "surv:SurveyPointState" },
+      "nz-state.csv": { "uri": "https://linked.data.gov.au/def/csdm/nz-monument-state", "label": "NZ Monument State", "type": "surv:SurveyPointState" },
+      "vic-state.csv": { "uri": "https://linked.data.gov.au/def/csdm/vic-monument-state", "label": "VIC Monument State", "type": "surv:SurveyPointState" },
+      "wa-state.csv": { "uri": "https://linked.data.gov.au/def/csdm/wa-monument-state", "label": "WA Monument State", "type": "surv:SurveyPointState" }
+    };
+    (csMapping[$_basename].uri // "https://icsm.gov.au/csdm/vocabs/notdefined" ) as $BASE |
+    (csMapping[$_basename].label // "https://icsm.gov.au/csdm/vocabs/notdefined" ) as $LABEL |
+    (csMapping[$_basename].type // "" ) as $CONCEPTTYPE |
+    .[].type = $CONCEPTTYPE |
+    {
+      "@context": {
+            "@base": "\($BASE)/"
+     },
+      "@id": $BASE,
+      "@type": "skos:ConceptScheme",
+      "skos:prefLabel": $LABEL ,
+      "class": $CONCEPTTYPE ,
+      "concepts": .
+    }
+
+types:
+  '$.concepts[*]':
+    - skos:Concept
+
+context:
+  $:
+    skos: http://www.w3.org/2004/02/skos/core#
+    dct: http://purl.org/dc/terms/
+    policy: http://www.opengis.net/def/metamodel/ogc-na/
+    surv: https://linked.data.gov.au/def/csdm/surveyfeatures/
+    sosa: http://www.w3.org/ns/sosa/
+    container: https://linked.data.gov.au/def/csdm/container/
+    parcel: https://linked.data.gov.au/def/csdm/parcels/
+    termtype: https://linked.data.gov.au/def/csdm/termtypes/
+    preflabel: skos:prefLabel
+    type: '@type'
+    altlabel: skos:altLabel
+    class: skos:scopeNote
+    definition: skos:definition
+    notation: skos:notation
+    concepts:
+      '@reverse': skos:inScheme
