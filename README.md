@@ -1,22 +1,13 @@
-# ICSM profile of the 3D CSDM (Cadastral Survey Data Model) JSON schema for data exchange.
+# WA profile of the 3D CSDM (Cadastral Survey Data Model) JSON schema for data exchange.
 
-This repository defines profiles of the 3D CSDM (Cadastral Survey Data Model) for each jurisdiction participating in the first phase of development and testing.  
+This repository defines a profile of the 3D CSDM (Cadastral Survey Data Model) for Western Australia.
 
-_Note that this is a model for **exchange** of survey data for plan submission, not a data storage specification or a cadastral data product. **[Please see the Reviewers Guide](REVIEW_GUIDE.md) for more details about scope.**_
+_Note that this profile may be further profiled for specific sub-sets of WA data according to requirements, such as providing certain data in certain circumstances._
 
-
-Profile implementations (schemas, examples etc): 
- - [ICSM common](https://icsm-au.github.io/3d-csdm-profile-icsm)
- - [New Zealand](https://icsm-au.github.io/3d-csdm-profile-nz)
- - [Victoria](https://icsm-au.github.io/3d-csdm-profile-vic)
- - [Western Australia](https://icsm-au.github.io/3d-csdm-profile-wa)
+The [published form](https://icsm-au.github.io/3d-csdm-profile-wa) includes compiled schemas and semantic annotations drawing on the underlying 3D CSDM model and ICSM profile.  Examples are validated automatically against all these profiles to ensure compatibility.
 
 
-Profile documents (showing the underlying model and logical constraints defined by specific and inherited profiles) may be found here
- - [ICSM common](https://icsm-au.github.io/3d-csdm/docs/icsm-profile/)
- - [New Zealand](https://icsm-au.github.io/3d-csdm/docs/nz-profile/)
- - [Victoria](https://icsm-au.github.io/3d-csdm/docs/vic-profile/)
- - [Western Australia](https://icsm-au.github.io/3d-csdm/docs/wa-profile/)
+Profile descriptions showing the underlying model and logical constraints defined by specific and inherited profiles) may be found [here](https://icsm-au.github.io/3d-csdm/docs/wa-profile/)
 
 
 The [form of these profiles](https://ogcincubator.github.io/bblocks-docs/) is based on a common platform for specification development and testing of reusable schemas and profiles (OGC Building Blocks). This supports:
@@ -36,8 +27,11 @@ The relationships of the ICSM common and jurisdictional profiles and the underly
 
 ## Repository Structure (OGC Building Block template)
 
+### Implementable components
+
 The `build/` directory contains the **_compiled specification_** for implementing profiles of the 3DCSM
 
+[profiles/](profiles/) contain vocabulary bindings and content validation rules fpr this profile. Vocabularies themselves are published via the [ICSM Vocabularies repository](https://github.com/icsm-au/icsm-vocabs).
 
 ### Editable components
 
@@ -46,9 +40,7 @@ The `build/` directory contains the **_compiled specification_** for implementin
 This contains:
 - `features/`: schemas for the feature types defined by this bb (which is a "super-bb" containing at least oneOf these defined features)
 - `datatypes/`: reusable schemas for (potentially complex) datatypes defined by this bb
-- `aspects/`: groups of properties that may be included in feature types (equivalent to attribute groups in XML schema)
 - `assets/`: Documentation assets (e.g. images) directory. See [Assets](#assets) below.
 
-[profiles/](profiles/) contain vocabulary bindings and content validation rules fpr this profile. These are combined with other profiles as required.
 
 NB. The common encoding specification is based on component building blocks using the same structure, without the vocabulary and profile specification elements. [More information on design and usage of OGC Building Blocks](https://ogcincubator.github.io/bblocks-docs/)
