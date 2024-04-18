@@ -1,0 +1,13 @@
+Projection:	epsg:8031
+Name:	TBD
+
+Monuments:	4
+	None	EFB157243/9540	CadastralMark	52701.989,350518.914	wa-monument-state:mark-found	wa-monument-condition:ok	None
+	None		BoundaryMark	52534.56,350239.395	wa-monument-state:mark-found	wa-monument-condition:ok	None
+	None		BoundaryMark	52522.547,350235.023	wa-monument-state:mark-found	wa-monument-condition:ok	None
+	None		BoundaryMark	52519.898,350230.109	wa-monument-state:mark-found	wa-monument-condition:ok	None
+Parcels:	0
+Observations:	2
+		observedVectors
+	17251502	{'date': '2022-05-22'}	wa-surveypoint-purpose:monument	14005391	14005400	138.033055556	12.784
+	17251503	{'date': '2022-05-22'}	wa-surveypoint-purpose:monument	14005400	14005401	None	None
