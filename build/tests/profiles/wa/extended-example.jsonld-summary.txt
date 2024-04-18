@@ -1,0 +1,702 @@
+Projection:	epsg:7850
+Name:	DP 400715
+
+Monuments:	148
+	None	1022	BoundaryMark	380006.365,6397932.575	wa-monument-state:unmarked	wa-monument-condition:ok	None
+	None	1465	BoundaryMark	379773.449,6397717.027	wa-monument-state:unmarked	wa-monument-condition:ok	None
+	None	1467	BoundaryMark	379785.473,6397926.945	wa-monument-state:unmarked	wa-monument-condition:ok	None
+	None	1499	BoundaryMark	379723.701,6397712.122	wa-monument-state:unmarked	wa-monument-condition:ok	None
+	None	2112	BoundaryMark	380192.779,6397556.253	wa-monument-state:new-mark	wa-monument-condition:ok	None
+	None	3951	BoundaryMark	380077.574,6397708.623	wa-monument-state:unmarked	wa-monument-condition:ok	None
+	None	3969	BoundaryMark	380184.366,6397843.909	wa-monument-state:unmarked	wa-monument-condition:ok	None
+	None	4034	BoundaryMark	380003.53,6397873.996	wa-monument-state:unmarked	wa-monument-condition:ok	None
+	None	4069	BoundaryMark	379935.237,6397872.256	wa-monument-state:unmarked	wa-monument-condition:ok	None
+	None	4071	BoundaryMark	379905.838,6397861.506	wa-monument-state:unmarked	wa-monument-condition:ok	None
+	None	4097	BoundaryMark	380018.112,6397673.237	wa-monument-state:unmarked	wa-monument-condition:ok	None
+	None	4098	BoundaryMark	379894.356,6397861.213	wa-monument-state:unmarked	wa-monument-condition:ok	None
+	None	4099	BoundaryMark	379894.566,6397852.997	wa-monument-state:unmarked	wa-monument-condition:ok	None
+	None	4100	BoundaryMark	379874.146,6397767.676	wa-monument-state:unmarked	wa-monument-condition:ok	None
+	None	4113	BoundaryMark	380056.766,6397668.451	wa-monument-state:new-mark	wa-monument-condition:ok	None
+	None	4143	BoundaryMark	380152.755,6397735.426	wa-monument-state:unmarked	wa-monument-condition:ok	None
+	None	4192	BoundaryMark	380006.398,6397750.387	wa-monument-state:unmarked	wa-monument-condition:ok	None
+	None	4194	BoundaryMark	380000.221,6397746.572	wa-monument-state:unmarked	wa-monument-condition:ok	None
+	None	4221	BoundaryMark	380008.577,6397750.323	wa-monument-state:unmarked	wa-monument-condition:ok	None
+	None	4232	BoundaryMark	380185.048,6397705.145	wa-monument-state:unmarked	wa-monument-condition:ok	None
+	None	4233	BoundaryMark	380185.265,6397661.13	wa-monument-state:new-mark	wa-monument-condition:ok	None
+	None	4234	BoundaryMark	380172.279,6397661.51	wa-monument-state:new-mark	wa-monument-condition:ok	None
+	None	4235	BoundaryMark	380159.787,6397661.876	wa-monument-state:new-mark	wa-monument-condition:ok	None
+	None	4236	BoundaryMark	380150.288,6397662.155	wa-monument-state:new-mark	wa-monument-condition:ok	None
+	None	4237	BoundaryMark	380140.788,6397662.433	wa-monument-state:new-mark	wa-monument-condition:ok	None
+	None	4238	BoundaryMark	380131.289,6397662.711	wa-monument-state:new-mark	wa-monument-condition:ok	None
+	None	4239	BoundaryMark	380090.292,6397663.912	wa-monument-state:new-mark	wa-monument-condition:ok	None
+	None	4253	BoundaryMark	380062.768,6397669.768	wa-monument-state:new-mark	wa-monument-condition:ok	None
+	None	4259	BoundaryMark	380056.853,6397650.863	wa-monument-state:new-mark	wa-monument-condition:ok	None
+	None	4262	BoundaryMark	380144.607,6397602.606	wa-monument-state:new-mark	wa-monument-condition:ok	None
+	None	4263	BoundaryMark	380192.672,6397577.946	wa-monument-state:new-mark	wa-monument-condition:ok	None
+	None	4264	BoundaryMark	380186.73,6397580.995	wa-monument-state:new-mark	wa-monument-condition:ok	None
+	None	4265	BoundaryMark	380175.609,6397586.701	wa-monument-state:new-mark	wa-monument-condition:ok	None
+	None	4266	BoundaryMark	380153.379,6397598.106	wa-monument-state:new-mark	wa-monument-condition:ok	None
+	None	4267	BoundaryMark	380144.919,6397602.446	wa-monument-state:new-mark	wa-monument-condition:ok	None
+	None	4268	BoundaryMark	380128.451,6397611.914	wa-monument-state:new-mark	wa-monument-condition:ok	None
+	None	4269	BoundaryMark	380120.221,6397616.656	wa-monument-state:new-mark	wa-monument-condition:ok	None
+	None	4270	BoundaryMark	380103.761,6397626.138	wa-monument-state:new-mark	wa-monument-condition:ok	None
+	None	4273	BoundaryMark	380187.329,6397648.067	wa-monument-state:new-mark	wa-monument-condition:ok	None
+	None	4275	BoundaryMark	380150.822,6397614.026	wa-monument-state:new-mark	wa-monument-condition:ok	None
+	None	4276	BoundaryMark	380187.589,6397595.162	wa-monument-state:new-mark	wa-monument-condition:ok	None
+	None	4277	BoundaryMark	380187.358,6397642.158	wa-monument-state:new-mark	wa-monument-condition:ok	None
+	None	4278	BoundaryMark	380181.422,6397648.24	wa-monument-state:new-mark	wa-monument-condition:ok	None
+	None	4279	BoundaryMark	380104.006,6397650.508	wa-monument-state:new-mark	wa-monument-condition:ok	None
+	None	4280	BoundaryMark	380103.642,6397641.207	wa-monument-state:new-mark	wa-monument-condition:ok	None
+	None	4281	BoundaryMark	380182.021,6397598.019	wa-monument-state:new-mark	wa-monument-condition:ok	None
+	None	4282	BoundaryMark	380187.558,6397601.42	wa-monument-state:new-mark	wa-monument-condition:ok	None
+	None	4289	BoundaryMark	380086.539,6397640.305	wa-monument-state:new-mark	wa-monument-condition:ok	None
+	None	4306	BoundaryMark	380046.633,6397633.125	wa-monument-state:new-mark	wa-monument-condition:ok	None
+	None	4307	BoundaryMark	380052.13,6397630.65	wa-monument-state:new-mark	wa-monument-condition:ok	None
+	None	4308	BoundaryMark	380062.688,6397686.231	wa-monument-state:new-mark	wa-monument-condition:ok	None
+	None	4309	BoundaryMark	380056.678,6397686.407	wa-monument-state:new-mark	wa-monument-condition:ok	None
+	None	4310	BoundaryMark	380192.921,6397527.311	wa-monument-state:unmarked	wa-monument-condition:ok	None
+	None	4311	BoundaryMark	380184.664,6397529.77	wa-monument-state:unmarked	wa-monument-condition:ok	None
+	None	4312	BoundaryMark	380073.874,6397643.357	wa-monument-state:new-mark	wa-monument-condition:ok	None
+	None	4313	BoundaryMark	380166.098,6397538.866	wa-monument-state:unmarked	wa-monument-condition:ok	None
+	None	4314	BoundaryMark	380154.875,6397544.364	wa-monument-state:unmarked	wa-monument-condition:ok	None
+	None	4315	BoundaryMark	380129.932,6397557.408	wa-monument-state:unmarked	wa-monument-condition:ok	None
+	None	4316	BoundaryMark	380121.702,6397562.149	wa-monument-state:unmarked	wa-monument-condition:ok	None
+	None	4317	BoundaryMark	380105.243,6397571.632	wa-monument-state:unmarked	wa-monument-condition:ok	None
+	None	4318	BoundaryMark	380097.013,6397576.373	wa-monument-state:unmarked	wa-monument-condition:ok	None
+	None	4319	BoundaryMark	380088.783,6397581.114	wa-monument-state:unmarked	wa-monument-condition:ok	None
+	None	4320	BoundaryMark	380072.324,6397590.597	wa-monument-state:unmarked	wa-monument-condition:ok	None
+	None	4321	BoundaryMark	380039.838,6397609.313	wa-monument-state:unmarked	wa-monument-condition:ok	None
+	None	4322	BoundaryMark	380017.381,6397622.251	wa-monument-state:unmarked	wa-monument-condition:ok	None
+	None	4323	BoundaryMark	380010.04,6397639.26	wa-monument-state:unmarked	wa-monument-condition:ok	None
+	None	4324	BoundaryMark	380012.259,6397648.598	wa-monument-state:unmarked	wa-monument-condition:ok	None
+	None	4325	BoundaryMark	380014.999,6397660.135	wa-monument-state:unmarked	wa-monument-condition:ok	None
+	None	4326	BoundaryMark	380021.486,6397687.437	wa-monument-state:unmarked	wa-monument-condition:ok	None
+	None	4327	BoundaryMark	380024.896,6397701.791	wa-monument-state:unmarked	wa-monument-condition:ok	None
+	None	4328	BoundaryMark	380035.417,6397709.858	wa-monument-state:unmarked	wa-monument-condition:ok	None
+	None	4329	BoundaryMark	380062.575,6397709.062	wa-monument-state:unmarked	wa-monument-condition:ok	None
+	None	4330	BoundaryMark	380090.073,6397708.257	wa-monument-state:unmarked	wa-monument-condition:ok	None
+	None	4331	BoundaryMark	380131.071,6397707.056	wa-monument-state:unmarked	wa-monument-condition:ok	None
+	None	4332	BoundaryMark	380140.57,6397706.777	wa-monument-state:unmarked	wa-monument-condition:ok	None
+	None	4334	BoundaryMark	380150.07,6397706.499	wa-monument-state:unmarked	wa-monument-condition:ok	None
+	None	4336	BoundaryMark	380182.02,6397711.077	wa-monument-state:unmarked	wa-monument-condition:ok	None
+	None	4337	BoundaryMark	380181.928,6397729.742	wa-monument-state:unmarked	wa-monument-condition:ok	None
+	None	4338	BoundaryMark	380166.804,6397730.185	wa-monument-state:unmarked	wa-monument-condition:ok	None
+	None	4344	BoundaryMark	380058.851,6397738.177	wa-monument-state:unmarked	wa-monument-condition:ok	None
+	None	4345	BoundaryMark	380044.435,6397743.771	wa-monument-state:unmarked	wa-monument-condition:ok	None
+	None	4347	BoundaryMark	380009.886,6397744.784	wa-monument-state:unmarked	wa-monument-condition:ok	None
+	None	4348	BoundaryMark	380005.385,6397745.1	wa-monument-state:unmarked	wa-monument-condition:ok	None
+	None	4351	BoundaryMark	380061.495,6397596.836	wa-monument-state:unmarked	wa-monument-condition:ok	None
+	None	4355	BoundaryMark	379986.682,6397666.379	wa-monument-state:unmarked	wa-monument-condition:ok	None
+	None	4356	BoundaryMark	379961.958,6397654.714	wa-monument-state:unmarked	wa-monument-condition:ok	None
+	None	4357	BoundaryMark	380050.666,6397603.074	wa-monument-state:unmarked	wa-monument-condition:ok	None
+	None	4363	BoundaryMark	379897.132,6397676.041	wa-monument-state:unmarked	wa-monument-condition:ok	None
+	None	4364	BoundaryMark	379883.745,6397702.835	wa-monument-state:unmarked	wa-monument-condition:ok	None
+	None	4366	BoundaryMark	380083.556,6397664.109	wa-monument-state:new-mark	wa-monument-condition:ok	None
+	None	4374	BoundaryMark	379917.405,6397823.862	wa-monument-state:unmarked	wa-monument-condition:ok	None
+	None	4375	BoundaryMark	379941.55,6397843.414	wa-monument-state:unmarked	wa-monument-condition:ok	None
+	None	4379	BoundaryMark	380003.474,6397844.992	wa-monument-state:unmarked	wa-monument-condition:ok	None
+	None	4388	BoundaryMark	380154.399,6397840.568	wa-monument-state:unmarked	wa-monument-condition:ok	None
+	None	4389	BoundaryMark	380166.373,6397845.512	wa-monument-state:new-mark	wa-monument-condition:ok	None
+	None	4396	BoundaryMark	379868.738,6397735.179	wa-monument-state:unmarked	wa-monument-condition:ok	None
+	None	4397	BoundaryMark	379825.943,6397700.671	wa-monument-state:unmarked	wa-monument-condition:ok	None
+	None	4399	BoundaryMark	379725.667,6397697.632	wa-monument-state:unmarked	wa-monument-condition:ok	None
+	None	4400	BoundaryMark	380185.235,6397667.244	wa-monument-state:new-mark	wa-monument-condition:ok	None
+	None	4401	BoundaryMark	380179.153,6397661.309	wa-monument-state:new-mark	wa-monument-condition:ok	None
+	None	4421	BoundaryMark	380139.482,6397551.906	wa-monument-state:unmarked	wa-monument-condition:ok	None
+	None	4423	BoundaryMark	380059.569,6397643.561	wa-monument-state:new-mark	wa-monument-condition:ok	None
+	None	4424	BoundaryMark	379892.738,6397720.796	wa-monument-state:unmarked	wa-monument-condition:ok	None
+	None	4428	BoundaryMark	380182.049,6397705.233	wa-monument-state:new-mark	wa-monument-condition:ok	None
+	None	4499	BoundaryMark	380062.764,6397670.768	wa-monument-state:new-mark	wa-monument-condition:ok	None
+	None	4500	BoundaryMark	380063.733,6397669.505	wa-monument-state:new-mark	wa-monument-condition:ok	None
+	None	4515	BoundaryMark	379793.183,6397699.972	wa-monument-state:unmarked	wa-monument-condition:ok	None
+	None	4516	BoundaryMark	379791.194,6397699.48	wa-monument-state:unmarked	wa-monument-condition:ok	None
+	None	4537	BoundaryMark	380187.376,6397638.459	wa-monument-state:new-mark	wa-monument-condition:ok	None
+	None	4538	BoundaryMark	380183.359,6397642.138	wa-monument-state:new-mark	wa-monument-condition:ok	None
+	None	4539	BoundaryMark	380183.377,6397638.439	wa-monument-state:new-mark	wa-monument-condition:ok	None
+	None	4540	BoundaryMark	380164.49,6397592.405	wa-monument-state:new-mark	wa-monument-condition:ok	None
+	None	4542	BoundaryMark	380142.17,6397550.589	wa-monument-state:unmarked	wa-monument-condition:ok	None
+	None	4543	BoundaryMark	380136.68,6397607.173	wa-monument-state:new-mark	wa-monument-condition:ok	None
+	None	4545	BoundaryMark	380113.473,6397566.89	wa-monument-state:unmarked	wa-monument-condition:ok	None
+	None	4546	BoundaryMark	380111.991,6397621.397	wa-monument-state:new-mark	wa-monument-condition:ok	None
+	None	4547	BoundaryMark	380095.531,6397630.88	wa-monument-state:new-mark	wa-monument-condition:ok	None
+	None	4549	BoundaryMark	380080.553,6397585.856	wa-monument-state:unmarked	wa-monument-condition:ok	None
+	None	4551	BoundaryMark	380172.035,6397711.028	wa-monument-state:unmarked	wa-monument-condition:ok	None
+	None	4552	BoundaryMark	380159.569,6397706.221	wa-monument-state:unmarked	wa-monument-condition:ok	None
+	None	4553	BoundaryMark	380121.789,6397662.989	wa-monument-state:new-mark	wa-monument-condition:ok	None
+	None	4555	BoundaryMark	380121.571,6397707.334	wa-monument-state:unmarked	wa-monument-condition:ok	None
+	None	4556	BoundaryMark	380112.29,6397663.268	wa-monument-state:new-mark	wa-monument-condition:ok	None
+	None	4558	BoundaryMark	380112.072,6397707.612	wa-monument-state:unmarked	wa-monument-condition:ok	None
+	None	4559	BoundaryMark	380102.791,6397663.546	wa-monument-state:new-mark	wa-monument-condition:ok	None
+	None	4561	BoundaryMark	380102.573,6397707.89	wa-monument-state:unmarked	wa-monument-condition:ok	None
+	None	4562	BoundaryMark	380077.785,6397665.68	wa-monument-state:new-mark	wa-monument-condition:ok	None
+	None	4566	BoundaryMark	379736.036,6397698.303	wa-monument-state:unmarked	wa-monument-condition:ok	None
+	None	4568	BoundaryMark	379734.047,6397697.811	wa-monument-state:unmarked	wa-monument-condition:ok	None
+	None	4600	BoundaryMark	380046.052,6397915.38	wa-monument-state:unmarked	wa-monument-condition:ok	None
+	None	4601	BoundaryMark	380046.261,6397872.744	wa-monument-state:unmarked	wa-monument-condition:ok	None
+	None	5018	BoundaryMark	380045.973,6397931.386	wa-monument-state:unmarked	wa-monument-condition:ok	None
+	None	20216	BoundaryMark	380033.777,6397923.25	wa-monument-state:unmarked	wa-monument-condition:ok	None
+	None	20222	BoundaryMark	380033.568,6397916.255	wa-monument-state:unmarked	wa-monument-condition:ok	None
+	None	20233	BoundaryMark	380046.015,6397922.883	wa-monument-state:unmarked	wa-monument-condition:ok	None
+	None	20234	BoundaryMark	380046.049,6397915.881	wa-monument-state:unmarked	wa-monument-condition:ok	None
+	None	8036	CadastralMark	380025.117,6397635.678	wa-monument-state:unmarked	wa-monument-condition:ok	None
+	None	8051	CadastralMark	380035.11,6397699.364	wa-monument-state:unmarked	wa-monument-condition:ok	None
+	None	8132	CadastralMark	379824.983,6397745.651	wa-monument-state:unmarked	wa-monument-condition:ok	None
+	None	8148	CadastralMark	380006.204,6397743.791	wa-monument-state:unmarked	wa-monument-condition:ok	None
+	None	8151	CadastralMark	379969.66,6397670.423	wa-monument-state:unmarked	wa-monument-condition:ok	None
+	None	8152	CadastralMark	379852.763,6397431.997	wa-monument-state:unmarked	wa-monument-condition:ok	None
+	None	8153	CadastralMark	379900.48,6397694.455	wa-monument-state:unmarked	wa-monument-condition:ok	None
+	None	8156	CadastralMark	379942.199,6397817.928	wa-monument-state:unmarked	wa-monument-condition:ok	None
+	None	EFB125060/9317	GeodeticReferenceMark	380104.289,6397652.81	wa-monument-state:mark-found	wa-monument-condition:ok	EFB125060/9317
+	None	EFB122745/9308	GeodeticReferenceMark	380192.909,6397658.918	wa-monument-state:mark-found	wa-monument-condition:ok	EFB122745/9308
+	None	EFB122745/9307	GeodeticReferenceMark	380195.576,6397721.085	wa-monument-state:mark-found	wa-monument-condition:ok	EFB122745/9307
+	None	EFB122745/9309	GeodeticReferenceMark	380194.164,6397594.547	wa-monument-state:mark-found	wa-monument-condition:ok	EFB122745/9309
+Parcels:	48
+	139948911588304	None	wa-parcel-type:freehold	849.38	None	None	
+	139948911588560	None	wa-parcel-type:freehold	587.95	None	None	
+	139948911588816	None	wa-parcel-type:freehold	629.9	None	None	
+	139948911589136	None	wa-parcel-type:freehold	626.26	None	None	
+	139948911589392	None	wa-parcel-type:freehold	444.11	None	None	
+	139948911589776	None	wa-parcel-type:freehold	441.75	None	None	
+	139948911590032	None	wa-parcel-type:freehold	441.75	None	None	
+	139948911590288	None	wa-parcel-type:freehold	441.75	None	None	
+	139948911590608	None	wa-parcel-type:freehold	537.71	None	None	
+	139948911590864	None	wa-parcel-type:freehold	890.7	None	None	
+	139948911591120	None	wa-parcel-type:freehold	638.35	None	None	
+	139948911591376	None	wa-parcel-type:freehold	628.61	None	None	
+	139948911608080	None	wa-parcel-type:freehold	598.69	None	None	
+	139948911608400	None	wa-parcel-type:freehold	863.76	None	None	
+	139948911608656	None	wa-parcel-type:freehold	421.37	None	None	
+	139948911608912	None	wa-parcel-type:freehold	421.37	None	None	
+	139948911609168	None	wa-parcel-type:freehold	421.37	None	None	
+	139948911609424	None	wa-parcel-type:freehold	421.37	None	None	
+	139948911609680	None	wa-parcel-type:freehold	586.43	None	None	
+	139948911610000	None	wa-parcel-type:freehold	609.73	None	None	
+	139948911610256	None	wa-parcel-type:freehold	441.75	None	None	
+	139948911610512	None	wa-parcel-type:freehold	441.75	None	None	
+	139948911610768	None	wa-parcel-type:freehold	441.75	None	None	
+	139948911611088	None	wa-parcel-type:freehold	554.44	None	None	
+	139948911611344	None	wa-parcel-type:freehold	421.37	None	None	
+	139948911611600	None	wa-parcel-type:freehold	421.37	None	None	
+	139948911611856	None	wa-parcel-type:freehold	604.24	None	None	
+	139948911612112	None	wa-parcel-type:freehold	604.24	None	None	
+	139948911612432	None	wa-parcel-type:freehold	616.44	None	None	
+	139948911612752	None	wa-parcel-type:freehold	550.4	None	None	
+	139948911613008	None	wa-parcel-type:crown	2608.77	None	None	
+	139948911613264	None	wa-parcel-type:freehold	33365.28	None	None	
+	139948911613520	None	wa-parcel-type:freehold	36771.78	None	None	
+	139948911613776	None	wa-parcel-type:freehold	1203.49	None	None	
+	139948911614032	None	wa-parcel-type:road	964.73	None	None	
+	139948911614288	None	wa-parcel-type:road	619.88	None	None	
+	139948911614544	None	wa-parcel-type:road	722.23	None	None	
+	139948911614864	None	wa-parcel-type:road	309.65	None	None	
+	139948911615120	None	wa-parcel-type:road	18.69	None	None	
+	139948911615376	None	wa-parcel-type:road	0.48	None	None	
+	139948911615632	None	wa-parcel-type:road	17.45	None	None	
+	139948911615888	None	wa-parcel-type:road	17.39	None	None	
+	139948911616144	None	wa-parcel-type:miscellaneous	33365.28	None	None	
+	139948911616400	None	wa-parcel-type:miscellaneous	59854.61	None	None	
+	139948911616656	None	wa-parcel-type:freehold	70139.0	None	None	
+	139948911616912	None	wa-parcel-type:road	3872.3	None	None	
+	139948911617168	None	wa-parcel-type:freehold	93220.0	None	None	
+	139948911617424	None	wa-secondary-parcel-type:easement-area	86.58	None	None	
+Observations:	486
+		observedVectors
+	1	undated	wa-surveypoint-purpose:monument	4264	4263	None	6.68
+	2	undated	wa-surveypoint-purpose:monument	4263	2112	None	21.698
+	3	undated	wa-surveypoint-purpose:monument	2112	4310	None	28.949
+	4	undated	wa-surveypoint-purpose:monument	4310	4311	None	8.617
+	5	undated	wa-surveypoint-purpose:monument	4311	4313	None	20.679
+	6	undated	wa-surveypoint-purpose:monument	4313	4264	None	46.92
+	7	undated	wa-surveypoint-purpose:monument	4265	4264	None	12.502
+	8	undated	wa-surveypoint-purpose:monument	4313	4314	None	12.5
+	9	undated	wa-surveypoint-purpose:monument	4314	4265	None	47.151
+	10	undated	wa-surveypoint-purpose:monument	4540	4265	None	12.5
+	11	undated	wa-surveypoint-purpose:monument	4314	4542	None	14.151
+	12	undated	wa-surveypoint-purpose:monument	4542	4540	None	47.411
+	13	undated	wa-surveypoint-purpose:monument	4266	4540	None	12.49
+	14	undated	wa-surveypoint-purpose:monument	4542	4421	None	2.993
+	15	undated	wa-surveypoint-purpose:monument	4421	4315	None	11.024
+	16	undated	wa-surveypoint-purpose:monument	4315	4266	None	46.98
+	17	undated	wa-surveypoint-purpose:monument	4267	4266	None	9.511
+	18	undated	wa-surveypoint-purpose:monument	4315	4316	None	9.5
+	19	undated	wa-surveypoint-purpose:monument	4316	4267	None	46.517
+	20	undated	wa-surveypoint-purpose:monument	4543	4262	None	9.15
+	21	undated	wa-surveypoint-purpose:monument	4262	4267	None	0.35
+	1122	undated	wa-surveypoint-purpose:monument	4316	4545	None	9.5
+	23	undated	wa-surveypoint-purpose:monument	4545	4543	None	46.5
+	24	undated	wa-surveypoint-purpose:monument	4268	4543	None	9.5
+	25	undated	wa-surveypoint-purpose:monument	4545	4317	None	9.5
+	26	undated	wa-surveypoint-purpose:monument	4317	4268	None	46.5
+	27	undated	wa-surveypoint-purpose:monument	4269	4268	None	9.5
+	28	undated	wa-surveypoint-purpose:monument	4317	4318	None	9.5
+	29	undated	wa-surveypoint-purpose:monument	4318	4269	None	46.5
+	30	undated	wa-surveypoint-purpose:monument	4423	4312	None	14.31
+	31	undated	wa-surveypoint-purpose:monument	4312	4357	None	46.5
+	32	undated	wa-surveypoint-purpose:monument	4357	4321	None	12.5
+	33	undated	wa-surveypoint-purpose:monument	4321	4307	None	24.63
+	34	undated	wa-surveypoint-purpose:monument	4307	4423	None	14.904
+	35	undated	wa-surveypoint-purpose:monument	4321	4322	None	25.923
+	36	undated	wa-surveypoint-purpose:monument	4322	4323	None	None	None
+	37	undated	wa-surveypoint-purpose:monument	4323	4324	None	9.6
+	38	undated	wa-surveypoint-purpose:monument	4324	4306	None	37.705
+	39	undated	wa-surveypoint-purpose:monument	4306	4307	None	6.03
+	40	undated	wa-surveypoint-purpose:monument	4259	4306	None	20.477
+	41	undated	wa-surveypoint-purpose:monument	4324	4325	None	11.86
+	42	undated	wa-surveypoint-purpose:monument	4325	4259	None	42.877
+	43	undated	wa-surveypoint-purpose:monument	4113	4259	None	17.592
+	44	undated	wa-surveypoint-purpose:monument	4325	4097	None	13.47
+	45	undated	wa-surveypoint-purpose:monument	4097	4113	None	38.958
+	46	undated	wa-surveypoint-purpose:monument	4309	4113	None	17.96
+	47	undated	wa-surveypoint-purpose:monument	4097	4326	None	14.598
+	48	undated	wa-surveypoint-purpose:monument	4326	4309	None	35.215
+	49	undated	wa-surveypoint-purpose:monument	4308	4309	None	6.014
+	50	undated	wa-surveypoint-purpose:monument	4326	4327	None	14.757
+	51	undated	wa-surveypoint-purpose:monument	4327	4328	None	None	None
+	52	undated	wa-surveypoint-purpose:monument	4328	4329	None	27.176
+	53	undated	wa-surveypoint-purpose:monument	4329	4308	None	22.836
+	54	undated	wa-surveypoint-purpose:monument	4238	4553	None	9.506
+	55	undated	wa-surveypoint-purpose:monument	4553	4555	None	44.355
+	56	undated	wa-surveypoint-purpose:monument	4555	4331	None	9.506
+	57	undated	wa-surveypoint-purpose:monument	4331	4238	None	44.355
+	58	undated	wa-surveypoint-purpose:monument	4237	4238	None	9.506
+	59	undated	wa-surveypoint-purpose:monument	4331	4332	None	9.506
+	60	undated	wa-surveypoint-purpose:monument	4332	4237	None	44.355
+	61	undated	wa-surveypoint-purpose:monument	4236	4237	None	9.506
+	62	undated	wa-surveypoint-purpose:monument	4332	4334	None	9.506
+	63	undated	wa-surveypoint-purpose:monument	4334	4236	None	44.355
+	64	undated	wa-surveypoint-purpose:monument	4235	4236	None	9.506
+	65	undated	wa-surveypoint-purpose:monument	4334	4552	None	9.506
+	66	undated	wa-surveypoint-purpose:monument	4552	4235	None	44.355
+	67	undated	wa-surveypoint-purpose:monument	4234	4235	None	12.5
+	68	undated	wa-surveypoint-purpose:monument	4552	4551	None	13.364
+	69	undated	wa-surveypoint-purpose:monument	4551	4234	None	49.529
+	70	undated	wa-surveypoint-purpose:monument	4232	4400	None	37.91
+	71	undated	wa-surveypoint-purpose:monument	4400	4401	None	8.5
+	72	undated	wa-surveypoint-purpose:monument	4401	4234	None	6.879
+	73	undated	wa-surveypoint-purpose:monument	4551	4336	None	9.987
+	74	undated	wa-surveypoint-purpose:monument	4336	4428	None	5.845
+	75	undated	wa-surveypoint-purpose:monument	4428	4232	None	3.002
+	76	undated	wa-surveypoint-purpose:monument	4546	4269	None	9.5
+	77	undated	wa-surveypoint-purpose:monument	4318	4319	None	9.5
+	78	undated	wa-surveypoint-purpose:monument	4319	4546	None	46.5
+	79	undated	wa-surveypoint-purpose:monument	4270	4546	None	9.5
+	80	undated	wa-surveypoint-purpose:monument	4319	4549	None	9.5
+	81	undated	wa-surveypoint-purpose:monument	4549	4270	None	46.5
+	82	undated	wa-surveypoint-purpose:monument	4547	4270	None	9.5
+	83	undated	wa-surveypoint-purpose:monument	4549	4320	None	9.5
+	84	undated	wa-surveypoint-purpose:monument	4320	4547	None	46.5
+	85	undated	wa-surveypoint-purpose:monument	4559	4239	None	12.507
+	86	undated	wa-surveypoint-purpose:monument	4239	4330	None	44.355
+	87	undated	wa-surveypoint-purpose:monument	4330	4561	None	12.507
+	88	undated	wa-surveypoint-purpose:monument	4561	4559	None	44.355
+	89	undated	wa-surveypoint-purpose:monument	4556	4559	None	9.506
+	90	undated	wa-surveypoint-purpose:monument	4561	4558	None	9.506
+	91	undated	wa-surveypoint-purpose:monument	4558	4556	None	44.355
+	92	undated	wa-surveypoint-purpose:monument	4553	4556	None	9.506
+	93	undated	wa-surveypoint-purpose:monument	4558	4555	None	9.506
+	94	undated	wa-surveypoint-purpose:monument	4289	4547	None	13.03
+	95	undated	wa-surveypoint-purpose:monument	4320	4351	None	12.5
+	96	undated	wa-surveypoint-purpose:monument	4351	4289	None	50.178
+	97	undated	wa-surveypoint-purpose:monument	4312	4289	None	13.03
+	98	undated	wa-surveypoint-purpose:monument	4351	4357	None	12.5
+	99	undated	wa-surveypoint-purpose:monument	4562	4500	None	14.567
+	100	undated	wa-surveypoint-purpose:monument	4500	4499	None	1.592
+	101	undated	wa-surveypoint-purpose:monument	4499	4308	None	15.467
+	102	undated	wa-surveypoint-purpose:monument	4329	3951	None	15.009
+	103	undated	wa-surveypoint-purpose:monument	3951	4562	None	42.953
+	104	undated	wa-surveypoint-purpose:monument	4239	4366	None	6.74
+	105	undated	wa-surveypoint-purpose:monument	4366	4562	None	5.982
+	106	undated	wa-surveypoint-purpose:monument	3951	4330	None	12.507
+	107	undated	wa-surveypoint-purpose:monument	4279	4278	None	77.466
+	108	undated	wa-surveypoint-purpose:monument	4278	4277	None	8.5
+	109	undated	wa-surveypoint-purpose:monument	4277	4538	None	4.0
+	110	undated	wa-surveypoint-purpose:monument	4538	4539	None	3.7
+	111	undated	wa-surveypoint-purpose:monument	4539	4537	None	4.0
+	112	undated	wa-surveypoint-purpose:monument	4537	4282	None	37.047
+	113	undated	wa-surveypoint-purpose:monument	4282	4281	None	6.5
+	114	undated	wa-surveypoint-purpose:monument	4281	4275	None	35.073
+	115	undated	wa-surveypoint-purpose:monument	4275	4280	None	54.461
+	116	undated	wa-surveypoint-purpose:monument	4280	4279	None	9.31
+	117	undated	wa-surveypoint-purpose:monument	1499	1465	None	50.0
+	118	undated	wa-surveypoint-purpose:monument	1465	1467	None	210.308
+	119	undated	wa-surveypoint-purpose:monument	1467	1022	None	221.013
+	120	undated	wa-surveypoint-purpose:monument	1022	5018	None	39.634
+	121	undated	wa-surveypoint-purpose:monument	5018	20233	None	8.505
+	122	undated	wa-surveypoint-purpose:monument	20233	20234	None	7.004
+	123	undated	wa-surveypoint-purpose:monument	20234	4600	None	0.5
+	124	undated	wa-surveypoint-purpose:monument	4600	4601	None	42.646
+	125	undated	wa-surveypoint-purpose:monument	4601	4034	None	42.76
+	126	undated	wa-surveypoint-purpose:monument	4034	4069	None	68.33
+	127	undated	wa-surveypoint-purpose:monument	4069	4071	None	31.309
+	128	undated	wa-surveypoint-purpose:monument	4071	4098	None	11.488
+	129	undated	wa-surveypoint-purpose:monument	4098	4099	None	8.22
+	130	undated	wa-surveypoint-purpose:monument	4099	4100	None	87.75
+	131	undated	wa-surveypoint-purpose:monument	4100	4396	None	32.951
+	132	undated	wa-surveypoint-purpose:monument	4396	4397	None	None	None
+	133	undated	wa-surveypoint-purpose:monument	4397	4515	None	32.774
+	134	undated	wa-surveypoint-purpose:monument	4515	4516	None	2.05
+	135	undated	wa-surveypoint-purpose:monument	4516	4566	None	55.182
+	136	undated	wa-surveypoint-purpose:monument	4566	4568	None	2.05
+	137	undated	wa-surveypoint-purpose:monument	4568	4399	None	8.383
+	138	undated	wa-surveypoint-purpose:monument	4399	1499	None	14.625
+	139	undated	wa-surveypoint-purpose:monument	3969	4232	None	138.796
+	140	undated	wa-surveypoint-purpose:monument	4336	4337	None	18.669
+	141	undated	wa-surveypoint-purpose:monument	4337	4338	None	15.134
+	142	undated	wa-surveypoint-purpose:monument	4338	4143	None	14.999
+	143	undated	wa-surveypoint-purpose:monument	4143	4344	None	93.965
+	144	undated	wa-surveypoint-purpose:monument	4344	4345	None	15.467
+	145	undated	wa-surveypoint-purpose:monument	4345	4347	None	34.571
+	146	undated	wa-surveypoint-purpose:monument	4347	4221	None	5.693
+	147	undated	wa-surveypoint-purpose:monument	4221	4192	None	2.181
+	148	undated	wa-surveypoint-purpose:monument	4194	4192	None	None	None
+	149	undated	wa-surveypoint-purpose:monument	4194	4348	None	5.371
+	150	undated	wa-surveypoint-purpose:monument	4348	4355	None	80.931
+	151	undated	wa-surveypoint-purpose:monument	4355	4356	None	None	None
+	152	undated	wa-surveypoint-purpose:monument	4363	4356	None	None	None
+	153	undated	wa-surveypoint-purpose:monument	4363	4364	None	None	None
+	154	undated	wa-surveypoint-purpose:monument	4364	4424	None	20.091
+	155	undated	wa-surveypoint-purpose:monument	4424	4374	None	106.0
+	156	undated	wa-surveypoint-purpose:monument	4374	4375	None	None	None
+	157	undated	wa-surveypoint-purpose:monument	4375	4379	None	61.958
+	158	undated	wa-surveypoint-purpose:monument	4379	4388	None	151.023
+	159	undated	wa-surveypoint-purpose:monument	4388	4389	None	12.956
+	160	undated	wa-surveypoint-purpose:monument	4389	3969	None	18.069
+	161	undated	wa-surveypoint-purpose:monument	4233	4273	None	13.228
+	162	undated	wa-surveypoint-purpose:monument	4273	4278	None	5.91
+	163	undated	wa-surveypoint-purpose:monument	4279	4366	None	24.566
+	164	undated	wa-surveypoint-purpose:monument	4401	4233	None	6.116
+	165	undated	wa-surveypoint-purpose:monument	4279	4423	None	44.987
+	166	undated	wa-surveypoint-purpose:monument	4499	4253	None	1.0
+	167	undated	wa-surveypoint-purpose:monument	4253	4500	None	1.0
+	168	undated	wa-surveypoint-purpose:monument	4276	4263	None	17.955
+	169	undated	wa-surveypoint-purpose:monument	4262	4275	None	13.004
+	170	undated	wa-surveypoint-purpose:monument	4281	4276	None	6.26
+	171	undated	wa-surveypoint-purpose:monument	4547	4280	None	13.134
+	172	undated	wa-surveypoint-purpose:monument	4400	4233	None	6.116
+	173	undated	wa-surveypoint-purpose:monument	4273	4277	None	5.91
+	174	undated	wa-surveypoint-purpose:monument	4282	4276	None	6.26
+	175	undated	wa-surveypoint-purpose:monument	20234	20222	None	12.49
+	176	undated	wa-surveypoint-purpose:monument	20222	20216	None	7.0
+	177	undated	wa-surveypoint-purpose:monument	20216	20233	None	12.246
+	1200	undated	wa-surveypoint-purpose:permanent-survey-mark	EFB122745/9308	EFB122745/9307	2.9	62.257
+	1201	undated	wa-surveypoint-purpose:permanent-survey-mark	EFB122745/9308	EFB125060/9317	266.63416667	88.903
+	1202	undated	wa-surveypoint-purpose:permanent-survey-mark	EFB122745/9308	EFB122745/9309	179.526944444	64.409
+	1203	undated	wa-surveypoint-purpose:permanent-survey-mark	EFB122745/9308	4233	286.1397222222	7.958
+	1204	undated	wa-surveypoint-purpose:permanent-survey-mark	EFB122745/9308	4273	207.755833333	12.29
+	1205	undated	wa-surveypoint-purpose:permanent-control-mark	EFB125060/9317	4279	187.008611111	2.319
+	1206	undated	wa-surveypoint-purpose:permanent-control-mark	EFB125060/9317	4366	299.243611111	23.595
+	1207	undated	wa-surveypoint-purpose:monument	4289	4280	87.61	17.131
+	1208	undated	wa-surveypoint-purpose:permanent-control-mark	EFB122745/9309	4276	275.34611111	6.604
+	1209	undated	wa-surveypoint-purpose:permanent-control-mark	EFB122745/9309	4263	185.756388889	16.744
+	1210	undated	wa-surveypoint-purpose:permanent-control-mark	EFB122745/9307	4232	213.443611111	19.103
+	13001	undated	None	380186.73,6397580.995	4264	6
+	13002	undated	None	380192.672,6397577.946	4263	1
+	13003	undated	None	380192.779,6397556.253	2112	2
+	13004	undated	None	380192.921,6397527.311	4310	3
+	13005	undated	None	380184.664,6397529.77	4311	4
+	13006	undated	None	380166.098,6397538.866	4313	5
+	13007	undated	None	380175.609,6397586.701	4265	9
+	13008	undated	None	380186.73,6397580.995	4313	7
+	13009	undated	None	380166.098,6397538.866	4313	6
+	13010	undated	None	380154.875,6397544.364	4314	8
+	13011	undated	None	380164.49,6397592.405	4540	12
+	13012	undated	None	380175.609,6397586.701	4314	10
+	13013	undated	None	380154.875,6397544.364	4314	9
+	13014	undated	None	380142.17,6397550.589	4542	11
+	13015	undated	None	380153.379,6397598.106	4266	16
+	13016	undated	None	380164.49,6397592.405	4542	13
+	13017	undated	None	380142.17,6397550.589	4542	12
+	13018	undated	None	380139.482,6397551.906	4421	14
+	13019	undated	None	380129.932,6397557.408	4315	15
+	13020	undated	None	380144.919,6397602.446	4267	19
+	13021	undated	None	380153.379,6397598.106	4315	17
+	13022	undated	None	380129.932,6397557.408	4315	16
+	13023	undated	None	380121.702,6397562.149	4316	18
+	13024	undated	None	380136.68,6397607.173	4543	23
+	13025	undated	None	380144.607,6397602.606	4262	20
+	13026	undated	None	380144.919,6397602.446	4316	21
+	13027	undated	None	380121.702,6397562.149	4316	19
+	13028	undated	None	380113.473,6397566.89	4545	1122
+	13029	undated	None	380128.451,6397611.914	4268	26
+	13030	undated	None	380136.68,6397607.173	4545	24
+	13031	undated	None	380113.473,6397566.89	4545	23
+	13032	undated	None	380105.243,6397571.632	4317	25
+	13033	undated	None	380120.221,6397616.656	4269	29
+	13034	undated	None	380128.451,6397611.914	4317	27
+	13035	undated	None	380105.243,6397571.632	4317	26
+	13036	undated	None	380097.013,6397576.373	4318	28
+	13037	undated	None	380059.569,6397643.561	4423	34
+	13038	undated	None	380073.874,6397643.357	4312	30
+	13039	undated	None	380050.666,6397603.074	4357	31
+	13040	undated	None	380039.838,6397609.313	4321	32
+	13041	undated	None	380052.13,6397630.65	4307	33
+	13042	undated	None	380052.13,6397630.65	4321	39
+	13043	undated	None	380039.838,6397609.313	4321	33
+	13044	undated	None	380017.381,6397622.251	4322	35
+	13045	undated	None	380010.04,6397639.26	4323	36
+	13046	undated	None	380012.259,6397648.598	4324	37
+	13047	undated	None	380046.633,6397633.125	4306	38
+	13048	undated	None	380056.853,6397650.863	4259	42
+	13049	undated	None	380046.633,6397633.125	4324	40
+	13050	undated	None	380012.259,6397648.598	4324	38
+	13051	undated	None	380014.999,6397660.135	4325	41
+	13052	undated	None	380056.766,6397668.451	4113	45
+	13053	undated	None	380056.853,6397650.863	4325	43
+	13054	undated	None	380014.999,6397660.135	4325	42
+	13055	undated	None	380018.112,6397673.237	4097	44
+	13056	undated	None	380056.678,6397686.407	4309	48
+	13057	undated	None	380056.766,6397668.451	4097	46
+	13058	undated	None	380018.112,6397673.237	4097	45
+	13059	undated	None	380021.486,6397687.437	4326	47
+	13060	undated	None	380062.688,6397686.231	4308	53
+	13061	undated	None	380056.678,6397686.407	4326	49
+	13062	undated	None	380021.486,6397687.437	4326	48
+	13063	undated	None	380024.896,6397701.791	4327	50
+	13064	undated	None	380035.417,6397709.858	4328	51
+	13065	undated	None	380062.575,6397709.062	4329	52
+	13066	undated	None	380131.289,6397662.711	4238	57
+	13067	undated	None	380121.789,6397662.989	4553	54
+	13068	undated	None	380121.571,6397707.334	4555	55
+	13069	undated	None	380131.071,6397707.056	4331	56
+	13070	undated	None	380140.788,6397662.433	4237	60
+	13071	undated	None	380131.289,6397662.711	4331	58
+	13072	undated	None	380131.071,6397707.056	4331	57
+	13073	undated	None	380140.57,6397706.777	4332	59
+	13074	undated	None	380150.288,6397662.155	4236	63
+	13075	undated	None	380140.788,6397662.433	4332	61
+	13076	undated	None	380140.57,6397706.777	4332	60
+	13077	undated	None	380150.07,6397706.499	4334	62
+	13078	undated	None	380159.787,6397661.876	4235	66
+	13079	undated	None	380150.288,6397662.155	4334	64
+	13080	undated	None	380150.07,6397706.499	4334	63
+	13081	undated	None	380159.569,6397706.221	4552	65
+	13082	undated	None	380172.279,6397661.51	4234	69
+	13083	undated	None	380159.787,6397661.876	4552	67
+	13084	undated	None	380159.569,6397706.221	4552	66
+	13085	undated	None	380172.035,6397711.028	4551	68
+	13086	undated	None	380185.048,6397705.145	4232	75
+	13087	undated	None	380185.235,6397667.244	4400	70
+	13088	undated	None	380179.153,6397661.309	4401	71
+	13089	undated	None	380172.279,6397661.51	4551	72
+	13090	undated	None	380172.035,6397711.028	4551	69
+	13091	undated	None	380182.02,6397711.077	4336	73
+	13092	undated	None	380182.049,6397705.233	4428	74
+	13093	undated	None	380111.991,6397621.397	4546	78
+	13094	undated	None	380120.221,6397616.656	4318	76
+	13095	undated	None	380097.013,6397576.373	4318	29
+	13096	undated	None	380088.783,6397581.114	4319	77
+	13097	undated	None	380103.761,6397626.138	4270	81
+	13098	undated	None	380111.991,6397621.397	4319	79
+	13099	undated	None	380088.783,6397581.114	4319	78
+	13100	undated	None	380080.553,6397585.856	4549	80
+	13101	undated	None	380095.531,6397630.88	4547	84
+	13102	undated	None	380103.761,6397626.138	4549	82
+	13103	undated	None	380080.553,6397585.856	4549	81
+	13104	undated	None	380072.324,6397590.597	4320	83
+	13105	undated	None	380102.791,6397663.546	4559	88
+	13106	undated	None	380090.292,6397663.912	4239	85
+	13107	undated	None	380090.073,6397708.257	4330	86
+	13108	undated	None	380102.573,6397707.89	4561	87
+	13109	undated	None	380112.29,6397663.268	4556	91
+	13110	undated	None	380102.791,6397663.546	4561	89
+	13111	undated	None	380102.573,6397707.89	4561	88
+	13112	undated	None	380112.072,6397707.612	4558	90
+	13113	undated	None	380121.789,6397662.989	4553	55
+	13114	undated	None	380112.29,6397663.268	4558	92
+	13115	undated	None	380112.072,6397707.612	4558	91
+	13116	undated	None	380121.571,6397707.334	4553	93
+	13117	undated	None	380086.539,6397640.305	4289	96
+	13118	undated	None	380095.531,6397630.88	4320	94
+	13119	undated	None	380072.324,6397590.597	4320	84
+	13120	undated	None	380061.495,6397596.836	4351	95
+	13121	undated	None	380073.874,6397643.357	4312	31
+	13122	undated	None	380086.539,6397640.305	4351	97
+	13123	undated	None	380061.495,6397596.836	4351	96
+	13124	undated	None	380050.666,6397603.074	4312	98
+	13125	undated	None	380077.785,6397665.68	4562	103
+	13126	undated	None	380063.733,6397669.505	4500	99
+	13127	undated	None	380062.764,6397670.768	4499	100
+	13128	undated	None	380062.688,6397686.231	4329	101
+	13129	undated	None	380062.575,6397709.062	4329	53
+	13130	undated	None	380077.574,6397708.623	3951	102
+	13131	undated	None	380090.292,6397663.912	4239	86
+	13132	undated	None	380083.556,6397664.109	4366	104
+	13133	undated	None	380077.785,6397665.68	3951	105
+	13134	undated	None	380077.574,6397708.623	3951	103
+	13135	undated	None	380090.073,6397708.257	4239	106
+	13136	undated	None	380104.006,6397650.508	4279	116
+	13137	undated	None	380181.422,6397648.24	4278	107
+	13138	undated	None	380187.358,6397642.158	4277	108
+	13139	undated	None	380183.359,6397642.138	4538	109
+	13140	undated	None	380183.377,6397638.439	4539	110
+	13141	undated	None	380187.376,6397638.459	4537	111
+	13142	undated	None	380187.558,6397601.42	4282	112
+	13143	undated	None	380182.021,6397598.019	4281	113
+	13144	undated	None	380150.822,6397614.026	4275	114
+	13145	undated	None	380103.642,6397641.207	4280	115
+	13146	undated	None	379723.701,6397712.122	1499	138
+	13147	undated	None	379773.449,6397717.027	1465	117
+	13148	undated	None	379785.473,6397926.945	1467	118
+	13149	undated	None	380006.365,6397932.575	1022	119
+	13150	undated	None	380045.973,6397931.386	5018	120
+	13151	undated	None	380046.015,6397922.883	20233	121
+	13152	undated	None	380046.049,6397915.881	20234	122
+	13153	undated	None	380046.052,6397915.38	4600	123
+	13154	undated	None	380046.261,6397872.744	4601	124
+	13155	undated	None	380003.53,6397873.996	4034	125
+	13156	undated	None	379935.237,6397872.256	4069	126
+	13157	undated	None	379905.838,6397861.506	4071	127
+	13158	undated	None	379894.356,6397861.213	4098	128
+	13159	undated	None	379894.566,6397852.997	4099	129
+	13160	undated	None	379874.146,6397767.676	4100	130
+	13161	undated	None	379868.738,6397735.179	4396	131
+	13162	undated	None	379825.943,6397700.671	4397	132
+	13163	undated	None	379793.183,6397699.972	4515	133
+	13164	undated	None	379791.194,6397699.48	4516	134
+	13165	undated	None	379736.036,6397698.303	4566	135
+	13166	undated	None	379734.047,6397697.811	4568	136
+	13167	undated	None	379725.667,6397697.632	4399	137
+	13168	undated	None	380184.366,6397843.909	3969	160
+	13169	undated	None	380185.048,6397705.145	4428	139
+	13170	undated	None	380182.049,6397705.233	4336	75
+	13171	undated	None	380182.02,6397711.077	4336	74
+	13172	undated	None	380181.928,6397729.742	4337	140
+	13173	undated	None	380166.804,6397730.185	4338	141
+	13174	undated	None	380152.755,6397735.426	4143	142
+	13175	undated	None	380058.851,6397738.177	4344	143
+	13176	undated	None	380044.435,6397743.771	4345	144
+	13177	undated	None	380009.886,6397744.784	4347	145
+	13178	undated	None	380008.577,6397750.323	4221	146
+	13179	undated	None	380006.398,6397750.387	4194	147
+	13180	undated	None	380000.221,6397746.572	4194	148
+	13181	undated	None	380005.385,6397745.1	4348	149
+	13182	undated	None	379986.682,6397666.379	4355	150
+	13183	undated	None	379961.958,6397654.714	4363	151
+	13184	undated	None	379897.132,6397676.041	4363	152
+	13185	undated	None	379883.745,6397702.835	4364	153
+	13186	undated	None	379892.738,6397720.796	4424	154
+	13187	undated	None	379917.405,6397823.862	4374	155
+	13188	undated	None	379941.55,6397843.414	4375	156
+	13189	undated	None	380003.474,6397844.992	4379	157
+	13190	undated	None	380154.399,6397840.568	4388	158
+	13191	undated	None	380166.373,6397845.512	4389	159
+	13192	undated	None	380185.265,6397661.13	4233	164
+	13193	undated	None	380187.329,6397648.067	4273	161
+	13194	undated	None	380181.422,6397648.24	4279	162
+	13195	undated	None	380104.006,6397650.508	4279	107
+	13196	undated	None	380083.556,6397664.109	4239	163
+	13197	undated	None	380090.292,6397663.912	4559	104
+	13198	undated	None	380102.791,6397663.546	4556	85
+	13199	undated	None	380112.29,6397663.268	4553	89
+	13200	undated	None	380121.789,6397662.989	4238	92
+	13201	undated	None	380131.289,6397662.711	4237	54
+	13202	undated	None	380140.788,6397662.433	4236	58
+	13203	undated	None	380150.288,6397662.155	4235	61
+	13204	undated	None	380159.787,6397661.876	4234	64
+	13205	undated	None	380172.279,6397661.51	4401	67
+	13206	undated	None	380179.153,6397661.309	4401	72
+	13207	undated	None	380104.006,6397650.508	4279	163
+	13208	undated	None	380059.569,6397643.561	4307	165
+	13209	undated	None	380052.13,6397630.65	4306	34
+	13210	undated	None	380046.633,6397633.125	4259	39
+	13211	undated	None	380056.853,6397650.863	4113	40
+	13212	undated	None	380056.766,6397668.451	4309	43
+	13213	undated	None	380056.678,6397686.407	4308	46
+	13214	undated	None	380062.688,6397686.231	4499	49
+	13215	undated	None	380062.764,6397670.768	4499	101
+	13216	undated	None	380062.768,6397669.768	4253	166
+	13217	undated	None	380063.733,6397669.505	4562	167
+	13218	undated	None	380077.785,6397665.68	4366	99
+	13219	undated	None	380083.556,6397664.109	4279	105
+	13220	undated	None	380187.589,6397595.162	4276	170
+	13221	undated	None	380192.672,6397577.946	4264	168
+	13222	undated	None	380186.73,6397580.995	4265	1
+	13223	undated	None	380175.609,6397586.701	4540	7
+	13224	undated	None	380164.49,6397592.405	4266	10
+	13225	undated	None	380153.379,6397598.106	4267	13
+	13226	undated	None	380144.919,6397602.446	4262	17
+	13227	undated	None	380144.607,6397602.606	4262	21
+	13228	undated	None	380150.822,6397614.026	4281	169
+	13229	undated	None	380182.021,6397598.019	4281	114
+	13230	undated	None	380150.822,6397614.026	4262	115
+	13231	undated	None	380144.607,6397602.606	4543	169
+	13232	undated	None	380136.68,6397607.173	4268	20
+	13233	undated	None	380128.451,6397611.914	4269	24
+	13234	undated	None	380120.221,6397616.656	4546	27
+	13235	undated	None	380111.991,6397621.397	4270	76
+	13236	undated	None	380103.761,6397626.138	4547	79
+	13237	undated	None	380095.531,6397630.88	4547	82
+	13238	undated	None	380103.642,6397641.207	4275	171
+	13239	undated	None	380103.642,6397641.207	4547	116
+	13240	undated	None	380095.531,6397630.88	4289	171
+	13241	undated	None	380086.539,6397640.305	4312	94
+	13242	undated	None	380073.874,6397643.357	4423	97
+	13243	undated	None	380059.569,6397643.561	4279	30
+	13244	undated	None	380104.006,6397650.508	4280	165
+	13245	undated	None	380179.153,6397661.309	4400	164
+	13246	undated	None	380185.235,6397667.244	4400	71
+	13247	undated	None	380185.265,6397661.13	4401	172
+	13248	undated	None	380062.764,6397670.768	4500	166
+	13249	undated	None	380063.733,6397669.505	4253	100
+	13250	undated	None	380062.768,6397669.768	4499	167
+	13251	undated	None	380187.358,6397642.158	4278	173
+	13252	undated	None	380181.422,6397648.24	4273	108
+	13253	undated	None	380187.329,6397648.067	4273	162
+	13254	undated	None	380182.021,6397598.019	4282	170
+	13255	undated	None	380187.558,6397601.42	4282	113
+	13256	undated	None	380187.589,6397595.162	4281	174
+	13257	undated	None	380129.932,6397557.408	4315	15
+	13258	undated	None	380121.702,6397562.149	4316	18
+	13259	undated	None	380113.473,6397566.89	4545	1122
+	13260	undated	None	380105.243,6397571.632	4317	25
+	13261	undated	None	380097.013,6397576.373	4318	28
+	13262	undated	None	380088.783,6397581.114	4319	77
+	13263	undated	None	380080.553,6397585.856	4549	80
+	13264	undated	None	380072.324,6397590.597	4320	83
+	13265	undated	None	380061.495,6397596.836	4351	95
+	13266	undated	None	380050.666,6397603.074	4357	98
+	13267	undated	None	380039.838,6397609.313	4321	32
+	13268	undated	None	380012.259,6397648.598	4324	37
+	13269	undated	None	380014.999,6397660.135	4325	41
+	13270	undated	None	380018.112,6397673.237	4097	44
+	13271	undated	None	380021.486,6397687.437	4326	47
+	13272	undated	None	380062.575,6397709.062	4329	52
+	13273	undated	None	380077.574,6397708.623	3951	102
+	13274	undated	None	380090.073,6397708.257	4330	106
+	13275	undated	None	380102.573,6397707.89	4561	87
+	13276	undated	None	380112.072,6397707.612	4558	90
+	13277	undated	None	380121.571,6397707.334	4555	93
+	13278	undated	None	380131.071,6397707.056	4331	56
+	13279	undated	None	380140.57,6397706.777	4332	59
+	13280	undated	None	380150.07,6397706.499	4334	62
+	13281	undated	None	380159.569,6397706.221	4552	65
+	13282	undated	None	380172.035,6397711.028	4551	68
+	13283	undated	None	380182.02,6397711.077	4336	73
+	13284	undated	None	380185.048,6397705.145	4232	139
+	13285	undated	None	380185.235,6397667.244	4400	70
+	13286	undated	None	380185.265,6397661.13	4233	172
+	13287	undated	None	380187.329,6397648.067	4273	161
+	13288	undated	None	380187.358,6397642.158	4277	173
+	13289	undated	None	380187.558,6397601.42	4282	112
+	13290	undated	None	380187.589,6397595.162	4276	174
+	13291	undated	None	380192.672,6397577.946	4263	168
+	13292	undated	None	380166.098,6397538.866	4313	5
+	13293	undated	None	380154.875,6397544.364	4314	8
+	13294	undated	None	380142.17,6397550.589	4542	11
+	13295	undated	None	380046.049,6397915.881	20234	122
+	13296	undated	None	380033.568,6397916.255	20222	175
+	13297	undated	None	380033.777,6397923.25	20216	176
+	13298	undated	None	380046.015,6397922.883	20233	177
+Annotations:	4
+	(wa-annotation-role:r-26a)	Survey carried out under Reg 26a Special Survey Area Guidelines
+	(wa-annotation-role:r-26a)	Final marking defferred, Reg. 26A(1) Special Survey Area Guidelines
+	(wa-annotation-role:sp)	All boundary / corner survey marks shown on the associated plan and contained in this CSD are indicative only. Use only the survey sheet(s) when determining the true final position and type of all survey marks placed pertaining to this data.
+	(wa-annotation-role:surveyed-dimensions)	All bearings and distances in this CSD and on the related survey sheets are the result of least squares adjustments carried out on the field observations.
+References:	2
+	DP 74646	DP_74646	wa-locality:dudley-park (icsm-admin-unit-type:locality)	related	0.0	2013-10-24 00:00:00
+	DP 76653	DP_76653	wa-locality:dudley-park (icsm-admin-unit-type:locality)	related	0.0	2013-10-24 00:00:00
+Supporting Documents:	4
+	wa-survey-documentation-type:2d-plan	DP 400715 Plan (https://wa.gov.au/deposited-plans/DP400715.pdf)	related
+	wa-survey-documentation-type:field-record	Field Book 80658 (https://wa.gov.au/field-books/80658.pdf)	related
+	wa-survey-documentation-type:field-record	Field Book 81073 (https://wa.gov.au/field-books/81073.pdf)	related
+	wa-survey-documentation-type:survey-report	Survey Report DP 400715 (https://wa.gov.au/survey-reports/400715.pdf)	related

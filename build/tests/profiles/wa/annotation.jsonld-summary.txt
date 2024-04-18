@@ -1,0 +1,12 @@
+Projection:	epsg:7850
+Name:	DP 58955
+
+Monuments:	0
+Parcels:	0
+Observations:	0
+Annotations:	5
+	(wa-annotation-role:unsurveyed-dimensions)	Unsurveyed boundary dimensions derived from SCDB data acquired June 2006
+	(wa-annotation-role:parcel-derived)	Lot 306 dimensions derived from GPS observations. Boundaries completely unmarked but related to SSM's
+	(wa-annotation-role:transfer-of-land-exempt)	The residue land comprised in Pastoral Lease 3114/1244 (Crown Lease 103/1989) is not shown on this plan pursuant to an exemption granted under regulation 5(6) of the Transfer of Land (Survey) Regulations 1995. See DPI File: 50163-2006 (Folio 130)
+	(wa-annotation-role:public-acquisition)	Lot 306 to be acquired for Public Purpose (Road)
+	(wa-annotation-role:total-area)	Total area of Lot 306 (10 severances) excluding Lot 11 is 858.7418 ha
