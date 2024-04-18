@@ -1,0 +1,10 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "description": "WA profile of Cadastral Survey Data Model",
+  "x-jsonld-context": "context.jsonld",
+  "allOf": [
+    {
+      "$ref": "bblocks://icsm.profiles.common"
+    }
+  ]
+}
