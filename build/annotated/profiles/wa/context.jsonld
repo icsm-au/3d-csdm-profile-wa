@@ -448,12 +448,12 @@
           "@type": "@id"
         },
         "hasResult": {
+          "@id": "sosa:hasResult",
+          "@type": "@id",
           "@context": {
             "pose": "surv:pose",
             "distance": "surv:distance"
-          },
-          "@id": "sosa:hasResult",
-          "@type": "@id"
+          }
         },
         "angleAccuracy": "csdm:surveyobs/angleAccuracyMeasure",
         "distanceAccuracy": "csdm:surveyobs/distanceAccuracyMeasure",
@@ -1516,6 +1516,20 @@
     "distancetype": "csdm:defs/distancetypes/",
     "surveyproc": "csdm:defs/surveyprocedures/",
     "surveyable": "csdm:defs/surveyableproperties/",
+    "icsm": "https://linked.data.gov.au/def/csdm/",
+    "epsg": "http://www.opengis.net/def/crs/EPSG/0/",
+    "surveytype": "csdm:surveytypes/",
+    "icsm-jurisdictions": "csdm:jurisdictions/",
+    "icsm-survey-type": "csdm:icsm-survey-type/",
+    "survptpurp": "csdm:survptpurp/",
+    "icsm-admin-unit-type": "csdm:icsm-admin-unit-type/",
+    "icsm-procedure-used": "csdm:icsm-procedure-used/",
+    "icsm-surveypoint-purpose": "csdm:icsm-surveypoint-purpose/",
+    "icsm-parcel-state": "csdm:icsm-parcel-state/",
+    "icsm-angle-type": "csdm:icsm-angle-type/",
+    "icsm-equipment-type": "csdm:icsm-equipment-type/",
+    "icsm-distance-type": "csdm:icsm-distance-type/",
+    "icsm-arc-orientation": "csdm:arc-orientation/",
     "vocabs": "https://linked.data.gov.au/def/csdm/",
     "wa-surveypoint-purpose": "csdm:wa-surveypoint-purpose/",
     "wa-survey-purpose": "csdm:wa-survey-purpose/",
@@ -1541,20 +1555,6 @@
     "wa-local-government": "csdm:wa-local-government/",
     "registered-surveyors": "https://wa.gov.au/surveyors/",
     "foaf": "http://xmlns.com/foaf/0.1/",
-    "icsm": "https://linked.data.gov.au/def/csdm/",
-    "epsg": "http://www.opengis.net/def/crs/EPSG/0/",
-    "surveytype": "csdm:surveytypes/",
-    "icsm-jurisdictions": "csdm:jurisdictions/",
-    "icsm-survey-type": "csdm:icsm-survey-type/",
-    "survptpurp": "csdm:survptpurp/",
-    "icsm-admin-unit-type": "csdm:icsm-admin-unit-type/",
-    "icsm-procedure-used": "csdm:icsm-procedure-used/",
-    "icsm-surveypoint-purpose": "csdm:icsm-surveypoint-purpose/",
-    "icsm-parcel-state": "csdm:icsm-parcel-state/",
-    "icsm-angle-type": "csdm:icsm-angle-type/",
-    "icsm-equipment-type": "csdm:icsm-equipment-type/",
-    "icsm-distance-type": "csdm:icsm-distance-type/",
-    "icsm-arc-orientation": "csdm:arc-orientation/",
     "@version": 1.1
   }
 }

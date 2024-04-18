@@ -1,6 +1,0 @@
-Projection:	epsg:4167
-Name:	DP 572532
-
-Monuments:	0
-Parcels:	0
-Observations:	0

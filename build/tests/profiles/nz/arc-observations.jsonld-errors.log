@@ -1,5 +1,0 @@
-build/tests/profiles/nz/arc-observations.jsonld
-Expected to find measurements corresponding to observation 1157689  but found none!
-Expected to find measurements corresponding to observation 1157690  but found none!
-Expected to find measurements corresponding to observation 1157694  but found none!
-'ArcByChord' object has no attribute 'date'

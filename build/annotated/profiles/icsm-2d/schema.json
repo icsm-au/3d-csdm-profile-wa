@@ -1,9 +1,0 @@
-{
-  "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "description": "2D restricted profile Cadastral Survey Data Model",
-  "allOf": [
-    {
-      "$ref": "https://icsm-au.github.io/3d-csdm-schema/build/annotated/csdm/features/CSD/schema.json"
-    }
-  ]
-}

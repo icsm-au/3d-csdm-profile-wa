@@ -51,14 +51,14 @@
 
 <https://www.wa-example.com/features/11636634> a geojson:Feature ;
     parcel:appellation [ rdfs:label "Lot 3 DP 214866" ;
-            dcterms:hasPart [ rdfs:label "214866" ;
-                    commonpatterns:namePartType "planIdentifier" ],
-                [ rdfs:label "3" ;
+            dcterms:hasPart [ rdfs:label "3" ;
                     commonpatterns:namePartType "ParcelIdentifier" ],
                 [ rdfs:label "Lot" ;
                     commonpatterns:namePartType "ParcelType" ],
                 [ rdfs:label "DP" ;
-                    commonpatterns:namePartType "PlanType" ] ] ;
+                    commonpatterns:namePartType "PlanType" ],
+                [ rdfs:label "214866" ;
+                    commonpatterns:namePartType "planIdentifier" ] ] ;
     parcel:interest [ parcel:interestLink <https://www.wa-example.com/features/LR-3150-715> ;
             parcel:interestType wa-interest-type:ct ] ;
     parcel:purpose wa-parcel-purpose:reserve ;
@@ -66,17 +66,17 @@
     parcel:surfaceArea 365750 ;
     parcel:type wa-parcel-type:crown ;
     geojson:topology [ a geojson:Polygon ;
-            geojson:relatedFeatures ( "['2001', '20015', '20014', '20013', '20011', '20010', '2009', '2008', '2007', '2006', '2005', '2004', '2003', '2002']" ) ] .
+            geojson:relatedFeatures ( ( <https://www.wa-example.com/features/2001> <https://www.wa-example.com/features/20015> <https://www.wa-example.com/features/20014> <https://www.wa-example.com/features/20013> <https://www.wa-example.com/features/20011> <https://www.wa-example.com/features/20010> <https://www.wa-example.com/features/2009> <https://www.wa-example.com/features/2008> <https://www.wa-example.com/features/2007> <https://www.wa-example.com/features/2006> <https://www.wa-example.com/features/2005> <https://www.wa-example.com/features/2004> <https://www.wa-example.com/features/2003> <https://www.wa-example.com/features/2002> ) ) ] .
 
 <https://www.wa-example.com/features/12595541> a geojson:Feature ;
     rdfs:label "H" ;
     parcel:appellation [ rdfs:label "Area H DP 95092" ;
-            dcterms:hasPart [ rdfs:label "DP" ;
-                    commonpatterns:namePartType "PlanType" ],
-                [ rdfs:label "Area" ;
+            dcterms:hasPart [ rdfs:label "Area" ;
                     commonpatterns:namePartType "ParcelType" ],
                 [ rdfs:label "95092" ;
                     commonpatterns:namePartType "planIdentifier" ],
+                [ rdfs:label "DP" ;
+                    commonpatterns:namePartType "PlanType" ],
                 [ rdfs:label "H" ;
                     commonpatterns:namePartType "ParcelIdentifier" ] ] ;
     parcel:interest [ parcel:burdened "11636634" ;
@@ -86,68 +86,7 @@
     parcel:state wa-parcel-state:created ;
     parcel:type wa-secondary-parcel-type:crown ;
     geojson:topology [ a geojson:Polygon ;
-            geojson:relatedFeatures ( "['17842481']" ) ] .
-
-<https://www.wa-example.com/features/17842481> a geojson:Feature ;
-    geojson:topology [ a geojson:CircleByCenter ;
-            geojson:radius 4e+02 ;
-            geojson:relatedFeatures ( <https://www.wa-example.com/features/16040422> ) ] .
-
-<https://www.wa-example.com/features/2001> a geojson:Feature ;
-    geojson:topology [ a geojson:LineString ;
-            geojson:relatedFeatures ( <https://www.wa-example.com/features/10001> <https://www.wa-example.com/features/10002> ) ] .
-
-<https://www.wa-example.com/features/20010> a geojson:Feature ;
-    geojson:topology [ a geojson:LineString ;
-            geojson:relatedFeatures ( <https://www.wa-example.com/features/100010> <https://www.wa-example.com/features/100011> ) ] .
-
-<https://www.wa-example.com/features/20011> a geojson:Feature ;
-    geojson:topology [ a geojson:LineString ;
-            geojson:relatedFeatures ( <https://www.wa-example.com/features/100011> <https://www.wa-example.com/features/100012> ) ] .
-
-<https://www.wa-example.com/features/20013> a geojson:Feature ;
-    geojson:topology [ a geojson:LineString ;
-            geojson:relatedFeatures ( <https://www.wa-example.com/features/100012> <https://www.wa-example.com/features/100014> ) ] .
-
-<https://www.wa-example.com/features/20014> a geojson:Feature ;
-    geojson:topology [ a geojson:LineString ;
-            geojson:relatedFeatures ( <https://www.wa-example.com/features/100014> <https://www.wa-example.com/features/100015> ) ] .
-
-<https://www.wa-example.com/features/20015> a geojson:Feature ;
-    geojson:topology [ a geojson:LineString ;
-            geojson:relatedFeatures ( <https://www.wa-example.com/features/100015> <https://www.wa-example.com/features/10001> ) ] .
-
-<https://www.wa-example.com/features/2002> a geojson:Feature ;
-    geojson:topology [ a geojson:LineString ;
-            geojson:relatedFeatures ( <https://www.wa-example.com/features/10002> <https://www.wa-example.com/features/10003> ) ] .
-
-<https://www.wa-example.com/features/2003> a geojson:Feature ;
-    geojson:topology [ a geojson:LineString ;
-            geojson:relatedFeatures ( <https://www.wa-example.com/features/10003> <https://www.wa-example.com/features/10004> ) ] .
-
-<https://www.wa-example.com/features/2004> a geojson:Feature ;
-    geojson:topology [ a geojson:LineString ;
-            geojson:relatedFeatures ( <https://www.wa-example.com/features/10004> <https://www.wa-example.com/features/10005> ) ] .
-
-<https://www.wa-example.com/features/2005> a geojson:Feature ;
-    geojson:topology [ a geojson:LineString ;
-            geojson:relatedFeatures ( <https://www.wa-example.com/features/10005> <https://www.wa-example.com/features/10006> ) ] .
-
-<https://www.wa-example.com/features/2006> a geojson:Feature ;
-    geojson:topology [ a geojson:LineString ;
-            geojson:relatedFeatures ( <https://www.wa-example.com/features/10006> <https://www.wa-example.com/features/10007> ) ] .
-
-<https://www.wa-example.com/features/2007> a geojson:Feature ;
-    geojson:topology [ a geojson:LineString ;
-            geojson:relatedFeatures ( <https://www.wa-example.com/features/10007> <https://www.wa-example.com/features/10008> ) ] .
-
-<https://www.wa-example.com/features/2008> a geojson:Feature ;
-    geojson:topology [ a geojson:LineString ;
-            geojson:relatedFeatures ( <https://www.wa-example.com/features/10008> <https://www.wa-example.com/features/10009> ) ] .
-
-<https://www.wa-example.com/features/2009> a geojson:Feature ;
-    geojson:topology [ a geojson:LineString ;
-            geojson:relatedFeatures ( <https://www.wa-example.com/features/10009> <https://www.wa-example.com/features/100010> ) ] .
+            geojson:relatedFeatures ( ( <https://www.wa-example.com/features/17842481> ) ) ] .
 
 <https://www.wa-example.com/features/BoundaryMark> a surv:BoundaryMark,
         geojson:FeatureCollection ;
@@ -212,6 +151,67 @@
     surv:purpose wa-surveypoint-purpose:interest-construct ;
     geojson:geometry [ a geojson:Point ;
             geojson:coordinates ( 6.8451e+05 6.422981e+06 ) ] .
+
+<https://www.wa-example.com/features/17842481> a geojson:Feature ;
+    geojson:topology [ a geojson:CircleByCenter ;
+            geojson:radius 4e+02 ;
+            geojson:relatedFeatures ( <https://www.wa-example.com/features/16040422> ) ] .
+
+<https://www.wa-example.com/features/2001> a geojson:Feature ;
+    geojson:topology [ a geojson:LineString ;
+            geojson:relatedFeatures ( <https://www.wa-example.com/features/10001> <https://www.wa-example.com/features/10002> ) ] .
+
+<https://www.wa-example.com/features/20010> a geojson:Feature ;
+    geojson:topology [ a geojson:LineString ;
+            geojson:relatedFeatures ( <https://www.wa-example.com/features/100010> <https://www.wa-example.com/features/100011> ) ] .
+
+<https://www.wa-example.com/features/20011> a geojson:Feature ;
+    geojson:topology [ a geojson:LineString ;
+            geojson:relatedFeatures ( <https://www.wa-example.com/features/100011> <https://www.wa-example.com/features/100012> ) ] .
+
+<https://www.wa-example.com/features/20013> a geojson:Feature ;
+    geojson:topology [ a geojson:LineString ;
+            geojson:relatedFeatures ( <https://www.wa-example.com/features/100012> <https://www.wa-example.com/features/100014> ) ] .
+
+<https://www.wa-example.com/features/20014> a geojson:Feature ;
+    geojson:topology [ a geojson:LineString ;
+            geojson:relatedFeatures ( <https://www.wa-example.com/features/100014> <https://www.wa-example.com/features/100015> ) ] .
+
+<https://www.wa-example.com/features/20015> a geojson:Feature ;
+    geojson:topology [ a geojson:LineString ;
+            geojson:relatedFeatures ( <https://www.wa-example.com/features/100015> <https://www.wa-example.com/features/10001> ) ] .
+
+<https://www.wa-example.com/features/2002> a geojson:Feature ;
+    geojson:topology [ a geojson:LineString ;
+            geojson:relatedFeatures ( <https://www.wa-example.com/features/10002> <https://www.wa-example.com/features/10003> ) ] .
+
+<https://www.wa-example.com/features/2003> a geojson:Feature ;
+    geojson:topology [ a geojson:LineString ;
+            geojson:relatedFeatures ( <https://www.wa-example.com/features/10003> <https://www.wa-example.com/features/10004> ) ] .
+
+<https://www.wa-example.com/features/2004> a geojson:Feature ;
+    geojson:topology [ a geojson:LineString ;
+            geojson:relatedFeatures ( <https://www.wa-example.com/features/10004> <https://www.wa-example.com/features/10005> ) ] .
+
+<https://www.wa-example.com/features/2005> a geojson:Feature ;
+    geojson:topology [ a geojson:LineString ;
+            geojson:relatedFeatures ( <https://www.wa-example.com/features/10005> <https://www.wa-example.com/features/10006> ) ] .
+
+<https://www.wa-example.com/features/2006> a geojson:Feature ;
+    geojson:topology [ a geojson:LineString ;
+            geojson:relatedFeatures ( <https://www.wa-example.com/features/10006> <https://www.wa-example.com/features/10007> ) ] .
+
+<https://www.wa-example.com/features/2007> a geojson:Feature ;
+    geojson:topology [ a geojson:LineString ;
+            geojson:relatedFeatures ( <https://www.wa-example.com/features/10007> <https://www.wa-example.com/features/10008> ) ] .
+
+<https://www.wa-example.com/features/2008> a geojson:Feature ;
+    geojson:topology [ a geojson:LineString ;
+            geojson:relatedFeatures ( <https://www.wa-example.com/features/10008> <https://www.wa-example.com/features/10009> ) ] .
+
+<https://www.wa-example.com/features/2009> a geojson:Feature ;
+    geojson:topology [ a geojson:LineString ;
+            geojson:relatedFeatures ( <https://www.wa-example.com/features/10009> <https://www.wa-example.com/features/100010> ) ] .
 
 <https://www.wa-example.com/features/10001> a surv:BoundaryMark,
         geojson:Feature ;

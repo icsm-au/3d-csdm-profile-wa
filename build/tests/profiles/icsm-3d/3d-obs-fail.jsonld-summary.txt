@@ -1,7 +1,0 @@
-Projection:	epsg:8031
-Name:	TBD
-
-Monuments:	1
-	None	EFB157243/9540	CadastralMark	54556.897,298434.717,2293.4	wa-monument-state:MarkFound	wa-monument-condition:ok	None
-Parcels:	0
-Observations:	0
