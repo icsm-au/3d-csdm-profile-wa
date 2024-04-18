@@ -1,0 +1,661 @@
+{
+  "id": "DP_42253",
+  "name": "DP 42253",
+  "description": "Western-Australia-Subtended-Angle-Parcel-Example",
+  "type": "FeatureCollection",
+  "featureType": "CSD",
+  "tenureType": "wa-parcel-type:freehold",
+  "planType": "wa-survey-type:deposited-plan",
+  "purpose": "wa-survey-purpose:subdivision",
+  "surveyType": "wa-survey-type:SSA",
+  "time": { "date": "2022-05-22" },
+  "horizontalCRS": "epsg:8024",
+  "bearingRotation": 0.0,
+  "surveyTitle": "Lots 210 - 232, 240, Roads, 9005 & Easements",
+  "adminUnit": [
+    {
+      "href": "wa-local-government:city-of-kalgoorlie-boulder",
+      "rel": "related",
+      "role": "icsm-admin-unit-type:localGovernmentArea"
+    },
+    {
+      "href": "wa-locality:karlkurla",
+      "rel": "related",
+      "role": "icsm-admin-unit-type:locality"
+    }
+  ],
+  "wasGeneratedBy": {
+    "id": "DP-1-S2",
+    "endedAtTime": "2029-01-01T01:02:03Z"
+  },
+  "features": [],
+  "referencedCSDs": [
+    {
+      "id": "DP_422526",
+      "name": "DP 422526",
+      "adminUnit": {
+        "href": "wa-locality:hyden",
+        "rel": "related",
+        "role": "icsm-admin-unit-type:locality"
+      },
+      "bearingRotation": 0.0,
+      "time": { "date": "2013-03-10" }
+    }
+  ],
+  "points": [
+    {
+      "id": "BoundaryMark",
+      "type": "FeatureCollection",
+      "featureType": "BoundaryMark",
+      "features": [
+        {
+          "id": "184",
+          "type": "Feature",
+          "featureType": "BoundaryMark",
+          "time": null,
+          "geometry": null,
+          "place": {
+            "type": "Point",
+            "coordinates": [
+              54693.284,
+              398706.957
+            ]
+          },
+          "properties": {
+            "purpose": "wa-surveypoint-purpose:road-boundary",
+            "ptQualityMeasure": 0.100,
+            "comment": null,
+            "monumentedBy": {
+              "form": "wa-monument-form:peg",
+              "condition": "wa-monument-condition:ok",
+              "state": "wa-monument-state:did-not-search"
+            }
+          }
+        },
+        {
+          "id": "189",
+          "type": "Feature",
+          "featureType": "BoundaryMark",
+          "time": null,
+          "geometry": null,
+          "place": {
+            "type": "Point",
+            "coordinates": [
+              54709.808,
+              398707.154
+            ]
+          },
+          "properties": {
+            "name": null,
+            "purpose": "wa-surveypoint-purpose:road-boundary",
+            "ptQualityMeasure": 0.100,
+            "comment": null,
+            "monumentedBy": {
+              "form": "wa-monument-form:peg",
+              "condition": "wa-monument-condition:ok",
+              "state": "wa-monument-state:did-not-search"
+            }
+          }
+        },
+        {
+          "id": "190",
+          "type": "Feature",
+          "featureType": "BoundaryMark",
+          "time": null,
+          "geometry": null,
+          "place": {
+            "type": "Point",
+            "coordinates": [
+              54718.977,
+              398711.145
+            ]
+          },
+          "properties": {
+            "name": null,
+            "purpose": "wa-surveypoint-purpose:road-boundary",
+            "ptQualityMeasure": 0.100,
+            "comment": null,
+            "monumentedBy": {
+              "form": "wa-monument-form:peg",
+              "condition": "wa-monument-condition:ok",
+              "state": "wa-monument-state:did-not-search"
+            }
+          }
+        },
+        {
+          "id": "196",
+          "type": "Feature",
+          "featureType": "BoundaryMark",
+          "time": null,
+          "geometry": null,
+          "place": {
+            "type": "Point",
+            "coordinates": [
+              54725.074,
+              398717.535
+            ]
+          },
+          "properties": {
+            "name": null,
+            "purpose": "wa-surveypoint-purpose:road-boundary",
+            "ptQualityMeasure": 0.100,
+            "comment": null,
+            "monumentedBy": {
+              "form": "wa-monument-form:peg",
+              "condition": "wa-monument-condition:ok",
+              "state": "wa-monument-state:did-not-search"
+            }
+          }
+        },
+        {
+          "id": "197",
+          "type": "Feature",
+          "featureType": "BoundaryMark",
+          "time": null,
+          "geometry": null,
+          "place": {
+            "type": "Point",
+            "coordinates": [
+              54698.303,
+              398743.075
+            ]
+          },
+          "properties": {
+            "name": null,
+            "purpose": "wa-surveypoint-purpose:internal-boundary",
+            "ptQualityMeasure": 0.100,
+            "comment": null,
+            "monumentedBy": {
+              "form": "wa-monument-form:peg",
+              "condition": "wa-monument-condition:ok",
+              "state": "wa-monument-state:did-not-search"
+            }
+          }
+        },
+        {
+          "id": "198",
+          "type": "Feature",
+          "featureType": "BoundaryMark",
+          "time": null,
+          "geometry": null,
+          "place": {
+            "type": "Point",
+            "coordinates": [
+              54688.639,
+              398732.946
+            ]
+          },
+          "properties": {
+            "name": null,
+            "purpose": "wa-surveypoint-purpose:internal-boundary",
+            "ptQualityMeasure": 0.100,
+            "comment": null,
+            "monumentedBy": {
+              "form": "wa-monument-form:peg",
+              "condition": "wa-monument-condition:ok",
+              "state": "wa-monument-state:did-not-search"
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "vectorObservations": [
+    {
+      "id": "vectorobservation:computed",
+      "type": "FeatureCollection",
+      "featureType": "sosa:ObservationCollection",
+      "usedProcedure": "wa-procedure-used:d",
+      "properties": {
+        "resultTime": "2022-05-22T00:00:00Z",
+        "observedProperty": "surveyable:VectorDetermination",
+        "madeBySensor": {
+          "sensorType": "icsm-equipment-type:software"
+        }
+      },
+      "features": [
+        {
+          "type": "Feature",
+          "geometry": null,
+          "properties": {
+            "hasFeatureOfInterest": "312",
+            "resultTime": "2022-05-22T00:00:00Z",
+            "hasResult": {
+              "distance": 16.526
+            },
+            "distanceType": "icsm-distance-type:ground",
+            "distanceAccuracy": 4000
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": null,
+          "properties": {
+            "hasFeatureOfInterest": "313",
+            "resultTime": "2022-05-22T00:00:00Z",
+            "hasResult": {
+              "distance": 26.401
+            },
+            "distanceType": "icsm-distance-type:ground",
+            "distanceAccuracy": 4000
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": null,
+          "properties": {
+            "hasFeatureOfInterest": "314",
+            "resultTime": "2022-05-22T00:00:00Z",
+            "hasResult": {
+              "distance": 14.000
+            },
+            "distanceType": "icsm-distance-type:ground",
+            "distanceAccuracy": 4000
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": null,
+          "properties": {
+            "hasFeatureOfInterest": "309",
+            "resultTime": "2022-05-22T00:00:00Z",
+            "hasResult": {
+              "distance": 37.000
+            },
+            "distanceType": "icsm-distance-type:ground",
+            "distanceAccuracy": 4000
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": null,
+          "properties": {
+            "hasFeatureOfInterest": "311",
+            "resultTime": "2022-05-22T00:00:00Z",
+            "hasResult": {
+              "distance": 8.832
+            },
+            "distanceType": "icsm-distance-type:ground",
+            "distanceAccuracy": 4000
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": null,
+          "properties": {
+            "hasFeatureOfInterest": "298",
+            "resultTime": "2022-05-22T00:00:00Z",
+            "hasResult": {
+              "distance": 10.000
+            },
+            "distanceType": "icsm-distance-type:ground",
+            "distanceAccuracy": 4000
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": null,
+          "properties": {
+            "hasFeatureOfInterest": "843",
+            "resultTime": "2022-05-22T00:00:00Z",
+            "hasResult": {
+              "angle": 99.4475
+            },
+            "distanceAccuracy": null,
+            "angleType": "icsm-angle-type:angle",
+            "angleAccuracy": 0.0083
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": null,
+          "properties": {
+            "hasFeatureOfInterest": "844",
+            "resultTime": "2022-05-22T00:00:00Z",
+            "hasResult": {
+              "angle": 126.215
+            },
+            "distanceAccuracy": null,
+            "angleType": "icsm-angle-type:angle",
+            "angleAccuracy": 0.0083
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": null,
+          "properties": {
+            "hasFeatureOfInterest": "845",
+            "resultTime": "2022-05-22T00:00:00Z",
+            "hasResult": {
+              "angle": 90.0
+            },
+            "distanceAccuracy": null,
+            "angleType": "icsm-angle-type:angle",
+            "angleAccuracy": 0.0083
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": null,
+          "properties": {
+            "hasFeatureOfInterest": "840",
+            "resultTime": "2022-05-22T00:00:00Z",
+            "hasResult": {
+              "angle": 90.0
+            },
+            "distanceAccuracy": null,
+            "angleType": "icsm-angle-type:angle",
+            "angleAccuracy": 0.0083
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": null,
+          "properties": {
+            "hasFeatureOfInterest": "841",
+            "resultTime": "2022-05-22T00:00:00Z",
+            "hasResult": {
+              "angle": 157.168888888889
+            },
+            "distanceAccuracy": null,
+            "angleType": "icsm-angle-type:angle",
+            "angleAccuracy": 0.0083
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": null,
+          "properties": {
+            "hasFeatureOfInterest": "842",
+            "resultTime": "2022-05-22T00:00:00",
+            "hasResult": {
+              "angle": 157.168888888889
+            },
+            "distanceAccuracy": null,
+            "angleType": "icsm-angle-type:angle",
+            "angleAccuracy": 0.0083
+          }
+        }
+      ]
+    }
+  ],
+  "observedVectors": [
+    {
+      "id": "observedVectors",
+      "type": "FeatureCollection",
+      "featureType": "ObservedVector",
+      "features": [
+        {
+          "id": "312",
+          "type": "Feature",
+          "geometry": null,
+          "topology": {
+            "type": "LineString",
+            "references": [
+              "189",
+              "184"
+            ]
+          },
+          "properties": {
+            "vectorPurpose": "wa-vector-purpose:R",
+            "comment": null
+          }
+        },
+        {
+          "id": "313",
+          "type": "Feature",
+          "geometry": null,
+          "topology": {
+            "type": "LineString",
+            "references": [
+              "184",
+              "198"
+            ]
+          },
+          "properties": {
+            "vectorPurpose": "wa-vector-purpose:I",
+            "comment": null
+          }
+        },
+        {
+          "id": "314",
+          "type": "Feature",
+          "geometry": null,
+          "topology": {
+            "type": "LineString",
+            "references": [
+              "198",
+              "197"
+            ]
+          },
+          "properties": {
+            "vectorPurpose": "wa-vector-purpose:I",
+            "comment": null
+          }
+        },
+        {
+          "id": "309",
+          "type": "Feature",
+          "geometry": null,
+          "topology": {
+            "type": "LineString",
+            "references": [
+              "197",
+              "196"
+            ]
+          },
+          "properties": {
+            "vectorPurpose": "wa-vector-purpose:I",
+            "comment": null
+          }
+        },
+        {
+          "id": "311",
+          "type": "Feature",
+          "geometry": null,
+          "topology": {
+            "type": "LineString",
+            "references": [
+              "196",
+              "190"
+            ]
+          },
+          "properties": {
+            "vectorPurpose": "wa-vector-purpose:R",
+            "comment": null
+          }
+        },
+        {
+          "id": "298",
+          "type": "Feature",
+          "geometry": null,
+          "topology": {
+            "type": "LineString",
+            "references": [
+              "190",
+              "189"
+            ]
+          },
+          "properties": {
+            "vectorPurpose": "wa-vector-purpose:R",
+            "comment": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "SubtendedAngle",
+      "type": "FeatureCollection",
+      "featureType": "SubtendedAngle",
+      "features": [
+        {
+          "id": "843",
+          "type": "Feature",
+          "featureType": "SubtendedAngle",
+          "geometry": null,
+          "topology": {
+            "type": "SubtendedAngle",
+            "references": [
+              "184",
+              "313",
+              "312"
+            ]
+          },
+          "properties": {
+            "vectorPurpose": "wa-vector-purpose:I",
+            "comment": null
+          }
+        },
+        {
+          "id": "844",
+          "type": "Feature",
+          "featureType": "SubtendedAngle",
+          "geometry": null,
+          "topology": {
+            "type": "SubtendedAngle",
+            "references": [
+              "198",
+              "314",
+              "313"
+            ]
+          },
+          "properties": {
+            "vectorPurpose": "wa-vector-purpose:I",
+            "comment": null
+          }
+        },
+        {
+          "id": "845",
+          "type": "Feature",
+          "featureType": "SubtendedAngle",
+          "geometry": null,
+          "topology": {
+            "type": "SubtendedAngle",
+            "references": [
+              "197",
+              "309",
+              "314"
+            ]
+          },
+          "properties": {
+            "vectorPurpose": "wa-vector-purpose:I",
+            "comment": null
+          }
+        },
+        {
+          "id": "840",
+          "type": "Feature",
+          "featureType": "SubtendedAngle",
+          "geometry": null,
+          "topology": {
+            "type": "SubtendedAngle",
+            "references": [
+              "196",
+              "311",
+              "309"
+            ]
+          },
+          "properties": {
+            "vectorPurpose": "wa-vector-purpose:I",
+            "comment": null
+          }
+        },
+        {
+          "id": "841",
+          "type": "Feature",
+          "featureType": "SubtendedAngle",
+          "geometry": null,
+          "topology": {
+            "type": "SubtendedAngle",
+            "references": [
+              "190",
+              "298",
+              "311"
+            ]
+          },
+          "properties": {
+            "vectorPurpose": "wa-vector-purpose:I",
+            "comment": null
+          }
+        },
+        {
+          "id": "842",
+          "type": "Feature",
+          "featureType": "SubtendedAngle",
+          "geometry": null,
+          "topology": {
+            "type": "SubtendedAngle",
+            "references": [
+              "189",
+              "312",
+              "298"
+            ]
+          },
+          "properties": {
+            "vectorPurpose": "wa-vector-purpose:I",
+            "comment": null
+          }
+        }
+      ]
+    }
+  ],
+  "parcels": [
+    {
+      "id": "PrimaryParcels",
+      "type": "FeatureCollection",
+      "featureType": "PrimaryParcel",
+      "properties": null,
+      "features": [
+        {
+          "id": "138",
+          "type": "Feature",
+          "featureType": "PrimaryParcel",
+          "geometry": null,
+          "topology": {
+            "type": "Polygon",
+            "references": [
+              [
+                "312",
+                "313",
+                "314",
+                "309",
+                "311",
+                "298"
+              ]
+            ]
+          },
+          "properties": {
+            "appellation": {
+              "label": "Lot 213 DP 572532",
+              "hasPart": [
+                {
+                  "type": "ParcelType",
+                  "label": "Lot"
+                },
+                {
+                  "type": "ParcelIdentifier",
+                  "label": "213"
+                },
+                {
+                  "type": "PlanType",
+                  "label": "DP"
+                },
+                {
+                  "type": "planIdentifier",
+                  "label": "572532"
+                }
+              ]
+            },
+            "area": 798,
+            "parcelType": "wa-parcel-type:F",
+            "parcelPurpose": "wa-parcel-purpose:1",
+            "parcelState": "wa-parcel-state:created",
+            "interests": []
+          }
+        }
+      ]
+    }
+  ],
+  "supportingDocuments": [],
+  "annotations": []
+}

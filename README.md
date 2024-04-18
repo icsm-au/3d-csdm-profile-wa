@@ -1,13 +1,13 @@
-# NZn profile of the 3D CSDM (Cadastral Survey Data Model) JSON schema for data exchange.
+# WA profile of the 3D CSDM (Cadastral Survey Data Model) JSON schema for data exchange.
 
 This repository defines a profile of the 3D CSDM (Cadastral Survey Data Model) for Western Australia.
 
-_Note that this profile may be further profiled for specific sub-sets ofNZ data according to requirements, such as providing certain data in certain circumstances._
+_Note that this profile may be further profiled for specific sub-sets of WA data according to requirements, such as providing certain data in certain circumstances._
 
-The [published form](https://icsm-au.github.io/3d-csdm-profile-vic) includes compiled schemas and semantic annotations drawing on the underlying 3D CSDM model and ICSM profile.  Examples are validated automatically against all these profiles to ensure compatibility.
+The [published form](https://icsm-au.github.io/3d-csdm-profile-wa) includes compiled schemas and semantic annotations drawing on the underlying 3D CSDM model and ICSM profile.  Examples are validated automatically against all these profiles to ensure compatibility.
 
 
-Profile descriptions showing the underlying model and logical constraints defined by specific and inherited profiles) may be found [here](https://icsm-au.github.io/3d-csdm/docs/vic-profile/)
+Profile descriptions showing the underlying model and logical constraints defined by specific and inherited profiles) may be found [here](https://icsm-au.github.io/3d-csdm/docs/wa-profile/)
 
 
 The [form of these profiles](https://ogcincubator.github.io/bblocks-docs/) is based on a common platform for specification development and testing of reusable schemas and profiles (OGC Building Blocks). This supports:

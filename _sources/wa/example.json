@@ -1,0 +1,248 @@
+{
+  "id": "Western-Australia-Example-1",
+  "name": "TBD",
+  "type": "FeatureCollection",
+  "featureType": "CSD",
+    "wasGeneratedBy": {
+    "id": "DP-1-S2",
+    "endedAtTime": "2029-01-01T01:02:03Z"
+  },
+  "purpose": "wa-survey-purpose:subdivision",
+  "time": { "date": "2022-05-22" },
+  "horizontalCRS": "epsg:8031",
+  "bearingRotation": 0.0,
+  "surveyType": "wa-survey-type:deposited-plan",
+   "adminUnit": [
+    {
+      "href": "wa-local-government:city-of-kalgoorlie-boulder",
+      "rel": "related",
+      "role": "icsm-admin-unit-type:localGovernmentArea"
+    },
+    {
+      "href": "wa-locality:karlkurla",
+      "rel": "related",
+      "role": "icsm-admin-unit-type:locality"
+    }
+  ],
+  "features": [],
+  "referencedCSDs": [
+  ],
+  "points": [
+    {
+      "id": "WAMarks",
+      "type": "FeatureCollection",
+      "featureType": "SurveyPoint",
+      "features": [
+        {
+          "id": "15432571",
+          "type": "Feature",
+          "featureType": "CadastralMark",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              119.09647713372017,
+              -34.70981740542593
+            ]
+          },
+          "place": {
+            "type": "Point",
+            "coordinates": [
+              52701.989,
+              350518.914
+            ]
+          },
+          "properties": {
+            "purpose": "wa-surveypoint-purpose:temporary-control-point",
+            "monumentedBy": {
+              "form": "wa-monument-form:spike",
+              "condition": "wa-monument-condition:ok",
+              "state": "wa-monument-state:mark-found"
+            },
+            "name": {
+              "label": "EFB157243/9540",
+              "hasPart": [
+                {
+                  "type": "Source",
+                  "label": "EFB157243"
+                },
+                {
+                  "type": "Stamp",
+                  "label": "9540"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "14005391",
+          "type": "Feature",
+          "featureType": "BoundaryMark",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              119.0934904173545,
+              -34.711406228435756
+            ]
+          },
+          "place": {
+            "type": "Point",
+            "coordinates": [
+              52534.560,
+              350239.395
+            ]
+          },
+          "properties": {
+            "purpose": "wa-surveypoint-purpose:monument",
+            "monumentedBy": {
+              "form": "wa-monument-form:peg",
+              "condition": "wa-monument-condition:ok",
+              "state": "wa-monument-state:mark-found"
+            },
+            "name": {
+              "label": ""
+            }
+          }
+        },
+        {
+          "id": "14005400",
+          "type": "Feature",
+          "featureType": "BoundaryMark",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              119.09344703860768,
+              -34.71151562207706
+            ]
+          },
+          "place": {
+            "type": "Point",
+            "coordinates": [
+              52522.547,
+              350235.023
+            ]
+          },
+          "properties": {
+            "purpose": "wa-surveypoint-purpose:monument",
+            "monumentedBy": {
+              "form": "wa-monument-form:peg",
+              "condition": "wa-monument-condition:ok",
+              "state": "wa-monument-state:mark-found"
+            },
+            "name": {
+              "label": ""
+            }
+          }
+        },
+        {
+          "id": "14005401",
+          "type": "Feature",
+          "featureType": "BoundaryMark",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              119.09339442578255,
+              -34.71154090351977
+            ]
+          },
+          "place": {
+            "type": "Point",
+            "coordinates": [
+              52519.898,
+              350230.109
+            ]
+          },
+          "properties": {
+            "purpose": "wa-surveypoint-purpose:monument",
+            "monumentedBy": {
+              "form": "wa-monument-form:peg",
+              "condition": "wa-monument-condition:ok",
+              "state": "wa-monument-state:mark-found"
+            },
+            "name": {
+              "label": ""
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "observedVectors": [
+    {
+      "id": "observedVectors",
+      "type": "FeatureCollection",
+      "featureType": "ObservedVector",
+      "features": [
+        {
+          "id": "17251502",
+          "type": "Feature",
+          "geometry": null,
+          "topology": {
+            "type": "LineString",
+            "references": [
+              "14005391",
+              "14005400"
+            ]
+          },
+          "properties": {
+            "vectorPurpose": "wa-vector-purpose:boundary",
+            "comment": null
+          }
+        },
+        {
+          "id": "17251503",
+          "type": "Feature",
+          "geometry": null,
+          "topology": {
+            "type": "LineString",
+            "references": [
+              "14005400",
+              "14005401"
+            ]
+          },
+          "properties": {
+            "vectorPurpose": "wa-vector-purpose:boundary",
+            "comment": null
+          }
+        }
+      ]
+    }
+  ],
+  "vectorObservations": [
+    {
+      "id": "vectorObservations",
+      "type": "FeatureCollection",
+      "featureType": "sosa:ObservationCollection",
+      "time": null,
+      "properties": {
+        "resultTime": "2022-05-22T00:00:00Z",
+        "observedProperty": "surveyable:VectorDetermination",
+        "usedProcedure": "wa-procedure-used:M",
+        "angleType": "icsm-angle-type:angle",
+        "distanceType": "icsm-distance-type:grid",
+        "madeBySensor": {
+          "sensorType": "icsm-equipment-type:t-edm",
+          "theodoliteSensor": "T+111984765",
+          "edmSensor": "edm+89873452",
+          "prism": "p+223421"
+        }
+      },
+      "features": [
+        {
+          "type": "Feature",
+          "geometry": null,
+          "time": null,
+          "place": null,
+          "properties": {
+            "hasFeatureOfInterest": "17251502",
+            "resultTime": "2023-03-31T11:56:03",
+            "referenceVector": "17251503",
+            "hasResult": {
+              "angle": 138.033055556,
+              "distance": 12.784
+            }
+          }
+        }
+      ]
+    }
+  ]
+}
