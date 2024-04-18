@@ -1,0 +1,11 @@
+Projection:	epsg:8024, epsg:5711
+Name:	DP 422532
+
+Monuments:	3
+	None	EFB157243/9533	CadastralMark	54676.628,398434.298,0.0	wa-monument-state:mark-found	wa-monument-condition:ok	None
+	None	17876586	BoundaryMark	54700.281,398426.444,0.0	wa-monument-state:mark-found	wa-monument-condition:ok	None
+	None	EFB157243/9802	GeodeticReferenceMark	54761.299,398489.106,0.0	wa-monument-state:mark-found	wa-monument-condition:ok	EFB157243/9802
+Parcels:	0
+Observations:	0
+References:	1
+	DP 422526	DP_422526	wa-locality:hyden (icsm-admin-unit-type:locality)	related	0.0	2013-03-10 00:00:00
