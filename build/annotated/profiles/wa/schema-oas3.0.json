@@ -44,7 +44,7 @@
       "description": "Common ICSM profile of Cadastral Survey Data Model",
       "allOf": [
         {
-          "$ref": "https://icsm-au.github.io/3d-csdm-profile-wa/build/annotated/profiles/wa/schema-oas3.0.json#/x-defs/icsm-au.github.io_3d-csdm-schema_build_annotated_csdm_features_CSD_schema.json"
+          "$ref": "https://icsm-au.github.io/3d-csdm-profile-wa/build/annotated/profiles/wa/schema-oas3.0.json#/x-defs/icsm.csdm.features.CSD"
         },
         {
           "properties": {
@@ -97,7 +97,7 @@
       "x-schema-version": "https://json-schema.org/draft/2020-12/schema",
       "x-schema-source": "https://icsm-au.github.io/3d-csdm-profile-icsm/build/annotated/profiles/common/schema.json"
     },
-    "icsm-au.github.io_3d-csdm-schema_build_annotated_csdm_features_CSD_schema.json": {
+    "icsm.csdm.features.CSD": {
       "description": "Cadastral Survey Data Model",
       "$defs": {
         "coderef": {
@@ -106,7 +106,7 @@
         "coderefList": {
           "type": "array",
           "items": {
-            "$ref": "https://icsm-au.github.io/3d-csdm-profile-wa/build/annotated/profiles/wa/schema-oas3.0.json#/x-defs/icsm-au.github.io_3d-csdm-schema_build_annotated_csdm_features_CSD_schema.json/$defs/coderef"
+            "$ref": "https://icsm-au.github.io/3d-csdm-profile-wa/build/annotated/profiles/wa/schema-oas3.0.json#/x-defs/icsm.csdm.features.CSD/$defs/coderef"
           }
         },
         "linkWithRole": {
@@ -122,7 +122,7 @@
           "items": {
             "anyOf": [
               {
-                "$ref": "https://icsm-au.github.io/3d-csdm-profile-wa/build/annotated/profiles/wa/schema-oas3.0.json#/x-defs/icsm-au.github.io_3d-csdm-schema_build_annotated_csdm_features_CSD_schema.json/$defs/linkWithRole"
+                "$ref": "https://icsm-au.github.io/3d-csdm-profile-wa/build/annotated/profiles/wa/schema-oas3.0.json#/x-defs/icsm.csdm.features.CSD/$defs/linkWithRole"
               },
               {
                 "properties": {
@@ -130,7 +130,7 @@
                     "type": "string"
                   },
                   "role": {
-                    "$ref": "https://icsm-au.github.io/3d-csdm-profile-wa/build/annotated/profiles/wa/schema-oas3.0.json#/x-defs/icsm-au.github.io_3d-csdm-schema_build_annotated_csdm_features_CSD_schema.json/$defs/coderef"
+                    "$ref": "https://icsm-au.github.io/3d-csdm-profile-wa/build/annotated/profiles/wa/schema-oas3.0.json#/x-defs/icsm.csdm.features.CSD/$defs/coderef"
                   }
                 },
                 "required": [
@@ -208,13 +208,13 @@
         "TopoVector": {
           "anyOf": [
             {
-              "$ref": "https://icsm-au.github.io/3d-csdm-profile-wa/build/annotated/profiles/wa/schema-oas3.0.json#/x-defs/icsm-au.github.io_3d-csdm-schema_build_annotated_csdm_features_CSD_schema.json/$defs/TopoLine"
+              "$ref": "https://icsm-au.github.io/3d-csdm-profile-wa/build/annotated/profiles/wa/schema-oas3.0.json#/x-defs/icsm.csdm.features.CSD/$defs/TopoLine"
             },
             {
-              "$ref": "https://icsm-au.github.io/3d-csdm-profile-wa/build/annotated/profiles/wa/schema-oas3.0.json#/x-defs/icsm-au.github.io_3d-csdm-schema_build_annotated_csdm_features_CSD_schema.json/$defs/TopoArc"
+              "$ref": "https://icsm-au.github.io/3d-csdm-profile-wa/build/annotated/profiles/wa/schema-oas3.0.json#/x-defs/icsm.csdm.features.CSD/$defs/TopoArc"
             },
             {
-              "$ref": "https://icsm-au.github.io/3d-csdm-profile-wa/build/annotated/profiles/wa/schema-oas3.0.json#/x-defs/icsm-au.github.io_3d-csdm-schema_build_annotated_csdm_features_CSD_schema.json/$defs/SubtendedAngleVector"
+              "$ref": "https://icsm-au.github.io/3d-csdm-profile-wa/build/annotated/profiles/wa/schema-oas3.0.json#/x-defs/icsm.csdm.features.CSD/$defs/SubtendedAngleVector"
             }
           ]
         },
@@ -270,7 +270,7 @@
         "SurveyPointCollection": {
           "allOf": [
             {
-              "$ref": "https://icsm-au.github.io/3d-csdm-profile-wa/build/annotated/profiles/wa/schema-oas3.0.json#/x-defs/icsm-au.github.io_3d-csdm-schema_build_annotated_csdm_features_CSD_schema.json/$defs/FeatureCollectionOptions"
+              "$ref": "https://icsm-au.github.io/3d-csdm-profile-wa/build/annotated/profiles/wa/schema-oas3.0.json#/x-defs/icsm.csdm.features.CSD/$defs/FeatureCollectionOptions"
             },
             {
               "properties": {
@@ -279,7 +279,7 @@
                   "items": {
                     "allOf": [
                       {
-                        "$ref": "https://icsm-au.github.io/3d-csdm-profile-wa/build/annotated/profiles/wa/schema-oas3.0.json#/x-defs/icsm-au.github.io_3d-csdm-schema_build_annotated_csdm_features_SurveyFeatures_schema.json"
+                        "$ref": "https://icsm-au.github.io/3d-csdm-profile-wa/build/annotated/profiles/wa/schema-oas3.0.json#/x-defs/icsm.csdm.features.SurveyFeatures"
                       },
                       {
                         "properties": {
@@ -307,7 +307,7 @@
           "properties": {
             "features": {
               "items": {
-                "$ref": "https://icsm-au.github.io/3d-csdm-profile-wa/build/annotated/profiles/wa/schema-oas3.0.json#/x-defs/icsm-au.github.io_3d-csdm-schema_build_annotated_csdm_features_CSD_schema.json/$defs/TopoVector"
+                "$ref": "https://icsm-au.github.io/3d-csdm-profile-wa/build/annotated/profiles/wa/schema-oas3.0.json#/x-defs/icsm.csdm.features.CSD/$defs/TopoVector"
               }
             }
           }
@@ -402,7 +402,7 @@
       },
       "allOf": [
         {
-          "$ref": "https://icsm-au.github.io/3d-csdm-profile-wa/build/annotated/profiles/wa/schema-oas3.0.json#/x-defs/icsm-au.github.io_3d-csdm-schema_build_annotated_csdm_features_CSD_schema.json/$defs/FeatureCollectionOptions"
+          "$ref": "https://icsm-au.github.io/3d-csdm-profile-wa/build/annotated/profiles/wa/schema-oas3.0.json#/x-defs/icsm.csdm.features.CSD/$defs/FeatureCollectionOptions"
         },
         {
           "properties": {
@@ -412,10 +412,10 @@
           }
         },
         {
-          "$ref": "https://icsm-au.github.io/3d-csdm-profile-wa/build/annotated/profiles/wa/schema-oas3.0.json#/x-defs/icsm-au.github.io_3d-csdm-schema_build_annotated_csdm_features_CSD_schema.json/$defs/CSDmeta"
+          "$ref": "https://icsm-au.github.io/3d-csdm-profile-wa/build/annotated/profiles/wa/schema-oas3.0.json#/x-defs/icsm.csdm.features.CSD/$defs/CSDmeta"
         },
         {
-          "$ref": "https://icsm-au.github.io/3d-csdm-profile-wa/build/annotated/profiles/wa/schema-oas3.0.json#/x-defs/icsm-au.github.io_3d-csdm-schema_build_annotated_csdm_features_CSD_schema.json/$defs/provenanceOptions"
+          "$ref": "https://icsm-au.github.io/3d-csdm-profile-wa/build/annotated/profiles/wa/schema-oas3.0.json#/x-defs/icsm.csdm.features.CSD/$defs/provenanceOptions"
         }
       ],
       "properties": {
@@ -430,12 +430,12 @@
         "purpose": {
           "oneOf": [
             {
-              "$ref": "https://icsm-au.github.io/3d-csdm-profile-wa/build/annotated/profiles/wa/schema-oas3.0.json#/x-defs/icsm-au.github.io_3d-csdm-schema_build_annotated_csdm_features_CSD_schema.json/$defs/coderef"
+              "$ref": "https://icsm-au.github.io/3d-csdm-profile-wa/build/annotated/profiles/wa/schema-oas3.0.json#/x-defs/icsm.csdm.features.CSD/$defs/coderef"
             },
             {
               "type": "array",
               "items": {
-                "$ref": "https://icsm-au.github.io/3d-csdm-profile-wa/build/annotated/profiles/wa/schema-oas3.0.json#/x-defs/icsm-au.github.io_3d-csdm-schema_build_annotated_csdm_features_CSD_schema.json/$defs/coderef"
+                "$ref": "https://icsm-au.github.io/3d-csdm-profile-wa/build/annotated/profiles/wa/schema-oas3.0.json#/x-defs/icsm.csdm.features.CSD/$defs/coderef"
               }
             }
           ],
@@ -449,12 +449,12 @@
             "type": "object",
             "allOf": [
               {
-                "$ref": "https://icsm-au.github.io/3d-csdm-profile-wa/build/annotated/profiles/wa/schema-oas3.0.json#/x-defs/icsm-au.github.io_3d-csdm-schema_build_annotated_csdm_features_CSD_schema.json/$defs/CSDmeta"
+                "$ref": "https://icsm-au.github.io/3d-csdm-profile-wa/build/annotated/profiles/wa/schema-oas3.0.json#/x-defs/icsm.csdm.features.CSD/$defs/CSDmeta"
               },
               {
                 "properties": {
                   "id": {
-                    "$ref": "https://icsm-au.github.io/3d-csdm-profile-wa/build/annotated/profiles/wa/schema-oas3.0.json#/x-defs/icsm-au.github.io_3d-csdm-schema_build_annotated_csdm_features_CSD_schema.json/$defs/coderef"
+                    "$ref": "https://icsm-au.github.io/3d-csdm-profile-wa/build/annotated/profiles/wa/schema-oas3.0.json#/x-defs/icsm.csdm.features.CSD/$defs/coderef"
                   }
                 },
                 "required": [
@@ -468,21 +468,21 @@
         "adminUnit": {
           "anyOf": [
             {
-              "$ref": "https://icsm-au.github.io/3d-csdm-profile-wa/build/annotated/profiles/wa/schema-oas3.0.json#/x-defs/icsm-au.github.io_3d-csdm-schema_build_annotated_csdm_features_CSD_schema.json/$defs/coderef"
+              "$ref": "https://icsm-au.github.io/3d-csdm-profile-wa/build/annotated/profiles/wa/schema-oas3.0.json#/x-defs/icsm.csdm.features.CSD/$defs/coderef"
             },
             {
-              "$ref": "https://icsm-au.github.io/3d-csdm-profile-wa/build/annotated/profiles/wa/schema-oas3.0.json#/x-defs/icsm-au.github.io_3d-csdm-schema_build_annotated_csdm_features_CSD_schema.json/$defs/linkWithRole"
+              "$ref": "https://icsm-au.github.io/3d-csdm-profile-wa/build/annotated/profiles/wa/schema-oas3.0.json#/x-defs/icsm.csdm.features.CSD/$defs/linkWithRole"
             },
             {
               "type": "array",
               "items": {
-                "$ref": "https://icsm-au.github.io/3d-csdm-profile-wa/build/annotated/profiles/wa/schema-oas3.0.json#/x-defs/icsm-au.github.io_3d-csdm-schema_build_annotated_csdm_features_CSD_schema.json/$defs/coderef"
+                "$ref": "https://icsm-au.github.io/3d-csdm-profile-wa/build/annotated/profiles/wa/schema-oas3.0.json#/x-defs/icsm.csdm.features.CSD/$defs/coderef"
               }
             },
             {
               "type": "array",
               "items": {
-                "$ref": "https://icsm-au.github.io/3d-csdm-profile-wa/build/annotated/profiles/wa/schema-oas3.0.json#/x-defs/icsm-au.github.io_3d-csdm-schema_build_annotated_csdm_features_CSD_schema.json/$defs/linkWithRole"
+                "$ref": "https://icsm-au.github.io/3d-csdm-profile-wa/build/annotated/profiles/wa/schema-oas3.0.json#/x-defs/icsm.csdm.features.CSD/$defs/linkWithRole"
               }
             }
           ],
@@ -493,21 +493,21 @@
         "supportingDocuments": {
           "anyOf": [
             {
-              "$ref": "https://icsm-au.github.io/3d-csdm-profile-wa/build/annotated/profiles/wa/schema-oas3.0.json#/x-defs/icsm-au.github.io_3d-csdm-schema_build_annotated_csdm_features_CSD_schema.json/$defs/coderef"
+              "$ref": "https://icsm-au.github.io/3d-csdm-profile-wa/build/annotated/profiles/wa/schema-oas3.0.json#/x-defs/icsm.csdm.features.CSD/$defs/coderef"
             },
             {
-              "$ref": "https://icsm-au.github.io/3d-csdm-profile-wa/build/annotated/profiles/wa/schema-oas3.0.json#/x-defs/icsm-au.github.io_3d-csdm-schema_build_annotated_csdm_features_CSD_schema.json/$defs/linkWithRole"
+              "$ref": "https://icsm-au.github.io/3d-csdm-profile-wa/build/annotated/profiles/wa/schema-oas3.0.json#/x-defs/icsm.csdm.features.CSD/$defs/linkWithRole"
             },
             {
               "type": "array",
               "items": {
-                "$ref": "https://icsm-au.github.io/3d-csdm-profile-wa/build/annotated/profiles/wa/schema-oas3.0.json#/x-defs/icsm-au.github.io_3d-csdm-schema_build_annotated_csdm_features_CSD_schema.json/$defs/coderef"
+                "$ref": "https://icsm-au.github.io/3d-csdm-profile-wa/build/annotated/profiles/wa/schema-oas3.0.json#/x-defs/icsm.csdm.features.CSD/$defs/coderef"
               }
             },
             {
               "type": "array",
               "items": {
-                "$ref": "https://icsm-au.github.io/3d-csdm-profile-wa/build/annotated/profiles/wa/schema-oas3.0.json#/x-defs/icsm-au.github.io_3d-csdm-schema_build_annotated_csdm_features_CSD_schema.json/$defs/linkWithRole"
+                "$ref": "https://icsm-au.github.io/3d-csdm-profile-wa/build/annotated/profiles/wa/schema-oas3.0.json#/x-defs/icsm.csdm.features.CSD/$defs/linkWithRole"
               }
             }
           ],
@@ -517,7 +517,7 @@
         "points": {
           "type": "array",
           "items": {
-            "$ref": "https://icsm-au.github.io/3d-csdm-profile-wa/build/annotated/profiles/wa/schema-oas3.0.json#/x-defs/icsm-au.github.io_3d-csdm-schema_build_annotated_csdm_features_CSD_schema.json/$defs/SurveyPointCollection"
+            "$ref": "https://icsm-au.github.io/3d-csdm-profile-wa/build/annotated/profiles/wa/schema-oas3.0.json#/x-defs/icsm.csdm.features.CSD/$defs/SurveyPointCollection"
           },
           "x-jsonld-id": "https://linked.data.gov.au/def/csdm/container/points"
         },
@@ -526,10 +526,10 @@
           "items": {
             "allOf": [
               {
-                "$ref": "https://icsm-au.github.io/3d-csdm-profile-wa/build/annotated/profiles/wa/schema-oas3.0.json#/x-defs/icsm-au.github.io_3d-csdm-schema_build_annotated_csdm_features_CSD_schema.json/$defs/TopoFeatureCollection"
+                "$ref": "https://icsm-au.github.io/3d-csdm-profile-wa/build/annotated/profiles/wa/schema-oas3.0.json#/x-defs/icsm.csdm.features.CSD/$defs/TopoFeatureCollection"
               },
               {
-                "$ref": "https://icsm-au.github.io/3d-csdm-profile-wa/build/annotated/profiles/wa/schema-oas3.0.json#/x-defs/icsm-au.github.io_3d-csdm-schema_build_annotated_csdm_features_CSD_schema.json/$defs/VectorFeatures"
+                "$ref": "https://icsm-au.github.io/3d-csdm-profile-wa/build/annotated/profiles/wa/schema-oas3.0.json#/x-defs/icsm.csdm.features.CSD/$defs/VectorFeatures"
               },
               {
                 "anyOf": [
@@ -579,7 +579,7 @@
           "items": {
             "allOf": [
               {
-                "$ref": "https://icsm-au.github.io/3d-csdm-profile-wa/build/annotated/profiles/wa/schema-oas3.0.json#/x-defs/icsm-au.github.io_3d-csdm-schema_build_annotated_csdm_features_CSD_schema.json/$defs/TopoFeatureCollection"
+                "$ref": "https://icsm-au.github.io/3d-csdm-profile-wa/build/annotated/profiles/wa/schema-oas3.0.json#/x-defs/icsm.csdm.features.CSD/$defs/TopoFeatureCollection"
               },
               {
                 "anyOf": [
@@ -627,7 +627,7 @@
           "items": {
             "allOf": [
               {
-                "$ref": "https://icsm-au.github.io/3d-csdm-profile-wa/build/annotated/profiles/wa/schema-oas3.0.json#/x-defs/icsm-au.github.io_3d-csdm-schema_build_annotated_csdm_features_CSD_schema.json/$defs/FeatureCollectionOptions"
+                "$ref": "https://icsm-au.github.io/3d-csdm-profile-wa/build/annotated/profiles/wa/schema-oas3.0.json#/x-defs/icsm.csdm.features.CSD/$defs/FeatureCollectionOptions"
               },
               {
                 "properties": {
@@ -643,7 +643,7 @@
                   "features": {
                     "type": "array",
                     "items": {
-                      "$ref": "https://icsm-au.github.io/3d-csdm-profile-wa/build/annotated/profiles/wa/schema-oas3.0.json#/x-defs/icsm-au.github.io_3d-csdm-schema_build_annotated_csdm_features_CSD_schema.json/$defs/ParcelProperties"
+                      "$ref": "https://icsm-au.github.io/3d-csdm-profile-wa/build/annotated/profiles/wa/schema-oas3.0.json#/x-defs/icsm.csdm.features.CSD/$defs/ParcelProperties"
                     }
                   }
                 },
@@ -700,27 +700,27 @@
         "vectorObservations": {
           "type": "array",
           "items": {
-            "$ref": "https://icsm-au.github.io/3d-csdm-profile-wa/build/annotated/profiles/wa/schema-oas3.0.json#/x-defs/icsm-au.github.io_3d-csdm-schema_build_annotated_csdm_features_SurveyObservations_schema.json/$defs/SurveyVectorObsCollection"
+            "$ref": "https://icsm-au.github.io/3d-csdm-profile-wa/build/annotated/profiles/wa/schema-oas3.0.json#/x-defs/icsm.csdm.features.SurveyObservations/$defs/SurveyVectorObsCollection"
           },
           "x-jsonld-id": "https://linked.data.gov.au/def/csdm/container/vectorObservations"
         },
         "adoptedObservations": {
           "type": "array",
           "items": {
-            "$ref": "https://icsm-au.github.io/3d-csdm-profile-wa/build/annotated/profiles/wa/schema-oas3.0.json#/x-defs/icsm-au.github.io_3d-csdm-schema_build_annotated_csdm_features_SurveyObservations_schema.json/$defs/SurveyVectorObsCollection"
+            "$ref": "https://icsm-au.github.io/3d-csdm-profile-wa/build/annotated/profiles/wa/schema-oas3.0.json#/x-defs/icsm.csdm.features.SurveyObservations/$defs/SurveyVectorObsCollection"
           }
         },
         "occupationObservations": {
           "type": "array",
           "items": {
-            "$ref": "https://icsm-au.github.io/3d-csdm-profile-wa/build/annotated/profiles/wa/schema-oas3.0.json#/x-defs/icsm-au.github.io_3d-csdm-schema_build_annotated_csdm_features_CSD_schema.json/$defs/SOSAObsCollection"
+            "$ref": "https://icsm-au.github.io/3d-csdm-profile-wa/build/annotated/profiles/wa/schema-oas3.0.json#/x-defs/icsm.csdm.features.CSD/$defs/SOSAObsCollection"
           },
           "x-jsonld-id": "https://linked.data.gov.au/def/csdm/container/occupationObservations"
         },
         "occupationFeatures": {
           "type": "array",
           "items": {
-            "$ref": "https://icsm-au.github.io/3d-csdm-profile-wa/build/annotated/profiles/wa/schema-oas3.0.json#/x-defs/icsm-au.github.io_3d-csdm-schema_build_annotated_csdm_features_CSD_schema.json/$defs/FeatureCollectionOptions"
+            "$ref": "https://icsm-au.github.io/3d-csdm-profile-wa/build/annotated/profiles/wa/schema-oas3.0.json#/x-defs/icsm.csdm.features.CSD/$defs/FeatureCollectionOptions"
           },
           "x-jsonld-id": "https://linked.data.gov.au/def/csdm/container/occupationFeatures"
         }
@@ -767,7 +767,7 @@
         "surv": "https://linked.data.gov.au/def/csdm/surveyfeatures/"
       },
       "x-schema-version": "https://json-schema.org/draft/2020-12/schema",
-      "x-schema-source": "https://icsm-au.github.io/3d-csdm-schema/build/annotated/csdm/features/CSD/schema.json"
+      "x-schema-source": "https://icsm-au.github.io/3d-csdm-common/build/annotated/csdm/features/CSD/schema.json"
     },
     "icsm.profiles.datatypes.address": {
       "$defs": {
@@ -3758,7 +3758,7 @@
       "x-schema-version": "https://json-schema.org/draft/2020-12/schema",
       "x-schema-source": "https://ogcincubator.github.io/bblock-prov-schema/build/annotated/ogc-utils/prov/schema.json"
     },
-    "icsm-au.github.io_3d-csdm-schema_build_annotated_csdm_features_SurveyFeatures_schema.json": {
+    "icsm.csdm.features.SurveyFeatures": {
       "description": "Survey Features",
       "$defs": {
         "coderef": {
@@ -3784,7 +3784,7 @@
               "$ref": "https://icsm-au.github.io/3d-csdm-profile-wa/build/annotated/profiles/wa/schema-oas3.0.json#/x-defs/ogc.geo.json-fg.feature-lenient"
             },
             {
-              "$ref": "https://icsm-au.github.io/3d-csdm-profile-wa/build/annotated/profiles/wa/schema-oas3.0.json#/x-defs/ogc.geo.common.data_types.geojson"
+              "$ref": "https://icsm-au.github.io/3d-csdm-profile-wa/build/annotated/profiles/wa/schema-oas3.0.json#/x-defs/ogc.geo.common.data_types.geojson_"
             }
           ]
         },
@@ -3795,12 +3795,12 @@
             "purpose": {
               "oneOf": [
                 {
-                  "$ref": "https://icsm-au.github.io/3d-csdm-profile-wa/build/annotated/profiles/wa/schema-oas3.0.json#/x-defs/icsm-au.github.io_3d-csdm-schema_build_annotated_csdm_features_SurveyFeatures_schema.json/$defs/coderef"
+                  "$ref": "https://icsm-au.github.io/3d-csdm-profile-wa/build/annotated/profiles/wa/schema-oas3.0.json#/x-defs/icsm.csdm.features.SurveyFeatures/$defs/coderef"
                 },
                 {
                   "type": "array",
                   "items": {
-                    "$ref": "https://icsm-au.github.io/3d-csdm-profile-wa/build/annotated/profiles/wa/schema-oas3.0.json#/x-defs/icsm-au.github.io_3d-csdm-schema_build_annotated_csdm_features_SurveyFeatures_schema.json/$defs/coderef"
+                    "$ref": "https://icsm-au.github.io/3d-csdm-profile-wa/build/annotated/profiles/wa/schema-oas3.0.json#/x-defs/icsm.csdm.features.SurveyFeatures/$defs/coderef"
                   }
                 }
               ],
@@ -3825,7 +3825,7 @@
         "OccupationMark": {
           "allOf": [
             {
-              "$ref": "https://icsm-au.github.io/3d-csdm-profile-wa/build/annotated/profiles/wa/schema-oas3.0.json#/x-defs/icsm-au.github.io_3d-csdm-schema_build_annotated_csdm_features_SurveyFeatures_schema.json/$defs/FeatureOptions"
+              "$ref": "https://icsm-au.github.io/3d-csdm-profile-wa/build/annotated/profiles/wa/schema-oas3.0.json#/x-defs/icsm.csdm.features.SurveyFeatures/$defs/FeatureOptions"
             },
             {
               "type": "object",
@@ -3834,7 +3834,7 @@
                   "const": "OccupationMark"
                 },
                 "properties": {
-                  "$ref": "https://icsm-au.github.io/3d-csdm-profile-wa/build/annotated/profiles/wa/schema-oas3.0.json#/x-defs/icsm-au.github.io_3d-csdm-schema_build_annotated_csdm_features_SurveyFeatures_schema.json/$defs/OccupationMarkProperties"
+                  "$ref": "https://icsm-au.github.io/3d-csdm-profile-wa/build/annotated/profiles/wa/schema-oas3.0.json#/x-defs/icsm.csdm.features.SurveyFeatures/$defs/OccupationMarkProperties"
                 }
               }
             }
@@ -3846,7 +3846,7 @@
         "OccupationMarkProperties": {
           "allOf": [
             {
-              "$ref": "https://icsm-au.github.io/3d-csdm-profile-wa/build/annotated/profiles/wa/schema-oas3.0.json#/x-defs/icsm-au.github.io_3d-csdm-schema_build_annotated_csdm_features_SurveyFeatures_schema.json/$defs/SurveyPointProperties"
+              "$ref": "https://icsm-au.github.io/3d-csdm-profile-wa/build/annotated/profiles/wa/schema-oas3.0.json#/x-defs/icsm.csdm.features.SurveyFeatures/$defs/SurveyPointProperties"
             },
             {
               "type": "object",
@@ -3870,7 +3870,7 @@
         "SurveyMarkProperties": {
           "allOf": [
             {
-              "$ref": "https://icsm-au.github.io/3d-csdm-profile-wa/build/annotated/profiles/wa/schema-oas3.0.json#/x-defs/icsm-au.github.io_3d-csdm-schema_build_annotated_csdm_features_SurveyFeatures_schema.json/$defs/SurveyPointProperties"
+              "$ref": "https://icsm-au.github.io/3d-csdm-profile-wa/build/annotated/profiles/wa/schema-oas3.0.json#/x-defs/icsm.csdm.features.SurveyFeatures/$defs/SurveyPointProperties"
             },
             {
               "type": "object",
@@ -3886,7 +3886,7 @@
         "GeodeticReferenceMark": {
           "allOf": [
             {
-              "$ref": "https://icsm-au.github.io/3d-csdm-profile-wa/build/annotated/profiles/wa/schema-oas3.0.json#/x-defs/icsm-au.github.io_3d-csdm-schema_build_annotated_csdm_features_SurveyFeatures_schema.json/$defs/FeatureOptions"
+              "$ref": "https://icsm-au.github.io/3d-csdm-profile-wa/build/annotated/profiles/wa/schema-oas3.0.json#/x-defs/icsm.csdm.features.SurveyFeatures/$defs/FeatureOptions"
             }
           ],
           "properties": {
@@ -3896,7 +3896,7 @@
             "properties": {
               "allOf": [
                 {
-                  "$ref": "https://icsm-au.github.io/3d-csdm-profile-wa/build/annotated/profiles/wa/schema-oas3.0.json#/x-defs/icsm-au.github.io_3d-csdm-schema_build_annotated_csdm_features_SurveyFeatures_schema.json/$defs/GeodeticReferenceMarkProperties"
+                  "$ref": "https://icsm-au.github.io/3d-csdm-profile-wa/build/annotated/profiles/wa/schema-oas3.0.json#/x-defs/icsm.csdm.features.SurveyFeatures/$defs/GeodeticReferenceMarkProperties"
                 }
               ]
             }
@@ -3909,7 +3909,7 @@
           "type": "object",
           "allOf": [
             {
-              "$ref": "https://icsm-au.github.io/3d-csdm-profile-wa/build/annotated/profiles/wa/schema-oas3.0.json#/x-defs/icsm-au.github.io_3d-csdm-schema_build_annotated_csdm_features_SurveyFeatures_schema.json/$defs/SurveyMarkProperties"
+              "$ref": "https://icsm-au.github.io/3d-csdm-profile-wa/build/annotated/profiles/wa/schema-oas3.0.json#/x-defs/icsm.csdm.features.SurveyFeatures/$defs/SurveyMarkProperties"
             },
             {
               "type": "object",
@@ -3930,7 +3930,7 @@
             "properties": {
               "allOf": [
                 {
-                  "$ref": "https://icsm-au.github.io/3d-csdm-profile-wa/build/annotated/profiles/wa/schema-oas3.0.json#/x-defs/icsm-au.github.io_3d-csdm-schema_build_annotated_csdm_features_SurveyFeatures_schema.json/$defs/SurveyMarkProperties"
+                  "$ref": "https://icsm-au.github.io/3d-csdm-profile-wa/build/annotated/profiles/wa/schema-oas3.0.json#/x-defs/icsm.csdm.features.SurveyFeatures/$defs/SurveyMarkProperties"
                 }
               ]
             }
@@ -3947,7 +3947,7 @@
             "properties": {
               "allOf": [
                 {
-                  "$ref": "https://icsm-au.github.io/3d-csdm-profile-wa/build/annotated/profiles/wa/schema-oas3.0.json#/x-defs/icsm-au.github.io_3d-csdm-schema_build_annotated_csdm_features_SurveyFeatures_schema.json/$defs/SurveyMarkProperties"
+                  "$ref": "https://icsm-au.github.io/3d-csdm-profile-wa/build/annotated/profiles/wa/schema-oas3.0.json#/x-defs/icsm.csdm.features.SurveyFeatures/$defs/SurveyMarkProperties"
                 }
               ]
             }
@@ -3977,7 +3977,7 @@
           "x-json-comment": "featureType is not defined - this is abstract and overidden by subclasses",
           "allOf": [
             {
-              "$ref": "https://icsm-au.github.io/3d-csdm-profile-wa/build/annotated/profiles/wa/schema-oas3.0.json#/x-defs/icsm-au.github.io_3d-csdm-schema_build_annotated_csdm_features_SurveyFeatures_schema.json/$defs/TopoLine"
+              "$ref": "https://icsm-au.github.io/3d-csdm-profile-wa/build/annotated/profiles/wa/schema-oas3.0.json#/x-defs/icsm.csdm.features.SurveyFeatures/$defs/TopoLine"
             },
             {
               "featureType": {
@@ -3987,7 +3987,7 @@
             {
               "properties": {
                 "properties": {
-                  "$ref": "https://icsm-au.github.io/3d-csdm-profile-wa/build/annotated/profiles/wa/schema-oas3.0.json#/x-defs/icsm-au.github.io_3d-csdm-schema_build_annotated_csdm_features_SurveyFeatures_schema.json/$defs/SurveyedVectorProperties"
+                  "$ref": "https://icsm-au.github.io/3d-csdm-profile-wa/build/annotated/profiles/wa/schema-oas3.0.json#/x-defs/icsm.csdm.features.SurveyFeatures/$defs/SurveyedVectorProperties"
                 }
               },
               "required": [
@@ -4013,7 +4013,7 @@
           "x-json-comment": "featureType is not defined - this is abstract and overidden by subclasses",
           "allOf": [
             {
-              "$ref": "https://icsm-au.github.io/3d-csdm-profile-wa/build/annotated/profiles/wa/schema-oas3.0.json#/x-defs/icsm-au.github.io_3d-csdm-schema_build_annotated_csdm_features_SurveyFeatures_schema.json/$defs/TopoLine"
+              "$ref": "https://icsm-au.github.io/3d-csdm-profile-wa/build/annotated/profiles/wa/schema-oas3.0.json#/x-defs/icsm.csdm.features.SurveyFeatures/$defs/TopoLine"
             },
             {
               "featureType": {
@@ -4023,7 +4023,7 @@
             {
               "properties": {
                 "properties": {
-                  "$ref": "https://icsm-au.github.io/3d-csdm-profile-wa/build/annotated/profiles/wa/schema-oas3.0.json#/x-defs/icsm-au.github.io_3d-csdm-schema_build_annotated_csdm_features_SurveyFeatures_schema.json/$defs/AdoptedVectorProperties"
+                  "$ref": "https://icsm-au.github.io/3d-csdm-profile-wa/build/annotated/profiles/wa/schema-oas3.0.json#/x-defs/icsm.csdm.features.SurveyFeatures/$defs/AdoptedVectorProperties"
                 }
               },
               "required": [
@@ -4035,7 +4035,7 @@
         "AdoptedVectorProperties": {
           "allOf": [
             {
-              "$ref": "https://icsm-au.github.io/3d-csdm-profile-wa/build/annotated/profiles/wa/schema-oas3.0.json#/x-defs/icsm-au.github.io_3d-csdm-schema_build_annotated_csdm_features_SurveyFeatures_schema.json/$defs/SurveyedVectorProperties"
+              "$ref": "https://icsm-au.github.io/3d-csdm-profile-wa/build/annotated/profiles/wa/schema-oas3.0.json#/x-defs/icsm.csdm.features.SurveyFeatures/$defs/SurveyedVectorProperties"
             },
             {
               "properties": {
@@ -4047,22 +4047,22 @@
       },
       "anyOf": [
         {
-          "$ref": "https://icsm-au.github.io/3d-csdm-profile-wa/build/annotated/profiles/wa/schema-oas3.0.json#/x-defs/icsm-au.github.io_3d-csdm-schema_build_annotated_csdm_features_SurveyFeatures_schema.json/$defs/BoundaryMark"
+          "$ref": "https://icsm-au.github.io/3d-csdm-profile-wa/build/annotated/profiles/wa/schema-oas3.0.json#/x-defs/icsm.csdm.features.SurveyFeatures/$defs/BoundaryMark"
         },
         {
-          "$ref": "https://icsm-au.github.io/3d-csdm-profile-wa/build/annotated/profiles/wa/schema-oas3.0.json#/x-defs/icsm-au.github.io_3d-csdm-schema_build_annotated_csdm_features_SurveyFeatures_schema.json/$defs/OccupationMark"
+          "$ref": "https://icsm-au.github.io/3d-csdm-profile-wa/build/annotated/profiles/wa/schema-oas3.0.json#/x-defs/icsm.csdm.features.SurveyFeatures/$defs/OccupationMark"
         },
         {
-          "$ref": "https://icsm-au.github.io/3d-csdm-profile-wa/build/annotated/profiles/wa/schema-oas3.0.json#/x-defs/icsm-au.github.io_3d-csdm-schema_build_annotated_csdm_features_SurveyFeatures_schema.json/$defs/CadastralMark"
+          "$ref": "https://icsm-au.github.io/3d-csdm-profile-wa/build/annotated/profiles/wa/schema-oas3.0.json#/x-defs/icsm.csdm.features.SurveyFeatures/$defs/CadastralMark"
         },
         {
-          "$ref": "https://icsm-au.github.io/3d-csdm-profile-wa/build/annotated/profiles/wa/schema-oas3.0.json#/x-defs/icsm-au.github.io_3d-csdm-schema_build_annotated_csdm_features_SurveyFeatures_schema.json/$defs/GeodeticReferenceMark"
+          "$ref": "https://icsm-au.github.io/3d-csdm-profile-wa/build/annotated/profiles/wa/schema-oas3.0.json#/x-defs/icsm.csdm.features.SurveyFeatures/$defs/GeodeticReferenceMark"
         },
         {
-          "$ref": "https://icsm-au.github.io/3d-csdm-profile-wa/build/annotated/profiles/wa/schema-oas3.0.json#/x-defs/icsm-au.github.io_3d-csdm-schema_build_annotated_csdm_features_SurveyFeatures_schema.json/$defs/Monument"
+          "$ref": "https://icsm-au.github.io/3d-csdm-profile-wa/build/annotated/profiles/wa/schema-oas3.0.json#/x-defs/icsm.csdm.features.SurveyFeatures/$defs/Monument"
         },
         {
-          "$ref": "https://icsm-au.github.io/3d-csdm-profile-wa/build/annotated/profiles/wa/schema-oas3.0.json#/x-defs/icsm-au.github.io_3d-csdm-schema_build_annotated_csdm_features_SurveyFeatures_schema.json/$defs/SurveyedVector"
+          "$ref": "https://icsm-au.github.io/3d-csdm-profile-wa/build/annotated/profiles/wa/schema-oas3.0.json#/x-defs/icsm.csdm.features.SurveyFeatures/$defs/SurveyedVector"
         }
       ],
       "x-jsonld-extra-terms": {
@@ -4099,9 +4099,9 @@
         "dct": "http://purl.org/dc/terms/"
       },
       "x-schema-version": "https://json-schema.org/draft/2020-12/schema",
-      "x-schema-source": "https://icsm-au.github.io/3d-csdm-schema/build/annotated/csdm/features/SurveyFeatures/schema.json"
+      "x-schema-source": "https://icsm-au.github.io/3d-csdm-common/build/annotated/csdm/features/SurveyFeatures/schema.json"
     },
-    "icsm-au.github.io_3d-csdm-schema_build_annotated_csdm_datatypes_compoundName_schema.json": {
+    "icsm.csdm.datatypes.compoundName": {
       "description": "Compound Name",
       "properties": {
         "label": {
@@ -4150,7 +4150,7 @@
         "csdm": "https://linked.data.gov.au/def/csdm/"
       },
       "x-schema-version": "https://json-schema.org/draft/2020-12/schema",
-      "x-schema-source": "https://icsm-au.github.io/3d-csdm-schema/build/annotated/csdm/datatypes/compoundName/schema.json"
+      "x-schema-source": "https://icsm-au.github.io/3d-csdm-common/build/annotated/csdm/datatypes/compoundName/schema.json"
     },
     "beta.schemas.opengis.net_json-fg_time.json": {
       "title": "the time member",
@@ -4206,7 +4206,7 @@
       "x-schema-version": "https://json-schema.org/draft/2020-12/schema",
       "x-schema-source": "https://beta.schemas.opengis.net/json-fg/time.json"
     },
-    "icsm-au.github.io_3d-csdm-schema_build_annotated_csdm_features_SurveyObservations_schema.json": {
+    "icsm.csdm.features.SurveyObservations": {
       "description": "Survey Vector Observation",
       "$defs": {
         "coderef": {
@@ -4217,7 +4217,7 @@
             {
               "properties": {
                 "sensorType": {
-                  "$ref": "https://icsm-au.github.io/3d-csdm-profile-wa/build/annotated/profiles/wa/schema-oas3.0.json#/x-defs/icsm-au.github.io_3d-csdm-schema_build_annotated_csdm_features_SurveyObservations_schema.json/$defs/coderef"
+                  "$ref": "https://icsm-au.github.io/3d-csdm-profile-wa/build/annotated/profiles/wa/schema-oas3.0.json#/x-defs/icsm.csdm.features.SurveyObservations/$defs/coderef"
                 }
               },
               "required": [
@@ -4279,7 +4279,7 @@
           "type": "object",
           "properties": {
             "angles": {
-              "$ref": "https://icsm-au.github.io/3d-csdm-profile-wa/build/annotated/profiles/wa/schema-oas3.0.json#/x-defs/icsm-au.github.io_3d-csdm-schema_build_annotated_csdm_features_SurveyObservations_schema.json/$defs/angles"
+              "$ref": "https://icsm-au.github.io/3d-csdm-profile-wa/build/annotated/profiles/wa/schema-oas3.0.json#/x-defs/icsm.csdm.features.SurveyObservations/$defs/angles"
             }
           },
           "required": [
@@ -4295,7 +4295,7 @@
               "type": "object",
               "properties": {
                 "hasResultQuality": {
-                  "$ref": "https://icsm-au.github.io/3d-csdm-profile-wa/build/annotated/profiles/wa/schema-oas3.0.json#/x-defs/icsm-au.github.io_3d-csdm-schema_build_annotated_csdm_datatypes_quality_schema.json"
+                  "$ref": "https://icsm-au.github.io/3d-csdm-profile-wa/build/annotated/profiles/wa/schema-oas3.0.json#/x-defs/icsm.csdm.datatypes.quality"
                 },
                 "hasResult": {
                   "properties": {
@@ -4342,7 +4342,7 @@
             {
               "properties": {
                 "properties": {
-                  "$ref": "https://icsm-au.github.io/3d-csdm-profile-wa/build/annotated/profiles/wa/schema-oas3.0.json#/x-defs/icsm-au.github.io_3d-csdm-schema_build_annotated_csdm_features_SurveyObservations_schema.json/$defs/SurveyVectorObsProps"
+                  "$ref": "https://icsm-au.github.io/3d-csdm-profile-wa/build/annotated/profiles/wa/schema-oas3.0.json#/x-defs/icsm.csdm.features.SurveyObservations/$defs/SurveyVectorObsProps"
                 }
               }
             }
@@ -4358,7 +4358,7 @@
                 "features": {
                   "type": "array",
                   "items": {
-                    "$ref": "https://icsm-au.github.io/3d-csdm-profile-wa/build/annotated/profiles/wa/schema-oas3.0.json#/x-defs/icsm-au.github.io_3d-csdm-schema_build_annotated_csdm_features_SurveyObservations_schema.json/$defs/SurveyVectorObsFeature"
+                    "$ref": "https://icsm-au.github.io/3d-csdm-profile-wa/build/annotated/profiles/wa/schema-oas3.0.json#/x-defs/icsm.csdm.features.SurveyObservations/$defs/SurveyVectorObsFeature"
                   },
                   "x-jsonld-id": "sosa:hasMember",
                   "x-jsonld-container": "@set"
@@ -4387,10 +4387,10 @@
       },
       "anyOf": [
         {
-          "$ref": "https://icsm-au.github.io/3d-csdm-profile-wa/build/annotated/profiles/wa/schema-oas3.0.json#/x-defs/icsm-au.github.io_3d-csdm-schema_build_annotated_csdm_features_SurveyObservations_schema.json/$defs/SurveyVectorObsFeature"
+          "$ref": "https://icsm-au.github.io/3d-csdm-profile-wa/build/annotated/profiles/wa/schema-oas3.0.json#/x-defs/icsm.csdm.features.SurveyObservations/$defs/SurveyVectorObsFeature"
         },
         {
-          "$ref": "https://icsm-au.github.io/3d-csdm-profile-wa/build/annotated/profiles/wa/schema-oas3.0.json#/x-defs/icsm-au.github.io_3d-csdm-schema_build_annotated_csdm_features_SurveyObservations_schema.json/$defs/SurveyVectorObsCollection"
+          "$ref": "https://icsm-au.github.io/3d-csdm-profile-wa/build/annotated/profiles/wa/schema-oas3.0.json#/x-defs/icsm.csdm.features.SurveyObservations/$defs/SurveyVectorObsCollection"
         }
       ],
       "x-jsonld-prefixes": {
@@ -4405,7 +4405,7 @@
         "surveyable": "https://linked.data.gov.au/def/csdm/defs/surveyableproperties/"
       },
       "x-schema-version": "https://json-schema.org/draft/2020-12/schema",
-      "x-schema-source": "https://icsm-au.github.io/3d-csdm-schema/build/annotated/csdm/features/SurveyObservations/schema.json"
+      "x-schema-source": "https://icsm-au.github.io/3d-csdm-common/build/annotated/csdm/features/SurveyObservations/schema.json"
     },
     "ogc.ogc-utils.json-link": {
       "description": "JSON Link",
@@ -5934,443 +5934,6 @@
       "x-schema-version": "https://json-schema.org/draft/2019-09/schema",
       "x-schema-source": "https://opengeospatial.github.io/bblocks/annotated-schemas/geo/json-fg/feature/schema.json"
     },
-    "icsm-au.github.io_3d-csdm-schema_build_annotated_csdm_datatypes_quality_schema.json": {
-      "description": "Survey Vector Observation Quality",
-      "properties": {
-        "angleAccuracy": {
-          "type": "number",
-          "x-jsonld-id": "https://linked.data.gov.au/def/csdm/surveyobs/angleAccuracyMeasure"
-        },
-        "distanceAccuracy": {
-          "type": "number",
-          "x-jsonld-id": "https://linked.data.gov.au/def/csdm/surveyobs/distanceAccuracyMeasure"
-        },
-        "distanceAccuracyClass": {
-          "type": "string",
-          "x-jsonld-type": "@id",
-          "x-jsonld-id": "https://linked.data.gov.au/def/csdm/surveyobs/distanceAccuracyClass"
-        },
-        "angleAccuracyClass": {
-          "type": "string",
-          "x-jsonld-type": "@id",
-          "x-jsonld-id": "https://linked.data.gov.au/def/csdm/surveyobs/angleAccuracyClass"
-        }
-      },
-      "x-jsonld-prefixes": {
-        "csdm": "https://linked.data.gov.au/def/csdm/"
-      },
-      "x-schema-version": "https://json-schema.org/draft/2020-12/schema",
-      "x-schema-source": "https://icsm-au.github.io/3d-csdm-schema/build/annotated/csdm/datatypes/quality/schema.json"
-    },
-    "ogc.sosa.features.observation": {
-      "description": "SOSA Observation Feature",
-      "type": "object",
-      "allOf": [
-        {
-          "$ref": "https://icsm-au.github.io/3d-csdm-profile-wa/build/annotated/profiles/wa/schema-oas3.0.json#/x-defs/ogc.geo.json-fg.feature-lenient"
-        },
-        {
-          "type": "object",
-          "properties": {
-            "properties": {}
-          }
-        }
-      ],
-      "x-jsonld-extra-terms": {
-        "id": "@id",
-        "featureType": "@type",
-        "ActuatableProperty": {
-          "x-jsonld-id": "http://www.w3.org/ns/sosa/ActuatableProperty",
-          "x-jsonld-type": "@id"
-        },
-        "Actuation": {
-          "x-jsonld-id": "http://www.w3.org/ns/sosa/Actuation",
-          "x-jsonld-type": "@id"
-        },
-        "ActuationCollection": {
-          "x-jsonld-id": "http://www.w3.org/ns/sosa/ActuationCollection",
-          "x-jsonld-type": "@id"
-        },
-        "Actuator": {
-          "x-jsonld-id": "http://www.w3.org/ns/sosa/Actuator",
-          "x-jsonld-type": "@id"
-        },
-        "Deployment": {
-          "x-jsonld-id": "http://www.w3.org/ns/sosa/Deployment",
-          "x-jsonld-type": "@id"
-        },
-        "Execution": {
-          "x-jsonld-id": "http://www.w3.org/ns/sosa/Execution",
-          "x-jsonld-type": "@id"
-        },
-        "FeatureOfInterest": {
-          "x-jsonld-id": "http://www.w3.org/ns/sosa/FeatureOfInterest",
-          "x-jsonld-type": "@id"
-        },
-        "ObservableProperty": {
-          "x-jsonld-id": "http://www.w3.org/ns/sosa/ObservableProperty",
-          "x-jsonld-type": "@id"
-        },
-        "Observation": {
-          "x-jsonld-id": "http://www.w3.org/ns/sosa/Observation",
-          "x-jsonld-type": "@id"
-        },
-        "ObservationCollection": {
-          "x-jsonld-id": "http://www.w3.org/ns/sosa/ObservationCollection",
-          "x-jsonld-type": "@id"
-        },
-        "Platform": {
-          "x-jsonld-id": "http://www.w3.org/ns/sosa/Platform",
-          "x-jsonld-type": "@id"
-        },
-        "Property": {
-          "x-jsonld-id": "http://www.w3.org/ns/sosa/Property",
-          "x-jsonld-type": "@id"
-        },
-        "Procedure ": {
-          "x-jsonld-id": "http://www.w3.org/ns/sosa/Procedure",
-          "x-jsonld-type": "@id"
-        },
-        "Sample": {
-          "x-jsonld-id": "http://www.w3.org/ns/sosa/Sample",
-          "x-jsonld-type": "@id"
-        },
-        "SampleCollection": {
-          "x-jsonld-id": "http://www.w3.org/ns/sosa/SampleCollection",
-          "x-jsonld-type": "@id"
-        },
-        "Sampler": {
-          "x-jsonld-id": "http://www.w3.org/ns/sosa/Sampler",
-          "x-jsonld-type": "@id"
-        },
-        "Sampling": {
-          "x-jsonld-id": "http://www.w3.org/ns/sosa/Sampling",
-          "x-jsonld-type": "@id"
-        },
-        "Sensor": {
-          "x-jsonld-id": "http://www.w3.org/ns/sosa/Sensor",
-          "x-jsonld-type": "@id"
-        },
-        "Stimulus": {
-          "x-jsonld-id": "http://www.w3.org/ns/sosa/Stimulus",
-          "x-jsonld-type": "@id"
-        },
-        "System": {
-          "x-jsonld-id": "http://www.w3.org/ns/sosa/System",
-          "x-jsonld-type": "@id"
-        },
-        "actsOnProperty": {
-          "x-jsonld-id": "http://www.w3.org/ns/sosa/actsOnProperty",
-          "x-jsonld-type": "@id"
-        },
-        "deployedOnPlatform": {
-          "x-jsonld-id": "http://www.w3.org/ns/sosa/deployedOnPlatform",
-          "x-jsonld-type": "@id"
-        },
-        "deployedSystem": {
-          "x-jsonld-id": "http://www.w3.org/ns/sosa/deployedSystem",
-          "x-jsonld-type": "@id"
-        },
-        "detects": {
-          "x-jsonld-id": "http://www.w3.org/ns/sosa/detects",
-          "x-jsonld-type": "@id"
-        },
-        "features": {
-          "x-jsonld-id": "http://www.w3.org/ns/sosa/hasMember",
-          "x-jsonld-type": "@id"
-        },
-        "forProperty": {
-          "x-jsonld-id": "http://www.w3.org/ns/sosa/forProperty",
-          "x-jsonld-type": "@id"
-        },
-        "hasDeployment": {
-          "x-jsonld-id": "http://www.w3.org/ns/sosa/hasDeployment",
-          "x-jsonld-type": "@id"
-        },
-        "hasFeatureOfInterest": {
-          "x-jsonld-id": "http://www.w3.org/ns/sosa/hasFeatureOfInterest",
-          "x-jsonld-type": "@id"
-        },
-        "hasInput": {
-          "x-jsonld-id": "http://www.w3.org/ns/sosa/hasInput",
-          "x-jsonld-type": "@id"
-        },
-        "hasMember": {
-          "x-jsonld-id": "http://www.w3.org/ns/sosa/hasMember",
-          "x-jsonld-type": "@id"
-        },
-        "hasOriginalSample": {
-          "x-jsonld-id": "http://www.w3.org/ns/sosa/hasOriginalSample",
-          "x-jsonld-type": "@id"
-        },
-        "hasOutput": {
-          "x-jsonld-id": "http://www.w3.org/ns/sosa/hasOutput",
-          "x-jsonld-type": "@id"
-        },
-        "hasProperty": {
-          "x-jsonld-id": "http://www.w3.org/ns/sosa/hasProperty",
-          "x-jsonld-type": "@id"
-        },
-        "hasResult": {
-          "x-jsonld-id": "http://www.w3.org/ns/sosa/hasResult",
-          "x-jsonld-type": "@id"
-        },
-        "hasResultQuality": {
-          "x-jsonld-id": "http://www.w3.org/ns/sosa/hasResultQuality",
-          "x-jsonld-type": "@id"
-        },
-        "hasSample": {
-          "x-jsonld-id": "http://www.w3.org/ns/sosa/hasSample",
-          "x-jsonld-type": "@id"
-        },
-        "hasSampledFeature": {
-          "x-jsonld-id": "http://www.w3.org/ns/sosa/hasSampledFeature",
-          "x-jsonld-type": "@id"
-        },
-        "hasSimpleResult": {
-          "x-jsonld-id": "http://www.w3.org/ns/sosa/hasSimpleResult",
-          "x-jsonld-type": "@id"
-        },
-        "hasSubSystem": {
-          "x-jsonld-id": "http://www.w3.org/ns/sosa/hasSubSystem",
-          "x-jsonld-type": "@id",
-          "x-jsonld-container": "@set"
-        },
-        "hasUltimateFeatureOfInterest": {
-          "x-jsonld-id": "http://www.w3.org/ns/sosa/hasUltimateFeatureOfInterest",
-          "x-jsonld-type": "@id"
-        },
-        "hosts": {
-          "x-jsonld-id": "http://www.w3.org/ns/sosa/hosts",
-          "x-jsonld-type": "@id",
-          "x-jsonld-container": "@set"
-        },
-        "implementedBy": {
-          "x-jsonld-id": "http://www.w3.org/ns/sosa/implementedBy",
-          "x-jsonld-type": "@id"
-        },
-        "implements": {
-          "x-jsonld-id": "http://www.w3.org/ns/sosa/implements",
-          "x-jsonld-type": "@id"
-        },
-        "inDeployment": {
-          "x-jsonld-id": "http://www.w3.org/ns/sosa/inDeployment",
-          "x-jsonld-type": "@id"
-        },
-        "isActedOnBy": {
-          "x-jsonld-id": "http://www.w3.org/ns/sosa/isActedOnBy",
-          "x-jsonld-type": "@id"
-        },
-        "isFeatureOfInterestOf": {
-          "x-jsonld-id": "http://www.w3.org/ns/sosa/isFeatureOfInterestOf",
-          "x-jsonld-type": "@id"
-        },
-        "isHostedBy": {
-          "x-jsonld-id": "http://www.w3.org/ns/sosa/isHostedBy",
-          "x-jsonld-type": "@id"
-        },
-        "isObservedBy": {
-          "x-jsonld-id": "http://www.w3.org/ns/sosa/isObservedBy",
-          "x-jsonld-type": "@id"
-        },
-        "isPropertyOf": {
-          "x-jsonld-id": "http://www.w3.org/ns/sosa/isPropertyOf",
-          "x-jsonld-type": "@id"
-        },
-        "isProxyFor": {
-          "x-jsonld-id": "http://www.w3.org/ns/sosa/isProxyFor",
-          "x-jsonld-type": "@id"
-        },
-        "isResultOf": {
-          "x-jsonld-id": "http://www.w3.org/ns/sosa/isResultOf",
-          "x-jsonld-type": "@id"
-        },
-        "isResultOfMadeBySampler": {
-          "x-jsonld-id": "http://www.w3.org/ns/sosa/isResultOfMadeBySampler",
-          "x-jsonld-type": "@id"
-        },
-        "isResultOfUsedProcedure": {
-          "x-jsonld-id": "http://www.w3.org/ns/sosa/isResultOfUsedProcedure",
-          "x-jsonld-type": "@id"
-        },
-        "isSampleOf": {
-          "x-jsonld-id": "http://www.w3.org/ns/sosa/isSampleOf",
-          "x-jsonld-type": "@id"
-        },
-        "madeActuation": {
-          "x-jsonld-id": "http://www.w3.org/ns/sosa/madeActuation",
-          "x-jsonld-type": "@id"
-        },
-        "madeByActuator": {
-          "x-jsonld-id": "http://www.w3.org/ns/sosa/madeByActuator",
-          "x-jsonld-type": "@id"
-        },
-        "madeBySampler": {
-          "x-jsonld-id": "http://www.w3.org/ns/sosa/madeBySampler",
-          "x-jsonld-type": "@id"
-        },
-        "madeBySensor": {
-          "x-jsonld-id": "http://www.w3.org/ns/sosa/madeBySensor",
-          "x-jsonld-type": "@id"
-        },
-        "madeObservation": {
-          "x-jsonld-id": "http://www.w3.org/ns/sosa/madeObservation",
-          "x-jsonld-type": "@id"
-        },
-        "madeSampling": {
-          "x-jsonld-id": "http://www.w3.org/ns/sosa/madeSampling",
-          "x-jsonld-type": "@id"
-        },
-        "observedProperty": {
-          "x-jsonld-id": "http://www.w3.org/ns/sosa/observedProperty",
-          "x-jsonld-type": "@id"
-        },
-        "observes": {
-          "x-jsonld-id": "http://www.w3.org/ns/sosa/observes",
-          "x-jsonld-type": "@id"
-        },
-        "phenomenonTime": {
-          "x-jsonld-id": "http://www.w3.org/ns/sosa/phenomenonTime",
-          "x-jsonld-type": "@id"
-        },
-        "resultTime": "http://www.w3.org/ns/sosa/resultTime",
-        "usedProcedure": {
-          "x-jsonld-id": "http://www.w3.org/ns/sosa/usedProcedure",
-          "x-jsonld-type": "@id"
-        },
-        "wasOriginatedBy": {
-          "x-jsonld-id": "http://www.w3.org/ns/sosa/wasOriginatedBy",
-          "x-jsonld-type": "@id"
-        },
-        "Accuracy": {
-          "x-jsonld-id": "http://www.w3.org/ns/ssn/systems/Accuracy",
-          "x-jsonld-type": "@id"
-        },
-        "ActuationRange": {
-          "x-jsonld-id": "http://www.w3.org/ns/ssn/systems/ActuationRange",
-          "x-jsonld-type": "@id"
-        },
-        "BatteryLifetime": {
-          "x-jsonld-id": "http://www.w3.org/ns/ssn/systems/BatteryLifetime",
-          "x-jsonld-type": "@id"
-        },
-        "DetectionLimit": {
-          "x-jsonld-id": "http://www.w3.org/ns/ssn/systems/DetectionLimit",
-          "x-jsonld-type": "@id"
-        },
-        "Drift": {
-          "x-jsonld-id": "http://www.w3.org/ns/ssn/systems/Drift",
-          "x-jsonld-type": "@id"
-        },
-        "Frequency": {
-          "x-jsonld-id": "http://www.w3.org/ns/ssn/systems/Frequency",
-          "x-jsonld-type": "@id"
-        },
-        "Latency": {
-          "x-jsonld-id": "http://www.w3.org/ns/ssn/systems/Latency",
-          "x-jsonld-type": "@id"
-        },
-        "MaintenanceSchedule": {
-          "x-jsonld-id": "http://www.w3.org/ns/ssn/systems/MaintenanceSchedule",
-          "x-jsonld-type": "@id"
-        },
-        "MeasurementRange": {
-          "x-jsonld-id": "http://www.w3.org/ns/ssn/systems/MeasurementRange",
-          "x-jsonld-type": "@id"
-        },
-        "OperatingPowerRange": {
-          "x-jsonld-id": "http://www.w3.org/ns/ssn/systems/OperatingPowerRange",
-          "x-jsonld-type": "@id"
-        },
-        "OperatingProperty": {
-          "x-jsonld-id": "http://www.w3.org/ns/ssn/systems/OperatingProperty",
-          "x-jsonld-type": "@id"
-        },
-        "OperatingRange": {
-          "x-jsonld-id": "http://www.w3.org/ns/ssn/systems/OperatingRange",
-          "x-jsonld-type": "@id"
-        },
-        "Precision": {
-          "x-jsonld-id": "http://www.w3.org/ns/ssn/systems/Precision",
-          "x-jsonld-type": "@id"
-        },
-        "Resolution": {
-          "x-jsonld-id": "http://www.w3.org/ns/ssn/systems/Resolution",
-          "x-jsonld-type": "@id"
-        },
-        "ResponseTime": {
-          "x-jsonld-id": "http://www.w3.org/ns/ssn/systems/ResponseTime",
-          "x-jsonld-type": "@id"
-        },
-        "Selectivity": {
-          "x-jsonld-id": "http://www.w3.org/ns/ssn/systems/Selectivity",
-          "x-jsonld-type": "@id"
-        },
-        "Sensitivity": {
-          "x-jsonld-id": "http://www.w3.org/ns/ssn/systems/Sensitivity",
-          "x-jsonld-type": "@id"
-        },
-        "SurvivalProperty": {
-          "x-jsonld-id": "http://www.w3.org/ns/ssn/systems/SurvivalProperty",
-          "x-jsonld-type": "@id"
-        },
-        "SystemLifetime": {
-          "x-jsonld-id": "http://www.w3.org/ns/ssn/systems/SystemLifetime",
-          "x-jsonld-type": "@id"
-        },
-        "SurvivalRange": {
-          "x-jsonld-id": "http://www.w3.org/ns/ssn/systems/SurvivalRange",
-          "x-jsonld-type": "@id"
-        },
-        "SystemCapability": {
-          "x-jsonld-id": "http://www.w3.org/ns/ssn/systems/SystemCapability",
-          "x-jsonld-type": "@id"
-        },
-        "SystemProperty": {
-          "x-jsonld-id": "http://www.w3.org/ns/ssn/systems/SystemProperty",
-          "x-jsonld-type": "@id"
-        },
-        "hasOperatingProperty": {
-          "x-jsonld-id": "http://www.w3.org/ns/ssn/systems/hasOperatingProperty",
-          "x-jsonld-type": "@id"
-        },
-        "hasOperatingRange": {
-          "x-jsonld-id": "http://www.w3.org/ns/ssn/systems/hasOperatingRange",
-          "x-jsonld-type": "@id"
-        },
-        "hasSurvivalProperty": {
-          "x-jsonld-id": "http://www.w3.org/ns/ssn/systems/hasSurvivalProperty",
-          "x-jsonld-type": "@id"
-        },
-        "hasSystemCapability": {
-          "x-jsonld-id": "http://www.w3.org/ns/ssn/systems/hasSystemCapability",
-          "x-jsonld-type": "@id"
-        },
-        "hasSystemProperty": {
-          "x-jsonld-id": "http://www.w3.org/ns/ssn/systems/hasSystemProperty",
-          "x-jsonld-type": "@id"
-        },
-        "hasSurvivalRange": {
-          "x-jsonld-id": "http://www.w3.org/ns/ssn/systems/hasSurvivalRange",
-          "x-jsonld-type": "@id"
-        },
-        "inCondition": {
-          "x-jsonld-id": "http://www.w3.org/ns/ssn/systems/inCondition",
-          "x-jsonld-type": "@id"
-        },
-        "qualityOfObservation": {
-          "x-jsonld-id": "http://www.w3.org/ns/ssn/systems/qualityOfObservation",
-          "x-jsonld-type": "@id"
-        }
-      },
-      "x-jsonld-prefixes": {
-        "sosa": "http://www.w3.org/ns/sosa/",
-        "ssn-system": "http://www.w3.org/ns/ssn/systems/",
-        "ssn": "http://www.w3.org/ns/ssn/"
-      },
-      "x-schema-version": "https://json-schema.org/draft/2020-12/schema",
-      "x-schema-source": "https://opengeospatial.github.io/ogcapi-sosa/build/annotated/sosa/features/observation/schema.json"
-    },
     "ogc.geo.common.data_types.geojson_": {
       "title": "GeoJSON Feature",
       "type": "object",
@@ -6958,6 +6521,443 @@
       },
       "x-schema-version": "http://json-schema.org/draft-07/schema#",
       "x-schema-source": "https://geojson.org/schema/Feature.json"
+    },
+    "icsm.csdm.datatypes.quality": {
+      "description": "Survey Vector Observation Quality",
+      "properties": {
+        "angleAccuracy": {
+          "type": "number",
+          "x-jsonld-id": "https://linked.data.gov.au/def/csdm/surveyobs/angleAccuracyMeasure"
+        },
+        "distanceAccuracy": {
+          "type": "number",
+          "x-jsonld-id": "https://linked.data.gov.au/def/csdm/surveyobs/distanceAccuracyMeasure"
+        },
+        "distanceAccuracyClass": {
+          "type": "string",
+          "x-jsonld-type": "@id",
+          "x-jsonld-id": "https://linked.data.gov.au/def/csdm/surveyobs/distanceAccuracyClass"
+        },
+        "angleAccuracyClass": {
+          "type": "string",
+          "x-jsonld-type": "@id",
+          "x-jsonld-id": "https://linked.data.gov.au/def/csdm/surveyobs/angleAccuracyClass"
+        }
+      },
+      "x-jsonld-prefixes": {
+        "csdm": "https://linked.data.gov.au/def/csdm/"
+      },
+      "x-schema-version": "https://json-schema.org/draft/2020-12/schema",
+      "x-schema-source": "https://icsm-au.github.io/3d-csdm-common/build/annotated/csdm/datatypes/quality/schema.json"
+    },
+    "ogc.sosa.features.observation": {
+      "description": "SOSA Observation Feature",
+      "type": "object",
+      "allOf": [
+        {
+          "$ref": "https://icsm-au.github.io/3d-csdm-profile-wa/build/annotated/profiles/wa/schema-oas3.0.json#/x-defs/ogc.geo.json-fg.feature-lenient"
+        },
+        {
+          "type": "object",
+          "properties": {
+            "properties": {}
+          }
+        }
+      ],
+      "x-jsonld-extra-terms": {
+        "id": "@id",
+        "featureType": "@type",
+        "ActuatableProperty": {
+          "x-jsonld-id": "http://www.w3.org/ns/sosa/ActuatableProperty",
+          "x-jsonld-type": "@id"
+        },
+        "Actuation": {
+          "x-jsonld-id": "http://www.w3.org/ns/sosa/Actuation",
+          "x-jsonld-type": "@id"
+        },
+        "ActuationCollection": {
+          "x-jsonld-id": "http://www.w3.org/ns/sosa/ActuationCollection",
+          "x-jsonld-type": "@id"
+        },
+        "Actuator": {
+          "x-jsonld-id": "http://www.w3.org/ns/sosa/Actuator",
+          "x-jsonld-type": "@id"
+        },
+        "Deployment": {
+          "x-jsonld-id": "http://www.w3.org/ns/sosa/Deployment",
+          "x-jsonld-type": "@id"
+        },
+        "Execution": {
+          "x-jsonld-id": "http://www.w3.org/ns/sosa/Execution",
+          "x-jsonld-type": "@id"
+        },
+        "FeatureOfInterest": {
+          "x-jsonld-id": "http://www.w3.org/ns/sosa/FeatureOfInterest",
+          "x-jsonld-type": "@id"
+        },
+        "ObservableProperty": {
+          "x-jsonld-id": "http://www.w3.org/ns/sosa/ObservableProperty",
+          "x-jsonld-type": "@id"
+        },
+        "Observation": {
+          "x-jsonld-id": "http://www.w3.org/ns/sosa/Observation",
+          "x-jsonld-type": "@id"
+        },
+        "ObservationCollection": {
+          "x-jsonld-id": "http://www.w3.org/ns/sosa/ObservationCollection",
+          "x-jsonld-type": "@id"
+        },
+        "Platform": {
+          "x-jsonld-id": "http://www.w3.org/ns/sosa/Platform",
+          "x-jsonld-type": "@id"
+        },
+        "Property": {
+          "x-jsonld-id": "http://www.w3.org/ns/sosa/Property",
+          "x-jsonld-type": "@id"
+        },
+        "Procedure ": {
+          "x-jsonld-id": "http://www.w3.org/ns/sosa/Procedure",
+          "x-jsonld-type": "@id"
+        },
+        "Sample": {
+          "x-jsonld-id": "http://www.w3.org/ns/sosa/Sample",
+          "x-jsonld-type": "@id"
+        },
+        "SampleCollection": {
+          "x-jsonld-id": "http://www.w3.org/ns/sosa/SampleCollection",
+          "x-jsonld-type": "@id"
+        },
+        "Sampler": {
+          "x-jsonld-id": "http://www.w3.org/ns/sosa/Sampler",
+          "x-jsonld-type": "@id"
+        },
+        "Sampling": {
+          "x-jsonld-id": "http://www.w3.org/ns/sosa/Sampling",
+          "x-jsonld-type": "@id"
+        },
+        "Sensor": {
+          "x-jsonld-id": "http://www.w3.org/ns/sosa/Sensor",
+          "x-jsonld-type": "@id"
+        },
+        "Stimulus": {
+          "x-jsonld-id": "http://www.w3.org/ns/sosa/Stimulus",
+          "x-jsonld-type": "@id"
+        },
+        "System": {
+          "x-jsonld-id": "http://www.w3.org/ns/sosa/System",
+          "x-jsonld-type": "@id"
+        },
+        "actsOnProperty": {
+          "x-jsonld-id": "http://www.w3.org/ns/sosa/actsOnProperty",
+          "x-jsonld-type": "@id"
+        },
+        "deployedOnPlatform": {
+          "x-jsonld-id": "http://www.w3.org/ns/sosa/deployedOnPlatform",
+          "x-jsonld-type": "@id"
+        },
+        "deployedSystem": {
+          "x-jsonld-id": "http://www.w3.org/ns/sosa/deployedSystem",
+          "x-jsonld-type": "@id"
+        },
+        "detects": {
+          "x-jsonld-id": "http://www.w3.org/ns/sosa/detects",
+          "x-jsonld-type": "@id"
+        },
+        "features": {
+          "x-jsonld-id": "http://www.w3.org/ns/sosa/hasMember",
+          "x-jsonld-type": "@id"
+        },
+        "forProperty": {
+          "x-jsonld-id": "http://www.w3.org/ns/sosa/forProperty",
+          "x-jsonld-type": "@id"
+        },
+        "hasDeployment": {
+          "x-jsonld-id": "http://www.w3.org/ns/sosa/hasDeployment",
+          "x-jsonld-type": "@id"
+        },
+        "hasFeatureOfInterest": {
+          "x-jsonld-id": "http://www.w3.org/ns/sosa/hasFeatureOfInterest",
+          "x-jsonld-type": "@id"
+        },
+        "hasInput": {
+          "x-jsonld-id": "http://www.w3.org/ns/sosa/hasInput",
+          "x-jsonld-type": "@id"
+        },
+        "hasMember": {
+          "x-jsonld-id": "http://www.w3.org/ns/sosa/hasMember",
+          "x-jsonld-type": "@id"
+        },
+        "hasOriginalSample": {
+          "x-jsonld-id": "http://www.w3.org/ns/sosa/hasOriginalSample",
+          "x-jsonld-type": "@id"
+        },
+        "hasOutput": {
+          "x-jsonld-id": "http://www.w3.org/ns/sosa/hasOutput",
+          "x-jsonld-type": "@id"
+        },
+        "hasProperty": {
+          "x-jsonld-id": "http://www.w3.org/ns/sosa/hasProperty",
+          "x-jsonld-type": "@id"
+        },
+        "hasResult": {
+          "x-jsonld-id": "http://www.w3.org/ns/sosa/hasResult",
+          "x-jsonld-type": "@id"
+        },
+        "hasResultQuality": {
+          "x-jsonld-id": "http://www.w3.org/ns/sosa/hasResultQuality",
+          "x-jsonld-type": "@id"
+        },
+        "hasSample": {
+          "x-jsonld-id": "http://www.w3.org/ns/sosa/hasSample",
+          "x-jsonld-type": "@id"
+        },
+        "hasSampledFeature": {
+          "x-jsonld-id": "http://www.w3.org/ns/sosa/hasSampledFeature",
+          "x-jsonld-type": "@id"
+        },
+        "hasSimpleResult": {
+          "x-jsonld-id": "http://www.w3.org/ns/sosa/hasSimpleResult",
+          "x-jsonld-type": "@id"
+        },
+        "hasSubSystem": {
+          "x-jsonld-id": "http://www.w3.org/ns/sosa/hasSubSystem",
+          "x-jsonld-type": "@id",
+          "x-jsonld-container": "@set"
+        },
+        "hasUltimateFeatureOfInterest": {
+          "x-jsonld-id": "http://www.w3.org/ns/sosa/hasUltimateFeatureOfInterest",
+          "x-jsonld-type": "@id"
+        },
+        "hosts": {
+          "x-jsonld-id": "http://www.w3.org/ns/sosa/hosts",
+          "x-jsonld-type": "@id",
+          "x-jsonld-container": "@set"
+        },
+        "implementedBy": {
+          "x-jsonld-id": "http://www.w3.org/ns/sosa/implementedBy",
+          "x-jsonld-type": "@id"
+        },
+        "implements": {
+          "x-jsonld-id": "http://www.w3.org/ns/sosa/implements",
+          "x-jsonld-type": "@id"
+        },
+        "inDeployment": {
+          "x-jsonld-id": "http://www.w3.org/ns/sosa/inDeployment",
+          "x-jsonld-type": "@id"
+        },
+        "isActedOnBy": {
+          "x-jsonld-id": "http://www.w3.org/ns/sosa/isActedOnBy",
+          "x-jsonld-type": "@id"
+        },
+        "isFeatureOfInterestOf": {
+          "x-jsonld-id": "http://www.w3.org/ns/sosa/isFeatureOfInterestOf",
+          "x-jsonld-type": "@id"
+        },
+        "isHostedBy": {
+          "x-jsonld-id": "http://www.w3.org/ns/sosa/isHostedBy",
+          "x-jsonld-type": "@id"
+        },
+        "isObservedBy": {
+          "x-jsonld-id": "http://www.w3.org/ns/sosa/isObservedBy",
+          "x-jsonld-type": "@id"
+        },
+        "isPropertyOf": {
+          "x-jsonld-id": "http://www.w3.org/ns/sosa/isPropertyOf",
+          "x-jsonld-type": "@id"
+        },
+        "isProxyFor": {
+          "x-jsonld-id": "http://www.w3.org/ns/sosa/isProxyFor",
+          "x-jsonld-type": "@id"
+        },
+        "isResultOf": {
+          "x-jsonld-id": "http://www.w3.org/ns/sosa/isResultOf",
+          "x-jsonld-type": "@id"
+        },
+        "isResultOfMadeBySampler": {
+          "x-jsonld-id": "http://www.w3.org/ns/sosa/isResultOfMadeBySampler",
+          "x-jsonld-type": "@id"
+        },
+        "isResultOfUsedProcedure": {
+          "x-jsonld-id": "http://www.w3.org/ns/sosa/isResultOfUsedProcedure",
+          "x-jsonld-type": "@id"
+        },
+        "isSampleOf": {
+          "x-jsonld-id": "http://www.w3.org/ns/sosa/isSampleOf",
+          "x-jsonld-type": "@id"
+        },
+        "madeActuation": {
+          "x-jsonld-id": "http://www.w3.org/ns/sosa/madeActuation",
+          "x-jsonld-type": "@id"
+        },
+        "madeByActuator": {
+          "x-jsonld-id": "http://www.w3.org/ns/sosa/madeByActuator",
+          "x-jsonld-type": "@id"
+        },
+        "madeBySampler": {
+          "x-jsonld-id": "http://www.w3.org/ns/sosa/madeBySampler",
+          "x-jsonld-type": "@id"
+        },
+        "madeBySensor": {
+          "x-jsonld-id": "http://www.w3.org/ns/sosa/madeBySensor",
+          "x-jsonld-type": "@id"
+        },
+        "madeObservation": {
+          "x-jsonld-id": "http://www.w3.org/ns/sosa/madeObservation",
+          "x-jsonld-type": "@id"
+        },
+        "madeSampling": {
+          "x-jsonld-id": "http://www.w3.org/ns/sosa/madeSampling",
+          "x-jsonld-type": "@id"
+        },
+        "observedProperty": {
+          "x-jsonld-id": "http://www.w3.org/ns/sosa/observedProperty",
+          "x-jsonld-type": "@id"
+        },
+        "observes": {
+          "x-jsonld-id": "http://www.w3.org/ns/sosa/observes",
+          "x-jsonld-type": "@id"
+        },
+        "phenomenonTime": {
+          "x-jsonld-id": "http://www.w3.org/ns/sosa/phenomenonTime",
+          "x-jsonld-type": "@id"
+        },
+        "resultTime": "http://www.w3.org/ns/sosa/resultTime",
+        "usedProcedure": {
+          "x-jsonld-id": "http://www.w3.org/ns/sosa/usedProcedure",
+          "x-jsonld-type": "@id"
+        },
+        "wasOriginatedBy": {
+          "x-jsonld-id": "http://www.w3.org/ns/sosa/wasOriginatedBy",
+          "x-jsonld-type": "@id"
+        },
+        "Accuracy": {
+          "x-jsonld-id": "http://www.w3.org/ns/ssn/systems/Accuracy",
+          "x-jsonld-type": "@id"
+        },
+        "ActuationRange": {
+          "x-jsonld-id": "http://www.w3.org/ns/ssn/systems/ActuationRange",
+          "x-jsonld-type": "@id"
+        },
+        "BatteryLifetime": {
+          "x-jsonld-id": "http://www.w3.org/ns/ssn/systems/BatteryLifetime",
+          "x-jsonld-type": "@id"
+        },
+        "DetectionLimit": {
+          "x-jsonld-id": "http://www.w3.org/ns/ssn/systems/DetectionLimit",
+          "x-jsonld-type": "@id"
+        },
+        "Drift": {
+          "x-jsonld-id": "http://www.w3.org/ns/ssn/systems/Drift",
+          "x-jsonld-type": "@id"
+        },
+        "Frequency": {
+          "x-jsonld-id": "http://www.w3.org/ns/ssn/systems/Frequency",
+          "x-jsonld-type": "@id"
+        },
+        "Latency": {
+          "x-jsonld-id": "http://www.w3.org/ns/ssn/systems/Latency",
+          "x-jsonld-type": "@id"
+        },
+        "MaintenanceSchedule": {
+          "x-jsonld-id": "http://www.w3.org/ns/ssn/systems/MaintenanceSchedule",
+          "x-jsonld-type": "@id"
+        },
+        "MeasurementRange": {
+          "x-jsonld-id": "http://www.w3.org/ns/ssn/systems/MeasurementRange",
+          "x-jsonld-type": "@id"
+        },
+        "OperatingPowerRange": {
+          "x-jsonld-id": "http://www.w3.org/ns/ssn/systems/OperatingPowerRange",
+          "x-jsonld-type": "@id"
+        },
+        "OperatingProperty": {
+          "x-jsonld-id": "http://www.w3.org/ns/ssn/systems/OperatingProperty",
+          "x-jsonld-type": "@id"
+        },
+        "OperatingRange": {
+          "x-jsonld-id": "http://www.w3.org/ns/ssn/systems/OperatingRange",
+          "x-jsonld-type": "@id"
+        },
+        "Precision": {
+          "x-jsonld-id": "http://www.w3.org/ns/ssn/systems/Precision",
+          "x-jsonld-type": "@id"
+        },
+        "Resolution": {
+          "x-jsonld-id": "http://www.w3.org/ns/ssn/systems/Resolution",
+          "x-jsonld-type": "@id"
+        },
+        "ResponseTime": {
+          "x-jsonld-id": "http://www.w3.org/ns/ssn/systems/ResponseTime",
+          "x-jsonld-type": "@id"
+        },
+        "Selectivity": {
+          "x-jsonld-id": "http://www.w3.org/ns/ssn/systems/Selectivity",
+          "x-jsonld-type": "@id"
+        },
+        "Sensitivity": {
+          "x-jsonld-id": "http://www.w3.org/ns/ssn/systems/Sensitivity",
+          "x-jsonld-type": "@id"
+        },
+        "SurvivalProperty": {
+          "x-jsonld-id": "http://www.w3.org/ns/ssn/systems/SurvivalProperty",
+          "x-jsonld-type": "@id"
+        },
+        "SystemLifetime": {
+          "x-jsonld-id": "http://www.w3.org/ns/ssn/systems/SystemLifetime",
+          "x-jsonld-type": "@id"
+        },
+        "SurvivalRange": {
+          "x-jsonld-id": "http://www.w3.org/ns/ssn/systems/SurvivalRange",
+          "x-jsonld-type": "@id"
+        },
+        "SystemCapability": {
+          "x-jsonld-id": "http://www.w3.org/ns/ssn/systems/SystemCapability",
+          "x-jsonld-type": "@id"
+        },
+        "SystemProperty": {
+          "x-jsonld-id": "http://www.w3.org/ns/ssn/systems/SystemProperty",
+          "x-jsonld-type": "@id"
+        },
+        "hasOperatingProperty": {
+          "x-jsonld-id": "http://www.w3.org/ns/ssn/systems/hasOperatingProperty",
+          "x-jsonld-type": "@id"
+        },
+        "hasOperatingRange": {
+          "x-jsonld-id": "http://www.w3.org/ns/ssn/systems/hasOperatingRange",
+          "x-jsonld-type": "@id"
+        },
+        "hasSurvivalProperty": {
+          "x-jsonld-id": "http://www.w3.org/ns/ssn/systems/hasSurvivalProperty",
+          "x-jsonld-type": "@id"
+        },
+        "hasSystemCapability": {
+          "x-jsonld-id": "http://www.w3.org/ns/ssn/systems/hasSystemCapability",
+          "x-jsonld-type": "@id"
+        },
+        "hasSystemProperty": {
+          "x-jsonld-id": "http://www.w3.org/ns/ssn/systems/hasSystemProperty",
+          "x-jsonld-type": "@id"
+        },
+        "hasSurvivalRange": {
+          "x-jsonld-id": "http://www.w3.org/ns/ssn/systems/hasSurvivalRange",
+          "x-jsonld-type": "@id"
+        },
+        "inCondition": {
+          "x-jsonld-id": "http://www.w3.org/ns/ssn/systems/inCondition",
+          "x-jsonld-type": "@id"
+        },
+        "qualityOfObservation": {
+          "x-jsonld-id": "http://www.w3.org/ns/ssn/systems/qualityOfObservation",
+          "x-jsonld-type": "@id"
+        }
+      },
+      "x-jsonld-prefixes": {
+        "sosa": "http://www.w3.org/ns/sosa/",
+        "ssn-system": "http://www.w3.org/ns/ssn/systems/",
+        "ssn": "http://www.w3.org/ns/ssn/"
+      },
+      "x-schema-version": "https://json-schema.org/draft/2020-12/schema",
+      "x-schema-source": "https://opengeospatial.github.io/ogcapi-sosa/build/annotated/sosa/features/observation/schema.json"
     },
     "ogc.geo.common.data_types.bounding_box": {
       "type": "array",

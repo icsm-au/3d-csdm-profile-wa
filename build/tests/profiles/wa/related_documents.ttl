@@ -19,27 +19,27 @@
     rdfs:label "DP 422532" ;
     prov:wasGeneratedBy <https://www.wa-example.com/features/DP-1-S2> ;
     container:adminUnit [ ns1:relation <http://www.iana.org/assignments/relation/related> ;
-            prof:hasRole icsm-admin-unit-type:localGovernmentArea ;
-            oa:hasTarget wa-local-government:city-of-kalgoorlie-boulder ],
-        [ ns1:relation <http://www.iana.org/assignments/relation/related> ;
             prof:hasRole icsm-admin-unit-type:locality ;
-            oa:hasTarget wa-locality:karlkurla ] ;
+            oa:hasTarget wa-locality:karlkurla ],
+        [ ns1:relation <http://www.iana.org/assignments/relation/related> ;
+            prof:hasRole icsm-admin-unit-type:localGovernmentArea ;
+            oa:hasTarget wa-local-government:city-of-kalgoorlie-boulder ] ;
     container:bearingRotation 0e+00 ;
     container:horizontalCRS epsg:8024 ;
     container:purpose wa-survey-purpose:subdivision ;
     container:referencedCSD <https://www.wa-example.com/features/DP_422526> ;
-    container:supportingDocuments [ rdfs:label "DP 422532 Survey Sheets" ;
-            ns1:relation <http://www.iana.org/assignments/relation/related> ;
-            prof:hasRole wa-survey-documentation-type:2d-plan-survey-sheet ;
-            oa:hasTarget <https://wa.gov.au/survey-sheet/Survey&nbsp;sheet_DP422532.pdf> ],
-        [ rdfs:label "DP 422532" ;
+    container:supportingDocuments [ rdfs:label "DP 422532" ;
             ns1:relation <http://www.iana.org/assignments/relation/related> ;
             prof:hasRole wa-survey-documentation-type:2d-plan ;
             oa:hasTarget <https://wa.gov.au/deposited-plans/DP422532_simple.pdf> ],
         [ rdfs:label "Field Book 157243" ;
             ns1:relation <http://www.iana.org/assignments/relation/related> ;
             prof:hasRole wa-survey-documentation-type:field-record ;
-            oa:hasTarget <https://wa.gov.au/field-book/Survey&nbsp;sheet_FB157243.pdf> ] ;
+            oa:hasTarget <https://wa.gov.au/field-book/Survey&nbsp;sheet_FB157243.pdf> ],
+        [ rdfs:label "DP 422532 Survey Sheets" ;
+            ns1:relation <http://www.iana.org/assignments/relation/related> ;
+            prof:hasRole wa-survey-documentation-type:2d-plan-survey-sheet ;
+            oa:hasTarget <https://wa.gov.au/survey-sheet/Survey&nbsp;sheet_DP422532.pdf> ] ;
     container:surveyType wa-survey-type:SSA .
 
 <https://www.wa-example.com/features/DP-1-S2> prov:endedAtTime "2029-01-01T01:02:03+00:00"^^xsd:dateTime .
