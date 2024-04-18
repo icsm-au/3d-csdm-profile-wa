@@ -6,8 +6,8 @@
 @prefix icsm-angle-type: <https://linked.data.gov.au/def/csdm/icsm-angle-type/> .
 @prefix icsm-distance-type: <https://linked.data.gov.au/def/csdm/icsm-distance-type/> .
 @prefix icsm-equipment-type: <https://linked.data.gov.au/def/csdm/icsm-equipment-type/> .
-@prefix ns1: <http://www.iana.org/assignments/> .
-@prefix ns2: <https://linked.data.gov.au/def/csdm/surveyobs/> .
+@prefix ns1: <https://linked.data.gov.au/def/csdm/surveyobs/> .
+@prefix ns2: <http://www.iana.org/assignments/> .
 @prefix oa: <http://www.w3.org/ns/oa#> .
 @prefix prof: <http://www.w3.org/ns/dx/prof/> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
@@ -31,12 +31,12 @@
         geojson:FeatureCollection ;
     rdfs:label "Plan 9674" ;
     prov:wasGeneratedBy <https://www.wa-example.com/features/DP-1-S2> ;
-    container:adminUnit [ ns1:relation <http://www.iana.org/assignments/relation/related> ;
-            prof:hasRole icsm-admin-unit-type:localGovernmentArea ;
-            oa:hasTarget wa-local-government:city-of-perth ],
-        [ ns1:relation <http://www.iana.org/assignments/relation/related> ;
+    container:adminUnit [ ns2:relation <http://www.iana.org/assignments/relation/related> ;
             prof:hasRole icsm-admin-unit-type:locality ;
-            oa:hasTarget wa-locality:thornlie ] ;
+            oa:hasTarget wa-locality:thornlie ],
+        [ ns2:relation <http://www.iana.org/assignments/relation/related> ;
+            prof:hasRole icsm-admin-unit-type:localGovernmentArea ;
+            oa:hasTarget wa-local-government:city-of-perth ] ;
     container:bearingRotation 0e+00 ;
     container:horizontalCRS epsg:8031 ;
     container:observedVectors <https://www.wa-example.com/features/observedVectors> ;
@@ -52,7 +52,7 @@
 
 <https://www.wa-example.com/features/1853004> a surv:ObservedVector,
         geojson:Feature ;
-    ns2:distanceType icsm-distance-type:ground ;
+    ns1:distanceType icsm-distance-type:ground ;
     geojson:arcLength 2.5615e+01 ;
     geojson:radius 1.05438e+02 ;
     geojson:topology [ a geojson:ArcWithCenter ;
@@ -70,25 +70,25 @@
 <https://www.wa-example.com/features/DP-1-S2> prov:endedAtTime "2029-01-01T01:02:03+00:00"^^xsd:dateTime .
 
 <https://www.wa-example.com/features/DP_12034> rdfs:label "DP 12034" ;
-    container:adminUnit [ ns1:relation <http://www.iana.org/assignments/relation/related> ;
+    container:adminUnit [ ns2:relation <http://www.iana.org/assignments/relation/related> ;
             prof:hasRole icsm-admin-unit-type:locality ;
             oa:hasTarget wa-locality:thornlie ] ;
     container:bearingRotation 0e+00 .
 
 <https://www.wa-example.com/features/DP_9675> rdfs:label "DP 9675" ;
-    container:adminUnit [ ns1:relation <http://www.iana.org/assignments/relation/related> ;
+    container:adminUnit [ ns2:relation <http://www.iana.org/assignments/relation/related> ;
             prof:hasRole icsm-admin-unit-type:locality ;
             oa:hasTarget wa-locality:thornlie ] ;
     container:bearingRotation 0e+00 .
 
 <https://www.wa-example.com/features/DP_9677> rdfs:label "DP 9677" ;
-    container:adminUnit [ ns1:relation <http://www.iana.org/assignments/relation/related> ;
+    container:adminUnit [ ns2:relation <http://www.iana.org/assignments/relation/related> ;
             prof:hasRole icsm-admin-unit-type:locality ;
             oa:hasTarget wa-locality:thornlie ] ;
     container:bearingRotation 0e+00 .
 
 <https://www.wa-example.com/features/DP_9679> rdfs:label "DP 9679" ;
-    container:adminUnit [ ns1:relation <http://www.iana.org/assignments/relation/related> ;
+    container:adminUnit [ ns2:relation <http://www.iana.org/assignments/relation/related> ;
             prof:hasRole icsm-admin-unit-type:locality ;
             oa:hasTarget wa-locality:thornlie ] ;
     container:bearingRotation 0e+00 .
@@ -104,10 +104,10 @@
             sosa:hasFeatureOfInterest <https://www.wa-example.com/features/c1853004> ;
             sosa:hasResult [ surv:distance 2.5552e+01 ] ;
             sosa:resultTime "1970-04-10" ;
-            ns2:angleAccuracyMeasure 4000 ;
-            ns2:angleType icsm-angle-type:bearing ;
-            ns2:distanceAccuracyMeasure 4000 ;
-            ns2:distanceType icsm-distance-type:ground ] ;
+            ns1:angleAccuracyMeasure 4000 ;
+            ns1:angleType icsm-angle-type:bearing ;
+            ns1:distanceAccuracyMeasure 4000 ;
+            ns1:distanceType icsm-distance-type:ground ] ;
     sosa:madeBySensor [ surv:sensorType icsm-equipment-type:t-band ] ;
     sosa:observedProperty surveyable:VectorDetermination ;
     sosa:resultTime "1970-04-10" ;

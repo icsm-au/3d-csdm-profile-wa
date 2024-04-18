@@ -53,10 +53,10 @@
     parcel:appellation [ rdfs:label "Lot 3 DP 214866" ;
             dcterms:hasPart [ rdfs:label "3" ;
                     commonpatterns:namePartType "ParcelIdentifier" ],
-                [ rdfs:label "Lot" ;
-                    commonpatterns:namePartType "ParcelType" ],
                 [ rdfs:label "DP" ;
                     commonpatterns:namePartType "PlanType" ],
+                [ rdfs:label "Lot" ;
+                    commonpatterns:namePartType "ParcelType" ],
                 [ rdfs:label "214866" ;
                     commonpatterns:namePartType "planIdentifier" ] ] ;
     parcel:interest [ parcel:interestLink <https://www.wa-example.com/features/LR-3150-715> ;
@@ -73,12 +73,12 @@
     parcel:appellation [ rdfs:label "Area H DP 95092" ;
             dcterms:hasPart [ rdfs:label "Area" ;
                     commonpatterns:namePartType "ParcelType" ],
-                [ rdfs:label "95092" ;
-                    commonpatterns:namePartType "planIdentifier" ],
+                [ rdfs:label "H" ;
+                    commonpatterns:namePartType "ParcelIdentifier" ],
                 [ rdfs:label "DP" ;
                     commonpatterns:namePartType "PlanType" ],
-                [ rdfs:label "H" ;
-                    commonpatterns:namePartType "ParcelIdentifier" ] ] ;
+                [ rdfs:label "95092" ;
+                    commonpatterns:namePartType "planIdentifier" ] ] ;
     parcel:interest [ parcel:burdened "11636634" ;
             parcel:interestLink <https://www.wa-example.com/features/345-098-456> ;
             parcel:interestType wa-interest-type:res-cov-cta-38-reg-54-conserv ] ;

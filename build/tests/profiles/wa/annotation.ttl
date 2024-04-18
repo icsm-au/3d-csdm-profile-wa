@@ -25,10 +25,10 @@
             prof:hasRole icsm-admin-unit-type:locality ;
             oa:hasTarget wa-locality:marble-bar ] ;
     container:annotations [ prof:hasRole wa-annotation-role:unsurveyed-dimensions ],
-        [ prof:hasRole wa-annotation-role:parcel-derived ],
         [ prof:hasRole wa-annotation-role:public-acquisition ],
         [ prof:hasRole wa-annotation-role:transfer-of-land-exempt ],
-        [ prof:hasRole wa-annotation-role:total-area ] ;
+        [ prof:hasRole wa-annotation-role:total-area ],
+        [ prof:hasRole wa-annotation-role:parcel-derived ] ;
     container:bearingRotation 0e+00 ;
     container:horizontalCRS epsg:7850 ;
     container:purpose wa-survey-purpose:acquisition ;

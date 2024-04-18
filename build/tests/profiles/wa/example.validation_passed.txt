@@ -1,5 +1,5 @@
 Validation report for icsm.profiles.wa - Western Australia Cadastral Survey Data Exchange Profile
-Generated 2024-04-18T04:12:50.289408+00:00
+Generated 2024-04-18T05:51:11.263691+00:00
 === Files ===
 Using example (example_1_1) from examples
 JSON-LD context is present - uplifting
@@ -19,13 +19,6 @@ Validation result for profiles/wa-pointnames-shacl.ttl:
 Focus nodes for profiles/wa-pointnames-shacl.ttl:
  - Shape wap:testLabelPartsPresent: *none*
 
-Validation result for https://icsm-au.github.io/3d-csdm-profile-icsm/profiles/icsm-references-shacl.ttl:
-  Validation Report
-  Conforms: True
-  
-Focus nodes for https://icsm-au.github.io/3d-csdm-profile-icsm/profiles/icsm-references-shacl.ttl:
- - Shape :referencedCSDs-present: *none*
-
 Validation result for https://icsm-au.github.io/3d-csdm-profile-icsm/profiles/icsm-parcel-codetypes-shacl.ttl:
   Validation Report
   Conforms: True
@@ -34,40 +27,47 @@ Focus nodes for https://icsm-au.github.io/3d-csdm-profile-icsm/profiles/icsm-par
  - Shape jcl:testBoundVocab-parcelType: *none*
  - Shape jcl:testBoundVocab-parcelInterest: *none*
 
+Validation result for https://icsm-au.github.io/3d-csdm-profile-icsm/profiles/icsm-observation-properties.shacl:
+  Validation Report
+  Conforms: True
+  
+Focus nodes for https://icsm-au.github.io/3d-csdm-profile-icsm/profiles/icsm-observation-properties.shacl:
+ - Shape :bindSurveyObservation-angle-and-distance-types: <https://www.wa-example.com/features/vectorObservations>
+ - Shape :testInCollectionOrMember-procedure: <https://www.wa-example.com/features/vectorObservations>
+ - Shape :annotate-madeBySensor: <https://www.wa-example.com/features/vectorObservations>
+ - Shape :testInCollectionOrMember-madeBySensor-Dies-in-rdflib: *none*
+ - Shape :testInCollectionOrMember-madeBySensor: <https://www.wa-example.com/features/vectorObservations>/sosa:hasMember
+
 Validation result for https://icsm-au.github.io/3d-csdm-profile-icsm/profiles/icsm-survey-metadata-shacl.ttl:
   Validation Report
   Conforms: True
   
 Focus nodes for https://icsm-au.github.io/3d-csdm-profile-icsm/profiles/icsm-survey-metadata-shacl.ttl:
  - Shape :testCRS: <https://www.wa-example.com/features/Western-Australia-Example-1>
- - Shape :testSurveyMetadata: <https://www.wa-example.com/features/Western-Australia-Example-1>
- - Shape :testDistanceType: *none*
- - Shape :testAngleType: *none*
- - Shape :testVHD: *none*
  - Shape :testCompoundCRS: *none*
+ - Shape :testDistanceType: *none*
+ - Shape :testVHD: *none*
+ - Shape :testSurveyMetadata: <https://www.wa-example.com/features/Western-Australia-Example-1>
+ - Shape :testAngleType: *none*
 
-Validation result for https://icsm-au.github.io/3d-csdm-profile-icsm/profiles/icsm-observation-properties.shacl:
+Validation result for https://icsm-au.github.io/3d-csdm-profile-icsm/profiles/icsm-references-shacl.ttl:
   Validation Report
   Conforms: True
   
-Focus nodes for https://icsm-au.github.io/3d-csdm-profile-icsm/profiles/icsm-observation-properties.shacl:
- - Shape :testInCollectionOrMember-madeBySensor-Dies-in-rdflib: *none*
- - Shape :bindSurveyObservation-angle-and-distance-types: <https://www.wa-example.com/features/vectorObservations>
- - Shape :testInCollectionOrMember-procedure: <https://www.wa-example.com/features/vectorObservations>
- - Shape :testInCollectionOrMember-madeBySensor: <https://www.wa-example.com/features/vectorObservations>/sosa:hasMember
- - Shape :annotate-madeBySensor: <https://www.wa-example.com/features/vectorObservations>
+Focus nodes for https://icsm-au.github.io/3d-csdm-profile-icsm/profiles/icsm-references-shacl.ttl:
+ - Shape :referencedCSDs-present: *none*
 
 Validation result for https://icsm-au.github.io/3d-csdm-profile-icsm/profiles/icsm-point-codetypes-shacl.ttl:
   Validation Report
   Conforms: True
   
 Focus nodes for https://icsm-au.github.io/3d-csdm-profile-icsm/profiles/icsm-point-codetypes-shacl.ttl:
- - Shape jcl:testBoundVocab-condition: <https://www.wa-example.com/features/14005391>/surv:monumentedBy,<https://www.wa-example.com/features/14005400>/surv:monumentedBy,<https://www.wa-example.com/features/15432571>/surv:monumentedBy,<https://www.wa-example.com/features/14005401>/surv:monumentedBy
- - Shape jcl:testBoundVocab-form: <https://www.wa-example.com/features/14005391>/surv:monumentedBy,<https://www.wa-example.com/features/14005400>/surv:monumentedBy,<https://www.wa-example.com/features/15432571>/surv:monumentedBy,<https://www.wa-example.com/features/14005401>/surv:monumentedBy
- - Shape jcl:testBoundVocab-surveypoint-purpose: <https://www.wa-example.com/features/14005400>,<https://www.wa-example.com/features/15432571>,<https://www.wa-example.com/features/14005391>,<https://www.wa-example.com/features/14005401>
- - Shape jcl:testBoundVocab-pt-quality-class: <https://www.wa-example.com/features/14005400>,<https://www.wa-example.com/features/15432571>,<https://www.wa-example.com/features/14005391>,<https://www.wa-example.com/features/14005401>
  - Shape jcl:testBoundVocab-vector-purpose: <https://www.wa-example.com/features/observedVectors>
- - Shape jcl:testBoundVocab-state: <https://www.wa-example.com/features/14005391>/surv:monumentedBy,<https://www.wa-example.com/features/14005400>/surv:monumentedBy,<https://www.wa-example.com/features/15432571>/surv:monumentedBy,<https://www.wa-example.com/features/14005401>/surv:monumentedBy
+ - Shape jcl:testBoundVocab-surveypoint-purpose: <https://www.wa-example.com/features/14005401>,<https://www.wa-example.com/features/14005391>,<https://www.wa-example.com/features/15432571>,<https://www.wa-example.com/features/14005400>
+ - Shape jcl:testBoundVocab-form: <https://www.wa-example.com/features/14005401>/surv:monumentedBy,<https://www.wa-example.com/features/14005391>/surv:monumentedBy,<https://www.wa-example.com/features/15432571>/surv:monumentedBy,<https://www.wa-example.com/features/14005400>/surv:monumentedBy
+ - Shape jcl:testBoundVocab-condition: <https://www.wa-example.com/features/14005401>/surv:monumentedBy,<https://www.wa-example.com/features/14005391>/surv:monumentedBy,<https://www.wa-example.com/features/15432571>/surv:monumentedBy,<https://www.wa-example.com/features/14005400>/surv:monumentedBy
+ - Shape jcl:testBoundVocab-pt-quality-class: <https://www.wa-example.com/features/14005401>,<https://www.wa-example.com/features/14005391>,<https://www.wa-example.com/features/15432571>,<https://www.wa-example.com/features/14005400>
+ - Shape jcl:testBoundVocab-state: <https://www.wa-example.com/features/14005401>/surv:monumentedBy,<https://www.wa-example.com/features/14005391>/surv:monumentedBy,<https://www.wa-example.com/features/15432571>/surv:monumentedBy,<https://www.wa-example.com/features/14005400>/surv:monumentedBy
 
 === End SHACL ===
 

@@ -1,5 +1,5 @@
 Validation report for icsm.profiles.wa - Western Australia Cadastral Survey Data Exchange Profile
-Generated 2024-04-18T04:12:46.753609+00:00
+Generated 2024-04-18T05:51:07.450556+00:00
 === General ===
 
 ** Validation error **
@@ -25,13 +25,6 @@ Validation result for profiles/wa-pointnames-shacl.ttl:
 Focus nodes for profiles/wa-pointnames-shacl.ttl:
  - Shape wap:testLabelPartsPresent: *none*
 
-Validation result for https://icsm-au.github.io/3d-csdm-profile-icsm/profiles/icsm-references-shacl.ttl:
-  Validation Report
-  Conforms: True
-  
-Focus nodes for https://icsm-au.github.io/3d-csdm-profile-icsm/profiles/icsm-references-shacl.ttl:
- - Shape :referencedCSDs-present: *none*
-
 Validation result for https://icsm-au.github.io/3d-csdm-profile-icsm/profiles/icsm-parcel-codetypes-shacl.ttl:
   Validation Report
   Conforms: True
@@ -40,40 +33,47 @@ Focus nodes for https://icsm-au.github.io/3d-csdm-profile-icsm/profiles/icsm-par
  - Shape jcl:testBoundVocab-parcelType: *none*
  - Shape jcl:testBoundVocab-parcelInterest: *none*
 
+Validation result for https://icsm-au.github.io/3d-csdm-profile-icsm/profiles/icsm-observation-properties.shacl:
+  Validation Report
+  Conforms: True
+  
+Focus nodes for https://icsm-au.github.io/3d-csdm-profile-icsm/profiles/icsm-observation-properties.shacl:
+ - Shape :bindSurveyObservation-angle-and-distance-types: <vectorobservation:computed>/sosa:hasMember,<vectorobservation:computed>/sosa:hasMember,<vectorobservation:computed>/sosa:hasMember,<vectorobservation:computed>/sosa:hasMember,<vectorobservation:computed>/sosa:hasMember,<vectorobservation:computed>/sosa:hasMember,<vectorobservation:computed>/sosa:hasMember,<vectorobservation:computed>/sosa:hasMember,<vectorobservation:computed>/sosa:hasMember,<vectorobservation:computed>/sosa:hasMember,<vectorobservation:computed>/sosa:hasMember,<vectorobservation:computed>/sosa:hasMember
+ - Shape :testInCollectionOrMember-procedure: <vectorobservation:computed>
+ - Shape :annotate-madeBySensor: <vectorobservation:computed>
+ - Shape :testInCollectionOrMember-madeBySensor-Dies-in-rdflib: *none*
+ - Shape :testInCollectionOrMember-madeBySensor: <vectorobservation:computed>/sosa:hasMember,<vectorobservation:computed>/sosa:hasMember,<vectorobservation:computed>/sosa:hasMember,<vectorobservation:computed>/sosa:hasMember,<vectorobservation:computed>/sosa:hasMember,<vectorobservation:computed>/sosa:hasMember,<vectorobservation:computed>/sosa:hasMember,<vectorobservation:computed>/sosa:hasMember,<vectorobservation:computed>/sosa:hasMember,<vectorobservation:computed>/sosa:hasMember,<vectorobservation:computed>/sosa:hasMember,<vectorobservation:computed>/sosa:hasMember
+
 Validation result for https://icsm-au.github.io/3d-csdm-profile-icsm/profiles/icsm-survey-metadata-shacl.ttl:
   Validation Report
   Conforms: True
   
 Focus nodes for https://icsm-au.github.io/3d-csdm-profile-icsm/profiles/icsm-survey-metadata-shacl.ttl:
  - Shape :testCRS: <file:///github/workspace/DP_422532>
- - Shape :testSurveyMetadata: <file:///github/workspace/DP_422532>
- - Shape :testDistanceType: *none*
- - Shape :testAngleType: *none*
- - Shape :testVHD: *none*
  - Shape :testCompoundCRS: *none*
+ - Shape :testDistanceType: *none*
+ - Shape :testVHD: *none*
+ - Shape :testSurveyMetadata: <file:///github/workspace/DP_422532>
+ - Shape :testAngleType: *none*
 
-Validation result for https://icsm-au.github.io/3d-csdm-profile-icsm/profiles/icsm-observation-properties.shacl:
+Validation result for https://icsm-au.github.io/3d-csdm-profile-icsm/profiles/icsm-references-shacl.ttl:
   Validation Report
   Conforms: True
   
-Focus nodes for https://icsm-au.github.io/3d-csdm-profile-icsm/profiles/icsm-observation-properties.shacl:
- - Shape :testInCollectionOrMember-madeBySensor-Dies-in-rdflib: *none*
- - Shape :bindSurveyObservation-angle-and-distance-types: <vectorobservation:computed>/sosa:hasMember,<vectorobservation:computed>/sosa:hasMember,<vectorobservation:computed>/sosa:hasMember,<vectorobservation:computed>/sosa:hasMember,<vectorobservation:computed>/sosa:hasMember,<vectorobservation:computed>/sosa:hasMember,<vectorobservation:computed>/sosa:hasMember,<vectorobservation:computed>/sosa:hasMember,<vectorobservation:computed>/sosa:hasMember,<vectorobservation:computed>/sosa:hasMember,<vectorobservation:computed>/sosa:hasMember,<vectorobservation:computed>/sosa:hasMember
- - Shape :testInCollectionOrMember-procedure: <vectorobservation:computed>
- - Shape :testInCollectionOrMember-madeBySensor: <vectorobservation:computed>/sosa:hasMember,<vectorobservation:computed>/sosa:hasMember,<vectorobservation:computed>/sosa:hasMember,<vectorobservation:computed>/sosa:hasMember,<vectorobservation:computed>/sosa:hasMember,<vectorobservation:computed>/sosa:hasMember,<vectorobservation:computed>/sosa:hasMember,<vectorobservation:computed>/sosa:hasMember,<vectorobservation:computed>/sosa:hasMember,<vectorobservation:computed>/sosa:hasMember,<vectorobservation:computed>/sosa:hasMember,<vectorobservation:computed>/sosa:hasMember
- - Shape :annotate-madeBySensor: <vectorobservation:computed>
+Focus nodes for https://icsm-au.github.io/3d-csdm-profile-icsm/profiles/icsm-references-shacl.ttl:
+ - Shape :referencedCSDs-present: *none*
 
 Validation result for https://icsm-au.github.io/3d-csdm-profile-icsm/profiles/icsm-point-codetypes-shacl.ttl:
   Validation Report
   Conforms: True
   
 Focus nodes for https://icsm-au.github.io/3d-csdm-profile-icsm/profiles/icsm-point-codetypes-shacl.ttl:
- - Shape jcl:testBoundVocab-condition: <file:///github/workspace/196>/surv:monumentedBy,<file:///github/workspace/190>/surv:monumentedBy,<file:///github/workspace/189>/surv:monumentedBy,<file:///github/workspace/197>/surv:monumentedBy,<file:///github/workspace/198>/surv:monumentedBy,<file:///github/workspace/184>/surv:monumentedBy
- - Shape jcl:testBoundVocab-form: <file:///github/workspace/196>/surv:monumentedBy,<file:///github/workspace/190>/surv:monumentedBy,<file:///github/workspace/189>/surv:monumentedBy,<file:///github/workspace/197>/surv:monumentedBy,<file:///github/workspace/198>/surv:monumentedBy,<file:///github/workspace/184>/surv:monumentedBy
- - Shape jcl:testBoundVocab-surveypoint-purpose: <file:///github/workspace/184>,<file:///github/workspace/198>,<file:///github/workspace/197>,<file:///github/workspace/190>,<file:///github/workspace/196>,<file:///github/workspace/189>
- - Shape jcl:testBoundVocab-pt-quality-class: <file:///github/workspace/184>,<file:///github/workspace/198>,<file:///github/workspace/197>,<file:///github/workspace/190>,<file:///github/workspace/196>,<file:///github/workspace/189>
  - Shape jcl:testBoundVocab-vector-purpose: <file:///github/workspace/SubtendedAngle>,<file:///github/workspace/observedVectors>
- - Shape jcl:testBoundVocab-state: <file:///github/workspace/196>/surv:monumentedBy,<file:///github/workspace/190>/surv:monumentedBy,<file:///github/workspace/189>/surv:monumentedBy,<file:///github/workspace/197>/surv:monumentedBy,<file:///github/workspace/198>/surv:monumentedBy,<file:///github/workspace/184>/surv:monumentedBy
+ - Shape jcl:testBoundVocab-surveypoint-purpose: <file:///github/workspace/196>,<file:///github/workspace/190>,<file:///github/workspace/198>,<file:///github/workspace/189>,<file:///github/workspace/197>,<file:///github/workspace/184>
+ - Shape jcl:testBoundVocab-form: <file:///github/workspace/197>/surv:monumentedBy,<file:///github/workspace/184>/surv:monumentedBy,<file:///github/workspace/198>/surv:monumentedBy,<file:///github/workspace/196>/surv:monumentedBy,<file:///github/workspace/190>/surv:monumentedBy,<file:///github/workspace/189>/surv:monumentedBy
+ - Shape jcl:testBoundVocab-condition: <file:///github/workspace/197>/surv:monumentedBy,<file:///github/workspace/184>/surv:monumentedBy,<file:///github/workspace/198>/surv:monumentedBy,<file:///github/workspace/196>/surv:monumentedBy,<file:///github/workspace/190>/surv:monumentedBy,<file:///github/workspace/189>/surv:monumentedBy
+ - Shape jcl:testBoundVocab-pt-quality-class: <file:///github/workspace/196>,<file:///github/workspace/190>,<file:///github/workspace/198>,<file:///github/workspace/189>,<file:///github/workspace/197>,<file:///github/workspace/184>
+ - Shape jcl:testBoundVocab-state: <file:///github/workspace/197>/surv:monumentedBy,<file:///github/workspace/184>/surv:monumentedBy,<file:///github/workspace/198>/surv:monumentedBy,<file:///github/workspace/196>/surv:monumentedBy,<file:///github/workspace/190>/surv:monumentedBy,<file:///github/workspace/189>/surv:monumentedBy
 
 === End SHACL ===
 

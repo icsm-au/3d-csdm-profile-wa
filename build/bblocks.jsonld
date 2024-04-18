@@ -1,7 +1,7 @@
 {
   "@context": [
     {
-      "@base": "https://raw.githubusercontent.com/icsm-au/3d-csdm-profile-wa/main"
+      "@base": "https://icsm-au.github.io/3d-csdm-profile-wa"
     },
     {
       "bblocks": "https://www.opengis.net/def/bblocks/",
@@ -106,7 +106,7 @@
   "name": "Building Blocks - WA Implementation Profile for 3D CSDM",
   "abstract": "This repository contains the WA profile of the [Cadastral Survey Data Model Exchange Specification](https://icsm-au.github.io/3d-csdm-common/), extending the  [common ICSM profile](https://icsm-au.github.io/3d-csdm-profile/icsm/).\n \n",
   "description": "\nThe encoding specification and all profiles are compatible with the [OGC API Features](https://opengeospatial.github.io/e-learning/ogcapi-features/text/basic-main.html) data exchange specification, and can thus be implemented by any standards compliant software capable of handling nested object sub-schemas and control of codelist in content.\n\nProfiles are defined in a consistent, machine-readable and validatable way using the [OGC Building Blocks methodology](https://ogcincubator.github.io/bblocks-docs/).\n",
-  "modified": "2024-04-18T04:11:52.291920",
+  "modified": "2024-04-18T05:50:01.959420",
   "tooling": {
     "bblocks-postprocess": {
       "commitId": "\"e4a611ba98dc47cf5ffb659b73d79151289b1133",
@@ -116,9 +116,9 @@
   },
   "gitRepository": "https://github.com/icsm-au/3d-csdm-profile-wa",
   "gitHubRepository": "https://github.com/icsm-au/3d-csdm-profile-wa/blob/main/",
-  "baseURL": "https://raw.githubusercontent.com/icsm-au/3d-csdm-profile-wa/main/",
-  "viewerURL": "https://raw.githubusercontent.com/icsm-au/3d-csdm-profile-wa/main/",
-  "validationReport": "https://raw.githubusercontent.com/icsm-au/3d-csdm-profile-wa/main/build/tests/report.html",
+  "baseURL": "https://icsm-au.github.io/3d-csdm-profile-wa/",
+  "viewerURL": "https://icsm-au.github.io/3d-csdm-profile-wa/",
+  "validationReport": "https://icsm-au.github.io/3d-csdm-profile-wa/build/tests/report.html",
   "imports": [
     "https://opengeospatial.github.io/bblocks/register.json",
     "https://icsm-au.github.io/3d-csdm-common/build/register.json",
@@ -162,13 +162,13 @@
       "superBBlock": false,
       "shaclRules": {
         "icsm.profiles.wa": [
-          "https://raw.githubusercontent.com/icsm-au/3d-csdm-profile-wa/main/profiles/wa-pointnames-shacl.ttl"
+          "https://icsm-au.github.io/3d-csdm-profile-wa/profiles/wa-pointnames-shacl.ttl"
         ],
         "icsm.profiles.common": [
           "https://icsm-au.github.io/3d-csdm-profile-icsm/profiles/icsm-references-shacl.ttl",
           "https://icsm-au.github.io/3d-csdm-profile-icsm/profiles/icsm-parcel-codetypes-shacl.ttl",
-          "https://icsm-au.github.io/3d-csdm-profile-icsm/profiles/icsm-survey-metadata-shacl.ttl",
           "https://icsm-au.github.io/3d-csdm-profile-icsm/profiles/icsm-observation-properties.shacl",
+          "https://icsm-au.github.io/3d-csdm-profile-icsm/profiles/icsm-survey-metadata-shacl.ttl",
           "https://icsm-au.github.io/3d-csdm-profile-icsm/profiles/icsm-point-codetypes-shacl.ttl"
         ]
       },
@@ -199,32 +199,32 @@
       "dependsOn": [
         "icsm.profiles.common"
       ],
-      "ldContext": "https://raw.githubusercontent.com/icsm-au/3d-csdm-profile-wa/main/build/annotated/profiles/wa/context.jsonld",
+      "ldContext": "https://icsm-au.github.io/3d-csdm-profile-wa/build/annotated/profiles/wa/context.jsonld",
       "schema": {
-        "application/yaml": "https://raw.githubusercontent.com/icsm-au/3d-csdm-profile-wa/main/build/annotated/profiles/wa/schema.yaml",
-        "application/json": "https://raw.githubusercontent.com/icsm-au/3d-csdm-profile-wa/main/build/annotated/profiles/wa/schema.json"
+        "application/yaml": "https://icsm-au.github.io/3d-csdm-profile-wa/build/annotated/profiles/wa/schema.yaml",
+        "application/json": "https://icsm-au.github.io/3d-csdm-profile-wa/build/annotated/profiles/wa/schema.json"
       },
-      "sourceSchema": "https://raw.githubusercontent.com/icsm-au/3d-csdm-profile-wa/main/_sources/wa/schema.json",
-      "sourceLdContext": "https://raw.githubusercontent.com/icsm-au/3d-csdm-profile-wa/main/_sources/wa/context.jsonld",
-      "sourceFiles": "https://raw.githubusercontent.com/icsm-au/3d-csdm-profile-wa/main/_sources/wa/",
+      "sourceSchema": "https://icsm-au.github.io/3d-csdm-profile-wa/_sources/wa/schema.json",
+      "sourceLdContext": "https://icsm-au.github.io/3d-csdm-profile-wa/_sources/wa/context.jsonld",
+      "sourceFiles": "https://icsm-au.github.io/3d-csdm-profile-wa/_sources/wa/",
       "validationPassed": false,
       "testOutputs": "https://github.com/icsm-au/3d-csdm-profile-wa/blob/main/build/tests/profiles/wa/",
       "documentation": {
         "json-full": {
           "mediatype": "application/json",
-          "url": "https://raw.githubusercontent.com/icsm-au/3d-csdm-profile-wa/main/build/generateddocs/json-full/profiles/wa/index.json"
+          "url": "https://icsm-au.github.io/3d-csdm-profile-wa/build/generateddocs/json-full/profiles/wa/index.json"
         },
         "markdown": {
           "mediatype": "text/markdown",
-          "url": "https://raw.githubusercontent.com/icsm-au/3d-csdm-profile-wa/main/build/generateddocs/markdown/profiles/wa/index.md"
+          "url": "https://icsm-au.github.io/3d-csdm-profile-wa/build/generateddocs/markdown/profiles/wa/index.md"
         },
         "slate": {
           "mediatype": "text/html",
-          "url": "https://raw.githubusercontent.com/icsm-au/3d-csdm-profile-wa/main/build/generateddocs/slate-build/profiles/wa/"
+          "url": "https://icsm-au.github.io/3d-csdm-profile-wa/build/generateddocs/slate-build/profiles/wa/"
         },
         "bblocks-viewer": {
           "mediatype": "text/html",
-          "url": "https://raw.githubusercontent.com/icsm-au/3d-csdm-profile-wa/main/bblock/icsm.profiles.wa"
+          "url": "https://icsm-au.github.io/3d-csdm-profile-wa/bblock/icsm.profiles.wa"
         }
       },
       "@type": [

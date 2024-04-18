@@ -662,5 +662,5 @@
   ],
   "supportingDocuments": [],
   "annotations": [],
-  "@context": "https://raw.githubusercontent.com/icsm-au/3d-csdm-profile-wa/main/build/annotated/profiles/wa/context.jsonld"
+  "@context": "https://icsm-au.github.io/3d-csdm-profile-wa/build/annotated/profiles/wa/context.jsonld"
 }

@@ -17,14 +17,30 @@
 <file:///github/workspace/DP_422532> a container:CSD,
         geojson:FeatureCollection ;
     rdfs:label "DP 422532" ;
-    dct:provenance [ a <file:///github/workspace/plan-registered> ;
-            prov:endedAtTime "2023-07-25T10:34:23+00:00"^^xsd:dateTime ;
-            prov:generated <file:///github/workspace/LT_59874_v4> ;
-            prov:startedAtTime "2023-07-24T16:28:09+00:00"^^xsd:dateTime ;
+    dct:provenance [ a <file:///github/workspace/certification-of-field-record> ;
+            prov:endedAtTime "2023-07-11T12:05:20+00:00"^^xsd:dateTime ;
+            prov:generated <file:///github/workspace/LT_59874> ;
+            prov:startedAtTime "2023-07-11T12:02:02+00:00"^^xsd:dateTime ;
             prov:wasAssociatedWith [ a prov:Person ;
-                    rdfs:label "Technical Examiner Ted" ;
+                    rdfs:label "Sam Surveyor" ;
+                    prov:actedOnBehalfOf [ a prov:Organization ;
+                            rdfs:label "Sam the Surveyor Ltd" ] ] ],
+        [ a <file:///github/workspace/plan-in-order-for-dealing> ;
+            prov:endedAtTime "2023-07-24T16:28:09+00:00"^^xsd:dateTime ;
+            prov:generated <file:///github/workspace/LT_59874_v3> ;
+            prov:startedAtTime "2023-07-24T16:15:28+00:00"^^xsd:dateTime ;
+            prov:wasAssociatedWith [ a prov:Person ;
+                    rdfs:label "Colin the Conveyancer" ;
                     prov:actedOnBehalfOf [ a prov:Organization ;
                             rdfs:label "Landgate" ] ] ],
+        [ a <file:///github/workspace/certification-of-survey-plan> ;
+            prov:endedAtTime "2023-07-17T11:43:12+00:00"^^xsd:dateTime ;
+            prov:generated <file:///github/workspace/LT_59874> ;
+            prov:startedAtTime "2023-07-14T16:05:20+00:00"^^xsd:dateTime ;
+            prov:wasAssociatedWith [ a prov:Person ;
+                    rdfs:label "Sam Surveyor" ;
+                    prov:actedOnBehalfOf [ a prov:Organization ;
+                            rdfs:label "Sam the Surveyor Ltd" ] ] ],
         [ a <file:///github/workspace/digital-file-created> ;
             prov:endedAtTime "2023-07-25T10:34:23+00:00"^^xsd:dateTime ;
             prov:generated <file:///github/workspace/LT_59874_v4> ;
@@ -33,7 +49,39 @@
                     rdfs:label "Sam Surveyor" ;
                     prov:actedOnBehalfOf [ a prov:Organization ;
                             rdfs:label "Sam the Surveyor Ltd" ] ] ],
-        [ a <file:///github/workspace/certification-of-field-record> ;
+        [ a <file:///github/workspace/plan-registered> ;
+            prov:endedAtTime "2023-07-25T10:34:23+00:00"^^xsd:dateTime ;
+            prov:generated <file:///github/workspace/LT_59874_v4> ;
+            prov:startedAtTime "2023-07-24T16:28:09+00:00"^^xsd:dateTime ;
+            prov:wasAssociatedWith [ a prov:Person ;
+                    rdfs:label "Technical Examiner Ted" ;
+                    prov:actedOnBehalfOf [ a prov:Organization ;
+                            rdfs:label "Landgate" ] ] ],
+        [ a <file:///github/workspace/plan-examined> ;
+            prov:endedAtTime "2023-07-24T16:15:28+00:00"^^xsd:dateTime ;
+            prov:generated <file:///github/workspace/LT_59874_v2> ;
+            prov:startedAtTime "2023-07-20T16:56:03+00:00"^^xsd:dateTime ;
+            prov:wasAssociatedWith [ a prov:Person ;
+                    rdfs:label "Technical Examiner Ted" ;
+                    prov:actedOnBehalfOf [ a prov:Organization ;
+                            rdfs:label "Landgate" ] ] ],
+        [ a <file:///github/workspace/planning-approval-obtained> ;
+            prov:endedAtTime "2023-08-23T14:16:53+00:00"^^xsd:dateTime ;
+            prov:generated <file:///github/workspace/LT_59874_v3> ;
+            prov:startedAtTime "2023-07-26T08:36:33+00:00"^^xsd:dateTime ;
+            prov:wasAssociatedWith [ a prov:Person ;
+                    rdfs:label "Planner Pete" ;
+                    prov:actedOnBehalfOf [ a prov:Organization ;
+                            rdfs:label "City of Bayswater" ] ] ],
+        [ a <file:///github/workspace/plan-lodged> ;
+            prov:endedAtTime "2023-07-20T16:56:03+00:00"^^xsd:dateTime ;
+            prov:generated <file:///github/workspace/LT_59874> ;
+            prov:startedAtTime "2023-07-17T11:43:12+00:00"^^xsd:dateTime ;
+            prov:wasAssociatedWith [ a prov:Person ;
+                    rdfs:label "Chief Examiner Ed" ;
+                    prov:actedOnBehalfOf [ a prov:Organization ;
+                            rdfs:label "Landgate" ] ] ],
+        [ a <file:///github/workspace/date-of-field-work> ;
             prov:endedAtTime "2023-07-11T12:05:20+00:00"^^xsd:dateTime ;
             prov:generated <file:///github/workspace/LT_59874> ;
             prov:startedAtTime "2023-07-11T12:02:02+00:00"^^xsd:dateTime ;
@@ -49,59 +97,11 @@
                     rdfs:label "Chief Examiner Ed" ;
                     prov:actedOnBehalfOf [ a prov:Organization ;
                             rdfs:label "Landgate" ] ] ],
-        [ a <file:///github/workspace/plan-in-order-for-dealing> ;
-            prov:endedAtTime "2023-07-24T16:28:09+00:00"^^xsd:dateTime ;
-            prov:generated <file:///github/workspace/LT_59874_v3> ;
-            prov:startedAtTime "2023-07-24T16:15:28+00:00"^^xsd:dateTime ;
-            prov:wasAssociatedWith [ a prov:Person ;
-                    rdfs:label "Colin the Conveyancer" ;
-                    prov:actedOnBehalfOf [ a prov:Organization ;
-                            rdfs:label "Landgate" ] ] ],
         [ a <file:///github/workspace/Approved> ;
             prov:generated <file:///github/workspace/LT_59874_v4> ;
             prov:startedAtTime "2023-09-13T10:46:08+00:00"^^xsd:dateTime ;
             prov:wasAssociatedWith [ a prov:Person ;
                     rdfs:label "Colin the Conveyancer" ;
-                    prov:actedOnBehalfOf [ a prov:Organization ;
-                            rdfs:label "Landgate" ] ] ],
-        [ a <file:///github/workspace/date-of-field-work> ;
-            prov:endedAtTime "2023-07-11T12:05:20+00:00"^^xsd:dateTime ;
-            prov:generated <file:///github/workspace/LT_59874> ;
-            prov:startedAtTime "2023-07-11T12:02:02+00:00"^^xsd:dateTime ;
-            prov:wasAssociatedWith [ a prov:Person ;
-                    rdfs:label "Sam Surveyor" ;
-                    prov:actedOnBehalfOf [ a prov:Organization ;
-                            rdfs:label "Sam the Surveyor Ltd" ] ] ],
-        [ a <file:///github/workspace/certification-of-survey-plan> ;
-            prov:endedAtTime "2023-07-17T11:43:12+00:00"^^xsd:dateTime ;
-            prov:generated <file:///github/workspace/LT_59874> ;
-            prov:startedAtTime "2023-07-14T16:05:20+00:00"^^xsd:dateTime ;
-            prov:wasAssociatedWith [ a prov:Person ;
-                    rdfs:label "Sam Surveyor" ;
-                    prov:actedOnBehalfOf [ a prov:Organization ;
-                            rdfs:label "Sam the Surveyor Ltd" ] ] ],
-        [ a <file:///github/workspace/planning-approval-obtained> ;
-            prov:endedAtTime "2023-08-23T14:16:53+00:00"^^xsd:dateTime ;
-            prov:generated <file:///github/workspace/LT_59874_v3> ;
-            prov:startedAtTime "2023-07-26T08:36:33+00:00"^^xsd:dateTime ;
-            prov:wasAssociatedWith [ a prov:Person ;
-                    rdfs:label "Planner Pete" ;
-                    prov:actedOnBehalfOf [ a prov:Organization ;
-                            rdfs:label "City of Bayswater" ] ] ],
-        [ a <file:///github/workspace/plan-examined> ;
-            prov:endedAtTime "2023-07-24T16:15:28+00:00"^^xsd:dateTime ;
-            prov:generated <file:///github/workspace/LT_59874_v2> ;
-            prov:startedAtTime "2023-07-20T16:56:03+00:00"^^xsd:dateTime ;
-            prov:wasAssociatedWith [ a prov:Person ;
-                    rdfs:label "Technical Examiner Ted" ;
-                    prov:actedOnBehalfOf [ a prov:Organization ;
-                            rdfs:label "Landgate" ] ] ],
-        [ a <file:///github/workspace/plan-lodged> ;
-            prov:endedAtTime "2023-07-20T16:56:03+00:00"^^xsd:dateTime ;
-            prov:generated <file:///github/workspace/LT_59874> ;
-            prov:startedAtTime "2023-07-17T11:43:12+00:00"^^xsd:dateTime ;
-            prov:wasAssociatedWith [ a prov:Person ;
-                    rdfs:label "Chief Examiner Ed" ;
                     prov:actedOnBehalfOf [ a prov:Organization ;
                             rdfs:label "Landgate" ] ] ] ;
     container:adminUnit [ ns1:relation <http://www.iana.org/assignments/relation/related> ;

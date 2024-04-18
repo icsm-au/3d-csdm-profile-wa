@@ -1,5 +1,5 @@
 Validation report for icsm.profiles.wa - Western Australia Cadastral Survey Data Exchange Profile
-Generated 2024-04-18T04:13:06.767557+00:00
+Generated 2024-04-18T05:51:29.823520+00:00
 === Files ===
 Using circle-parcel (example_10_1) from examples
 JSON-LD context is present - uplifting
@@ -19,13 +19,6 @@ Validation result for profiles/wa-pointnames-shacl.ttl:
 Focus nodes for profiles/wa-pointnames-shacl.ttl:
  - Shape wap:testLabelPartsPresent: *none*
 
-Validation result for https://icsm-au.github.io/3d-csdm-profile-icsm/profiles/icsm-references-shacl.ttl:
-  Validation Report
-  Conforms: True
-  
-Focus nodes for https://icsm-au.github.io/3d-csdm-profile-icsm/profiles/icsm-references-shacl.ttl:
- - Shape :referencedCSDs-present: *none*
-
 Validation result for https://icsm-au.github.io/3d-csdm-profile-icsm/profiles/icsm-parcel-codetypes-shacl.ttl:
   Validation Report
   Conforms: True
@@ -34,40 +27,47 @@ Focus nodes for https://icsm-au.github.io/3d-csdm-profile-icsm/profiles/icsm-par
  - Shape jcl:testBoundVocab-parcelType: *none*
  - Shape jcl:testBoundVocab-parcelInterest: <https://www.wa-example.com/features/11636634>/parcel:interest,<https://www.wa-example.com/features/12595541>/parcel:interest
 
+Validation result for https://icsm-au.github.io/3d-csdm-profile-icsm/profiles/icsm-observation-properties.shacl:
+  Validation Report
+  Conforms: True
+  
+Focus nodes for https://icsm-au.github.io/3d-csdm-profile-icsm/profiles/icsm-observation-properties.shacl:
+ - Shape :bindSurveyObservation-angle-and-distance-types: *none*
+ - Shape :testInCollectionOrMember-procedure: *none*
+ - Shape :annotate-madeBySensor: *none*
+ - Shape :testInCollectionOrMember-madeBySensor-Dies-in-rdflib: *none*
+ - Shape :testInCollectionOrMember-madeBySensor: *none*
+
 Validation result for https://icsm-au.github.io/3d-csdm-profile-icsm/profiles/icsm-survey-metadata-shacl.ttl:
   Validation Report
   Conforms: True
   
 Focus nodes for https://icsm-au.github.io/3d-csdm-profile-icsm/profiles/icsm-survey-metadata-shacl.ttl:
  - Shape :testCRS: <https://www.wa-example.com/features/DP_423693>
- - Shape :testSurveyMetadata: <https://www.wa-example.com/features/DP_423693>
- - Shape :testDistanceType: *none*
- - Shape :testAngleType: *none*
- - Shape :testVHD: *none*
  - Shape :testCompoundCRS: *none*
+ - Shape :testDistanceType: *none*
+ - Shape :testVHD: *none*
+ - Shape :testSurveyMetadata: <https://www.wa-example.com/features/DP_423693>
+ - Shape :testAngleType: *none*
 
-Validation result for https://icsm-au.github.io/3d-csdm-profile-icsm/profiles/icsm-observation-properties.shacl:
+Validation result for https://icsm-au.github.io/3d-csdm-profile-icsm/profiles/icsm-references-shacl.ttl:
   Validation Report
   Conforms: True
   
-Focus nodes for https://icsm-au.github.io/3d-csdm-profile-icsm/profiles/icsm-observation-properties.shacl:
- - Shape :testInCollectionOrMember-madeBySensor-Dies-in-rdflib: *none*
- - Shape :bindSurveyObservation-angle-and-distance-types: *none*
- - Shape :testInCollectionOrMember-procedure: *none*
- - Shape :testInCollectionOrMember-madeBySensor: *none*
- - Shape :annotate-madeBySensor: *none*
+Focus nodes for https://icsm-au.github.io/3d-csdm-profile-icsm/profiles/icsm-references-shacl.ttl:
+ - Shape :referencedCSDs-present: *none*
 
 Validation result for https://icsm-au.github.io/3d-csdm-profile-icsm/profiles/icsm-point-codetypes-shacl.ttl:
   Validation Report
   Conforms: True
   
 Focus nodes for https://icsm-au.github.io/3d-csdm-profile-icsm/profiles/icsm-point-codetypes-shacl.ttl:
- - Shape jcl:testBoundVocab-condition: <https://www.wa-example.com/features/100011>/surv:monumentedBy,<https://www.wa-example.com/features/10003>/surv:monumentedBy,<https://www.wa-example.com/features/10008>/surv:monumentedBy,<https://www.wa-example.com/features/10001>/surv:monumentedBy,<https://www.wa-example.com/features/100012>/surv:monumentedBy,<https://www.wa-example.com/features/10009>/surv:monumentedBy,<https://www.wa-example.com/features/10006>/surv:monumentedBy,<https://www.wa-example.com/features/16040422>/surv:monumentedBy,<https://www.wa-example.com/features/10005>/surv:monumentedBy,<https://www.wa-example.com/features/100015>/surv:monumentedBy,<https://www.wa-example.com/features/10007>/surv:monumentedBy,<https://www.wa-example.com/features/10002>/surv:monumentedBy,<https://www.wa-example.com/features/100010>/surv:monumentedBy,<https://www.wa-example.com/features/100014>/surv:monumentedBy,<https://www.wa-example.com/features/10004>/surv:monumentedBy
- - Shape jcl:testBoundVocab-form: <https://www.wa-example.com/features/100011>/surv:monumentedBy,<https://www.wa-example.com/features/10003>/surv:monumentedBy,<https://www.wa-example.com/features/10008>/surv:monumentedBy,<https://www.wa-example.com/features/10001>/surv:monumentedBy,<https://www.wa-example.com/features/100012>/surv:monumentedBy,<https://www.wa-example.com/features/10009>/surv:monumentedBy,<https://www.wa-example.com/features/10006>/surv:monumentedBy,<https://www.wa-example.com/features/16040422>/surv:monumentedBy,<https://www.wa-example.com/features/10005>/surv:monumentedBy,<https://www.wa-example.com/features/100015>/surv:monumentedBy,<https://www.wa-example.com/features/10007>/surv:monumentedBy,<https://www.wa-example.com/features/10002>/surv:monumentedBy,<https://www.wa-example.com/features/100010>/surv:monumentedBy,<https://www.wa-example.com/features/100014>/surv:monumentedBy,<https://www.wa-example.com/features/10004>/surv:monumentedBy
- - Shape jcl:testBoundVocab-surveypoint-purpose: <https://www.wa-example.com/features/100011>,<https://www.wa-example.com/features/10002>,<https://www.wa-example.com/features/100015>,<https://www.wa-example.com/features/10003>,<https://www.wa-example.com/features/10004>,<https://www.wa-example.com/features/100010>,<https://www.wa-example.com/features/CadastralMark>,<https://www.wa-example.com/features/100014>,<https://www.wa-example.com/features/10005>,<https://www.wa-example.com/features/10009>,<https://www.wa-example.com/features/BoundaryMark>,<https://www.wa-example.com/features/10006>,<https://www.wa-example.com/features/10001>,<https://www.wa-example.com/features/10007>,<https://www.wa-example.com/features/100012>,<https://www.wa-example.com/features/16040422>,<https://www.wa-example.com/features/10008>
- - Shape jcl:testBoundVocab-pt-quality-class: <https://www.wa-example.com/features/100011>,<https://www.wa-example.com/features/10002>,<https://www.wa-example.com/features/100015>,<https://www.wa-example.com/features/10003>,<https://www.wa-example.com/features/10004>,<https://www.wa-example.com/features/100010>,<https://www.wa-example.com/features/CadastralMark>,<https://www.wa-example.com/features/100014>,<https://www.wa-example.com/features/10005>,<https://www.wa-example.com/features/10009>,<https://www.wa-example.com/features/BoundaryMark>,<https://www.wa-example.com/features/10006>,<https://www.wa-example.com/features/10001>,<https://www.wa-example.com/features/10007>,<https://www.wa-example.com/features/100012>,<https://www.wa-example.com/features/16040422>,<https://www.wa-example.com/features/10008>
  - Shape jcl:testBoundVocab-vector-purpose: <https://www.wa-example.com/features/observedVectors>
- - Shape jcl:testBoundVocab-state: <https://www.wa-example.com/features/100011>/surv:monumentedBy,<https://www.wa-example.com/features/10003>/surv:monumentedBy,<https://www.wa-example.com/features/10008>/surv:monumentedBy,<https://www.wa-example.com/features/10001>/surv:monumentedBy,<https://www.wa-example.com/features/100012>/surv:monumentedBy,<https://www.wa-example.com/features/10009>/surv:monumentedBy,<https://www.wa-example.com/features/10006>/surv:monumentedBy,<https://www.wa-example.com/features/16040422>/surv:monumentedBy,<https://www.wa-example.com/features/10005>/surv:monumentedBy,<https://www.wa-example.com/features/100015>/surv:monumentedBy,<https://www.wa-example.com/features/10007>/surv:monumentedBy,<https://www.wa-example.com/features/10002>/surv:monumentedBy,<https://www.wa-example.com/features/100010>/surv:monumentedBy,<https://www.wa-example.com/features/100014>/surv:monumentedBy,<https://www.wa-example.com/features/10004>/surv:monumentedBy
+ - Shape jcl:testBoundVocab-surveypoint-purpose: <https://www.wa-example.com/features/10004>,<https://www.wa-example.com/features/10007>,<https://www.wa-example.com/features/CadastralMark>,<https://www.wa-example.com/features/10005>,<https://www.wa-example.com/features/100012>,<https://www.wa-example.com/features/100011>,<https://www.wa-example.com/features/10002>,<https://www.wa-example.com/features/10006>,<https://www.wa-example.com/features/10009>,<https://www.wa-example.com/features/16040422>,<https://www.wa-example.com/features/10003>,<https://www.wa-example.com/features/10001>,<https://www.wa-example.com/features/10008>,<https://www.wa-example.com/features/100015>,<https://www.wa-example.com/features/100010>,<https://www.wa-example.com/features/BoundaryMark>,<https://www.wa-example.com/features/100014>
+ - Shape jcl:testBoundVocab-form: <https://www.wa-example.com/features/100014>/surv:monumentedBy,<https://www.wa-example.com/features/10009>/surv:monumentedBy,<https://www.wa-example.com/features/100012>/surv:monumentedBy,<https://www.wa-example.com/features/100011>/surv:monumentedBy,<https://www.wa-example.com/features/16040422>/surv:monumentedBy,<https://www.wa-example.com/features/10003>/surv:monumentedBy,<https://www.wa-example.com/features/10001>/surv:monumentedBy,<https://www.wa-example.com/features/10006>/surv:monumentedBy,<https://www.wa-example.com/features/100015>/surv:monumentedBy,<https://www.wa-example.com/features/10007>/surv:monumentedBy,<https://www.wa-example.com/features/100010>/surv:monumentedBy,<https://www.wa-example.com/features/10002>/surv:monumentedBy,<https://www.wa-example.com/features/10004>/surv:monumentedBy,<https://www.wa-example.com/features/10005>/surv:monumentedBy,<https://www.wa-example.com/features/10008>/surv:monumentedBy
+ - Shape jcl:testBoundVocab-condition: <https://www.wa-example.com/features/100014>/surv:monumentedBy,<https://www.wa-example.com/features/10009>/surv:monumentedBy,<https://www.wa-example.com/features/100012>/surv:monumentedBy,<https://www.wa-example.com/features/100011>/surv:monumentedBy,<https://www.wa-example.com/features/16040422>/surv:monumentedBy,<https://www.wa-example.com/features/10003>/surv:monumentedBy,<https://www.wa-example.com/features/10001>/surv:monumentedBy,<https://www.wa-example.com/features/10006>/surv:monumentedBy,<https://www.wa-example.com/features/100015>/surv:monumentedBy,<https://www.wa-example.com/features/10007>/surv:monumentedBy,<https://www.wa-example.com/features/100010>/surv:monumentedBy,<https://www.wa-example.com/features/10002>/surv:monumentedBy,<https://www.wa-example.com/features/10004>/surv:monumentedBy,<https://www.wa-example.com/features/10005>/surv:monumentedBy,<https://www.wa-example.com/features/10008>/surv:monumentedBy
+ - Shape jcl:testBoundVocab-pt-quality-class: <https://www.wa-example.com/features/10004>,<https://www.wa-example.com/features/10007>,<https://www.wa-example.com/features/CadastralMark>,<https://www.wa-example.com/features/10005>,<https://www.wa-example.com/features/100012>,<https://www.wa-example.com/features/100011>,<https://www.wa-example.com/features/10002>,<https://www.wa-example.com/features/10006>,<https://www.wa-example.com/features/10009>,<https://www.wa-example.com/features/16040422>,<https://www.wa-example.com/features/10003>,<https://www.wa-example.com/features/10001>,<https://www.wa-example.com/features/10008>,<https://www.wa-example.com/features/100015>,<https://www.wa-example.com/features/100010>,<https://www.wa-example.com/features/BoundaryMark>,<https://www.wa-example.com/features/100014>
+ - Shape jcl:testBoundVocab-state: <https://www.wa-example.com/features/100014>/surv:monumentedBy,<https://www.wa-example.com/features/10009>/surv:monumentedBy,<https://www.wa-example.com/features/100012>/surv:monumentedBy,<https://www.wa-example.com/features/100011>/surv:monumentedBy,<https://www.wa-example.com/features/16040422>/surv:monumentedBy,<https://www.wa-example.com/features/10003>/surv:monumentedBy,<https://www.wa-example.com/features/10001>/surv:monumentedBy,<https://www.wa-example.com/features/10006>/surv:monumentedBy,<https://www.wa-example.com/features/100015>/surv:monumentedBy,<https://www.wa-example.com/features/10007>/surv:monumentedBy,<https://www.wa-example.com/features/100010>/surv:monumentedBy,<https://www.wa-example.com/features/10002>/surv:monumentedBy,<https://www.wa-example.com/features/10004>/surv:monumentedBy,<https://www.wa-example.com/features/10005>/surv:monumentedBy,<https://www.wa-example.com/features/10008>/surv:monumentedBy
 
 === End SHACL ===
 
