@@ -1,0 +1,143 @@
+- title: Minimal example of NZ profile
+  content: |-
+   Minimal example - empty except for examples of profiled element using this profile rule set.
+
+  base-output-filename: example 
+  snippets:
+    - language: json
+      ref: example.json
+      base-uri: http://www.example.com/features/
+
+
+- title: NZ Survey Marks Example
+  content: |-
+   Contains three Survey Marks, one of each subtype being a CadastralMark, a BoundaryMark, and a GeodeticReferenceMark.
+    
+    ![NZ Survey Marks Example](https://icsm-au.github.io/3d-csdm-profiles/assets/nz-points-ex.png)
+    
+  base-output-filename: surveypoints
+  snippets:
+    - language: json
+      ref: examples/surveypoints.json
+      base-uri: https://www.nz-example.com/features/
+
+
+- title: NZ Survey Observation Example
+  content: |-
+   Contains two VectorObservations and two ObservedVectors between the three survey marks contained in the Survey Mark 
+    example above.
+    
+    ![NZ Survey Observation Example](https://icsm-au.github.io/3d-csdm-profiles/assets/nz-observation-ex.png)
+
+  base-output-filename: observations
+  snippets:
+    - language: json
+      ref: examples/observations.json
+      base-uri: https://www.nz-example.com/features/
+
+
+- title: NZ Parcel Example
+  content: |-
+   Contains a **single parcel**, Lot 1, plus **six SurveyMarks** that define the extent of the parcel, 
+    **6 vectorObservations** defining the six boundaries (Bearing & Distance), and **6 observedVectors** describing the 
+    six boundary line geometries.
+    
+    ![NZ Parcel Example](https://icsm-au.github.io/3d-csdm-profiles/assets/nz-parcel-ex.png)
+
+  base-output-filename: parcel
+  snippets:
+    - language: json
+      ref: examples/parcel.json
+      base-uri: https://www.nz-example.com/features/
+
+
+- title: NZ 3D Survey Mark Example
+  content: |-
+   NZ Survey Marks Example extended to include 3D survey marks. **combinedCRS** included for specification of a combined 
+    horizontal and vertical datum, epsg:9528 (NZGD2000 + NZVD2016 height) and **coordinates** have been extended to 
+    include **X**, **Y** and **Z** elements.
+
+  base-output-filename: 3d-surveypoints
+  snippets:
+    - language: json
+      ref: examples/3d-surveypoints.json
+      base-uri: https://www.nz-example.com/features/
+
+
+- title: NZ Arc Observation Example
+  content: |-
+    NZ example of a set of Arc Observations demonstrating the three methods for specifying an arc's geometry: **Arc**, 
+    **ArcWithCenter**, and **ArcByChord**. Source data is DP 583201, The data set contains four **BoundaryMarks** and 
+    two **CadastralMark** (Centre point for arc, and mid point of an arc); one **Chords** and two **Arcs**. The first 
+    arc is specified as an **Arc** and references three points, the start of the arc, a point along the arc, and the end 
+    of the arc. The second arc is defined as an **arcWithCentre** and include elements defining the Start Point, End 
+    Point, and Centre Point for the arc. The third example demonstrates an **ArcByChord** method, Where the 
+    **vectorObservation** defines the bearing and distance of the arc's **Chord**. All three examples include 
+    **arcLength** and **radius** elements.
+    
+    ![NZ Arc Observation Example](https://icsm-au.github.io/3d-csdm-profiles/assets/nz-arc-observation.png)
+
+  base-output-filename: arc-observations
+  snippets:
+    - language: json
+      ref: examples/arc-observations.json
+      base-uri: https://www.nz-example.com/features/
+
+
+- title: NZ Secondary Parcel Example
+  content: |-
+    Contains **two primary parcels**, Lots 1 & 2, a **secondary parcel**, Area Z, plus **21 SurveyMarks** that define 
+    the extent of the parcels, **23 vectorObservations** defining the 23 boundaries (Bearing & Distance), and **23 
+    observedVectors** describing the 23 boundary line geometries. Multiple types of interests are also included, 
+    Certificate of Title, Amalgamation Conditions, and a Covenant.
+    
+    ![NZ Secondary Parcel Example](https://icsm-au.github.io/3d-csdm-profiles/assets/nz-secondary-example.png)
+
+  base-output-filename: secondary-parcel
+  snippets:
+    - language: json
+      ref: examples/secondary-parcel.json
+      base-uri: https://www.nz-example.com/features/
+
+
+- title: NZ Occupation Example
+  content: |-
+    Contains **four primary parcels**, Lots 1 & 2 plus two Residue Parcels, plus **2 CadastralMarks**, a 
+    **GeodeticReferenceMark**, **10 BoundaryMarks**, that define the extent of the parcels, and **10 OccupationMarks** 
+    fixing posts/fences/gates that are near the boundaries. There are **30 vectorObservations** defining the 13 
+    boundaries (Bearing & Distance), seven survey measurements cadastral and boundary marks, and 10 survey measurements 
+    to the occupation marks (posts). There are **30 observedVectors** describing the 13 boundary line geometries, seven 
+    survey measurements, and 10 occupation mark measurements (red dashed lines in image below). Boundary marks, 
+    occupation marks, and boundaries contain comments regarding the relationship between boundaries, boundary marks, and 
+    occupation. The **OccupationMarks** contain a **topology** element defined as a **touches** spatial relationship and 
+    references IDs of elements contained in the **occupationFeatures** element. The **occupationFeatures** element is a 
+    Feature Collection of fences, a gate, and a hedge, being the occupation that is near the boundaries and Boundary 
+    Marks. In this example the **occupationFeatures** data is embedded in the CSD and is encoded using GeoJSON. The 
+    element could also link to an external dataset.
+    
+    ![NZ Occupation Example](https://icsm-au.github.io/3d-csdm-profiles/assets/nz-occupation-example.png)
+
+  base-output-filename: occupation
+  snippets:
+    - language: json
+      ref: examples/occupation.json
+      base-uri: https://www.nz-example.com/features/
+
+
+- title: Extended NZ example
+  content: |-
+    DP 572532: Lots 1 and 2 being a subdivision of Lot 14 DP 119553. Consists of a two lot subdivision and a Significant 
+    Ecological Area Covenant. Each new parcel has a 1/12th share in an adjacent Access Lot. 35 Survey points are 
+    included in the dataset along with 23 calculated and adopted boundary observations, one calculated observation, 14 
+    adopted observations, and 15 measured observations using GPS or Theodolite and EDM. All new boundaries have no 
+    occupation at the time of survey.
+    
+    ![Extended NZ example](https://icsm-au.github.io/3d-csdm-profiles/assets/nz-extended-example.png)
+
+  base-output-filename: extended_example
+  snippets:
+    - language: json
+      ref: examples/extended_example.json
+      base-uri: https://www.nz-example.com/features/
+
+

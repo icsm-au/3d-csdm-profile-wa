@@ -1,0 +1,29 @@
+@prefix commonpatterns: <https://linked.data.gov.au/def/csdm/commonpatterns/> .
+@prefix csd: <https://linked.data.gov.au/def/csdm/csd/> .
+@prefix container: <https://linked.data.gov.au/def/csdm/container/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix geojson: <https://purl.org/geojson/vocab#> .
+@prefix oa: <http://www.w3.org/ns/oa#> .
+@prefix prof: <http://www.w3.org/ns/dx/prof/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix registered-surveyors: <https://example.gov.nz/surveyors/> .
+@prefix sosa: <http://www.w3.org/ns/sosa/> .
+@prefix surv: <https://linked.data.gov.au/def/csdm/surveyfeatures/> .
+@prefix surveyreg-nz: <https://surveys-nz/> .
+@prefix termtype: <https://linked.data.gov.au/def/csdm/termtypes/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix : <https://linked.data.gov.au/def/csdm/rules/icsm/crs/> .
+
+#
+#:testAdminUnitDistrict
+#    a sh:NodeShape ;
+#    sh:targetSubjectsOf container:adminUnit ;
+#    sh:message "AdminUnit is a correctly qualified link to a registered Admin Unit" ;
+#    sh:name "AdminUnit valid" ;
+#    sh:property [
+#                sh:path ( container:adminUnit prof:hasRole ) ;
+#                sh:class termtype:AdminUnit ]
+#.

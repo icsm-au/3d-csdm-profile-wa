@@ -1,0 +1,188 @@
+{
+  "id": "DP-572532",
+  "name": "DP 572532",
+  "description": "New Zealand Provenance Example",
+  "type": "FeatureCollection",
+  "featureType": "CSD",
+  "purpose": "nz-survey-purpose:lts",
+  "surveyType": "nz-survey-type:ltp",
+  "time": { "date": "2023-03-10" },
+  "compoundCRS": "epsg:9528",
+  "bearingRotation": 0.0,
+  "surveyTitle": "Lots 1 and 2 being a subdivision of Lot 14 DP 119553",
+  "adminUnit": [
+    {
+      "href": "nz-land-district:NA",
+      "rel": "related",
+      "role": "icsm-admin-unit-type:landDistrict"
+    },
+    {
+      "href": "nz-territorial-authority:076",
+      "rel": "related",
+      "role": "icsm-admin-unit-type:territorialAuthority"
+    }
+  ],
+  "surveyClass": "nz-survey-class:A",
+  "has_provenance": [
+    {
+      "activityType": "surveyed",
+      "wasAssociatedWith": {
+        "agentType": "person",
+        "name": "Sophie Surveyor",
+        "actedOnBehalfOf": {
+          "agentType": "Organisation",
+          "name": "Sophie the Surveyor Ltd"
+        }
+      },
+      "generated": "DP-57532-v1",
+      "startedAtTime": "2023-05-11T00:02:02Z",
+      "endedAtTime": "2023-07-11T00:05:20Z"
+    },
+    {
+      "activityType": "taCertification",
+      "wasAssociatedWith": {
+        "agentType": "person",
+        "name": "Planner Pauline",
+        "actedOnBehalfOf": {
+          "agentType": "Organisation",
+          "name": "Auckland City Council"
+        }
+      },
+      "generated": "DP-57532-v2",
+      "startedAtTime": "2023-07-11T00:05:20Z",
+      "endedAtTime": "2023-08-11T00:05:20Z"
+    },
+    {
+      "activityType": "certifiedDate",
+      "wasAssociatedWith": {
+        "agentType": "person",
+        "name": "Sophie Surveyor",
+        "actedOnBehalfOf": {
+          "agentType": "Organisation",
+          "name": "Sophie the Surveyor Ltd"
+        }
+      },
+      "generated": "DP-57532-v3",
+      "startedAtTime": "2023-07-11T12:05:20Z",
+      "endedAtTime": "2023-07-11T12:06:03Z"
+    },
+    {
+      "activityType": "submitted",
+      "wasAssociatedWith": {
+        "agentType": "person",
+        "name": "Sophie Surveyor",
+        "actedOnBehalfOf": {
+          "agentType": "Organisation",
+          "name": "Sophie the Surveyor Ltd"
+        }
+      },
+      "generated": "DP-57532-v4",
+      "startedAtTime": "2023-07-11T12:09:44Z",
+      "endedAtTime": "2023-07-11T12:12:31Z"
+    },
+    {
+      "activityType": "surveyApprovalExamination",
+      "wasAssociatedWith": {
+        "agentType": "person",
+        "name": "Examiner Ed",
+        "actedOnBehalfOf": {
+          "agentType": "Organisation",
+          "name": "Toit+u'\u0363' Te Whenua"
+        }
+      },
+      "generated": "DP-57532-v5",
+      "startedAtTime": "2023-07-11T12:12:31Z",
+      "endedAtTime": "2023-07-24T16:15:28Z"
+    },
+    {
+      "activityType": "forRequisition",
+      "wasAssociatedWith": {
+        "agentType": "person",
+        "name": "Sophie Surveyor",
+        "actedOnBehalfOf": {
+          "agentType": "Organisation",
+          "name": "Sophie the Surveyor Ltd"
+        }
+      },
+      "generated": "DP-57532-v6",
+      "startedAtTime": "2023-07-24T16:15:28Z",
+      "endedAtTime": "2023-07-25T08:12:12Z"
+    },
+    {
+      "activityType": "surveyApprovalExamination",
+      "wasAssociatedWith": {
+        "agentType": "person",
+        "name": "Examiner Ed",
+        "actedOnBehalfOf": {
+          "agentType": "Organisation",
+          "name": "Toit+u'\u0363' Te Whenua"
+        }
+      },
+      "generated": "DP-57532-v7",
+      "startedAtTime": "2023-07-25T08:12:12Z",
+      "endedAtTime": "2023-07-26T09:56:14Z"
+    },
+    {
+      "activityType": "surveyApproval",
+      "wasAssociatedWith": {
+        "agentType": "person",
+        "name": "Supervising Examiner Sid",
+        "actedOnBehalfOf": {
+          "agentType": "Organisation",
+          "name": "Toit+u'\u0363' Te Whenua"
+        }
+      },
+      "generated": "DP-57532-v8",
+      "startedAtTime": "2023-07-26T09:56:14Z"
+    },
+    {
+      "activityType": "valuerCertificate",
+      "wasAssociatedWith": {
+        "agentType": "person",
+        "name": "Val the Valuer",
+        "actedOnBehalfOf": {
+          "agentType": "Organisation",
+          "name": "We value High Ltd"
+        }
+      },
+      "generated": "DP-57532-v9",
+      "startedAtTime": "2023-08-11T16:05:20Z",
+      "endedAtTime": "2023-08-16T08:44:31Z"
+    },
+    {
+      "activityType": "bodyCorporateCertificate",
+      "wasAssociatedWith": {
+        "agentType": "person",
+        "name": "Lawyer Len",
+        "actedOnBehalfOf": {
+          "agentType": "Organisation",
+          "name": "We Object ltd"
+        }
+      },
+      "generated": "DP-57532-v10",
+      "startedAtTime": "2023-08-11T16:15:20Z",
+      "endedAtTime": "2023-08-21T12:17:53Z"
+    },
+    {
+      "activityType": "deposit",
+      "wasAssociatedWith": {
+        "agentType": "person",
+        "name": "Titles Examiner Tim",
+        "actedOnBehalfOf": {
+          "agentType": "Organisation",
+          "name": "Toit+u'\u0363' Te Whenua"
+        }
+      },
+      "generated": "DP-57532-v11",
+      "startedAtTime": "2023-08-21T12:17:53Z"
+    }
+  ],
+  "features": [],
+  "referencedCSDs": [],
+  "points": [],
+  "observedVectors": [],
+  "vectorObservations": [],
+  "parcels": [],
+  "supportingDocuments": [],
+  "annotations": []
+}

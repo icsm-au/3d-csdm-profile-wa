@@ -1,0 +1,14 @@
+Classes,Property,Range,Schemes
+container:CSD,container:horizontalCRS,termtype:AllowableCoordinateReferenceSystem,vocabs:nz-crs vocabs:nz-compound-crs
+container:CSD,surv:purpose,surv:SurveyPurpose,vocabs:nz-survey-purpose
+,container:adminUnit,termtype:AdminUnit,vocabs:nz-territorial-authority vocabs:nz-land-district
+surv:Parcel,parcel:purpose,termtype:ParcelPurpose,vocabs:nz-secondary-parcel-purpose vocabs:nz-parcel-purpose
+surv:SecondaryParcel,surv:parcelType,surv:ParcelType,vocabs:nz-secondary-parcel-type
+surv:PrimaryParcel,surv:parcelType,surv:ParcelType,vocabs:nz-parcel-type
+sosa:ObservationCollection,sosa:usedProcedure,sosa:Procedure,vocabs:nz-procedure-used
+,surv:condition,surv:ConditionCode,vocabs:nz-monument-condition
+,surv:form,surv:MonumentForm,vocabs:nz-monument-form
+surv:CadastralMark surv:BoundaryMark surv:GeodeticMark surv:SurveyPoint,surv:purpose,surv:SurveyPointPurpose,vocabs:nz-surveypoint-purpose
+,surv:vectorPurpose,surv:VectorPurpose,vocabs:nz-vector-purpose
+,surv:state,surv:SurveyPointState,vocabs:nz-monument-state
+parcel:Parcel,parcel:state,termtype:ParcelState,vocabs:nz-parcel-state

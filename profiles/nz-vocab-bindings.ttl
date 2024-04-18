@@ -1,0 +1,89 @@
+@prefix container: <https://linked.data.gov.au/def/csdm/container/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix parcel: <https://linked.data.gov.au/def/csdm/parcels/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix qb: <http://purl.org/linked-data/cube#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix sosa: <http://www.w3.org/ns/sosa/> .
+@prefix surv: <https://linked.data.gov.au/def/csdm/surveyfeatures/> .
+@prefix termtype: <https://linked.data.gov.au/def/csdm/termtypes/> .
+@prefix vocabs: <https://linked.data.gov.au/def/csdm/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+sosa:usedProcedure a qb:CodedProperty ;
+    qb:codeList vocabs:nz-procedure-used ;
+    rdfs:range sosa:Procedure ;
+    sh:targetClass sosa:ObservationCollection .
+
+container:adminUnit a qb:CodedProperty ;
+    qb:codeList vocabs:nz-land-district,
+        vocabs:nz-territorial-authority ;
+    rdfs:range termtype:AdminUnit .
+
+container:horizontalCRS a qb:CodedProperty ;
+    qb:codeList vocabs:nz-compound-crs,
+        vocabs:nz-crs ;
+    rdfs:range termtype:AllowableCoordinateReferenceSystem ;
+    sh:targetClass container:CSD .
+
+parcel:state a qb:CodedProperty ;
+    qb:codeList vocabs:nz-parcel-state ;
+    rdfs:range termtype:ParcelState ;
+    sh:targetClass parcel:Parcel .
+
+surv:condition a qb:CodedProperty ;
+    qb:codeList vocabs:nz-monument-condition ;
+    rdfs:range surv:ConditionCode .
+
+surv:form a qb:CodedProperty ;
+    qb:codeList vocabs:nz-monument-form ;
+    rdfs:range surv:MonumentForm .
+
+parcel:purpose a qb:CodedProperty ;
+    qb:codeList vocabs:nz-parcel-purpose,
+        vocabs:nz-secondary-parcel-purpose ;
+    rdfs:range termtype:ParcelPurpose ;
+    sh:targetClass surv:Parcel .
+
+surv:parcelType a qb:CodedProperty ;
+    qb:codeList vocabs:nz-parcel-type,
+        vocabs:nz-secondary-parcel-type ;
+    rdfs:range surv:ParcelType ;
+    sh:targetClass surv:PrimaryParcel,
+        surv:SecondaryParcel .
+
+surv:purpose a qb:CodedProperty ;
+    qb:codeList vocabs:nz-survey-purpose,
+        vocabs:nz-surveypoint-purpose ;
+    rdfs:range surv:SurveyPointPurpose,
+        surv:SurveyPurpose ;
+    sh:targetClass container:CSD,
+        surv:BoundaryMark,
+        surv:CadastralMark,
+        surv:GeodeticMark,
+        surv:SurveyPoint .
+
+surv:state a qb:CodedProperty ;
+    qb:codeList vocabs:nz-monument-state ;
+    rdfs:range surv:SurveyPointState .
+
+surv:vectorPurpose a qb:CodedProperty ;
+    qb:codeList vocabs:nz-vector-purpose ;
+    rdfs:range surv:VectorPurpose .
+
+[] a prov:Activity ;
+    prov:endedAtTime "2024-02-04T06:23:34.799346"^^xsd:dateTime ;
+    prov:startedAtTime "2024-02-04T06:23:34.733727"^^xsd:dateTime ;
+    prov:used [ a prov:Entity ;
+            dct:format "application/json" ;
+            dct:hasVersion "git:0f32332d11a6cc8231abe9ed2a14e854258b41a0" ;
+            rdfs:seeAlso <file:///home/runner/work/3d-csdm-profiles/3d-csdm-profiles/profiles/nz-vocab-bindings.csv> ] ;
+    prov:wasAssociatedWith [ a prov:Agent,
+                schema:SoftwareApplication ;
+            rdfs:label "OGC-NA tools" ;
+            dct:hasVersion "0.3.35" ;
+            rdfs:seeAlso <https://github.com/opengeospatial/ogc-na-tools> ] ;
+    prov:wasInformedBy [ dct:identifier "d6d0e2d7-4f80-4e92-8329-efda53896ae2" ] .
+

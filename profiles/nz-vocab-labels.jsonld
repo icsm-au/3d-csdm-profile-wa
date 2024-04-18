@@ -1,0 +1,89 @@
+{
+  "@context": {
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "dct": "http://purl.org/dc/terms/",
+    "policy": "http://www.opengis.net/def/metamodel/ogc-na/",
+    "surv": "https://linked.data.gov.au/def/csdm/surveyfeatures/",
+    "surveyobs": "https://linked.data.gov.au/def/csdm/surveyobs/",
+    "sosa": "http://www.w3.org/ns/sosa",
+    "container": "https://linked.data.gov.au/def/csdm/container/",
+    "termtype": "https://linked.data.gov.au/def/csdm/termtypes/",
+    "parcel": "https://linked.data.gov.au/def/csdm/parcels/",
+    "qb": "http://purl.org/linked-data/cube#",
+    "vocabs": "https://linked.data.gov.au/def/csdm/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sh": "http://www.w3.org/ns/shacl#",
+    "Scheme": "@id",
+    "Label": "rdfs:label"
+  },
+  "@graph": [
+    {
+      "Scheme": "vocabs:nz-crs",
+      "Label": "NZ Coordinate Reference Systems"
+    },
+    {
+      "Scheme": "vocabs:nz-compound-crs",
+      "Label": "NZ Compound Coordinate Reference Systems"
+    },
+    {
+      "Scheme": "vocabs:nz-territorial-authority",
+      "Label": "NZ Territorial Authorities"
+    },
+    {
+      "Scheme": "vocabs:nz-land-district",
+      "Label": "NZ Land Districts"
+    },
+    {
+      "Scheme": "vocabs:nz-vhd",
+      "Label": "NZ Vertical Height Datums"
+    },
+    {
+      "Scheme": "vocabs:nz-survey-purpose",
+      "Label": "NZ Survey Purpose"
+    },
+    {
+      "Scheme": "vocabs:nz-survey-type",
+      "Label": "NZ Survey Type"
+    },
+    {
+      "Scheme": "vocabs:nz-secondary-parcel-purpose",
+      "Label": "NZ Secondary Parcel Purpose"
+    },
+    {
+      "Scheme": "vocabs:nz-parcel-purpose",
+      "Label": "NZ Parcel Purpose"
+    },
+    {
+      "Scheme": "vocabs:nz-secondary-parcel-type",
+      "Label": "NZ Secondary Parcel Type"
+    },
+    {
+      "Scheme": "vocabs:nz-parcel-type",
+      "Label": "NZ Parcel Type"
+    },
+    {
+      "Scheme": "vocabs:nz-procedure-used",
+      "Label": "NZ Survey Procedures"
+    },
+    {
+      "Scheme": "vocabs:nz-monument-condition",
+      "Label": "NZ Monument Condition"
+    },
+    {
+      "Scheme": "vocabs:nz-monument-form",
+      "Label": "NZ Monument Form"
+    },
+    {
+      "Scheme": "vocabs:nz-surveypoint-purpose",
+      "Label": "NZ Survey Point Purpose"
+    },
+    {
+      "Scheme": "vocabs:nz-monument-state",
+      "Label": "NZ Monument State"
+    },
+    {
+      "Scheme": "vocabs:nz-parcel-state",
+      "Label": "NZ Parcel States"
+    }
+  ]
+}

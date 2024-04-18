@@ -1,0 +1,22 @@
+@prefix prof: <http://www.w3.org/ns/dx/prof/> .
+@prefix icsmp: <https://linked.data.gov.au/def/csdm/profiles/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix prof: <http://www.w3.org/ns/dx/prof/> .
+@prefix profrole: <http://www.w3.org/ns/dx/prof/role/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix shacl: <http://www.w3.org/ns/shacl#> .
+@prefix jsonld: <https://www.w3.org/TR/json-ld11/> .
+
+icsmp:nz-shacl-closure
+   owl:imports <https://icsm-au.github.io/3d-csdm-profiles/profiles/nz-vocabs-shacl.ttl>,
+               <https://icsm-au.github.io/3d-csdm-profiles/profiles/nz-pointnames-shacl.ttl>,
+               <https://icsm-au.github.io/3d-csdm-profiles/profiles/nz-vocab-labels.ttl>,
+               <https://icsm-au.github.io/3d-csdm-profiles/profiles/icsm-vocab-labels.ttl>,
+               <https://icsm-au.github.io/3d-csdm-profiles/profiles/nz-survey-metadata-shacl.ttl>,
+                <https://icsm-au.github.io/3d-csdm-profiles/profiles/nz-prov-shacl.ttl>
+
+.

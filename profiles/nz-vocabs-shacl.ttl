@@ -1,0 +1,44 @@
+@prefix commonpatterns: <https://linked.data.gov.au/def/csdm/commonpatterns/> .
+@prefix csd: <https://linked.data.gov.au/def/csdm/csd/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix geojson: <https://purl.org/geojson/vocab#> .
+@prefix nz-monument-condition: <https://linked.data.gov.au/def/csdm/nz-monument-condition/> .
+@prefix nz-monument-form: <https://linked.data.gov.au/def/csdm/nz-monument-form/> .
+@prefix nz-monument-state: <https://linked.data.gov.au/def/csdm/nz-monument-state/> .
+@prefix nz-surveypoint-purpose: <https://linked.data.gov.au/def/csdm/nz-surveypointpurpose/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix registered-surveyors: <https://example.gov.nz/surveyors/> .
+@prefix sosa: <http://www.w3.org/ns/sosa/> .
+@prefix surv: <https://linked.data.gov.au/def/csdm/surveyfeatures/> .
+@prefix surveyreg-nz: <https://surveys-nz/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix nzv: <https://linked.data.gov.au/def/csdm/nzprofilerules/vocabs/> .
+@prefix termtype: <https://linked.data.gov.au/def/csdm/termtypes/> .
+@prefix vocabs: <https://linked.data.gov.au/def/csdm/> .
+
+#surv:SurveyMark
+#    a sh:NodeShape ;
+#    sh:property [
+#        sh:path surv:monumentedBy ;
+#        sh:class surv:Monument ;
+#        sh:maxCount 1 ;
+#        sh:minCount 1 ;
+#        sh:name "monument description" ;
+#        sh:nodeKind sh:BlankNodeOrIRI ;
+#    ] ;
+#.
+
+nzv:testQualityClass
+    a sh:NodeShape ;
+    sh:targetSubjectsOf surv:ptQualityClass ;
+    sh:message "QualityClass is not registered in current profile or details not present in configured Test environment" ;
+    sh:name "QualityClass valid" ;
+    sh:property [
+                sh:path surv:ptQualityClass;
+                sh:class termtype:PointQualityClass ]
+.
+
+
