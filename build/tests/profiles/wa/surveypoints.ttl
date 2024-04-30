@@ -43,14 +43,14 @@
 <https://www.wa-example.com/features/17876586> a surv:BoundaryMark,
         geojson:Feature ;
     rdfs:label [ rdfs:label "Peg 1 DP 422532" ;
-            dcterms:hasPart [ rdfs:label "Peg" ;
-                    commonpatterns:namePartType "MarkType" ],
-                [ rdfs:label "422532" ;
-                    commonpatterns:namePartType "planIdentifier" ],
+            dcterms:hasPart [ rdfs:label "DP" ;
+                    commonpatterns:namePartType "PlanType" ],
                 [ rdfs:label "1" ;
                     commonpatterns:namePartType "MarkIdentifier" ],
-                [ rdfs:label "DP" ;
-                    commonpatterns:namePartType "PlanType" ] ] ;
+                [ rdfs:label "Peg" ;
+                    commonpatterns:namePartType "MarkType" ],
+                [ rdfs:label "422532" ;
+                    commonpatterns:namePartType "planIdentifier" ] ] ;
     commonpatterns:qualityMeasure 1.3e-02 ;
     surv:monumentedBy [ surv:condition wa-monument-condition:ok ;
             surv:form wa-monument-form:peg ;
@@ -62,10 +62,10 @@
 <https://www.wa-example.com/features/18430386> a surv:CadastralMark,
         geojson:Feature ;
     rdfs:label [ rdfs:label "EFB157243/9533" ;
-            dcterms:hasPart [ rdfs:label "EFB157243" ;
-                    commonpatterns:namePartType "Source" ],
-                [ rdfs:label "9533" ;
-                    commonpatterns:namePartType "Stamp" ] ] ;
+            dcterms:hasPart [ rdfs:label "9533" ;
+                    commonpatterns:namePartType "Stamp" ],
+                [ rdfs:label "EFB157243" ;
+                    commonpatterns:namePartType "Source" ] ] ;
     rdfs:comment "In Bitumen" ;
     commonpatterns:qualityMeasure 2.8e-02 ;
     surv:monumentedBy [ surv:condition wa-monument-condition:ok ;
@@ -78,10 +78,10 @@
 <https://www.wa-example.com/features/18430396> a surv:GeodeticReferenceMark,
         geojson:Feature ;
     rdfs:label [ rdfs:label "EFB157243/9802" ;
-            dcterms:hasPart [ rdfs:label "9802" ;
-                    commonpatterns:namePartType "Stamp" ],
-                [ rdfs:label "EFB157243" ;
-                    commonpatterns:namePartType "Source" ] ] ;
+            dcterms:hasPart [ rdfs:label "EFB157243" ;
+                    commonpatterns:namePartType "Source" ],
+                [ rdfs:label "9802" ;
+                    commonpatterns:namePartType "Stamp" ] ] ;
     rdfs:comment "In Concrete" ;
     commonpatterns:qualityMeasure 2.6e-02 ;
     surv:geodeticid "EFB157243/9802" ;

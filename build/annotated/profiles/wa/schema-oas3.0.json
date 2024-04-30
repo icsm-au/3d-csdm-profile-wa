@@ -1,6 +1,6 @@
 {
   "x-defs": {
-    "icsm.profiles.wa": {
+    "_github_workspace_build_annotated_profiles_wa_schema.json": {
       "description": "WA profile of Cadastral Survey Data Model",
       "allOf": [
         {
@@ -7492,7 +7492,7 @@
   },
   "allOf": [
     {
-      "$ref": "https://icsm-au.github.io/3d-csdm-profile-wa/build/annotated/profiles/wa/schema-oas3.0.json#/x-defs/icsm.profiles.wa"
+      "$ref": "https://icsm-au.github.io/3d-csdm-profile-wa/build/annotated/profiles/wa/schema-oas3.0.json#/x-defs/_github_workspace_build_annotated_profiles_wa_schema.json"
     }
   ]
 }

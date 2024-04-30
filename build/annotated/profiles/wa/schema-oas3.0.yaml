@@ -1,5 +1,5 @@
 x-defs:
-  icsm.profiles.wa:
+  _github_workspace_build_annotated_profiles_wa_schema.yaml:
     description: WA profile of Cadastral Survey Data Model
     allOf:
     - $ref: https://icsm-au.github.io/3d-csdm-profile-wa/build/annotated/profiles/wa/schema-oas3.0.yaml#/x-defs/icsm.profiles.common
@@ -5502,4 +5502,4 @@ x-defs:
       type: number
     x-schema-source: https://opengeospatial.github.io/bblocks/annotated-schemas/geo/common/data_types/bounding_box/schema.json
 allOf:
-- $ref: https://icsm-au.github.io/3d-csdm-profile-wa/build/annotated/profiles/wa/schema-oas3.0.yaml#/x-defs/icsm.profiles.wa
+- $ref: https://icsm-au.github.io/3d-csdm-profile-wa/build/annotated/profiles/wa/schema-oas3.0.yaml#/x-defs/_github_workspace_build_annotated_profiles_wa_schema.yaml
