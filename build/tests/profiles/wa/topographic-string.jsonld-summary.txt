@@ -1,0 +1,58 @@
+Projection:	epsg:10464
+Name:	DP 404354
+
+Monuments:	23
+	None	10	BoundaryMark	40604.212,198769.851	wa-monument-state:mark-found-and-renewed	wa-monument-condition:ok	None
+	None	11	BoundaryMark	40612.75,198771.365	wa-monument-state:mark-found	wa-monument-condition:ok	None
+	None	12	BoundaryMark	40619.806,198787.644	wa-monument-state:unmarked	None	None
+	None	13	BoundaryMark	40594.721,198813.387	wa-monument-state:mark-found	wa-monument-condition:ok	None
+	None	14	BoundaryMark	40604.937,198819.695	wa-monument-state:unmarked	None	None
+	None	102	CadastralMark	40605.462,198816.904	wa-monument-state:unmarked	None	None
+	None	103	CadastralMark	40605.934,198814.748	wa-monument-state:unmarked	None	None
+	None	104	CadastralMark	40606.589,198812.13	wa-monument-state:unmarked	None	None
+	None	105	CadastralMark	40607.478,198809.605	wa-monument-state:unmarked	None	None
+	None	106	CadastralMark	40608.422,198804.647	wa-monument-state:unmarked	None	None
+	None	107	CadastralMark	40609.626,198801.259	wa-monument-state:unmarked	None	None
+	None	108	CadastralMark	40609.836,198800.058	wa-monument-state:unmarked	None	None
+	None	109	CadastralMark	40610.254,198799.35	wa-monument-state:unmarked	None	None
+	None	110	CadastralMark	40610.541,198799.104	wa-monument-state:unmarked	None	None
+	None	111	CadastralMark	40610.881,198798.95	wa-monument-state:unmarked	None	None
+	None	112	CadastralMark	40613.36,198798.275	wa-monument-state:unmarked	None	None
+	None	113	CadastralMark	40613.621,198797.936	wa-monument-state:unmarked	None	None
+	None	114	CadastralMark	40614.198,198795.811	wa-monument-state:unmarked	None	None
+	None	115	CadastralMark	40615.564,198793.886	wa-monument-state:unmarked	None	None
+	None	116	CadastralMark	40616.549,198791.982	wa-monument-state:unmarked	None	None
+	None	117	CadastralMark	40617.418,198790.255	wa-monument-state:unmarked	None	None
+	None	118	CadastralMark	40618.171,198788.827	wa-monument-state:unmarked	None	None
+	None	119	CadastralMark	40618.991,198788.048	wa-monument-state:unmarked	None	None
+Parcels:	1
+	140319406154512	None	wa-parcel-type:crown	635	None	None	
+Observations:	26
+		observedVectors
+	s1	undated	wa-surveypoint-purpose:internal-boundary	14	102	None	None
+	s1	undated	wa-surveypoint-purpose:hwm-boundary	102	103	None	None
+	s1	undated	wa-surveypoint-purpose:hwm-boundary	103	104	None	None
+	s1	undated	wa-surveypoint-purpose:hwm-boundary	104	105	None	None
+	s1	undated	wa-surveypoint-purpose:hwm-boundary	105	106	None	None
+	s1	undated	wa-surveypoint-purpose:hwm-boundary	106	107	None	None
+	s1	undated	wa-surveypoint-purpose:hwm-boundary	107	108	None	None
+	s1	undated	wa-surveypoint-purpose:hwm-boundary	108	109	None	None
+	s1	undated	wa-surveypoint-purpose:hwm-boundary	109	110	None	None
+	s1	undated	wa-surveypoint-purpose:hwm-boundary	110	111	None	None
+	s1	undated	wa-surveypoint-purpose:hwm-boundary	111	112	None	None
+	s1	undated	wa-surveypoint-purpose:hwm-boundary	112	113	None	None
+	s1	undated	wa-surveypoint-purpose:hwm-boundary	113	114	None	None
+	s1	undated	wa-surveypoint-purpose:hwm-boundary	114	115	None	None
+	s1	undated	wa-surveypoint-purpose:hwm-boundary	115	116	None	None
+	s1	undated	wa-surveypoint-purpose:hwm-boundary	116	117	None	None
+	s1	undated	wa-surveypoint-purpose:hwm-boundary	117	118	None	None
+	s1	undated	wa-surveypoint-purpose:hwm-boundary	118	119	None	None
+	s1	undated	wa-surveypoint-purpose:hwm-boundary	119	12	None	None
+	v10	undated	wa-surveypoint-purpose:internal-boundary	10	11	None	8.67
+	v11	undated	wa-surveypoint-purpose:internal-boundary	11	12	None	17.74
+	v12	undated	wa-surveypoint-purpose:internal-boundary	10	13	None	44.55
+	v13	undated	wa-surveypoint-purpose:internal-boundary	13	14	None	12.01
+		SubtendedAngle
+	21	undated	None	40612.75,198771.365	11	v10
+	22	undated	None	40604.212,198769.851	10	v12
+	23	undated	None	40619.806,198787.644	13	v13
