@@ -2,12 +2,12 @@
   "name": "WA Implementation Profile for 3D CSDM",
   "abstract": "This repository contains the WA profile of the [Cadastral Survey Data Model Exchange Specification](https://icsm-au.github.io/3d-csdm-common/), \nextending the  [common ICSM profile](https://icsm-au.github.io/3d-csdm-profile-icsm/).\n \n",
   "description": "\nThe encoding specification and all profiles are compatible with the [OGC API Features](https://opengeospatial.github.io/e-learning/ogcapi-features/text/basic-main.html) data exchange specification, and can thus be implemented by any standards compliant software capable of handling nested object sub-schemas and control of codelist in content.\n\nProfiles are defined in a consistent, machine-readable and validatable way using the [OGC Building Blocks methodology](https://ogcincubator.github.io/bblocks-docs/).\n",
-  "modified": "2024-04-30T07:37:20.211361",
+  "modified": "2024-07-24T06:19:33.345277",
   "tooling": {
     "bblocks-postprocess": {
-      "commitId": "\"ed7b21b1b7b4ec68c6f31fe821c8b6967e49405f",
-      "shortCommitId": "\"ed7b21",
-      "date": "2024-04-26T11:21:08+00:00\""
+      "commitId": "\"68a2c711a7b9524049f33286a6021ae24ef34bbb",
+      "shortCommitId": "\"68a2c7",
+      "date": "2024-07-23T08:32:48+00:00\""
     }
   },
   "gitRepository": "https://github.com/icsm-au/3d-csdm-profile-wa",
@@ -31,7 +31,7 @@
       "itemClass": "schema",
       "register": "icsm-csdm",
       "version": "0.1",
-      "dateOfLastChange": "2024-04-30",
+      "dateOfLastChange": "2024-07-24",
       "sources": [
         {
           "title": "3D Cadastre Survey Data Model",
@@ -56,37 +56,37 @@
           "https://icsm-au.github.io/3d-csdm-profile-wa/profiles/wa-pointnames-shacl.ttl"
         ],
         "icsm.profiles.common": [
-          "https://icsm-au.github.io/3d-csdm-profile-icsm/profiles/icsm-survey-metadata-shacl.ttl",
           "https://icsm-au.github.io/3d-csdm-profile-icsm/profiles/icsm-point-codetypes-shacl.ttl",
+          "https://icsm-au.github.io/3d-csdm-profile-icsm/profiles/icsm-survey-metadata-shacl.ttl",
           "https://icsm-au.github.io/3d-csdm-profile-icsm/profiles/icsm-observation-properties.shacl",
-          "https://icsm-au.github.io/3d-csdm-profile-icsm/profiles/icsm-references-shacl.ttl",
-          "https://icsm-au.github.io/3d-csdm-profile-icsm/profiles/icsm-parcel-codetypes-shacl.ttl"
+          "https://icsm-au.github.io/3d-csdm-profile-icsm/profiles/icsm-parcel-codetypes-shacl.ttl",
+          "https://icsm-au.github.io/3d-csdm-profile-icsm/profiles/icsm-references-shacl.ttl"
         ],
         "icsm.csdm.features.CSD": [
-          "https://icsm-au.github.io/3d-csdm-common/_sources/csdm/shapes/parcel_module.shapes.ttl",
           "https://icsm-au.github.io/3d-csdm-common/_sources/csdm/shapes/container.shapes.ttl",
-          "https://icsm-au.github.io/3d-csdm-common/_sources/csdm/features/CSD/tests/obs-match-vectors.shacl"
+          "https://icsm-au.github.io/3d-csdm-common/_sources/csdm/features/CSD/tests/obs-match-vectors.shacl",
+          "https://icsm-au.github.io/3d-csdm-common/_sources/csdm/shapes/parcel_module.shapes.ttl"
         ],
         "icsm.csdm.datatypes.compoundName": [
           "https://icsm-au.github.io/3d-csdm-common/_sources/csdm/datatypes/compoundName/rules.shacl"
         ],
         "ogc.geo.topo.features.topo-feature": [
-          "https://ogcincubator.github.io/topo-feature/_sources/features/topo-feature/tests/geometry-coordinates.shacl",
-          "https://ogcincubator.github.io/topo-feature/_sources/features/topo-feature-collection/tests/topo-refs-exist.shacl"
+          "https://ogcincubator.github.io/topo-feature/_sources/features/topo-feature-collection/tests/topo-refs-exist.shacl",
+          "https://ogcincubator.github.io/topo-feature/_sources/features/topo-feature/tests/geometry-coordinates.shacl"
         ],
         "ogc.sosa.properties.observation": [
           "https://opengeospatial.github.io/ogcapi-sosa/_sources/properties/observation/rules.shacl"
         ],
         "ogc.geo.topo.features.topo-arc": [
-          "https://ogcincubator.github.io/topo-feature/_sources/features/topo-feature/tests/geometry-coordinates.shacl",
-          "https://ogcincubator.github.io/topo-feature/_sources/features/topo-feature-collection/tests/topo-refs-exist.shacl"
+          "https://ogcincubator.github.io/topo-feature/_sources/features/topo-feature-collection/tests/topo-refs-exist.shacl",
+          "https://ogcincubator.github.io/topo-feature/_sources/features/topo-feature/tests/geometry-coordinates.shacl"
         ],
         "icsm.csdm.features.SurveyObservations": [
           "https://icsm-au.github.io/3d-csdm-common/_sources/csdm/features/SurveyObservations/rules.shacl"
         ],
         "ogc.geo.topo.features.topo-feature-collection": [
-          "https://ogcincubator.github.io/topo-feature/_sources/features/topo-feature/tests/geometry-coordinates.shacl",
-          "https://ogcincubator.github.io/topo-feature/_sources/features/topo-feature-collection/tests/topo-refs-exist.shacl"
+          "https://ogcincubator.github.io/topo-feature/_sources/features/topo-feature-collection/tests/topo-refs-exist.shacl",
+          "https://ogcincubator.github.io/topo-feature/_sources/features/topo-feature/tests/geometry-coordinates.shacl"
         ]
       },
       "shaclClosures": [
@@ -124,20 +124,16 @@
       "sourceSchema": "https://icsm-au.github.io/3d-csdm-profile-wa/_sources/wa/schema.json",
       "sourceLdContext": "https://icsm-au.github.io/3d-csdm-profile-wa/_sources/wa/context.jsonld",
       "sourceFiles": "https://icsm-au.github.io/3d-csdm-profile-wa/_sources/wa/",
-      "validationPassed": true,
+      "validationPassed": false,
       "testOutputs": "https://github.com/icsm-au/3d-csdm-profile-wa/blob/main/build/tests/profiles/wa/",
       "documentation": {
-        "json-full": {
-          "mediatype": "application/json",
-          "url": "https://icsm-au.github.io/3d-csdm-profile-wa/build/generateddocs/json-full/profiles/wa/index.json"
-        },
         "markdown": {
           "mediatype": "text/markdown",
           "url": "https://icsm-au.github.io/3d-csdm-profile-wa/build/generateddocs/markdown/profiles/wa/index.md"
         },
-        "slate": {
-          "mediatype": "text/html",
-          "url": "https://icsm-au.github.io/3d-csdm-profile-wa/build/generateddocs/slate-build/profiles/wa/"
+        "json-full": {
+          "mediatype": "application/json",
+          "url": "https://icsm-au.github.io/3d-csdm-profile-wa/build/generateddocs/json-full/profiles/wa/index.json"
         },
         "bblocks-viewer": {
           "mediatype": "text/html",

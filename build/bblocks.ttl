@@ -18,11 +18,9 @@
         [ dct:format "application/json" ;
             rdfs:isDefinedBy "https://icsm-au.github.io/3d-csdm-profile-wa/build/generateddocs/json-full/profiles/wa/index.json" ],
         [ dct:format "text/markdown" ;
-            rdfs:isDefinedBy "https://icsm-au.github.io/3d-csdm-profile-wa/build/generateddocs/markdown/profiles/wa/index.md" ],
-        [ dct:format "text/html" ;
-            rdfs:isDefinedBy "https://icsm-au.github.io/3d-csdm-profile-wa/build/generateddocs/slate-build/profiles/wa/" ] ;
+            rdfs:isDefinedBy "https://icsm-au.github.io/3d-csdm-profile-wa/build/generateddocs/markdown/profiles/wa/index.md" ] ;
     dct:hasVersion "0.1" ;
-    dct:modified "2024-04-30"^^xsd:date ;
+    dct:modified "2024-07-24"^^xsd:date ;
     dct:source <https://icsm-au.github.io/3d-csdm-common> ;
     skos:inScheme <https://icsm-au.github.io/3d-csdm-profile-wa/> ;
     dcat:keyword "csdm",
@@ -75,11 +73,11 @@ Profiles are defined in a consistent, machine-readable and validatable way using
         <https://opengeospatial.github.io/bblocks/register.json> .
 
 [] a prov:Activity ;
-    prov:endedAtTime "2024-04-30T07:39:50.565789"^^xsd:dateTime ;
-    prov:startedAtTime "2024-04-30T07:39:50.506591"^^xsd:dateTime ;
+    prov:endedAtTime "2024-07-24T06:26:34.415144"^^xsd:dateTime ;
+    prov:startedAtTime "2024-07-24T06:26:34.358582"^^xsd:dateTime ;
     prov:used [ a prov:Entity ;
             dct:format "application/json" ;
-            dct:hasVersion "git:a6ff4f2777ab4a9e6910b5e4a4ef5cf1d8526b96" ;
+            dct:hasVersion "git:485054fdffc441a247f46bf98ebd2ac03147eb9a" ;
             rdfs:seeAlso <https://icsm-au.github.io/3d-csdm-profile-wa/build/register.json> ],
         [ a prov:Entity ;
             dct:format "application/yaml" ;
@@ -87,6 +85,6 @@ Profiles are defined in a consistent, machine-readable and validatable way using
     prov:wasAssociatedWith [ a prov:Agent,
                 schema:SoftwareApplication ;
             rdfs:label "OGC-NA tools" ;
-            dct:hasVersion "0.3.44" ;
+            dct:hasVersion "0.3.48" ;
             rdfs:seeAlso <https://github.com/opengeospatial/ogc-na-tools> ] .
 

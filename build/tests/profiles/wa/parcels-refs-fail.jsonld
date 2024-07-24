@@ -643,8 +643,8 @@
               ]
             },
             "area": 798,
-            "parcelType": "wa-parcel-type:F",
-            "parcelPurpose": "wa-parcel-purpose:1",
+            "parcelType": "wa-parcel-type:freehold",
+            "parcelPurpose": "wa-parcel-purpose:lot",
             "parcelState": "wa-parcel-state:created",
             "interests": []
           }

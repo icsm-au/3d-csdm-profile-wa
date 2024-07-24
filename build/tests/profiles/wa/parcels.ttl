@@ -18,6 +18,7 @@
 @prefix sosa: <http://www.w3.org/ns/sosa/> .
 @prefix surv: <https://linked.data.gov.au/def/csdm/surveyfeatures/> .
 @prefix surveyable: <https://linked.data.gov.au/def/csdm/defs/surveyableproperties/> .
+@prefix time: <http://www.w3.org/2006/time#> .
 @prefix wa-local-government: <https://linked.data.gov.au/def/csdm/wa-local-government/> .
 @prefix wa-locality: <https://linked.data.gov.au/def/csdm/wa-locality/> .
 @prefix wa-monument-condition: <https://linked.data.gov.au/def/csdm/wa-monument-condition/> .
@@ -35,13 +36,14 @@
 <https://www.wa-example.com/features/DP_422532> a container:CSD,
         geojson:FeatureCollection ;
     rdfs:label "DP 422532" ;
+    dcterms:time [ time:hasTime "2022-05-22"^^xsd:date ] ;
     prov:wasGeneratedBy <https://www.wa-example.com/features/DP-1-S2> ;
     container:adminUnit [ ns2:relation <http://www.iana.org/assignments/relation/related> ;
-            prof:hasRole icsm-admin-unit-type:locality ;
-            oa:hasTarget wa-locality:karlkurla ],
-        [ ns2:relation <http://www.iana.org/assignments/relation/related> ;
             prof:hasRole icsm-admin-unit-type:localGovernmentArea ;
-            oa:hasTarget wa-local-government:city-of-kalgoorlie-boulder ] ;
+            oa:hasTarget wa-local-government:city-of-kalgoorlie-boulder ],
+        [ ns2:relation <http://www.iana.org/assignments/relation/related> ;
+            prof:hasRole icsm-admin-unit-type:locality ;
+            oa:hasTarget wa-locality:karlkurla ] ;
     container:bearingRotation 0e+00 ;
     container:horizontalCRS epsg:8024 ;
     container:observedVectors <https://www.wa-example.com/features/observedVectors> ;
@@ -55,14 +57,14 @@
 <https://www.wa-example.com/features/213> a parcel:PrimaryParcel,
         geojson:Feature ;
     parcel:appellation [ rdfs:label "Lot 213 DP 572532" ;
-            dcterms:hasPart [ rdfs:label "572532" ;
+            dcterms:hasPart [ rdfs:label "213" ;
+                    commonpatterns:namePartType "ParcelIdentifier" ],
+                [ rdfs:label "572532" ;
                     commonpatterns:namePartType "PlanNumber" ],
                 [ rdfs:label "Lot" ;
                     commonpatterns:namePartType "ParcelType" ],
                 [ rdfs:label "DP" ;
-                    commonpatterns:namePartType "PlanType" ],
-                [ rdfs:label "213" ;
-                    commonpatterns:namePartType "ParcelIdentifier" ] ] ;
+                    commonpatterns:namePartType "PlanType" ] ] ;
     parcel:purpose wa-parcel-purpose:lot ;
     parcel:state wa-parcel-state:created ;
     parcel:surfaceArea 798 ;
@@ -82,6 +84,7 @@
 <https://www.wa-example.com/features/DP-1-S2> prov:endedAtTime "2029-01-01T01:02:03+00:00"^^xsd:dateTime .
 
 <https://www.wa-example.com/features/DP_422526> rdfs:label "DP 422526" ;
+    dcterms:time [ time:hasTime "2013-03-10"^^xsd:date ] ;
     container:adminUnit [ ns2:relation <http://www.iana.org/assignments/relation/related> ;
             prof:hasRole icsm-admin-unit-type:locality ;
             oa:hasTarget wa-locality:hyden ] ;
@@ -103,6 +106,30 @@
 <vectorobservation:computed> a sosa:ObservationCollection,
         geojson:FeatureCollection ;
     sosa:hasMember [ a geojson:Feature ;
+            sosa:hasFeatureOfInterest <https://www.wa-example.com/features/298> ;
+            sosa:hasResult [ surv:distance 1e+01 ] ;
+            sosa:resultTime "2011-05-22T00:00:00Z" ;
+            ns1:angleAccuracyMeasure 8.33333e-03 ;
+            ns1:angleType icsm-angle-type:bearing ;
+            ns1:distanceAccuracyMeasure 4000 ;
+            ns1:distanceType icsm-distance-type:ground ],
+        [ a geojson:Feature ;
+            sosa:hasFeatureOfInterest <https://www.wa-example.com/features/313> ;
+            sosa:hasResult [ surv:distance 2.6401e+01 ] ;
+            sosa:resultTime "2011-05-22T00:00:00Z" ;
+            ns1:angleAccuracyMeasure 8.33333e-03 ;
+            ns1:angleType icsm-angle-type:bearing ;
+            ns1:distanceAccuracyMeasure 4000 ;
+            ns1:distanceType icsm-distance-type:ground ],
+        [ a geojson:Feature ;
+            sosa:hasFeatureOfInterest <https://www.wa-example.com/features/312> ;
+            sosa:hasResult [ surv:distance 1.6526e+01 ] ;
+            sosa:resultTime "2011-05-22T00:00:00Z" ;
+            ns1:angleAccuracyMeasure 8.33333e-03 ;
+            ns1:angleType icsm-angle-type:bearing ;
+            ns1:distanceAccuracyMeasure 4000 ;
+            ns1:distanceType icsm-distance-type:ground ],
+        [ a geojson:Feature ;
             sosa:hasFeatureOfInterest <https://www.wa-example.com/features/309> ;
             sosa:hasResult [ surv:distance 3.7e+01 ] ;
             sosa:resultTime "2011-05-22T00:00:00Z" ;
@@ -119,32 +146,8 @@
             ns1:distanceAccuracyMeasure 4000 ;
             ns1:distanceType icsm-distance-type:ground ],
         [ a geojson:Feature ;
-            sosa:hasFeatureOfInterest <https://www.wa-example.com/features/312> ;
-            sosa:hasResult [ surv:distance 1.6526e+01 ] ;
-            sosa:resultTime "2011-05-22T00:00:00Z" ;
-            ns1:angleAccuracyMeasure 8.33333e-03 ;
-            ns1:angleType icsm-angle-type:bearing ;
-            ns1:distanceAccuracyMeasure 4000 ;
-            ns1:distanceType icsm-distance-type:ground ],
-        [ a geojson:Feature ;
-            sosa:hasFeatureOfInterest <https://www.wa-example.com/features/298> ;
-            sosa:hasResult [ surv:distance 1e+01 ] ;
-            sosa:resultTime "2011-05-22T00:00:00Z" ;
-            ns1:angleAccuracyMeasure 8.33333e-03 ;
-            ns1:angleType icsm-angle-type:bearing ;
-            ns1:distanceAccuracyMeasure 4000 ;
-            ns1:distanceType icsm-distance-type:ground ],
-        [ a geojson:Feature ;
             sosa:hasFeatureOfInterest <https://www.wa-example.com/features/311> ;
             sosa:hasResult [ surv:distance 8.832e+00 ] ;
-            sosa:resultTime "2011-05-22T00:00:00Z" ;
-            ns1:angleAccuracyMeasure 8.33333e-03 ;
-            ns1:angleType icsm-angle-type:bearing ;
-            ns1:distanceAccuracyMeasure 4000 ;
-            ns1:distanceType icsm-distance-type:ground ],
-        [ a geojson:Feature ;
-            sosa:hasFeatureOfInterest <https://www.wa-example.com/features/313> ;
-            sosa:hasResult [ surv:distance 2.6401e+01 ] ;
             sosa:resultTime "2011-05-22T00:00:00Z" ;
             ns1:angleAccuracyMeasure 8.33333e-03 ;
             ns1:angleType icsm-angle-type:bearing ;
@@ -157,63 +160,63 @@
 
 <https://www.wa-example.com/features/184> a surv:BoundaryMark,
         geojson:Feature ;
+    dcterms:spatial [ a geojson:Point ;
+            geojson:coordinates ( 5.469328e+04 3.98707e+05 ) ] ;
     commonpatterns:qualityMeasure 1e-01 ;
     surv:monumentedBy [ surv:condition wa-monument-condition:ok ;
             surv:form wa-monument-form:peg ;
             surv:state wa-monument-state:did-not-search ] ;
-    surv:purpose wa-surveypoint-purpose:road-boundary ;
-    geojson:geometry [ a geojson:Point ;
-            geojson:coordinates ( 5.469328e+04 3.98707e+05 ) ] .
+    surv:purpose wa-surveypoint-purpose:road-boundary .
 
 <https://www.wa-example.com/features/189> a surv:BoundaryMark,
         geojson:Feature ;
+    dcterms:spatial [ a geojson:Point ;
+            geojson:coordinates ( 5.470981e+04 3.987072e+05 ) ] ;
     commonpatterns:qualityMeasure 1e-01 ;
     surv:monumentedBy [ surv:condition wa-monument-condition:ok ;
             surv:form wa-monument-form:peg ;
             surv:state wa-monument-state:did-not-search ] ;
-    surv:purpose wa-surveypoint-purpose:road-boundary ;
-    geojson:geometry [ a geojson:Point ;
-            geojson:coordinates ( 5.470981e+04 3.987072e+05 ) ] .
+    surv:purpose wa-surveypoint-purpose:road-boundary .
 
 <https://www.wa-example.com/features/190> a surv:BoundaryMark,
         geojson:Feature ;
+    dcterms:spatial [ a geojson:Point ;
+            geojson:coordinates ( 5.471898e+04 3.987111e+05 ) ] ;
     commonpatterns:qualityMeasure 1e-01 ;
     surv:monumentedBy [ surv:condition wa-monument-condition:ok ;
             surv:form wa-monument-form:peg ;
             surv:state wa-monument-state:did-not-search ] ;
-    surv:purpose wa-surveypoint-purpose:road-boundary ;
-    geojson:geometry [ a geojson:Point ;
-            geojson:coordinates ( 5.471898e+04 3.987111e+05 ) ] .
+    surv:purpose wa-surveypoint-purpose:road-boundary .
 
 <https://www.wa-example.com/features/196> a surv:BoundaryMark,
         geojson:Feature ;
+    dcterms:spatial [ a geojson:Point ;
+            geojson:coordinates ( 5.472507e+04 3.987175e+05 ) ] ;
     commonpatterns:qualityMeasure 1e-01 ;
     surv:monumentedBy [ surv:condition wa-monument-condition:ok ;
             surv:form wa-monument-form:peg ;
             surv:state wa-monument-state:did-not-search ] ;
-    surv:purpose wa-surveypoint-purpose:road-boundary ;
-    geojson:geometry [ a geojson:Point ;
-            geojson:coordinates ( 5.472507e+04 3.987175e+05 ) ] .
+    surv:purpose wa-surveypoint-purpose:road-boundary .
 
 <https://www.wa-example.com/features/197> a surv:BoundaryMark,
         geojson:Feature ;
+    dcterms:spatial [ a geojson:Point ;
+            geojson:coordinates ( 5.46983e+04 3.987431e+05 ) ] ;
     commonpatterns:qualityMeasure 1e-01 ;
     surv:monumentedBy [ surv:condition wa-monument-condition:ok ;
             surv:form wa-monument-form:peg ;
             surv:state wa-monument-state:did-not-search ] ;
-    surv:purpose wa-surveypoint-purpose:internal-boundary ;
-    geojson:geometry [ a geojson:Point ;
-            geojson:coordinates ( 5.46983e+04 3.987431e+05 ) ] .
+    surv:purpose wa-surveypoint-purpose:internal-boundary .
 
 <https://www.wa-example.com/features/198> a surv:BoundaryMark,
         geojson:Feature ;
+    dcterms:spatial [ a geojson:Point ;
+            geojson:coordinates ( 5.468864e+04 3.987329e+05 ) ] ;
     commonpatterns:qualityMeasure 1e-01 ;
     surv:monumentedBy [ surv:condition wa-monument-condition:ok ;
             surv:form wa-monument-form:peg ;
             surv:state wa-monument-state:did-not-search ] ;
-    surv:purpose wa-surveypoint-purpose:internal-boundary ;
-    geojson:geometry [ a geojson:Point ;
-            geojson:coordinates ( 5.468864e+04 3.987329e+05 ) ] .
+    surv:purpose wa-surveypoint-purpose:internal-boundary .
 
 <https://www.wa-example.com/features/298> a geojson:Feature ;
     geojson:topology [ a geojson:LineString ;

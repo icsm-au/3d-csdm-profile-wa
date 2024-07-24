@@ -1799,8 +1799,8 @@
               ]
             },
             "area": 854,
-            "parcelType": "wa-parcel-type:F",
-            "parcelPurpose": "wa-parcel-purpose:1",
+            "parcelType": "wa-parcel-type:freehold",
+            "parcelPurpose": "wa-parcel-purpose:lot",
             "parcelState": "wa-parcel-state:created",
             "interests": [
               {
@@ -1850,8 +1850,8 @@
               ]
             },
             "area": 854,
-            "parcelType": "wa-parcel-type:F",
-            "parcelPurpose": "wa-parcel-purpose:1",
+            "parcelType": "wa-parcel-type:freehold",
+            "parcelPurpose": "wa-parcel-purpose:lot",
             "parcelState": "wa-parcel-state:created",
             "interests": [
               {
@@ -1901,8 +1901,8 @@
               ]
             },
             "area": 854,
-            "parcelType": "wa-parcel-type:F",
-            "parcelPurpose": "wa-parcel-purpose:1",
+            "parcelType": "wa-parcel-type:freehold",
+            "parcelPurpose": "wa-parcel-purpose:lot",
             "parcelState": "wa-parcel-state:created",
             "interests": [
               {
@@ -1952,8 +1952,8 @@
               ]
             },
             "area": 854,
-            "parcelType": "wa-parcel-type:F",
-            "parcelPurpose": "wa-parcel-purpose:1",
+            "parcelType": "wa-parcel-type:freehold",
+            "parcelPurpose": "wa-parcel-purpose:lot",
             "parcelState": "wa-parcel-state:created",
             "interests": [
               {
@@ -2003,8 +2003,8 @@
               ]
             },
             "area": 854,
-            "parcelType": "wa-parcel-type:F",
-            "parcelPurpose": "wa-parcel-purpose:1",
+            "parcelType": "wa-parcel-type:freehold",
+            "parcelPurpose": "wa-parcel-purpose:lot",
             "parcelState": "wa-parcel-state:created",
             "interests": [
               {
@@ -2056,8 +2056,8 @@
               ]
             },
             "area": 888,
-            "parcelType": "wa-parcel-type:F",
-            "parcelPurpose": "wa-parcel-purpose:1",
+            "parcelType": "wa-parcel-type:freehold",
+            "parcelPurpose": "wa-parcel-purpose:lot",
             "parcelState": "wa-parcel-state:created",
             "interests": [
               {

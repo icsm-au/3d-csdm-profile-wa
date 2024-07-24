@@ -12,6 +12,7 @@
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix surv: <https://linked.data.gov.au/def/csdm/surveyfeatures/> .
+@prefix time: <http://www.w3.org/2006/time#> .
 @prefix wa-interest-type: <https://linked.data.gov.au/def/csdm/wa-interest-type/> .
 @prefix wa-local-government: <https://linked.data.gov.au/def/csdm/wa-local-government/> .
 @prefix wa-locality: <https://linked.data.gov.au/def/csdm/wa-locality/> .
@@ -31,6 +32,7 @@
 <https://www.wa-example.com/features/DP_423693> a container:CSD,
         geojson:FeatureCollection ;
     rdfs:label "DP 423693" ;
+    dcterms:time [ time:hasTime "2023-05-30"^^xsd:date ] ;
     prov:wasGeneratedBy <https://www.wa-example.com/features/DP-1-S2> ;
     container:adminUnit [ ns1:relation <http://www.iana.org/assignments/relation/related> ;
             prof:hasRole icsm-admin-unit-type:localGovernmentArea ;
@@ -51,14 +53,14 @@
 
 <https://www.wa-example.com/features/11636634> a geojson:Feature ;
     parcel:appellation [ rdfs:label "Lot 3 DP 214866" ;
-            dcterms:hasPart [ rdfs:label "3" ;
+            dcterms:hasPart [ rdfs:label "DP" ;
+                    commonpatterns:namePartType "PlanType" ],
+                [ rdfs:label "3" ;
                     commonpatterns:namePartType "ParcelIdentifier" ],
                 [ rdfs:label "Lot" ;
                     commonpatterns:namePartType "ParcelType" ],
                 [ rdfs:label "214866" ;
-                    commonpatterns:namePartType "planIdentifier" ],
-                [ rdfs:label "DP" ;
-                    commonpatterns:namePartType "PlanType" ] ] ;
+                    commonpatterns:namePartType "planIdentifier" ] ] ;
     parcel:interest [ parcel:interestLink <https://www.wa-example.com/features/LR-3150-715> ;
             parcel:interestType wa-interest-type:ct ] ;
     parcel:purpose wa-parcel-purpose:reserve ;
@@ -71,14 +73,14 @@
 <https://www.wa-example.com/features/12595541> a geojson:Feature ;
     rdfs:label "H" ;
     parcel:appellation [ rdfs:label "Area H DP 95092" ;
-            dcterms:hasPart [ rdfs:label "DP" ;
-                    commonpatterns:namePartType "PlanType" ],
+            dcterms:hasPart [ rdfs:label "Area" ;
+                    commonpatterns:namePartType "ParcelType" ],
                 [ rdfs:label "95092" ;
                     commonpatterns:namePartType "planIdentifier" ],
-                [ rdfs:label "Area" ;
-                    commonpatterns:namePartType "ParcelType" ],
                 [ rdfs:label "H" ;
-                    commonpatterns:namePartType "ParcelIdentifier" ] ] ;
+                    commonpatterns:namePartType "ParcelIdentifier" ],
+                [ rdfs:label "DP" ;
+                    commonpatterns:namePartType "PlanType" ] ] ;
     parcel:interest [ parcel:burdened "11636634" ;
             parcel:interestLink <https://www.wa-example.com/features/345-098-456> ;
             parcel:interestType wa-interest-type:res-cov-cta-38-reg-54-conserv ] ;
@@ -112,6 +114,7 @@
 <https://www.wa-example.com/features/DP-1-S2> prov:endedAtTime "2029-01-01T01:02:03+00:00"^^xsd:dateTime .
 
 <https://www.wa-example.com/features/DP_214866> rdfs:label "DP 214866" ;
+    dcterms:time [ time:hasTime "2023-05-30"^^xsd:date ] ;
     container:adminUnit [ ns1:relation <http://www.iana.org/assignments/relation/related> ;
             prof:hasRole icsm-admin-unit-type:locality ;
             oa:hasTarget wa-locality:hyden ] ;
@@ -145,12 +148,12 @@
 
 <https://www.wa-example.com/features/16040422> a surv:CadastralMark,
         geojson:Feature ;
+    dcterms:spatial [ a geojson:Point ;
+            geojson:coordinates ( 6.8451e+05 6.422981e+06 ) ] ;
     rdfs:comment "Center of circular Interest" ;
     commonpatterns:qualityMeasure 1e-01 ;
     surv:monumentedBy [ surv:state wa-monument-state:unmarked ] ;
-    surv:purpose wa-surveypoint-purpose:interest-construct ;
-    geojson:geometry [ a geojson:Point ;
-            geojson:coordinates ( 6.8451e+05 6.422981e+06 ) ] .
+    surv:purpose wa-surveypoint-purpose:interest-construct .
 
 <https://www.wa-example.com/features/17842481> a geojson:Feature ;
     geojson:topology [ a geojson:CircleByCenter ;
@@ -215,141 +218,141 @@
 
 <https://www.wa-example.com/features/10001> a surv:BoundaryMark,
         geojson:Feature ;
+    dcterms:spatial [ a geojson:Point ;
+            geojson:coordinates ( 6.833604e+05 6.423807e+06 ) ] ;
     commonpatterns:qualityMeasure 1e-01 ;
     surv:monumentedBy [ surv:condition wa-monument-condition:ok ;
             surv:form wa-monument-form:peg ;
             surv:state wa-monument-state:did-not-search ] ;
-    surv:purpose wa-surveypoint-purpose:road-boundary ;
-    geojson:geometry [ a geojson:Point ;
-            geojson:coordinates ( 6.833604e+05 6.423807e+06 ) ] .
+    surv:purpose wa-surveypoint-purpose:road-boundary .
 
 <https://www.wa-example.com/features/100010> a surv:BoundaryMark,
         geojson:Feature ;
+    dcterms:spatial [ a geojson:Point ;
+            geojson:coordinates ( 6.840789e+05 6.421848e+06 ) ] ;
     commonpatterns:qualityMeasure 1e-01 ;
     surv:monumentedBy [ surv:condition wa-monument-condition:ok ;
             surv:form wa-monument-form:peg ;
             surv:state wa-monument-state:did-not-search ] ;
-    surv:purpose wa-surveypoint-purpose:road-boundary ;
-    geojson:geometry [ a geojson:Point ;
-            geojson:coordinates ( 6.840789e+05 6.421848e+06 ) ] .
+    surv:purpose wa-surveypoint-purpose:road-boundary .
 
 <https://www.wa-example.com/features/100011> a surv:BoundaryMark,
         geojson:Feature ;
+    dcterms:spatial [ a geojson:Point ;
+            geojson:coordinates ( 6.836924e+05 6.421858e+06 ) ] ;
     commonpatterns:qualityMeasure 1e-01 ;
     surv:monumentedBy [ surv:condition wa-monument-condition:ok ;
             surv:form wa-monument-form:peg ;
             surv:state wa-monument-state:did-not-search ] ;
-    surv:purpose wa-surveypoint-purpose:road-boundary ;
-    geojson:geometry [ a geojson:Point ;
-            geojson:coordinates ( 6.836924e+05 6.421858e+06 ) ] .
+    surv:purpose wa-surveypoint-purpose:road-boundary .
 
 <https://www.wa-example.com/features/100012> a surv:BoundaryMark,
         geojson:Feature ;
+    dcterms:spatial [ a geojson:Point ;
+            geojson:coordinates ( 6.834878e+05 6.421828e+06 ) ] ;
     commonpatterns:qualityMeasure 1e-01 ;
     surv:monumentedBy [ surv:condition wa-monument-condition:ok ;
             surv:form wa-monument-form:peg ;
             surv:state wa-monument-state:did-not-search ] ;
-    surv:purpose wa-surveypoint-purpose:road-boundary ;
-    geojson:geometry [ a geojson:Point ;
-            geojson:coordinates ( 6.834878e+05 6.421828e+06 ) ] .
+    surv:purpose wa-surveypoint-purpose:road-boundary .
 
 <https://www.wa-example.com/features/100014> a surv:BoundaryMark,
         geojson:Feature ;
+    dcterms:spatial [ a geojson:Point ;
+            geojson:coordinates ( 6.833166e+05 6.42177e+06 ) ] ;
     commonpatterns:qualityMeasure 1e-01 ;
     surv:monumentedBy [ surv:condition wa-monument-condition:ok ;
             surv:form wa-monument-form:peg ;
             surv:state wa-monument-state:did-not-search ] ;
-    surv:purpose wa-surveypoint-purpose:road-boundary ;
-    geojson:geometry [ a geojson:Point ;
-            geojson:coordinates ( 6.833166e+05 6.42177e+06 ) ] .
+    surv:purpose wa-surveypoint-purpose:road-boundary .
 
 <https://www.wa-example.com/features/100015> a surv:BoundaryMark,
         geojson:Feature ;
+    dcterms:spatial [ a geojson:Point ;
+            geojson:coordinates ( 6.832884e+05 6.421848e+06 ) ] ;
     commonpatterns:qualityMeasure 1e-01 ;
     surv:monumentedBy [ surv:condition wa-monument-condition:ok ;
             surv:form wa-monument-form:peg ;
             surv:state wa-monument-state:did-not-search ] ;
-    surv:purpose wa-surveypoint-purpose:road-boundary ;
-    geojson:geometry [ a geojson:Point ;
-            geojson:coordinates ( 6.832884e+05 6.421848e+06 ) ] .
+    surv:purpose wa-surveypoint-purpose:road-boundary .
 
 <https://www.wa-example.com/features/10002> a surv:BoundaryMark,
         geojson:Feature ;
+    dcterms:spatial [ a geojson:Point ;
+            geojson:coordinates ( 6.833724e+05 6.423818e+06 ) ] ;
     commonpatterns:qualityMeasure 1e-01 ;
     surv:monumentedBy [ surv:condition wa-monument-condition:ok ;
             surv:form wa-monument-form:peg ;
             surv:state wa-monument-state:did-not-search ] ;
-    surv:purpose wa-surveypoint-purpose:road-boundary ;
-    geojson:geometry [ a geojson:Point ;
-            geojson:coordinates ( 6.833724e+05 6.423818e+06 ) ] .
+    surv:purpose wa-surveypoint-purpose:road-boundary .
 
 <https://www.wa-example.com/features/10003> a surv:BoundaryMark,
         geojson:Feature ;
+    dcterms:spatial [ a geojson:Point ;
+            geojson:coordinates ( 6.849446e+05 6.423786e+06 ) ] ;
     commonpatterns:qualityMeasure 1e-01 ;
     surv:monumentedBy [ surv:condition wa-monument-condition:ok ;
             surv:form wa-monument-form:peg ;
             surv:state wa-monument-state:did-not-search ] ;
-    surv:purpose wa-surveypoint-purpose:road-boundary ;
-    geojson:geometry [ a geojson:Point ;
-            geojson:coordinates ( 6.849446e+05 6.423786e+06 ) ] .
+    surv:purpose wa-surveypoint-purpose:road-boundary .
 
 <https://www.wa-example.com/features/10004> a surv:BoundaryMark,
         geojson:Feature ;
+    dcterms:spatial [ a geojson:Point ;
+            geojson:coordinates ( 6.850208e+05 6.423724e+06 ) ] ;
     commonpatterns:qualityMeasure 1e-01 ;
     surv:monumentedBy [ surv:condition wa-monument-condition:ok ;
             surv:form wa-monument-form:peg ;
             surv:state wa-monument-state:did-not-search ] ;
-    surv:purpose wa-surveypoint-purpose:road-boundary ;
-    geojson:geometry [ a geojson:Point ;
-            geojson:coordinates ( 6.850208e+05 6.423724e+06 ) ] .
+    surv:purpose wa-surveypoint-purpose:road-boundary .
 
 <https://www.wa-example.com/features/10005> a surv:BoundaryMark,
         geojson:Feature ;
+    dcterms:spatial [ a geojson:Point ;
+            geojson:coordinates ( 6.852525e+05 6.423292e+06 ) ] ;
     commonpatterns:qualityMeasure 1e-01 ;
     surv:monumentedBy [ surv:condition wa-monument-condition:ok ;
             surv:form wa-monument-form:peg ;
             surv:state wa-monument-state:did-not-search ] ;
-    surv:purpose wa-surveypoint-purpose:road-boundary ;
-    geojson:geometry [ a geojson:Point ;
-            geojson:coordinates ( 6.852525e+05 6.423292e+06 ) ] .
+    surv:purpose wa-surveypoint-purpose:road-boundary .
 
 <https://www.wa-example.com/features/10006> a surv:BoundaryMark,
         geojson:Feature ;
+    dcterms:spatial [ a geojson:Point ;
+            geojson:coordinates ( 6.852783e+05 6.42318e+06 ) ] ;
     commonpatterns:qualityMeasure 1e-01 ;
     surv:monumentedBy [ surv:condition wa-monument-condition:ok ;
             surv:form wa-monument-form:peg ;
             surv:state wa-monument-state:did-not-search ] ;
-    surv:purpose wa-surveypoint-purpose:road-boundary ;
-    geojson:geometry [ a geojson:Point ;
-            geojson:coordinates ( 6.852783e+05 6.42318e+06 ) ] .
+    surv:purpose wa-surveypoint-purpose:road-boundary .
 
 <https://www.wa-example.com/features/10007> a surv:BoundaryMark,
         geojson:Feature ;
+    dcterms:spatial [ a geojson:Point ;
+            geojson:coordinates ( 6.852686e+05 6.422629e+06 ) ] ;
     commonpatterns:qualityMeasure 1e-01 ;
     surv:monumentedBy [ surv:condition wa-monument-condition:ok ;
             surv:form wa-monument-form:peg ;
             surv:state wa-monument-state:did-not-search ] ;
-    surv:purpose wa-surveypoint-purpose:road-boundary ;
-    geojson:geometry [ a geojson:Point ;
-            geojson:coordinates ( 6.852686e+05 6.422629e+06 ) ] .
+    surv:purpose wa-surveypoint-purpose:road-boundary .
 
 <https://www.wa-example.com/features/10008> a surv:BoundaryMark,
         geojson:Feature ;
+    dcterms:spatial [ a geojson:Point ;
+            geojson:coordinates ( 6.852324e+05 6.422472e+06 ) ] ;
     commonpatterns:qualityMeasure 1e-01 ;
     surv:monumentedBy [ surv:condition wa-monument-condition:ok ;
             surv:form wa-monument-form:peg ;
             surv:state wa-monument-state:did-not-search ] ;
-    surv:purpose wa-surveypoint-purpose:road-boundary ;
-    geojson:geometry [ a geojson:Point ;
-            geojson:coordinates ( 6.852324e+05 6.422472e+06 ) ] .
+    surv:purpose wa-surveypoint-purpose:road-boundary .
 
 <https://www.wa-example.com/features/10009> a surv:BoundaryMark,
         geojson:Feature ;
+    dcterms:spatial [ a geojson:Point ;
+            geojson:coordinates ( 6.848658e+05 6.421828e+06 ) ] ;
     commonpatterns:qualityMeasure 1e-01 ;
     surv:monumentedBy [ surv:condition wa-monument-condition:ok ;
             surv:form wa-monument-form:peg ;
             surv:state wa-monument-state:did-not-search ] ;
-    surv:purpose wa-surveypoint-purpose:road-boundary ;
-    geojson:geometry [ a geojson:Point ;
-            geojson:coordinates ( 6.848658e+05 6.421828e+06 ) ] .
+    surv:purpose wa-surveypoint-purpose:road-boundary .
 

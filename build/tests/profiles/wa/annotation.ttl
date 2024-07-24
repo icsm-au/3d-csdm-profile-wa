@@ -1,4 +1,5 @@
 @prefix container: <https://linked.data.gov.au/def/csdm/container/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix epsg: <http://www.opengis.net/def/crs/EPSG/0/> .
 @prefix geojson: <https://purl.org/geojson/vocab#> .
 @prefix icsm-admin-unit-type: <https://linked.data.gov.au/def/csdm/icsm-admin-unit-type/> .
@@ -7,6 +8,7 @@
 @prefix prof: <http://www.w3.org/ns/dx/prof/> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix time: <http://www.w3.org/2006/time#> .
 @prefix wa-annotation-role: <https://linked.data.gov.au/def/csdm/wa-annotation/> .
 @prefix wa-local-government: <https://linked.data.gov.au/def/csdm/wa-local-government/> .
 @prefix wa-locality: <https://linked.data.gov.au/def/csdm/wa-locality/> .
@@ -17,6 +19,7 @@
 <https://www.wa-example.com/features/DP_58955> a container:CSD,
         geojson:FeatureCollection ;
     rdfs:label "DP 58955" ;
+    dcterms:time [ time:hasTime "2010-06-29"^^xsd:date ] ;
     prov:wasGeneratedBy <https://www.wa-example.com/features/DP-1-S2> ;
     container:adminUnit [ ns1:relation <http://www.iana.org/assignments/relation/related> ;
             prof:hasRole icsm-admin-unit-type:localGovernmentArea ;
@@ -24,11 +27,11 @@
         [ ns1:relation <http://www.iana.org/assignments/relation/related> ;
             prof:hasRole icsm-admin-unit-type:locality ;
             oa:hasTarget wa-locality:marble-bar ] ;
-    container:annotations [ prof:hasRole wa-annotation-role:transfer-of-land-exempt ],
+    container:annotations [ prof:hasRole wa-annotation-role:total-area ],
         [ prof:hasRole wa-annotation-role:unsurveyed-dimensions ],
-        [ prof:hasRole wa-annotation-role:parcel-derived ],
+        [ prof:hasRole wa-annotation-role:transfer-of-land-exempt ],
         [ prof:hasRole wa-annotation-role:public-acquisition ],
-        [ prof:hasRole wa-annotation-role:total-area ] ;
+        [ prof:hasRole wa-annotation-role:parcel-derived ] ;
     container:bearingRotation 0e+00 ;
     container:horizontalCRS epsg:7850 ;
     container:purpose wa-survey-purpose:acquisition ;
