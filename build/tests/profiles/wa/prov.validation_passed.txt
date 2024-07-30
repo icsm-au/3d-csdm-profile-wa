@@ -1,10 +1,10 @@
 Validation report for icsm.profiles.wa - Western Australia Cadastral Survey Data Exchange Profile
-Generated 2024-07-30T02:11:22.723566+00:00
+Generated 2024-07-30T02:10:51.725379+00:00
 === Files ===
-Using 3d-surveypoints (example_7_1) from examples
+Using prov.json from test resources
 JSON-LD context is present - uplifting
-Output JSON-LD 3d-surveypoints.jsonld created
-Output Turtle 3d-surveypoints.ttl created
+Output JSON-LD prov.jsonld created
+Output Turtle prov.ttl created
 === End Files ===
 
 === JSON Schema ===
@@ -26,9 +26,9 @@ Validation result for https://icsm-au.github.io/3d-csdm-profile-icsm/profiles/ic
 Focus nodes for https://icsm-au.github.io/3d-csdm-profile-icsm/profiles/icsm-survey-metadata-shacl.ttl:
  - Shape :testCompoundCRS: *none*
  - Shape :testAngleType: *none*
- - Shape :testVHD: <https://www.wa-example.com/features/DP_422532>
- - Shape :testCRS: <https://www.wa-example.com/features/DP_422532>
- - Shape :testSurveyMetadata: <https://www.wa-example.com/features/DP_422532>
+ - Shape :testVHD: *none*
+ - Shape :testCRS: <file:///github/workspace/DP_422532>
+ - Shape :testSurveyMetadata: <file:///github/workspace/DP_422532>
  - Shape :testDistanceType: *none*
 
 Validation result for https://icsm-au.github.io/3d-csdm-profile-icsm/profiles/icsm-point-codetypes-shacl.ttl:
@@ -36,12 +36,12 @@ Validation result for https://icsm-au.github.io/3d-csdm-profile-icsm/profiles/ic
   Conforms: True
   
 Focus nodes for https://icsm-au.github.io/3d-csdm-profile-icsm/profiles/icsm-point-codetypes-shacl.ttl:
- - Shape jcl:testBoundVocab-state: <https://www.wa-example.com/features/18430396>/surv:monumentedBy,<https://www.wa-example.com/features/18430386>/surv:monumentedBy,<https://www.wa-example.com/features/17876586>/surv:monumentedBy
- - Shape jcl:testBoundVocab-condition: <https://www.wa-example.com/features/18430396>/surv:monumentedBy,<https://www.wa-example.com/features/18430386>/surv:monumentedBy,<https://www.wa-example.com/features/17876586>/surv:monumentedBy
- - Shape jcl:testBoundVocab-surveypoint-purpose: <https://www.wa-example.com/features/18430386>,<https://www.wa-example.com/features/17876586>,<https://www.wa-example.com/features/GeodeticReferenceMark>,<https://www.wa-example.com/features/18430396>,<https://www.wa-example.com/features/CadastralMark>,<https://www.wa-example.com/features/BoundaryMark>
+ - Shape jcl:testBoundVocab-state: *none*
+ - Shape jcl:testBoundVocab-condition: *none*
+ - Shape jcl:testBoundVocab-surveypoint-purpose: *none*
  - Shape jcl:testBoundVocab-vector-purpose: *none*
- - Shape jcl:testBoundVocab-pt-quality-class: <https://www.wa-example.com/features/18430386>,<https://www.wa-example.com/features/17876586>,<https://www.wa-example.com/features/GeodeticReferenceMark>,<https://www.wa-example.com/features/18430396>,<https://www.wa-example.com/features/CadastralMark>,<https://www.wa-example.com/features/BoundaryMark>
- - Shape jcl:testBoundVocab-form: <https://www.wa-example.com/features/18430396>/surv:monumentedBy,<https://www.wa-example.com/features/18430386>/surv:monumentedBy,<https://www.wa-example.com/features/17876586>/surv:monumentedBy
+ - Shape jcl:testBoundVocab-pt-quality-class: *none*
+ - Shape jcl:testBoundVocab-form: *none*
 
 Validation result for https://icsm-au.github.io/3d-csdm-profile-icsm/profiles/icsm-observation-properties.shacl:
   Validation Report
@@ -124,7 +124,7 @@ Validation result for https://ogcincubator.github.io/topo-feature/_sources/featu
   
 Focus nodes for https://ogcincubator.github.io/topo-feature/_sources/features/topo-feature/tests/geometry-coordinates.shacl:
  - Shape _:nea76ae9d925c4debb116c39738fa9c5fb3: *none*
- - Shape _:nea76ae9d925c4debb116c39738fa9c5fb1: <https://www.wa-example.com/features/18430396>/dcterms:spatial,<https://www.wa-example.com/features/18430386>/dcterms:spatial,<https://www.wa-example.com/features/17876586>/dcterms:spatial
+ - Shape _:nea76ae9d925c4debb116c39738fa9c5fb1: *none*
 
 Validation result for https://opengeospatial.github.io/ogcapi-sosa/_sources/properties/observation/rules.shacl:
   Validation Report

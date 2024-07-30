@@ -35,11 +35,11 @@
     dcterms:time [ time:hasTime "1970-04-10"^^xsd:date ] ;
     prov:wasGeneratedBy <https://www.wa-example.com/features/DP-1-S2> ;
     container:adminUnit [ ns1:relation <http://www.iana.org/assignments/relation/related> ;
-            prof:hasRole icsm-admin-unit-type:locality ;
-            oa:hasTarget wa-locality:thornlie ],
-        [ ns1:relation <http://www.iana.org/assignments/relation/related> ;
             prof:hasRole icsm-admin-unit-type:localGovernmentArea ;
-            oa:hasTarget wa-local-government:city-of-perth ] ;
+            oa:hasTarget wa-local-government:city-of-perth ],
+        [ ns1:relation <http://www.iana.org/assignments/relation/related> ;
+            prof:hasRole icsm-admin-unit-type:locality ;
+            oa:hasTarget wa-locality:thornlie ] ;
     container:bearingRotation 0e+00 ;
     container:horizontalCRS epsg:8031 ;
     container:observedVectors <https://www.wa-example.com/features/observedVectors> ;
@@ -115,7 +115,7 @@
             ns2:angleType icsm-angle-type:bearing ;
             ns2:distanceAccuracyMeasure 4000 ;
             ns2:distanceType icsm-distance-type:ground ] ;
-    sosa:madeBySensor [ surv:sensorType icsm-equipment-type:t-band ] ;
+    sosa:madeBySensor [ a icsm-equipment-type:t-band ] ;
     sosa:observedProperty surveyable:VectorDetermination ;
     sosa:resultTime "1970-04-10" ;
     sosa:usedProcedure wa-procedure-used:m .

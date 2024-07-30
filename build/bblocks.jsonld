@@ -106,12 +106,12 @@
   "name": "Building Blocks - WA Implementation Profile for 3D CSDM",
   "abstract": "This repository contains the WA profile of the [Cadastral Survey Data Model Exchange Specification](https://icsm-au.github.io/3d-csdm-common/), \nextending the  [common ICSM profile](https://icsm-au.github.io/3d-csdm-profile-icsm/).\n \n",
   "description": "\nThe encoding specification and all profiles are compatible with the [OGC API Features](https://opengeospatial.github.io/e-learning/ogcapi-features/text/basic-main.html) data exchange specification, and can thus be implemented by any standards compliant software capable of handling nested object sub-schemas and control of codelist in content.\n\nProfiles are defined in a consistent, machine-readable and validatable way using the [OGC Building Blocks methodology](https://ogcincubator.github.io/bblocks-docs/).\n",
-  "modified": "2024-07-24T06:19:33.345277",
+  "modified": "2024-07-30T02:10:26.428450",
   "tooling": {
     "bblocks-postprocess": {
-      "commitId": "\"68a2c711a7b9524049f33286a6021ae24ef34bbb",
-      "shortCommitId": "\"68a2c7",
-      "date": "2024-07-23T08:32:48+00:00\""
+      "commitId": "\"4d636440e7de2e3a19a34b0859dbe688ec664eea",
+      "shortCommitId": "\"4d6364",
+      "date": "2024-07-25T10:52:22+00:00\""
     }
   },
   "gitRepository": "https://github.com/icsm-au/3d-csdm-profile-wa",
@@ -140,7 +140,7 @@
       "itemClass": "schema",
       "register": "icsm-csdm",
       "version": "0.1",
-      "dateOfLastChange": "2024-07-24",
+      "dateOfLastChange": "2023-08-08",
       "sources": [
         {
           "title": "3D Cadastre Survey Data Model",
@@ -165,16 +165,16 @@
           "https://icsm-au.github.io/3d-csdm-profile-wa/profiles/wa-pointnames-shacl.ttl"
         ],
         "icsm.profiles.common": [
-          "https://icsm-au.github.io/3d-csdm-profile-icsm/profiles/icsm-point-codetypes-shacl.ttl",
           "https://icsm-au.github.io/3d-csdm-profile-icsm/profiles/icsm-survey-metadata-shacl.ttl",
-          "https://icsm-au.github.io/3d-csdm-profile-icsm/profiles/icsm-observation-properties.shacl",
+          "https://icsm-au.github.io/3d-csdm-profile-icsm/profiles/icsm-point-codetypes-shacl.ttl",
           "https://icsm-au.github.io/3d-csdm-profile-icsm/profiles/icsm-parcel-codetypes-shacl.ttl",
+          "https://icsm-au.github.io/3d-csdm-profile-icsm/profiles/icsm-observation-properties.shacl",
           "https://icsm-au.github.io/3d-csdm-profile-icsm/profiles/icsm-references-shacl.ttl"
         ],
         "icsm.csdm.features.CSD": [
           "https://icsm-au.github.io/3d-csdm-common/_sources/csdm/shapes/container.shapes.ttl",
-          "https://icsm-au.github.io/3d-csdm-common/_sources/csdm/features/CSD/tests/obs-match-vectors.shacl",
-          "https://icsm-au.github.io/3d-csdm-common/_sources/csdm/shapes/parcel_module.shapes.ttl"
+          "https://icsm-au.github.io/3d-csdm-common/_sources/csdm/shapes/parcel_module.shapes.ttl",
+          "https://icsm-au.github.io/3d-csdm-common/_sources/csdm/features/CSD/tests/obs-match-vectors.shacl"
         ],
         "icsm.csdm.datatypes.compoundName": [
           "https://icsm-au.github.io/3d-csdm-common/_sources/csdm/datatypes/compoundName/rules.shacl"
@@ -233,7 +233,7 @@
       "sourceSchema": "https://icsm-au.github.io/3d-csdm-profile-wa/_sources/wa/schema.json",
       "sourceLdContext": "https://icsm-au.github.io/3d-csdm-profile-wa/_sources/wa/context.jsonld",
       "sourceFiles": "https://icsm-au.github.io/3d-csdm-profile-wa/_sources/wa/",
-      "validationPassed": false,
+      "validationPassed": true,
       "testOutputs": "https://github.com/icsm-au/3d-csdm-profile-wa/blob/main/build/tests/profiles/wa/",
       "documentation": {
         "markdown": {
