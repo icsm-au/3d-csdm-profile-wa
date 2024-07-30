@@ -1,0 +1,613 @@
+{
+    "$schema": "schema.json",
+    "type": "FeatureCollection",
+    "coordRefSys": "epsg:8024",
+    "verticalCRS": "epsg:8024",
+    "id": null,
+    "name": "DP 422532",
+    "purpose": "wa-survey-purpose:subdivision",
+    "featureType": "CSD",
+    "referencedCSDs": [
+        {
+            "id": "DP_422526",
+            "name": "DP 422526",
+            "adminUnit": {
+                "href": "wa-locality:hyden",
+                "rel": "related",
+                "role": "icsm-admin-unit-type:locality"
+            },
+            "bearingRotation": 0.0,
+            "time": "2013-03-10 00:00:00"
+        }
+    ],
+    "links": [],
+    "provenance": {},
+    "features": [
+        {
+            "id": "184",
+            "type": "Feature",
+            "featureType": "SurveyPoint",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.44459259300403,
+                    -30.730750614470015
+                ]
+            },
+            "place": {
+                "type": "Point",
+                "coordinates": [
+                    54693.284,
+                    398706.957
+                ]
+            },
+            "properties": {
+                "name": null,
+                "purpose": "wa-surveypoint-purpose:road-boundary",
+                "ptQualityMeasure": 0.1,
+                "comment": null,
+                "monumentedBy": {
+                    "form": "wa-monument-form:peg",
+                    "condition": "wa-monument-condition:ok",
+                    "state": "wa-monument-state:did-not-search"
+                }
+            }
+        },
+        {
+            "id": "189",
+            "type": "Feature",
+            "featureType": "SurveyPoint",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.44476512098763,
+                    -30.73074891115523
+                ]
+            },
+            "place": {
+                "type": "Point",
+                "coordinates": [
+                    54709.808,
+                    398707.154
+                ]
+            },
+            "properties": {
+                "name": null,
+                "purpose": "wa-surveypoint-purpose:road-boundary",
+                "ptQualityMeasure": 0.1,
+                "comment": null,
+                "monumentedBy": {
+                    "form": "wa-monument-form:peg",
+                    "condition": "wa-monument-condition:ok",
+                    "state": "wa-monument-state:did-not-search"
+                }
+            }
+        },
+        {
+            "id": "190",
+            "type": "Feature",
+            "featureType": "SurveyPoint",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.44486087494411,
+                    -30.730712954871706
+                ]
+            },
+            "place": {
+                "type": "Point",
+                "coordinates": [
+                    54718.977,
+                    398711.145
+                ]
+            },
+            "properties": {
+                "name": null,
+                "purpose": "wa-surveypoint-purpose:road-boundary",
+                "ptQualityMeasure": 0.1,
+                "comment": null,
+                "monumentedBy": {
+                    "form": "wa-monument-form:peg",
+                    "condition": "wa-monument-condition:ok",
+                    "state": "wa-monument-state:did-not-search"
+                }
+            }
+        },
+        {
+            "id": "196",
+            "type": "Feature",
+            "featureType": "SurveyPoint",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.44492456642654,
+                    -30.73065534703183
+                ]
+            },
+            "place": {
+                "type": "Point",
+                "coordinates": [
+                    54725.074,
+                    398717.535
+                ]
+            },
+            "properties": {
+                "name": null,
+                "purpose": "wa-surveypoint-purpose:road-boundary",
+                "ptQualityMeasure": 0.1,
+                "comment": null,
+                "monumentedBy": {
+                    "form": "wa-monument-form:peg",
+                    "condition": "wa-monument-condition:ok",
+                    "state": "wa-monument-state:did-not-search"
+                }
+            }
+        },
+        {
+            "id": "197",
+            "type": "Feature",
+            "featureType": "SurveyPoint",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.44464518252326,
+                    -30.730424869040444
+                ]
+            },
+            "place": {
+                "type": "Point",
+                "coordinates": [
+                    54698.303,
+                    398743.075
+                ]
+            },
+            "properties": {
+                "name": null,
+                "purpose": "wa-surveypoint-purpose:internal-boundary",
+                "ptQualityMeasure": 0.1,
+                "comment": null,
+                "monumentedBy": {
+                    "form": "wa-monument-form:peg",
+                    "condition": "wa-monument-condition:ok",
+                    "state": "wa-monument-state:did-not-search"
+                }
+            }
+        },
+        {
+            "id": "198",
+            "type": "Feature",
+            "featureType": "SurveyPoint",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.44454422879919,
+                    -30.73051618490328
+                ]
+            },
+            "place": {
+                "type": "Point",
+                "coordinates": [
+                    54688.639,
+                    398732.946
+                ]
+            },
+            "properties": {
+                "name": null,
+                "purpose": "wa-surveypoint-purpose:internal-boundary",
+                "ptQualityMeasure": 0.1,
+                "comment": null,
+                "monumentedBy": {
+                    "form": "wa-monument-form:peg",
+                    "condition": "wa-monument-condition:ok",
+                    "state": "wa-monument-state:did-not-search"
+                }
+            }
+        },
+        {
+            "id": "312",
+            "type": "Feature",
+            "featureType": "sosa:ObservationCollection",
+            "geometry": {
+                "type": "LineString",
+                "featureType": "observation",
+                "coordinates": [
+                    [
+                        121.44476512098763,
+                        -30.73074891115523
+                    ],
+                    [
+                        121.44459259300403,
+                        -30.730750614470015
+                    ]
+                ]
+            },
+            "place": {
+                "type": "LineString",
+                "featureType": "observation",
+                "coordinates": [
+                    [
+                        54709.808,
+                        398707.154
+                    ],
+                    [
+                        54693.284,
+                        398706.957
+                    ]
+                ]
+            },
+            "properties": {
+                "name": {
+                    "label": "312",
+                    "hasPart": []
+                },
+                "purpose": "wa-surveypoint-purpose:road-boundary",
+                "ptQualityMeasure": 0.1,
+                "comment": null,
+                "monumentedBy": {
+                    "form": "wa-monument-form:peg",
+                    "condition": "wa-monument-condition:ok",
+                    "state": "wa-monument-state:did-not-search"
+                },
+                "distance": 16.526,
+                "azimuth": 269.31694905,
+                "ptQuality": null
+            }
+        },
+        {
+            "id": "313",
+            "type": "Feature",
+            "featureType": "sosa:ObservationCollection",
+            "geometry": {
+                "type": "LineString",
+                "featureType": "observation",
+                "coordinates": [
+                    [
+                        121.44459259300403,
+                        -30.730750614470015
+                    ],
+                    [
+                        121.44454422879919,
+                        -30.73051618490328
+                    ]
+                ]
+            },
+            "place": {
+                "type": "LineString",
+                "featureType": "observation",
+                "coordinates": [
+                    [
+                        54693.284,
+                        398706.957
+                    ],
+                    [
+                        54688.639,
+                        398732.946
+                    ]
+                ]
+            },
+            "properties": {
+                "name": {
+                    "label": "313",
+                    "hasPart": []
+                },
+                "purpose": "wa-surveypoint-purpose:road-boundary",
+                "ptQualityMeasure": 0.1,
+                "comment": null,
+                "monumentedBy": {
+                    "form": "wa-monument-form:peg",
+                    "condition": "wa-monument-condition:ok",
+                    "state": "wa-monument-state:did-not-search"
+                },
+                "distance": 26.401,
+                "azimuth": 349.86944905,
+                "ptQuality": null
+            }
+        },
+        {
+            "id": "314",
+            "type": "Feature",
+            "featureType": "sosa:ObservationCollection",
+            "geometry": {
+                "type": "LineString",
+                "featureType": "observation",
+                "coordinates": [
+                    [
+                        121.44454422879919,
+                        -30.73051618490328
+                    ],
+                    [
+                        121.44464518252326,
+                        -30.730424869040444
+                    ]
+                ]
+            },
+            "place": {
+                "type": "LineString",
+                "featureType": "observation",
+                "coordinates": [
+                    [
+                        54688.639,
+                        398732.946
+                    ],
+                    [
+                        54698.303,
+                        398743.075
+                    ]
+                ]
+            },
+            "properties": {
+                "name": {
+                    "label": "314",
+                    "hasPart": []
+                },
+                "purpose": "wa-surveypoint-purpose:internal-boundary",
+                "ptQualityMeasure": 0.1,
+                "comment": null,
+                "monumentedBy": {
+                    "form": "wa-monument-form:peg",
+                    "condition": "wa-monument-condition:ok",
+                    "state": "wa-monument-state:did-not-search"
+                },
+                "distance": 14.0,
+                "azimuth": 43.65444905,
+                "ptQuality": null
+            }
+        },
+        {
+            "id": "309",
+            "type": "Feature",
+            "featureType": "sosa:ObservationCollection",
+            "geometry": {
+                "type": "LineString",
+                "featureType": "observation",
+                "coordinates": [
+                    [
+                        121.44464518252326,
+                        -30.730424869040444
+                    ],
+                    [
+                        121.44492456642654,
+                        -30.73065534703183
+                    ]
+                ]
+            },
+            "place": {
+                "type": "LineString",
+                "featureType": "observation",
+                "coordinates": [
+                    [
+                        54698.303,
+                        398743.075
+                    ],
+                    [
+                        54725.074,
+                        398717.535
+                    ]
+                ]
+            },
+            "properties": {
+                "name": {
+                    "label": "309",
+                    "hasPart": []
+                },
+                "purpose": "wa-surveypoint-purpose:internal-boundary",
+                "ptQualityMeasure": 0.1,
+                "comment": null,
+                "monumentedBy": {
+                    "form": "wa-monument-form:peg",
+                    "condition": "wa-monument-condition:ok",
+                    "state": "wa-monument-state:did-not-search"
+                },
+                "distance": 37.0,
+                "azimuth": 133.65444905,
+                "ptQuality": null
+            }
+        },
+        {
+            "id": "311",
+            "type": "Feature",
+            "featureType": "sosa:ObservationCollection",
+            "geometry": {
+                "type": "LineString",
+                "featureType": "observation",
+                "coordinates": [
+                    [
+                        121.44492456642654,
+                        -30.73065534703183
+                    ],
+                    [
+                        121.44486087494411,
+                        -30.730712954871706
+                    ]
+                ]
+            },
+            "place": {
+                "type": "LineString",
+                "featureType": "observation",
+                "coordinates": [
+                    [
+                        54725.074,
+                        398717.535
+                    ],
+                    [
+                        54718.977,
+                        398711.145
+                    ]
+                ]
+            },
+            "properties": {
+                "name": {
+                    "label": "311",
+                    "hasPart": []
+                },
+                "purpose": "wa-surveypoint-purpose:road-boundary",
+                "ptQualityMeasure": 0.1,
+                "comment": null,
+                "monumentedBy": {
+                    "form": "wa-monument-form:peg",
+                    "condition": "wa-monument-condition:ok",
+                    "state": "wa-monument-state:did-not-search"
+                },
+                "distance": 8.832,
+                "azimuth": 223.65444905,
+                "ptQuality": null
+            }
+        },
+        {
+            "id": "298",
+            "type": "Feature",
+            "featureType": "sosa:ObservationCollection",
+            "geometry": {
+                "type": "LineString",
+                "featureType": "observation",
+                "coordinates": [
+                    [
+                        121.44486087494411,
+                        -30.730712954871706
+                    ],
+                    [
+                        121.44476512098763,
+                        -30.73074891115523
+                    ]
+                ]
+            },
+            "place": {
+                "type": "LineString",
+                "featureType": "observation",
+                "coordinates": [
+                    [
+                        54718.977,
+                        398711.145
+                    ],
+                    [
+                        54709.808,
+                        398707.154
+                    ]
+                ]
+            },
+            "properties": {
+                "name": {
+                    "label": "298",
+                    "hasPart": []
+                },
+                "purpose": "wa-surveypoint-purpose:road-boundary",
+                "ptQualityMeasure": 0.1,
+                "comment": null,
+                "monumentedBy": {
+                    "form": "wa-monument-form:peg",
+                    "condition": "wa-monument-condition:ok",
+                    "state": "wa-monument-state:did-not-search"
+                },
+                "distance": 10.0,
+                "azimuth": 246.48556016,
+                "ptQuality": null
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "PrimaryParcel",
+            "featureType": "parcel",
+            "links": [],
+            "time": "",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            121.44476512098763,
+                            -30.73074891115523
+                        ],
+                        [
+                            121.44486087494411,
+                            -30.730712954871706
+                        ],
+                        [
+                            121.44492456642654,
+                            -30.73065534703183
+                        ],
+                        [
+                            121.44464518252326,
+                            -30.730424869040444
+                        ],
+                        [
+                            121.44454422879919,
+                            -30.73051618490328
+                        ],
+                        [
+                            121.44459259300403,
+                            -30.730750614470015
+                        ],
+                        [
+                            121.44476512098763,
+                            -30.73074891115523
+                        ]
+                    ]
+                ]
+            },
+            "place": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            54709.808,
+                            398707.154
+                        ],
+                        [
+                            54718.977,
+                            398711.145
+                        ],
+                        [
+                            54725.074,
+                            398717.535
+                        ],
+                        [
+                            54698.303,
+                            398743.075
+                        ],
+                        [
+                            54688.639,
+                            398732.946
+                        ],
+                        [
+                            54693.284,
+                            398706.957
+                        ],
+                        [
+                            54709.808,
+                            398707.154
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "appellation": {
+                    "label": "Lot 213 DP 572532",
+                    "hasPart": [
+                        {
+                            "type": "ParcelType",
+                            "label": "Lot"
+                        },
+                        {
+                            "type": "ParcelIdentifier",
+                            "label": "213"
+                        },
+                        {
+                            "type": "PlanType",
+                            "label": "DP"
+                        },
+                        {
+                            "type": "PlanNumber",
+                            "label": "572532"
+                        }
+                    ]
+                },
+                "area": 798,
+                "parcelType": "wa-parcel-type:freehold",
+                "parcelPurpose": "wa-parcel-purpose:lot",
+                "parcelState": "wa-parcel-state:created",
+                "interests": [],
+                "label": null
+            }
+        }
+    ]
+}

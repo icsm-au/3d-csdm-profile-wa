@@ -1,0 +1,29 @@
+Projection:	epsg:8024
+Name:	DP 42253
+
+Monuments:	6
+	None	184	BoundaryMark	54693.284,398706.957	wa-monument-state:did-not-search	wa-monument-condition:ok	None
+	None	189	BoundaryMark	54709.808,398707.154	wa-monument-state:did-not-search	wa-monument-condition:ok	None
+	None	190	BoundaryMark	54718.977,398711.145	wa-monument-state:did-not-search	wa-monument-condition:ok	None
+	None	196	BoundaryMark	54725.074,398717.535	wa-monument-state:did-not-search	wa-monument-condition:ok	None
+	None	197	BoundaryMark	54698.303,398743.075	wa-monument-state:did-not-search	wa-monument-condition:ok	None
+	None	198	BoundaryMark	54688.639,398732.946	wa-monument-state:did-not-search	wa-monument-condition:ok	None
+Parcels:	1
+	PrimaryParcel	None	wa-parcel-type:freehold	798	None	None	
+Observations:	12
+		observedVectors
+	312	undated	wa-surveypoint-purpose:road-boundary	189	184	None	16.526
+	313	undated	wa-surveypoint-purpose:road-boundary	184	198	None	26.401
+	314	undated	wa-surveypoint-purpose:internal-boundary	198	197	None	14.0
+	309	undated	wa-surveypoint-purpose:internal-boundary	197	196	None	37.0
+	311	undated	wa-surveypoint-purpose:road-boundary	196	190	None	8.832
+	298	undated	wa-surveypoint-purpose:road-boundary	190	189	None	10.0
+		SubtendedAngle
+	843	undated	None	54693.284,398706.957	184	312
+	844	undated	None	54688.639,398732.946	198	313
+	845	undated	None	54698.303,398743.075	197	314
+	840	undated	None	54725.074,398717.535	196	309
+	841	undated	None	54718.977,398711.145	190	311
+	842	undated	None	54709.808,398707.154	189	298
+References:	1
+	DP 422526	DP_422526	wa-locality:hyden (icsm-admin-unit-type:locality)	related	0.0	2013-03-10 00:00:00
