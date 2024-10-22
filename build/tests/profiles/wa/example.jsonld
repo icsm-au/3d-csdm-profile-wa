@@ -1,4 +1,5 @@
 {
+  "@context": "https://icsm-au.github.io/3d-csdm-profile-wa/build/annotated/profiles/wa/context.jsonld",
   "id": "Western-Australia-Example-1",
   "name": "TBD",
   "type": "FeatureCollection",
@@ -245,6 +246,5 @@
         }
       ]
     }
-  ],
-  "@context": "https://icsm-au.github.io/3d-csdm-profile-wa/build/annotated/profiles/wa/context.jsonld"
+  ]
 }

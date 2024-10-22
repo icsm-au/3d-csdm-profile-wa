@@ -1,4 +1,5 @@
 {
+  "@context": "https://icsm-au.github.io/3d-csdm-profile-wa/build/annotated/profiles/wa/context.jsonld",
   "id": "DP_422532",
   "description": "Western-Australia-Supporting-Documents-Example",
   "name": "DP 422532",
@@ -70,6 +71,5 @@
       "rel": "related"
     }
   ],
-  "annotations": [],
-  "@context": "https://icsm-au.github.io/3d-csdm-profile-wa/build/annotated/profiles/wa/context.jsonld"
+  "annotations": []
 }

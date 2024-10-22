@@ -1,0 +1,19 @@
+Validation report for icsm.profiles.wa - Western Australia Cadastral Survey Data Exchange Profile
+Generated 2024-10-22T00:42:17.111687+00:00
+=== Files ===
+Using prov.json from test resources
+JSON-LD context is present - uplifting
+Output JSON-LD prov.jsonld created
+Output Turtle prov.ttl created
+=== End Files ===
+
+=== JSON Schema ===
+Validation passed
+=== End JSON Schema ===
+
+=== SHACL ===
+
+** Validation error **
+Error retrieving https://icsm-au.github.io/icsm-vocabs/cadastre/CSD-Header/icsm-admin-unit-type.ttl: HTTP Error 404: Not Found
+=== End SHACL ===
+

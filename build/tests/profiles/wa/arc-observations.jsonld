@@ -1,4 +1,5 @@
 {
+  "@context": "https://icsm-au.github.io/3d-csdm-profile-wa/build/annotated/profiles/wa/context.jsonld",
   "id": "Plan_9674",
   "name": "Plan 9674",
   "description": "Western Australia Arc Observation Example",
@@ -258,6 +259,5 @@
   ],
   "parcels": [],
   "supportingDocuments": [],
-  "annotations": [],
-  "@context": "https://icsm-au.github.io/3d-csdm-profile-wa/build/annotated/profiles/wa/context.jsonld"
+  "annotations": []
 }

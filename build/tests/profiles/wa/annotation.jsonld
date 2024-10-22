@@ -1,4 +1,5 @@
 {
+  "@context": "https://icsm-au.github.io/3d-csdm-profile-wa/build/annotated/profiles/wa/context.jsonld",
   "id": "DP_58955",
   "name": "DP 58955",
   "description": "Western Australia Annotation Example",
@@ -58,6 +59,5 @@
       "description": "Total area of Lot 306 (10 severances) excluding Lot 11 is 858.7418 ha",
       "role": "wa-annotation-role:total-area"
     }
-  ],
-  "@context": "https://icsm-au.github.io/3d-csdm-profile-wa/build/annotated/profiles/wa/context.jsonld"
+  ]
 }

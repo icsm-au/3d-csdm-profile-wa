@@ -1,4 +1,5 @@
 {
+  "@context": "https://icsm-au.github.io/3d-csdm-profile-wa/build/annotated/profiles/wa/context.jsonld",
   "id": "DP_404354",
   "name": "DP 404354",
   "description": "MHW Boundary (Topographic String) Example",
@@ -930,6 +931,5 @@
     }
   ],
   "supportingDocuments": [],
-  "annotations": [],
-  "@context": "https://icsm-au.github.io/3d-csdm-profile-wa/build/annotated/profiles/wa/context.jsonld"
+  "annotations": []
 }
