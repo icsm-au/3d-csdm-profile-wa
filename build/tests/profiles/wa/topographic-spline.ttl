@@ -41,11 +41,11 @@
     dcterms:time [ time:hasTime "2014-12-12"^^xsd:date ] ;
     prov:wasGeneratedBy <https://www.wa-example.com/features/DP-1-S2> ;
     container:adminUnit [ ns2:relation <http://www.iana.org/assignments/relation/related> ;
-            prof:hasRole icsm-admin-unit-type:locality ;
-            oa:hasTarget wa-locality:halls-head ],
-        [ ns2:relation <http://www.iana.org/assignments/relation/related> ;
             prof:hasRole icsm-admin-unit-type:localGovernmentArea ;
-            oa:hasTarget wa-local-government:city-of-mandurah ] ;
+            oa:hasTarget wa-local-government:city-of-mandurah ],
+        [ ns2:relation <http://www.iana.org/assignments/relation/related> ;
+            prof:hasRole icsm-admin-unit-type:locality ;
+            oa:hasTarget wa-locality:halls-head ] ;
     container:bearingRotation 0e+00 ;
     container:horizontalCRS epsg:10464 ;
     container:observedVectors <https://www.wa-example.com/features/Spline>,
@@ -137,17 +137,11 @@
             ns1:distanceAccuracyMeasure 15000 ;
             ns1:distanceType icsm-distance-type:ground ],
         [ a geojson:Feature ;
-            sosa:hasFeatureOfInterest <https://www.wa-example.com/features/v13> ;
-            sosa:hasResult [ surv:distance 1.201e+01 ] ;
+            sosa:hasFeatureOfInterest <https://www.wa-example.com/features/23> ;
+            sosa:hasResult [ ] ;
             sosa:resultTime "2014-12-12T00:00:00" ;
-            ns1:distanceAccuracyMeasure 15000 ;
-            ns1:distanceType icsm-distance-type:ground ],
-        [ a geojson:Feature ;
-            sosa:hasFeatureOfInterest <https://www.wa-example.com/features/v11> ;
-            sosa:hasResult [ surv:distance 1.774e+01 ] ;
-            sosa:resultTime "2014-12-12T00:00:00" ;
-            ns1:distanceAccuracyMeasure 15000 ;
-            ns1:distanceType icsm-distance-type:ground ],
+            ns1:angleAccuracyMeasure 4.2e-03 ;
+            ns1:angleType icsm-angle-type:angle ],
         [ a geojson:Feature ;
             sosa:hasFeatureOfInterest <https://www.wa-example.com/features/22> ;
             sosa:hasResult [ ] ;
@@ -161,17 +155,23 @@
             ns1:distanceAccuracyMeasure 15000 ;
             ns1:distanceType icsm-distance-type:ground ],
         [ a geojson:Feature ;
-            sosa:hasFeatureOfInterest <https://www.wa-example.com/features/23> ;
+            sosa:hasFeatureOfInterest <https://www.wa-example.com/features/21> ;
             sosa:hasResult [ ] ;
             sosa:resultTime "2014-12-12T00:00:00" ;
             ns1:angleAccuracyMeasure 4.2e-03 ;
             ns1:angleType icsm-angle-type:angle ],
         [ a geojson:Feature ;
-            sosa:hasFeatureOfInterest <https://www.wa-example.com/features/21> ;
-            sosa:hasResult [ ] ;
+            sosa:hasFeatureOfInterest <https://www.wa-example.com/features/v11> ;
+            sosa:hasResult [ surv:distance 1.774e+01 ] ;
             sosa:resultTime "2014-12-12T00:00:00" ;
-            ns1:angleAccuracyMeasure 4.2e-03 ;
-            ns1:angleType icsm-angle-type:angle ] ;
+            ns1:distanceAccuracyMeasure 15000 ;
+            ns1:distanceType icsm-distance-type:ground ],
+        [ a geojson:Feature ;
+            sosa:hasFeatureOfInterest <https://www.wa-example.com/features/v13> ;
+            sosa:hasResult [ surv:distance 1.201e+01 ] ;
+            sosa:resultTime "2014-12-12T00:00:00" ;
+            ns1:distanceAccuracyMeasure 15000 ;
+            ns1:distanceType icsm-distance-type:ground ] ;
     sosa:madeBySensor [ a icsm-equipment-type:t-edm ] ;
     sosa:observedProperty surveyable:VectorDetermination ;
     sosa:resultTime "2014-12-12T00:00:00Z" ;

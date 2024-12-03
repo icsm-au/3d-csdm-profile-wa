@@ -15,10 +15,10 @@
     dct:created "2023-07-31T00:00:00+00:00"^^xsd:dateTime ;
     dct:description [ dct:format "text/markdown" ;
             rdfs:isDefinedBy "https://icsm-au.github.io/3d-csdm-profile-wa/build/generateddocs/markdown/profiles/wa/index.md" ],
-        [ dct:format "application/json" ;
-            rdfs:isDefinedBy "https://icsm-au.github.io/3d-csdm-profile-wa/build/generateddocs/json-full/profiles/wa/index.json" ],
         [ dct:format "text/html" ;
-            rdfs:isDefinedBy "https://icsm-au.github.io/3d-csdm-profile-wa/bblock/icsm.profiles.wa" ] ;
+            rdfs:isDefinedBy "https://icsm-au.github.io/3d-csdm-profile-wa/bblock/icsm.profiles.wa" ],
+        [ dct:format "application/json" ;
+            rdfs:isDefinedBy "https://icsm-au.github.io/3d-csdm-profile-wa/build/generateddocs/json-full/profiles/wa/index.json" ] ;
     dct:hasVersion "0.1" ;
     dct:modified "2024-12-03"^^xsd:date ;
     dct:source <https://icsm-au.github.io/3d-csdm-common> ;
@@ -73,15 +73,15 @@ Profiles are defined in a consistent, machine-readable and validatable way using
         <https://opengeospatial.github.io/bblocks/register.json> .
 
 [] a prov:Activity ;
-    prov:endedAtTime "2024-12-03T04:43:19.232275"^^xsd:dateTime ;
-    prov:startedAtTime "2024-12-03T04:43:19.165422"^^xsd:dateTime ;
+    prov:endedAtTime "2024-12-03T12:12:22.900572"^^xsd:dateTime ;
+    prov:startedAtTime "2024-12-03T12:12:22.834316"^^xsd:dateTime ;
     prov:used [ a prov:Entity ;
-            dct:format "application/yaml" ;
-            rdfs:seeAlso <file:///src/ogc/bblocks/register-context.yaml> ],
-        [ a prov:Entity ;
             dct:format "application/json" ;
-            dct:hasVersion "git:0518393ce19bd718e7218265488c9141e3bdb5be" ;
-            rdfs:seeAlso <https://icsm-au.github.io/3d-csdm-profile-wa/build/register.json> ] ;
+            dct:hasVersion "git:bef014d50326832d0c2cd925ae7964d5671f8393" ;
+            rdfs:seeAlso <https://icsm-au.github.io/3d-csdm-profile-wa/build/register.json> ],
+        [ a prov:Entity ;
+            dct:format "application/yaml" ;
+            rdfs:seeAlso <file:///src/ogc/bblocks/register-context.yaml> ] ;
     prov:wasAssociatedWith [ a prov:Agent,
                 schema:SoftwareApplication ;
             rdfs:label "OGC-NA tools" ;

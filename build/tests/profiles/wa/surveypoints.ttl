@@ -45,12 +45,12 @@
 <https://www.wa-example.com/features/17876586> a surv:BoundaryMark,
         geojson:Feature ;
     rdfs:label [ rdfs:label "Peg 1 DP 422532" ;
-            dcterms:hasPart [ rdfs:label "DP" ;
+            dcterms:hasPart [ rdfs:label "422532" ;
+                    commonpatterns:namePartType "planIdentifier" ],
+                [ rdfs:label "DP" ;
                     commonpatterns:namePartType "PlanType" ],
                 [ rdfs:label "Peg" ;
                     commonpatterns:namePartType "MarkType" ],
-                [ rdfs:label "422532" ;
-                    commonpatterns:namePartType "planIdentifier" ],
                 [ rdfs:label "1" ;
                     commonpatterns:namePartType "MarkIdentifier" ] ] ;
     dcterms:spatial [ a geojson:Point ;
