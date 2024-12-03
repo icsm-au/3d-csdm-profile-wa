@@ -1,0 +1,4 @@
+build/tests/profiles/wa/arc-observations.jsonld
+Invalid schema! Not attaching monument info!
+Expected to find measurements corresponding to observation 1853004  but found none!
+Unresolvable link or missing property! 'faces'
