@@ -14,6 +14,6 @@ Validation passed
 === SHACL ===
 
 ** Validation error **
-Error retrieving https://icsm-au.github.io/icsm-vocabs/cadastre/CSD-Header/icsm-admin-unit-type.ttl: HTTP Error 404: Not Found
+Error retrieving https://icsm-au.github.io/icsm-vocabs/vocabs/LandParcels/CSD-Header/icsm-admin-unit-type.ttl: HTTP Error 404: Not Found
 === End SHACL ===
 
