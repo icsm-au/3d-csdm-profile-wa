@@ -9,7 +9,7 @@
   "purpose": "wa-survey-purpose:subdivision",
   "surveyType": "wa-survey-type:SSA",
   "time": { "date": "2022-05-22" },
-  "horizontalCRS": "EPSG:8024",
+  "horizontalCRS": "epsg:8024",
   "bearingRotation": 0.0,
   "surveyTitle": "Lots 210 - 232, 240, Roads, 9005 & Easements",
   "adminUnit": [
