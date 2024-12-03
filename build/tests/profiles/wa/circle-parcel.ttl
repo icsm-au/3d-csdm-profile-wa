@@ -53,14 +53,14 @@
 
 <https://www.wa-example.com/features/11636634> a geojson:Feature ;
     parcel:appellation [ rdfs:label "Lot 3 DP 214866" ;
-            dcterms:hasPart [ rdfs:label "Lot" ;
-                    commonpatterns:namePartType "ParcelType" ],
+            dcterms:hasPart [ rdfs:label "3" ;
+                    commonpatterns:namePartType "ParcelIdentifier" ],
                 [ rdfs:label "214866" ;
                     commonpatterns:namePartType "planIdentifier" ],
+                [ rdfs:label "Lot" ;
+                    commonpatterns:namePartType "ParcelType" ],
                 [ rdfs:label "DP" ;
-                    commonpatterns:namePartType "PlanType" ],
-                [ rdfs:label "3" ;
-                    commonpatterns:namePartType "ParcelIdentifier" ] ] ;
+                    commonpatterns:namePartType "PlanType" ] ] ;
     parcel:interest [ parcel:interestLink <https://www.wa-example.com/features/LR-3150-715> ;
             parcel:interestType wa-interest-type:ct ] ;
     parcel:purpose wa-parcel-purpose:reserve ;
@@ -73,14 +73,14 @@
 <https://www.wa-example.com/features/12595541> a geojson:Feature ;
     rdfs:label "H" ;
     parcel:appellation [ rdfs:label "Area H DP 95092" ;
-            dcterms:hasPart [ rdfs:label "Area" ;
-                    commonpatterns:namePartType "ParcelType" ],
-                [ rdfs:label "H" ;
+            dcterms:hasPart [ rdfs:label "H" ;
                     commonpatterns:namePartType "ParcelIdentifier" ],
+                [ rdfs:label "DP" ;
+                    commonpatterns:namePartType "PlanType" ],
                 [ rdfs:label "95092" ;
                     commonpatterns:namePartType "planIdentifier" ],
-                [ rdfs:label "DP" ;
-                    commonpatterns:namePartType "PlanType" ] ] ;
+                [ rdfs:label "Area" ;
+                    commonpatterns:namePartType "ParcelType" ] ] ;
     parcel:interest [ parcel:burdened "11636634" ;
             parcel:interestLink <https://www.wa-example.com/features/345-098-456> ;
             parcel:interestType wa-interest-type:res-cov-cta-38-reg-54-conserv ] ;

@@ -21,23 +21,23 @@
     dcterms:time [ time:hasTime "2022-05-22"^^xsd:date ] ;
     prov:wasGeneratedBy <https://www.wa-example.com/features/DP-1-S2> ;
     container:adminUnit [ ns1:relation <http://www.iana.org/assignments/relation/related> ;
-            prof:hasRole icsm-admin-unit-type:locality ;
-            oa:hasTarget wa-locality:karlkurla ],
-        [ ns1:relation <http://www.iana.org/assignments/relation/related> ;
             prof:hasRole icsm-admin-unit-type:localGovernmentArea ;
-            oa:hasTarget wa-local-government:city-of-kalgoorlie-boulder ] ;
+            oa:hasTarget wa-local-government:city-of-kalgoorlie-boulder ],
+        [ ns1:relation <http://www.iana.org/assignments/relation/related> ;
+            prof:hasRole icsm-admin-unit-type:locality ;
+            oa:hasTarget wa-locality:karlkurla ] ;
     container:bearingRotation 0e+00 ;
     container:horizontalCRS <EPSG:8024> ;
     container:purpose wa-survey-purpose:subdivision ;
     container:referencedCSD <https://www.wa-example.com/features/DP_422526> ;
-    container:supportingDocuments [ rdfs:label "DP 422532" ;
-            ns1:relation <http://www.iana.org/assignments/relation/related> ;
-            prof:hasRole wa-survey-documentation-type:2d-plan ;
-            oa:hasTarget <https://wa.gov.au/deposited-plans/DP422532_simple.pdf> ],
-        [ rdfs:label "Field Book 157243" ;
+    container:supportingDocuments [ rdfs:label "Field Book 157243" ;
             ns1:relation <http://www.iana.org/assignments/relation/related> ;
             prof:hasRole wa-survey-documentation-type:field-record ;
             oa:hasTarget <https://wa.gov.au/field-book/Survey&nbsp;sheet_FB157243.pdf> ],
+        [ rdfs:label "DP 422532" ;
+            ns1:relation <http://www.iana.org/assignments/relation/related> ;
+            prof:hasRole wa-survey-documentation-type:2d-plan ;
+            oa:hasTarget <https://wa.gov.au/deposited-plans/DP422532_simple.pdf> ],
         [ rdfs:label "DP 422532 Survey Sheets" ;
             ns1:relation <http://www.iana.org/assignments/relation/related> ;
             prof:hasRole wa-survey-documentation-type:2d-plan-survey-sheet ;

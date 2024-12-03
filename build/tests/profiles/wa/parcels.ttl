@@ -39,11 +39,11 @@
     dcterms:time [ time:hasTime "2022-05-22"^^xsd:date ] ;
     prov:wasGeneratedBy <https://www.wa-example.com/features/DP-1-S2> ;
     container:adminUnit [ ns2:relation <http://www.iana.org/assignments/relation/related> ;
-            prof:hasRole icsm-admin-unit-type:locality ;
-            oa:hasTarget wa-locality:karlkurla ],
-        [ ns2:relation <http://www.iana.org/assignments/relation/related> ;
             prof:hasRole icsm-admin-unit-type:localGovernmentArea ;
-            oa:hasTarget wa-local-government:city-of-kalgoorlie-boulder ] ;
+            oa:hasTarget wa-local-government:city-of-kalgoorlie-boulder ],
+        [ ns2:relation <http://www.iana.org/assignments/relation/related> ;
+            prof:hasRole icsm-admin-unit-type:locality ;
+            oa:hasTarget wa-locality:karlkurla ] ;
     container:bearingRotation 0e+00 ;
     container:horizontalCRS epsg:8024 ;
     container:observedVectors <https://www.wa-example.com/features/observedVectors> ;
@@ -61,10 +61,10 @@
                     commonpatterns:namePartType "PlanType" ],
                 [ rdfs:label "572532" ;
                     commonpatterns:namePartType "PlanNumber" ],
-                [ rdfs:label "Lot" ;
-                    commonpatterns:namePartType "ParcelType" ],
                 [ rdfs:label "213" ;
-                    commonpatterns:namePartType "ParcelIdentifier" ] ] ;
+                    commonpatterns:namePartType "ParcelIdentifier" ],
+                [ rdfs:label "Lot" ;
+                    commonpatterns:namePartType "ParcelType" ] ] ;
     parcel:purpose wa-parcel-purpose:lot ;
     parcel:state wa-parcel-state:created ;
     parcel:surfaceArea 798 ;
@@ -106,22 +106,6 @@
 <vectorobservation:computed> a sosa:ObservationCollection,
         geojson:FeatureCollection ;
     sosa:hasMember [ a geojson:Feature ;
-            sosa:hasFeatureOfInterest <https://www.wa-example.com/features/312> ;
-            sosa:hasResult [ surv:distance 1.6526e+01 ] ;
-            sosa:resultTime "2011-05-22T00:00:00Z" ;
-            ns1:angleAccuracyMeasure 8.33333e-03 ;
-            ns1:angleType icsm-angle-type:bearing ;
-            ns1:distanceAccuracyMeasure 4000 ;
-            ns1:distanceType icsm-distance-type:ground ],
-        [ a geojson:Feature ;
-            sosa:hasFeatureOfInterest <https://www.wa-example.com/features/313> ;
-            sosa:hasResult [ surv:distance 2.6401e+01 ] ;
-            sosa:resultTime "2011-05-22T00:00:00Z" ;
-            ns1:angleAccuracyMeasure 8.33333e-03 ;
-            ns1:angleType icsm-angle-type:bearing ;
-            ns1:distanceAccuracyMeasure 4000 ;
-            ns1:distanceType icsm-distance-type:ground ],
-        [ a geojson:Feature ;
             sosa:hasFeatureOfInterest <https://www.wa-example.com/features/314> ;
             sosa:hasResult [ surv:distance 1.4e+01 ] ;
             sosa:resultTime "2011-05-22T00:00:00Z" ;
@@ -138,6 +122,14 @@
             ns1:distanceAccuracyMeasure 4000 ;
             ns1:distanceType icsm-distance-type:ground ],
         [ a geojson:Feature ;
+            sosa:hasFeatureOfInterest <https://www.wa-example.com/features/298> ;
+            sosa:hasResult [ surv:distance 1e+01 ] ;
+            sosa:resultTime "2011-05-22T00:00:00Z" ;
+            ns1:angleAccuracyMeasure 8.33333e-03 ;
+            ns1:angleType icsm-angle-type:bearing ;
+            ns1:distanceAccuracyMeasure 4000 ;
+            ns1:distanceType icsm-distance-type:ground ],
+        [ a geojson:Feature ;
             sosa:hasFeatureOfInterest <https://www.wa-example.com/features/311> ;
             sosa:hasResult [ surv:distance 8.832e+00 ] ;
             sosa:resultTime "2011-05-22T00:00:00Z" ;
@@ -146,8 +138,16 @@
             ns1:distanceAccuracyMeasure 4000 ;
             ns1:distanceType icsm-distance-type:ground ],
         [ a geojson:Feature ;
-            sosa:hasFeatureOfInterest <https://www.wa-example.com/features/298> ;
-            sosa:hasResult [ surv:distance 1e+01 ] ;
+            sosa:hasFeatureOfInterest <https://www.wa-example.com/features/312> ;
+            sosa:hasResult [ surv:distance 1.6526e+01 ] ;
+            sosa:resultTime "2011-05-22T00:00:00Z" ;
+            ns1:angleAccuracyMeasure 8.33333e-03 ;
+            ns1:angleType icsm-angle-type:bearing ;
+            ns1:distanceAccuracyMeasure 4000 ;
+            ns1:distanceType icsm-distance-type:ground ],
+        [ a geojson:Feature ;
+            sosa:hasFeatureOfInterest <https://www.wa-example.com/features/313> ;
+            sosa:hasResult [ surv:distance 2.6401e+01 ] ;
             sosa:resultTime "2011-05-22T00:00:00Z" ;
             ns1:angleAccuracyMeasure 8.33333e-03 ;
             ns1:angleType icsm-angle-type:bearing ;

@@ -1,10 +1,10 @@
 Validation report for icsm.profiles.wa - Western Australia Cadastral Survey Data Exchange Profile
-Generated 2024-12-03T04:42:21.549845+00:00
+Generated 2024-12-03T04:42:48.986576+00:00
 === Files ===
-Using related_documents (example_11_1) from examples
+Using annotation (example_14_1) from examples
 JSON-LD context is present - uplifting
-Output JSON-LD related_documents.jsonld created
-Output Turtle related_documents.ttl created
+Output JSON-LD annotation.jsonld created
+Output Turtle annotation.ttl created
 === End Files ===
 
 === JSON Schema ===
@@ -38,23 +38,13 @@ Focus nodes for https://icsm-au.github.io/3d-csdm-profile-icsm/profiles/icsm-obs
  - Shape :testInCollectionOrMember-madeBySensor-Dies-in-rdflib: *none*
  - Shape :bindSurveyObservation-angle-and-distance-types: *none*
 
-
-** Validation error **
 Validation result for https://icsm-au.github.io/3d-csdm-profile-icsm/profiles/icsm-survey-metadata-shacl.ttl:
   Validation Report
-  Conforms: False
-  Results (1):
-  Constraint Violation in ClassConstraintComponent (http://www.w3.org/ns/shacl#ClassConstraintComponent):
-  	Severity: sh:Violation
-  	Source Shape: [ sh:class termtype:AllowableCoordinateReferenceSystem ; sh:path container:horizontalCRS ]
-  	Focus Node: <https://www.wa-example.com/features/DP_422532>
-  	Value Node: <EPSG:8024>
-  	Result Path: container:horizontalCRS
-  	Message: Value does not have class termtype:AllowableCoordinateReferenceSystem
+  Conforms: True
   
 Focus nodes for https://icsm-au.github.io/3d-csdm-profile-icsm/profiles/icsm-survey-metadata-shacl.ttl:
- - Shape :testCRS: <https://www.wa-example.com/features/DP_422532>
- - Shape :testSurveyMetadata: <https://www.wa-example.com/features/DP_422532>
+ - Shape :testCRS: <https://www.wa-example.com/features/DP_58955>
+ - Shape :testSurveyMetadata: <https://www.wa-example.com/features/DP_58955>
  - Shape :testAngleType: *none*
  - Shape :testCompoundCRS: *none*
  - Shape :testVHD: *none*

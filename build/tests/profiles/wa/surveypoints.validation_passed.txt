@@ -1,10 +1,10 @@
 Validation report for icsm.profiles.wa - Western Australia Cadastral Survey Data Exchange Profile
-Generated 2024-12-03T04:42:21.549845+00:00
+Generated 2024-12-03T04:40:59.012993+00:00
 === Files ===
-Using related_documents (example_11_1) from examples
+Using surveypoints (example_2_1) from examples
 JSON-LD context is present - uplifting
-Output JSON-LD related_documents.jsonld created
-Output Turtle related_documents.ttl created
+Output JSON-LD surveypoints.jsonld created
+Output Turtle surveypoints.ttl created
 === End Files ===
 
 === JSON Schema ===
@@ -38,19 +38,9 @@ Focus nodes for https://icsm-au.github.io/3d-csdm-profile-icsm/profiles/icsm-obs
  - Shape :testInCollectionOrMember-madeBySensor-Dies-in-rdflib: *none*
  - Shape :bindSurveyObservation-angle-and-distance-types: *none*
 
-
-** Validation error **
 Validation result for https://icsm-au.github.io/3d-csdm-profile-icsm/profiles/icsm-survey-metadata-shacl.ttl:
   Validation Report
-  Conforms: False
-  Results (1):
-  Constraint Violation in ClassConstraintComponent (http://www.w3.org/ns/shacl#ClassConstraintComponent):
-  	Severity: sh:Violation
-  	Source Shape: [ sh:class termtype:AllowableCoordinateReferenceSystem ; sh:path container:horizontalCRS ]
-  	Focus Node: <https://www.wa-example.com/features/DP_422532>
-  	Value Node: <EPSG:8024>
-  	Result Path: container:horizontalCRS
-  	Message: Value does not have class termtype:AllowableCoordinateReferenceSystem
+  Conforms: True
   
 Focus nodes for https://icsm-au.github.io/3d-csdm-profile-icsm/profiles/icsm-survey-metadata-shacl.ttl:
  - Shape :testCRS: <https://www.wa-example.com/features/DP_422532>
@@ -72,12 +62,12 @@ Validation result for https://icsm-au.github.io/3d-csdm-profile-icsm/profiles/ic
   Conforms: True
   
 Focus nodes for https://icsm-au.github.io/3d-csdm-profile-icsm/profiles/icsm-point-codetypes-shacl.ttl:
- - Shape jcl:testBoundVocab-condition: *none*
- - Shape jcl:testBoundVocab-state: *none*
- - Shape jcl:testBoundVocab-pt-quality-class: *none*
- - Shape jcl:testBoundVocab-surveypoint-purpose: *none*
+ - Shape jcl:testBoundVocab-condition: <https://www.wa-example.com/features/18430396>/surv:monumentedBy,<https://www.wa-example.com/features/17876586>/surv:monumentedBy,<https://www.wa-example.com/features/18430386>/surv:monumentedBy
+ - Shape jcl:testBoundVocab-state: <https://www.wa-example.com/features/18430396>/surv:monumentedBy,<https://www.wa-example.com/features/17876586>/surv:monumentedBy,<https://www.wa-example.com/features/18430386>/surv:monumentedBy
+ - Shape jcl:testBoundVocab-pt-quality-class: <https://www.wa-example.com/features/CadastralMark>,<https://www.wa-example.com/features/17876586>,<https://www.wa-example.com/features/18430386>,<https://www.wa-example.com/features/BoundaryMark>,<https://www.wa-example.com/features/18430396>
+ - Shape jcl:testBoundVocab-surveypoint-purpose: <https://www.wa-example.com/features/CadastralMark>,<https://www.wa-example.com/features/17876586>,<https://www.wa-example.com/features/18430386>,<https://www.wa-example.com/features/BoundaryMark>,<https://www.wa-example.com/features/18430396>
  - Shape jcl:testBoundVocab-vector-purpose: *none*
- - Shape jcl:testBoundVocab-form: *none*
+ - Shape jcl:testBoundVocab-form: <https://www.wa-example.com/features/18430396>/surv:monumentedBy,<https://www.wa-example.com/features/17876586>/surv:monumentedBy,<https://www.wa-example.com/features/18430386>/surv:monumentedBy
 
 Validation result for https://icsm-au.github.io/3d-csdm-common/_sources/csdm/shapes/container.shapes.ttl:
   Validation Report
@@ -125,7 +115,7 @@ Validation result for https://ogcincubator.github.io/topo-feature/_sources/featu
   Conforms: True
   
 Focus nodes for https://ogcincubator.github.io/topo-feature/_sources/features/topo-feature/tests/geometry-coordinates.shacl:
- - Shape _:necab3b671fdd4e8697565b94c63a343db1: *none*
+ - Shape _:necab3b671fdd4e8697565b94c63a343db1: <https://www.wa-example.com/features/18430386>/dcterms:spatial,<https://www.wa-example.com/features/18430396>/dcterms:spatial,<https://www.wa-example.com/features/17876586>/dcterms:spatial
  - Shape _:necab3b671fdd4e8697565b94c63a343db3: *none*
 
 Validation result for https://ogcincubator.github.io/topo-feature/_sources/features/topo-feature-collection/tests/topo-refs-exist.shacl:
