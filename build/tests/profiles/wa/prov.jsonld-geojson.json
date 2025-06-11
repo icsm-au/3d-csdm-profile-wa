@@ -1,0 +1,14 @@
+{
+    "$schema": "schema.json",
+    "type": "FeatureCollection",
+    "coordRefSys": "epsg:8024",
+    "verticalCRS": "epsg:8024",
+    "id": null,
+    "name": "DP 422532",
+    "purpose": "wa-survey-purpose:subdivision",
+    "featureType": "CSD",
+    "referencedCSDs": [],
+    "links": [],
+    "provenance": {},
+    "features": []
+}

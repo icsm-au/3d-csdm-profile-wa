@@ -1,0 +1,6 @@
+Projection:	epsg:8024
+Name:	DP 422532
+
+Monuments:	0
+Parcels:	0
+Observations:	0

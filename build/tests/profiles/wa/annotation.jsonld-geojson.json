@@ -1,0 +1,14 @@
+{
+    "$schema": "schema.json",
+    "type": "FeatureCollection",
+    "coordRefSys": "epsg:7850",
+    "verticalCRS": "epsg:7850",
+    "id": null,
+    "name": "DP 58955",
+    "purpose": "wa-survey-purpose:acquisition",
+    "featureType": "CSD",
+    "referencedCSDs": [],
+    "links": [],
+    "provenance": {},
+    "features": []
+}

@@ -1,0 +1,485 @@
+{
+    "$schema": "schema.json",
+    "type": "FeatureCollection",
+    "coordRefSys": "epsg:8031",
+    "verticalCRS": "epsg:8031",
+    "id": null,
+    "name": "Plan 9674",
+    "purpose": "wa-survey-purpose:subdivision",
+    "featureType": "CSD",
+    "referencedCSDs": [
+        {
+            "id": "DP_9679",
+            "name": "DP 9679",
+            "adminUnit": {
+                "href": "wa-locality:thornlie",
+                "rel": "related",
+                "role": "icsm-admin-unit-type:locality"
+            },
+            "bearingRotation": 0.0,
+            "time": "1970-04-10 00:00:00"
+        },
+        {
+            "id": "DP_9677",
+            "name": "DP 9677",
+            "adminUnit": {
+                "href": "wa-locality:thornlie",
+                "rel": "related",
+                "role": "icsm-admin-unit-type:locality"
+            },
+            "bearingRotation": 0.0,
+            "time": "1970-04-10 00:00:00"
+        },
+        {
+            "id": "DP_12034",
+            "name": "DP 12034",
+            "adminUnit": {
+                "href": "wa-locality:thornlie",
+                "rel": "related",
+                "role": "icsm-admin-unit-type:locality"
+            },
+            "bearingRotation": 0.0,
+            "time": "1970-04-10 00:00:00"
+        },
+        {
+            "id": "DP_9675",
+            "name": "DP 9675",
+            "adminUnit": {
+                "href": "wa-locality:thornlie",
+                "rel": "related",
+                "role": "icsm-admin-unit-type:locality"
+            },
+            "bearingRotation": 0.0,
+            "time": "1970-04-10 00:00:00"
+        }
+    ],
+    "links": [],
+    "provenance": {},
+    "features": [
+        {
+            "id": "p1853004",
+            "type": "Feature",
+            "featureType": "SurveyPoint",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    115.96099146374506,
+                    -32.06232428358701
+                ]
+            },
+            "place": {
+                "type": "Point",
+                "coordinates": [
+                    63628.464,
+                    351230.815
+                ]
+            },
+            "properties": {
+                "name": null,
+                "purpose": "wa-surveypoint-purpose:other",
+                "comment": "Center of arc 1853004",
+                "monumentedBy": {
+                    "state": "wa-monument-state:unmarked"
+                }
+            }
+        },
+        {
+            "id": "1746055",
+            "type": "Feature",
+            "featureType": "SurveyPoint",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    115.96083377338218,
+                    -32.06326560220351
+                ]
+            },
+            "place": {
+                "type": "Point",
+                "coordinates": [
+                    63613.434,
+                    351126.454
+                ]
+            },
+            "properties": {
+                "name": null,
+                "purpose": "wa-surveypoint-purpose:road-boundary",
+                "ptQualityMeasure": 0.017,
+                "comment": null,
+                "monumentedBy": {
+                    "form": "wa-monument-form:peg",
+                    "condition": "wa-monument-condition:ok",
+                    "state": "wa-monument-state:new-mark"
+                }
+            }
+        },
+        {
+            "id": "1746030",
+            "type": "Feature",
+            "featureType": "SurveyPoint",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    115.96057253944942,
+                    -32.063205667114744
+                ]
+            },
+            "place": {
+                "type": "Point",
+                "coordinates": [
+                    63588.775,
+                    351133.133
+                ]
+            },
+            "properties": {
+                "name": null,
+                "purpose": "wa-surveypoint-purpose:road-boundary",
+                "ptQualityMeasure": 0.016,
+                "comment": null,
+                "monumentedBy": {
+                    "form": "wa-monument-form:peg",
+                    "condition": "wa-monument-condition:ok",
+                    "state": "wa-monument-state:new-mark"
+                }
+            }
+        },
+        {
+            "id": "c1853004",
+            "type": "Feature",
+            "featureType": "sosa:ObservationCollection",
+            "geometry": {
+                "type": "LineString",
+                "featureType": "observation",
+                "coordinates": [
+                    [
+                        115.96083377338218,
+                        -32.06326560220351
+                    ],
+                    [
+                        115.96057253944942,
+                        -32.063205667114744
+                    ]
+                ]
+            },
+            "place": {
+                "type": "LineString",
+                "featureType": "observation",
+                "coordinates": [
+                    [
+                        63613.434,
+                        351126.454
+                    ],
+                    [
+                        63588.775,
+                        351133.133
+                    ]
+                ]
+            },
+            "properties": {
+                "name": {
+                    "label": "c1853004",
+                    "hasPart": []
+                },
+                "purpose": "wa-surveypoint-purpose:road-boundary",
+                "ptQualityMeasure": 0.017,
+                "comment": null,
+                "monumentedBy": {
+                    "form": "wa-monument-form:peg",
+                    "condition": "wa-monument-condition:ok",
+                    "state": "wa-monument-state:new-mark"
+                },
+                "distance": null,
+                "azimuth": 285.15519551238583,
+                "radius": null,
+                "angle": null,
+                "ptQuality": null,
+                "hasFeatureOfInterest": "1746055",
+                "resultTime": null,
+                "hasResult": {
+                    "distance": null,
+                    "angle": null,
+                    "radius": null
+                },
+                "rot": "cw",
+                "length": null,
+                "distanceType": "icsmdistancetype:ellipsoidal",
+                "distanceProvenance": "wa-monument-state:new-mark",
+                "angleType": null,
+                "equipmentUsed": null,
+                "distanceQuality": null,
+                "angleQuality": null,
+                "distanceAccuracy": null,
+                "angleAccuracy": null
+            }
+        },
+        {
+            "id": "1853004",
+            "type": "Feature",
+            "featureType": "sosa:ObservationCollection",
+            "geometry": {
+                "type": "LineString",
+                "featureType": "observation",
+                "coordinates": [
+                    [
+                        115.96083377338218,
+                        -32.06326560220351
+                    ],
+                    [
+                        115.96082347612877,
+                        -32.063264309336745
+                    ],
+                    [
+                        115.96081318809716,
+                        -32.06326293404504
+                    ],
+                    [
+                        115.96080291064851,
+                        -32.06326147638437
+                    ],
+                    [
+                        115.96079264514378,
+                        -32.063259936432374
+                    ],
+                    [
+                        115.9607823929432,
+                        -32.06325831428844
+                    ],
+                    [
+                        115.96077215540564,
+                        -32.063256610073644
+                    ],
+                    [
+                        115.96076193388802,
+                        -32.06325482393074
+                    ],
+                    [
+                        115.96075172974474,
+                        -32.06325295602416
+                    ],
+                    [
+                        115.96074154432702,
+                        -32.06325100653997
+                    ],
+                    [
+                        115.9607313789824,
+                        -32.06324897568581
+                    ],
+                    [
+                        115.9607212350541,
+                        -32.06324686369079
+                    ],
+                    [
+                        115.96071111388035,
+                        -32.063244670805496
+                    ],
+                    [
+                        115.9607010167939,
+                        -32.06324239730174
+                    ],
+                    [
+                        115.96069094512151,
+                        -32.06324004347266
+                    ],
+                    [
+                        115.9606809001831,
+                        -32.06323760963237
+                    ],
+                    [
+                        115.96067088329153,
+                        -32.06323509611598
+                    ],
+                    [
+                        115.96066089575167,
+                        -32.06323250327937
+                    ],
+                    [
+                        115.96065093886011,
+                        -32.06322983149907
+                    ],
+                    [
+                        115.96064101390449,
+                        -32.06322708117202
+                    ],
+                    [
+                        115.96063112216288,
+                        -32.06322425271542
+                    ],
+                    [
+                        115.96062126490338,
+                        -32.06322134656649
+                    ],
+                    [
+                        115.96061144338346,
+                        -32.06321836318234
+                    ],
+                    [
+                        115.96060165884951,
+                        -32.06321530303956
+                    ],
+                    [
+                        115.96059191253623,
+                        -32.06321216663417
+                    ],
+                    [
+                        115.96058220566624,
+                        -32.06320895448127
+                    ],
+                    [
+                        115.96057253944942,
+                        -32.063205667114744
+                    ]
+                ]
+            },
+            "place": {
+                "type": "LineString",
+                "featureType": "observation",
+                "coordinates": [
+                    [
+                        63613.434,
+                        351126.454
+                    ],
+                    [
+                        63612.46183993038,
+                        351126.59866212605
+                    ],
+                    [
+                        63611.490562840416,
+                        351126.75246293057
+                    ],
+                    [
+                        63610.52029724861,
+                        351126.91539603577
+                    ],
+                    [
+                        63609.55117165526,
+                        351127.0874526584
+                    ],
+                    [
+                        63608.58331448644,
+                        351127.26862160873
+                    ],
+                    [
+                        63607.61685403763,
+                        351127.4588892903
+                    ],
+                    [
+                        63606.65191841754,
+                        351127.65823970136
+                    ],
+                    [
+                        63605.68863549172,
+                        351127.86665443773
+                    ],
+                    [
+                        63604.72713282611,
+                        351128.0841126979
+                    ],
+                    [
+                        63603.76753763121,
+                        351128.3105912885
+                    ],
+                    [
+                        63602.80997670594,
+                        351128.54606463324
+                    ],
+                    [
+                        63601.85457638176,
+                        351128.7905047806
+                    ],
+                    [
+                        63600.90146246734,
+                        351129.0438814168
+                    ],
+                    [
+                        63599.95076019316,
+                        351129.3061618764
+                    ],
+                    [
+                        63599.00259415682,
+                        351129.5773111575
+                    ],
+                    [
+                        63598.05708826858,
+                        351129.8572919371
+                    ],
+                    [
+                        63597.11436569734,
+                        351130.1460645877
+                    ],
+                    [
+                        63596.17454881725,
+                        351130.44358719664
+                    ],
+                    [
+                        63595.237759154785,
+                        351130.7498155851
+                    ],
+                    [
+                        63594.30411733653,
+                        351131.0647033309
+                    ],
+                    [
+                        63593.37374303754,
+                        351131.3882017907
+                    ],
+                    [
+                        63592.44675493039,
+                        351131.7202601244
+                    ],
+                    [
+                        63591.52327063506,
+                        351132.0608253213
+                    ],
+                    [
+                        63590.60340666955,
+                        351132.4098422269
+                    ],
+                    [
+                        63589.68727840141,
+                        351132.76725357136
+                    ],
+                    [
+                        63588.77499999998,
+                        351133.13300000003
+                    ]
+                ]
+            },
+            "properties": {
+                "name": {
+                    "label": "c1853004",
+                    "hasPart": []
+                },
+                "purpose": "wa-surveypoint-purpose:road-boundary",
+                "ptQualityMeasure": 0.017,
+                "comment": null,
+                "monumentedBy": {
+                    "form": "wa-monument-form:peg",
+                    "condition": "wa-monument-condition:ok",
+                    "state": "wa-monument-state:new-mark"
+                },
+                "distance": null,
+                "azimuth": 285.15519551238583,
+                "radius": null,
+                "angle": null,
+                "ptQuality": null,
+                "hasFeatureOfInterest": "1746055",
+                "resultTime": null,
+                "hasResult": {
+                    "distance": null,
+                    "angle": null,
+                    "radius": null
+                },
+                "rot": "cw",
+                "length": null,
+                "distanceType": "icsmdistancetype:ellipsoidal",
+                "distanceProvenance": "wa-monument-state:new-mark",
+                "angleType": null,
+                "equipmentUsed": null,
+                "distanceQuality": null,
+                "angleQuality": null,
+                "distanceAccuracy": null,
+                "angleAccuracy": null
+            }
+        }
+    ]
+}

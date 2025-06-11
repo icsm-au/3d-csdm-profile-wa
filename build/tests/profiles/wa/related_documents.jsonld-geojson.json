@@ -1,0 +1,26 @@
+{
+    "$schema": "schema.json",
+    "type": "FeatureCollection",
+    "coordRefSys": "epsg:8024",
+    "verticalCRS": "epsg:8024",
+    "id": null,
+    "name": "DP 422532",
+    "purpose": "wa-survey-purpose:subdivision",
+    "featureType": "CSD",
+    "referencedCSDs": [
+        {
+            "id": "DP_422526",
+            "name": "DP 422526",
+            "adminUnit": {
+                "href": "wa-locality:hyden",
+                "rel": "related",
+                "role": "icsm-admin-unit-type:locality"
+            },
+            "bearingRotation": 0.0,
+            "time": "2013-03-10 00:00:00"
+        }
+    ],
+    "links": [],
+    "provenance": {},
+    "features": []
+}
